@@ -1,0 +1,57 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>少女前线数据库</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/i18next.min.js"></script>
+    <script src="js/jquery-i18next.min.js"></script>
+    <script src="js/tablesort.min.js"></script>
+    <script src="js/tablesort.number.min.js"></script>
+    <script src="js/main.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div><span data-i18n="map_sel.label"></span><select id="map_select" class="custom-select"></select></div>
+        <div>
+            <table id="map_table" class="table">
+                <thead>
+                    <tr>
+                        <th data-i18n="map_tbl.id"></th>
+                        <th data-i18n="map_tbl.leader"></th>
+                        <th data-i18n="map_tbl.difficulty"></th>
+                        <th data-i18n="map_tbl.members"></th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+        <div><span data-i18n="team_sel.label"></span><select id="team_select" class="custom-select"></select></div>
+        <div>
+            <table id="team_table" class="table">
+                <thead>
+                    <tr>
+                        <th data-i18n="team_tbl.name"></th>
+                        <th data-i18n="team_tbl.number"></th>
+                        <th data-i18n="team_tbl.maxlife"></th>
+                        <th data-i18n="team_tbl.pow"></th>
+                        <th data-i18n="team_tbl.rate"></th>
+                        <th data-i18n="team_tbl.hit"></th>
+                        <th data-i18n="team_tbl.dodge"></th>
+                        <th data-i18n="team_tbl.range"></th>
+                        <th data-i18n="team_tbl.speed"></th>
+                        <th data-i18n="team_tbl.armor_piercing"></th>
+                        <th data-i18n="team_tbl.armor"></th>
+                        <th data-sort-default data-i18n="team_tbl.coordinator_y"></th>
+                        <th data-i18n="team_tbl.coordinator_x"></th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+        <div id="debug"></div>
+    </div>
+</body>
+</html>

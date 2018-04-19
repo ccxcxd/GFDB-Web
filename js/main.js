@@ -40,7 +40,6 @@
 $(document).ready(function () {
     i18next.init({
         lng: "zh_CN",
-        debug: true,
         resources: i18n_resources
     }, function (err, t) {
         jqueryI18next.init(i18next, $);

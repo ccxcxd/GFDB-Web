@@ -10,12 +10,17 @@
     <script src="https://cdn.bootcss.com/jquery-i18next/1.2.1/jquery-i18next.min.js"></script>
     <script src="https://cdn.bootcss.com/tablesort/5.0.2/tablesort.min.js"></script>
     <script src="https://cdn.bootcss.com/tablesort/5.0.2/sorts/tablesort.number.min.js"></script>
+    <script src="js/i18n_resource_tmp.js"></script>
     <script src="js/main.js"></script>
 </head>
 <body>
     <div class="container">
         <div class="header"><h1 class="text-center" data-i18n="title"></h1></div>
-        <div><span data-i18n="map_sel.label"></span><select id="map_select" class="custom-select"></select></div>
+        <div>
+            <span data-i18n="map_sel.label"></span>
+            <select id="campaign_select" class="custom-select"></select>
+            <select id="map_select" class="custom-select"></select>
+        </div>
         <div>
             <table id="map_table" class="table">
                 <thead>

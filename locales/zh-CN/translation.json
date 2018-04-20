@@ -7,7 +7,8 @@
 		"id": "编号",
 		"leader": "队长",
 		"difficulty": "效能",
-		"members": "组成"
+		"members": "组成",
+		"count": "数量"
 	},
 	"team_sel": {
 		"label": "敌人编号："

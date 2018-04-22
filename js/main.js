@@ -102,7 +102,7 @@ function setup_page() {
                 $("<tr>").append(
                     $("<td>").text(enemy_team_id).attr("data-team_id", ""),
                     $("<td>").text(enemy_character_type_info[enemy_team.enemy_leader].name),
-                    $("<td>").text("N/A"), //enemy_team.difficulty.ToString()
+                    $("<td>").text(enemy_team.difficulty),
                     $("<td>").text(members),
                     $("<td>").text(enemy_team_count)
                 ).appendTo("#map_table");
@@ -128,7 +128,7 @@ function setup_page() {
                 $("<tr>").append(
                     $("<td>").text(character.name),
                     $("<td>").text(character.number),
-                    $("<td>").text(character.maxlife),
+                    $("<td>").text(Math.ceil(character.maxlife / character.number)),
                     $("<td>").text(character.pow),
                     $("<td>").text(character.rate),
                     $("<td>").text(character.hit),

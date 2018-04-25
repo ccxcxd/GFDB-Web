@@ -143,8 +143,8 @@ function setup_page() {
                     $("<td>").text(character.speed),
                     $("<td>").text(character.armor_piercing),
                     $("<td>").text(character.armor),
-                    $("<td>").text(member.coordinator_y),
-                    $("<td>").text(member.coordinator_x)
+                    $("<td>").text(member.coordinator_x),
+                    $("<td>").text(member.coordinator_y)
                 ).appendTo("#team_table");
             });
             team_tbl_sort.refresh();

@@ -98,13 +98,19 @@ function setup_page() {
                 $.each(count_dict, function (key, value) {
                     members += key + "*" + value + " ";
                 });
+                var drops = "";
+                $.each(enemy_team.drops, function (index, drop) {
+                    drops += $.t(drop) + " ";
+                });
+                
 
                 $("<tr>").append(
                     $("<td>").text(enemy_team_id).attr("data-team_id", ""),
                     $("<td>").text(enemy_character_type_info[enemy_team.enemy_leader].name),
                     $("<td>").text(enemy_team.difficulty),
                     $("<td>").text(members),
-                    $("<td>").text(enemy_team_count)
+                    $("<td>").text(enemy_team_count),
+                    $("<td>").text(drops)
                 ).appendTo("#map_table");
             });
             map_tbl_sort.refresh();

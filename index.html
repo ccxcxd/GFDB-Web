@@ -22,6 +22,11 @@
             <select id="campaign_select" class="custom-select"></select>
             <select id="map_select" class="custom-select"></select>
         </div>
+        <div><canvas id="mission_map" width="0" height="0"></canvas></div>
+        <div>
+            <button type="button" id="create_map_btn" class="btn btn-primary" data-i18n="mission_map.generate">Map</button>
+            <span data-i18n="mission_map.description"></span>
+        </div>
         <div>
             <table id="map_table" class="table">
                 <thead>

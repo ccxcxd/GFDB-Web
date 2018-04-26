@@ -112,6 +112,8 @@ function setup_page() {
                     $("<td>").text(enemy_team_count),
                     $("<td>").text(drops)
                 ).appendTo("#map_table");
+
+                generateMap(mission_info, spot_info, enemy_team_info, enemy_character_type_info);
             });
             map_tbl_sort.refresh();
 
@@ -150,6 +152,133 @@ function setup_page() {
             team_tbl_sort.refresh();
         });
 
+        $("#create_map_btn").click(function () {
+            generateMap(mission_info, spot_info, enemy_team_info, enemy_character_type_info);
+        });
+
         $("#campaign_select").change();
     });
+}
+
+function generateMap(mission_info, spot_info, enemy_team_info, enemy_character_type_info) {
+    var mission_id = Number($("#map_select option:checked").val());
+    var mission = mission_info[mission_id];
+
+    var canvas = document.getElementById("mission_map");
+    canvas.width = mission.map_eff_width;
+    canvas.height = mission.map_eff_height;
+    var ctx = canvas.getContext('2d');
+    if (canvas.getContext) {
+        var bgImg = new Image();
+        bgImg.onload = function () {
+            ctx.fillStyle = "black";
+            ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+            drawBgImageHeler(ctx, this, mission, 0, 0, -1, 1);
+            //drawBgImageHeler(g, chopRect, scaledImage, new Rectangle(w_all, 0, w_all, h_all), RotateFlipType.RotateNoneFlipY);
+            //drawBgImageHeler(g, chopRect, scaledImage, new Rectangle(w_all * 2, 0, w_all, h_all), RotateFlipType.RotateNoneFlipXY);
+            //drawBgImageHeler(g, chopRect, scaledImage, new Rectangle(0, h_all, w_all, h_all), RotateFlipType.RotateNoneFlipX);
+            //drawBgImageHeler(g, chopRect, scaledImage, new Rectangle(w_all, h_all, w_all, h_all), RotateFlipType.RotateNoneFlipNone);
+            //drawBgImageHeler(g, chopRect, scaledImage, new Rectangle(w_all * 2, h_all, w_all, h_all), RotateFlipType.RotateNoneFlipX);
+            //drawBgImageHeler(g, chopRect, scaledImage, new Rectangle(0, h_all * 2, w_all, h_all), RotateFlipType.RotateNoneFlipXY);
+            //drawBgImageHeler(g, chopRect, scaledImage, new Rectangle(w_all, h_all * 2, w_all, h_all), RotateFlipType.RotateNoneFlipY);
+            //drawBgImageHeler(g, chopRect, scaledImage, new Rectangle(w_all * 2, h_all * 2, w_all, h_all), RotateFlipType.RotateNoneFlipXY);
+
+            $.each(mission.spot_ids, function (index, spot_id) {
+                var spot = spot_info[spot_id];
+                $.each(spot.route_types, function (other_id, number_of_ways) {
+                    drawLine(ctx, spot.coordinator_x, spot.coordinator_y, spot_info[other_id].coordinator_x, spot_info[other_id].coordinator_y, number_of_ways);
+                });
+            });
+
+            ctx.font = "bold 48px sans-serif";
+            ctx.textAlign = "center";
+
+            $.each(mission.spot_ids, function (index, spot_id) {
+                var spot = spot_info[spot_id];
+
+                var imagename = spot.belong + ".png";
+                if (spot.if_random) {
+                    imagename = "random" + imagename;
+                } else if (spot.special_eft) {
+                    imagename = "radar" + imagename;
+                } else if (spot.active_cycle) {
+                    imagename = "closedap" + imagename;
+                } else {
+                    imagename = spot.type + imagename;
+                }
+                imagename = "images/spot_" + imagename;
+                var spotImg = new Image();
+                spotImg.onload = function () {
+                    var w = this.naturalWidth;
+                    var h = this.naturalHeight;
+                    ctx.drawImage(this, spot.coordinator_x - w / 2, spot.coordinator_y - h / 2, w, h);
+                    if (spot.enemy_team_id) {
+                        var enemy_team = enemy_team_info[spot.enemy_team_id];
+                        drawText(ctx, enemy_character_type_info[enemy_team.enemy_leader].name, spot.coordinator_x, spot.coordinator_y - 12);
+                        drawText(ctx, enemy_team.difficulty, spot.coordinator_x, spot.coordinator_y + 36);
+                    }
+                }
+                spotImg.src = imagename;
+            });
+        };
+        bgImg.src = "images/" + mission.map_res_name + ".png";
+    }
+
+    $("#mission_map").width("100%");
+    $("#create_map_btn").hide();
+}
+
+function drawBgImageHeler(ctx, bgImg, mission, x_src, y_src, x_scale, y_scale) {
+    var w_all = mission.map_all_width;
+    var h_all = mission.map_all_height;
+    var w_chop = mission.map_eff_width;
+    var h_chop = mission.map_eff_height;
+    var x_off = mission.map_offset_x;
+    var y_off = mission.map_offset_y;
+    x_src = w_all * x_src;
+    y_src = w_all * y_src;
+
+    //ctx.save();
+    //ctx.scale(-1, 1);
+    //ctx.drawImage(bgImg, 0, 0, -w_chop, h_chop);
+    //ctx.restore();
+    ctx.drawImage(bgImg, 0, 0, w_chop, h_chop);
+}
+
+function drawText(ctx, text, x, y) {
+    ctx.shadowColor = "black";
+    ctx.shadowBlur = 7;
+    ctx.lineWidth = 5;
+    ctx.strokeStyle = "black";
+    ctx.strokeText(text, x, y);
+    ctx.shadowBlur = 0;
+    ctx.fillStyle = "white";
+    ctx.fillText(text, x, y);
+}
+
+function drawLine(ctx, x0, y0, x1, y1, number_of_ways) {
+    ctx.shadowColor = "black";
+    ctx.shadowBlur = 7;
+    ctx.strokeStyle = "white";
+    ctx.lineWidth = 25
+    ctx.setLineDash([75, 45]);
+    ctx.beginPath();
+    ctx.moveTo(x0, y0);
+    ctx.lineTo(x1, y1);
+    ctx.stroke();
+    ctx.shadowBlur = 0;
+    if (number_of_ways == 1) {
+        var dx = x1 - x0;
+        var dy = y1 - y0;
+        var thickFactor = 50 / Math.sqrt(dx * dx + dy * dy);
+        var lenFactor = 0.15;
+        ctx.lineWidth = 1
+        ctx.fillStyle = "green";
+        ctx.beginPath();
+        ctx.moveTo(x0 + dx * (0.5 - lenFactor) + dy * thickFactor, y0 + dy * (0.5 - lenFactor) - dx * thickFactor);
+        ctx.lineTo(x0 + dx * (0.5 + lenFactor), y0 + dy * (0.5 + lenFactor));
+        ctx.lineTo(x0 + dx * (0.5 - lenFactor) - dy * thickFactor, y0 + dy * (0.5 - lenFactor) + dx * thickFactor);
+        ctx.fill();
+    }
 }

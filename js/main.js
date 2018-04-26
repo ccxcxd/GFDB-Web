@@ -152,10 +152,6 @@ function setup_page() {
             team_tbl_sort.refresh();
         });
 
-        $("#create_map_btn").click(function () {
-            generateMap(mission_info, spot_info, enemy_team_info, enemy_character_type_info);
-        });
-
         $("#campaign_select").change();
     });
 }
@@ -165,8 +161,8 @@ function generateMap(mission_info, spot_info, enemy_team_info, enemy_character_t
     var mission = mission_info[mission_id];
 
     var canvas = document.getElementById("mission_map");
-    canvas.width = mission.map_eff_width;
-    canvas.height = mission.map_eff_height;
+    canvas.width = Math.abs(mission.map_eff_width);
+    canvas.height = Math.abs(mission.map_eff_height);
     var ctx = canvas.getContext('2d');
     if (canvas.getContext) {
         var bgImg = new Image();
@@ -174,15 +170,15 @@ function generateMap(mission_info, spot_info, enemy_team_info, enemy_character_t
             ctx.fillStyle = "black";
             ctx.fillRect(0, 0, canvas.width, canvas.height);
 
-            drawBgImageHeler(ctx, this, mission, 0, 0, -1, 1);
-            //drawBgImageHeler(g, chopRect, scaledImage, new Rectangle(w_all, 0, w_all, h_all), RotateFlipType.RotateNoneFlipY);
-            //drawBgImageHeler(g, chopRect, scaledImage, new Rectangle(w_all * 2, 0, w_all, h_all), RotateFlipType.RotateNoneFlipXY);
-            //drawBgImageHeler(g, chopRect, scaledImage, new Rectangle(0, h_all, w_all, h_all), RotateFlipType.RotateNoneFlipX);
-            //drawBgImageHeler(g, chopRect, scaledImage, new Rectangle(w_all, h_all, w_all, h_all), RotateFlipType.RotateNoneFlipNone);
-            //drawBgImageHeler(g, chopRect, scaledImage, new Rectangle(w_all * 2, h_all, w_all, h_all), RotateFlipType.RotateNoneFlipX);
-            //drawBgImageHeler(g, chopRect, scaledImage, new Rectangle(0, h_all * 2, w_all, h_all), RotateFlipType.RotateNoneFlipXY);
-            //drawBgImageHeler(g, chopRect, scaledImage, new Rectangle(w_all, h_all * 2, w_all, h_all), RotateFlipType.RotateNoneFlipY);
-            //drawBgImageHeler(g, chopRect, scaledImage, new Rectangle(w_all * 2, h_all * 2, w_all, h_all), RotateFlipType.RotateNoneFlipXY);
+            drawBgImageHeler(ctx, this, mission, 0, 0, -1, -1);
+            drawBgImageHeler(ctx, this, mission, 1, 0, 1, -1);
+            drawBgImageHeler(ctx, this, mission, 2, 0, -1, -1);
+            drawBgImageHeler(ctx, this, mission, 0, 1, -1, 1);
+            drawBgImageHeler(ctx, this, mission, 1, 1, 1, 1);
+            drawBgImageHeler(ctx, this, mission, 2, 1, -1, 1);
+            drawBgImageHeler(ctx, this, mission, 0, 2, -1, -1);
+            drawBgImageHeler(ctx, this, mission, 1, 2, 1, -1);
+            drawBgImageHeler(ctx, this, mission, 2, 2, -1, -1);
 
             $.each(mission.spot_ids, function (index, spot_id) {
                 var spot = spot_info[spot_id];
@@ -226,7 +222,10 @@ function generateMap(mission_info, spot_info, enemy_team_info, enemy_character_t
     }
 
     $("#mission_map").width("100%");
-    $("#create_map_btn").hide();
+    $("#download_map_btn").hide();
+    $("#download_map_btn").click(function () {
+        //window.open(canvas.toDataURL("image/png"));
+    });
 }
 
 function drawBgImageHeler(ctx, bgImg, mission, x_src, y_src, x_scale, y_scale) {
@@ -236,14 +235,50 @@ function drawBgImageHeler(ctx, bgImg, mission, x_src, y_src, x_scale, y_scale) {
     var h_chop = mission.map_eff_height;
     var x_off = mission.map_offset_x;
     var y_off = mission.map_offset_y;
-    x_src = w_all * x_src;
-    y_src = w_all * y_src;
 
-    //ctx.save();
-    //ctx.scale(-1, 1);
-    //ctx.drawImage(bgImg, 0, 0, -w_chop, h_chop);
-    //ctx.restore();
-    ctx.drawImage(bgImg, 0, 0, w_chop, h_chop);
+    if (w_chop < 0) {
+        w_chop = -w_chop;
+        y_scale = -y_scale;
+    }
+    if (h_chop < 0) {
+        h_chop = -h_chop;
+        x_scale = -x_scale;
+    }
+
+    x_src = w_all * x_src;
+    y_src = h_all * y_src;
+    // w_src = w_all, h_src = h_all
+    var x_dest = w_all * 3 / 2 + x_off - w_chop / 2;
+    var y_dest = h_all * 3 / 2 - y_off - h_chop / 2;
+    // w_dest = w_chop, h_dest = h_chop
+    var x_inter = Math.max(x_dest, x_src);
+    var y_inter = Math.max(y_dest, y_src);
+    var w_inter = Math.min(x_dest + w_chop, x_src + w_all) - x_inter;
+    var h_inter = Math.min(y_dest + h_chop, y_src + h_all) - y_inter;
+
+    if (w_inter > 0 && h_inter > 0) {
+        ctx.save();
+        ctx.scale(x_scale, y_scale);
+
+        var x_src_true = (x_inter % w_all);
+        if (x_scale < 0) x_src_true = w_all - x_src_true - w_inter;
+        x_src_true = x_src_true / w_all * bgImg.naturalWidth;
+
+        var y_src_true = (y_inter % h_all);
+        if (y_scale < 0) y_src_true = h_all - y_src_true - h_inter;
+        y_src_true = y_src_true / h_all * bgImg.naturalHeight;
+
+        var w_src_true = w_inter / w_all * bgImg.naturalWidth;
+        var h_src_true = h_inter / h_all * bgImg.naturalHeight;
+
+        var x_dest_true = (x_inter - x_dest) * x_scale;
+        var y_dest_true = (y_inter - y_dest) * y_scale;
+        var w_dest_true = w_inter * x_scale;
+        var h_dest_true = h_inter * y_scale;
+
+        ctx.drawImage(bgImg, x_src_true, y_src_true, w_src_true, h_src_true, x_dest_true, y_dest_true, w_dest_true, h_dest_true);
+        ctx.restore();
+    }
 }
 
 function drawText(ctx, text, x, y) {

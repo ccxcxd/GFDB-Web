@@ -152,6 +152,12 @@ function setup_page() {
             team_tbl_sort.refresh();
         });
 
+        $("#download_map_btn").click(function () {
+            document.getElementById("mission_map").toBlob(function (blob) {
+                window.open(URL.createObjectURL(blob));
+            }, "image/png");
+        });
+
         $("#campaign_select").change();
     });
 }
@@ -167,8 +173,12 @@ function generateMap(mission_info, spot_info, enemy_team_info, enemy_character_t
     if (canvas.getContext) {
         var bgImg = new Image();
         bgImg.onload = function () {
-            ctx.fillStyle = "black";
+            if (mission.special_type == 1)
+                ctx.fillStyle = "#3B639F";
+            else
+                ctx.fillStyle = "white";
             ctx.fillRect(0, 0, canvas.width, canvas.height);
+            ctx.globalCompositeOperation = "multiply";
 
             drawBgImageHeler(ctx, this, mission, 0, 0, -1, -1);
             drawBgImageHeler(ctx, this, mission, 1, 0, 1, -1);
@@ -179,6 +189,8 @@ function generateMap(mission_info, spot_info, enemy_team_info, enemy_character_t
             drawBgImageHeler(ctx, this, mission, 0, 2, -1, -1);
             drawBgImageHeler(ctx, this, mission, 1, 2, 1, -1);
             drawBgImageHeler(ctx, this, mission, 2, 2, -1, -1);
+
+            ctx.globalCompositeOperation = "source-over";
 
             $.each(mission.spot_ids, function (index, spot_id) {
                 var spot = spot_info[spot_id];
@@ -222,10 +234,6 @@ function generateMap(mission_info, spot_info, enemy_team_info, enemy_character_t
     }
 
     $("#mission_map").width("100%");
-    $("#download_map_btn").hide();
-    $("#download_map_btn").click(function () {
-        //window.open(canvas.toDataURL("image/png"));
-    });
 }
 
 function drawBgImageHeler(ctx, bgImg, mission, x_src, y_src, x_scale, y_scale) {
@@ -294,7 +302,7 @@ function drawText(ctx, text, x, y) {
 
 function drawLine(ctx, x0, y0, x1, y1, number_of_ways) {
     ctx.shadowColor = "black";
-    ctx.shadowBlur = 7;
+    ctx.shadowBlur = 11;
     ctx.strokeStyle = "white";
     ctx.lineWidth = 25
     ctx.setLineDash([75, 45]);
@@ -316,4 +324,5 @@ function drawLine(ctx, x0, y0, x1, y1, number_of_ways) {
         ctx.lineTo(x0 + dx * (0.5 - lenFactor) - dy * thickFactor, y0 + dy * (0.5 - lenFactor) + dx * thickFactor);
         ctx.fill();
     }
+    ctx.setLineDash([]);
 }

@@ -91,7 +91,7 @@ function setup_page() {
                 var enemy_team = enemy_team_info[enemy_team_id];
                 var count_dict = {};
                 $.each(enemy_team.member_ids, function (index, member_id) {
-                    var name = enemy_in_team_info[member_id].enemy_character.name;
+                    var name = $.t(enemy_in_team_info[member_id].enemy_character.name);
                     count_dict[name] = (count_dict[name] || 0) + enemy_in_team_info[member_id].number;
                 });
                 var members = "";
@@ -106,7 +106,7 @@ function setup_page() {
 
                 $("<tr>").append(
                     $("<td>").text(enemy_team_id).attr("data-team_id", ""),
-                    $("<td>").text(enemy_character_type_info[enemy_team.enemy_leader].name),
+                    $("<td>").text($.t(enemy_character_type_info[enemy_team.enemy_leader].name)),
                     $("<td>").text(enemy_team.difficulty),
                     $("<td>").text(members),
                     $("<td>").text(enemy_team_count),
@@ -134,7 +134,7 @@ function setup_page() {
                 var member = enemy_in_team_info[member_id];
                 var character = member.enemy_character;
                 $("<tr>").append(
-                    $("<td>").text(character.name),
+                    $("<td>").text($.t(character.name)),
                     $("<td>").text(character.number),
                     $("<td>").text(Math.ceil(character.maxlife / character.number)),
                     $("<td>").text(character.pow),
@@ -211,7 +211,7 @@ function generateMap(mission_info, spot_info, enemy_team_info, enemy_character_t
                     ctx.drawImage(this, spot.coordinator_x - w / 2, spot.coordinator_y - h / 2, w, h);
                     if (spot.enemy_team_id) {
                         var enemy_team = enemy_team_info[spot.enemy_team_id];
-                        drawText(ctx, enemy_character_type_info[enemy_team.enemy_leader].name, spot.coordinator_x, spot.coordinator_y - 12);
+                        drawText(ctx, $.t(enemy_character_type_info[enemy_team.enemy_leader].name), spot.coordinator_x, spot.coordinator_y - 12);
                         drawText(ctx, enemy_team.difficulty, spot.coordinator_x, spot.coordinator_y + 36);
                     }
                 }

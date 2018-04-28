@@ -65,7 +65,7 @@ function setup_page() {
 
         $.each(enemy_team_info, function (id, team) {
             var team_id = team.id;
-            if (team_id > 0 && team_id < 30000)
+            if (team_id > 0)
                 $("#team_select").append($("<option>")
                     .attr("value", team_id)
                     .text(team_id));

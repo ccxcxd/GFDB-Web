@@ -17,6 +17,8 @@
 });
 
 function setup_page() {
+    var setup_done = false;
+
     var map_tbl_sort = new Tablesort(document.getElementById("map_table"));
     var team_tbl_sort = new Tablesort(document.getElementById("team_table"));
 
@@ -74,6 +76,7 @@ function setup_page() {
         $("#campaign_select").change(function () {
             $("#map_select").empty();
             var campaign_id = Number($("#campaign_select option:checked").val());
+            localStorage.setItem("campaign_select", campaign_id);
             $.each(campaign_info[campaign_id].mission_ids, function (index, mission_id) {
                 var mission = mission_info[mission_id];
                 var mission_text = mission.index_text + " " + $.t(mission.name);
@@ -81,12 +84,14 @@ function setup_page() {
                     .attr("value", mission.id)
                     .text(mission_text));
             });
-            $("#map_select").change();
+            if (setup_done)
+                $("#map_select").change();
         });
 
         $("#map_select").change(function () {
             $("#map_table tbody").empty();
             var mission_id = Number($("#map_select option:checked").val());
+            localStorage.setItem("map_select", mission_id);
             $.each(mission_info[mission_id].enemy_team_count, function (enemy_team_id, enemy_team_count) {
                 var enemy_team = enemy_team_info[enemy_team_id];
                 var count_dict = {};
@@ -113,7 +118,14 @@ function setup_page() {
                     $("<td>").text(drops)
                 ).appendTo("#map_table");
 
-                generateMap(mission_info, spot_info, enemy_team_info, enemy_character_type_info);
+                if ($("#auto_generate_map_btn").hasClass("active")) {
+                    generateMap(mission_info, spot_info, enemy_team_info, enemy_character_type_info);
+                } else {
+                    var canvas = document.getElementById("mission_map");
+                    canvas.width = 0;
+                    canvas.height = 0;
+                }
+
             });
             map_tbl_sort.refresh();
 
@@ -124,12 +136,15 @@ function setup_page() {
                 $("#team_select").val(enemy_team_id);
                 $("#team_select").change();
             });
-            $("#map_table tbody tr").first().click();
+
+            if (setup_done)
+                $("#map_table tbody tr").first().click();
         });
 
         $("#team_select").change(function () {
             $("#team_table tbody").empty();
             var team_id = Number($("#team_select option:checked").val());
+            localStorage.setItem("team_select", team_id);
             $.each(enemy_team_info[team_id].member_ids, function (index, member_id) {
                 var member = enemy_in_team_info[member_id];
                 var character = member.enemy_character;
@@ -152,13 +167,42 @@ function setup_page() {
             team_tbl_sort.refresh();
         });
 
+        $("#generate_map_btn").click(function () {
+            generateMap(mission_info, spot_info, enemy_team_info, enemy_character_type_info);
+        });
+
+        $("#auto_generate_map_btn").click(function () {
+            $(this).toggleClass("active");
+            var auto_gen = $(this).hasClass("active");
+            localStorage.setItem("auto_generate_map", auto_gen);
+            if (auto_gen)
+                $("#generate_map_btn").click();
+        });
+
         $("#download_map_btn").click(function () {
             document.getElementById("mission_map").toBlob(function (blob) {
                 window.open(URL.createObjectURL(blob));
             }, "image/png");
         });
 
+        var storage_val = localStorage.getItem("auto_generate_map") === "true";
+        if (storage_val) {
+            $("#auto_generate_map_btn").addClass("active");
+        }
+
+        storage_val = Number(localStorage.getItem("campaign_select")) || 1;
+        $("#campaign_select").val(storage_val);
         $("#campaign_select").change();
+
+        storage_val = Number(localStorage.getItem("map_select")) || 5;
+        $("#map_select").val(storage_val);
+        $("#map_select").change();
+
+        storage_val = Number(localStorage.getItem("team_select")) || 1;
+        $("#team_select").val(storage_val);
+        $("#team_select").change();
+
+        var setup_done = true;
     });
 }
 

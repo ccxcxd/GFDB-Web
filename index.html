@@ -12,20 +12,31 @@
     <script src="https://cdn.bootcss.com/i18next-xhr-backend/1.5.1/i18nextXHRBackend.min.js"></script>
     <script src="https://cdn.bootcss.com/tablesort/5.0.2/tablesort.min.js"></script>
     <script src="https://cdn.bootcss.com/tablesort/5.0.2/sorts/tablesort.number.min.js"></script>
+    <script src="https://cdn.bootcss.com/javascript-canvas-to-blob/3.14.0/js/canvas-to-blob.min.js"></script>
     <script src="js/main.js"></script>
 </head>
 <body>
     <div class="container">
-        <div class="header"><h1 class="text-center" data-i18n="title"></h1></div>
         <div>
-            <span data-i18n="map_sel.label"></span>
-            <select id="campaign_select" class="custom-select"></select>
-            <select id="map_select" class="custom-select"></select>
+            <h1 class="text-center" data-i18n="title"></h1>
         </div>
-        <div><canvas id="mission_map" width="0" height="0"></canvas></div>
+        <div class="row">
+            <h5 data-i18n="map_sel.label"></h5>
+        </div>
+        <div class="row">
+            <select id="campaign_select" class="col-sm custom-select"></select>
+            <select id="map_select" class="col-sm custom-select"></select>
+        </div>
         <div>
-            <button type="button" id="download_map_btn" class="btn btn-primary" data-i18n="mission_map.download">Map</button>
-            <span data-i18n="mission_map.description"></span>
+            <canvas id="mission_map" width="0" height="0"></canvas>
+        </div>
+        <div>
+            <div class="btn-group" role="group">
+                <button type="button" id="auto_generate_map_btn" class="btn btn-primary" data-i18n="mission_map.auto_generate">Auto</button>
+                <button type="button" id="generate_map_btn" class="btn btn-primary" data-i18n="mission_map.generate">Generate</button>
+            </div>
+            <button type="button" id="download_map_btn" class="btn btn-primary" data-i18n="mission_map.download">Download</button>
+            <span class="" data-i18n="mission_map.description"></span>
         </div>
         <div>
             <table id="map_table" class="table">
@@ -42,7 +53,12 @@
                 <tbody></tbody>
             </table>
         </div>
-        <div><span data-i18n="team_sel.label"></span><select id="team_select" class="custom-select"></select></div>
+        <div class="row">
+            <h5 data-i18n="team_sel.label"></h5>
+        </div>
+        <div class="row">
+            <select id="team_select" class="custom-select"></select>
+        </div>
         <div>
             <table id="team_table" class="table">
                 <thead>
@@ -65,7 +81,7 @@
                 <tbody></tbody>
             </table>
         </div>
-        <div class="footer">
+        <div>
             Copyright © 2018 电脑小龟L.T.(CCX_CX_D) <br>
             Translator(正體中文/한국어) Needed! Please contact me at GitHub or <a href="https://weibo.com/u/1061878751">微博</a> or <a href="https://twitter.com/CCX_CX_D">Twitter</a><br>
             Help Needed! 如果有问题请在GitHub或者NGA留言：<br>

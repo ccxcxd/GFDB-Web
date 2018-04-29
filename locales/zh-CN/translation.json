@@ -4,8 +4,10 @@
 		"label": "选择地图："
 	},
 	"mission_map": {
+		"generate": "生成地图",
+		"auto_generate": "自动",
 		"download": "查看原图",
-		"description": "一般浏览器右键点击地图查看图片可以查看大图。注意：地图功能是为了活动赶工出来的，可能存在各种BUG，先将就地看吧，会陆续修复"
+		"description": "点击“自动”可以自动生成地图。注意：“查看原图”目前只支持Chrome和FireFox，并且比较花时间。"
 	},
 	"map_tbl": {
 		"id": "编号",

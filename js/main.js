@@ -7,13 +7,27 @@
                 loadPath: "locales/{{lng}}/{{ns}}.json",
                 parse: (data) => JSON.parse(data)
             },
+            whitelist: ["zh-CN", "zh-TW", "ko-KR"],
+            load: "currentOnly",
             fallbackLng: "zh-CN"
         }, function (err, t) {
             jqueryI18next.init(i18next, $);
             $("[data-i18n]").localize();
             document.title = $.t("title");
             setup_page();
+
+            $("#language").change(function () {
+                i18next.changeLanguage($("#language option:checked").val(), function (err, t) {
+                    $("[data-i18n]").localize();
+                    document.title = $.t("title");
+                    setup_page();
+                });
+            });
         });
+
+    i18next.on('languageChanged', function (lng) {
+        $("#language").val(lng);
+    });
 });
 
 function setup_page() {

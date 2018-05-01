@@ -17,6 +17,16 @@
 		"count": "수",
 		"drop": "한정드롭 (참고용)"
 	},
+	"spot_img": {
+		"spot1": "spot1",
+		"spot2": "spot2",
+		"spot3": "spot3",
+		"spot5": "spot5",
+		"spot6": "spot6",
+		"random": "random",
+		"radar": "radar",
+		"closedap": "closedap"
+	},
 	"team_sel": {
 		"label": "번호:"
 	},

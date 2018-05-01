@@ -17,6 +17,16 @@
 		"count": "数量",
 		"drop": "限定掉落（仅供参考）"
 	},
+	"spot_img": {
+		"spot1": "spot1",
+		"spot2": "spot2",
+		"spot3": "spot3",
+		"spot5": "spot5",
+		"spot6": "spot6",
+		"random": "random",
+		"radar": "radar",
+		"closedap": "closedap"
+	},
 	"team_sel": {
 		"label": "敌人编号："
 	},

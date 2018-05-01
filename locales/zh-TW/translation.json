@@ -17,6 +17,16 @@
 		"count": "數量",
 		"drop": "限定掉落（僅供參考）"
 	},
+	"spot_img": {
+		"spot1": "spot1",
+		"spot2": "spot2",
+		"spot3": "spot3",
+		"spot5": "spot5",
+		"spot6": "spot6",
+		"random": "random",
+		"radar": "radar",
+		"closedap": "closedap"
+	},
 	"team_sel": {
 		"label": "敵人編號："
 	},

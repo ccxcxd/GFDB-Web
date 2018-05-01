@@ -263,17 +263,17 @@ function generateMap(mission_info, spot_info, enemy_team_info, enemy_character_t
             $.each(mission.spot_ids, function (index, spot_id) {
                 var spot = spot_info[spot_id];
 
-                var imagename = spot.belong + ".png";
+                var imagename;
                 if (spot.if_random) {
-                    imagename = "random" + imagename;
+                    imagename = "random";
                 } else if (spot.special_eft) {
-                    imagename = "radar" + imagename;
+                    imagename = "radar";
                 } else if (spot.active_cycle) {
-                    imagename = "closedap" + imagename;
+                    imagename = "closedap";
                 } else {
-                    imagename = spot.type + imagename;
+                    imagename = "spot" + spot.type;
                 }
-                imagename = "images/spot_" + imagename;
+                imagename = "images/spot/" + $.t(imagename) + spot.belong + ".png";
                 var spotImg = new Image();
                 spotImg.onload = function () {
                     var w = this.naturalWidth;
@@ -288,7 +288,7 @@ function generateMap(mission_info, spot_info, enemy_team_info, enemy_character_t
                 spotImg.src = imagename;
             });
         };
-        bgImg.src = "images/" + mission.map_res_name + ".png";
+        bgImg.src = "images/map/" + mission.map_res_name + ".png";
     }
 
     $("#mission_map").width("100%");

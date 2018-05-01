@@ -273,7 +273,8 @@ function generateMap(mission_info, spot_info, enemy_team_info, enemy_character_t
                 } else {
                     imagename = "spot" + spot.type;
                 }
-                imagename = "images/spot/" + $.t(imagename) + spot.belong + ".png";
+                imagename = $.t("spot_img." + imagename);
+                imagename = "images/spot/" + imagename + spot.belong + ".png";
                 var spotImg = new Image();
                 spotImg.onload = function () {
                     var w = this.naturalWidth;

@@ -18,14 +18,14 @@
 		"drop": "한정드롭 (참고용)"
 	},
 	"spot_img": {
-		"spot1": "spot1",
+		"spot1": "spot1KR",
 		"spot2": "spot2",
-		"spot3": "spot3",
+		"spot3": "spot3KR",
 		"spot5": "spot5",
 		"spot6": "spot6",
 		"random": "random",
-		"radar": "radar",
-		"closedap": "closedap"
+		"radar": "radarKR",
+		"closedap": "closedapKR"
 	},
 	"team_sel": {
 		"label": "번호:"

@@ -9,6 +9,7 @@
             },
             whitelist: ["zh-CN", "zh-TW", "ko-KR"],
             load: "currentOnly",
+            //debug: true,
             fallbackLng: "zh-CN"
         }, function (err, t) {
             jqueryI18next.init(i18next, $);
@@ -18,9 +19,7 @@
 
             $("#language").change(function () {
                 i18next.changeLanguage($("#language option:checked").val(), function (err, t) {
-                    $("[data-i18n]").localize();
-                    document.title = $.t("title");
-                    setup_page();
+                    location.reload();
                 });
             });
         });

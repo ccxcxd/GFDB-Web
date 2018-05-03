@@ -83,19 +83,52 @@
         </div>
         <hr>
         <div>
-            Language: 
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#about_window" data-i18n="about.title">About</button>
+            <span>Language:</span>
             <select id="language">
                 <option value="zh-CN">简体中文</option>
-                <option value="zh-TW">正體中文</option>
                 <option value="ko-KR">한국어</option>
+                <option value="zh-TW">正體中文(需要翻譯)</option>
             </select>
         </div>
-        <div>
-            Copyright © 2018 电脑小龟L.T.(CCX_CX_D) <br>
-            Translator(正體中文/한국어) Needed! Please contact me at GitHub or <a href="https://weibo.com/u/1061878751">微博</a> or <a href="https://twitter.com/CCX_CX_D">Twitter</a><br>
-            Help Needed! 如果有问题请在GitHub或者NGA留言：<br>
-            GitHub: <a href="https://github.com/ccxcxd/GFDB-Web">https://github.com/ccxcxd/GFDB-Web</a><br>
-            NGA: <a href="http://nga.178.com/read.php?tid=13906769">http://nga.178.com/read.php?tid=13906769</a>
+        <div class="modal fade" id="about_window" tabindex="-1" role="dialog" aria-labelledby="about_title" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="about_title" data-i18n="about.title">About</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <table class="table borderless">
+                            <tr>
+                                <td data-i18n="about.designer">></td>
+                                <td><a href="https://weibo.com/u/1061878751">电脑小龟L.T.</a><a href="https://twitter.com/CCX_CX_D">(CCX_CX_D)</a></td>
+                            </tr>
+                            <tr>
+                                <td data-i18n="about.translator_KR"></td>
+                                <td><span>KOZ39, temp 'marty'</span></td>
+                            </tr>
+                            <tr>
+                                <td data-i18n="about.thanks"></td>
+                                <td><span>星光下的彩虹, 245795867a, 杯具终产物</span></td>
+                            </tr>
+                            <tr>
+                                <td data-i18n="about.repository"></td>
+                                <td><a href="https://github.com/ccxcxd/GFDB-Web">GitHub</a></td>
+                            </tr>
+                            <tr>
+                                <td data-i18n="about.feedback"></td>
+                                <td><a href="https://github.com/ccxcxd/GFDB-Web/issues">GitHub</a>, <a href="http://nga.178.com/read.php?tid=13906769">NGA<span data-i18n="about.chinese"></span></a></td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
         </div>
         <div id="debug"></div>
     </div>

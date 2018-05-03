@@ -45,6 +45,15 @@
 		"coordinator_x": "橫坐標",
 		"coordinator_y": "縱坐標"
 	},
+	"about": {
+		"title": "關於本站",
+		"designer": "製作",
+		"translator_KR": "翻譯（韓語）",
+		"thanks": "鳴謝",
+		"repository": "代碼託管",
+		"feedback": "意見反饋",
+		"chinese": ""
+	},
 	"campaign": {
 		"main": "主線",
 		"event": "活動",

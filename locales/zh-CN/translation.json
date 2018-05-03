@@ -45,6 +45,15 @@
 		"coordinator_x": "横坐标",
 		"coordinator_y": "纵坐标"
 	},
+	"about": {
+		"title": "关于本站",
+		"designer": "制作",
+		"translator_KR": "翻译（韩语）",
+		"thanks": "鸣谢",
+		"repository": "代码托管",
+		"feedback": "意见反馈",
+		"chinese": ""
+	},
 	"campaign": {
 		"main": "主线",
 		"event": "活动",

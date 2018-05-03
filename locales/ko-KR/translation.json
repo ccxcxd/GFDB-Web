@@ -45,6 +45,15 @@
 		"coordinator_x": "가로축",
 		"coordinator_y": "세로축"
 	},
+	"about": {
+		"title": "About this site",
+		"designer": "制作",
+		"translator_KR": "翻译（韩语）",
+		"thanks": "鸣谢",
+		"repository": "代码托管",
+		"feedback": "意见反馈",
+		"chinese": "(chinese)"
+	},
 	"campaign": {
 		"main": "메인",
 		"event": "이벤트",

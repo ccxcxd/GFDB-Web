@@ -46,13 +46,13 @@
 		"coordinator_y": "세로축"
 	},
 	"about": {
-		"title": "About this site",
-		"designer": "制作",
-		"translator_KR": "翻译（韩语）",
-		"thanks": "鸣谢",
-		"repository": "代码托管",
-		"feedback": "意见反馈",
-		"chinese": "(chinese)"
+		"title": "About this Site",
+		"designer": "제작",
+		"translator_KR": "번역 (한국어)",
+		"thanks": "도움을 주신 분들",
+		"repository": "소스코드 저장소",
+		"feedback": "피드백",
+		"chinese": "(Chinese)"
 	},
 	"campaign": {
 		"main": "메인",

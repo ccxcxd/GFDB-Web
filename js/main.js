@@ -7,7 +7,7 @@
                 loadPath: "locales/{{lng}}/{{ns}}.json",
                 parse: (data) => JSON.parse(data)
             },
-            whitelist: ["zh-CN", "zh-TW", "ko-KR"],
+            whitelist: ["zh-CN", "zh-TW", "ko-KR", "en-US"],
             load: "currentOnly",
             //debug: true,
             fallbackLng: "zh-CN"

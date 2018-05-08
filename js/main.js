@@ -194,7 +194,7 @@ function setup_page() {
 
         $("#download_map_btn").click(function () {
             document.getElementById("mission_map").toBlob(function (blob) {
-                window.open(URL.createObjectURL(blob));
+                window.open(URL.createObjectURL(blob), "_blank");
             }, "image/png");
         });
 

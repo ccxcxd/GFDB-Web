@@ -46,7 +46,7 @@
 		"coordinator_y": "Y coord."
 	},
 	"about": {
-		"title": "About this site",
+		"title": "About this Site",
 		"designer": "Made by",
 		"translator_KR": "Translated by (Korean)",
 		"thanks": "Thanks to",
@@ -80,7 +80,7 @@
 		"deepdive": "Deep Dive",
 		"houkai": "Houkai2 独法师",
 		"singularity": "Singularity",
-		"djmax": "Djmax 荣耀日"
+		"djmax": "DJMAX 荣耀日"
 	},
 	"enemy_char_name": {
 		"9999": "",

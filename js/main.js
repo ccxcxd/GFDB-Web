@@ -263,7 +263,7 @@ function generateMap(mission_info, spot_info, enemy_team_info, enemy_character_t
                 var spot = spot_info[spot_id];
 
                 var imagename;
-                if (spot.if_random) {
+                if (spot.random_get) {
                     imagename = "random";
                 } else if (spot.special_eft) {
                     imagename = "radar";

@@ -130,15 +130,6 @@ function setup_page() {
                     $("<td>").text(enemy_team_count),
                     $("<td>").text(drops)
                 ).appendTo("#map_table");
-
-                if ($("#auto_generate_map_btn").hasClass("active")) {
-                    generateMap(mission_info, spot_info, enemy_team_info, enemy_character_type_info);
-                } else {
-                    var canvas = document.getElementById("mission_map");
-                    canvas.width = 0;
-                    canvas.height = 0;
-                }
-
             });
             map_tbl_sort.refresh();
 
@@ -149,6 +140,14 @@ function setup_page() {
                 $("#team_select").val(enemy_team_id);
                 $("#team_select").change();
             });
+
+            if ($("#auto_generate_map_btn").hasClass("active")) {
+                generateMap(mission_info, spot_info, enemy_team_info, enemy_character_type_info);
+            } else {
+                var canvas = document.getElementById("mission_map");
+                canvas.width = 0;
+                canvas.height = 0;
+            }
 
             if (setup_done)
                 $("#map_table tbody tr").first().click();

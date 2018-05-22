@@ -376,8 +376,8 @@ function drawBgImageHeler(ctx, bgImg, mission, x_src, y_src, x_scale, y_scale) {
 
 function drawText(ctx, text, x, y) {
     ctx.shadowColor = "black";
-    ctx.shadowBlur = 7;
-    ctx.lineWidth = 5;
+    ctx.shadowBlur = 5;
+    ctx.lineWidth = 9;
     ctx.strokeStyle = "black";
     ctx.strokeText(text, x, y);
     ctx.shadowBlur = 0;

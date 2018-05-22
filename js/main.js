@@ -230,6 +230,9 @@ function generateMap(mission_info, spot_info, enemy_team_info, enemy_character_t
     if (canvas.getContext) {
         var bgImg = new Image();
         bgImg.onload = function () {
+            // draw background
+
+            // multiply night color
             if (mission.special_type == 1)
                 ctx.fillStyle = "#3B639F";
             else
@@ -249,6 +252,7 @@ function generateMap(mission_info, spot_info, enemy_team_info, enemy_character_t
 
             ctx.globalCompositeOperation = "source-over";
 
+            // draw spot connections
             $.each(mission.spot_ids, function (index, spot_id) {
                 var spot = spot_info[spot_id];
                 $.each(spot.route_types, function (other_id, number_of_ways) {
@@ -256,9 +260,9 @@ function generateMap(mission_info, spot_info, enemy_team_info, enemy_character_t
                 });
             });
 
-            ctx.font = "bold 48px sans-serif";
-            ctx.textAlign = "center";
-
+            // load images
+            var imgLoaders = [];
+            var spotImgs = {};
             $.each(mission.spot_ids, function (index, spot_id) {
                 var spot = spot_info[spot_id];
 
@@ -274,24 +278,48 @@ function generateMap(mission_info, spot_info, enemy_team_info, enemy_character_t
                 }
                 imagename = $.t("spot_img." + imagename);
                 imagename = "images/spot/" + imagename + spot.belong + ".png";
-                var spotImg = new Image();
-                spotImg.onload = function () {
-                    var w = this.naturalWidth;
-                    var h = this.naturalHeight;
-                    ctx.drawImage(this, spot.coordinator_x - w / 2, spot.coordinator_y - h / 2, w, h);
+                spot.imagename = imagename;
+                loadImageDeffered(imagename, spotImgs, imgLoaders);
+            });
+
+            ctx.font = "bold 48px sans-serif";
+            ctx.textAlign = "center";
+
+            // when all images loaded, draw spots
+            $.when.apply($, imgLoaders).done(function () {
+                $.each(mission.spot_ids, function (index, spot_id) {
+                    var spot = spot_info[spot_id];
+                    var spotImg = spotImgs[spot.imagename];
+                    var w = spotImg.naturalWidth;
+                    var h = spotImg.naturalHeight;
+                    ctx.drawImage(spotImg, spot.coordinator_x - w / 2, spot.coordinator_y - h / 2);
                     if (spot.enemy_team_id) {
                         var enemy_team = enemy_team_info[spot.enemy_team_id];
                         drawText(ctx, $.t(enemy_character_type_info[enemy_team.enemy_leader].name), spot.coordinator_x, spot.coordinator_y - 12);
                         drawText(ctx, enemy_team.difficulty, spot.coordinator_x, spot.coordinator_y + 36);
                     }
-                }
-                spotImg.src = imagename;
+                });
             });
         };
         bgImg.src = "images/map/" + mission.map_res_name + ".png";
     }
 
     $("#mission_map").width("100%");
+}
+
+function loadImageDeffered(src, imgs, loaders) {
+    if (src in imgs)
+        return;
+
+    var d = $.Deferred();
+    var img = new Image();
+    img.onload = function () {
+        imgs[src] = img;
+        d.resolve();
+    }
+    img.src = src;
+    imgs[src] = null;
+    loaders.push(d.promise());
 }
 
 function drawBgImageHeler(ctx, bgImg, mission, x_src, y_src, x_scale, y_scale) {

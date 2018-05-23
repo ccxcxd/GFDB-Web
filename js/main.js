@@ -229,8 +229,6 @@ function generateMap(mission_info, spot_info, enemy_team_info, enemy_character_t
     if (canvas.getContext) {
         var bgImg = new Image();
         bgImg.onload = function () {
-            // draw background
-
             // multiply night color
             if (mission.special_type == 1)
                 ctx.fillStyle = "#3B639F";
@@ -239,6 +237,7 @@ function generateMap(mission_info, spot_info, enemy_team_info, enemy_character_t
             ctx.fillRect(0, 0, canvas.width, canvas.height);
             ctx.globalCompositeOperation = "multiply";
 
+            // draw background
             drawBgImageHeler(ctx, this, mission, 0, 0, -1, -1);
             drawBgImageHeler(ctx, this, mission, 1, 0, 1, -1);
             drawBgImageHeler(ctx, this, mission, 2, 0, -1, -1);
@@ -262,6 +261,7 @@ function generateMap(mission_info, spot_info, enemy_team_info, enemy_character_t
             // load images
             var imgLoaders = [];
             var spotImgs = {};
+            var spineImgs = {};
             $.each(mission.spot_ids, function (index, spot_id) {
                 var spot = spot_info[spot_id];
 
@@ -279,6 +279,13 @@ function generateMap(mission_info, spot_info, enemy_team_info, enemy_character_t
                 imagename = "images/spot/" + imagename + spot.belong + ".png";
                 spot.imagename = imagename;
                 loadImageDeffered(imagename, spotImgs, imgLoaders);
+
+                if (spot.enemy_team_id) {
+                    var leader_info = enemy_character_type_info[enemy_team_info[spot.enemy_team_id].enemy_leader];
+                    var imagename2 = "images/spine/" + leader_info.code + ".png";
+                    leader_info.imagename = imagename2;
+                    loadImageDeffered(imagename2, spineImgs, imgLoaders);
+                }
             });
 
             ctx.font = "bold 48px sans-serif";
@@ -294,8 +301,15 @@ function generateMap(mission_info, spot_info, enemy_team_info, enemy_character_t
                     ctx.drawImage(spotImg, spot.coordinator_x - w / 2, spot.coordinator_y - h / 2);
                     if (spot.enemy_team_id) {
                         var enemy_team = enemy_team_info[spot.enemy_team_id];
-                        drawText(ctx, $.t(enemy_character_type_info[enemy_team.enemy_leader].name), spot.coordinator_x, spot.coordinator_y - 12);
-                        drawText(ctx, enemy_team.difficulty, spot.coordinator_x, spot.coordinator_y + 36);
+                        var spineImg = spineImgs[enemy_character_type_info[enemy_team.enemy_leader].imagename];
+                        if (spineImg != null) {
+                            var w2 = spineImg.naturalWidth;
+                            var h2 = spineImg.naturalHeight;
+                            ctx.drawImage(spineImg, spot.coordinator_x - w2 / 2, spot.coordinator_y - h2 / 2);
+                        } else {
+                            drawText(ctx, $.t(enemy_character_type_info[enemy_team.enemy_leader].name), spot.coordinator_x, spot.coordinator_y - 12);
+                            drawText(ctx, enemy_team.difficulty, spot.coordinator_x, spot.coordinator_y + 36);
+                        }
                     }
                 });
             });
@@ -316,6 +330,9 @@ function loadImageDeffered(src, imgs, loaders) {
         imgs[src] = img;
         d.resolve();
     }
+    img.onerror = function () {
+        d.resolve();
+    };
     img.src = src;
     imgs[src] = null;
     loaders.push(d.promise());

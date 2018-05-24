@@ -52,7 +52,8 @@
 		"thanks": "鸣谢",
 		"repository": "代码托管",
 		"feedback": "意见反馈",
-		"chinese": ""
+		"chinese": "",
+		"image_copyright": "所有图片版权由其各自所有人所有（画师、云母组、数字天空等）"
 	},
 	"campaign": {
 		"main": "主线",

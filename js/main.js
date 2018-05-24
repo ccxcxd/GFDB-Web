@@ -288,11 +288,11 @@ function generateMap(mission_info, spot_info, enemy_team_info, enemy_character_t
                 }
             });
 
-            ctx.font = "bold 48px sans-serif";
-            ctx.textAlign = "center";
-
-            // when all images loaded, draw spots
+            // wait for all images loaded to avoid racing conditions in drawing
             $.when.apply($, imgLoaders).done(function () {
+                // draw spots
+                ctx.font = "bold 48px sans-serif";
+                ctx.textAlign = "center";
                 $.each(mission.spot_ids, function (index, spot_id) {
                     var spot = spot_info[spot_id];
                     var spotImg = spotImgs[spot.imagename];
@@ -306,12 +306,19 @@ function generateMap(mission_info, spot_info, enemy_team_info, enemy_character_t
                             var w2 = spineImg.naturalWidth;
                             var h2 = spineImg.naturalHeight;
                             ctx.drawImage(spineImg, spot.coordinator_x - w2 / 2, spot.coordinator_y - h2 / 2);
+                            drawText(ctx, enemy_team.difficulty, spot.coordinator_x, spot.coordinator_y + 86, 9, 5);
                         } else {
-                            drawText(ctx, $.t(enemy_character_type_info[enemy_team.enemy_leader].name), spot.coordinator_x, spot.coordinator_y - 12);
-                            drawText(ctx, enemy_team.difficulty, spot.coordinator_x, spot.coordinator_y + 36);
+                            drawText(ctx, $.t(enemy_character_type_info[enemy_team.enemy_leader].name), spot.coordinator_x, spot.coordinator_y - 12, 9, 5);
+                            drawText(ctx, enemy_team.difficulty, spot.coordinator_x, spot.coordinator_y + 36, 9, 5);
                         }
                     }
                 });
+
+                // copyright info
+                ctx.font = "24px sans-serif";
+                ctx.textAlign = "start";
+                drawText(ctx, "http://underseaworld.net/gf/", 0, canvas.height - 48, 1, 0);
+                drawText(ctx, $.t("about.image_copyright"), 0, canvas.height - 24, 1, 0);
             });
         };
         bgImg.src = "images/map/" + mission.map_res_name + ".png";
@@ -391,10 +398,10 @@ function drawBgImageHeler(ctx, bgImg, mission, x_src, y_src, x_scale, y_scale) {
     }
 }
 
-function drawText(ctx, text, x, y) {
+function drawText(ctx, text, x, y, width, blur) {
     ctx.shadowColor = "black";
-    ctx.shadowBlur = 5;
-    ctx.lineWidth = 9;
+    ctx.shadowBlur = blur;
+    ctx.lineWidth = width;
     ctx.strokeStyle = "black";
     ctx.strokeText(text, x, y);
     ctx.shadowBlur = 0;

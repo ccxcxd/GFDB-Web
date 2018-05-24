@@ -52,7 +52,8 @@
 		"thanks": "Thanks to",
 		"repository": "Repository",
 		"feedback": "Feedback",
-		"chinese": "(in Chinese)"
+		"chinese": "(in Chinese)",
+		"image_copyright": "All images are copyright to their respective owners (artist, Mica-Team, etc.)"
 	},
 	"campaign": {
 		"main": "Main Story: ",

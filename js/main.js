@@ -262,6 +262,7 @@ function generateMap(mission_info, spot_info, enemy_team_info, enemy_character_t
             var imgLoaders = [];
             var spotImgs = {};
             var spineImgs = {};
+            var miscImgs = {};
             $.each(mission.spot_ids, function (index, spot_id) {
                 var spot = spot_info[spot_id];
 
@@ -287,12 +288,12 @@ function generateMap(mission_info, spot_info, enemy_team_info, enemy_character_t
                     loadImageDeffered(imagename2, spineImgs, imgLoaders);
                 }
             });
+            var powerImgName = "images/misc/power.png";
+            loadImageDeffered(powerImgName, miscImgs, imgLoaders);
 
             // wait for all images loaded to avoid racing conditions in drawing
             $.when.apply($, imgLoaders).done(function () {
                 // draw spots
-                ctx.font = "bold 48px sans-serif";
-                ctx.textAlign = "center";
                 $.each(mission.spot_ids, function (index, spot_id) {
                     var spot = spot_info[spot_id];
                     var spotImg = spotImgs[spot.imagename];
@@ -306,11 +307,12 @@ function generateMap(mission_info, spot_info, enemy_team_info, enemy_character_t
                             var w2 = spineImg.naturalWidth;
                             var h2 = spineImg.naturalHeight;
                             ctx.drawImage(spineImg, spot.coordinator_x - w2 / 2, spot.coordinator_y - h2 / 2);
-                            drawText(ctx, enemy_team.difficulty, spot.coordinator_x, spot.coordinator_y + 86, 9, 5);
                         } else {
+                            ctx.font = "bold 48px sans-serif";
+                            ctx.textAlign = "center";
                             drawText(ctx, $.t(enemy_character_type_info[enemy_team.enemy_leader].name), spot.coordinator_x, spot.coordinator_y - 12, 9, 5);
-                            drawText(ctx, enemy_team.difficulty, spot.coordinator_x, spot.coordinator_y + 36, 9, 5);
                         }
+                        drawPower(ctx, spot.coordinator_x, spot.coordinator_y, enemy_team.difficulty, mission.difficulty, miscImgs[powerImgName]);
                     }
                 });
 
@@ -398,6 +400,36 @@ function drawBgImageHeler(ctx, bgImg, mission, x_src, y_src, x_scale, y_scale) {
     }
 }
 
+function drawPower(ctx, x0, y0, power, map_difficulty, powerImg) {
+    var x_off = 140;
+    var y_off = 50;
+    var w = 160;
+    var h = 27;
+    x0 = x0 + x_off - Math.floor(w / 2);
+    y0 = y0 + 50 - Math.floor(h / 2);
+    if (power <= map_difficulty * 0.5)
+        ctx.fillStyle = "white";
+    else if (power <= map_difficulty * 0.75)
+        ctx.fillStyle = "#FFCC00";
+    else if (power <= map_difficulty * 1)
+        ctx.fillStyle = "#FF6600";
+    else
+        ctx.fillStyle = "red";
+    ctx.lineWidth = 0;
+    ctx.beginPath();
+    ctx.moveTo(x0 + h, y0);
+    ctx.lineTo(x0, y0 + h);
+    ctx.lineTo(x0 + w, y0 + h);
+    ctx.lineTo(x0 + w + h, y0);
+    ctx.fill();
+    ctx.drawImage(powerImg, x0, y0);
+    ctx.font = "24px EnemyPower";
+    ctx.textAlign = "start";
+    ctx.fillStyle = "black";
+    ctx.fillText(power, x0 + 64, y0 + 22);
+
+}
+
 function drawText(ctx, text, x, y, width, blur) {
     ctx.shadowColor = "black";
     ctx.shadowBlur = blur;
@@ -413,7 +445,7 @@ function drawLine(ctx, x0, y0, x1, y1, number_of_ways) {
     ctx.shadowColor = "black";
     ctx.shadowBlur = 11;
     ctx.strokeStyle = "white";
-    ctx.lineWidth = 25
+    ctx.lineWidth = 25;
     ctx.setLineDash([75, 45]);
     ctx.beginPath();
     ctx.moveTo(x0, y0);

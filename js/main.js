@@ -18,7 +18,7 @@
             setup_page();
 
             $("#language").change(function () {
-                i18next.changeLanguage($("#language option:checked").val(), function (err, t) {
+                i18next.changeLanguage($("#language").val(), function (err, t) {
                     location.reload();
                 });
             });
@@ -88,7 +88,7 @@ function setup_page() {
 
         $("#campaign_select").change(function () {
             $("#map_select").empty();
-            var campaign_id = Number($("#campaign_select option:checked").val());
+            var campaign_id = Number($("#campaign_select").val());
             localStorage.setItem("campaign_select", campaign_id);
             $.each(campaign_info[campaign_id].mission_ids, function (index, mission_id) {
                 var mission = mission_info[mission_id];
@@ -103,7 +103,7 @@ function setup_page() {
 
         $("#map_select").change(function () {
             $("#map_table tbody").empty();
-            var mission_id = Number($("#map_select option:checked").val());
+            var mission_id = Number($("#map_select").val());
             localStorage.setItem("map_select", mission_id);
             $.each(mission_info[mission_id].enemy_team_count, function (enemy_team_id, enemy_team_count) {
                 var enemy_team = enemy_team_info[enemy_team_id];
@@ -155,7 +155,7 @@ function setup_page() {
 
         $("#team_select").change(function () {
             $("#team_table tbody").empty();
-            var team_id = Number($("#team_select option:checked").val());
+            var team_id = Number($("#team_select").val());
             localStorage.setItem("team_select", team_id);
             $.each(enemy_team_info[team_id].member_ids, function (index, member_id) {
                 var member = enemy_in_team_info[member_id];
@@ -219,7 +219,7 @@ function setup_page() {
 }
 
 function generateMap(mission_info, spot_info, enemy_team_info, enemy_character_type_info) {
-    var mission_id = Number($("#map_select option:checked").val());
+    var mission_id = Number($("#map_select").val());
     var mission = mission_info[mission_id];
 
     var canvas = document.getElementById("mission_map");

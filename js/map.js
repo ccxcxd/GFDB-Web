@@ -99,6 +99,7 @@
         var bgImg = imgLoader.imgs[map.mapImgName];
 
         // multiply night color
+        ctx.save();
         if (mission.special_type == 1)
             ctx.fillStyle = "#3B639F";
         else
@@ -117,7 +118,7 @@
         map.drawBgImageHelper(ctx, bgImg, mission, 1, 2, 1, -1);
         map.drawBgImageHelper(ctx, bgImg, mission, 2, 2, -1, -1);
 
-        ctx.globalCompositeOperation = "source-over";
+        ctx.restore();
 
         // draw spot connections
         $.each(mission.spot_ids, function (index, spot_id) {
@@ -192,6 +193,7 @@
     },
 
     drawConnectionLine: function (ctx, x0, y0, x1, y1, number_of_ways) {
+        ctx.save();
         ctx.shadowColor = "black";
         ctx.shadowBlur = 11;
         ctx.strokeStyle = "white";
@@ -215,7 +217,7 @@
             ctx.lineTo(x0 + dx * (0.5 - lenFactor) - dy * thickFactor, y0 + dy * (0.5 - lenFactor) + dx * thickFactor);
             ctx.fill();
         }
-        ctx.setLineDash([]);
+        ctx.restore();
     },
 
     drawFgImage: function () {
@@ -259,10 +261,27 @@
             var h = spineImg.naturalHeight;
             ctx.drawImage(spineImg, 0, 0, w, h, (x0 - w / 2) * scale, (y0 - h / 2) * scale, w * scale, h * scale);
         } else {
-            ctx.font = "bold 32px sans-serif";
-            ctx.textAlign = "center";
-            map.drawText(ctx, $.t(leader_info.name), x0 * scale, y0 * scale + 12, 9, 5);
+            map.drawSpineAlternativeText(ctx, x0, y0, $.t(leader_info.name));
         }
+    },
+
+    drawSpineAlternativeText: function (ctx, x0, y0, text) {
+        var scale = map.scale;
+        x0 = Math.floor(x0 * scale);
+        y0 = Math.floor(y0 * scale) + 12;
+
+        ctx.save();
+        ctx.font = "bold 32px sans-serif";
+        ctx.textAlign = "center";
+        ctx.shadowColor = "black";
+        ctx.shadowBlur = 5;
+        ctx.lineWidth = 9;
+        ctx.strokeStyle = "black";
+        ctx.strokeText(text, x0, y0);
+        ctx.shadowBlur = 0;
+        ctx.fillStyle = "white";
+        ctx.fillText(text, x0, y0);
+        ctx.restore();
     },
 
     drawEnemyPower: function(ctx, x0, y0, power, map_difficulty) {
@@ -273,6 +292,8 @@
         var h = 27;
         x0 = Math.floor((x0 + x_off - w / 2) * scale);
         y0 = Math.floor((y0 + y_off - h / 2) * scale);
+
+        ctx.save();
         if (power <= map_difficulty * 0.5)
             ctx.fillStyle = "white";
         else if (power <= map_difficulty * 0.75)
@@ -294,34 +315,24 @@
         ctx.textAlign = "start";
         ctx.fillStyle = "black";
         ctx.fillText(power, x0 + 64, y0 + 22);
-        ctx.globalAlpha = 1;
-    },
-
-    drawText: function (ctx, text, x, y, width, blur) {
-        ctx.shadowColor = "black";
-        ctx.shadowBlur = blur;
-        ctx.lineWidth = width;
-        ctx.strokeStyle = "black";
-        ctx.strokeText(text, x, y);
-        ctx.shadowBlur = 0;
-        ctx.fillStyle = "white";
-        ctx.fillText(text, x, y);
+        ctx.restore();
     },
 
     drawWatermark: function (ctx) {
+        ctx.save();
         ctx.font = "24px sans-serif";
         ctx.textAlign = "end";
+        ctx.globalAlpha = 0.8;
+        ctx.lineWidth = 3;
         map.drawWatermarkText(ctx, "http://underseaworld.net/gf/  ", ctx.canvas.width, ctx.canvas.height - 28);
         map.drawWatermarkText(ctx, $.t("about.image_copyright"), ctx.canvas.width, ctx.canvas.height - 4);
+        ctx.restore();
     },
 
     drawWatermarkText: function (ctx, text, x, y) {
-        ctx.globalAlpha = 0.8;
-        ctx.lineWidth = 3;
         ctx.strokeStyle = "black";
         ctx.strokeText(text, x, y);
         ctx.fillStyle = "white";
         ctx.fillText(text, x, y);
-        ctx.globalAlpha = 1;
     }
 };

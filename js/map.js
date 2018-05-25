@@ -259,9 +259,9 @@
             var h = spineImg.naturalHeight;
             ctx.drawImage(spineImg, 0, 0, w, h, (x0 - w / 2) * scale, (y0 - h / 2) * scale, w * scale, h * scale);
         } else {
-            ctx.font = "bold 48px sans-serif";
+            ctx.font = "bold 32px sans-serif";
             ctx.textAlign = "center";
-            map.drawText(ctx, $.t(leader_info.name), x0 * scale, y0 * scale - 12, 9, 5);
+            map.drawText(ctx, $.t(leader_info.name), x0 * scale, y0 * scale + 12, 9, 5);
         }
     },
 
@@ -271,8 +271,8 @@
         var y_off = 50;
         var w = 160;
         var h = 27;
-        x0 = (x0 + x_off - Math.floor(w / 2)) * scale;
-        y0 = (y0 + y_off - Math.floor(h / 2)) * scale;
+        x0 = Math.floor((x0 + x_off - w / 2) * scale);
+        y0 = Math.floor((y0 + y_off - h / 2) * scale);
         if (power <= map_difficulty * 0.5)
             ctx.fillStyle = "white";
         else if (power <= map_difficulty * 0.75)

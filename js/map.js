@@ -18,18 +18,20 @@
         map.bgCanvas = document.getElementById("map_canvas_bg");
         map.bgCtx = map.bgCanvas.getContext('2d');
         $("#map_canvas_fg").width("100%");
-        $("#map_canvas_bg").width("100%");
+        $("#map_canvas_bg").width("100%").hide();
     },
 
-    mission_id: 1,
+    missionId: 1,
+    mapImgName: null,
+    enemyPowerImgName: "images/misc/power.png",
 
     generate: function () {
-        map.mission_id = Number($("#map_select").val());
-        var mission = map.mission_info[map.mission_id];
+        map.missionId = Number($("#map_select").val());
+        var mission = map.mission_info[map.missionId];
 
         // load images
-        var mapImageName = "images/map/" + mission.map_res_name + ".png";
-        imgLoader.add(mapImageName);
+        map.mapImgName = "images/map/" + mission.map_res_name + ".png";
+        imgLoader.add(map.mapImgName);
         $.each(mission.spot_ids, function (index, spot_id) {
             var spot = map.spot_info[spot_id];
 
@@ -55,22 +57,22 @@
                 imgLoader.add(imagename2);
             }
         });
-        var enemyPowerImgName = "images/misc/power.png";
-        imgLoader.add(enemyPowerImgName);
+        imgLoader.add(map.enemyPowerImgName);
 
         // wait for all images loaded to avoid racing conditions in drawing
         imgLoader.onload(function () {
-            map.drawBgImage(mapImageName, enemyPowerImgName);
+            map.drawBgImage();
+            map.drawFgImage();
         });
     },
 
-    drawBgImage: function (mapImageName, enemyPowerImgName) {
-        var mission = map.mission_info[map.mission_id];
+    drawBgImage: function () {
+        var mission = map.mission_info[map.missionId];
         map.bgCanvas.width = Math.abs(mission.map_eff_width);
         map.bgCanvas.height = Math.abs(mission.map_eff_height);
 
         var ctx = map.bgCtx;
-        var bgImg = imgLoader.imgs[mapImageName];
+        var bgImg = imgLoader.imgs[map.mapImgName];
 
         // multiply night color
         if (mission.special_type == 1)
@@ -109,9 +111,23 @@
             var w = spotImg.naturalWidth;
             var h = spotImg.naturalHeight;
             ctx.drawImage(spotImg, spot.coordinator_x - w / 2, spot.coordinator_y - h / 2);
+        });
+    },
+
+    drawFgImage: function () {
+        var mission = map.mission_info[map.missionId];
+        map.fgCanvas.width = Math.abs(mission.map_eff_width);
+        map.fgCanvas.height = Math.abs(mission.map_eff_height);
+
+        var ctx = map.fgCtx;
+        ctx.drawImage(map.bgCanvas, 0, 0, map.bgCanvas.width, map.bgCanvas.height, 0, 0, ctx.canvas.width, ctx.canvas.height);
+
+        $.each(mission.spot_ids, function (index, spot_id) {
+            var spot = map.spot_info[spot_id];
             if (spot.enemy_team_id) {
                 var enemy_team = map.enemy_team_info[spot.enemy_team_id];
-                var spineImg = imgLoader.imgs[map.enemy_character_type_info[enemy_team.enemy_leader].imagename];
+                var leader_info = map.enemy_character_type_info[enemy_team.enemy_leader];
+                var spineImg = imgLoader.imgs[leader_info.imagename];
                 if (spineImg != null) {
                     var w2 = spineImg.naturalWidth;
                     var h2 = spineImg.naturalHeight;
@@ -119,9 +135,9 @@
                 } else {
                     ctx.font = "bold 48px sans-serif";
                     ctx.textAlign = "center";
-                    map.drawText(ctx, $.t(map.enemy_character_type_info[enemy_team.enemy_leader].name), spot.coordinator_x, spot.coordinator_y - 12, 9, 5);
+                    map.drawText(ctx, $.t(leader_info.name), spot.coordinator_x, spot.coordinator_y - 12, 9, 5);
                 }
-                map.drawEnemyPower(ctx, spot.coordinator_x, spot.coordinator_y, enemy_team.difficulty, mission.difficulty, imgLoader.imgs[enemyPowerImgName]);
+                map.drawEnemyPower(ctx, spot.coordinator_x, spot.coordinator_y, enemy_team.difficulty, mission.difficulty);
             }
         });
     },
@@ -206,7 +222,7 @@
         ctx.setLineDash([]);
     },
 
-    drawEnemyPower: function (ctx, x0, y0, power, map_difficulty, powerImg) {
+    drawEnemyPower: function (ctx, x0, y0, power, map_difficulty) {
         var x_off = 140;
         var y_off = 50;
         var w = 160;
@@ -228,7 +244,7 @@
         ctx.lineTo(x0 + w, y0 + h);
         ctx.lineTo(x0 + w + h, y0);
         ctx.fill();
-        ctx.drawImage(powerImg, x0, y0);
+        ctx.drawImage(imgLoader.imgs[map.enemyPowerImgName], x0, y0);
         ctx.font = "24px EnemyPower";
         ctx.textAlign = "start";
         ctx.fillStyle = "black";

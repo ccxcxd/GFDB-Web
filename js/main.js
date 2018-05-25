@@ -146,7 +146,7 @@ function setup_page() {
             if ($("#auto_generate_map_btn").hasClass("active")) {
                 map.generate();
             } else {
-                var canvas = document.getElementById("mission_map");
+                var canvas = document.getElementById("map_canvas_fg");
                 canvas.width = 0;
                 canvas.height = 0;
             }
@@ -195,7 +195,7 @@ function setup_page() {
         });
 
         $("#download_map_btn").click(function () {
-            document.getElementById("mission_map").toBlob(function (blob) {
+            document.getElementById("map_canvas_fg").toBlob(function (blob) {
                 window.open(URL.createObjectURL(blob), "_blank");
             }, "image/png");
         });

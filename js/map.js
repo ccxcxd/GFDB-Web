@@ -24,6 +24,7 @@
     missionId: 1,
     mapImgName: null,
     enemyPowerImgName: "images/misc/power.png",
+    scale: 1.0,
 
     generate: function () {
         map.missionId = Number($("#map_select").val());
@@ -62,8 +63,24 @@
         // wait for all images loaded to avoid racing conditions in drawing
         imgLoader.onload(function () {
             map.drawBgImage();
+
+            map.scale = map.fgCanvas.clientWidth / map.bgCanvas.width;
+            map.fgCanvas.width = map.bgCanvas.width * map.scale;
+            map.fgCanvas.height = map.bgCanvas.height * map.scale;
+
             map.drawFgImage();
         });
+    },
+
+    remove: function () {
+        map.fgCanvas.height = 0;
+        map.bgCanvas.height = 0;
+    },
+
+    download: function () {
+        map.fgCanvas.toBlob(function (blob) {
+            window.open(URL.createObjectURL(blob), "_blank");
+        }, "image/png");
     },
 
     drawBgImage: function () {
@@ -111,34 +128,6 @@
             var w = spotImg.naturalWidth;
             var h = spotImg.naturalHeight;
             ctx.drawImage(spotImg, spot.coordinator_x - w / 2, spot.coordinator_y - h / 2);
-        });
-    },
-
-    drawFgImage: function () {
-        var mission = map.mission_info[map.missionId];
-        map.fgCanvas.width = Math.abs(mission.map_eff_width);
-        map.fgCanvas.height = Math.abs(mission.map_eff_height);
-
-        var ctx = map.fgCtx;
-        ctx.drawImage(map.bgCanvas, 0, 0, map.bgCanvas.width, map.bgCanvas.height, 0, 0, ctx.canvas.width, ctx.canvas.height);
-
-        $.each(mission.spot_ids, function (index, spot_id) {
-            var spot = map.spot_info[spot_id];
-            if (spot.enemy_team_id) {
-                var enemy_team = map.enemy_team_info[spot.enemy_team_id];
-                var leader_info = map.enemy_character_type_info[enemy_team.enemy_leader];
-                var spineImg = imgLoader.imgs[leader_info.imagename];
-                if (spineImg != null) {
-                    var w2 = spineImg.naturalWidth;
-                    var h2 = spineImg.naturalHeight;
-                    ctx.drawImage(spineImg, spot.coordinator_x - w2 / 2, spot.coordinator_y - h2 / 2);
-                } else {
-                    ctx.font = "bold 48px sans-serif";
-                    ctx.textAlign = "center";
-                    map.drawText(ctx, $.t(leader_info.name), spot.coordinator_x, spot.coordinator_y - 12, 9, 5);
-                }
-                map.drawEnemyPower(ctx, spot.coordinator_x, spot.coordinator_y, enemy_team.difficulty, mission.difficulty);
-            }
         });
     },
 
@@ -222,13 +211,61 @@
         ctx.setLineDash([]);
     },
 
-    drawEnemyPower: function (ctx, x0, y0, power, map_difficulty) {
+    drawFgImage: function () {
+        var mission = map.mission_info[map.missionId];
+        var scale = map.scale;
+        var ctx = map.fgCtx;
+
+        ctx.drawImage(map.bgCanvas, 0, 0, map.bgCanvas.width, map.bgCanvas.height, 0, 0, map.bgCanvas.width * scale, map.bgCanvas.height * scale);
+
+        // draw spine first
+        $.each(mission.spot_ids, function (index, spot_id) {
+            var spot = map.spot_info[spot_id];
+            if (spot.enemy_team_id) {
+                var enemy_team = map.enemy_team_info[spot.enemy_team_id];
+                var x0 = spot.coordinator_x;
+                var y0 = spot.coordinator_y;
+                map.drawSpine(ctx, x0, y0, enemy_team);
+            }
+        });
+
+        // then power (can overlay on spine)
+        $.each(mission.spot_ids, function (index, spot_id) {
+            var spot = map.spot_info[spot_id];
+            if (spot.enemy_team_id) {
+                var enemy_team = map.enemy_team_info[spot.enemy_team_id];
+                var x0 = spot.coordinator_x;
+                var y0 = spot.coordinator_y;
+                map.drawEnemyPower(ctx, x0, y0, enemy_team.difficulty, mission.difficulty);
+            }
+        });
+
+        map.drawWatermark(ctx);
+    },
+
+    drawSpine: function (ctx, x0, y0, enemy_team) {
+        var scale = map.scale;
+        var leader_info = map.enemy_character_type_info[enemy_team.enemy_leader];
+        var spineImg = imgLoader.imgs[leader_info.imagename];
+        if (spineImg != null) {
+            var w = spineImg.naturalWidth;
+            var h = spineImg.naturalHeight;
+            ctx.drawImage(spineImg, 0, 0, w, h, (x0 - w / 2) * scale, (y0 - h / 2) * scale, w * scale, h * scale);
+        } else {
+            ctx.font = "bold 48px sans-serif";
+            ctx.textAlign = "center";
+            map.drawText(ctx, $.t(leader_info.name), x0 * scale, y0 * scale - 12, 9, 5);
+        }
+    },
+
+    drawEnemyPower: function(ctx, x0, y0, power, map_difficulty) {
+        var scale = map.scale;
         var x_off = 140;
         var y_off = 50;
         var w = 160;
         var h = 27;
-        x0 = x0 + x_off - Math.floor(w / 2);
-        y0 = y0 + 50 - Math.floor(h / 2);
+        x0 = (x0 + x_off - Math.floor(w / 2)) * scale;
+        y0 = (y0 + y_off - Math.floor(h / 2)) * scale;
         if (power <= map_difficulty * 0.5)
             ctx.fillStyle = "white";
         else if (power <= map_difficulty * 0.75)
@@ -237,6 +274,7 @@
             ctx.fillStyle = "#FF6600";
         else
             ctx.fillStyle = "red";
+        ctx.globalAlpha = 0.9;
         ctx.lineWidth = 0;
         ctx.beginPath();
         ctx.moveTo(x0 + h, y0);
@@ -249,6 +287,7 @@
         ctx.textAlign = "start";
         ctx.fillStyle = "black";
         ctx.fillText(power, x0 + 64, y0 + 22);
+        ctx.globalAlpha = 1;
     },
 
     drawText: function (ctx, text, x, y, width, blur) {
@@ -264,16 +303,18 @@
 
     drawWatermark: function (ctx) {
         ctx.font = "24px sans-serif";
-        ctx.textAlign = "start";
-        map.drawWatermarkText(ctx, "http://underseaworld.net/gf/", 0, ctx.canvas.height - 48);
-        map.drawWatermarkText(ctx, $.t("about.image_copyright"), 0, ctx.canvas.height - 24);
+        ctx.textAlign = "end";
+        map.drawWatermarkText(ctx, "http://underseaworld.net/gf/  ", ctx.canvas.width, ctx.canvas.height - 28);
+        map.drawWatermarkText(ctx, $.t("about.image_copyright"), ctx.canvas.width, ctx.canvas.height - 4);
     },
 
     drawWatermarkText: function (ctx, text, x, y) {
-        ctx.lineWidth = width;
+        ctx.globalAlpha = 0.8;
+        ctx.lineWidth = 3;
         ctx.strokeStyle = "black";
         ctx.strokeText(text, x, y);
         ctx.fillStyle = "white";
         ctx.fillText(text, x, y);
+        ctx.globalAlpha = 1;
     }
 };

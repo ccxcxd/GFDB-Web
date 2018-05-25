@@ -125,7 +125,7 @@ function setup_page() {
                 
 
                 $("<tr>").append(
-                    $("<td>").text(enemy_team_id).attr("data-team_id", ""),
+                    $("<td>").text(enemy_team_id).attr("data-team_id", enemy_team_id),
                     $("<td>").text($.t(enemy_character_type_info[enemy_team.enemy_leader].name)),
                     $("<td>").text(enemy_team.difficulty),
                     $("<td>").text(members),
@@ -139,8 +139,9 @@ function setup_page() {
                 $(".table-success").removeClass("table-success");
                 $(this).addClass("table-success");
                 var enemy_team_id = $("[data-team_id]", this).html();
-                $("#team_select").val(enemy_team_id);
-                $("#team_select").change();
+                if ($("#team_select").val() != enemy_team_id) {
+                    $("#team_select").val(enemy_team_id).change();
+                }
             });
 
             if ($("#auto_generate_map_btn").hasClass("active")) {
@@ -206,16 +207,20 @@ function setup_page() {
         }
 
         storage_val = Number(localStorage.getItem("campaign_select")) || 1;
-        $("#campaign_select").val(storage_val);
-        $("#campaign_select").change();
+        $("#campaign_select").val(storage_val).change();
 
         storage_val = Number(localStorage.getItem("map_select")) || 5;
-        $("#map_select").val(storage_val);
+        if ($("#map_select option[value=" + storage_val + "]").length > 0)
+            $("#map_select").val(storage_val);
         $("#map_select").change();
 
         storage_val = Number(localStorage.getItem("team_select")) || 1;
-        $("#team_select").val(storage_val);
-        $("#team_select").change();
+        var tmp = $("#map_table tbody td[data-team_id=" + storage_val + "]");
+        if (tmp.length > 0) {
+            tmp.parent().click();
+        } else {
+            $("#map_table tbody tr").first().click();
+        }
 
         var setup_done = true;
     });

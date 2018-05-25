@@ -202,15 +202,15 @@ function setup_page() {
             $("#auto_generate_map_btn").addClass("active");
         }
 
-        storage_val = Number(localStorage.getItem("campaign_select")) || 1;
+        storage_val = Number(loadStorageItem("campaign_select", 1));
         $("#campaign_select").val(storage_val).change();
 
-        storage_val = Number(localStorage.getItem("map_select")) || 5;
+        storage_val = Number(loadStorageItem("map_select", 5));
         if ($("#map_select option[value=" + storage_val + "]").length > 0)
             $("#map_select").val(storage_val);
         $("#map_select").change();
 
-        storage_val = Number(localStorage.getItem("team_select")) || 1;
+        storage_val = Number(loadStorageItem("team_select", 1));
         var tmp = $("#map_table tbody td[data-team_id=" + storage_val + "]");
         if (tmp.length > 0) {
             tmp.parent().click();
@@ -220,4 +220,12 @@ function setup_page() {
 
         var setup_done = true;
     });
+}
+
+function loadStorageItem(itemName, defaultValue) {
+    var storage_val = localStorage.getItem(itemName);
+    if (storage_val == null)
+        return defaultValue;
+    else
+        return storage_val;
 }

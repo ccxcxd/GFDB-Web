@@ -60,6 +60,13 @@
         });
         imgLoader.add(map.enemyPowerImgName);
 
+        // load font
+        var d = $.Deferred();
+        document.fonts.load("10pt EnemyPower").then(function () {
+            d.resolve();
+        });
+        imgLoader.loaders.push(d.promise());
+
         // wait for all images loaded to avoid racing conditions in drawing
         imgLoader.onload(function () {
             map.drawBgImage();

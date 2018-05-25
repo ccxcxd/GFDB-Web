@@ -14,6 +14,8 @@
     <script src="https://cdn.bootcss.com/tablesort/5.0.2/tablesort.min.js"></script>
     <script src="https://cdn.bootcss.com/tablesort/5.0.2/sorts/tablesort.number.min.js"></script>
     <script src="https://cdn.bootcss.com/javascript-canvas-to-blob/3.14.0/js/canvas-to-blob.js"></script>
+    <script src="js/utils.js"></script>
+    <script src="js/map.js"></script>
     <script src="js/main.js"></script>
 </head>
 <body>
@@ -29,7 +31,10 @@
             <select id="map_select" class="col-sm custom-select"></select>
         </div>
         <div>
-            <canvas id="mission_map" width="0" height="0"></canvas>
+            <canvas id="map_canvas_fg" width="0" height="0"></canvas>
+        </div>
+        <div>
+            <canvas id="map_canvas_bg" width="0" height="0"></canvas>
         </div>
         <div>
             <div class="btn-group" role="group">

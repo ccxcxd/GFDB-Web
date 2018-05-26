@@ -15,7 +15,8 @@
 		"difficulty": "Effectiveness",
 		"members": "Members",
 		"count": "Count",
-		"drop": "Limited drop (for ref. only)"
+		"drop": "Limited drop (for ref. only)",
+		"warning": "Remarks: The map and the following table only show enemies with fixed starting position. Enemies that have random starting position, or appear later in the game normally will not be shown here. They can be viewed by manually change the Enemy Team ID in the box below."
 	},
 	"spot_img": {
 		"spot1": "spot1US",

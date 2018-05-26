@@ -19,18 +19,105 @@
         map.bgCtx = map.bgCanvas.getContext('2d');
         $("#map_canvas_fg").width("100%");
         $("#map_canvas_bg").width("100%").hide();
+
+        var canvas = map.fgCanvas;
+        var lastX, lastY;
+        var dragged = false;
+        var mousedowned = false;
+        canvas.addEventListener('mousedown', function (evt) {
+            document.body.style.mozUserSelect = document.body.style.webkitUserSelect = document.body.style.userSelect = 'none';
+            lastX = evt.offsetX || (evt.pageX - canvas.offsetLeft);
+            lastY = evt.offsetY || (evt.pageY - canvas.offsetTop);
+            mousedowned = true;
+        }, false);
+
+        canvas.addEventListener('mousemove', function (evt) {
+            if (mousedowned) {
+                var x = evt.offsetX || (evt.pageX - canvas.offsetLeft);
+                var y = evt.offsetY || (evt.pageY - canvas.offsetTop);
+                var dx = map.dx + (x - lastX) / map.scale;
+                var dy = map.dy + (y - lastY) / map.scale;
+                if (map.applyTranslation(dx, dy))
+                    map.drawFgImage();
+                lastX = x;
+                lastY = y;
+            }
+        }, false);
+
+        canvas.addEventListener('mouseup', function (evt) {
+            mousedowned = false;
+        }, false);
+
+        canvas.addEventListener('wheel', function (evt) {
+            var delta = Math.sign(evt.deltaX + evt.deltaY);
+            var x = evt.offsetX || (evt.pageX - canvas.offsetLeft);
+            var y = evt.offsetY || (evt.pageY - canvas.offsetTop);
+            if (delta != 0) {
+                var scale = map.scale / Math.pow(1.1, delta);
+                if (map.applyScale(scale, x, y))
+                    map.drawFgImage();
+                evt.preventDefault();
+            }
+        }, false);
     },
 
+    show: false,
     missionId: 1,
     mapImgName: null,
     enemyPowerImgName: "images/misc/power.png",
-    scale: 1.0,
+    displayWidth: 0,    // fg_x max
+    displayHeight: 0,   // fg_y max
+    width: 0,           // bg_x max
+    height: 0,          // bg_y max
+    dx: 0,              // bg_x offset
+    dy: 0,              // bg_y offset
+    scale: 1.0,         // = fg_xy / bg_xy
+    scaleMin: 1.0,
 
     generate: function () {
+        map.show = true;
         map.missionId = Number($("#map_select").val());
-        var mission = map.mission_info[map.missionId];
+        map.preloadResources();
 
+        // wait for all resources loaded to avoid racing conditions in drawing
+        imgLoader.onload(function () {
+            var mission = map.mission_info[map.missionId];
+            map.width = Math.abs(mission.map_eff_width);
+            map.height = Math.abs(mission.map_eff_height);
+            map.bgCanvas.width = map.width;
+            map.bgCanvas.height = map.height;
+
+            map.drawBgImage();
+
+            map.scaleMin = map.fgCanvas.clientWidth / map.width;
+            map.displayWidth = map.width * map.scaleMin;
+            map.displayHeight = map.height * map.scaleMin;
+            map.fgCanvas.width = map.displayWidth;
+            map.fgCanvas.height = map.displayHeight;
+            map.setStartingPosition();
+
+            map.drawFgImage();
+        });
+    },
+
+    remove: function () {
+        map.show = false;
+        map.fgCanvas.height = 0;
+        map.bgCanvas.height = 0;
+    },
+
+    download: function () {
+        if (!map.show)
+            return;
+
+        map.fgCanvas.toBlob(function (blob) {
+            window.open(URL.createObjectURL(blob), "_blank");
+        }, "image/png");
+    },
+
+    preloadResources: function () {
         // load images
+        var mission = map.mission_info[map.missionId];
         map.mapImgName = "images/map/" + mission.map_res_name + ".png";
         imgLoader.add(map.mapImgName);
         $.each(mission.spot_ids, function (index, spot_id) {
@@ -66,37 +153,12 @@
             d.resolve();
         });
         imgLoader.loaders.push(d.promise());
-
-        // wait for all images loaded to avoid racing conditions in drawing
-        imgLoader.onload(function () {
-            map.drawBgImage();
-
-            map.scale = map.fgCanvas.clientWidth / map.bgCanvas.width;
-            map.fgCanvas.width = map.bgCanvas.width * map.scale;
-            map.fgCanvas.height = map.bgCanvas.height * map.scale;
-
-            map.drawFgImage();
-        });
-    },
-
-    remove: function () {
-        map.fgCanvas.height = 0;
-        map.bgCanvas.height = 0;
-    },
-
-    download: function () {
-        map.fgCanvas.toBlob(function (blob) {
-            window.open(URL.createObjectURL(blob), "_blank");
-        }, "image/png");
     },
 
     drawBgImage: function () {
-        var mission = map.mission_info[map.missionId];
-        map.bgCanvas.width = Math.abs(mission.map_eff_width);
-        map.bgCanvas.height = Math.abs(mission.map_eff_height);
-
         var ctx = map.bgCtx;
         var bgImg = imgLoader.imgs[map.mapImgName];
+        var mission = map.mission_info[map.missionId];
 
         // multiply night color
         ctx.save();
@@ -221,11 +283,17 @@
     },
 
     drawFgImage: function () {
+        if (!map.show)
+            return;
+
         var mission = map.mission_info[map.missionId];
         var scale = map.scale;
         var ctx = map.fgCtx;
 
-        ctx.drawImage(map.bgCanvas, 0, 0, map.bgCanvas.width, map.bgCanvas.height, 0, 0, map.bgCanvas.width * scale, map.bgCanvas.height * scale);
+        ctx.clearRect(0, 0, map.displayWidth, map.displayHeight);
+
+        ctx.drawImage(map.bgCanvas, 0, 0, map.width, map.height,
+            map.dx * scale, map.dy * scale, map.width * scale, map.height * scale);
 
         // draw spine first
         $.each(mission.spot_ids, function (index, spot_id) {
@@ -253,22 +321,21 @@
     },
 
     drawSpine: function (ctx, x0, y0, enemy_team) {
-        var scale = map.scale;
         var leader_info = map.enemy_character_type_info[enemy_team.enemy_leader];
         var spineImg = imgLoader.imgs[leader_info.imagename];
         if (spineImg != null) {
             var w = spineImg.naturalWidth;
             var h = spineImg.naturalHeight;
-            ctx.drawImage(spineImg, 0, 0, w, h, (x0 - w / 2) * scale, (y0 - h / 2) * scale, w * scale, h * scale);
+            var scale = map.scale;
+            ctx.drawImage(spineImg, 0, 0, w, h, (x0 - w / 2 + map.dx) * scale, (y0 - h / 2 + map.dy) * scale, w * scale, h * scale);
         } else {
             map.drawSpineAlternativeText(ctx, x0, y0, $.t(leader_info.name));
         }
     },
 
     drawSpineAlternativeText: function (ctx, x0, y0, text) {
-        var scale = map.scale;
-        x0 = Math.floor(x0 * scale);
-        y0 = Math.floor(y0 * scale) + 12;
+        x0 = Math.floor((x0 + map.dx) * map.scale);
+        y0 = Math.floor((y0 + map.dy) * map.scale) + 12;
 
         ctx.save();
         ctx.font = "bold 32px sans-serif";
@@ -284,14 +351,17 @@
         ctx.restore();
     },
 
-    drawEnemyPower: function(ctx, x0, y0, power, map_difficulty) {
-        var scale = map.scale;
-        var x_off = 140;
+    drawEnemyPower: function (ctx, x0, y0, power, map_difficulty) {
+        var img = imgLoader.imgs[map.enemyPowerImgName];
+        var imgW = img.naturalWidth;
+        var imgH = img.naturalHeight;
+        var scale = 0.6;
+        var x_off = 110;
         var y_off = 50;
-        var w = 160;
-        var h = 27;
-        x0 = Math.floor((x0 + x_off - w / 2) * scale);
-        y0 = Math.floor((y0 + y_off - h / 2) * scale);
+        var w = Math.floor(160 * scale);
+        var h = Math.floor(imgH * scale);
+        x0 = Math.floor((x0 + x_off - w / 2 + map.dx) * map.scale);
+        y0 = Math.floor((y0 + y_off - h / 2 + map.dy) * map.scale);
 
         ctx.save();
         if (power <= map_difficulty * 0.5)
@@ -310,11 +380,11 @@
         ctx.lineTo(x0 + w, y0 + h);
         ctx.lineTo(x0 + w + h, y0);
         ctx.fill();
-        ctx.drawImage(imgLoader.imgs[map.enemyPowerImgName], x0, y0);
-        ctx.font = "24px EnemyPower";
+        ctx.drawImage(img, 0, 0, imgW, imgH, x0, y0, Math.floor(imgW * scale), h);
+        ctx.font = Math.floor(24 * scale) + "px EnemyPower";
         ctx.textAlign = "start";
         ctx.fillStyle = "black";
-        ctx.fillText(power, x0 + 64, y0 + 22);
+        ctx.fillText(power, x0 + 65 * scale, y0 + h * 0.8);
         ctx.restore();
     },
 
@@ -334,5 +404,65 @@
         ctx.strokeText(text, x, y);
         ctx.fillStyle = "white";
         ctx.fillText(text, x, y);
+    },
+
+    applyTranslation: function (dx, dy) {
+        dx = Math.min(dx, 0);
+        dx = Math.max(dx, map.displayWidth / map.scale - map.width);
+        dy = Math.min(dy, 0);
+        dy = Math.max(dy, map.displayHeight / map.scale - map.height);
+        if (dx == map.dx && dy == map.dy)
+            return false;
+
+        map.dx = dx;
+        map.dy = dy;
+        return true;
+    },
+
+    applyScale: function (scale, x, y) {
+        scale = Math.min(scale, 1);
+        scale = Math.max(scale, map.scaleMin);
+        if (scale == map.scale)
+            return false;
+
+        var dx = map.dx + x / scale - x / map.scale;
+        var dy = map.dy + y / scale - y / map.scale;
+        map.scale = scale;
+        map.applyTranslation(dx, dy);
+        return true;
+    },
+
+    setStartingPosition: function () {
+        var margin = 250;
+
+        // initial value
+        map.scale = map.scaleMin;
+        map.dx = 0;
+        map.dy = 0;
+
+        // find the useful area
+        var xMin = map.width;
+        var xMax = 0;
+        var yMin = map.height;
+        var yMax = 0;
+        var mission = map.mission_info[map.missionId];
+        $.each(mission.spot_ids, function (index, spot_id) {
+            var spot = map.spot_info[spot_id];
+            xMin = Math.min(xMin, spot.coordinator_x);
+            xMax = Math.max(xMax, spot.coordinator_x);
+            yMin = Math.min(yMin, spot.coordinator_y);
+            yMax = Math.max(yMax, spot.coordinator_y);
+        });
+        // add some margin
+        xMin = Math.max(xMin - margin, 0);
+        xMax = Math.min(xMax + margin, map.width);
+        yMin = Math.max(yMin - margin, 0);
+        yMax = Math.min(yMax + margin, map.height);
+
+        // apply scaling & translation
+        var w = xMax - xMin;
+        var h = yMax - yMin;
+        map.applyScale(Math.min(map.displayWidth / w, map.displayHeight / h), 0, 0);
+        map.applyTranslation(-xMin, -yMin);
     }
 };

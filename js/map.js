@@ -355,7 +355,7 @@
         var img = imgLoader.imgs[map.enemyPowerImgName];
         var imgW = img.naturalWidth;
         var imgH = img.naturalHeight;
-        var scale = 0.6;
+        var scale = Math.max(map.scale, 0.6);
         var x_off = 110;
         var y_off = 50;
         var w = Math.floor(160 * scale);
@@ -394,8 +394,7 @@
         ctx.textAlign = "end";
         ctx.globalAlpha = 0.8;
         ctx.lineWidth = 3;
-        map.drawWatermarkText(ctx, "http://underseaworld.net/gf/  ", ctx.canvas.width, ctx.canvas.height - 28);
-        map.drawWatermarkText(ctx, $.t("about.image_copyright"), ctx.canvas.width, ctx.canvas.height - 4);
+        map.drawWatermarkText(ctx, "http://underseaworld.net/gf/", ctx.canvas.width, ctx.canvas.height - 6);
         ctx.restore();
     },
 

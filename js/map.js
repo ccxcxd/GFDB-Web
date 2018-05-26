@@ -394,7 +394,7 @@
         ctx.textAlign = "end";
         ctx.globalAlpha = 0.8;
         ctx.lineWidth = 3;
-        map.drawWatermarkText(ctx, "http://underseaworld.net/gf/", ctx.canvas.width, ctx.canvas.height - 6);
+        map.drawWatermarkText(ctx, "http://underseaworld.net/gf/", ctx.canvas.width - 6, ctx.canvas.height - 8);
         ctx.restore();
     },
 

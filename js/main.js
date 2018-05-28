@@ -36,7 +36,7 @@ function setup_page() {
     var team_tbl_sort = new Tablesort(document.getElementById("team_table"));
 
     var mission_info, spot_info, enemy_team_info, enemy_in_team_info;
-    var enemy_character_type_info, campaign_info;
+    var enemy_character_type_info, campaign_info, gun_info;
     $.when(
         $.getJSON("jsons/mission_info.json", function (data) {
             mission_info = data;
@@ -55,9 +55,12 @@ function setup_page() {
         }),
         $.getJSON("jsons/campaign_info.json", function (data) {
             campaign_info = data;
+        }),
+        $.getJSON("jsons/gun_info.json", function (data) {
+            gun_info = data;
         })
     ).then(function () {
-        map.init(mission_info, spot_info, enemy_team_info, enemy_character_type_info);
+        map.init(mission_info, spot_info, enemy_team_info, enemy_character_type_info, gun_info);
 
         $.each(campaign_info, function (id, campaign) {
             var type_text;

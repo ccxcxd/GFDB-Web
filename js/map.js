@@ -3,16 +3,18 @@
     spot_info: null,
     enemy_team_info: null,
     enemy_character_type_info: null,
+    gun_info: null,
     fgCanvas: null,
     fgCtx: null,
     bgCanvas: null,
     bgCtx: null,
 
-    init: function (mission_info, spot_info, enemy_team_info, enemy_character_type_info) {
+    init: function (mission_info, spot_info, enemy_team_info, enemy_character_type_info, gun_info) {
         map.mission_info = mission_info;
         map.spot_info = spot_info;
         map.enemy_team_info = enemy_team_info;
         map.enemy_character_type_info = enemy_character_type_info;
+        map.gun_info = gun_info;
         map.fgCanvas = document.getElementById("map_canvas_fg");
         map.fgCtx = map.fgCanvas.getContext('2d');
         map.bgCanvas = document.getElementById("map_canvas_bg");
@@ -65,6 +67,7 @@
     missionId: 1,
     mapImgName: null,
     enemyPowerImgName: "images/misc/power.png",
+    friendStatsImgName: "images/misc/friendstats.png",
     displayWidth: 0,    // fg_x max
     displayHeight: 0,   // fg_y max
     width: 0,           // bg_x max
@@ -144,8 +147,15 @@
                 leader_info.imagename = imagename2;
                 imgLoader.add(imagename2);
             }
+            if (spot.hostage_info != "") {
+                var gun = map.gun_info[spot.hostage_info.split(",")[0]];
+                var imagename2 = "images/spine/" + gun.code + ".png";
+                gun.imagename = imagename2;
+                imgLoader.add(imagename2);
+            }
         });
         imgLoader.add(map.enemyPowerImgName);
+        imgLoader.add(map.friendStatsImgName);
 
         // load font
         var d = $.Deferred();
@@ -300,9 +310,21 @@
             var spot = map.spot_info[spot_id];
             if (spot.enemy_team_id) {
                 var enemy_team = map.enemy_team_info[spot.enemy_team_id];
+                var leader_info = map.enemy_character_type_info[enemy_team.enemy_leader];
                 var x0 = spot.coordinator_x;
                 var y0 = spot.coordinator_y;
-                map.drawSpine(ctx, x0, y0, enemy_team);
+                map.drawSpine(ctx, x0, y0, leader_info.imagename, $.t(leader_info.name));
+            }
+            if (spot.hostage_info != "") {
+                var s = spot.hostage_info.split(",");
+                var gun = map.gun_info[s[0]];
+                var hp = s[1];
+                var x0 = spot.coordinator_x;
+                var y0 = spot.coordinator_y;
+                map.drawSpine(ctx, x0, y0, gun.imagename, $.t(gun.name));
+
+                var power = Math.floor(0.15 * mission.difficulty * hp);
+                map.drawFriendStats(ctx, x0, y0, $.t("config.30135"), "#FF4D00", $.t("config.30136"), "#DDDDDD", power, hp, "hostage", "#676767");
             }
         });
 
@@ -320,26 +342,26 @@
         map.drawWatermark(ctx);
     },
 
-    drawSpine: function (ctx, x0, y0, enemy_team) {
-        var leader_info = map.enemy_character_type_info[enemy_team.enemy_leader];
-        var spineImg = imgLoader.imgs[leader_info.imagename];
+    drawSpine: function (ctx, x0, y0, imagename, alternativeText) {
+        var spineImg = imgLoader.imgs[imagename];
         if (spineImg != null) {
             var w = spineImg.naturalWidth;
             var h = spineImg.naturalHeight;
             var scale = map.scale;
             ctx.drawImage(spineImg, 0, 0, w, h, (x0 - w / 2 + map.dx) * scale, (y0 - h / 2 + map.dy) * scale, w * scale, h * scale);
         } else {
-            map.drawSpineAlternativeText(ctx, x0, y0, $.t(leader_info.name));
+            map.drawSpineAlternativeText(ctx, x0, y0, alternativeText);
         }
     },
 
     drawSpineAlternativeText: function (ctx, x0, y0, text) {
         x0 = Math.floor((x0 + map.dx) * map.scale);
-        y0 = Math.floor((y0 + map.dy) * map.scale) + 12;
+        y0 = Math.floor((y0 + map.dy) * map.scale);
 
         ctx.save();
-        ctx.font = "bold 32px sans-serif";
+        ctx.font = "bold 32px " + $.t("font.sans-serif");
         ctx.textAlign = "center";
+        ctx.textBaseline = "middle";
         ctx.shadowColor = "black";
         ctx.shadowBlur = 5;
         ctx.lineWidth = 9;
@@ -374,27 +396,93 @@
             ctx.fillStyle = "red";
         ctx.globalAlpha = 0.9;
         ctx.lineWidth = 0;
+        map.drawParallelogram(ctx, x0, y0, w, h);
+        ctx.drawImage(img, 0, 0, imgW, imgH, x0, y0, Math.floor(imgW * scale), h);
+        ctx.font = Math.floor(24 * scale) + "px EnemyPower";
+        ctx.textAlign = "start";
+        ctx.textBaseline = "middle";
+        ctx.fillStyle = "black";
+        ctx.fillText(power, x0 + 65 * scale, y0 + h / 2);
+        ctx.restore();
+    },
+
+    drawFriendStats: function (ctx, x0, y0, name, nameColor, order, orderColor, power, hp, hpType, hpColor) {
+        var img = imgLoader.imgs[map.friendStatsImgName];
+        var imgW = img.naturalWidth;
+        var imgH = img.naturalHeight;
+        var scale = Math.max(map.scale, 0.6);
+        var x_off = 65;
+        var y_off = 40;
+        x0 = Math.floor((x0 + x_off + map.dx) * map.scale);
+        y0 = Math.floor((y0 + map.dy) * map.scale - (y_off + imgH)  * scale);
+
+        ctx.save();
+        ctx.globalAlpha = 0.9;
+        ctx.drawImage(img, 0, 0, imgW, imgH, x0, y0, Math.floor(imgW * scale), Math.floor(imgH * scale));
+        if (hpType == "hostage") {
+            var hpMax = Math.max(hp, 5);
+            var wBar = Math.floor(217 / hpMax) - 1;
+            var xCur = x0 + 22 * scale;
+            for (var i = 0; i < hpMax; i++) {
+                if (i < hp)
+                    ctx.fillStyle = orderColor;
+                else
+                    ctx.fillStyle = hpColor;
+                map.drawParallelogram(ctx, xCur, y0 + 2 * scale, wBar * scale, 9 * scale);
+                xCur += wBar * scale + 1;
+            }
+        }
+        ctx.textAlign = "start";
+        ctx.textBaseline = "middle";
+        ctx.font = "bold " + Math.floor(36 * scale) + "px " + $.t("font.serif");
+        ctx.fillStyle = nameColor;
+        ctx.fillText(name, x0 + 4 * scale, y0 + 39 * scale);
+        if (order != "") {
+            var x1 = x0 + 187 * scale;
+            var y1 = y0 + 26 * scale;
+            var w = 60 * scale;
+            var h = 46 * scale;
+            // order pad should also has transparency, but for the way we draw things, have to set alpha to 1
+            ctx.save();
+            ctx.globalAlpha = 1;
+            ctx.fillStyle = orderColor;
+            ctx.beginPath();
+            ctx.moveTo(x1, y1);
+            ctx.lineTo(x1 + w, y1);
+            ctx.arc(x1 + w, y1 + h / 2, h / 2, 1.5 * Math.PI, 0.5 * Math.PI);
+            ctx.lineTo(x1, y1 + h);
+            ctx.arc(x1, y1 + h / 2, h / 2, 0.5 * Math.PI, 1.5 * Math.PI);
+            ctx.fill();
+            ctx.font = Math.floor(36 * scale) + "px " + $.t("font.sans-serif");
+            ctx.textAlign = "center";
+            ctx.fillStyle = "black";
+            ctx.fillText(order, x1 + w / 2, y1 + h / 2);
+            ctx.restore();
+        }
+        ctx.font = Math.floor(20 * scale) + "px EnemyPower";
+        ctx.textAlign = "start";
+        ctx.fillStyle = "white";
+        ctx.fillText(power, x0 + 45 * scale, y0 + 68 * scale);
+        ctx.restore();
+    },
+
+    drawParallelogram: function (ctx, x0, y0, w, h) {
         ctx.beginPath();
         ctx.moveTo(x0 + h, y0);
         ctx.lineTo(x0, y0 + h);
         ctx.lineTo(x0 + w, y0 + h);
         ctx.lineTo(x0 + w + h, y0);
         ctx.fill();
-        ctx.drawImage(img, 0, 0, imgW, imgH, x0, y0, Math.floor(imgW * scale), h);
-        ctx.font = Math.floor(24 * scale) + "px EnemyPower";
-        ctx.textAlign = "start";
-        ctx.fillStyle = "black";
-        ctx.fillText(power, x0 + 65 * scale, y0 + h * 0.8);
-        ctx.restore();
     },
 
     drawWatermark: function (ctx) {
         ctx.save();
         ctx.font = "24px sans-serif";
         ctx.textAlign = "end";
+        ctx.textBaseline = "bottom";
         ctx.globalAlpha = 0.8;
         ctx.lineWidth = 3;
-        map.drawWatermarkText(ctx, "http://underseaworld.net/gf/", ctx.canvas.width - 6, ctx.canvas.height - 8);
+        map.drawWatermarkText(ctx, "http://underseaworld.net/gf/", ctx.canvas.width - 6, ctx.canvas.height - 2);
         ctx.restore();
     },
 

@@ -1,5 +1,9 @@
 {
 	"title": "少女前线敌方数据",
+	"font": {
+		"serif": "bold SimSun",
+		"sans-serif": "SimHei"
+	},
 	"map_sel": {
 		"label": "选择地图："
 	},
@@ -84,6 +88,10 @@
 		"houkai": "独法师",
 		"singularity": "坍缩点",
 		"djmax": "荣耀日"
+	},
+	"config": {
+		"30135": "等待救援",
+		"30136": "离线"
 	},
 	"enemy_char_name": {
 		"9999": "",

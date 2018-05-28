@@ -269,25 +269,38 @@
         ctx.shadowColor = "black";
         ctx.shadowBlur = 11;
         ctx.strokeStyle = "white";
-        ctx.lineWidth = 25;
-        ctx.setLineDash([75, 45]);
-        ctx.beginPath();
-        ctx.moveTo(x0, y0);
-        ctx.lineTo(x1, y1);
-        ctx.stroke();
-        ctx.shadowBlur = 0;
-        if (number_of_ways == 1) {
+        ctx.fillStyle = "white";
+        if (number_of_ways == 2) {
+            ctx.lineWidth = 25;
+            ctx.setLineDash([75, 45]);
+            ctx.beginPath();
+            ctx.moveTo(x0, y0);
+            ctx.lineTo(x1, y1);
+            ctx.stroke();
+        } else if (number_of_ways == 1) {
             var dx = x1 - x0;
             var dy = y1 - y0;
-            var thickFactor = 50 / Math.sqrt(dx * dx + dy * dy);
-            var lenFactor = 0.15;
-            ctx.lineWidth = 1
-            ctx.fillStyle = "green";
+            var dd = Math.sqrt(dx * dx + dy * dy);
+            var w = 15; // width / 2
+            var l = 30; // length
+            var t = 30; // thickness
+            ctx.lineWidth = 0;
+            for (var ll = 0; ll < dd; ll += l * 2) {
+                ctx.beginPath();
+                ctx.moveTo(x0 + ll * dx / dd + w * dy / dd, y0 + ll * dy / dd - w * dx / dd);
+                ctx.lineTo(x0 + (ll + t) * dx / dd + w * dy / dd, y0 + (ll + t) * dy / dd - w * dx / dd);
+                ctx.lineTo(x0 + (ll + t + l) * dx / dd, y0 + (ll + t + l) * dy / dd);
+                ctx.lineTo(x0 + (ll + t) * dx / dd - w * dy / dd, y0 + (ll + t) * dy / dd + w * dx / dd);
+                ctx.lineTo(x0 + ll * dx / dd - w * dy / dd, y0 + ll * dy / dd + w * dx / dd);
+                ctx.lineTo(x0 + (ll + l) * dx / dd, y0 + (ll + l) * dy / dd);
+                ctx.fill();
+            }
+        } else {
+            ctx.lineWidth = 25;
             ctx.beginPath();
-            ctx.moveTo(x0 + dx * (0.5 - lenFactor) + dy * thickFactor, y0 + dy * (0.5 - lenFactor) - dx * thickFactor);
-            ctx.lineTo(x0 + dx * (0.5 + lenFactor), y0 + dy * (0.5 + lenFactor));
-            ctx.lineTo(x0 + dx * (0.5 - lenFactor) - dy * thickFactor, y0 + dy * (0.5 - lenFactor) + dx * thickFactor);
-            ctx.fill();
+            ctx.moveTo(x0, y0);
+            ctx.lineTo(x1, y1);
+            ctx.stroke();
         }
         ctx.restore();
     },

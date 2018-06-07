@@ -10,8 +10,9 @@
 	"mission_map": {
 		"generate": "Generate map",
 		"auto_generate": "Auto-",
-		"download": "Open original image",
-		"description": "Check \"Auto\" can automatically generate map after you change selection. Remarks: \"Open original image\" only supported by Chrome and FireFox, and it takes time to open."
+		"download": "Download Current Map",
+		"download_full": "Download Full Map",
+		"description": "Check \"Auto\" can automatically generate map after you change selection."
 	},
 	"map_tbl": {
 		"id": "ID",

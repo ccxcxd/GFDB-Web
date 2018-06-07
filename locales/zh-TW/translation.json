@@ -10,8 +10,9 @@
 	"mission_map": {
 		"generate": "生成地圖",
 		"auto_generate": "自動",
-		"download": "查看原圖",
-		"description": "點擊“自動”可以自動生成地圖。註意：“查看原圖”目前只支持Chrome和FireFox，並且比較花時間。"
+		"download": "下載當前地圖",
+		"download_full": "下載完整地圖",
+		"description": "點擊“自動”可以自動生成地圖。"
 	},
 	"map_tbl": {
 		"id": "編號",

@@ -203,6 +203,10 @@ function setup_page() {
             map.download();
         });
 
+        $("#download_full_map_btn").click(function () {
+            map.downloadFullMap();
+        });
+
         var storage_val = localStorage.getItem("auto_generate_map") === "true";
         if (storage_val) {
             $("#auto_generate_map_btn").addClass("active");

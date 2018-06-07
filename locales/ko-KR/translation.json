@@ -10,8 +10,9 @@
 	"mission_map": {
 		"generate": "생성",
 		"auto_generate": "자동",
-		"download": "원본 이미지 보기",
-		"description": "지도를 자동으로 생성하려면 “자동”을 클릭하십시오. 참고: “원본 이미지 보기”는 현재 Chrome과 FireFox만 지원하며, 비교적 시간이 걸릴 수 있습니다."
+		"download": "현재 지도 다운로드",
+		"download_full": "전체 지도 다운로드",
+		"description": "지도를 자동으로 생성하려면 “자동”을 클릭하십시오."
 	},
 	"map_tbl": {
 		"id": "번호",

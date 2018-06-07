@@ -6,9 +6,8 @@
     gun_info: null,
     ally_team_info: null,
     fgCanvas: null,
-    fgCtx: null,
     bgCanvas: null,
-    bgCtx: null,
+    tmpCanvas: null,
 
     init: function (mission_info, spot_info, enemy_team_info, enemy_character_type_info, gun_info, ally_team_info) {
         map.mission_info = mission_info;
@@ -18,11 +17,11 @@
         map.gun_info = gun_info;
         map.ally_team_info = ally_team_info;
         map.fgCanvas = document.getElementById("map_canvas_fg");
-        map.fgCtx = map.fgCanvas.getContext('2d');
         map.bgCanvas = document.getElementById("map_canvas_bg");
-        map.bgCtx = map.bgCanvas.getContext('2d');
+        map.tmpCanvas = document.getElementById("map_canvas_tmp");
         $("#map_canvas_fg").width("100%");
         $("#map_canvas_bg").width("100%").hide();
+        $("#map_canvas_tmp").width("100%").hide();
 
         var canvas = map.fgCanvas;
         var lastX, lastY;
@@ -42,7 +41,7 @@
                 var dx = map.dx + (x - lastX) / map.scale;
                 var dy = map.dy + (y - lastY) / map.scale;
                 if (map.applyTranslation(dx, dy))
-                    map.drawFgImage();
+                    map.drawFgImage(canvas);
                 lastX = x;
                 lastY = y;
             }
@@ -59,7 +58,7 @@
             if (delta != 0) {
                 var scale = map.scale / Math.pow(1.1, delta);
                 if (map.applyScale(scale, x, y))
-                    map.drawFgImage();
+                    map.drawFgImage(canvas);
                 evt.preventDefault();
             }
         }, false);
@@ -92,7 +91,7 @@
             map.bgCanvas.width = map.width;
             map.bgCanvas.height = map.height;
 
-            map.drawBgImage();
+            map.drawBgImage(map.bgCanvas);
 
             map.scaleMin = map.fgCanvas.clientWidth / map.width;
             map.displayWidth = map.width * map.scaleMin;
@@ -101,7 +100,7 @@
             map.fgCanvas.height = map.displayHeight;
             map.setStartingPosition();
 
-            map.drawFgImage();
+            map.drawFgImage(map.fgCanvas);
         });
     },
 
@@ -117,6 +116,43 @@
 
         map.fgCanvas.toBlob(function (blob) {
             window.open(URL.createObjectURL(blob), "_blank");
+        }, "image/png");
+    },
+
+    downloadFullMap: function () {
+        if (!map.show)
+            return;
+
+        // save states
+        var displayWidth = map.displayWidth;
+        var displayHeight = map.displayHeight;
+        var scale = map.scale;
+        var dx = map.dx;
+        var dy = map.dy;
+
+        // setup temp canvas
+        map.displayWidth = map.width;
+        map.displayHeight = map.height;
+        map.tmpCanvas.width = map.displayWidth;
+        map.tmpCanvas.height = map.displayHeight;
+        map.scale = 1;
+        map.dx = 0;
+        map.dy = 0;
+
+        // draw temp canvas
+        map.drawFgImage(map.tmpCanvas);
+
+        // restore states
+        map.displayWidth = displayWidth;
+        map.displayHeight = displayHeight;
+        map.scale = scale;
+        map.dx = dx;
+        map.dy = dy;
+
+        // output
+        map.tmpCanvas.toBlob(function (blob) {
+            window.open(URL.createObjectURL(blob), "_blank");
+            map.tmpCanvas.height = 0;
         }, "image/png");
     },
 
@@ -181,8 +217,8 @@
         imgLoader.loaders.push(d.promise());
     },
 
-    drawBgImage: function () {
-        var ctx = map.bgCtx;
+    drawBgImage: function (canvas) {
+        var ctx = canvas.getContext('2d');
         var bgImg = imgLoader.imgs[map.mapImgName];
         var mission = map.mission_info[map.missionId];
 
@@ -321,13 +357,13 @@
         ctx.restore();
     },
 
-    drawFgImage: function () {
+    drawFgImage: function (canvas) {
         if (!map.show)
             return;
 
         var mission = map.mission_info[map.missionId];
         var scale = map.scale;
-        var ctx = map.fgCtx;
+        var ctx = canvas.getContext('2d');
 
         ctx.clearRect(0, 0, map.displayWidth, map.displayHeight);
 

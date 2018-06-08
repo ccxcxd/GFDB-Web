@@ -149,7 +149,7 @@
             return;
 
         map.fgCanvas.toBlob(function (blob) {
-            window.open(URL.createObjectURL(blob), "_blank");
+            saveAs(blob, map.getDownloadFilename());
         }, "image/png");
     },
 
@@ -188,9 +188,13 @@
 
         // output
         map.tmpCanvas.toBlob(function (blob) {
-            window.open(URL.createObjectURL(blob), "_blank");
+            saveAs(blob, map.getDownloadFilename());
             map.tmpCanvas.height = 0;
         }, "image/png");
+    },
+
+    getDownloadFilename: function () {
+        return $("#map_select option:checked").text().trim().replace(" ", "_") + ".png";
     },
 
     selectAllEnemy: function (enemy_team_id) {

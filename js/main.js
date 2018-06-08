@@ -29,9 +29,8 @@
     });
 });
 
+var setup_done = false;
 function setup_page() {
-    var setup_done = false;
-
     var map_tbl_sort = new Tablesort(document.getElementById("map_table"));
     var team_tbl_sort = new Tablesort(document.getElementById("team_table"));
 
@@ -229,7 +228,7 @@ function setup_page() {
             $("#map_table tbody tr").first().click();
         }
 
-        var setup_done = true;
+        setup_done = true;
     });
 }
 

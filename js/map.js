@@ -256,11 +256,13 @@
         imgLoader.add(map.friendStatsImgName);
 
         // load font
-        var d = $.Deferred();
-        document.fonts.load("10pt EnemyPower").then(function () {
-            d.resolve();
-        });
-        imgLoader.loaders.push(d.promise());
+        if (document.fonts) {
+            var d = $.Deferred();
+            document.fonts.load("10pt EnemyPower").then(function () {
+                d.resolve();
+            });
+            imgLoader.loaders.push(d.promise());
+        }
     },
 
     drawBgImage: function (canvas) {

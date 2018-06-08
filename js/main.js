@@ -146,6 +146,7 @@ function setup_page() {
                 $(this).addClass("table-success");
                 var enemy_team_id = $("[data-team_id]", this).html();
                 if ($("#team_select").val() != enemy_team_id) {
+                    //map.selectAllEnemy(enemy_team_id); currently has a racing bug
                     $("#team_select").val(enemy_team_id).change();
                 }
             });

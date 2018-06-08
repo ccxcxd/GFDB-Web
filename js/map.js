@@ -25,16 +25,14 @@
 
         var canvas = map.fgCanvas;
         var lastX, lastY;
-        var dragged = false;
         var mousedowned = false;
-        canvas.addEventListener('mousedown', function (evt) {
+        var mousedownHandler = function (evt) {
             document.body.style.mozUserSelect = document.body.style.webkitUserSelect = document.body.style.userSelect = 'none';
             lastX = evt.offsetX || (evt.pageX - canvas.offsetLeft);
             lastY = evt.offsetY || (evt.pageY - canvas.offsetTop);
             mousedowned = true;
-        }, false);
-
-        canvas.addEventListener('mousemove', function (evt) {
+        };
+        var mousemoveHandler = function (evt) {
             if (mousedowned) {
                 var x = evt.offsetX || (evt.pageX - canvas.offsetLeft);
                 var y = evt.offsetY || (evt.pageY - canvas.offsetTop);
@@ -45,13 +43,42 @@
                 lastX = x;
                 lastY = y;
             }
-        }, false);
-
-        canvas.addEventListener('mouseup', function (evt) {
+        };
+        var mouseupHandler = function (evt) {
             mousedowned = false;
-        }, false);
-
-        canvas.addEventListener('wheel', function (evt) {
+            var x = evt.offsetX || (evt.pageX - canvas.offsetLeft);
+            var y = evt.offsetY || (evt.pageY - canvas.offsetTop);
+            if (lastX == x && lastY == y) {
+                x = map.fgX2bgX(x);
+                y = map.fgY2bgY(y);
+                $.each(map.mission_info[map.missionId].spot_ids, function (index, spot_id) {
+                    var spot = map.spot_info[spot_id];
+                    var spotImg = imgLoader.imgs[spot.imagename];
+                    var w = spotImg.naturalWidth;
+                    var h = spotImg.naturalHeight;
+                    if (Math.abs(spot.coordinator_x - x) <= w / 2 && Math.abs(spot.coordinator_y - y) <= h / 2) {
+                        if (map.selectedSpots.length == 1 && map.selectedSpots[0] == spot_id) {
+                            // if already selected, then de-select
+                            map.selectedSpots = [];
+                        } else {
+                            // select single
+                            map.selectedSpots = [spot_id];
+                            if (spot.enemy_team_id) {
+                                // Remarks: this click event will first make selection with all spots with the same enemy id
+                                //          then next click will only select the single one because id does not change
+                                var tmp = $("#map_table tbody td[data-team_id=" + spot.enemy_team_id + "]");
+                                if (tmp.length > 0) {
+                                    tmp.parent().click();
+                                }
+                            }
+                        }
+                        map.drawFgImage(canvas);
+                        return false;
+                    }
+                });
+            }
+        };
+        var wheelHander = function (evt) {
             var delta = Math.sign(evt.deltaX + evt.deltaY);
             var x = evt.offsetX || (evt.pageX - canvas.offsetLeft);
             var y = evt.offsetY || (evt.pageY - canvas.offsetTop);
@@ -61,7 +88,13 @@
                     map.drawFgImage(canvas);
                 evt.preventDefault();
             }
-        }, false);
+        }
+
+        canvas.addEventListener('mousedown', mousedownHandler, false);
+        canvas.addEventListener('mousemove', mousemoveHandler, false);
+        canvas.addEventListener('mouseup', mouseupHandler, false);
+        canvas.addEventListener('mouseleave', mouseupHandler, false);
+        canvas.addEventListener('wheel', wheelHander, false);
     },
 
     show: false,
@@ -77,6 +110,7 @@
     dy: 0,              // bg_y offset
     scale: 1.0,         // = fg_xy / bg_xy
     scaleMin: 1.0,
+    selectedSpots: [],
 
     generate: function () {
         map.show = true;
@@ -129,6 +163,7 @@
         var scale = map.scale;
         var dx = map.dx;
         var dy = map.dy;
+        var selectedSpots = map.selectedSpots;
 
         // setup temp canvas
         map.displayWidth = map.width;
@@ -138,6 +173,7 @@
         map.scale = 1;
         map.dx = 0;
         map.dy = 0;
+        map.selectedSpots = null;
 
         // draw temp canvas
         map.drawFgImage(map.tmpCanvas);
@@ -148,12 +184,22 @@
         map.scale = scale;
         map.dx = dx;
         map.dy = dy;
+        map.selectedSpots = selectedSpots;
 
         // output
         map.tmpCanvas.toBlob(function (blob) {
             window.open(URL.createObjectURL(blob), "_blank");
             map.tmpCanvas.height = 0;
         }, "image/png");
+    },
+
+    selectAllEnemy: function (enemy_team_id) {
+        map.selectedSpots = [];
+        $.each(map.mission_info[map.missionId].spot_ids, function (index, spot_id) {
+            if (map.spot_info[spot_id].enemy_team_id == enemy_team_id)
+                map.selectedSpots.push(spot_id);
+        });
+        map.drawFgImage(map.fgCanvas);
     },
 
     preloadResources: function () {
@@ -375,24 +421,25 @@
             var spot = map.spot_info[spot_id];
             var x0 = spot.coordinator_x;
             var y0 = spot.coordinator_y;
+            var selected = $.inArray(spot_id, map.selectedSpots) !== -1;
             if (spot.hostage_info) {
                 var s = spot.hostage_info.split(",");
                 var gun = map.gun_info[s[0]];
-                map.drawSpine(ctx, x0, y0, gun.imagename, $.t(gun.name));
+                map.drawSpine(ctx, x0, y0, gun.imagename, $.t(gun.name), selected);
             } else if (spot.ally_team_id) {
                 var ally_team = map.ally_team_info[spot.ally_team_id];
                 if (ally_team.initial_type == 1) {
                     var leader_info = map.gun_info[ally_team.leader_id];
-                    map.drawSpine(ctx, x0, y0, leader_info.imagename, $.t(leader_info.name));
+                    map.drawSpine(ctx, x0, y0, leader_info.imagename, $.t(leader_info.name), selected);
                 } else {
                     var enemy_team = map.enemy_team_info[spot.enemy_team_id];
                     var leader_info = map.enemy_character_type_info[enemy_team.enemy_leader];
-                    map.drawSpine(ctx, x0, y0, leader_info.imagename, $.t(leader_info.name));
+                    map.drawSpine(ctx, x0, y0, leader_info.imagename, $.t(leader_info.name), selected);
                 }
             } else if (spot.enemy_team_id) {
                 var enemy_team = map.enemy_team_info[spot.enemy_team_id];
                 var leader_info = map.enemy_character_type_info[enemy_team.enemy_leader];
-                map.drawSpine(ctx, x0, y0, leader_info.imagename, $.t(leader_info.name));
+                map.drawSpine(ctx, x0, y0, leader_info.imagename, $.t(leader_info.name), selected);
             }
         });
 
@@ -432,21 +479,27 @@
         map.drawWatermark(ctx);
     },
 
-    drawSpine: function (ctx, x0, y0, imagename, alternativeText) {
+    drawSpine: function (ctx, x0, y0, imagename, alternativeText, selected) {
         var spineImg = imgLoader.imgs[imagename];
         if (spineImg != null) {
             var w = spineImg.naturalWidth;
             var h = spineImg.naturalHeight;
             var scale = map.scale;
-            ctx.drawImage(spineImg, 0, 0, w, h, (x0 - w / 2 + map.dx) * scale, (y0 - h / 2 + map.dy) * scale, w * scale, h * scale);
+            ctx.save();
+            if (selected) {
+                ctx.shadowColor = "yellow";
+                ctx.shadowBlur = 10;
+            }
+            ctx.drawImage(spineImg, 0, 0, w, h, map.bgX2fgX(x0 - w / 2), map.bgY2fgY(y0 - h / 2), w * scale, h * scale);
+            ctx.restore();
         } else {
             map.drawSpineAlternativeText(ctx, x0, y0, alternativeText);
         }
     },
 
-    drawSpineAlternativeText: function (ctx, x0, y0, text) {
-        x0 = Math.floor((x0 + map.dx) * map.scale);
-        y0 = Math.floor((y0 + map.dy) * map.scale);
+    drawSpineAlternativeText: function (ctx, x0, y0, text, selected) {
+        x0 = Math.floor(map.bgX2fgX(x0));
+        y0 = Math.floor(map.bgY2fgY(y0));
 
         ctx.save();
         ctx.font = "bold 32px " + $.t("font.sans-serif");
@@ -455,10 +508,10 @@
         ctx.shadowColor = "black";
         ctx.shadowBlur = 5;
         ctx.lineWidth = 9;
-        ctx.strokeStyle = "black";
+        ctx.strokeStyle = selected ? "yellow" : "black";
         ctx.strokeText(text, x0, y0);
         ctx.shadowBlur = 0;
-        ctx.fillStyle = "white";
+        ctx.fillStyle = selected ? "red" : "white";
         ctx.fillText(text, x0, y0);
         ctx.restore();
     },
@@ -472,8 +525,8 @@
         var y_off = 50;
         var w = Math.floor(160 * scale);
         var h = Math.floor(imgH * scale);
-        x0 = Math.floor((x0 + x_off - w / 2 + map.dx) * map.scale);
-        y0 = Math.floor((y0 + y_off - h / 2 + map.dy) * map.scale);
+        x0 = Math.floor(map.bgX2fgX(x0 + x_off - w / 2));
+        y0 = Math.floor(map.bgY2fgY(y0 + y_off - h / 2));
 
         ctx.save();
         if (power <= map_difficulty * 0.5)
@@ -503,8 +556,8 @@
         var scale = Math.max(map.scale, 0.6);
         var x_off = 65;
         var y_off = 40;
-        x0 = Math.floor((x0 + x_off + map.dx) * map.scale);
-        y0 = Math.floor((y0 + map.dy) * map.scale - (y_off + imgH)  * scale);
+        x0 = Math.floor(map.bgX2fgX(x0 + x_off));
+        y0 = Math.floor(map.bgY2fgY(y0) - (y_off + imgH)  * scale);
 
         ctx.save();
         ctx.globalAlpha = 0.9;
@@ -610,6 +663,22 @@
         map.scale = scale;
         map.applyTranslation(dx, dy);
         return true;
+    },
+
+    bgX2fgX: function (x) {
+        return (x + map.dx) * map.scale;
+    },
+
+    bgY2fgY: function (y) {
+        return (y + map.dy) * map.scale;
+    },
+
+    fgX2bgX: function (x) {
+        return x / map.scale - map.dx;
+    },
+
+    fgY2bgY: function (y) {
+        return y / map.scale - map.dy;
     },
 
     setStartingPosition: function () {

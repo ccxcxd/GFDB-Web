@@ -634,7 +634,7 @@
         ctx.textBaseline = "bottom";
         ctx.globalAlpha = 0.8;
         ctx.lineWidth = 3;
-        map.drawWatermarkText(ctx, "https://underseaworld.net/gf/", ctx.canvas.width - 6, ctx.canvas.height - 2);
+        map.drawWatermarkText(ctx, "https://gf.underseaworld.net/", ctx.canvas.width - 6, ctx.canvas.height - 2);
         ctx.restore();
     },
 

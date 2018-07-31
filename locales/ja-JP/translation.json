@@ -24,14 +24,14 @@
 		"warning": "注意：以下のマップと表は、固定敵の初期位置のみを示しています。通常、ランダム位置とそれに続く生成された敵は表示されません。これらの敵の構成は、以下の“敵の番号”を手動でチェックすることで確認できます。"
 	},
 	"spot_img": {
-		"spot1": "spot1",
+		"spot1": "spot1JP",
 		"spot2": "spot2",
-		"spot3": "spot3",
+		"spot3": "spot3JP",
 		"spot5": "spot5",
 		"spot6": "spot6",
 		"random": "random",
-		"radar": "radar",
-		"closedap": "closedap"
+		"radar": "radarJP",
+		"closedap": "closedapJP"
 	},
 	"team_sel": {
 		"label": "敵の番号："

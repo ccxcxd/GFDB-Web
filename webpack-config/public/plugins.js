@@ -11,8 +11,14 @@ module.exports = (conf, lang) => {
   return [
     // 主页
     new HtmlWebpackPlugin({
-      filename: 'index.html',
+      filename: `${lang}/index.html`,
       template: path.resolve(SRC, './pages/index.ejs'),
+      xhtml: true,
+    }),
+    // 重定向首页
+    new HtmlWebpackPlugin({
+      filename: 'index.html',
+      template: path.resolve(SRC, './pages/indexPage.ejs'),
       xhtml: true,
     }),
     // 多语言

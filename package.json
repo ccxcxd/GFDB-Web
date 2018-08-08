@@ -6,7 +6,9 @@
   "scripts": {
     "start": "npm run dev",
     "dev": "webpack-dev-server --config ./webpack-config/config.dev.js",
-    "build": "webpack --config ./webpack-config/config.prod.js"
+    "prebuild": "rimraf dist/**",
+    "build": "webpack --config ./webpack-config/config.prod.js",
+    "local": "http-server ./dist"
   },
   "author": "L.T.",
   "license": "MIT",

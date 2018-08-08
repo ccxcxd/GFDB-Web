@@ -4,17 +4,28 @@
   "description": "Girls Frontline Database",
   "main": "index.js",
   "scripts": {
-    "start": "http-server .",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "npm run dev",
+    "dev": "webpack-dev-server --config ./webpack.config.dev.js"
   },
   "author": "L.T.",
   "license": "MIT",
-  "dependencies": {
-    "bootstrap": "^4.1.0",
-    "i18next": "^11.2.2",
-    "i18next-browser-languagedetector": "^2.2.0",
-    "jquery": "^3.3.1",
-    "jquery-i18next": "^1.2.1",
-    "tablesort": "^5.0.2"
+  "dependencies": {},
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-0": "^6.24.1",
+    "css-loader": "^1.0.0",
+    "friendly-errors-webpack-plugin": "^1.7.0",
+    "html-webpack-plugin": "^3.2.0",
+    "less": "^3.8.0",
+    "less-loader": "^4.1.0",
+    "node-notifier": "^5.2.1",
+    "progress-bar-webpack-plugin": "^1.11.0",
+    "style-loader": "^0.22.0",
+    "webpack": "^4.16.5",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.5"
   }
 }

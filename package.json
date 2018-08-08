@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "npm run dev",
-    "dev": "webpack-dev-server --config ./webpack.config.dev.js"
+    "dev": "webpack-dev-server --config ./webpack-config/config.dev.js",
+    "build": "webpack --config ./webpack-config/config.prod.js"
   },
   "author": "L.T.",
   "license": "MIT",
@@ -19,6 +20,7 @@
     "css-loader": "^1.0.0",
     "friendly-errors-webpack-plugin": "^1.7.0",
     "html-webpack-plugin": "^3.2.0",
+    "i18n-webpack-plugin": "^1.0.0",
     "less": "^3.8.0",
     "less-loader": "^4.1.0",
     "node-notifier": "^5.2.1",

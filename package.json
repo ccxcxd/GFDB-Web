@@ -1,0 +1,20 @@
+{
+  "name": "gfdb",
+  "version": "1.0.0",
+  "description": "Girls Frontline Database",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "L.T.",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^4.1.0",
+    "i18next": "^11.2.2",
+    "i18next-browser-languagedetector": "^2.2.0",
+    "jquery": "^3.3.1",
+    "jquery-i18next": "^1.2.1",
+    "tablesort": "^5.0.2"
+  }
+}

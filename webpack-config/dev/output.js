@@ -5,6 +5,6 @@ module.exports = (conf, lang) => {
 
   return {
     path: OUTPUT_DIR,
-    filename: `${lang}/output.js`,
+    filename: `${lang}/[name].js`,
   }
 }

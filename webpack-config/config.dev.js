@@ -11,10 +11,11 @@ module.exports = Object.keys(languages).map((lang) => {
   return {
     name: lang,
     mode: 'development',
-    context: ROOT,
+
+    ...require('./public/base')(conf),
 
     entry: require('./public/entry')(conf),
-    output: require('./public/output')(conf, lang),
+    output: require('./dev/output')(conf, lang),
     module: require('./dev/module')(conf),
     resolve: require('./public/resolve')(),
     plugins: require('./dev/plugins')(conf, lang),

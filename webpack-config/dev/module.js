@@ -14,7 +14,11 @@ module.exports = (conf) => {
         options: {
           'presets': [
             'env',
+            'react',
             'stage-0',
+          ],
+          'plugins': [
+            ["import", { "libraryName": "antd", "libraryDirectory": "es", "style": "css" }],
           ],
         },
       },

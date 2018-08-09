@@ -1,7 +1,9 @@
-const en = require('../../src/locales/en-US.json')
-const cn = require('../../src/locales/zh-CN.json')
+const en = require('../../src/locales/en')
+const zh = require('../../src/locales/zh')
+const zhHant = require('../../src/locales/zh-hant')
 
 module.exports = {
-  en,
-  cn,
+  'en': en,
+  'zh': zh,
+  'zh-hant': zhHant,
 }

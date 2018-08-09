@@ -12,16 +12,17 @@ module.exports = (conf, lang) => {
     // 主页
     new HtmlWebpackPlugin({
       filename: `${lang}/index.html`,
-      template: path.resolve(SRC, './pages/index.ejs'),
+      template: path.resolve(SRC, './index.ejs'),
       xhtml: true,
     }),
     // 重定向首页
     new HtmlWebpackPlugin({
       filename: 'index.html',
-      template: path.resolve(SRC, './pages/indexPage.ejs'),
+      template: path.resolve(SRC, './indexPage.ejs'),
       xhtml: true,
+      chunks: [], // 首页只作为跳转
     }),
     // 多语言
-    new I18nPlugin(languages[lang])
+    new I18nPlugin(languages[lang]),
   ]
 }

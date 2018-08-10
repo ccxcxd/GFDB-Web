@@ -1,10 +1,8 @@
 import React from 'react'
 
-const Main = () =>{
+const Main = () => {
   return (
-    <div>
-      后勤列表
-    </div>
+    <div>首页</div>
   )
 }
 

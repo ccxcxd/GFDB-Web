@@ -6,8 +6,11 @@
   "scripts": {
     "start": "npm run dev",
     "dev": "webpack-dev-server --config ./webpack-config/config.dev.js",
+    "dev:single": "webpack-dev-server --config ./webpack-config-single/config.dev.js",
     "prebuild": "rimraf dist/**",
     "build": "webpack --config ./webpack-config/config.prod.js",
+    "prebuild:single": "rimraf dist/**",
+    "build:single": "webpack --config ./webpack-config-single/config.prod.js",
     "local": "http-server ./dist"
   },
   "author": "L.T.",

@@ -23,6 +23,7 @@ module.exports = {
   // 对 webpack-dev-server 进行配置
   devServer: {
     contentBase: './dist',
+    publicPath: '/',
     // 设置localhost端口
     host: HOST,
     port: PORT,

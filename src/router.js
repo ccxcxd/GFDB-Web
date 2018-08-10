@@ -40,7 +40,14 @@ const RouterSetting = function router({ history, app }) {
             />,
           )
         } else {
-          nodeAry.push(<Route key={key} path={path} exact={exact} component={Component} />)
+          nodeAry.push(
+            <Route
+              key={key}
+              path={path}
+              exact={exact}
+              component={Component}
+            />
+          )
         }
       }
     } catch (e) {

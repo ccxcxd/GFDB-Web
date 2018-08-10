@@ -5,6 +5,7 @@ module.exports = (conf) => {
 
   return {
     path: OUTPUT_DIR,
-    filename: `[name].js`,
+    publicPath: '/',
+    filename: '[name].js',
   }
 }

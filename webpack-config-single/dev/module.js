@@ -23,8 +23,21 @@ module.exports = (conf) => {
         },
       },
       {
-        test: /\.(less|css)$/,
-        // include: paths.srcRootDir,
+        test: /\.(css)$/,
+        // include: SRC,
+        use: [
+          {
+            loader: 'style-loader',
+          },
+          {
+            loader: 'css-loader',
+            options: {},
+          },
+        ],
+      },
+      {
+        test: /\.(less)$/,
+        include: SRC,
         use: [
           {
             loader: 'style-loader',
@@ -32,14 +45,18 @@ module.exports = (conf) => {
           {
             loader: 'css-loader',
             options: {
+              modules: true,
               sourceMap: true,
+              context: SRC,
+              localIdentName: '[local]___[hash:base64:6]',
+              camelCase: true,
             },
           },
           {
             loader: 'less-loader',
           },
         ],
-      }
+      },
     ],
   }
 }

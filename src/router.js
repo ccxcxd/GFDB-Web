@@ -103,24 +103,4 @@ const RouterSetting = function router({ history, app }) {
   )
 }
 
-// const RouterSetting = ({ history }) => {
-//   return (
-//     <LocaleProvider locale={zhCN}>
-//       <Router history={history}>
-//         <Switch>
-//           <Route path="/">
-//             <Route path="/">
-//               <div>
-//                 Hello text
-//                 <Link to="/quest">asd</Link>
-//               </div>
-//             </Route>
-//             <Route path="/quest" component={Quest} />
-//           </Route>
-//         </Switch>
-//       </Router>
-//     </LocaleProvider>
-//   )
-// }
-
 export default RouterSetting

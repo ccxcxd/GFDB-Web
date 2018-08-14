@@ -1,12 +1,5 @@
 const conf = require('./base/index')
 
-const {
-  ROOT,
-  HOST,
-  PORT,
-  languages
-} = conf
-
 module.exports = {
   mode: 'development',
 
@@ -21,15 +14,5 @@ module.exports = {
   // 使用 source-map
   devtool: 'cheap-source-map',
   // 对 webpack-dev-server 进行配置
-  devServer: {
-    contentBase: './dist',
-    publicPath: '/',
-    // 设置localhost端口
-    host: HOST,
-    port: PORT,
-    // 自动打开浏览器
-    // open: true,
-    hot: true,
-    quiet: true,
-  },
+  devServer: require('./dev/devServer')(conf),
 }

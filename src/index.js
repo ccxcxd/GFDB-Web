@@ -15,18 +15,13 @@ const app = dva({
   history: createHistory({
     basename: `/${LANG.name}`,
   }),
-  initialState: {
-    app:{
-      lang: LANG,
-    }
-  },
 })
 
 // 2. Plugins
 app.use(createLoading())
 
 // 3. Register global model
-app.model(require('./models/app').default)
+app.model(require('./models/app').default(LANG))
 
 // 4. Router
 app.router(require('./router').default(LANG))

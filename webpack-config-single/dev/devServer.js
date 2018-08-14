@@ -12,8 +12,6 @@ module.exports = (conf) => {
     }
   })
 
-  console.log(rules)
-
   return {
     contentBase: './dist',
     publicPath: '/',

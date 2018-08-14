@@ -107,7 +107,7 @@ const initEntries = function () {
       filePath,
     )
   }
-  wbConfig = 'module.export = [' + wbConfig + '\n]\n'
+  wbConfig = 'module.exports = [' + wbConfig + '\n]\n'
   // console.log(wbConfig)
   // 更新webpack配置入口文件
   saveFile(WEBPACK_CONFIG_PATH, wbConfig, 'utf-8')

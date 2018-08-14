@@ -1,4 +1,4 @@
-module.export = [
+module.exports = [
   {
     name: 'en',
     config: require('../../src/locales/en/index.js'),

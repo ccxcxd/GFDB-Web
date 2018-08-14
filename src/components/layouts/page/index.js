@@ -16,10 +16,7 @@ const Page = ({
   } = app
 
   // 属性定义
-  const menus = [
-    { label: '首页', path: '/' },
-    { label: '后勤列表', path: '/quest' },
-  ]
+  const menus = lang.menus
 
   // 方法定义
   const handleChange = (value) => {

@@ -9,9 +9,16 @@ module.exports = (conf) => {
   return [
     // 主页
     new HtmlWebpackPlugin({
-      filename: 'index.html',
+      filename: 'zh/index.html',
       template: path.resolve(SRC, './index.ejs'),
       xhtml: true,
+      chunks: ['zh'],
+    }),
+    new HtmlWebpackPlugin({
+      filename: 'index.html',
+      template: path.resolve(SRC, './indexPage.ejs'),
+      xhtml: true,
+      chunks: [],
     }),
   ]
 }

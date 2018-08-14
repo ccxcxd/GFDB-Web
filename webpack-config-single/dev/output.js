@@ -6,6 +6,6 @@ module.exports = (conf) => {
   return {
     path: OUTPUT_DIR,
     publicPath: '/',
-    filename: '[name].js',
+    filename: '[name]/index.js',
   }
 }

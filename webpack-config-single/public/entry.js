@@ -1,3 +1,6 @@
 module.exports = (conf) => {
-  return './src/index.js'
+  return {
+    'zh': './src/index.js',
+    'en': './src/index.js',
+  }
 }

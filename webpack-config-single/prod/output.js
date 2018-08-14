@@ -6,6 +6,6 @@ module.exports = (conf) => {
   return {
     path: OUTPUT_DIR,
     publicPath: '/',
-    filename: '/[name]_[chunkhash:6].js',
+    filename: '[name]/index_[chunkhash:6].js',
   }
 }

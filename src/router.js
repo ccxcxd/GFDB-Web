@@ -1,10 +1,14 @@
 import React from 'react'
-import { Router, Route, Switch } from 'dva/router'
+import { Router, BrowserRouter, Route, Switch, routerRedux } from 'dva/router'
+import { checkLang } from './locales'
 
-import dynamic from 'dva/dynamic'
+// import dynamic from 'dva/dynamic'
+
+const { ConnectedRouter } = routerRedux
 
 // 路由处理及生成
 const RouterSetting = function router({ history, app }) {
+
   // 根据路由结构遍历生成路由节点树
   const mapRoutes = (ary, parent) => {
     const nodeAry = []
@@ -57,46 +61,30 @@ const RouterSetting = function router({ history, app }) {
       <Switch>
         {nodeAry}
         <Route
-          component={
-            dynamic({
-              app,
-              models: () => [],
-              component: () => import('./routes/error/index'),
-            })
-          }
+          component={() => import('./routes/error/index')}
         />
       </Switch>
     )
   }
+
+  const { name } = checkLang()
   // 路由结构对象
   const routeData = [
     {
       // 首页
       path: '/',
       exact: false,
-      component: dynamic({
-        app,
-        models: () => [],
-        component: () => import('./routes/app'),
-      }),
+      component: () => import('./routes/app'),
       routes: [
         {
           // 首页
           path: '/',
-          component: dynamic({
-            app,
-            models: () => [],
-            component: () => import('./routes/indexPage'),
-          }),
+          component: () => import('./routes/indexPage'),
         },
         {
           // 登录
           path: '/quest',
-          component: dynamic({
-            app,
-            models: () => [],
-            component: () => import('./routes/quest'),
-          }),
+          component: () => import('./routes/quest'),
         },
       ],
     },
@@ -104,9 +92,13 @@ const RouterSetting = function router({ history, app }) {
 
   // return <Router history={history} routes={routes} />
   return (
-    <Router history={history}>
-      {mapRoutes(routeData)}
-    </Router>
+    <ConnectedRouter history={history}>
+      <BrowserRouter basename={`/${name}`}>
+        <Router history={history}>
+        {mapRoutes(routeData)}
+        </Router>
+      </BrowserRouter>
+    </ConnectedRouter>
   )
 }
 

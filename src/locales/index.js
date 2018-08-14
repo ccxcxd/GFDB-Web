@@ -1,14 +1,17 @@
 export const langList = [
   {
     name: 'en',
+    desc: 'English',
     alias: ['en'],
   },
   {
     name: 'zh',
+    desc: '简体中文',
     alias: ['zh-CN'],
   },
   {
     name: 'zh-hant',
+    desc: '繁体中文',
     alias: [],
   },
 ]

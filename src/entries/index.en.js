@@ -13,7 +13,7 @@ import LANG from '../locales/en'
 // 1. Initialize
 const app = dva({
   history: createHistory({
-    basename: `/${LANG.langType}`,
+    basename: `/${LANG.name}`,
   }),
   initialState: {
     app:{

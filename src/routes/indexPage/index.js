@@ -1,9 +1,21 @@
 import React from 'react'
+import { connect } from 'dva'
+import { Icon } from 'antd'
+import les from './index.less'
 
-const Main = () => {
+const Main = ({
+  app,
+}) => {
+  // 属性获取
+  const {
+    lang,
+  } = app
+
   return (
-    <div>首页</div>
+    <div className={les.welcome}>
+      <Icon type="smile-o" /> {lang['Hello text']}
+    </div>
   )
 }
 
-export default Main
+export default connect(({ app  }) => ({ app }))(Main)

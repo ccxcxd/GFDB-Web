@@ -7,7 +7,7 @@ export default moduleExtend(model, {
   namespace: 'app',
 
   state: {
-    lang: null,
+    lang: {},
   },
 
   subscriptions: {

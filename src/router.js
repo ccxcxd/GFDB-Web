@@ -109,7 +109,7 @@ const RouterSetting = (lang) => {
     // return <Router history={history} routes={routes} />
     return (
       <ConnectedRouter history={history}>
-        <BrowserRouter basename={`/${lang.langType}`}>
+        <BrowserRouter basename={`/${lang.name}`}>
           <Router history={history}>
           {mapRoutes(routeData)}
           </Router>

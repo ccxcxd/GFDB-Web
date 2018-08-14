@@ -119,7 +119,7 @@ yargs.usage(
   `initLang ${require(PACKAGE_JSON).version}
 
   Usage: node init.js`
-)
+);
 
 // init yargs command
 yargs
@@ -127,18 +127,20 @@ yargs
     'dev',
     'init langs files with watching file change',
     {},
-    function (argv) {},
-  )
-  .middleware([ initEntries ])
+    function (argv) {
+      initEntries()
+    },
+  );
 
 yargs
   .command(
     'build',
     'init langs files without watching',
     {},
-    function (argv) {},
-  )
-  .middleware([ initEntries ])
+    function (argv) {
+      initEntries();
+    },
+  );
 
 yargs
   .help('h')
@@ -147,4 +149,4 @@ yargs
   .alias('version', 'v')
   .strict()
   .epilog('copyright 2018')
-  .argv
+  .argv;

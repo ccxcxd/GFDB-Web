@@ -1,14 +1,29 @@
-.header {
-  display: flex;
-  border-bottom: 1px solid #e8e8e8;
+.container {
+  width: 100%;
 
-  :global(.ant-menu) {
-    flex: 1;
-    border-bottom: none;
+  .header{
+    border-bottom: 1px solid #e8e8e8;
+
+    .headerContent {
+      display: flex;
+      width: @layout_body_width_web;
+      margin: 0 auto;
+  
+      :global(.ant-menu) {
+        flex: 1;
+        border-bottom: none;
+      }
+      .lang {
+        width: 100px;
+        position: relative;
+        top: 6px;
+      }
+    }
   }
-  .lang {
-    width: 100px;
-    position: relative;
-    top: 6px;
+
+  .body {
+    width: @layout_body_width_web;
+    margin: @layout_spacing_vertical_web auto 0;
   }
+
 }

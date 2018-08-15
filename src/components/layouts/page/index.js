@@ -43,24 +43,26 @@ const Page = ({
   }
 
   return (
-    <div>
+    <div className={les.container}>
       <div className={les.header}>
-        {/* 路由菜单 */}
-        <Menu
-          mode="horizontal"
-        >
-          {mapMenu(menus)}
-        </Menu>
-        {/* 语言切换 */}
-        <Select
-          className={les.lang}
-          value={lang.name}
-          onChange={handleChange}
-        >
-          {mapLang(langList)}
-        </Select>
+        <div className={les.headerContent}>
+          {/* 路由菜单 */}
+          <Menu
+            mode="horizontal"
+          >
+            {mapMenu(menus)}
+          </Menu>
+          {/* 语言切换 */}
+          <Select
+            className={les.lang}
+            value={lang.name}
+            onChange={handleChange}
+          >
+            {mapLang(langList)}
+          </Select>
+        </div>
       </div>
-      <div>{children}</div>
+      <div className={les.body}>{children}</div>
     </div>
   )
 }

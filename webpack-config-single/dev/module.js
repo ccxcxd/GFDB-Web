@@ -1,3 +1,5 @@
+const path = require('path')
+
 module.exports = (conf) => {
   const {
     SRC,
@@ -54,6 +56,13 @@ module.exports = (conf) => {
           },
           {
             loader: 'less-loader',
+          },
+          {
+            loader: 'style-resources-loader',
+            options: {
+              patterns: path.resolve(SRC, 'utils/less/variables/*.less'),
+              injector: 'append'
+            },
           },
         ],
       },

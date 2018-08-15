@@ -8,7 +8,7 @@ module.exports = {
   entry: require('./public/entry')(conf),
   output: require('./dev/output')(conf),
   module: require('./dev/module')(conf),
-  resolve: require('./public/resolve')(),
+  resolve: require('./public/resolve')(conf),
   plugins: require('./dev/plugins')(conf),
 
   // 使用 source-map

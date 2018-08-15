@@ -9,6 +9,7 @@ module.exports = ({
       '@': SRC,
       'lang': path.resolve(SRC, 'locales'),
       'services': path.resolve(SRC, 'services'),
+      'static': path.resolve(SRC, 'static'),
     },
   }
 }

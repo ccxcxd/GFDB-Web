@@ -46,6 +46,9 @@ const Page = ({
     <div className={les.container}>
       <div className={les.header}>
         <div className={les.headerContent}>
+          <Link className={les.logo} to="/">
+            <img src={require('@/static/img/logo.png')} alt="logo" />
+          </Link>
           {/* 路由菜单 */}
           <Menu
             mode="horizontal"

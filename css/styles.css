@@ -2,3 +2,8 @@
     font-family: 'EnemyPower';
     src: url("../fonts/Microgme.ttf");
 }
+
+.resizable-both {
+    resize: both;
+    overflow: auto;
+} 

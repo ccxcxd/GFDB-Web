@@ -7,6 +7,7 @@ import createHistory from 'history/createBrowserHistory'
 import createLoading from 'dva-loading'
 import 'moment/locale/zh-cn'
 // import './rollbar'
+import { __ } from './utils/js/i18n'
 /** IMPORT_LANG */
 
 // import './index.less'
@@ -22,11 +23,15 @@ app.use(createLoading())
 
 // 3. Register global model
 app.model(require('./models/app').default(LANG))
+app.model(require('./models/maps').default)
 
 // 4. Router
 app.router(require('./router').default(LANG))
 
 // 5. Start
 app.start('#root')
+
+// 全局变量注入
+window.__ = __
 
 // export default app // eslint-disable-line

@@ -100,15 +100,37 @@
           }
         }
       }
-      .lang {
-        width: 100px;
-      }
     }
   }
 
   .body {
     width: @layout_body_width_web;
     margin: @layout_spacing_vertical_web auto 0;
+  }
+
+  .footer {
+    .clearfix();
+    width: @layout_body_width_web;
+    margin: @layout_spacing_vertical_web auto 0;
+    padding: @layout_spacing_vertical_web 0;
+    border-top: 1px solid #efefef;
+
+    .showAbout {
+      float: left;
+    }
+    .language {
+      padding: 0 8px;
+      float: left;
+      & > span {
+        margin-right: 6px;
+      }
+      .lang {
+        width: 150px;
+      }
+    }
+    .otherInfo {
+      text-align: center;
+    }
   }
 
 }

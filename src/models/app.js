@@ -9,6 +9,8 @@ export default (LANG) => {
 
     state: {
       lang: LANG,
+
+      aboutVisible: false,  // 关于本站显示状态
     },
 
     subscriptions: {
@@ -34,6 +36,13 @@ export default (LANG) => {
           put({ type: 'updateState', payload: { lang: name }})
         }, 3000)
         // yield put({ type: 'updateState', payload: { lang: name }})
+      },
+
+      * showAbout({ show }, { put }) {
+        yield put({
+          type: 'updateState',
+          payload: { aboutVisible: show },
+        })
       },
     },
 

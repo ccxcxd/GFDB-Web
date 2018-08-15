@@ -1,9 +1,13 @@
 import React from 'react'
 import { routerRedux } from 'dva/router'
 import { Link } from 'dva/router'
-import { Select } from "antd"
+import {
+  Select,
+  Button,
+} from "antd"
 import { langList } from '../../../locales'
 import les from './index.less'
+import ModalAbout from './components/modalAbout'
 
 const Option = Select.Option
 
@@ -16,6 +20,7 @@ const Page = ({
   // 属性获取
   const {
     lang,
+    aboutVisible,
   } = app
   const {
     pathname,
@@ -24,6 +29,14 @@ const Page = ({
 
   // 属性定义
   const menus = lang.menus
+  const propsOfModal = {
+    title: lang.about.title,
+    visible: aboutVisible,
+    onCancel: () => showAbout(false),
+    footer: null,
+
+    about: lang.about || {},
+  }
 
   // 方法定义
   const handleChange = (value) => {
@@ -32,6 +45,9 @@ const Page = ({
   }
   const link = (url) => {
     dispatch(routerRedux.push(url))
+  }
+  const showAbout = (show) => {
+    dispatch({ type: 'app/showAbout', show })
   }
 
   // 渲染方法定义
@@ -58,6 +74,7 @@ const Page = ({
 
   return (
     <div className={les.container}>
+      {/* 页头 */}
       <div className={les.header}>
         <div className={les.headerContent}>
           <Link
@@ -72,7 +89,23 @@ const Page = ({
           >
             {mapMenu(menus)}
           </ul>
-          {/* 语言切换 */}
+        </div>
+      </div>
+      {/* 内容 */}
+      <div className={les.body}>{children}</div>
+      {/* 页脚 */}
+      <div className={les.footer}>
+        {/* 关于本站 */}
+        <Button
+          type="primary"
+          className={les.showAbout}
+          onClick={() => showAbout(true)}
+        >{lang.about.title}</Button>
+        {/* 关于本站弹窗 */}
+        <ModalAbout {...propsOfModal} />
+        {/* 语言切换 */}
+        <div className={les.language}>
+          <span>Language:</span>
           <Select
             className={les.lang}
             value={lang.name}
@@ -81,8 +114,11 @@ const Page = ({
             {mapLang(langList)}
           </Select>
         </div>
+        {/* 其他信息 */}
+        <div className={les.otherInfo}>
+          *Need Japanese translator, you can find me on <a href="https://twitter.com/CCX_CX_D" target="_blank">twitter</a>
+        </div>
       </div>
-      <div className={les.body}>{children}</div>
     </div>
   )
 }

@@ -11,7 +11,17 @@ export const langList = [
   },
   {
     name: 'zh-hant',
-    desc: '繁体中文',
+    desc: '繁体中文(需要翻譯)',
+    alias: [],
+  },
+  {
+    name: 'ja-jp',
+    desc: '日本語(翻訳者募集)',
+    alias: [],
+  },
+  {
+    name: 'ko-kr',
+    desc: '한국어',
     alias: [],
   },
 ]

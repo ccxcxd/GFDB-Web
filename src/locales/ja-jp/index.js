@@ -1,5 +1,5 @@
 module.exports = {
-  'name': 'zh',
+  'name': 'ja-jp',
   'Hello text': '你好 欢迎来到少前攻略站',
   'menus': [
     { label: '敌方数据', path: '/maps' },
@@ -20,13 +20,13 @@ module.exports = {
     },
   ],
 	"about": {
-		"title": "关于本站",
+		"title": "このサイトについて",
 		"designer": "制作",
-		"translator_KR": "翻译（韩语）",
-		"thanks": "鸣谢",
-		"repository": "代码托管",
-		"feedback": "意见反馈",
-		"chinese": "",
-		"image_copyright": "所有图片版权由其各自所有人所有（画师、云母组、数字天空等）"
+		"translator_KR": "翻訳（韓国語）",
+		"thanks": "感謝",
+		"repository": "コードリポジトリ",
+		"feedback": "フィードバック",
+		"chinese": "（中国語）",
+		"image_copyright": "全ての絵画の著作権は所有者に所有します（画家、MICA-TEAM、SUNBURN JAPANなど）"
 	},
 }

@@ -42,16 +42,26 @@
         overflow: hidden;
         &:before {
           left: -@layout_header_height/2;
+          border-right-width: 0px;
+          transition: all ease .3s;
         }
 
         &:hover {
+          img {
+            // height: @layout_header_height * 0.9;
+            left: 4px;
+          }
           &:before {
-            background-color: @theme_color_red;
+            // background-color: @theme_color_red;
+            border-right: 4px solid @theme_color_yellow;
           }
         }
 
         & > img {
-          height: @layout_header_height*0.8;
+          position: relative;
+          left: 0;
+          height: @layout_header_height * 0.8;
+          transition: all ease .3s;
         }
       }
       :global(.ant-menu) {
@@ -76,6 +86,7 @@
           }
 
           & > a {
+            font-size: 16px;
             color: @theme_color_white;
           }
         }

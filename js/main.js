@@ -179,6 +179,9 @@ function setup_page() {
                     $("<td>").text(character.speed),
                     $("<td>").text(character.armor_piercing),
                     $("<td>").text(character.armor),
+                    $("<td>").text(character.def_break),
+                    $("<td>").text(character.def),
+                    $("<td>").text(member.def_percent + "%"),
                     $("<td>").text(member.coordinator_x),
                     $("<td>").text(member.coordinator_y),
                     $("<td>").text($.t(character.character).replace(new RegExp("//c", "g"), " "))

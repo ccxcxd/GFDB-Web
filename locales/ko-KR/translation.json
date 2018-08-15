@@ -1,8 +1,8 @@
 {
 	"title": "소녀전선 적 데이터",
 	"font": {
-		"serif": "SimSun",
-		"sans-serif": "SimHei"
+		"serif": "GungsuhChe",
+		"sans-serif": "Malgun Gothic"
 	},
 	"map_sel": {
 		"label": "지도 선택:"
@@ -47,8 +47,11 @@
 		"dodge": "회피",
 		"range": "사거리",
 		"speed": "이동속도",
-		"armor_piercing": "철갑",
+		"armor_piercing": "관통",
 		"armor": "장갑",
+		"def_break": "파쇄",
+		"def": "쉴드",
+		"def_percent": "쉴드%",
 		"coordinator_x": "가로축",
 		"coordinator_y": "세로축",
 		"character": "특징"

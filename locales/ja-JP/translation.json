@@ -1,8 +1,8 @@
 {
 	"title": "ドールズフロントライン 敵情報データベース",
 	"font": {
-		"serif": "SimSun",
-		"sans-serif": "SimHei"
+		"serif": "MS Mincho",
+		"sans-serif": "MS Gothic"
 	},
 	"map_sel": {
 		"label": "マップを選択ください："
@@ -49,6 +49,9 @@
 		"speed": "移動速度",
 		"armor_piercing": "破甲",
 		"armor": "防御",
+		"def_break": "破防",
+		"def": "シールド",
+		"def_percent": "シールド%",
 		"coordinator_x": "横座標",
 		"coordinator_y": "縦座標",
 		"character": "説明"

@@ -1,4 +1,5 @@
 @logo_width: 114px;
+@menu_deg: 30deg;
 
 .diamond() {
   position: relative;
@@ -12,7 +13,7 @@
     position: absolute;
     left: 0;
     // top: 0; right: 0; bottom: 0; left: 0;
-    transform: skewX(45deg);
+    transform: skewX(@menu_deg);
     z-index: -1;
   }
   &:hover {
@@ -41,12 +42,14 @@
         width: @layout_header_height + @logo_width;
         overflow: hidden;
         &:before {
-          left: -@layout_header_height/2;
+          left: -1 * @layout_header_height * tan(@menu_deg);
           border-right-width: 0px;
           transition: all ease .3s;
         }
 
-        &:hover {
+        &:hover,
+        &.active {
+          z-index: 1;
           img {
             // height: @layout_header_height * 0.9;
             left: 4px;
@@ -64,30 +67,36 @@
           transition: all ease .3s;
         }
       }
-      :global(.ant-menu) {
+      .menu {
+        .clearfix();
         flex: 1;
         position: relative;
         left: -@layout_header_height/2;
+        margin: 0;
+        padding: 0;
+        list-style: none;
         border-bottom: none;
         background-color: @theme_color_black;
+        box-shadow: none;
 
-        & > :global(.ant-menu-item) {
+        & > .menuItem {
           .diamond();
           height: @layout_header_height;
           line-height: @layout_header_height;
+          padding: 0 20px;
+          float: left;
           border-bottom: none;
+          font-size: 16px;
+          color: @theme_color_white;
+          cursor: pointer;
           &:hover {
+            color: @theme_color_yellow;
+          }
+          &.active {
+            color: @theme_color_black;
             &:before {
               background-color: @theme_color_yellow;
             }
-            a {
-              color: @theme_color_black;
-            }
-          }
-
-          & > a {
-            font-size: 16px;
-            color: @theme_color_white;
           }
         }
       }

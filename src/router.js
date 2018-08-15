@@ -85,7 +85,6 @@ const RouterSetting = (lang) => {
         }),
         routes: [
           {
-            // 首页
             path: '/',
             component: dynamic({
               app,
@@ -94,7 +93,14 @@ const RouterSetting = (lang) => {
             }),
           },
           {
-            // 登录
+            path: '/maps',
+            component: dynamic({
+              app,
+              models: () => [],
+              component: () => import('./routes/maps'),
+            }),
+          },
+          {
             path: '/quest',
             component: dynamic({
               app,

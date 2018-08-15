@@ -3,11 +3,15 @@ import { connect } from 'dva'
 import { Page } from '../../components/layouts'
 
 const Main = ({
+  dispatch,
+  location,
   app,
   children,
 }) => {
   // 属性定义
   const propsOfPage = {
+    dispatch,
+    location,
     app,
   }
 

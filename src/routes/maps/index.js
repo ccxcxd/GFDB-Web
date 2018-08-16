@@ -8,16 +8,9 @@ import les from './index.less'
 const Option = Select.Option
 
 const Main = ({
-  app,
   maps,
 }) =>{
   // 获取属性
-  const {
-    lang,
-  } = app
-  const {
-    campaign = {},
-  } = lang
   const {
     campaign_info,
   } = maps
@@ -28,13 +21,13 @@ const Main = ({
       let type_text
       switch (d.type) {
         case 0:
-          type_text = campaign.main
+          type_text = __('campaign.main')
           break;
         case 1:
-          type_text = campaign.event
+          type_text = __('campaign.event')
           break;
         case 2:
-          type_text = campaign.simulation
+          type_text = __('campaign.simulation')
           break;
         default:
           type_text = '？？'
@@ -43,7 +36,7 @@ const Main = ({
         <Option
           key={d.id}
           value={d.id}
-        >{`${type_text} ${__(lang, d.name)}`}</Option>
+        >{`${type_text} ${__(d.name)}`}</Option>
       )
     })
   }
@@ -51,7 +44,7 @@ const Main = ({
   return (
     <div>
       {/* 选择地图 */}
-      <div className={les.row}>{lang.map_sel.label}:</div>
+      <div className={les.row}>{__('map_sel.label')}:</div>
       <Select
         className={les.campaignSel}
       >

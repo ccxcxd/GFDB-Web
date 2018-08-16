@@ -7,8 +7,10 @@ import createHistory from 'history/createBrowserHistory'
 import createLoading from 'dva-loading'
 import 'moment/locale/zh-cn'
 // import '../rollbar'
-import { __ } from '../utils/js/i18n'
+import { initI18n } from '../utils/js/i18n'
 import LANG from '../locales/zh-hant'
+
+const __ = initI18n(LANG)
 
 // import '../index.less'
 // 1. Initialize

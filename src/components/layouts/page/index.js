@@ -19,23 +19,21 @@ const Page = ({
 }) => {
   // 属性获取
   const {
-    lang,
     aboutVisible,
   } = app
   const {
     pathname,
   } = location
-  console.log(pathname)
 
   // 属性定义
-  const menus = lang.menus
+  const menus = __('menus')
   const propsOfModal = {
-    title: lang.about.title,
+    title: __('about.title'),
     visible: aboutVisible,
     onCancel: () => showAbout(false),
     footer: null,
 
-    about: lang.about || {},
+    about: __('about'),
   }
 
   // 方法定义
@@ -100,7 +98,7 @@ const Page = ({
           type="primary"
           className={les.showAbout}
           onClick={() => showAbout(true)}
-        >{lang.about.title}</Button>
+        >{__('about.title')}</Button>
         {/* 关于本站弹窗 */}
         <ModalAbout {...propsOfModal} />
         {/* 语言切换 */}
@@ -108,7 +106,7 @@ const Page = ({
           <span>Language:</span>
           <Select
             className={les.lang}
-            value={lang.name}
+            value={__('name')}
             onChange={handleChange}
           >
             {mapLang(langList)}

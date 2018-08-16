@@ -6,7 +6,7 @@ module.exports = {
     { label: '后勤列表', path: '/quest' },
   ],
 	"map_sel": {
-		"label": "지도 선택:"
+		"label": "지도 선택"
 	},
 	"mission_map": {
 		"generate": "생성",

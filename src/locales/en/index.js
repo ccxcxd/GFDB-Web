@@ -6,7 +6,7 @@ module.exports = {
     { label: 'Quest', path: '/quest' },
   ],
 	"map_sel": {
-		"label": "Select map: "
+		"label": "Select map"
 	},
 	"mission_map": {
 		"generate": "Generate map",

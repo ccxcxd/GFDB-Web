@@ -13,14 +13,23 @@ const MapSelect = ({
 }) => {
   // 获取属性
   const {
-    campaignInfo,
-    missionInfo,
+    campaign_info,
+    mission_info,
     campaignSelected,
   } = maps
 
   // 方法定义
   const campaignSelect = (id) => {
-    dispatch({ type: 'maps/selectCampaign', paylaod: campaignInfo[id] })
+    dispatch({
+      type: 'maps/selectCampaign',
+      paylaod: campaign_info[id],
+    })
+  }
+  const mapTargetSelect = (id) => {
+    dispatch({
+      type: 'maps/selectMisson',
+      paylaod: mission_info[id],
+    })
   }
 
   // 渲染方法定义
@@ -51,10 +60,9 @@ const MapSelect = ({
     return childrens
   }
   const mapMapOpt = (obj) => {
-    console.log(obj)
     const childrens = []
     forEach(obj, (v) => {
-      const mission = missionInfo[v]
+      const mission = mission_info[v]
       childrens.push(
         <Option
           key={mission.id}
@@ -72,18 +80,21 @@ const MapSelect = ({
       {/* 选择地图 */}
       <div className={les.row}>{__('map_sel.label')}:</div>
       {/* 选择章节 */}
-      <Select
-        className={les.campaignSel}
-        onSelect={campaignSelect}
-      >
-        {mapCampaignOpt(campaignInfo)}
-      </Select>
-      {/* 选择地图 */}
-      <Select
-        className={les.campaignSel}
-      >
-        {mapMapOpt(campaignSelected.mission_ids)}
-      </Select>
+      <div className={les.selCon}>
+        <Select
+          className={les.sel}
+          onSelect={campaignSelect}
+        >
+          {mapCampaignOpt(campaign_info)}
+        </Select>
+        {/* 选择地图 */}
+        <Select
+          className={les.sel}
+          onSelect={mapTargetSelect}
+        >
+          {mapMapOpt(campaignSelected.mission_ids)}
+        </Select>
+      </div>
     </div>
   )
 }

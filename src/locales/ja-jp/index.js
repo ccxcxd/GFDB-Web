@@ -6,7 +6,7 @@ module.exports = {
     { label: '后勤列表', path: '/quest' },
   ],
 	"map_sel": {
-		"label": "マップを選択ください："
+		"label": "マップを選択ください"
 	},
 	"mission_map": {
 		"generate": "マップを作成する",

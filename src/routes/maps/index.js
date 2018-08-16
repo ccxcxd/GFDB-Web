@@ -3,6 +3,7 @@ import { connect } from 'dva'
 import les from './index.less'
 import MapSelect from './components/mapSelect'
 import MapCanvas from './components/mapCanvas'
+import TeamTable from './components/teamTable'
 
 const Main = ({
   dispatch,
@@ -15,13 +16,19 @@ const Main = ({
     dispatch,
     maps,
   }
+  const propsOfTeamTable = {
+    dispatch,
+    maps,
+  }
 
   return (
-    <div>
+    <div className={les.container}>
       {/* 选择地图 */}
       <MapSelect {...propsOfMapSelect} />
       {/* 地图显示 */}
       <MapCanvas />
+      {/* 敌方队伍信息 */}
+      <TeamTable {...propsOfTeamTable} />
     </div>
   )
 }

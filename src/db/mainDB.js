@@ -9,12 +9,24 @@ const convertJSONToArray = (json) => {
 }
 
 // 战役数据处理
-const campaignInfo = require('./json/campaign_info.json')
+const campaign_info = require('./json/campaign_info.json')
 
 // 地图数据处理
-const missionInfo = require('./json/mission_info.json')
+const mission_info = require('./json/mission_info.json')
+
+// 敌人队伍数据处理
+const enemy_team_info = require('./json/enemy_team_info.json')
+
+// 敌人队伍成员数据处理
+const enemy_in_team_info = require('./json/enemy_in_team_info.json')
+
+// 敌人角色数据处理
+const enemy_character_type_info = require('./json/enemy_character_type_info.json')
 
 export {
-  campaignInfo,
-  missionInfo,
+  campaign_info,
+  mission_info,
+  enemy_team_info,
+  enemy_in_team_info,
+  enemy_character_type_info,
 }

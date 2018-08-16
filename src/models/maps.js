@@ -2,14 +2,17 @@ import moduleExtend from 'dva-model-extend'
 import pathToRegexp from 'path-to-regexp'
 import { model } from '../utils/model'
 import {
-  campaign_info,
+  campaignInfo,
+  missionInfo,
 } from '@/db/mainDB'
 
 export default moduleExtend(model, {
   namespace: 'maps',
 
   state: {
-    campaign_info,
+    campaignInfo,
+    missionInfo,
+    campaignSelected: {},
   },
 
   subscriptions: {
@@ -23,6 +26,12 @@ export default moduleExtend(model, {
   },
 
   effects: {
+    * selectCampaign ({ paylaod }, { put }) {
+      yield put({
+        type: 'updateState',
+        payload: { campaignSelected: paylaod },
+      })
+    },
   },
 
   reducers: {},

@@ -17,7 +17,7 @@
 	"map_tbl": {
 		"id": "番号",
 		"leader": "敵リーダー",
-		"difficulty": "作戦能力",
+		"power": "作戦能力",
 		"members": "構成",
 		"count": "チーム数",
 		"drop": "限定ドロップ（参考用）",

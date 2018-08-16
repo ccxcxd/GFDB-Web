@@ -17,7 +17,7 @@
 	"map_tbl": {
 		"id": "번호",
 		"leader": "리더",
-		"difficulty": "전투력",
+		"power": "전투력",
 		"members": "구성",
 		"count": "수",
 		"drop": "한정드롭 (참고용)",

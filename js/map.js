@@ -5,17 +5,19 @@
     enemy_character_type_info: null,
     gun_info: null,
     ally_team_info: null,
+    building_info: null,
     fgCanvas: null,
     bgCanvas: null,
     tmpCanvas: null,
 
-    init: function (mission_info, spot_info, enemy_team_info, enemy_character_type_info, gun_info, ally_team_info) {
+    init: function (mission_info, spot_info, enemy_team_info, enemy_character_type_info, gun_info, ally_team_info, building_info) {
         map.mission_info = mission_info;
         map.spot_info = spot_info;
         map.enemy_team_info = enemy_team_info;
         map.enemy_character_type_info = enemy_character_type_info;
         map.gun_info = gun_info;
         map.ally_team_info = ally_team_info;
+        map.building_info = building_info;
         map.fgCanvas = document.getElementById("map_canvas_fg");
         map.bgCanvas = document.getElementById("map_canvas_bg");
         map.tmpCanvas = document.getElementById("map_canvas_tmp");
@@ -98,6 +100,7 @@
     },
 
     show: false,
+    power_display: true,
     missionId: 1,
     mapImgName: null,
     enemyPowerImgName: "images/misc/power.png",
@@ -236,6 +239,13 @@
                 imgLoader.add(imagename2);
             }
 
+            if (spot.building_id != 0) {
+                var building = map.building_info[spot.building_id];
+                var imagename2 = "images/building/" + building.code + building.belong + ".png";
+                building.imagename = imagename2;
+                imgLoader.add(imagename2);
+            }
+
             var loadEnemySpine = false;
             if (spot.ally_team_id) {
                 var team = map.ally_team_info[spot.ally_team_id];
@@ -312,6 +322,15 @@
             var w = spotImg.naturalWidth;
             var h = spotImg.naturalHeight;
             ctx.drawImage(spotImg, spot.coordinator_x - w / 2, spot.coordinator_y - h / 2);
+
+            // draw buildings
+            if (spot.building_id != 0) {
+                var building = map.building_info[spot.building_id];
+                var buildingImg = imgLoader.imgs[building.imagename];
+                var w = buildingImg.naturalWidth;
+                var h = buildingImg.naturalHeight;
+                ctx.drawImage(buildingImg, spot.coordinator_x - w / 2, spot.coordinator_y - h / 2);
+            }
         });
     },
 
@@ -450,37 +469,39 @@
         });
 
         // then power (can overlay on spine)
-        $.each(mission.spot_ids, function (index, spot_id) {
-            var spot = map.spot_info[spot_id];
-            var x0 = spot.coordinator_x;
-            var y0 = spot.coordinator_y;
-            if (spot.hostage_info) {
-                var s = spot.hostage_info.split(",");
-                var gun = map.gun_info[s[0]];
-                var hp = s[1];
-                var power = Math.floor(0.15 * mission.difficulty * hp);
-                map.drawFriendStats(ctx, x0, y0, $.t("game.30135"), "#FF4D00", $.t("game.30136"), "#DDDDDD", power, hp, "hostage", "#676767");
-            } else if (spot.ally_team_id) {
-                var ally_team = map.ally_team_info[spot.ally_team_id];
-                var allyColor = "white";
-                var order = "  ";
-                var power = "";
-                if (ally_team.initial_type == 0) {
-                    allyColor = "#FFC33E";
-                    power = map.enemy_team_info[spot.enemy_team_id].difficulty;
-                } else if (ally_team.initial_type == 1) {
-                    allyColor = "#96C9F8";
-                    order = $.t("game.30132")
-                } else if (ally_team.initial_type == 2){
-                    allyColor = "#FF0000";
-                    power = map.enemy_team_info[spot.enemy_team_id].difficulty;
+        if (map.power_display) {
+            $.each(mission.spot_ids, function (index, spot_id) {
+                var spot = map.spot_info[spot_id];
+                var x0 = spot.coordinator_x;
+                var y0 = spot.coordinator_y;
+                if (spot.hostage_info) {
+                    var s = spot.hostage_info.split(",");
+                    var gun = map.gun_info[s[0]];
+                    var hp = s[1];
+                    var power = Math.floor(0.15 * mission.difficulty * hp);
+                    map.drawFriendStats(ctx, x0, y0, $.t("game.30135"), "#FF4D00", $.t("game.30136"), "#DDDDDD", power, hp, "hostage", "#676767");
+                } else if (spot.ally_team_id) {
+                    var ally_team = map.ally_team_info[spot.ally_team_id];
+                    var allyColor = "white";
+                    var order = "  ";
+                    var power = "";
+                    if (ally_team.initial_type == 0) {
+                        allyColor = "#FFC33E";
+                        power = map.enemy_team_info[spot.enemy_team_id].difficulty;
+                    } else if (ally_team.initial_type == 1) {
+                        allyColor = "#96C9F8";
+                        order = $.t("game.30132")
+                    } else if (ally_team.initial_type == 2) {
+                        allyColor = "#FF0000";
+                        power = map.enemy_team_info[spot.enemy_team_id].difficulty;
+                    }
+                    map.drawFriendStats(ctx, x0, y0, $.t(ally_team.name), allyColor, order, allyColor, power, 1, "ally", allyColor);
+                } else if (spot.enemy_team_id) {
+                    var enemy_team = map.enemy_team_info[spot.enemy_team_id];
+                    map.drawEnemyPower(ctx, x0, y0, enemy_team.difficulty, mission.difficulty);
                 }
-                map.drawFriendStats(ctx, x0, y0, $.t(ally_team.name), allyColor, order, allyColor, power, 1, "ally", allyColor);
-            } else if (spot.enemy_team_id) {
-                var enemy_team = map.enemy_team_info[spot.enemy_team_id];
-                map.drawEnemyPower(ctx, x0, y0, enemy_team.difficulty, mission.difficulty);
-            }
-        });
+            });
+        }
 
         map.drawWatermark(ctx);
     },

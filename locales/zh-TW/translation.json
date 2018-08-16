@@ -17,7 +17,7 @@
 	"map_tbl": {
 		"id": "編號",
 		"leader": "隊長",
-		"difficulty": "效能",
+		"power": "效能",
 		"members": "組成",
 		"count": "數量",
 		"drop": "限定掉落（僅供參考）",

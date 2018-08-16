@@ -17,7 +17,7 @@
 	"map_tbl": {
 		"id": "ID",
 		"leader": "Leader",
-		"difficulty": "Effectiveness",
+		"power": "Effectiveness",
 		"members": "Members",
 		"count": "Count",
 		"drop": "Limited drop (for ref. only)",

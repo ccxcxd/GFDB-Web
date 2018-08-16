@@ -35,7 +35,7 @@ function setup_page() {
     var team_tbl_sort = new Tablesort(document.getElementById("team_table"));
 
     var mission_info, spot_info, enemy_team_info, enemy_in_team_info;
-    var enemy_character_type_info, campaign_info, gun_info, ally_team_info;
+    var enemy_character_type_info, campaign_info, gun_info, ally_team_info, building_info;
     $.when(
         $.getJSON("jsons/mission_info.json", function (data) {
             mission_info = data;
@@ -60,9 +60,12 @@ function setup_page() {
         }),
         $.getJSON("jsons/ally_team_info.json", function (data) {
             ally_team_info = data;
+        }),
+        $.getJSON("jsons/building_info.json", function (data) {
+            building_info = data;
         })
     ).then(function () {
-        map.init(mission_info, spot_info, enemy_team_info, enemy_character_type_info, gun_info, ally_team_info);
+        map.init(mission_info, spot_info, enemy_team_info, enemy_character_type_info, gun_info, ally_team_info, building_info);
 
         $.each(campaign_info, function (id, campaign) {
             var type_text;
@@ -97,7 +100,14 @@ function setup_page() {
             $("#map_select").empty();
             var campaign_id = Number($("#campaign_select").val());
             localStorage.setItem("campaign_select", campaign_id);
+
+            var sorted_mission_ids = {};
             $.each(campaign_info[campaign_id].mission_ids, function (index, mission_id) {
+                sorted_mission_ids[mission_info[mission_id].index_sort] = mission_id;
+            });
+            Object.keys(sorted_mission_ids).sort();
+
+            $.each(sorted_mission_ids, function (index_sort, mission_id) {
                 var mission = mission_info[mission_id];
                 var mission_text = mission.index_text + " " + $.t(mission.name);
                 $("#map_select").append($("<option>")
@@ -210,9 +220,23 @@ function setup_page() {
             map.downloadFullMap();
         });
 
+        $("#power_display_btn").click(function () {
+            $(this).toggleClass("active");
+            var hide = $(this).hasClass("active");
+            localStorage.setItem("power_display_hide", hide);
+            map.power_display = !hide;
+            map.generate();
+        });
+
         var storage_val = localStorage.getItem("auto_generate_map") === "true";
         if (storage_val) {
             $("#auto_generate_map_btn").addClass("active");
+        }
+
+        storage_val = localStorage.getItem("power_display_hide") === "true";
+        if (storage_val) {
+            $("#power_display_btn").addClass("active");
+            map.power_display = !storage_val;
         }
 
         storage_val = Number(loadStorageItem("campaign_select", 1));

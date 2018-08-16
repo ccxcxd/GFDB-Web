@@ -3,86 +3,109 @@ import {
   Table,
 } from 'antd'
 import { forEach } from 'lodash'
+import les from './index.less'
 
 const TeamTable = ({
   maps,
 }) => {
   // 属性获取
   const {
-    enemy_team_info,
     enemy_in_team_info,
-    enemy_character_type_info,
-    missionSelected,
+    enemyTeamSelected,
   } = maps
-
-  // 属性定义
-  const teamIds = missionSelected.enemy_team_count || {}
-  const initData = () => {
-    const data = []
-    let i = 0
-    forEach(teamIds, (count, teamId, idx) => {
-      console.log(idx)
-      const enemyTeam = enemy_team_info[teamId]
-      const countDict = {}
-      forEach(enemyTeam.member_ids, (menId) => {
-        const name = __(enemy_in_team_info[menId].enemy_character.name)
-        countDict[name] = (countDict[name] || 0) + enemy_in_team_info[menId].number
-      })
-      let members = ''
-      forEach(countDict, (val, key) => {
-        members += key + '*' + val + ' '
-      });
-      let drops = ''
-      forEach(enemyTeam.drops, (drop) => {
-        drops += __(drop) + ' '
-      })
-
-      data[i] = {
-        id: teamId,
-        leader: __(enemy_character_type_info[enemyTeam.enemy_leader].name),
-        difficulty: enemyTeam.difficulty,
-        members: members,
-        count: count,
-        drop: drops,
-      }
-      i += 1
-    })
-    return data
-  }
   
+  // 属性定义
+  const ids = enemyTeamSelected.member_ids || []
+  const data = ids.map(id => {
+    var member = enemy_in_team_info[id]
+    var character = member.enemy_character
+    return {
+      id: id,
+      name: __(character.name),
+      number: character.number,
+      maxlife: Math.ceil(character.maxlife / character.number),
+      pow: character.pow,
+      rate: character.rate,
+      hit: character.hit,
+      dodge: character.dodge,
+      range: character.range,
+      speed: character.speed,
+      armor_piercing: character.armor_piercing,
+      armor: character.armor,
+      coordinator_x: member.coordinator_x,
+      coordinator_y: member.coordinator_y,
+      character: __(character.character).replace(new RegExp("//c", "g"), " "),
+    }
+  })
+
   const columns = [
     {
-      title: __('map_tbl.id'),
-      dataIndex: 'id',
+      title: __('team_tbl.name'),
+      dataIndex: 'name',
     },
     {
-      title: __('map_tbl.leader'),
-      dataIndex: 'leader',
+      title: __('team_tbl.number'),
+      dataIndex: 'number',
     },
     {
-      title: __('map_tbl.difficulty'),
-      dataIndex: 'difficulty',
+      title: __('team_tbl.maxlife'),
+      dataIndex: 'maxlife',
     },
     {
-      title: __('map_tbl.members'),
-      dataIndex: 'members',
+      title: __('team_tbl.pow'),
+      dataIndex: 'pow',
     },
     {
-      title: __('map_tbl.count'),
-      dataIndex: 'count',
+      title: __('team_tbl.rate'),
+      dataIndex: 'rate',
     },
     {
-      title: __('map_tbl.drop'),
-      dataIndex: 'drop',
+      title: __('team_tbl.hit'),
+      dataIndex: 'hit',
+    },
+    {
+      title: __('team_tbl.dodge'),
+      dataIndex: 'dodge',
+    },
+    {
+      title: __('team_tbl.range'),
+      dataIndex: 'range',
+    },
+    {
+      title: __('team_tbl.speed'),
+      dataIndex: 'speed',
+    },
+    {
+      title: __('team_tbl.armor_piercing'),
+      dataIndex: 'armor_piercing',
+    },
+    {
+      title: __('team_tbl.armor'),
+      dataIndex: 'armor',
+    },
+    {
+      title: __('team_tbl.coordinator_x'),
+      dataIndex: 'coordinator_x',
+    },
+    {
+      title: __('team_tbl.coordinator_y'),
+      dataIndex: 'coordinator_y',
+    },
+    {
+      title: __('team_tbl.character'),
+      dataIndex: 'character',
     },
   ]
   const propsOfTable = {
     columns,
-    dataSource: initData(),
+    dataSource: data,
+    rowKey: 'id',
+    className: les.table,
     pagination: false,
   }
   return (
     <div>
+      <h5>{__('team_sel.label')}</h5>
       <Table {...propsOfTable} />
     </div>
   )

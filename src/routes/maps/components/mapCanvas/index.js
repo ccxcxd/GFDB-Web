@@ -20,7 +20,17 @@ class MapCanvas extends React.Component {
 
   // 生命周期
   componentDidMount () {
-    const map = new Map()
+    const {
+      dispatch,
+    } = this.props
+    const map = new Map({
+      onSpotClick: (id) => {
+        dispatch({
+          type: 'maps/selectEnemyTeam',
+          payload: mDB.enemy_team_info[id],
+        })
+      }
+    })
     this.mapObj = map
   }
   componentDidUpdate(prevProps) {

@@ -24,10 +24,15 @@ class Map {
   bgCanvas = null
   tmpCanvas = null
 
+  onSpotClick = null  // 点击地图点响应
+
   /**
    * init map canvas Object
    */
-  constructor () {
+  constructor ({
+    onSpotClick,
+  }) {
+    this.onSpotClick = onSpotClick
     // init Object data
     this.fgCanvas = document.getElementById(CANVAS_FG_ID);
     this.bgCanvas = document.getElementById(CANVAS_BG_ID);
@@ -83,13 +88,14 @@ class Map {
             } else {
               // select single
               this.selectedSpots = [spot_id];
-              if (spot.enemy_team_id) {
+              if (spot.enemy_team_id && this.onSpotClick) {
                 // Remarks: this click event will first make selection with all spots with the same enemy id
                 //          then next click will only select the single one because id does not change
-                var tmp = $("#map_table tbody td[data-team_id=" + spot.enemy_team_id + "]");
-                if (tmp.length > 0) {
-                  tmp.parent().click();
-                }
+                // var tmp = $("#map_table tbody td[data-team_id=" + spot.enemy_team_id + "]");
+                // if (tmp.length > 0) {
+                //   tmp.parent().click();
+                // }
+                this.onSpotClick(spot.enemy_team_id)
               }
             }
             this.drawFgImage(canvas);
@@ -215,10 +221,6 @@ class Map {
       this.tmpCanvas.height = 0;
     }, "image/png");
   }
-
-  // getDownloadFilename () {
-  //   return $("#map_select option:checked").text().trim().replace(" ", "_") + ".png";
-  // }
 
   selectAllEnemy (enemy_team_id) {
     this.selectedSpots = [];

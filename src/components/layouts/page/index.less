@@ -1,4 +1,4 @@
-@logo_width: 114px;
+@logo_width: 40px;
 @menu_deg: 30deg;
 
 .diamond() {
@@ -43,20 +43,26 @@
         overflow: hidden;
         &:before {
           left: -1 * @layout_header_height * tan(@menu_deg);
-          border-right-width: 0px;
+          // border-right-width: 0px;
           transition: all ease .3s;
         }
 
-        &:hover,
-        &.active {
+        &:hover {
           z-index: 1;
           img {
             // height: @layout_header_height * 0.9;
             left: 4px;
           }
+        }
+        &.active {
+          z-index: 1;
+          img {
+            // height: @layout_header_height * 0.9;
+            left: 2px;
+          }
           &:before {
-            // background-color: @theme_color_red;
-            border-right: 4px solid @theme_color_yellow;
+            background-color: @theme_color_yellow;
+            // border-right: 4px solid @theme_color_yellow;
           }
         }
 

@@ -79,7 +79,14 @@ const Page = ({
             to="/"
             className={`${les.logo} ${pathname === '/' ? les.active : ''}`}
           >
-            <img src={require('@/static/img/logo.png')} alt="logo" />
+            <img
+              src={
+                pathname === '/' ?
+                require('@/static/img/logo_w.png') :
+                require('@/static/img/logo_y.png')
+              }
+              alt="logo"
+            />
           </Link>
           {/* 路由菜单 */}
           <ul

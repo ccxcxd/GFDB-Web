@@ -34,8 +34,8 @@ const TeamTable = ({
       speed: character.speed,
       armor_piercing: character.armor_piercing,
       armor: character.armor,
-      coordinator_x: member.coordinator_x,
-      coordinator_y: member.coordinator_y,
+      // coordinator_x: member.coordinator_x,
+      // coordinator_y: member.coordinator_y,
       character: __(character.character).replace(new RegExp("//c", "g"), " "),
     }
   })
@@ -48,18 +48,22 @@ const TeamTable = ({
     {
       title: __('team_tbl.number'),
       dataIndex: 'number',
+      sorter: (a, b) => a.number - b.number,
     },
     {
       title: __('team_tbl.maxlife'),
       dataIndex: 'maxlife',
+      sorter: (a, b) => a.maxlife - b.maxlife,
     },
     {
       title: __('team_tbl.pow'),
       dataIndex: 'pow',
+      sorter: (a, b) => a.pow - b.pow,
     },
     {
       title: __('team_tbl.rate'),
       dataIndex: 'rate',
+      sorter: (a, b) => a.rate - b.rate,
     },
     {
       title: __('team_tbl.hit'),
@@ -85,14 +89,14 @@ const TeamTable = ({
       title: __('team_tbl.armor'),
       dataIndex: 'armor',
     },
-    {
-      title: __('team_tbl.coordinator_x'),
-      dataIndex: 'coordinator_x',
-    },
-    {
-      title: __('team_tbl.coordinator_y'),
-      dataIndex: 'coordinator_y',
-    },
+    // {
+    //   title: __('team_tbl.coordinator_x'),
+    //   dataIndex: 'coordinator_x',
+    // },
+    // {
+    //   title: __('team_tbl.coordinator_y'),
+    //   dataIndex: 'coordinator_y',
+    // },
     {
       title: __('team_tbl.character'),
       dataIndex: 'character',

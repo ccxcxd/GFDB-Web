@@ -27,6 +27,12 @@ const TeamTable = ({
       payload,
     })
   }
+  const getStrLength = (str) => {
+    if (!str) {
+      return 0
+    }
+    return str.length
+  }
 
   // 属性定义
   const teamIds = missionSelected.enemy_team_count || {}
@@ -67,6 +73,7 @@ const TeamTable = ({
     {
       title: __('map_tbl.id'),
       dataIndex: 'id',
+      sorter: (a, b) => a.id - b.id,
     },
     {
       title: __('map_tbl.leader'),
@@ -75,6 +82,7 @@ const TeamTable = ({
     {
       title: __('map_tbl.difficulty'),
       dataIndex: 'difficulty',
+      sorter: (a, b) => a.difficulty - b.difficulty,
     },
     {
       title: __('map_tbl.members'),
@@ -83,10 +91,12 @@ const TeamTable = ({
     {
       title: __('map_tbl.count'),
       dataIndex: 'count',
+      sorter: (a, b) => a.count - b.count,
     },
     {
       title: __('map_tbl.drop'),
       dataIndex: 'drop',
+      sorter: (a, b) => getStrLength(a.drop) - getStrLength(b.drop),
     },
   ]
   const propsOfTable = {

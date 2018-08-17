@@ -7,6 +7,7 @@ import {
   ally_team_info,
 } from '@/db/mainDB'
 import $ from 'jquery'
+const { saveAs } = require('file-saver/FileSaver.min.js')
 import ImgLoader from './imgLoader'
 
 const CANVAS_FG_ID = 'map_canvas_fg'
@@ -165,16 +166,16 @@ class Map {
     this.bgCanvas.height = 0;
   }
 
-  download () {
+  download (name) {
     if (!this.show)
       return;
 
     this.fgCanvas.toBlob((blob) => {
-      saveAs(blob, this.getDownloadFilename());
+      saveAs(blob, `${name}.png`);
     }, "image/png");
   }
 
-  downloadFullMap () {
+  downloadFullMap (name) {
     if (!this.show)
       return;
 
@@ -209,14 +210,14 @@ class Map {
 
     // output
     this.tmpCanvas.toBlob((blob) => {
-      saveAs(blob, this.getDownloadFilename());
+      saveAs(blob, `${name}_full.png`);
       this.tmpCanvas.height = 0;
     }, "image/png");
   }
 
-  getDownloadFilename () {
-    return $("#map_select option:checked").text().trim().replace(" ", "_") + ".png";
-  }
+  // getDownloadFilename () {
+  //   return $("#map_select option:checked").text().trim().replace(" ", "_") + ".png";
+  // }
 
   selectAllEnemy (enemy_team_id) {
     this.selectedSpots = [];

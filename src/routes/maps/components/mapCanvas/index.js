@@ -27,7 +27,7 @@ class MapCanvas extends React.Component {
     const oldMisson = prevProps.maps.missionSelected
     const newMisson = this.props.maps.missionSelected
     if (!isEqual(oldMisson, newMisson)) {
-      console.log('更新了')
+      // console.log('更新了')
       // 检查自动更新
       if (this.state.auto) {
         this.onGenerate()
@@ -48,6 +48,18 @@ class MapCanvas extends React.Component {
       return
     }
     this.mapObj.generate(missionId)
+  }
+  download () {
+    const { maps } = this.props
+    const mission = maps.missionSelected
+    const name = `${mission.index_text} ${__(mission.name)}`
+    this.mapObj.download(name)
+  }
+  downloadFullMap () {
+    const { maps } = this.props
+    const mission = maps.missionSelected
+    const name = `${mission.index_text}_${__(mission.name)}`
+    this.mapObj.downloadFullMap(name)
   }
 
   render () {
@@ -94,10 +106,12 @@ class MapCanvas extends React.Component {
             <Button
               type='primary'
               disabled={!missionSelected.id}
+              onClick={() => this.download()}
             >{__('mission_map.download')}</Button>
             <Button
               type='primary'
               disabled={!missionSelected.id}
+              onClick={() => this.downloadFullMap()}
             >{__('mission_map.download_full')}</Button>
           </Button.Group>
         </div>

@@ -9,6 +9,7 @@ import 'moment/locale/zh-cn'
 // import '../rollbar'
 import { initI18n } from '../utils/js/i18n'
 import mDB from '../db/mainDB'
+import qDB from '../db/questDB'
 import LANG from '../locales/en'
 
 const __ = initI18n(LANG)
@@ -37,5 +38,6 @@ app.start('#root')
 // 全局变量注入
 window.__ = __
 window.mDB = mDB
+window.qDB = qDB
 
 // export default app // eslint-disable-line

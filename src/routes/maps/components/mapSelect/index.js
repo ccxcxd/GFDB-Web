@@ -13,11 +13,13 @@ const MapSelect = ({
 }) => {
   // 获取属性
   const {
-    campaign_info,
-    mission_info,
     campaignSelected,
     missionSelected,
   } = maps
+  const {
+    campaign_info,
+    mission_info,
+  } = mDB
 
   // 方法定义
   const campaignSelect = (id) => {

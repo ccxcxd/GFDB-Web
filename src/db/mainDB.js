@@ -32,7 +32,7 @@ const gun_info = require('./json/gun_info.json')
 // 盟友数据
 const ally_team_info = require('./json/ally_team_info.json')
 
-export {
+export default {
   campaign_info,
   mission_info,
   spot_info,

@@ -8,6 +8,7 @@ import createLoading from 'dva-loading'
 import 'moment/locale/zh-cn'
 // import '../rollbar'
 import { initI18n } from '../utils/js/i18n'
+import mDB from '../db/mainDB'
 import LANG from '../locales/ja-jp'
 
 const __ = initI18n(LANG)
@@ -35,5 +36,6 @@ app.start('#root')
 
 // 全局变量注入
 window.__ = __
+window.mDB = mDB
 
 // export default app // eslint-disable-line

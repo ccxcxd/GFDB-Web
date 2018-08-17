@@ -11,12 +11,14 @@ const TeamTable = ({
 }) => {
   // 属性获取
   const {
-    enemy_team_info,
-    enemy_in_team_info,
-    enemy_character_type_info,
     missionSelected,
     enemyTeamSelected,
   } = maps
+  const {
+    enemy_team_info,
+    enemy_in_team_info,
+    enemy_character_type_info,
+  } = mDB
 
   // 方法定义
   const selectEnemyTeam = (payload) => {

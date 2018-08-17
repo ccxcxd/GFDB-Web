@@ -10,9 +10,11 @@ const TeamTable = ({
 }) => {
   // 属性获取
   const {
-    enemy_in_team_info,
     enemyTeamSelected,
   } = maps
+  const {
+    enemy_in_team_info,
+  } = mDB
   
   // 属性定义
   const ids = enemyTeamSelected.member_ids || []

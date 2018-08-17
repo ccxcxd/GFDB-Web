@@ -2,29 +2,17 @@ import moduleExtend from 'dva-model-extend'
 // import pathToRegexp from 'path-to-regexp'
 import { isEmpty } from 'lodash'
 import { model } from '../utils/model'
-import {
-  campaign_info,
+import mDB from '@/db/mainDB'
+
+const {
   mission_info,
-  spot_info,
   enemy_team_info,
-  enemy_in_team_info,
-  enemy_character_type_info,
-  gun_info,
-  ally_team_info,
-} from '@/db/mainDB'
+} = mDB
 
 export default moduleExtend(model, {
   namespace: 'maps',
 
   state: {
-    campaign_info,
-    mission_info,
-    spot_info,
-    enemy_team_info,
-    enemy_in_team_info,
-    enemy_character_type_info,
-    gun_info,
-    ally_team_info,
     campaignSelected: {}, // 选中的战役
     missionSelected: {},  // 选中的任务
     enemyTeamSelected: {},  // 选中的队伍
@@ -44,8 +32,8 @@ export default moduleExtend(model, {
   },
 
   effects: {
-    * initData (inval, { select, put }) {
-      const { campaign_info } = yield select(({ maps }) => maps)
+    * initData (inval, { put }) {
+      const { campaign_info } = mDB
       if (campaign_info && !isEmpty(campaign_info)) {
         const keys = Object.keys(campaign_info)
         yield put ({

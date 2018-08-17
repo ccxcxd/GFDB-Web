@@ -1,14 +1,15 @@
-import {
+import $ from 'jquery'
+import ImgLoader from './imgLoader'
+
+const { saveAs } = require('file-saver/FileSaver.min.js')
+const {
   mission_info,
   spot_info,
   enemy_team_info,
   enemy_character_type_info,
   gun_info,
   ally_team_info,
-} from '@/db/mainDB'
-import $ from 'jquery'
-const { saveAs } = require('file-saver/FileSaver.min.js')
-import ImgLoader from './imgLoader'
+} = mDB
 
 const CANVAS_FG_ID = 'map_canvas_fg'
 const CANVAS_BG_ID = 'map_canvas_bg'

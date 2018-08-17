@@ -1,8 +1,8 @@
 const basePlus = require('../public/plugins')
 const ProgressBarPlugin = require('progress-bar-webpack-plugin')
 
-module.exports = (conf, lang) => {
-  const basePlugins = basePlus(conf, lang)
+module.exports = (conf) => {
+  const basePlugins = basePlus(conf)
 
   return [
     ...basePlugins,

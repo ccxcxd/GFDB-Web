@@ -1,10 +1,11 @@
-module.exports = (conf, lang) => {
+module.exports = (conf) => {
   const {
     OUTPUT_DIR,
   } = conf
 
   return {
     path: OUTPUT_DIR,
-    filename: `${lang}/[name].js`,
+    publicPath: '/',
+    filename: '[name]/index.js',
   }
 }

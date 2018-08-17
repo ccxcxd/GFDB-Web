@@ -1,10 +1,11 @@
-module.exports = (conf, lang) => {
+module.exports = (conf) => {
   const {
     OUTPUT_DIR,
   } = conf
 
   return {
     path: OUTPUT_DIR,
-    filename: `${lang}/[name]_[chunkhash:6].js`,
+    publicPath: '/',
+    filename: '[name]/index_[chunkhash:6].js',
   }
 }

@@ -1,28 +1,26 @@
 const path = require('path')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
-const I18nPlugin = require("i18n-webpack-plugin")
 
-module.exports = (conf, lang) => {
-  const {
-    SRC,
-    languages,
-  } = conf
-
-  return [
-    // 主页
-    new HtmlWebpackPlugin({
-      filename: `${lang}/index.html`,
+module.exports = ({
+  SRC,
+  languages,
+}) => {
+  const indexs = languages.map(d => {
+    return new HtmlWebpackPlugin({
+      filename: `${d.name}/index.html`,
       template: path.resolve(SRC, './index.ejs'),
       xhtml: true,
-    }),
-    // 重定向首页
+      chunks: [d.name],
+    })
+  })
+  return [
+    // 各语种主页
+    ...indexs,
     new HtmlWebpackPlugin({
       filename: 'index.html',
       template: path.resolve(SRC, './indexPage.ejs'),
       xhtml: true,
-      chunks: [], // 首页只作为跳转
+      chunks: [],
     }),
-    // 多语言
-    new I18nPlugin(languages[lang]),
   ]
 }

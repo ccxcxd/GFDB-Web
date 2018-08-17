@@ -5,13 +5,10 @@
   "main": "index.js",
   "scripts": {
     "start": "npm run dev",
-    "dev": "webpack-dev-server --config ./webpack-config/config.dev.js",
-    "predev:single": "node ./bin/init.js dev",
-    "dev:single": "webpack-dev-server --config ./webpack-config-single/config.dev.js",
-    "prebuild": "rimraf dist/**",
-    "build": "webpack --config ./webpack-config/config.prod.js",
-    "prebuild:single": "rimraf dist/** && node ./bin/init.js build",
-    "build:single": "webpack --config ./webpack-config-single/config.prod.js",
+    "predev": "node ./bin/init.js dev",
+    "dev": "webpack-dev-server --config ./webpack-config-single/config.dev.js",
+    "prebuild": "rimraf dist/** && node ./bin/init.js build",
+    "build": "webpack --config ./webpack-config-single/config.prod.js",
     "local": "http-server ./dist"
   },
   "author": "L.T.",
@@ -21,6 +18,7 @@
     "dva": "^2.3.2",
     "dva-loading": "^2.0.4",
     "dva-model-extend": "^0.1.2",
+    "jquery": "^3.3.1",
     "react": "^16.4.2",
     "react-dom": "^16.4.2"
   },

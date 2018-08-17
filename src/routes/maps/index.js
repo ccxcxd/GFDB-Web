@@ -17,6 +17,10 @@ const Main = ({
     dispatch,
     maps,
   }
+  const propsOfMapCanvas = {
+    dispatch,
+    maps,
+  }
   const propsOfMapTable = {
     dispatch,
     maps,
@@ -30,7 +34,7 @@ const Main = ({
       {/* 选择地图 */}
       <MapSelect {...propsOfMapSelect} />
       {/* 地图显示 */}
-      <MapCanvas />
+      <MapCanvas {...propsOfMapCanvas} />
       {/* 敌方队伍信息 */}
       <MapTable {...propsOfMapTable} />
       {/* 队伍详情信息 */}

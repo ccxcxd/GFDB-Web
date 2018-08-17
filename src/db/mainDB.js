@@ -14,6 +14,9 @@ const campaign_info = require('./json/campaign_info.json')
 // 地图数据处理
 const mission_info = require('./json/mission_info.json')
 
+// 点数据
+const spot_info = require('./json/spot_info.json')
+
 // 敌人队伍数据处理
 const enemy_team_info = require('./json/enemy_team_info.json')
 
@@ -23,10 +26,19 @@ const enemy_in_team_info = require('./json/enemy_in_team_info.json')
 // 敌人角色数据处理
 const enemy_character_type_info = require('./json/enemy_character_type_info.json')
 
+// 枪支数据
+const gun_info = require('./json/gun_info.json')
+
+// 盟友数据
+const ally_team_info = require('./json/ally_team_info.json')
+
 export {
   campaign_info,
   mission_info,
+  spot_info,
   enemy_team_info,
   enemy_in_team_info,
   enemy_character_type_info,
+  gun_info,
+  ally_team_info,
 }

@@ -4,7 +4,7 @@ const basePlus = require('../public/plugins')
 const ProgressBarPlugin = require('progress-bar-webpack-plugin')
 const FriendlyErrorsPlugin = require('friendly-errors-webpack-plugin')
 
-module.exports = (conf, lang) => {
+module.exports = (conf) => {
   const {
     ROOT,
     HOST,
@@ -13,7 +13,7 @@ module.exports = (conf, lang) => {
     notifyOnErrors,
   } = conf
 
-  const basePlugins = basePlus(conf, lang)
+  const basePlugins = basePlus(conf)
 
   /** 自定义的错误输出格式 */
   const createNotifierCallback = () => {

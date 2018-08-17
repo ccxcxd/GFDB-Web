@@ -1,22 +1,15 @@
 const conf = require('./base/index')
 
-const {
-  languages
-} = conf
+module.exports = {
+  mode: 'production',
 
-module.exports = Object.keys(languages).map((lang) => {
-  return {
-    name: lang,
-    mode: 'production',
+  ...require('./public/base')(conf),
 
-    ...require('./public/base')(conf),
+  entry: require('./public/entry')(conf),
+  output: require('./prod/output')(conf),
+  module: require('./dev/module')(conf),
+  resolve: require('./public/resolve')(conf),
+  plugins: require('./prod/plugins')(conf),
 
-    entry: require('./public/entry')(conf),
-    output: require('./prod/output')(conf, lang),
-    module: require('./dev/module')(conf),
-    resolve: require('./public/resolve')(),
-    plugins: require('./prod/plugins')(conf, lang),
-  
-    devtool: false,
-  }
-})
+  devtool: false,
+}

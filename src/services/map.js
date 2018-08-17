@@ -69,7 +69,7 @@ class Map {
       if (lastX == x && lastY == y) {
         x = this.fgX2bgX(x);
         y = this.fgY2bgY(y);
-        $.each(mission_info[this.missionId].spot_ids, function (index, spot_id) {
+        $.each(mission_info[this.missionId].spot_ids, (index, spot_id) => {
           var spot = spot_info[spot_id];
           var spotImg = imgLoader.imgs[spot.imagename];
           var w = spotImg.naturalWidth;
@@ -169,7 +169,7 @@ class Map {
     if (!this.show)
       return;
 
-    this.fgCanvas.toBlob(function (blob) {
+    this.fgCanvas.toBlob((blob) => {
       saveAs(blob, this.getDownloadFilename());
     }, "image/png");
   }
@@ -208,7 +208,7 @@ class Map {
     this.selectedSpots = selectedSpots;
 
     // output
-    this.tmpCanvas.toBlob(function (blob) {
+    this.tmpCanvas.toBlob((blob) => {
       saveAs(blob, this.getDownloadFilename());
       this.tmpCanvas.height = 0;
     }, "image/png");
@@ -220,7 +220,7 @@ class Map {
 
   selectAllEnemy (enemy_team_id) {
     this.selectedSpots = [];
-    $.each(this.mission_info[this.missionId].spot_ids, function (index, spot_id) {
+    $.each(this.mission_info[this.missionId].spot_ids, (index, spot_id) => {
       if (this.spot_info[spot_id].enemy_team_id == enemy_team_id)
         this.selectedSpots.push(spot_id);
     });
@@ -232,7 +232,7 @@ class Map {
     var mission = mission_info[this.missionId];
     this.mapImgName = `${IMAGE_BASEPATH}/map/` + mission.map_res_name + ".png";
     imgLoader.add(this.mapImgName);
-    $.each(mission.spot_ids, function (index, spot_id) {
+    $.each(mission.spot_ids, (index, spot_id) => {
       var spot = spot_info[spot_id];
 
       var imagename;
@@ -283,7 +283,7 @@ class Map {
     // load font
     if (document.fonts) {
       var d = $.Deferred();
-      document.fonts.load("10pt EnemyPower").then(function () {
+      document.fonts.load("10pt EnemyPower").then(() => {
         d.resolve();
       });
       imgLoader.loaders.push(d.promise());
@@ -318,7 +318,7 @@ class Map {
     ctx.restore();
 
     // draw spot connections
-    $.each(mission.spot_ids, function (index, spot_id) {
+    $.each(mission.spot_ids, (index, spot_id) => {
       var spot = spot_info[spot_id];
       $.each(spot.route_types, (other_id, number_of_ways) => {
         this.drawConnectionLine(ctx, spot.coordinator_x, spot.coordinator_y,
@@ -327,7 +327,7 @@ class Map {
     });
 
     // draw spots
-    $.each(mission.spot_ids, function (index, spot_id) {
+    $.each(mission.spot_ids, (index, spot_id) => {
       var spot = spot_info[spot_id];
       var spotImg = imgLoader.imgs[spot.imagename];
       var w = spotImg.naturalWidth;
@@ -457,26 +457,26 @@ class Map {
       if (spot.hostage_info) {
         var s = spot.hostage_info.split(",");
         var gun = gun_info[s[0]];
-        this.drawSpine(ctx, x0, y0, gun.imagename, $.t(gun.name), selected);
+        this.drawSpine(ctx, x0, y0, gun.imagename, __(gun.name), selected);
       } else if (spot.ally_team_id) {
         var ally_team = ally_team_info[spot.ally_team_id];
         if (ally_team.initial_type == 1) {
           var leader_info = gun_info[ally_team.leader_id];
-          this.drawSpine(ctx, x0, y0, leader_info.imagename, $.t(leader_info.name), selected);
+          this.drawSpine(ctx, x0, y0, leader_info.imagename, __(leader_info.name), selected);
         } else {
           var enemy_team = enemy_team_info[spot.enemy_team_id];
           var leader_info = enemy_character_type_info[enemy_team.enemy_leader];
-          this.drawSpine(ctx, x0, y0, leader_info.imagename, $.t(leader_info.name), selected);
+          this.drawSpine(ctx, x0, y0, leader_info.imagename, __(leader_info.name), selected);
         }
       } else if (spot.enemy_team_id) {
         var enemy_team = enemy_team_info[spot.enemy_team_id];
         var leader_info = enemy_character_type_info[enemy_team.enemy_leader];
-        this.drawSpine(ctx, x0, y0, leader_info.imagename, $.t(leader_info.name), selected);
+        this.drawSpine(ctx, x0, y0, leader_info.imagename, __(leader_info.name), selected);
       }
     });
 
     // then power (can overlay on spine)
-    $.each(mission.spot_ids, function (index, spot_id) {
+    $.each(mission.spot_ids, (index, spot_id) => {
       var spot = spot_info[spot_id];
       var x0 = spot.coordinator_x;
       var y0 = spot.coordinator_y;
@@ -485,7 +485,7 @@ class Map {
         var gun = gun_info[s[0]];
         var hp = s[1];
         var power = Math.floor(0.15 * mission.difficulty * hp);
-        this.drawFriendStats(ctx, x0, y0, $.t("game.30135"), "#FF4D00", $.t("game.30136"), "#DDDDDD", power, hp, "hostage", "#676767");
+        this.drawFriendStats(ctx, x0, y0, __("game.30135"), "#FF4D00", __("game.30136"), "#DDDDDD", power, hp, "hostage", "#676767");
       } else if (spot.ally_team_id) {
         var ally_team = ally_team_info[spot.ally_team_id];
         var allyColor = "white";
@@ -496,12 +496,12 @@ class Map {
           power = enemy_team_info[spot.enemy_team_id].difficulty;
         } else if (ally_team.initial_type == 1) {
           allyColor = "#96C9F8";
-          order = $.t("game.30132")
+          order = __("game.30132")
         } else if (ally_team.initial_type == 2) {
           allyColor = "#FF0000";
           power = enemy_team_info[spot.enemy_team_id].difficulty;
         }
-        this.drawFriendStats(ctx, x0, y0, $.t(ally_team.name), allyColor, order, allyColor, power, 1, "ally", allyColor);
+        this.drawFriendStats(ctx, x0, y0, __(ally_team.name), allyColor, order, allyColor, power, 1, "ally", allyColor);
       } else if (spot.enemy_team_id) {
         var enemy_team = enemy_team_info[spot.enemy_team_id];
         this.drawEnemyPower(ctx, x0, y0, enemy_team.difficulty, mission.difficulty);
@@ -534,7 +534,7 @@ class Map {
     y0 = Math.floor(this.bgY2fgY(y0));
 
     ctx.save();
-    ctx.font = "bold 32px " + $.t("font.sans-serif");
+    ctx.font = "bold 32px " + __("font.sans-serif");
     ctx.textAlign = "center";
     ctx.textBaseline = "middle";
     ctx.shadowColor = "black";
@@ -612,7 +612,7 @@ class Map {
     }
     ctx.textAlign = "start";
     ctx.textBaseline = "middle";
-    ctx.font = "bold " + Math.floor(36 * scale) + "px " + $.t("font.serif");
+    ctx.font = "bold " + Math.floor(36 * scale) + "px " + __("font.serif");
     ctx.fillStyle = nameColor;
     ctx.fillText(name, x0 + 4 * scale, y0 + 39 * scale);
     if (order != "") {
@@ -631,7 +631,7 @@ class Map {
       ctx.lineTo(x1, y1 + h);
       ctx.arc(x1, y1 + h / 2, h / 2, 0.5 * Math.PI, 1.5 * Math.PI);
       ctx.fill();
-      ctx.font = Math.floor(36 * scale) + "px " + $.t("font.sans-serif");
+      ctx.font = Math.floor(36 * scale) + "px " + __("font.sans-serif");
       ctx.textAlign = "center";
       ctx.fillStyle = "black";
       ctx.fillText(order, x1 + w / 2, y1 + h / 2);
@@ -727,7 +727,7 @@ class Map {
     var yMin = this.height;
     var yMax = 0;
     var mission = mission_info[this.missionId];
-    $.each(mission.spot_ids, function (index, spot_id) {
+    $.each(mission.spot_ids, (index, spot_id) => {
       var spot = spot_info[spot_id];
       xMin = Math.min(xMin, spot.coordinator_x);
       xMax = Math.max(xMax, spot.coordinator_x);

@@ -2,23 +2,51 @@ import React from 'react'
 import {
   Alert,
   Button,
+  Icon,
+  message,
 } from 'antd'
 import Map from '@/services/map'
+import { isEqual } from 'lodash'
+import les from './idnex.less'
 
 class MapCanvas extends React.Component {
   constructor (props) {
     super(props)
     this.mapObj = null
+    this.state = {
+      auto: false
+    }
   } 
 
+  // 生命周期
   componentDidMount () {
     const map = new Map()
     this.mapObj = map
-    console.log(map)
+  }
+  componentDidUpdate(prevProps) {
+    const oldMisson = prevProps.maps.missionSelected
+    const newMisson = this.props.maps.missionSelected
+    if (!isEqual(oldMisson, newMisson)) {
+      console.log('更新了')
+      // 检查自动更新
+      if (this.state.auto) {
+        this.onGenerate()
+      }
+    }
   }
 
   // 自定义方法
-  onGenerate (missionId) {
+  setAuto () {
+    const { auto } = this.state
+    this.setState({ auto: !auto })
+  }
+  onGenerate () {
+    const { maps } = this.props
+    const missionId = maps.missionSelected.id
+    if (!missionId) {
+      message.warning('请先选择要生成的地图')
+      return
+    }
     this.mapObj.generate(missionId)
   }
 
@@ -27,6 +55,9 @@ class MapCanvas extends React.Component {
     const {
       maps,
     } = this.props
+    const {
+      auto,
+    } = this.state
     const {
       missionSelected,
     } = maps
@@ -44,18 +75,31 @@ class MapCanvas extends React.Component {
           <canvas id="map_canvas_tmp" width="0" height="0" />
         </div>
         {/* 操作区 */}
-        <div>
+        <div className={les.btnArea}>
+          <Button.Group>
+            <Button
+              type={ auto ? 'primary' : '' }
+              onClick={() => this.setAuto()}
+            >
+              { auto ? <Icon type="check" /> : '' }
+              {__('mission_map.auto_generate')}
+            </Button>
+            <Button
+              type='primary'
+              disabled={!missionSelected.id}
+              onClick={() => this.onGenerate()}
+            >{__('mission_map.generate')}</Button>
+          </Button.Group>
           <Button.Group>
             <Button
               type='primary'
-            >{__('mission_map.auto_generate')}</Button>
+              disabled={!missionSelected.id}
+            >{__('mission_map.download')}</Button>
             <Button
               type='primary'
-              onClick={() => this.onGenerate(missionSelected.id)}
-            >{__('mission_map.generate')}</Button>
+              disabled={!missionSelected.id}
+            >{__('mission_map.download_full')}</Button>
           </Button.Group>
-          <Button type='primary'>{__('mission_map.download')}</Button>
-          <Button type='primary'>{__('mission_map.download_full')}</Button>
         </div>
         <div>
           &nbsp;&nbsp;&nbsp;&nbsp;&uarr;&nbsp;&nbsp;<span>{__('mission_map.description')}</span>

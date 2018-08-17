@@ -13,6 +13,7 @@ const CANVAS_FG_ID = 'map_canvas_fg'
 const CANVAS_BG_ID = 'map_canvas_bg'
 const CANVAS_TMP_ID = 'map_canvas_tmp'
 const WATERMARK = 'https://gf.underseaworld.net/'
+const IMAGE_BASEPATH = '/static/img'
 
 const imgLoader = new ImgLoader()
 
@@ -44,7 +45,7 @@ class Map {
       = document.body.style.webkitUserSelect
       = document.body.style.userSelect
       = 'none';
-      
+
       lastX = evt.offsetX || (evt.pageX - canvas.offsetLeft);
       lastY = evt.offsetY || (evt.pageY - canvas.offsetTop);
       mousedowned = true;
@@ -117,8 +118,8 @@ class Map {
   show = false
   missionId = 1
   mapImgName = null
-  enemyPowerImgName = "images/misc/power.png"
-  friendStatsImgName = "images/misc/friendstats.png"
+  enemyPowerImgName = `${IMAGE_BASEPATH}/misc/power.png`
+  friendStatsImgName = `${IMAGE_BASEPATH}/misc/friendstats.png`
   displayWidth = 0    // fg_x max
   displayHeight = 0   // fg_y max
   width = 0           // bg_x max
@@ -229,7 +230,7 @@ class Map {
   preloadResources () {
     // load images
     var mission = mission_info[this.missionId];
-    this.mapImgName = "images/map/" + mission.map_res_name + ".png";
+    this.mapImgName = `${IMAGE_BASEPATH}/map/` + mission.map_res_name + ".png";
     imgLoader.add(this.mapImgName);
     $.each(mission.spot_ids, function (index, spot_id) {
       var spot = spot_info[spot_id];
@@ -245,13 +246,13 @@ class Map {
         imagename = "spot" + spot.type;
       }
       imagename = __("spot_img." + imagename);
-      imagename = "images/spot/" + imagename + spot.belong + ".png";
+      imagename = `${IMAGE_BASEPATH}/spot/` + imagename + spot.belong + ".png";
       spot.imagename = imagename;
       imgLoader.add(imagename);
 
       if (spot.hostage_info) {
         var gun = gun_info[spot.hostage_info.split(",")[0]];
-        var imagename2 = "images/spine/" + gun.code + ".png";
+        var imagename2 = `${IMAGE_BASEPATH}/spine/` + gun.code + ".png";
         gun.imagename = imagename2;
         imgLoader.add(imagename2);
       }
@@ -261,7 +262,7 @@ class Map {
         var team = ally_team_info[spot.ally_team_id];
         if (team.initial_type == 1) {
           var leader_info = gun_info[team.leader_id];
-          var imagename2 = "images/spine/" + leader_info.code + ".png";
+          var imagename2 = `${IMAGE_BASEPATH}/spine/` + leader_info.code + ".png";
           leader_info.imagename = imagename2;
           imgLoader.add(imagename2);
         } else {
@@ -271,7 +272,7 @@ class Map {
 
       if (loadEnemySpine || spot.enemy_team_id) {
         var leader_info = enemy_character_type_info[enemy_team_info[spot.enemy_team_id].enemy_leader];
-        var imagename2 = "images/spine/" + leader_info.code + ".png";
+        var imagename2 = `${IMAGE_BASEPATH}/spine/` + leader_info.code + ".png";
         leader_info.imagename = imagename2;
         imgLoader.add(imagename2);
       }

@@ -1,0 +1,26 @@
+.warning {
+  margin-bottom: @layout_spacing_vertical_web;
+}
+.canvasArea {
+  min-height: 100px;
+  margin-bottom: @layout_spacing_vertical_web;
+  background-color: #fff;
+  border-radius: 3px;
+  z-index: 0;
+
+  canvas {
+    z-index: 1;
+  }
+}
+.btnArea {
+  :global(.ant-btn-group) {
+    margin-right: @layout_spacing_horizontal;
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}
+.btnTips {
+  padding: 4px 0 8px;
+}

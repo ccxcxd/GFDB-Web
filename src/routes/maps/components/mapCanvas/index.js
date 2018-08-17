@@ -7,7 +7,7 @@ import {
 } from 'antd'
 import Map from '@/services/map'
 import { isEqual } from 'lodash'
-import les from './idnex.less'
+import les from './index.less'
 
 class MapCanvas extends React.Component {
   constructor (props) {
@@ -77,11 +77,11 @@ class MapCanvas extends React.Component {
     return (
       <div>
         {/* 提示 */}
-        <div>
+        <div className={les.warning}>
           <Alert message={__('map_tbl.warning')} type="error" />
         </div>
         {/* canvas */}
-        <div>
+        <div className={les.canvasArea}>
           <canvas id="map_canvas_fg" width="0" height="0" />
           <canvas id="map_canvas_bg" width="0" height="0" />
           <canvas id="map_canvas_tmp" width="0" height="0" />
@@ -115,7 +115,7 @@ class MapCanvas extends React.Component {
             >{__('mission_map.download_full')}</Button>
           </Button.Group>
         </div>
-        <div>
+        <div className={les.btnTips}>
           &nbsp;&nbsp;&nbsp;&nbsp;&uarr;&nbsp;&nbsp;<span>{__('mission_map.description')}</span>
         </div>
       </div>

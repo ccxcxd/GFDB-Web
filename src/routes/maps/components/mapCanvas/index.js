@@ -49,6 +49,10 @@ class MapCanvas extends React.Component {
   setAuto () {
     const { auto } = this.state
     this.setState({ auto: !auto })
+    // if set true generate canvas
+    if (!auto) {
+      this.onGenerate()
+    }
   }
   onGenerate () {
     const { maps } = this.props

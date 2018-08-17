@@ -16,19 +16,20 @@ const MapSelect = ({
     campaign_info,
     mission_info,
     campaignSelected,
+    missionSelected,
   } = maps
 
   // 方法定义
   const campaignSelect = (id) => {
     dispatch({
       type: 'maps/selectCampaign',
-      paylaod: campaign_info[id],
+      payload: campaign_info[id],
     })
   }
   const mapTargetSelect = (id) => {
     dispatch({
       type: 'maps/selectMisson',
-      paylaod: mission_info[id],
+      payload: mission_info[id],
     })
   }
 
@@ -84,6 +85,7 @@ const MapSelect = ({
         <Select
           className={les.sel}
           onSelect={campaignSelect}
+          value={campaignSelected.id}
         >
           {mapCampaignOpt(campaign_info)}
         </Select>
@@ -91,6 +93,7 @@ const MapSelect = ({
         <Select
           className={les.sel}
           onSelect={mapTargetSelect}
+          value={missionSelected.id}
         >
           {mapMapOpt(campaignSelected.mission_ids)}
         </Select>

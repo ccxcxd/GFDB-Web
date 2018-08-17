@@ -15,6 +15,7 @@ const TeamTable = ({
     enemy_in_team_info,
     enemy_character_type_info,
     missionSelected,
+    enemyTeamSelected,
   } = maps
 
   // 方法定义
@@ -47,7 +48,7 @@ const TeamTable = ({
       })
 
       data[i] = {
-        id: teamId,
+        id: parseInt(teamId, 10),
         leader: __(enemy_character_type_info[enemyTeam.enemy_leader].name),
         difficulty: enemyTeam.difficulty,
         members: members,
@@ -91,6 +92,12 @@ const TeamTable = ({
     dataSource: initData(),
     rowKey: 'id',
     className: les.table,
+    rowClassName: (rec) => {
+      if (rec.id === enemyTeamSelected.id) {
+        return `${les.tr} ${les.active}`
+      }
+      return les.tr
+    },
     onRow: (record) => {
       return {
         onClick: () => selectEnemyTeam(record),       // 点击行

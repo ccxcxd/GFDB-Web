@@ -1,3 +1,14 @@
 .table {
   background-color: #fff;
+
+  .tr {
+    cursor: pointer;
+
+    &.active {
+      background: @theme_color_yellow;
+      &:hover > td {
+        background: @theme_color_yellow;
+      }
+    }
+  }
 }

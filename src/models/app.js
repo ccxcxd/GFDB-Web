@@ -20,7 +20,7 @@ export default (LANG) => {
           const match = pathToRegexp('/:lang').exec(pathname)
           // 进入路由，获取数据
           if (match) {
-            console.log(match)
+            // console.log(match)
           }
           if (pathname === '/') {
             dispatch({ type: 'getLang' })

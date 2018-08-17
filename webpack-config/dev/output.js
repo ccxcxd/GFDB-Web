@@ -7,5 +7,6 @@ module.exports = (conf) => {
     path: OUTPUT_DIR,
     publicPath: '/',
     filename: '[name]/index.js',
+    chunkFilename: 'chunks/[id]_[chunkhash:6].js',
   }
 }

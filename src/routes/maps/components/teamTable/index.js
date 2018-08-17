@@ -105,7 +105,7 @@ const TeamTable = ({
   }
   return (
     <div>
-      <h5>{__('team_sel.label')}</h5>
+      <div className={les.title}>{__('team_sel.label')}</div>
       <Table {...propsOfTable} />
     </div>
   )

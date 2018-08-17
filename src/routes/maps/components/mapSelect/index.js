@@ -78,7 +78,7 @@ const MapSelect = ({
   return (
     <div>
       {/* 选择地图 */}
-      <div className={les.row}>{__('map_sel.label')}:</div>
+      <div className={les.title}>{__('map_sel.label')}:</div>
       {/* 选择章节 */}
       <div className={les.selCon}>
         <Select

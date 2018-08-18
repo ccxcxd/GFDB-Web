@@ -241,7 +241,7 @@
 
             if (spot.building_id != 0) {
                 var building = map.building_info[spot.building_id];
-                var imagename2 = "images/building/" + building.code + building.belong + ".png";
+                var imagename2 = "images/building/" + building.code /*+ building.belong*/ + "3.png";
                 building.imagename = imagename2;
                 imgLoader.add(imagename2);
             }
@@ -326,10 +326,7 @@
             // draw buildings
             if (spot.building_id != 0) {
                 var building = map.building_info[spot.building_id];
-                var buildingImg = imgLoader.imgs[building.imagename];
-                var w = buildingImg.naturalWidth;
-                var h = buildingImg.naturalHeight;
-                ctx.drawImage(buildingImg, spot.coordinator_x - w / 2, spot.coordinator_y - h / 2);
+                map.drawBuilding(ctx, spot.coordinator_x, spot.coordinator_y, building.imagename);
             }
         });
     },
@@ -428,6 +425,13 @@
         ctx.restore();
     },
 
+    drawBuilding: function (ctx, x0, y0, imagename) {
+        var spineImg = imgLoader.imgs[imagename];
+        var w = spineImg.naturalWidth;
+        var h = spineImg.naturalHeight;
+        ctx.drawImage(spineImg, 0, 0, w, h, x0 - w + 32, y0 - h * 1.5, w * 2, h * 2);
+    },
+
     drawFgImage: function (canvas) {
         if (!map.show)
             return;
@@ -447,6 +451,8 @@
             var x0 = spot.coordinator_x;
             var y0 = spot.coordinator_y;
             var selected = $.inArray(spot_id, map.selectedSpots) !== -1;
+            if (spot.building_id != 0)
+                x0 -= 32; // has building shift left
             if (spot.hostage_info) {
                 var s = spot.hostage_info.split(",");
                 var gun = map.gun_info[s[0]];

@@ -1,17 +1,17 @@
 // 资源资料库
 const resource = [
-  { _id: 'res-01', name: 'manpower', label: '人力', icon: './dist/img/60px-Icon_manpower.png' },
-  { _id: 'res-02', name: 'ammunition', label: '弹药', icon: './dist/img/60px-Icon_ammo.png' },
-  { _id: 'res-03', name: 'rations', label: '口粮', icon: './dist/img/60px-Icon_ration.png' },
-  { _id: 'res-04', name: 'sparePart', label: '零件', icon: './dist/img/60px-Icon_parts.png' },
+  { _id: 'res-01', name: 'manpower', label: '人力', icon: '/static/img/resource/60px-Icon_manpower.png' },
+  { _id: 'res-02', name: 'ammunition', label: '弹药', icon: '/static/img/resource/60px-Icon_ammo.png' },
+  { _id: 'res-03', name: 'rations', label: '口粮', icon: '/static/img/resource/60px-Icon_ration.png' },
+  { _id: 'res-04', name: 'sparePart', label: '零件', icon: '/static/img/resource/60px-Icon_parts.png' },
 ];
 // 额外道具库
 const extraDB = [
-  { _id: 'e00', name: '快建', icon: './dist/img/Item_Quick_Production_Contract.png' }, /** 0 */
-  { _id: 'e01', name: '快修', icon: './dist/img/Item_Quick_Restoration_Contract.png' }, /** 1 */
-  { _id: 'e02', name: '人形契', icon: './dist/img/Item_T-Doll_Contract.png' }, /** 2 */
-  { _id: 'e03', name: '装备契', icon: './dist/img/Item_Equipment_Contract.png' }, /** 3 */
-  { _id: 'e04', name: '采购币', icon: './dist/img/Item_Token.png' } /** 4 */
+  { _id: 'e00', name: '快建', icon: '/static/img/resource/Item_Quick_Production_Contract.png' }, /** 0 */
+  { _id: 'e01', name: '快修', icon: '/static/img/resource/Item_Quick_Restoration_Contract.png' }, /** 1 */
+  { _id: 'e02', name: '人形契', icon: '/static/img/resource/Item_T-Doll_Contract.png' }, /** 2 */
+  { _id: 'e03', name: '装备契', icon: '/static/img/resource/Item_Equipment_Contract.png' }, /** 3 */
+  { _id: 'e04', name: '采购币', icon: '/static/img/resource/Item_Token.png' } /** 4 */
 ];
 
 // 战役名常量

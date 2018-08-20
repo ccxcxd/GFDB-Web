@@ -104,7 +104,9 @@ const RouterSetting = (lang) => {
             path: '/quest',
             component: dynamic({
               app,
-              models: () => [],
+              models: () => [
+                import('./models/quest'),
+              ],
               component: () => import('./routes/quest'),
             }),
           },

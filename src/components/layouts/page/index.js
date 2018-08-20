@@ -2,6 +2,7 @@ import React from 'react'
 import { routerRedux } from 'dva/router'
 import { Link } from 'dva/router'
 import {
+  Icon,
   Select,
   Button,
 } from "antd"
@@ -79,14 +80,15 @@ const Page = ({
             to="/"
             className={`${les.logo} ${pathname === '/' ? les.active : ''}`}
           >
-            <img
+            {/* <img
               src={
                 pathname === '/' ?
                 require('@/static/img/logo_w.png') :
                 require('@/static/img/logo_y.png')
               }
               alt="logo"
-            />
+            /> */}
+            <Icon type="home" />
           </Link>
           {/* 路由菜单 */}
           <ul

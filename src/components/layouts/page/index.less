@@ -44,7 +44,14 @@
         &:before {
           left: -1 * @layout_header_height * tan(@menu_deg);
           // border-right-width: 0px;
-          transition: all ease .3s;
+        }
+        & :global(.anticon) {
+          height: @layout_header_height;
+          line-height: @layout_header_height;
+          font-size: 2em;
+          color: @theme_color_white;
+          position: relative;
+          left: 4px;
         }
 
         &:hover {
@@ -53,12 +60,19 @@
             // height: @layout_header_height * 0.9;
             left: 4px;
           }
+          & :global(.anticon) {
+            color: @theme_color_yellow;
+          }
         }
         &.active {
           z-index: 1;
           img {
             // height: @layout_header_height * 0.9;
             left: 2px;
+          }
+          &:hover & :global(.anticon),
+          & :global(.anticon) {
+            color: @theme_color_black;
           }
           &:before {
             background-color: @theme_color_yellow;
@@ -70,7 +84,6 @@
           position: relative;
           left: 0;
           height: @layout_header_height * 0.8;
-          transition: all ease .3s;
         }
       }
       .menu {

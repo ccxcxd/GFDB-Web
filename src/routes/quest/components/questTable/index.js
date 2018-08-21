@@ -10,6 +10,7 @@ import {
   dealTime,
   dealHours,
 } from '@/utils/js/func'
+import qDB from '@/db/questDB'
 
 const QuestTable = ({
   dispatch,
@@ -19,6 +20,7 @@ const QuestTable = ({
   // 属性提取
   const {
     list,
+    filters,
   } = quest
 
   // 方法定义
@@ -40,6 +42,11 @@ const QuestTable = ({
   // 处理资源产率排序
   const dealResSort = (key, type) => {
     const obj = { resource: { key, type } }
+    dealTableChange({}, obj, {})
+  }
+  // 处理额外道具产能排序
+  const dealExtraSort = (_id) => {
+    const obj = { extra: _id }
     dealTableChange({}, obj, {})
   }
 
@@ -68,17 +75,6 @@ const QuestTable = ({
   ]
   const filterRes = (key) => {
     return {
-      // filters: [
-      //   {
-      //     text: '总量降序',
-      //     value: 'total',
-      //   },
-      //   {
-      //     text: '时量降序',
-      //     value: 'times',
-      //   },
-      // ],
-      // filterMultiple: false,
       filterIcon: <Icon type="down-square-o" />,
       filterDropdown: () => (
         <List
@@ -90,7 +86,8 @@ const QuestTable = ({
             return (
               <List.Item
                 onClick={() => dealResSort(key, value)}
-              >{text}</List.Item>
+                className={`${(filters.resource && filters.resource.key === key && filters.resource.type === value) ? les.active : ''}`}
+              ><Icon type="check" className={les.check} />{text}</List.Item>
             )
           }}
         />
@@ -160,6 +157,27 @@ const QuestTable = ({
     {
       title: '额外道具',
       dataIndex: 'extra',
+      filterIcon: <Icon type="down-square-o" />,
+      // filters: qDB.extra.map(d => {
+      //   return { text: d.name, value: d._id }
+      // }),
+      filterDropdown: () => (
+        <List
+          size='small'
+          header="按产能效率排序"
+          bordered
+          className={les.filterExtraCon}
+          dataSource={qDB.extra}
+          renderItem={({ _id, name }) => {
+            return (
+              <List.Item
+                onClick={() => dealExtraSort(_id)}
+                className={`${filters.extra === _id ? les.active : ''}`}
+              ><Icon type="check" className={les.check} />{name}</List.Item>
+            )
+          }}
+        />
+      ),
       render: (val) => {
         return val.map(d => {
           return (

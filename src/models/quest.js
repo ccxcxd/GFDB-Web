@@ -6,6 +6,7 @@ import qDB from '@/db/questDB'
 import {
   sortBy,
   sum,
+  find,
 } from 'lodash'
 import {
   dealHours,
@@ -16,6 +17,7 @@ export default moduleExtend(model, {
 
   state: {
     list: qDB.quest,
+    filters: {},
   },
 
   subscriptions: {
@@ -46,10 +48,23 @@ export default moduleExtend(model, {
           return 0
         }])
         list = list.reverse()
+      } else if (payload.extra) {
+        const matchId = payload.extra
+        list = sortBy(list, [({ time, extra }) => {
+          let weight = 0
+          if (extra && extra.length) {
+            const ifTarHaveValue = find(extra, d => d._id === matchId)
+            if (ifTarHaveValue) {
+              weight = 1/time
+            }
+          }
+          return weight
+        }])
+        list = list.reverse()
       }
       yield put({
         type: 'updateState',
-        payload: { list },
+        payload: { list, filters: payload },
       })
     },
     * sorterList({ payload }, { select, put }) {

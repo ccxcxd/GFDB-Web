@@ -51,10 +51,36 @@
   }
 }
 
+.listItem() {
+  line-height: 21px;
+  cursor: pointer;
+  
+  &:hover {
+    background-color: @theme_color_gray;
+  }
+  .check {
+    display: none;
+    margin-right: 8px;
+    line-height: 21px;
+  }
+  &.active .check {
+    display: inline;
+    color: @theme_color_red;
+  }
+}
+
 .filterListCon {
   background-color: #fff;
 
   :global(.ant-list-item) {
-    cursor: pointer;
+    .listItem();
+  }
+}
+
+.filterExtraCon {
+  background-color: #fff;
+
+  :global(.ant-list-item) {
+    .listItem();
   }
 }

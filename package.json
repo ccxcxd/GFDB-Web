@@ -15,8 +15,8 @@
   "license": "MIT",
   "dependencies": {
     "antd": "^3.8.0",
-    "dva": "^2.3.2",
-    "dva-loading": "^2.0.4",
+    "dva": "^2.4.0",
+    "dva-loading": "^2.0.5",
     "dva-model-extend": "^0.1.2",
     "file-saver": "^1.3.8",
     "jquery": "^3.3.1",

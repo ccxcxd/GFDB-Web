@@ -14,6 +14,11 @@ import LANG from '../locales/ja-jp'
 
 const __ = initI18n(LANG)
 
+// 全局变量注入
+window.__ = __
+window.mDB = mDB
+window.qDB = qDB
+
 // import '../index.less'
 // 1. Initialize
 const app = dva({
@@ -28,16 +33,12 @@ app.use(createLoading())
 // 3. Register global model
 app.model(require('../models/app').default(LANG))
 app.model(require('../models/maps').default)
+app.model(require('../models/quest').default)
 
 // 4. Router
 app.router(require('../router').default(LANG))
 
 // 5. Start
 app.start('#root')
-
-// 全局变量注入
-window.__ = __
-window.mDB = mDB
-window.qDB = qDB
 
 // export default app // eslint-disable-line

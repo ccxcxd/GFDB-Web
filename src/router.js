@@ -2,6 +2,12 @@ import React from 'react'
 import { Router, BrowserRouter, Route, Switch, routerRedux } from 'dva/router'
 import dynamic from 'dva/dynamic'
 
+import C_ERROR from './routes/error'
+import C_APP from './routes/app'
+import C_INDEX_PAGE from './routes/indexPage'
+import C_MAPS from './routes/maps'
+import C_QUEST from './routes/quest'
+
 const { ConnectedRouter } = routerRedux
 
 // 路由处理及生成
@@ -60,13 +66,7 @@ const RouterSetting = (lang) => {
         <Switch>
           {nodeAry}
           <Route
-            component={
-              dynamic({
-                app,
-                models: () => [],
-                component: () => import('./routes/error/index')
-              })
-            }
+            component={C_ERROR}
           />
         </Switch>
       )
@@ -78,37 +78,19 @@ const RouterSetting = (lang) => {
         // 首页
         path: '/',
         exact: false,
-        component: dynamic({
-          app,
-          models: () => [],
-          component: () => import('./routes/app'),
-        }),
+        component: C_APP,
         routes: [
           {
             path: '/',
-            component: dynamic({
-              app,
-              models: () => [],
-              component: () => import('./routes/indexPage'),
-            }),
+            component: C_INDEX_PAGE,
           },
           {
             path: '/maps',
-            component: dynamic({
-              app,
-              models: () => [],
-              component: () => import('./routes/maps'),
-            }),
+            component: C_MAPS,
           },
           {
             path: '/quest',
-            component: dynamic({
-              app,
-              models: () => [
-                import('./models/quest'),
-              ],
-              component: () => import('./routes/quest'),
-            }),
+            component: C_QUEST,
           },
         ],
       },

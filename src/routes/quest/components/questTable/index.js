@@ -26,9 +26,9 @@ const QuestTable = ({
   // 方法定义
   // 处理表单校验和筛选
   const dealTableChange = (pagination, filters, sorter) => {
-    console.log(pagination)
-    console.log(filters)
-    console.log(sorter)
+    // console.log(pagination)
+    // console.log(filters)
+    // console.log(sorter)
     // filters sorter 互斥,二取其一
     dispatch({
       type: 'quest/filterList',
@@ -55,9 +55,9 @@ const QuestTable = ({
     const { time } = record
     return (
       <div className={les.resLab}>
-        <div className={les.total}>{val}</div>
+        <div className={`${les.total} ${(filters.resource && filters.resource.type === 'total') ? les.active : ''}`}>{val}</div>
         {/* 每小时量 */}
-        <div className={les.hours}>{dealHours(val, time)}/h</div>
+        <div className={`${les.hours} ${(filters.resource && filters.resource.type === 'times') ? les.active : ''}`}>{dealHours(val, time)}/h</div>
       </div>
     )
   }

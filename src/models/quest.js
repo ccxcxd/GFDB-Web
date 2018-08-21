@@ -12,12 +12,54 @@ import {
   dealHours,
 } from '@/utils/js/func'
 
+const filterByPlan = (list, condition) => {
+  const baseList = [].concat(list)
+  const { hour, min, resource, extra }= condition
+  const time = hour * 60 + min
+  return baseList.filter(function (ele) {
+    var ifReturn = false
+    if (ele.time <= time) {
+      ifReturn = true
+    } else {
+      return false
+    }
+    // 资源筛选
+    for (var i = 0; i < resource.length; i += 1) {
+      if (parseInt(ele[resource[i]], 10) > 0) {
+        ifReturn = true
+      } else {
+        return false
+      }
+    }
+    // 道具筛选
+    for (var j = 0; j < extra.length; j += 1) {
+      if (find(ele.extra, d => d._id === extra[j])) {
+        ifReturn = true
+      } else {
+        return false
+      }
+    }
+    return ifReturn
+  })
+}
+
+const sortByPlan = (list, condition) => {
+  const baseList = [].concat(list)
+  const { resource }= condition
+  return sortBy(baseList, resource.map(d => {
+    return (obj) => obj[d]
+  })).reverse().slice(0, 4)
+}
+
 export default moduleExtend(model, {
   namespace: 'quest',
 
   state: {
     list: qDB.quest,
     filters: {},
+
+    modalPlanVisible: false,  // 筹划弹窗可视状态
+    planList: [], // 试算结果
   },
 
   subscriptions: {
@@ -89,6 +131,22 @@ export default moduleExtend(model, {
       yield put({
         type: 'updateState',
         payload: { list },
+      })
+    },
+    // 切换弹窗显示状态
+    * showModalPlan({ show }, { put }) {
+      yield put({
+        type: 'updateState',
+        payload: { modalPlanVisible: show },
+      })
+    },
+    // 试算后勤序列
+    * countQuest({ payload }, { put }) {
+      const res = filterByPlan(qDB.quest, payload)
+      console.log(sortByPlan(res, payload))
+      yield put({
+        type: 'updateState',
+        payload: { planList: res },
       })
     },
   },

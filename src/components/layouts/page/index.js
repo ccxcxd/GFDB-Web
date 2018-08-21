@@ -102,28 +102,30 @@ const Page = ({
       <div className={les.body}>{children}</div>
       {/* 页脚 */}
       <div className={les.footer}>
-        {/* 关于本站 */}
-        <Button
-          type="primary"
-          className={les.showAbout}
-          onClick={() => showAbout(true)}
-        >{__('about.title')}</Button>
-        {/* 关于本站弹窗 */}
-        <ModalAbout {...propsOfModal} />
-        {/* 语言切换 */}
-        <div className={les.language}>
-          <span>Language:</span>
-          <Select
-            className={les.lang}
-            value={__('name')}
-            onChange={handleChange}
-          >
-            {mapLang(langList)}
-          </Select>
-        </div>
-        {/* 其他信息 */}
-        <div className={les.otherInfo}>
-          *Need Japanese translator, you can find me on <a href="https://twitter.com/CCX_CX_D" target="_blank">twitter</a>
+        <div className={les.footerContainer}>
+          {/* 关于本站 */}
+          <Button
+            type="primary"
+            className={les.showAbout}
+            onClick={() => showAbout(true)}
+          >{__('about.title')}</Button>
+          {/* 关于本站弹窗 */}
+          <ModalAbout {...propsOfModal} />
+          {/* 语言切换 */}
+          <div className={les.language}>
+            {/* <span>Language:</span> */}
+            <Select
+              className={les.lang}
+              value={__('name')}
+              onChange={handleChange}
+            >
+              {mapLang(langList)}
+            </Select>
+          </div>
+          {/* 其他信息 */}
+          <div className={les.otherInfo}>
+            *Need Japanese translator, you can find me on <a href="https://twitter.com/CCX_CX_D" target="_blank">twitter</a>
+          </div>
         </div>
       </div>
     </div>

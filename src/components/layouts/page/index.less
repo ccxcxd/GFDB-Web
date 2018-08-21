@@ -23,6 +23,7 @@
 
 .container {
   width: 100%;
+  background-color: @theme_color_gray;
 
   .header{
     border-bottom: 1px solid #e8e8e8;
@@ -128,11 +129,15 @@
   }
 
   .footer {
-    .clearfix();
-    width: @layout_body_width_web;
-    margin: @layout_spacing_vertical_web auto 0;
-    padding: @layout_spacing_vertical_web 0;
+    margin-top: @layout_spacing_vertical_web;
+    background-color: #fff;
     border-top: 1px solid #efefef;
+    .footerContainer {
+      .clearfix();
+      width: @layout_body_width_web;
+      margin: 0 auto;
+      padding: @layout_spacing_vertical_web 0;
+    }
 
     .showAbout {
       float: left;

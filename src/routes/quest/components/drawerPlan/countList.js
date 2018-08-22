@@ -8,15 +8,16 @@ import {
   dealTime,
   dealHours,
 } from '@/utils/js/func'
+import { ExtraItem } from '@/components/item'
 
-const QuestTable = ({
+const CountList = ({
   dispatch,
   loading,
   quest,
 }) => {
   // 属性提取
   const {
-    planList,
+    planCountList,
     filters,
   } = quest
 
@@ -94,13 +95,11 @@ const QuestTable = ({
       render: (val) => {
         return val.map(d => {
           return (
-            <div
-              className={les.exItem}
+            <ExtraItem
               key={d._id}
-            >
-              <img className={les.icon} src={ `${d.icon}` } />
-              <span className={les.text}>{ d.name}</span>
-            </div>
+              icon={d.icon}
+              label={d.name}
+            />
           )
         })
       },
@@ -127,7 +126,7 @@ const QuestTable = ({
   ]
   const propsOfTable = {
     columns,
-    dataSource: planList,
+    dataSource: planCountList,
     rowKey: 'code',
     className: les.table,
     pagination: false,
@@ -142,4 +141,4 @@ const QuestTable = ({
   )
 }
 
-export default QuestTable
+export default CountList

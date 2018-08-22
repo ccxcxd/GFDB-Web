@@ -6,6 +6,7 @@ import {
 import les from './index.less'
 import QuestTable from './components/questTable'
 import ModalPlan from './components/modalPlan'
+import DrawerPlan from './components/drawerPlan'
 
 const Main = ({
   dispatch,
@@ -28,6 +29,11 @@ const Main = ({
     loading,
     quest,
   }
+  const propsOfDrawerPlan = {
+    dispatch,
+    loading,
+    quest,
+  }
 
   return (
     <div className={les.container}>
@@ -38,6 +44,8 @@ const Main = ({
         >一键咸鱼</Button>
         {/* 筹划弹窗 */}
         <ModalPlan {...propsOfModalPlan} />
+        {/* 试算结果弹窗 */}
+        <DrawerPlan {...propsOfDrawerPlan} />
       </div>
       <QuestTable {...propsOfTable} />
     </div>

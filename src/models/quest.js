@@ -43,7 +43,7 @@ const filterByPlan = (list, condition) => {
   })
 }
 
-const sortByPlan = (list, condition) => {
+const countByPlan = (list, condition) => {
   const baseList = [].concat(list)
   const { resource }= condition
   return sortBy(baseList, resource.map(d => {
@@ -59,7 +59,12 @@ export default moduleExtend(model, {
     filters: {},
 
     modalPlanVisible: false,  // 筹划弹窗可视状态
-    planList: [], // 试算结果
+
+    planCondition: { }, // 试算条件
+    planFilterList: [], // 试算-后勤筛选列表
+    planCountList: [], // 试算-后勤推荐列表
+
+    drawerPlanVisible: false, // 试算结果弹窗
   },
 
   subscriptions: {
@@ -143,10 +148,31 @@ export default moduleExtend(model, {
     // 试算后勤序列
     * countQuest({ payload }, { put }) {
       const res = filterByPlan(qDB.quest, payload)
-      console.log(sortByPlan(res, payload))
+      const countList = countByPlan(res, payload)
+      yield put.resolve({
+        type: 'updateState',
+        payload: {
+          planCondition: payload,
+          planFilterList: res,
+          planCountList: countList,
+        },
+      })
+      // 隐藏弹窗
+      yield put.resolve({
+        type: 'showModalPlan',
+        show: false,
+      })
+      // 显示试算结果抽屉
+      yield put({
+        type: 'showDrawerPlan',
+        show: true,
+      })
+    },
+    // 切换试算抽屉显示状态
+    * showDrawerPlan({ show }, { put }) {
       yield put({
         type: 'updateState',
-        payload: { planList: res },
+        payload: { drawerPlanVisible: show },
       })
     },
   },

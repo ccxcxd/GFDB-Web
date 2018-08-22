@@ -8,7 +8,6 @@ import {
   Button,
 } from 'antd'
 import qDB from '@/db/questDB'
-import PlanList from './planList'
 
 const FormItem = Form.Item
 const CheckboxGroup = Checkbox.Group
@@ -53,10 +52,6 @@ class ModalPlan extends React.Component {
       onCancel: () => {
         dispatch({ type: 'quest/showModalPlan', show: false })
       },
-    }
-    const propsOfPlanList = {
-      dispatch,
-      quest,
     }
 
     return (
@@ -122,7 +117,6 @@ class ModalPlan extends React.Component {
           </FormItem>
         </Form>
         <Button type='primary' onClick={submit}>试算</Button>
-        <PlanList {...propsOfPlanList} />
       </Modal>
     )
   }

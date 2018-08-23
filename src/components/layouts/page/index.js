@@ -61,7 +61,7 @@ const Page = ({
           {d.label}
         </li>
       )
-    })
+    }).reverse()
   }
   const mapLang = (ary) => {
     return ary.map(d => {

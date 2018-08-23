@@ -128,8 +128,6 @@
             map.bgCanvas.width = map.width;
             map.bgCanvas.height = map.height;
 
-            map.drawBgImage(map.bgCanvas);
-
             map.scaleMin = map.fgCanvas.clientWidth / map.width;
             map.displayWidth = map.width * map.scaleMin;
             map.displayHeight = map.height * map.scaleMin;
@@ -137,6 +135,7 @@
             map.fgCanvas.height = map.displayHeight;
             map.setStartingPosition();
 
+            map.drawBgImage(map.bgCanvas);
             map.drawFgImage(map.fgCanvas);
         });
     },
@@ -241,7 +240,7 @@
 
             if (spot.building_id != 0) {
                 var building = map.building_info[spot.building_id];
-                var imagename2 = "images/building/" + building.code /*+ building.belong*/ + "3.png";
+                var imagename2 = "images/building/" + building.code + building.belong + ".png";
                 building.imagename = imagename2;
                 imgLoader.add(imagename2);
             }
@@ -326,7 +325,7 @@
             // draw buildings
             if (spot.building_id != 0) {
                 var building = map.building_info[spot.building_id];
-                map.drawBuilding(ctx, spot.coordinator_x, spot.coordinator_y, building.imagename);
+                map.drawBuilding(ctx, spot.coordinator_x, spot.coordinator_y, building);
             }
         });
     },
@@ -425,11 +424,39 @@
         ctx.restore();
     },
 
-    drawBuilding: function (ctx, x0, y0, imagename) {
-        var spineImg = imgLoader.imgs[imagename];
-        var w = spineImg.naturalWidth;
-        var h = spineImg.naturalHeight;
-        ctx.drawImage(spineImg, 0, 0, w, h, x0 - w + 32, y0 - h * 1.5, w * 2, h * 2);
+    drawBuilding: function (ctx, x0, y0, building) {
+        var spineImg = imgLoader.imgs[building.imagename];
+        if (spineImg != null) {
+            var wo = spineImg.naturalWidth;
+            var ho = spineImg.naturalHeight;
+
+            var shift = building.shifting_spot.split(",");
+            x0 -= parseInt(shift[0]);
+            y0 -= parseInt(shift[1]);
+            var w = wo * 1.5;
+            var h = ho * 1.5;
+
+            ctx.drawImage(spineImg, 0, 0, wo, ho, x0 - w / 2, y0 - h / 2, w, h);
+        } else {
+            map.drawBgSpineAlternativeText(ctx, x0, y0, $.t(building.name));
+        }
+    },
+
+    drawBgSpineAlternativeText: function (ctx, x0, y0, text, selected) {
+        var scale = map.scale;
+        ctx.save();
+        ctx.font = "bold " + Math.floor(32 / scale) + "px " + $.t("font.sans-serif");
+        ctx.textAlign = "center";
+        ctx.textBaseline = "middle";
+        ctx.shadowColor = "black";
+        ctx.shadowBlur = 5 / scale;
+        ctx.lineWidth = 9 / scale;
+        ctx.strokeStyle = selected ? "yellow" : "black";
+        ctx.strokeText(text, x0, y0);
+        ctx.shadowBlur = 0;
+        ctx.fillStyle = selected ? "red" : "white";
+        ctx.fillText(text, x0, y0);
+        ctx.restore();
     },
 
     drawFgImage: function (canvas) {
@@ -451,8 +478,11 @@
             var x0 = spot.coordinator_x;
             var y0 = spot.coordinator_y;
             var selected = $.inArray(spot_id, map.selectedSpots) !== -1;
-            if (spot.building_id != 0)
-                x0 -= 32; // has building shift left
+            if (spot.building_id != 0) {
+                var shift = map.building_info[spot.building_id].shifting_team.split(",");
+                x0 += parseInt(shift[0]);
+                y0 += parseInt(shift[1]);
+            }
             if (spot.hostage_info) {
                 var s = spot.hostage_info.split(",");
                 var gun = map.gun_info[s[0]];

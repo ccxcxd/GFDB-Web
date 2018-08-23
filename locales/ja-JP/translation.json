@@ -32,7 +32,8 @@
 		"spot7": "spot7",
 		"random": "random",
 		"radar": "radarJP",
-		"closedap": "closedapJP"
+		"closedap": "closedapJP",
+		"closedhvap": "closedhvap"
 	},
 	"team_sel": {
 		"label": "敵の番号："

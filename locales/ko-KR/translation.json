@@ -32,7 +32,8 @@
 		"spot7": "spot7",
 		"random": "random",
 		"radar": "radarKR",
-		"closedap": "closedapKR"
+		"closedap": "closedapKR",
+		"closedhvap": "closedhvap"
 	},
 	"team_sel": {
 		"label": "번호:"

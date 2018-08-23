@@ -32,7 +32,8 @@
 		"spot7": "spot7",
 		"random": "random",
 		"radar": "radarUS",
-		"closedap": "closedapUS"
+		"closedap": "closedapUS",
+		"closedhvap": "closedhvap"
 	},
 	"team_sel": {
 		"label": "Enemy ID: "

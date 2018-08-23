@@ -32,7 +32,8 @@
 		"spot7": "spot7",
 		"random": "random",
 		"radar": "radar",
-		"closedap": "closedap"
+		"closedap": "closedap",
+		"closedhvap": "closedhvap"
 	},
 	"team_sel": {
 		"label": "敵人編號："

@@ -222,7 +222,10 @@
             } else if (spot.special_eft) {
                 imagename = "radar";
             } else if (spot.active_cycle) {
-                imagename = "closedap";
+                if (spot.type == 7)
+                    imagename = "closedhvap";
+                else
+                    imagename = "closedap";
             } else {
                 imagename = "spot" + spot.type;
             }

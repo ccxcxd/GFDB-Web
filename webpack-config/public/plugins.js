@@ -37,7 +37,7 @@ module.exports = ({
     ]),
     // 变量替换
     new webpack.DefinePlugin({
-      'PUBLIC_PATH': PUBLIC_PATH,
+      'PUBLIC_PATH': JSON.stringify(PUBLIC_PATH),
     }),
   ]
 }

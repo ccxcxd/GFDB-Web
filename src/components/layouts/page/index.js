@@ -40,7 +40,7 @@ const Page = ({
   // 方法定义
   const handleChange = (value) => {
     console.log(`selected ${value}`)
-    window.location.href = `/${value}`
+    window.location.href = `${PUBLIC_PATH}${value}`
   }
   const link = (url) => {
     dispatch(routerRedux.push(url))

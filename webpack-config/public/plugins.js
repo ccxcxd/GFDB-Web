@@ -1,10 +1,12 @@
 const path = require('path')
+const webpack = require('webpack')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 const CopyWebpackPlugin = require('copy-webpack-plugin')
 
 module.exports = ({
   SRC,
   STATIC_DIR,
+  PUBLIC_PATH,
   languages,
 }) => {
   const indexs = languages.map(d => {
@@ -33,5 +35,9 @@ module.exports = ({
         context: STATIC_DIR,
       },
     ]),
+    // 变量替换
+    new webpack.DefinePlugin({
+      'PUBLIC_PATH': PUBLIC_PATH,
+    }),
   ]
 }

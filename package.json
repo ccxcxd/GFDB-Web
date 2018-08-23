@@ -8,7 +8,7 @@
     "predev": "node ./bin/init.js dev",
     "dev": "webpack-dev-server --config ./webpack-config/config.dev.js",
     "prebuild": "rimraf dist/** && node ./bin/init.js build",
-    "build": "webpack --config ./webpack-config/config.prod.js",
+    "build": "cross-env publicPath='/gf/' webpack --config ./webpack-config/config.prod.js",
     "local": "http-server ./dist"
   },
   "author": "L.T.",
@@ -32,6 +32,7 @@
     "babel-preset-react": "^6.24.1",
     "babel-preset-stage-0": "^6.24.1",
     "copy-webpack-plugin": "^4.5.2",
+    "cross-env": "^5.2.0",
     "css-loader": "^1.0.0",
     "file-loader": "^1.1.11",
     "friendly-errors-webpack-plugin": "^1.7.0",

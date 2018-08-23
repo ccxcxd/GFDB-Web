@@ -19,11 +19,12 @@ window.__ = __
 window.mDB = mDB
 window.qDB = qDB
 
+const basePath = PUBLIC_PATH
 // import './index.less'
 // 1. Initialize
 const app = dva({
   history: createHistory({
-    basename: `/${LANG.name}`,
+    basename: `${basePath}${LANG.name}`,
   }),
 })
 

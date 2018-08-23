@@ -15,7 +15,7 @@ const CANVAS_FG_ID = 'map_canvas_fg'
 const CANVAS_BG_ID = 'map_canvas_bg'
 const CANVAS_TMP_ID = 'map_canvas_tmp'
 const WATERMARK = 'https://gf.underseaworld.net/'
-const IMAGE_BASEPATH = '/static/img'
+const IMAGE_BASEPATH = `${PUBLIC_PATH}static/img`
 
 const imgLoader = new ImgLoader()
 

@@ -124,7 +124,7 @@ const Page = ({
           </div>
           {/* 其他信息 */}
           <div className={les.otherInfo}>
-            *Need Japanese translator, you can find me on <a href="https://twitter.com/CCX_CX_D" target="_blank">twitter</a>
+            {/* *Need Japanese translator, you can find me on <a href="https://twitter.com/CCX_CX_D" target="_blank">twitter</a> */}
           </div>
         </div>
       </div>

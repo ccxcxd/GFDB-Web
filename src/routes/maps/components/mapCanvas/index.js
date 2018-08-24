@@ -13,6 +13,10 @@ class MapCanvas extends React.Component {
   constructor (props) {
     super(props)
     this.mapObj = null
+    this.state = {
+      loading: false,
+      show: false,
+    }
   } 
 
   // 生命周期
@@ -26,6 +30,18 @@ class MapCanvas extends React.Component {
           type: 'maps/selectEnemyTeam',
           payload: id,
         })
+      },
+      afterGenerate: () => {
+        this.setState({
+          loading: false,
+          show: true,
+        })
+      },
+      afterRemove: () => {
+        this.setState({
+          loading: false,
+          show: false,
+        })
       }
     })
     this.mapObj = map
@@ -38,6 +54,8 @@ class MapCanvas extends React.Component {
       // 检查自动更新
       if (this.props.maps.autoGenerate) {
         this.onGenerate()
+      } else {
+        this.mapObj.remove()
       }
     }
     const oldAuto = prevProps.maps.autoGenerate
@@ -63,10 +81,16 @@ class MapCanvas extends React.Component {
     }
   }
   onGenerate () {
+    this.setState({
+      loading: true,
+    })
     const { maps } = this.props
     const missionId = maps.missionSelected.id
     if (!missionId) {
       message.warning('请先选择要生成的地图')
+      this.setState({
+        loading: false,
+      })
       return
     }
     this.mapObj.generate(missionId)
@@ -90,6 +114,10 @@ class MapCanvas extends React.Component {
       maps,
     } = this.props
     const {
+      loading,
+      show,
+    } = this.state
+    const {
       autoGenerate,
       missionSelected,
     } = maps
@@ -102,6 +130,28 @@ class MapCanvas extends React.Component {
         </div>
         {/* canvas */}
         <div className={les.canvasArea}>
+          {
+            (loading || show) ?
+            null :
+            (
+              <div className={les.waitMap}>
+                <div className={les.content}>
+                  <Icon type="setting" /> 未生成地图
+                </div>
+              </div>
+            )
+          }
+          {
+            loading ?
+            (
+              <div className={les.loading}>
+                <div className={les.content}>
+                  <Icon type="loading" /> 地图生成中...
+                </div>
+              </div>
+            ) :
+            null
+          }
           <canvas id="map_canvas_fg" width="0" height="0" />
           <canvas id="map_canvas_bg" width="0" height="0" />
           <canvas id="map_canvas_tmp" width="0" height="0" />

@@ -25,14 +25,20 @@ class Map {
   tmpCanvas = null
 
   onSpotClick = null  // 点击地图点响应
+  afterGenerate = null // 绘制完毕回调
+  afterRemove = null // 销毁后回调
 
   /**
    * init map canvas Object
    */
   constructor ({
     onSpotClick,
+    afterGenerate,
+    afterRemove,
   }) {
     this.onSpotClick = onSpotClick
+    this.afterGenerate = afterGenerate
+    this.afterRemove = afterRemove
     // init Object data
     this.fgCanvas = document.getElementById(CANVAS_FG_ID);
     this.bgCanvas = document.getElementById(CANVAS_BG_ID);
@@ -154,8 +160,6 @@ class Map {
       this.bgCanvas.width = this.width;
       this.bgCanvas.height = this.height;
 
-      this.drawBgImage(this.bgCanvas);
-
       this.scaleMin = this.fgCanvas.clientWidth / this.width;
       this.displayWidth = this.width * this.scaleMin;
       this.displayHeight = this.height * this.scaleMin;
@@ -163,7 +167,9 @@ class Map {
       this.fgCanvas.height = this.displayHeight;
       this.setStartingPosition();
 
+      this.drawBgImage(this.bgCanvas);
       this.drawFgImage(this.fgCanvas);
+      this.afterGenerate();
     });
   }
 
@@ -171,6 +177,7 @@ class Map {
     this.show = false;
     this.fgCanvas.height = 0;
     this.bgCanvas.height = 0;
+    this.afterRemove();
   }
 
   download (name) {

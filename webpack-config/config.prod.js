@@ -3,7 +3,7 @@ const conf = require('./base/index')
 module.exports = {
   mode: 'production',
 
-  ...require('./public/base')(conf),
+  ...require('./prod/base')(conf),
 
   entry: require('./public/entry')(conf),
   output: require('./prod/output')(conf),

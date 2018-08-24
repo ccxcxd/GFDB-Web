@@ -15,6 +15,7 @@ module.exports = {
   SRC,
   OUTPUT_DIR: path.resolve(ROOT, 'dist'), // 打包产物目录
   STATIC_DIR: path.resolve(SRC, 'static'), // 静态资源目录
+  DLL_DIR: path.resolve(SRC, 'static/dll'), //dll文件目录
 
   PUBLIC_PATH: PUBLIC_PATH, // 公用前缀
 

@@ -9,6 +9,7 @@
     "dev": "webpack-dev-server --config ./webpack-config/config.dev.js",
     "prebuild": "rimraf dist/** && node ./bin/init.js build",
     "build": "cross-env publicPath='/gf/' webpack --config ./webpack-config/config.prod.js",
+    "dll": "webpack --config ./webpack-config/config.dll.js",
     "local": "http-server ./dist"
   },
   "author": "L.T.",
@@ -37,7 +38,7 @@
     "file-loader": "^1.1.11",
     "friendly-errors-webpack-plugin": "^1.7.0",
     "fs-extra": "^7.0.0",
-    "html-webpack-plugin": "^3.2.0",
+    "html-webpack-plugin": "^4.0.0-alpha",
     "i18n-webpack-plugin": "^1.0.0",
     "less": "^3.8.0",
     "less-loader": "^4.1.0",
@@ -50,6 +51,7 @@
     "webpack": "^4.16.5",
     "webpack-cli": "^3.1.0",
     "webpack-dev-server": "^3.1.5",
+    "webpack-visualizer-plugin": "^0.1.11",
     "yargs": "^12.0.1"
   }
 }

@@ -39,49 +39,65 @@ export default moduleExtend(model, {
       // const val = LG.get()
     },
     * initData (inval, { put }) {
-      if (campaign_info && !isEmpty(campaign_info)) {
-        const keys = Object.keys(campaign_info)
-        yield put ({
-          type: 'selectCampaign',
-          payload: keys[0],
-        })
+      let initId = LG.get('campaign_select_id')
+      if (!initId) {
+        initId = Object.keys(campaign_info)[0]
+      }
+      yield put.resolve({
+        type: 'selectCampaign',
+        payload: initId,
+      })
+      const mission_select_id = LG.get('mission_select_id')
+      const team_select_id = LG.get('team_select_id')
+      if (mission_select_id !== undefined) {
+        yield put({ type: 'selectMisson', payload: mission_select_id })
+      }
+      if (team_select_id !== undefined) {
+        yield put({ type: 'selectEnemyTeam', payload: team_select_id })
       }
     },
-    * selectCampaign ({ payload }, { put }) {
+    * selectCampaign ({ payload, autoChild }, { put }) {
       const campaign = campaign_info[payload]
       yield put.resolve({
         type: 'updateState',
         payload: { campaignSelected: campaign },
       })
-      const { mission_ids } = campaign
-      if (mission_ids && mission_ids.length) {
-        yield put({
-          type: 'selectMisson',
-          payload: mission_ids[0],
-        })
+      LG.set('campaign_select_id', payload)
+      if (autoChild) {
+        const { mission_ids } = campaign
+        if (mission_ids && mission_ids.length) {
+          yield put.resolve({
+            type: 'selectMisson',
+            payload: mission_ids[0],
+          })
+        }
       }
     },
-    * selectMisson ({ payload }, { put }) {
+    * selectMisson ({ payload, autoChild }, { put }) {
       const mission = mission_info[payload]
       yield put.resolve({
         type: 'updateState',
         payload: { missionSelected: mission },
       })
-      const { enemy_team_count } = mission
-      if (enemy_team_count && !isEmpty(enemy_team_count)) {
-        const keys = Object.keys(enemy_team_count)
-        yield put({
-          type: 'selectEnemyTeam',
-          payload: keys[0],
-        })
+      LG.set('mission_select_id', payload)
+      if (autoChild) {
+        const { enemy_team_count } = mission
+        if (enemy_team_count && !isEmpty(enemy_team_count)) {
+          const keys = Object.keys(enemy_team_count)
+          yield put.resolve({
+            type: 'selectEnemyTeam',
+            payload: keys[0],
+          })
+        }
       }
     },
     * selectEnemyTeam ({ payload }, { put }) {
       const enemyTeam = enemy_team_info[payload]
-      yield put({
+      yield put.resolve({
         type: 'updateState',
         payload: { enemyTeamSelected: enemyTeam },
       })
+      LG.set('team_select_id', payload)
     },
   },
 

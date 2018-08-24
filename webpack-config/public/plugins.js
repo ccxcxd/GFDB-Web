@@ -33,6 +33,7 @@ module.exports = ({
         from: path.resolve(STATIC_DIR, './**'),
         to: './static/',
         context: STATIC_DIR,
+        cache: true,
       },
     ]),
     // 变量替换

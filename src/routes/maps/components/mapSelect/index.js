@@ -26,12 +26,14 @@ const MapSelect = ({
     dispatch({
       type: 'maps/selectCampaign',
       payload: id,
+      autoChild: true,
     })
   }
   const mapTargetSelect = (id) => {
     dispatch({
       type: 'maps/selectMisson',
       payload: id,
+      autoChild: true,
     })
   }
 

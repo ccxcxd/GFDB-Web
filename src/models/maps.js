@@ -72,14 +72,15 @@ export default moduleExtend(model, {
         const keys = Object.keys(enemy_team_count)
         yield put({
           type: 'selectEnemyTeam',
-          payload: enemy_team_info[keys[0]],
+          payload: keys[0],
         })
       }
     },
     * selectEnemyTeam ({ payload }, { put }) {
+      const enemyTeam = enemy_team_info[payload]
       yield put({
         type: 'updateState',
-        payload: { enemyTeamSelected: payload },
+        payload: { enemyTeamSelected: enemyTeam },
       })
     },
   },

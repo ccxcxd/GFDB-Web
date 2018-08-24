@@ -27,7 +27,7 @@ class MapCanvas extends React.Component {
       onSpotClick: (id) => {
         dispatch({
           type: 'maps/selectEnemyTeam',
-          payload: mDB.enemy_team_info[id],
+          payload: id,
         })
       }
     })

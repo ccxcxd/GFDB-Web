@@ -53,11 +53,9 @@ const TeamTable = ({
   }
   const selectOtherEnemyTeam = (e) => {
     const id = e.target.value
-    console.log(id)
-    const target = enemy_team_info[id]
     dispatch({
       type: 'maps/selectEnemyTeam',
-      payload: target,
+      payload: id,
     })
   }
   const getStrLength = (str) => {
@@ -146,7 +144,7 @@ const TeamTable = ({
     },
     onRow: (record) => {
       return {
-        onClick: () => selectEnemyTeam(record),       // 点击行
+        onClick: () => selectEnemyTeam(record.id),       // 点击行
         // onMouseEnter: () => {},  // 鼠标移入行
       }
     },

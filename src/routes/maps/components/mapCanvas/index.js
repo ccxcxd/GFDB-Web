@@ -42,7 +42,7 @@ class MapCanvas extends React.Component {
     }
     const oldAuto = prevProps.maps.autoGenerate
     const newAuto = this.props.maps.autoGenerate
-    if (oldAuto !== newAuto) {
+    if (oldAuto !== newAuto && newAuto === true) {
       this.onGenerate()
     }
   }

@@ -35,7 +35,6 @@ export default moduleExtend(model, {
 
   effects: {
     * setAutoGenerate ({ auto }, { put }) {
-      console.log(`getAuto: ${auto}`)
       yield put({
         type: 'updateState',
         payload: { autoGenerate: auto },

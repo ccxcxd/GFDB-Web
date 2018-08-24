@@ -42,6 +42,7 @@ export default (LANG) => {
 
     effects: {
       * initLG(inval, { put }) {
+        console.log('init localStorage...')
         /** /maps路由相关 start */
         let initCampaignId = LG.get('campaign_select_id')
         if (!initCampaignId) {

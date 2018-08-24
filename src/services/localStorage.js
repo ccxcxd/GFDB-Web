@@ -10,10 +10,14 @@ class LocalStorageClass {
 
   /**
    * 获取数据
-   * @param {*} itemName 字段名 
+   * @param {*} itemName 字段名
+   * @param {*} translateType 值转换方式[number | string]
    */
-  get (itemName) {
-    const val = this.lg.getItem(itemName)
+  get (itemName, translateType) {
+    let val = this.lg.getItem(itemName)
+    if (translateType === 'number') {
+      val = parseInt(val, 10)
+    }
     return val || undefined
   }
 

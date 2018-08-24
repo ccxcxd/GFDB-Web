@@ -44,13 +44,13 @@ export default (LANG) => {
       * initLG(inval, { put }) {
         console.log('init localStorage...')
         /** /maps路由相关 start */
-        const team_select_id = LG.get('team_select_id')
+        const team_select_id = LG.get('team_select_id', 'number')
         let autoTeam = true
         if (team_select_id !== undefined) {
           autoTeam = true
           yield put.resolve({ type: 'maps/selectEnemyTeam', payload: team_select_id })
         }
-        const mission_select_id = LG.get('mission_select_id')
+        const mission_select_id = LG.get('mission_select_id', 'number')
         let autoMission = true
         if (mission_select_id !== undefined) {
           autoMission = false
@@ -60,7 +60,7 @@ export default (LANG) => {
             autoChild: autoTeam,
           })
         }
-        let initCampaignId = LG.get('campaign_select_id')
+        let initCampaignId = LG.get('campaign_select_id', 'number')
         if (!initCampaignId) {
           initCampaignId = Object.keys(campaign_info)[0]
         }

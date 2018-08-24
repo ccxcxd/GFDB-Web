@@ -11,6 +11,7 @@ export default (LANG) => {
       lang: LANG,
 
       aboutVisible: false,  // 关于本站显示状态
+      settingVisible: false,  // 设置弹窗显示状态
     },
 
     subscriptions: {
@@ -42,6 +43,13 @@ export default (LANG) => {
         yield put({
           type: 'updateState',
           payload: { aboutVisible: show },
+        })
+      },
+
+      * showSetting({ show }, { put }) {
+        yield put({
+          type: 'updateState',
+          payload: { settingVisible: show },
         })
       },
     },

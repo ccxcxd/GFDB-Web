@@ -6,6 +6,7 @@ const Main = ({
   dispatch,
   location,
   app,
+  maps,
   children,
 }) => {
   // 属性定义
@@ -13,6 +14,7 @@ const Main = ({
     dispatch,
     location,
     app,
+    maps,
   }
 
   return (
@@ -20,4 +22,4 @@ const Main = ({
   )
 }
 
-export default connect(({ app }) => ({ app }))(Main)
+export default connect(({ app, maps }) => ({ app, maps }))(Main)

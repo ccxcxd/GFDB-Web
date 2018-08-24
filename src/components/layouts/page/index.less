@@ -1,5 +1,6 @@
 @logo_width: 36px;
 @menu_deg: 30deg;
+@setting_width: 36px;
 
 .item() {
   color: @theme_color_black;
@@ -63,6 +64,14 @@
           padding: 0 20px;
           float: left;
           font-size: 16px;
+        }
+      }
+      .setting {
+        .item();
+        width: @setting_width;
+        text-align: center;
+        & :global(.anticon) {
+          font-size: 1.8em;
         }
       }
     }

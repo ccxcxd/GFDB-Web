@@ -9,6 +9,7 @@ import {
 import { langList } from '../../../locales'
 import les from './index.less'
 import ModalAbout from './components/modalAbout'
+import DrawerSetting from './components/drawerSetting'
 
 const Option = Select.Option
 
@@ -16,6 +17,7 @@ const Page = ({
   dispatch,
   location,
   app,
+  maps,
   children,
 }) => {
   // 属性获取
@@ -36,6 +38,11 @@ const Page = ({
 
     about: __('about'),
   }
+  const propsOfDrawerSetting = {
+    dispatch,
+    app,
+    maps,
+  }
 
   // 方法定义
   const handleChange = (value) => {
@@ -47,6 +54,9 @@ const Page = ({
   }
   const showAbout = (show) => {
     dispatch({ type: 'app/showAbout', show })
+  }
+  const showSetting = () => {
+    dispatch({ type: 'app/showSetting', show: true })
   }
 
   // 渲染方法定义
@@ -88,6 +98,10 @@ const Page = ({
           >
             {mapMenu(menus)}
           </ul>
+          {/* 设置按钮 */}
+          <div className={les.setting} onClick={showSetting}>
+            <Icon type="setting" />
+          </div>
         </div>
       </div>
       {/* 内容 */}
@@ -101,8 +115,6 @@ const Page = ({
             className={les.showAbout}
             onClick={() => showAbout(true)}
           >{__('about.title')}</Button>
-          {/* 关于本站弹窗 */}
-          <ModalAbout {...propsOfModal} />
           {/* 语言切换 */}
           <div className={les.language}>
             {/* <span>Language:</span> */}
@@ -120,6 +132,10 @@ const Page = ({
           </div>
         </div>
       </div>
+      {/* 关于本站弹窗 */}
+      <ModalAbout {...propsOfModal} />
+      {/* 系统设置抽屉 */}
+      <DrawerSetting {...propsOfDrawerSetting} />
     </div>
   )
 }

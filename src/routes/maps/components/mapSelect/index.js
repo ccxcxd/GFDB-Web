@@ -25,7 +25,7 @@ const MapSelect = ({
   const campaignSelect = (id) => {
     dispatch({
       type: 'maps/selectCampaign',
-      payload: campaign_info[id],
+      payload: id,
     })
   }
   const mapTargetSelect = (id) => {

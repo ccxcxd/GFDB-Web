@@ -3,9 +3,11 @@ import moduleExtend from 'dva-model-extend'
 import { isEmpty } from 'lodash'
 import { model } from '../utils/model'
 import mDB from '@/db/mainDB'
+import LG from '@/services/localStorage'
 
 const {
   mission_info,
+  campaign_info,
   enemy_team_info,
 } = mDB
 
@@ -26,28 +28,32 @@ export default moduleExtend(model, {
         // 进入路由，获取数据
         if (pathname === '/maps') {
           dispatch({ type: 'initData' })
+          dispatch({ type: 'initLG' })
         }
       })
     },
   },
 
   effects: {
+    * initLG (inval, { put }) {
+      // const val = LG.get()
+    },
     * initData (inval, { put }) {
-      const { campaign_info } = mDB
       if (campaign_info && !isEmpty(campaign_info)) {
         const keys = Object.keys(campaign_info)
         yield put ({
           type: 'selectCampaign',
-          payload: campaign_info[keys[0]],
+          payload: keys[0],
         })
       }
     },
     * selectCampaign ({ payload }, { put }) {
+      const campaign = campaign_info[payload]
       yield put.resolve({
         type: 'updateState',
-        payload: { campaignSelected: payload },
+        payload: { campaignSelected: campaign },
       })
-      const { mission_ids } = payload
+      const { mission_ids } = campaign
       if (mission_ids && mission_ids.length) {
         yield put({
           type: 'selectMisson',

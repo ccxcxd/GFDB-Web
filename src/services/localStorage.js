@@ -14,7 +14,7 @@ class LocalStorageClass {
    */
   get (itemName) {
     const val = this.lg.getItem(itemName)
-    return val
+    return val || undefined
   }
 
   /**

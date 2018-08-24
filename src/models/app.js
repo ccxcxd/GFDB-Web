@@ -44,6 +44,22 @@ export default (LANG) => {
       * initLG(inval, { put }) {
         console.log('init localStorage...')
         /** /maps路由相关 start */
+        const team_select_id = LG.get('team_select_id')
+        let autoTeam = true
+        if (team_select_id !== undefined) {
+          autoTeam = true
+          yield put.resolve({ type: 'maps/selectEnemyTeam', payload: team_select_id })
+        }
+        const mission_select_id = LG.get('mission_select_id')
+        let autoMission = true
+        if (mission_select_id !== undefined) {
+          autoMission = false
+          yield put.resolve({
+            type: 'maps/selectMisson',
+            payload: mission_select_id,
+            autoChild: autoTeam,
+          })
+        }
         let initCampaignId = LG.get('campaign_select_id')
         if (!initCampaignId) {
           initCampaignId = Object.keys(campaign_info)[0]
@@ -51,15 +67,8 @@ export default (LANG) => {
         yield put.resolve({
           type: 'maps/selectCampaign',
           payload: initCampaignId,
+          autoChild: autoMission,
         })
-        const mission_select_id = LG.get('mission_select_id')
-        const team_select_id = LG.get('team_select_id')
-        if (mission_select_id !== undefined) {
-          yield put({ type: 'maps/selectMisson', payload: mission_select_id })
-        }
-        if (team_select_id !== undefined) {
-          yield put({ type: 'maps/selectEnemyTeam', payload: team_select_id })
-        }
         const auto_generate = LG.get('auto_generate') === '1' ? true : false
         yield put({ type: 'maps/setAutoGenerate', auto: auto_generate })
         /** /maps路由相关 end */

@@ -69,6 +69,7 @@ export default moduleExtend(model, {
           yield put.resolve({
             type: 'selectMisson',
             payload: mission_ids[0],
+            autoChild,
           })
         }
       }

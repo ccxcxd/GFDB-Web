@@ -61,7 +61,7 @@ const Page = ({
           {d.label}
         </li>
       )
-    }).reverse()
+    })
   }
   const mapLang = (ary) => {
     return ary.map(d => {
@@ -80,14 +80,6 @@ const Page = ({
             to="/"
             className={`${les.logo} ${pathname === '/' ? les.active : ''}`}
           >
-            {/* <img
-              src={
-                pathname === '/' ?
-                require('@/static/img/logo_w.png') :
-                require('@/static/img/logo_y.png')
-              }
-              alt="logo"
-            /> */}
             <Icon type="home" />
           </Link>
           {/* 路由菜单 */}

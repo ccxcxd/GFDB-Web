@@ -66,7 +66,7 @@ class MapCanvas extends React.Component {
   download () {
     const { maps } = this.props
     const mission = maps.missionSelected
-    const name = `${mission.index_text} ${__(mission.name)}`
+    const name = `${mission.index_text}_${__(mission.name)}`
     this.mapObj.download(name)
   }
   downloadFullMap () {

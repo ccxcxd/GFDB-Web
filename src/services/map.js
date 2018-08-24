@@ -217,7 +217,7 @@ class Map {
 
     // output
     this.tmpCanvas.toBlob((blob) => {
-      saveAs(blob, `${name}_full.png`);
+      saveAs(blob, `${name}.png`);
       this.tmpCanvas.height = 0;
     }, "image/png");
   }

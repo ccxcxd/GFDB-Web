@@ -1,9 +1,33 @@
 import React from 'react'
 import {
   Table,
+  Select,
 } from 'antd'
 import { forEach } from 'lodash'
 import les from './index.less'
+
+// 渲染方法定义
+const mapTeamOpt = () => {
+  const {
+    enemy_team_info,
+  } = mDB
+  const childrens = []
+  const Option = Select.Option
+  forEach(enemy_team_info, (val, key) => {
+    if (key && val.id) {
+      childrens.push(
+        <option
+          key={key}
+          value={key}
+        >
+          {key}
+        </option>
+      )
+    }
+  })
+  return childrens
+}
+const opts = mapTeamOpt()
 
 const TeamTable = ({
   dispatch,
@@ -27,12 +51,23 @@ const TeamTable = ({
       payload,
     })
   }
+  const selectOtherEnemyTeam = (e) => {
+    const id = e.target.value
+    console.log(id)
+    const target = enemy_team_info[id]
+    dispatch({
+      type: 'maps/selectEnemyTeam',
+      payload: target,
+    })
+  }
   const getStrLength = (str) => {
     if (!str) {
       return 0
     }
     return str.length
   }
+
+  
 
   // 属性定义
   const teamIds = missionSelected.enemy_team_count || {}
@@ -68,7 +103,6 @@ const TeamTable = ({
     })
     return data
   }
-  
   const columns = [
     {
       title: __('map_tbl.id'),
@@ -118,9 +152,21 @@ const TeamTable = ({
     },
     pagination: false,
   }
+
   return (
     <div>
       <Table {...propsOfTable} />
+      <div className={les.teamSelect}>
+        <span className={les.title}>切换其他敌方编队：</span>
+        <select
+          className={`ant-select ant-select-enabled ${les.select}`}
+          value={enemyTeamSelected.id}
+          onChange={selectOtherEnemyTeam}
+        >
+          {/* {mapTeamOpt(enemy_team_info)} */}
+          {opts}
+        </select>
+      </div>
     </div>
   )
 }

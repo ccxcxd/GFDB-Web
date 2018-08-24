@@ -57,16 +57,17 @@ export default moduleExtend(model, {
       if (mission_ids && mission_ids.length) {
         yield put({
           type: 'selectMisson',
-          payload: mission_info[mission_ids[0]],
+          payload: mission_ids[0],
         })
       }
     },
     * selectMisson ({ payload }, { put }) {
+      const mission = mission_info[payload]
       yield put.resolve({
         type: 'updateState',
-        payload: { missionSelected: payload },
+        payload: { missionSelected: mission },
       })
-      const { enemy_team_count } = payload
+      const { enemy_team_count } = mission
       if (enemy_team_count && !isEmpty(enemy_team_count)) {
         const keys = Object.keys(enemy_team_count)
         yield put({

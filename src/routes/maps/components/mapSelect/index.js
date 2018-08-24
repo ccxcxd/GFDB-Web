@@ -31,7 +31,7 @@ const MapSelect = ({
   const mapTargetSelect = (id) => {
     dispatch({
       type: 'maps/selectMisson',
-      payload: mission_info[id],
+      payload: id,
     })
   }
 

@@ -15,6 +15,7 @@ export default moduleExtend(model, {
   namespace: 'maps',
 
   state: {
+    autoGenerate: false,
     campaignSelected: {}, // 选中的战役
     missionSelected: {},  // 选中的任务
     enemyTeamSelected: {},  // 选中的队伍
@@ -55,6 +56,14 @@ export default moduleExtend(model, {
       if (team_select_id !== undefined) {
         yield put({ type: 'selectEnemyTeam', payload: team_select_id })
       }
+    },
+    * setAutoGenerate ({ auto }, { put }) {
+      console.log(`getAuto: ${auto}`)
+      yield put({
+        type: 'updateState',
+        payload: { autoGenerate: auto },
+      })
+      LG.set('auto_generate', auto ? '1' : '0')
     },
     * selectCampaign ({ payload, autoChild }, { put }) {
       const campaign = campaign_info[payload]

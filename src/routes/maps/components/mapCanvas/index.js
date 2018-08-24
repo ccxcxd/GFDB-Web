@@ -13,9 +13,6 @@ class MapCanvas extends React.Component {
   constructor (props) {
     super(props)
     this.mapObj = null
-    this.state = {
-      auto: false
-    }
   } 
 
   // 生命周期
@@ -39,7 +36,7 @@ class MapCanvas extends React.Component {
     if (!isEqual(oldMisson, newMisson)) {
       // console.log('更新了')
       // 检查自动更新
-      if (this.state.auto) {
+      if (this.props.maps.autoGenerate) {
         this.onGenerate()
       }
     }
@@ -47,10 +44,16 @@ class MapCanvas extends React.Component {
 
   // 自定义方法
   setAuto () {
-    const { auto } = this.state
-    this.setState({ auto: !auto })
+    const {
+      dispatch,
+      maps,
+    } = this.props
+    dispatch({
+      type: 'maps/setAutoGenerate',
+      auto: !maps.autoGenerate,
+    })
     // if set true generate canvas
-    if (!auto) {
+    if (!maps.autoGenerate) {
       this.onGenerate()
     }
   }
@@ -82,9 +85,7 @@ class MapCanvas extends React.Component {
       maps,
     } = this.props
     const {
-      auto,
-    } = this.state
-    const {
+      autoGenerate,
       missionSelected,
     } = maps
 
@@ -104,10 +105,10 @@ class MapCanvas extends React.Component {
         <div className={les.btnArea}>
           <Button.Group>
             <Button
-              type={ auto ? 'primary' : '' }
+              type={ autoGenerate ? 'primary' : '' }
               onClick={() => this.setAuto()}
             >
-              { auto ? <Icon type="check" /> : '' }
+              { autoGenerate ? <Icon type="check" /> : '' }
               {__('mission_map.auto_generate')}
             </Button>
             <Button

@@ -90,7 +90,7 @@ export default moduleExtend(model, {
           if (type === 'total') {
             return pud
           } else if (type === 'times') {
-            return dealHours(pud, que.time)
+            return parseFloat(dealHours(pud, que.time))
           }
           return 0
         }])

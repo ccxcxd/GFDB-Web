@@ -40,6 +40,11 @@ class MapCanvas extends React.Component {
         this.onGenerate()
       }
     }
+    const oldAuto = prevProps.maps.autoGenerate
+    const newAuto = this.props.maps.autoGenerate
+    if (oldAuto !== newAuto) {
+      this.onGenerate()
+    }
   }
 
   // 自定义方法

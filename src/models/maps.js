@@ -28,35 +28,12 @@ export default moduleExtend(model, {
         // const match = pathToRegexp('/maps').exec(pathname)
         // 进入路由，获取数据
         if (pathname === '/maps') {
-          dispatch({ type: 'initData' })
-          dispatch({ type: 'initLG' })
         }
       })
     },
   },
 
   effects: {
-    * initLG (inval, { put }) {
-      // const val = LG.get()
-    },
-    * initData (inval, { put }) {
-      let initId = LG.get('campaign_select_id')
-      if (!initId) {
-        initId = Object.keys(campaign_info)[0]
-      }
-      yield put.resolve({
-        type: 'selectCampaign',
-        payload: initId,
-      })
-      const mission_select_id = LG.get('mission_select_id')
-      const team_select_id = LG.get('team_select_id')
-      if (mission_select_id !== undefined) {
-        yield put({ type: 'selectMisson', payload: mission_select_id })
-      }
-      if (team_select_id !== undefined) {
-        yield put({ type: 'selectEnemyTeam', payload: team_select_id })
-      }
-    },
     * setAutoGenerate ({ auto }, { put }) {
       console.log(`getAuto: ${auto}`)
       yield put({

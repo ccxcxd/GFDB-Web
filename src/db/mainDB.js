@@ -32,6 +32,9 @@ const gun_info = require('./json/gun_info.json')
 // 盟友数据
 const ally_team_info = require('./json/ally_team_info.json')
 
+// 建筑数据
+const building_info = require('./json/building_info.json')
+
 export default {
   campaign_info,
   mission_info,
@@ -41,4 +44,5 @@ export default {
   enemy_character_type_info,
   gun_info,
   ally_team_info,
+  building_info,
 }

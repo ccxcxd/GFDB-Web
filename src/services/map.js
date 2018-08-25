@@ -9,6 +9,7 @@ const {
   enemy_character_type_info,
   gun_info,
   ally_team_info,
+  building_info,
 } = mDB
 
 const CANVAS_FG_ID = 'map_canvas_fg'
@@ -262,7 +263,10 @@ class Map {
       } else if (spot.special_eft) {
         imagename = "radar";
       } else if (spot.active_cycle) {
-        imagename = "closedap";
+        if (spot.type == 7)
+          imagename = "closedhvap";
+        else
+          imagename = "closedap";
       } else {
         imagename = "spot" + spot.type;
       }
@@ -275,6 +279,13 @@ class Map {
         var gun = gun_info[spot.hostage_info.split(",")[0]];
         var imagename2 = `${IMAGE_BASEPATH}/spine/` + gun.code + ".png";
         gun.imagename = imagename2;
+        imgLoader.add(imagename2);
+      }
+
+      if (spot.building_id != 0) {
+        var building = building_info[spot.building_id];
+        var imagename2 = "images/building/" + building.code + building.belong + ".png";
+        building.imagename = imagename2;
         imgLoader.add(imagename2);
       }
 
@@ -354,6 +365,12 @@ class Map {
       var w = spotImg.naturalWidth;
       var h = spotImg.naturalHeight;
       ctx.drawImage(spotImg, spot.coordinator_x - w / 2, spot.coordinator_y - h / 2);
+
+      // draw buildings
+      if (spot.building_id != 0) {
+        var building = building_info[spot.building_id];
+        this.drawBuilding(ctx, spot.coordinator_x, spot.coordinator_y, building);
+      }
     });
   }
 
@@ -451,6 +468,39 @@ class Map {
     ctx.restore();
   }
 
+  drawBuilding (ctx, x0, y0, building) {
+    var spineImg = imgLoader.imgs[building.imagename];
+    if (spineImg != null) {
+      var wo = spineImg.naturalWidth;
+      var ho = spineImg.naturalHeight;
+      var shift = building.shifting_spot.split(",");
+      x0 -= parseInt(shift[0]);
+      y0 -= parseInt(shift[1]);
+      var w = wo * 1.5;
+      var h = ho * 1.5;
+      ctx.drawImage(spineImg, 0, 0, wo, ho, x0 - w / 2, y0 - h / 2, w, h);
+    } else {
+      this.drawBgSpineAlternativeText(ctx, x0, y0, __(building.name));
+    }
+  }
+
+  drawBgSpineAlternativeText (ctx, x0, y0, text, selected) {
+    var scale = this.scale;
+    ctx.save();
+    ctx.font = "bold " + Math.floor(32 / scale) + "px " + __("font.sans-serif");
+    ctx.textAlign = "center";
+    ctx.textBaseline = "middle";
+    ctx.shadowColor = "black";
+    ctx.shadowBlur = 5 / scale;
+    ctx.lineWidth = 9 / scale;
+    ctx.strokeStyle = selected ? "yellow" : "black";
+    ctx.strokeText(text, x0, y0);
+    ctx.shadowBlur = 0;
+    ctx.fillStyle = selected ? "red" : "white";
+    ctx.fillText(text, x0, y0);
+    ctx.restore();
+  }
+
   drawFgImage (canvas) {
     if (!this.show)
       return;
@@ -475,6 +525,11 @@ class Map {
       var x0 = spot.coordinator_x;
       var y0 = spot.coordinator_y;
       var selected = $.inArray(spot_id, this.selectedSpots) !== -1;
+      if (spot.building_id != 0) {
+        var shift = this.building_info[spot.building_id].shifting_team.split(",");
+        x0 += parseInt(shift[0]);
+        y0 += parseInt(shift[1]);
+      }
       if (spot.hostage_info) {
         var s = spot.hostage_info.split(",");
         var gun = gun_info[s[0]];

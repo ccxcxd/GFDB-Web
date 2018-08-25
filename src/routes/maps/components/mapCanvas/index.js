@@ -185,7 +185,7 @@ class MapCanvas extends React.Component {
             >{__('mission_map.download_full')}</Button>
           </Button.Group>
         </div>
-        <div className={les.btnTips}>
+        <div className={`${les.btnTips} hidden-xs`}>
           &nbsp;&nbsp;&nbsp;&nbsp;&uarr;&nbsp;&nbsp;<span>{__('mission_map.description')}</span>
         </div>
       </div>

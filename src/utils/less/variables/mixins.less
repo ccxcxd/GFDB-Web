@@ -17,3 +17,15 @@
     text-decoration: none;
   }
 }
+
+:global(.hidden-xs) {
+  // display: none;
+}
+
+@media only screen
+// and (min-device-width : 768px)
+and (max-device-width : @layout_media_mobile_max_width) {
+  :global(.hidden-xs) {
+    display: none;
+  }
+}

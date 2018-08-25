@@ -112,7 +112,7 @@ const TeamTable = ({
       dataIndex: 'leader',
     },
     {
-      title: __('map_tbl.difficulty'),
+      title: __('map_tbl.power'),
       dataIndex: 'difficulty',
       sorter: (a, b) => a.difficulty - b.difficulty,
     },

@@ -34,8 +34,11 @@ const TeamTable = ({
       speed: character.speed,
       armor_piercing: character.armor_piercing,
       armor: character.armor,
-      // coordinator_x: member.coordinator_x,
-      // coordinator_y: member.coordinator_y,
+      def_break: character.def_break,
+      def: character.def,
+      def_percent: `${member.def_percent}%`,
+      coordinator_x: member.coordinator_x,
+      coordinator_y: member.coordinator_y,
       character: __(character.character).replace(new RegExp("//c", "g"), " "),
     }
   })
@@ -89,14 +92,26 @@ const TeamTable = ({
       title: __('team_tbl.armor'),
       dataIndex: 'armor',
     },
-    // {
-    //   title: __('team_tbl.coordinator_x'),
-    //   dataIndex: 'coordinator_x',
-    // },
-    // {
-    //   title: __('team_tbl.coordinator_y'),
-    //   dataIndex: 'coordinator_y',
-    // },
+    {
+      title: __('team_tbl.def_break'),
+      dataIndex: 'def_break',
+    },
+    {
+      title: __('team_tbl.def'),
+      dataIndex: 'def',
+    },
+    {
+      title: __('team_tbl.def_percent'),
+      dataIndex: 'def_percent',
+    },
+    {
+      title: __('team_tbl.coordinator_x'),
+      dataIndex: 'coordinator_x',
+    },
+    {
+      title: __('team_tbl.coordinator_y'),
+      dataIndex: 'coordinator_y',
+    },
     {
       title: __('team_tbl.character'),
       dataIndex: 'character',

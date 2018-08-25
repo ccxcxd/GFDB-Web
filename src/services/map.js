@@ -24,6 +24,7 @@ class Map {
   bgCanvas = null
   tmpCanvas = null
 
+  power_display = false  // 显示效能
   onSpotClick = null  // 点击地图点响应
   afterGenerate = null // 绘制完毕回调
   afterRemove = null // 销毁后回调
@@ -32,10 +33,12 @@ class Map {
    * init map canvas Object
    */
   constructor ({
+    powerDisplay,
     onSpotClick,
     afterGenerate,
     afterRemove,
   }) {
+    this.power_display = powerDisplay
     this.onSpotClick = onSpotClick
     this.afterGenerate = afterGenerate
     this.afterRemove = afterRemove
@@ -147,7 +150,14 @@ class Map {
   /**
    * generate the map of target map
    */
-  generate (missionId) {
+  generate (missionId, {
+    displayPower,
+  }) {
+    // 应用设置更改
+    if (displayPower === false || displayPower === true) {
+      this.power_display = displayPower
+    }
+
     this.show = true;
     this.missionId = missionId;
     this.preloadResources();
@@ -487,37 +497,39 @@ class Map {
     });
 
     // then power (can overlay on spine)
-    $.each(mission.spot_ids, (index, spot_id) => {
-      var spot = spot_info[spot_id];
-      var x0 = spot.coordinator_x;
-      var y0 = spot.coordinator_y;
-      if (spot.hostage_info) {
-        var s = spot.hostage_info.split(",");
-        var gun = gun_info[s[0]];
-        var hp = s[1];
-        var power = Math.floor(0.15 * mission.difficulty * hp);
-        this.drawFriendStats(ctx, x0, y0, __("game.30135"), "#FF4D00", __("game.30136"), "#DDDDDD", power, hp, "hostage", "#676767");
-      } else if (spot.ally_team_id) {
-        var ally_team = ally_team_info[spot.ally_team_id];
-        var allyColor = "white";
-        var order = "  ";
-        var power = "";
-        if (ally_team.initial_type == 0) {
-          allyColor = "#FFC33E";
-          power = enemy_team_info[spot.enemy_team_id].difficulty;
-        } else if (ally_team.initial_type == 1) {
-          allyColor = "#96C9F8";
-          order = __("game.30132")
-        } else if (ally_team.initial_type == 2) {
-          allyColor = "#FF0000";
-          power = enemy_team_info[spot.enemy_team_id].difficulty;
+    if (this.power_display) {
+      $.each(mission.spot_ids, (index, spot_id) => {
+        var spot = spot_info[spot_id];
+        var x0 = spot.coordinator_x;
+        var y0 = spot.coordinator_y;
+        if (spot.hostage_info) {
+          var s = spot.hostage_info.split(",");
+          var gun = gun_info[s[0]];
+          var hp = s[1];
+          var power = Math.floor(0.15 * mission.difficulty * hp);
+          this.drawFriendStats(ctx, x0, y0, __("game.30135"), "#FF4D00", __("game.30136"), "#DDDDDD", power, hp, "hostage", "#676767");
+        } else if (spot.ally_team_id) {
+          var ally_team = ally_team_info[spot.ally_team_id];
+          var allyColor = "white";
+          var order = "  ";
+          var power = "";
+          if (ally_team.initial_type == 0) {
+            allyColor = "#FFC33E";
+            power = enemy_team_info[spot.enemy_team_id].difficulty;
+          } else if (ally_team.initial_type == 1) {
+            allyColor = "#96C9F8";
+            order = __("game.30132")
+          } else if (ally_team.initial_type == 2) {
+            allyColor = "#FF0000";
+            power = enemy_team_info[spot.enemy_team_id].difficulty;
+          }
+          this.drawFriendStats(ctx, x0, y0, __(ally_team.name), allyColor, order, allyColor, power, 1, "ally", allyColor);
+        } else if (spot.enemy_team_id) {
+          var enemy_team = enemy_team_info[spot.enemy_team_id];
+          this.drawEnemyPower(ctx, x0, y0, enemy_team.difficulty, mission.difficulty);
         }
-        this.drawFriendStats(ctx, x0, y0, __(ally_team.name), allyColor, order, allyColor, power, 1, "ally", allyColor);
-      } else if (spot.enemy_team_id) {
-        var enemy_team = enemy_team_info[spot.enemy_team_id];
-        this.drawEnemyPower(ctx, x0, y0, enemy_team.difficulty, mission.difficulty);
-      }
-    });
+      });
+    }
 
     this.drawWatermark(ctx);
   }

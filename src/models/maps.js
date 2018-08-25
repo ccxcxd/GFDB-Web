@@ -15,7 +15,9 @@ export default moduleExtend(model, {
   namespace: 'maps',
 
   state: {
-    autoGenerate: false,
+    autoGenerate: false,  // 自动生成地图
+    displayPower: false,  // 显示效能
+
     campaignSelected: {}, // 选中的战役
     missionSelected: {},  // 选中的任务
     enemyTeamSelected: {},  // 选中的队伍
@@ -40,6 +42,13 @@ export default moduleExtend(model, {
         payload: { autoGenerate: auto },
       })
       LG.set('auto_generate', auto ? '1' : '0')
+    },
+    * setDisplayPower ({ display }, { put }) {
+      yield put({
+        type: 'updateState',
+        payload: { displayPower: display },
+      })
+      LG.set('display_power', display ? '1' : '0')
     },
     * selectCampaign ({ payload, autoChild }, { put }) {
       const campaign = campaign_info[payload]

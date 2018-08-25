@@ -17,14 +17,20 @@ const DrawerSetting = ({
   } = app
   const {
     autoGenerate,
+    displayPower,
   } = maps
 
   // 定义方法
-  const checkAutoGenerate = (e) => {
-    const auto = e.target.checked
+  const checkAutoGenerate = () => {
     dispatch({
       type: 'maps/setAutoGenerate',
-      auto,
+      auto: !autoGenerate,
+    })
+  }
+  const setDisplayPower = () => {
+    dispatch({
+      type: 'maps/setDisplayPower',
+      display: !displayPower,
     })
   }
 
@@ -45,8 +51,11 @@ const DrawerSetting = ({
         <Checkbox
           checked={autoGenerate}
           onChange={checkAutoGenerate}
-        >自动加载地图</Checkbox>
-        <Checkbox>显示效能</Checkbox>
+        >{__('mission_map.auto_generate')}</Checkbox>
+        <Checkbox
+          checked={!displayPower}
+          onChange={setDisplayPower}
+        >{__('mission_map.power_display_hide')}</Checkbox>
       </div>
 
       <Divider orientation="left">后勤列表设置</Divider>

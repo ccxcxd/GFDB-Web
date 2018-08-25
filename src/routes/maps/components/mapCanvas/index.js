@@ -3,6 +3,8 @@ import {
   Alert,
   Button,
   Icon,
+  Dropdown,
+  Checkbox,
   message,
 } from 'antd'
 import Map from '@/services/map'
@@ -23,8 +25,13 @@ class MapCanvas extends React.Component {
   componentDidMount () {
     const {
       dispatch,
+      maps,
     } = this.props
+    const {
+      displayPower,
+    } = maps
     const map = new Map({
+      displayPower,
       onSpotClick: (id) => {
         dispatch({
           type: 'maps/selectEnemyTeam',
@@ -47,20 +54,26 @@ class MapCanvas extends React.Component {
     this.mapObj = map
   }
   componentDidUpdate(prevProps) {
-    const oldMisson = prevProps.maps.missionSelected
-    const newMisson = this.props.maps.missionSelected
+    const oldMaps = prevProps.maps
+    const newMaps = this.props.maps
+    // 监听变量变化，重绘页面
+    const oldMisson = oldMaps.missionSelected
+    const newMisson = newMaps.missionSelected
     if (!isEqual(oldMisson, newMisson)) {
       // console.log('更新了')
       // 检查自动更新
-      if (this.props.maps.autoGenerate) {
+      if (newMaps.autoGenerate) {
         this.onGenerate()
       } else {
         this.mapObj.remove()
       }
     }
-    const oldAuto = prevProps.maps.autoGenerate
-    const newAuto = this.props.maps.autoGenerate
+    const oldAuto = oldMaps.autoGenerate
+    const newAuto = newMaps.autoGenerate
     if (oldAuto !== newAuto && newAuto === true) {
+      this.onGenerate()
+    }
+    if (oldMaps.displayPower !== newMaps.displayPower) {
       this.onGenerate()
     }
   }
@@ -80,12 +93,26 @@ class MapCanvas extends React.Component {
       this.onGenerate()
     }
   }
+  setDisplayPower () {
+    const {
+      dispatch,
+      maps,
+    } = this.props
+    dispatch({
+      type: 'maps/setDisplayPower',
+      display: !maps.displayPower,
+    })
+  }
   onGenerate () {
     this.setState({
       loading: true,
     })
     const { maps } = this.props
-    const missionId = maps.missionSelected.id
+    const {
+      displayPower,
+      missionSelected,
+    } = maps
+    const missionId = missionSelected.id
     if (!missionId) {
       message.warning('请先选择要生成的地图')
       this.setState({
@@ -93,7 +120,9 @@ class MapCanvas extends React.Component {
       })
       return
     }
-    this.mapObj.generate(missionId)
+    this.mapObj.generate(missionId, {
+      displayPower,
+    })
   }
   download () {
     const { maps } = this.props
@@ -119,6 +148,7 @@ class MapCanvas extends React.Component {
     } = this.state
     const {
       autoGenerate,
+      displayPower,
       missionSelected,
     } = maps
 
@@ -158,20 +188,14 @@ class MapCanvas extends React.Component {
         </div>
         {/* 操作区 */}
         <div className={les.btnArea}>
-          <Button.Group>
-            <Button
-              type={ autoGenerate ? 'primary' : '' }
-              onClick={() => this.setAuto()}
-            >
-              { autoGenerate ? <Icon type="check" /> : '' }
-              {__('mission_map.auto_generate')}
-            </Button>
-            <Button
-              type='primary'
-              disabled={!missionSelected.id}
-              onClick={() => this.onGenerate()}
-            >{__('mission_map.generate')}</Button>
-          </Button.Group>
+          <Button
+            type='primary'
+            disabled={!missionSelected.id}
+            onClick={() => this.onGenerate()}
+          >
+            { autoGenerate ? <Icon type="sync" /> : '' }
+            {__('mission_map.generate')}
+          </Button>
           <Button.Group>
             <Button
               type='primary'
@@ -184,6 +208,27 @@ class MapCanvas extends React.Component {
               onClick={() => this.downloadFullMap()}
             >{__('mission_map.download_full')}</Button>
           </Button.Group>
+          <Dropdown
+            trigger="click"
+            placement="topRight"
+            overlay={(
+              <div className={les.settingList}>
+                <Checkbox
+                  checked={autoGenerate}
+                  onChange={() => this.setAuto()}
+                >{__('mission_map.auto_generate')}</Checkbox>
+                <Checkbox
+                  checked={!displayPower}
+                  onChange={() => this.setDisplayPower()}
+                >{__('mission_map.power_display_hide')}</Checkbox>
+              </div>
+            )}
+          >
+            <Button
+              icon="setting"
+              shape="circle"
+            />
+          </Dropdown>
         </div>
         <div className={`${les.btnTips} hidden-xs`}>
           &nbsp;&nbsp;&nbsp;&nbsp;&uarr;&nbsp;&nbsp;<span>{__('mission_map.description')}</span>

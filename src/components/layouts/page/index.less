@@ -18,6 +18,10 @@
   }
 }
 
+:global(#root) {
+  font-size: @layout_base_font_size_web;
+}
+
 .container {
   width: 100%;
   background-color: @theme_color_gray;
@@ -63,7 +67,7 @@
           line-height: @layout_header_height;
           padding: 0 20px;
           float: left;
-          font-size: 16px;
+          font-size: 1.4em;
         }
       }
       .setting {
@@ -71,6 +75,8 @@
         width: @setting_width;
         text-align: center;
         & :global(.anticon) {
+          height: @layout_header_height;
+          line-height: @layout_header_height;
           font-size: 1.8em;
         }
       }
@@ -110,4 +116,29 @@
     }
   }
 
+}
+
+@media only screen
+// and (min-device-width : 768px)
+and (max-device-width : 1024px) {
+  :global(#root) {
+    font-size: @layout_base_font_size_mobile;
+  }
+  .container {
+    .header {
+      .headerContent {
+        width: @layout_body_width_mobile;
+        padding: 0 @layout_spacing_horizontal;
+      }
+    }
+    .body {
+      width: @layout_body_width_mobile;
+    }
+    .footer {
+      .footerContainer {
+        width: @layout_body_width_mobile;
+        padding: @layout_spacing_vertical_web @layout_spacing_horizontal;
+      }
+    }
+  }
 }

@@ -71,6 +71,8 @@ export default (LANG) => {
         })
         const auto_generate = LG.get('auto_generate') === '1' ? true : false
         yield put({ type: 'maps/setAutoGenerate', auto: auto_generate })
+        const display_power = LG.get('display_power') === '1' ? true : false
+        yield put({ type: 'maps/setDisplayPower', display: display_power })
         /** /maps路由相关 end */
       },
       * getLang(inval, { put }) {

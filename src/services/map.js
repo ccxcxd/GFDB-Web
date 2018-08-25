@@ -526,7 +526,7 @@ class Map {
       var y0 = spot.coordinator_y;
       var selected = $.inArray(spot_id, this.selectedSpots) !== -1;
       if (spot.building_id != 0) {
-        var shift = this.building_info[spot.building_id].shifting_team.split(",");
+        var shift = building_info[spot.building_id].shifting_team.split(",");
         x0 += parseInt(shift[0]);
         y0 += parseInt(shift[1]);
       }

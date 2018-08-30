@@ -29,6 +29,7 @@ class MapCanvas extends React.Component {
     } = this.props
     const {
       displayPower,
+      autoGenerate,
     } = maps
     const map = new Map({
       displayPower,
@@ -52,6 +53,9 @@ class MapCanvas extends React.Component {
       }
     })
     this.mapObj = map
+    if (autoGenerate) {
+      this.onGenerate()
+    }
   }
   componentDidUpdate(prevProps) {
     const oldMaps = prevProps.maps

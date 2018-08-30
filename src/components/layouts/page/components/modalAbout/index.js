@@ -20,12 +20,15 @@ const ModalAbout = ({
         <tbody>
           <tr>
             <td>{about.designer}</td>
-            <td>
+            <td className={les.author}>
               <a href="https://weibo.com/u/1061878751" target="_blank">
                 电脑小龟L.T.
               </a>
               <a href="https://twitter.com/CCX_CX_D" target="_blank">
                 (CCX_CX_D)
+              </a>
+              <a href="https://github.com/Runtu4378" target="_blank">
+                闰土
               </a>
             </td>
           </tr>

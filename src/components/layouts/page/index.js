@@ -10,6 +10,7 @@ import { langList } from '../../../locales'
 import les from './index.less'
 import ModalAbout from './components/modalAbout'
 import DrawerSetting from './components/drawerSetting'
+import DrawerVersion from './components/drawerVersion'
 
 const Option = Select.Option
 
@@ -43,6 +44,10 @@ const Page = ({
     app,
     maps,
   }
+  const propsOfDrawerVersion = {
+    dispatch,
+    app,
+  }
 
   // 方法定义
   const handleChange = (value) => {
@@ -57,6 +62,9 @@ const Page = ({
   }
   const showSetting = () => {
     dispatch({ type: 'app/showSetting', show: true })
+  }
+  const showVersion = () => {
+    dispatch({ type: 'app/showVersion', show: true })
   }
 
   // 渲染方法定义
@@ -102,6 +110,10 @@ const Page = ({
           <div className={les.setting} onClick={showSetting}>
             <Icon type="setting" />
           </div>
+          {/* 版本信息按钮 */}
+          <div className={les.version} onClick={showVersion}>
+            <Icon type="info-circle-o" />
+          </div>
         </div>
       </div>
       {/* 内容 */}
@@ -136,6 +148,8 @@ const Page = ({
       <ModalAbout {...propsOfModal} />
       {/* 系统设置抽屉 */}
       <DrawerSetting {...propsOfDrawerSetting} />
+      {/* 版本信息抽屉 */}
+      <DrawerVersion {...propsOfDrawerVersion} />
     </div>
   )
 }

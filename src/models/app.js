@@ -20,6 +20,7 @@ export default (LANG) => {
 
       aboutVisible: false,  // 关于本站显示状态
       settingVisible: false,  // 设置弹窗显示状态
+      versionVisible: false,  // 版本信息弹窗显示状态
     },
 
     subscriptions: {
@@ -94,6 +95,12 @@ export default (LANG) => {
         yield put({
           type: 'updateState',
           payload: { settingVisible: show },
+        })
+      },
+      * showVersion({ show }, { put }) {
+        yield put({
+          type: 'updateState',
+          payload: { versionVisible: show },
         })
       },
     },

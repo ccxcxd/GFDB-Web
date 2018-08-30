@@ -24,7 +24,6 @@ export default (LANG) => {
 
       versionVisible: false,  // 版本信息弹窗显示状态
       versionStoraged: null,  // 缓存的版本号
-      versionNewest: versionDB[0].version,  // 最新的版本号
     },
 
     subscriptions: {
@@ -115,6 +114,13 @@ export default (LANG) => {
         yield put({
           type: 'updateState',
           payload: { versionStoraged: version },
+        })
+      },
+      * updateVersion({ payload }, { put }) {
+        LG.set('version', payload)
+        yield put({
+          type: 'updateState',
+          payload: { versionStoraged: payload },
         })
       },
     },

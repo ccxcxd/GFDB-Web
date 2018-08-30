@@ -1,5 +1,14 @@
 export default [
   {
+    version: '0.0.3',
+    date: '2018.08.25',
+    desc: '合并master分支最新更改',
+    details: [
+      '更新了翻译库',
+      '合并了master分支夏活部分的map逻辑更改',
+    ],
+  },
+  {
     version: '0.0.2',
     date: '2018.08.18',
     desc: '初始化后勤列表',

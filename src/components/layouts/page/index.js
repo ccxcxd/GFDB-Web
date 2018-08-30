@@ -7,6 +7,7 @@ import {
   Button,
   Badge,
 } from "antd"
+import versionDB from '@/db/versionDB'
 import { langList } from '../../../locales'
 import les from './index.less'
 import ModalAbout from './components/modalAbout'
@@ -26,7 +27,6 @@ const Page = ({
   const {
     aboutVisible,
     versionStoraged,
-    versionNewest,
   } = app
   const {
     pathname,
@@ -116,10 +116,7 @@ const Page = ({
           {/* 版本信息按钮 */}
           <div className={les.version} onClick={showVersion}>
             <Icon type="info-circle-o" />
-            <Badge dot={versionStoraged !== versionNewest} />
-            {/* <Badge dot={versionStoraged !== versionNewest}>
-              <Icon type="info-circle-o" />
-            </Badge> */}
+            <Badge dot={versionStoraged !== versionDB[0]['version']} />
           </div>
         </div>
       </div>

@@ -1,5 +1,12 @@
 export default [
   {
+    version: '0.0.4',
+    date: '2018.08.30',
+    desc: '增加版本历史相关功能',
+    details: [
+    ],
+  },
+  {
     version: '0.0.3',
     date: '2018.08.25',
     desc: '合并master分支最新更改',

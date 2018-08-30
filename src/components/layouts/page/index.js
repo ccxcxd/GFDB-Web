@@ -5,6 +5,7 @@ import {
   Icon,
   Select,
   Button,
+  Badge,
 } from "antd"
 import { langList } from '../../../locales'
 import les from './index.less'
@@ -24,6 +25,8 @@ const Page = ({
   // 属性获取
   const {
     aboutVisible,
+    versionStoraged,
+    versionNewest,
   } = app
   const {
     pathname,
@@ -113,6 +116,10 @@ const Page = ({
           {/* 版本信息按钮 */}
           <div className={les.version} onClick={showVersion}>
             <Icon type="info-circle-o" />
+            <Badge dot={versionStoraged !== versionNewest} />
+            {/* <Badge dot={versionStoraged !== versionNewest}>
+              <Icon type="info-circle-o" />
+            </Badge> */}
           </div>
         </div>
       </div>

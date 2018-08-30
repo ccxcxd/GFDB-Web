@@ -72,21 +72,24 @@
       }
       .setting {
         .item();
-        width: @setting_width;
-        text-align: center;
+        height: @layout_header_height;
+        line-height: @layout_header_height;
+        padding: 0 10px;
         & :global(.anticon) {
-          height: @layout_header_height;
-          line-height: @layout_header_height;
           font-size: 1.8em;
         }
       }
       .version {
         .item();
-        width: @setting_width;
-        text-align: center;
+        display: relative;
+        height: @layout_header_height;
+        line-height: @layout_header_height;
+        padding: 0 10px;
+        & :global(.ant-badge) {
+          top: -0.25 * @layout_header_height;
+          font-size: 1em;
+        }
         & :global(.anticon) {
-          height: @layout_header_height;
-          line-height: @layout_header_height;
           font-size: 1.6em;
         }
       }

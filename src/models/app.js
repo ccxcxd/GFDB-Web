@@ -3,6 +3,7 @@ import pathToRegexp from 'path-to-regexp'
 import { checkLang } from '../locales'
 import { model } from '../utils/model'
 import mDB from '@/db/mainDB'
+import versionDB from '@/db/versionDB'
 import LG from '@/services/localStorage'
 
 const {
@@ -20,7 +21,10 @@ export default (LANG) => {
 
       aboutVisible: false,  // 关于本站显示状态
       settingVisible: false,  // 设置弹窗显示状态
+
       versionVisible: false,  // 版本信息弹窗显示状态
+      versionStoraged: null,  // 缓存的版本号
+      versionNewest: versionDB[0].version,  // 最新的版本号
     },
 
     subscriptions: {
@@ -38,6 +42,8 @@ export default (LANG) => {
         })
         // 加载localStorage,初始化数据
         dispatch({ type: 'initLG' })
+        // 对比缓存版本号和最新版本号
+        dispatch({ type: 'initVersion' })
       },
     },
 
@@ -101,6 +107,14 @@ export default (LANG) => {
         yield put({
           type: 'updateState',
           payload: { versionVisible: show },
+        })
+      },
+      * initVersion(inval, { put }) {
+        const version = LG.get('version')
+        console.log(version)
+        yield put({
+          type: 'updateState',
+          payload: { versionStoraged: version },
         })
       },
     },

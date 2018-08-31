@@ -58,8 +58,13 @@ class MapCanvas extends React.Component {
     }
   }
   componentDidUpdate(prevProps) {
+    const {
+      show,
+    } = this.state
     const oldMaps = prevProps.maps
     const newMaps = this.props.maps
+    console.log('old', oldMaps)
+    console.log('new', newMaps)
     // 监听变量变化，重绘页面
     const oldMisson = oldMaps.missionSelected
     const newMisson = newMaps.missionSelected
@@ -77,7 +82,7 @@ class MapCanvas extends React.Component {
     if (oldAuto !== newAuto && newAuto === true) {
       this.onGenerate()
     }
-    if (oldMaps.displayPower !== newMaps.displayPower) {
+    if (oldMaps.displayPower !== newMaps.displayPower && show) {
       this.onGenerate()
     }
   }

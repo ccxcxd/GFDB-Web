@@ -3,7 +3,7 @@ import pathToRegexp from 'path-to-regexp'
 import { checkLang } from '../locales'
 import { model } from '../utils/model'
 import mDB from '@/db/mainDB'
-import versionDB from '@/db/versionDB'
+import { getWebWidth } from '@/utils/js/func'
 import LG from '@/services/localStorage'
 
 const {
@@ -17,7 +17,8 @@ export default (LANG) => {
     state: {
       lang: LANG,
 
-      lgInit: false,  // 缓存加载状态
+      maxWidth: 1200,
+      clientWidth: 380,
 
       aboutVisible: false,  // 关于本站显示状态
       settingVisible: false,  // 设置弹窗显示状态
@@ -39,6 +40,8 @@ export default (LANG) => {
             dispatch({ type: 'getLang' })
           }
         })
+        // 获取设备宽度
+        dispatch({ type: 'initConfig' })
         // 加载localStorage,初始化数据
         dispatch({ type: 'initLG' })
         // 对比缓存版本号和最新版本号
@@ -47,6 +50,10 @@ export default (LANG) => {
     },
 
     effects: {
+      * initConfig (inval, { put }) {
+        const clientWidth = getWebWidth()
+        yield put({  type: 'updateState', payload: { clientWidth } })
+      },
       * initLG(inval, { put }) {
         console.log('init localStorage...')
         /** /maps路由相关 start */

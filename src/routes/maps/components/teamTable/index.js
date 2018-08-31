@@ -6,9 +6,14 @@ import { forEach } from 'lodash'
 import les from './index.less'
 
 const TeamTable = ({
+  app,
   maps,
 }) => {
   // 属性获取
+  const {
+    maxWidth,
+    clientWidth,
+  } = app
   const {
     enemyTeamSelected,
   } = maps
@@ -47,26 +52,24 @@ const TeamTable = ({
     {
       title: __('team_tbl.name'),
       dataIndex: 'name',
+      fixed: 'left',
     },
     {
       title: __('team_tbl.number'),
       dataIndex: 'number',
-      sorter: (a, b) => a.number - b.number,
+      width: 78,
     },
     {
       title: __('team_tbl.maxlife'),
       dataIndex: 'maxlife',
-      sorter: (a, b) => a.maxlife - b.maxlife,
     },
     {
       title: __('team_tbl.pow'),
       dataIndex: 'pow',
-      sorter: (a, b) => a.pow - b.pow,
     },
     {
       title: __('team_tbl.rate'),
       dataIndex: 'rate',
-      sorter: (a, b) => a.rate - b.rate,
     },
     {
       title: __('team_tbl.hit'),
@@ -105,12 +108,11 @@ const TeamTable = ({
       dataIndex: 'def_percent',
     },
     {
-      title: __('team_tbl.coordinator_x'),
-      dataIndex: 'coordinator_x',
-    },
-    {
-      title: __('team_tbl.coordinator_y'),
-      dataIndex: 'coordinator_y',
+      title: '坐标',
+      dataIndex: 'coordinator',
+      render: (val, { coordinator_x, coordinator_y }) => {
+        return `${coordinator_x}, ${coordinator_y}`
+      },
     },
     {
       title: __('team_tbl.character'),
@@ -121,7 +123,12 @@ const TeamTable = ({
     columns,
     dataSource: data,
     rowKey: 'id',
-    className: les.table,
+    className: `responsive-table ${les.table}`,
+    scroll: {
+      x: clientWidth < maxWidth ?
+        clientWidth - 16 :
+        0,
+    },
     pagination: false,
   }
   return (

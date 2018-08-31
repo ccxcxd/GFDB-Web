@@ -26,3 +26,10 @@ export const dealTime = function (getMin) {
 export const dealHours = function (total, time) {
   return ((total * 60) / time).toFixed(2)
 }
+
+/** 获取设备宽度 */
+export const getWebWidth = function () {
+  const width = document.body.clientWidth
+  console.log(`body width: ${width}`)
+  return width
+}

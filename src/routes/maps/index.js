@@ -8,6 +8,7 @@ import TeamTable from './components/teamTable'
 
 const Main = ({
   dispatch,
+  app,
   maps,
 }) =>{
   // 获取属性
@@ -26,6 +27,7 @@ const Main = ({
     maps,
   }
   const propsOfTeamTable = {
+    app,
     maps,
   }
 

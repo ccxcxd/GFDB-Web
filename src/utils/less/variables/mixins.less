@@ -18,23 +18,8 @@
   }
 }
 
-:global(.hidden-xs) {
-  // display: none;
-}
-
 @media only screen
 // and (min-device-width : 768px)
 and (max-device-width : @layout_media_mobile_max_width) {
-  :global(.hidden-xs) {
-    display: none;
-  }
-  :global(.responsive-table) {
-    :global(.ant-table-scroll) :global(.ant-table-fixed) {
-      width: @layout_body_width_web - @layout_spacing_horizontal*2 !important;
-    }
-    :global(.ant-table) td {
-      // width: @layout_body_width_web;
-      white-space: nowrap;
-    }
-  }
+  
 }

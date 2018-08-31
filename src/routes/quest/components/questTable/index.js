@@ -16,9 +16,14 @@ import { ExtraItem } from '@/components/item'
 const QuestTable = ({
   dispatch,
   loading,
+  app,
   quest,
 }) => {
   // 属性提取
+  const {
+    maxWidth,
+    clientWidth,
+  } = app
   const {
     list,
     filters,
@@ -99,6 +104,8 @@ const QuestTable = ({
     {
       title: '后勤编号',
       dataIndex: 'code',
+      fixed: 'left',
+      width: 120,
       sorter: true,
       render: (val, record) => {
         const { code, battleName } = record
@@ -211,7 +218,13 @@ const QuestTable = ({
     columns,
     dataSource: list,
     rowKey: 'code',
-    className: les.table,
+    className: `responsive-table ${les.table}`,
+    scroll: {
+      x: clientWidth < maxWidth ?
+        clientWidth - 16 :
+        0,
+      y: document.body.clientHeight - 236,
+    },
     pagination: false,
     onChange: dealTableChange,
     loading: loading.effects['quest/sorterList'],

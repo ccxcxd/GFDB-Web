@@ -137,6 +137,18 @@ and (max-device-width : @layout_media_mobile_max_width) {
   :global(#root) {
     font-size: @layout_base_font_size_mobile;
   }
+  :global(.hidden-xs) {
+    display: none;
+  }
+  :global(.responsive-table) {
+    :global(.ant-table-scroll) :global(.ant-table-fixed) {
+      width: @layout_body_width_web - @layout_spacing_horizontal*2 !important;
+    }
+    :global(.ant-table) td {
+      // width: @layout_body_width_web;
+      white-space: nowrap;
+    }
+  }
   .container {
     .header {
       .headerContent {

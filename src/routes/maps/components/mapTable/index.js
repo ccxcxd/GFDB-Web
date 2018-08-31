@@ -31,9 +31,14 @@ const opts = mapTeamOpt()
 
 const TeamTable = ({
   dispatch,
+  app,
   maps,
 }) => {
   // 属性获取
+  const {
+    maxWidth,
+    clientWidth,
+  } = app
   const {
     missionSelected,
     enemyTeamSelected,
@@ -105,6 +110,8 @@ const TeamTable = ({
     {
       title: __('map_tbl.id'),
       dataIndex: 'id',
+      fixed: 'left',
+      width: 90,
       sorter: (a, b) => a.id - b.id,
     },
     {
@@ -135,7 +142,12 @@ const TeamTable = ({
     columns,
     dataSource: initData(),
     rowKey: 'id',
-    className: les.table,
+    className: `responsive-table ${les.table}`,
+    scroll: {
+      x: clientWidth < maxWidth ?
+        clientWidth - 16 :
+        0,
+    },
     rowClassName: (rec) => {
       if (rec.id === enemyTeamSelected.id) {
         return `${les.tr} ${les.active}`

@@ -24,6 +24,7 @@ const Main = ({
   }
   const propsOfMapTable = {
     dispatch,
+    app,
     maps,
   }
   const propsOfTeamTable = {

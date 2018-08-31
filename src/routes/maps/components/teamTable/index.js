@@ -53,11 +53,11 @@ const TeamTable = ({
       title: __('team_tbl.name'),
       dataIndex: 'name',
       fixed: 'left',
+      width: 120,
     },
     {
       title: __('team_tbl.number'),
       dataIndex: 'number',
-      width: 78,
     },
     {
       title: __('team_tbl.maxlife'),

@@ -11,6 +11,7 @@ import DrawerPlan from './components/drawerPlan'
 const Main = ({
   dispatch,
   loading,
+  app,
   quest,
 }) => {
   // 方法定义
@@ -22,6 +23,7 @@ const Main = ({
   const propsOfTable = {
     dispatch,
     loading,
+    app,
     quest,
   }
   const propsOfModalPlan = {
@@ -52,4 +54,4 @@ const Main = ({
   )
 }
 
-export default connect(({ loading, quest }) => ({ loading, quest }))(Main)
+export default connect(({ loading, app, quest }) => ({ loading, app, quest }))(Main)

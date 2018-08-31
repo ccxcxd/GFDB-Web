@@ -19,7 +19,7 @@ module.exports = {
 
   PUBLIC_PATH: PUBLIC_PATH, // 公用前缀
 
-  HOST: 'localhost',
+  HOST: '0.0.0.0',
   PORT: 9000,
 
   notifyOnErrors: true, // 显示错误信息

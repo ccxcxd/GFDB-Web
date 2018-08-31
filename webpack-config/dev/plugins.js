@@ -46,7 +46,7 @@ module.exports = (conf) => {
     // 优化错误提示
     new FriendlyErrorsPlugin({
       compilationSuccessInfo: {
-        messages: [`Your application is running here: http://${HOST}:${PORT}`],
+        messages: [`Your application is running here http://${HOST === '0.0.0.0' ? 'localhost' : HOST}:${PORT}`],
       },
       onErrors: notifyOnErrors
         ? createNotifierCallback()

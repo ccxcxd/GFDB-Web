@@ -21,6 +21,14 @@
 :global(#root) {
   font-size: @layout_base_font_size_web;
 }
+:global(.ant-drawer-content-wrapper) {
+  :global(.ant-drawer-body) {
+    position: absolute;
+    top: 55px;
+    bottom: 0;
+    overflow-y: auto;
+  }
+}
 
 .container {
   width: 100%;

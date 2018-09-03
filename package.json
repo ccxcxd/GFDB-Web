@@ -15,7 +15,7 @@
   "author": "L.T.",
   "license": "MIT",
   "dependencies": {
-    "antd": "^3.8.4",
+    "antd": "^3.9.0",
     "dva": "^2.4.0",
     "dva-loading": "^2.0.5",
     "dva-model-extend": "^0.1.2",

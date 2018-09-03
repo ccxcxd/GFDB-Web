@@ -120,39 +120,46 @@ const QuestTable = ({
     {
       title: '后勤名称',
       dataIndex: 'name',
+      width: 110,
     },
     {
       title: '任务时间(小时)',
       dataIndex: 'time',
+      width: 140,
       sorter: true,
       render: v => <div className={les.timeLab}>{dealTime(v)}</div>,
     },
     {
       title: '人力',
       dataIndex: 'manpower',
+      width: 100,
       ...filterRes('manpower'),
       render: resLab,
     },
     {
       title: '弹药',
       dataIndex: 'ammunition',
+      width: 100,
       ...filterRes('ammunition'),
       render: resLab,
     },
     {
       title: '口粮',
       dataIndex: 'rations',
+      width: 100,
       ...filterRes('rations'),
       render: resLab,
     },
     {
       title: '零件',
+      width: 100,
       dataIndex: 'sparePart',
       ...filterRes('sparePart'),
       render: resLab,
     },
     {
       title: '资源总值',
+      width: 120,
       dataIndex: 'total',
       sorter: true,
       render: (val, record) => {
@@ -164,6 +171,7 @@ const QuestTable = ({
     },
     {
       title: '额外道具',
+      width: 120,
       dataIndex: 'extra',
       filterIcon: <Icon type="down-square-o" />,
       // filters: qDB.extra.map(d => {

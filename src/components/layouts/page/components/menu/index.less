@@ -1,0 +1,44 @@
+@import (reference) '../../index.less';
+
+.menuIconContainer {
+  height: @layout_header_height;
+  line-height: @layout_header_height;
+  padding: 0 10px;
+  .menuIcon {
+    font-size: 1.6rem !important;
+  }
+}
+
+.menu {
+  .clearfix();
+  position: relative;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  border-bottom: none;
+  box-shadow: none;
+
+  & > .menuItem {
+    .item();
+    height: @layout_header_height;
+    line-height: @layout_header_height;
+    padding: 0 16px;
+    float: left;
+    font-size: 1.4em;
+
+    :global(.anticon) {
+      font-size: 1.6rem;
+    }
+  }
+
+  &.phoneStyle {
+    width: 100%;
+    padding: 0 @layout_spacing_horizontal @layout_spacing_vertical_web;
+    background-color: @theme_color_white;
+
+    & > .menuItem {
+      float: none;
+      display: block;
+    }
+  }
+}

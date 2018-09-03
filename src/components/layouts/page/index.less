@@ -18,7 +18,7 @@
   }
 }
 
-:global(#root) {
+:global(html) {
   font-size: @layout_base_font_size_web;
 }
 :global(.ant-drawer-content-wrapper) {
@@ -42,41 +42,9 @@
       width: @layout_body_width_web;
       height: @layout_header_height;
       margin: 0 auto;
-      align-items: center;
-  
-      .logo {
-        .item();
-        height: @layout_header_height;
-        line-height: @layout_header_height;
-        width: @logo_width;
-        text-align: center;
-        overflow: hidden;
 
-        & :global(.anticon) {
-          height: @layout_header_height;
-          line-height: @layout_header_height;
-          font-size: 1.8em;
-          color: inherit;
-        }
-      }
-      .menu {
-        .clearfix();
+      .blank {
         flex: 1;
-        position: relative;
-        margin: 0;
-        padding: 0;
-        list-style: none;
-        border-bottom: none;
-        box-shadow: none;
-
-        & > .menuItem {
-          .item();
-          height: @layout_header_height;
-          line-height: @layout_header_height;
-          padding: 0 20px;
-          float: left;
-          font-size: 1.4em;
-        }
       }
       .setting {
         .item();
@@ -84,7 +52,7 @@
         line-height: @layout_header_height;
         padding: 0 10px;
         & :global(.anticon) {
-          font-size: 1.8em;
+          font-size: 1.6rem;
         }
       }
       .version {
@@ -98,7 +66,7 @@
           font-size: 1em;
         }
         & :global(.anticon) {
-          font-size: 1.6em;
+          font-size: 1.6rem;
         }
       }
     }
@@ -142,7 +110,7 @@
 @media only screen
 // and (min-device-width : 768px)
 and (max-device-width : @layout_media_mobile_max_width) {
-  :global(#root) {
+  :global(html) {
     font-size: @layout_base_font_size_mobile;
   }
   :global(.ant-drawer-content-wrapper) {
@@ -162,7 +130,7 @@ and (max-device-width : @layout_media_mobile_max_width) {
     .header {
       .headerContent {
         width: @layout_body_width_mobile;
-        padding: 0 @layout_spacing_horizontal;
+        // padding: 0 @layout_spacing_horizontal;
       }
     }
     .body {

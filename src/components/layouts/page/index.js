@@ -1,6 +1,4 @@
 import React from 'react'
-import { routerRedux } from 'dva/router'
-import { Link } from 'dva/router'
 import {
   Icon,
   Select,
@@ -13,6 +11,7 @@ import les from './index.less'
 import ModalAbout from './components/modalAbout'
 import DrawerSetting from './components/drawerSetting'
 import DrawerVersion from './components/drawerVersion'
+import Menu from './components/menu'
 
 const Option = Select.Option
 
@@ -28,12 +27,13 @@ const Page = ({
     aboutVisible,
     versionStoraged,
   } = app
-  const {
-    pathname,
-  } = location
 
   // 属性定义
-  const menus = __('menus')
+  const propsOfMenu = {
+    dispatch,
+    location,
+    app,
+  }
   const propsOfModal = {
     title: __('about.title'),
     visible: aboutVisible,
@@ -57,9 +57,6 @@ const Page = ({
     console.log(`selected ${value}`)
     window.location.href = `${PUBLIC_PATH}${value}`
   }
-  const link = (url) => {
-    dispatch(routerRedux.push(url))
-  }
   const showAbout = (show) => {
     dispatch({ type: 'app/showAbout', show })
   }
@@ -71,19 +68,6 @@ const Page = ({
   }
 
   // 渲染方法定义
-  const mapMenu = (ary) => {
-    return ary.map(d => {
-      return (
-        <li
-          key={d.path}
-          className={`${les.menuItem} ${pathname === d.path ? les.active : ''}`}
-          onClick={() => link(d.path)}
-        >
-          {d.label}
-        </li>
-      )
-    })
-  }
   const mapLang = (ary) => {
     return ary.map(d => {
       return (
@@ -97,18 +81,10 @@ const Page = ({
       {/* 页头 */}
       <div className={les.header}>
         <div className={les.headerContent}>
-          <Link
-            to="/"
-            className={`${les.logo} ${pathname === '/' ? les.active : ''}`}
-          >
-            <Icon type="home" />
-          </Link>
           {/* 路由菜单 */}
-          <ul
-            className={les.menu}
-          >
-            {mapMenu(menus)}
-          </ul>
+          <Menu {...propsOfMenu} />
+          {/* 占位元素 */}
+          <div className={les.blank} />
           {/* 设置按钮 */}
           <div className={les.setting} onClick={showSetting}>
             <Icon type="setting" />

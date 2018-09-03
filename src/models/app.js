@@ -19,6 +19,7 @@ export default (LANG) => {
 
       maxWidth: 1200,
       clientWidth: 380,
+      clientType: 'web',  // 客户端类型（web: 网页端，pad: 平板端，phone：手机端）此参数用于切换不同的主题
 
       aboutVisible: false,  // 关于本站显示状态
       settingVisible: false,  // 设置弹窗显示状态
@@ -52,7 +53,19 @@ export default (LANG) => {
     effects: {
       * initConfig (inval, { put }) {
         const clientWidth = getWebWidth()
-        yield put({  type: 'updateState', payload: { clientWidth } })
+        let clientType = 'pad'
+        if (clientWidth < 768) {
+          clientType = 'phone'
+        } else if (clientWidth >= 1200) {
+          clientType = 'web'
+        }
+        yield put({
+          type: 'updateState',
+          payload: {
+            clientWidth,
+            clientType,
+          },
+        })
       },
       * initLG(inval, { put }) {
         console.log('init localStorage...')

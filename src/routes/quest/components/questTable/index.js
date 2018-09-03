@@ -125,7 +125,7 @@ const QuestTable = ({
     {
       title: '任务时间(小时)',
       dataIndex: 'time',
-      width: 140,
+      width: 150,
       sorter: true,
       render: v => <div className={les.timeLab}>{dealTime(v)}</div>,
     },

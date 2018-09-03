@@ -21,8 +21,9 @@ const QuestTable = ({
 }) => {
   // 属性提取
   const {
-    maxWidth,
+    clientType,
     clientWidth,
+    tableProps,
   } = app
   const {
     list,
@@ -223,14 +224,15 @@ const QuestTable = ({
     },
   ]
   const propsOfTable = {
+    ...tableProps,
     columns,
     dataSource: list,
     rowKey: 'code',
     className: `responsive-table ${les.table}`,
     scroll: {
-      x: clientWidth < maxWidth ?
-        clientWidth - 16 :
-        0,
+      x: clientType === 'web' ?
+      0 :
+      clientWidth - 16,
       y: document.body.clientHeight - 236,
     },
     pagination: false,

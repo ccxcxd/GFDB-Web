@@ -36,8 +36,9 @@ const TeamTable = ({
 }) => {
   // 属性获取
   const {
-    maxWidth,
+    clientType,
     clientWidth,
+    tableProps,
   } = app
   const {
     missionSelected,
@@ -139,14 +140,15 @@ const TeamTable = ({
     },
   ]
   const propsOfTable = {
+    ...tableProps,
     columns,
     dataSource: initData(),
     rowKey: 'id',
     className: `responsive-table ${les.table}`,
     scroll: {
-      x: clientWidth < maxWidth ?
-        clientWidth - 16 :
-        0,
+      x: clientType === 'web' ?
+      0 :
+      clientWidth - 16,
     },
     rowClassName: (rec) => {
       if (rec.id === enemyTeamSelected.id) {

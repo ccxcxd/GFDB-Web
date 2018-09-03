@@ -63,8 +63,6 @@ class MapCanvas extends React.Component {
     } = this.state
     const oldMaps = prevProps.maps
     const newMaps = this.props.maps
-    console.log('old', oldMaps)
-    console.log('new', newMaps)
     // 监听变量变化，重绘页面
     const oldMisson = oldMaps.missionSelected
     const newMisson = newMaps.missionSelected
@@ -202,7 +200,7 @@ class MapCanvas extends React.Component {
             disabled={!missionSelected.id}
             onClick={() => this.onGenerate()}
           >
-            { autoGenerate ? <Icon type="sync" /> : '' }
+            { autoGenerate ? <Icon type="sync" spin={true} /> : '' }
             {__('mission_map.generate')}
           </Button>
           <Button.Group>
@@ -235,7 +233,8 @@ class MapCanvas extends React.Component {
           >
             <Button
               icon="setting"
-              shape="circle"
+              // shape="circle"
+              className={les.settingBtn}
             />
           </Dropdown>
         </div>

@@ -107,7 +107,6 @@ const QuestTable = ({
       dataIndex: 'code',
       fixed: 'left',
       width: 120,
-      sorter: true,
       render: (val, record) => {
         const { code, battleName } = record
         return (
@@ -124,10 +123,9 @@ const QuestTable = ({
       width: 110,
     },
     {
-      title: '任务时间(小时)',
+      title: '任务时间',
       dataIndex: 'time',
-      width: 150,
-      sorter: true,
+      width: 110,
       render: v => <div className={les.timeLab}>{dealTime(v)}</div>,
     },
     {

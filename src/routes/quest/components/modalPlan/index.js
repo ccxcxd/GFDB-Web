@@ -3,7 +3,6 @@ import {
   Modal,
   Form,
   Slider,
-  InputNumber,
   Checkbox,
   Button,
 } from 'antd'

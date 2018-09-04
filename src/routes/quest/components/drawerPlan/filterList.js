@@ -9,13 +9,20 @@ import {
   dealHours,
 } from '@/utils/js/func'
 import { ExtraItem } from '@/components/item'
+import lesMine from './index.less'
 
 const QuestTable = ({
   dispatch,
   loading,
+  app,
   quest,
 }) => {
   // 属性提取
+  const {
+    clientType,
+    clientWidth,
+    tableProps,
+  } = app
   const {
     planFilterList,
     filters,
@@ -40,48 +47,43 @@ const QuestTable = ({
     {
       title: '后勤编号',
       dataIndex: 'code',
-      render: (val, record) => {
-        const { code, battleName } = record
-        return (
-          <span className="codeLab">
-            <div className="battleName hidden-xs">{battleName}</div>
-            <div className="code">{code}</div>
-          </span>
-        )
-      },
+      fixed: 'left',
+      width: 100,
     },
     {
-      title: '后勤名称',
-      dataIndex: 'name',
-    },
-    {
-      title: '任务时间(小时)',
+      title: '任务时间',
       dataIndex: 'time',
+      width: 100,
       render: v => <div className={les.timeLab}>{dealTime(v)}</div>,
     },
     {
       title: '人力',
       dataIndex: 'manpower',
+      width: 90,
       render: resLab,
     },
     {
       title: '弹药',
       dataIndex: 'ammunition',
+      width: 90,
       render: resLab,
     },
     {
       title: '口粮',
       dataIndex: 'rations',
+      width: 90,
       render: resLab,
     },
     {
       title: '零件',
       dataIndex: 'sparePart',
+      width: 90,
       render: resLab,
     },
     {
       title: '资源总值',
       dataIndex: 'total',
+      width: 90,
       render: (val, record) => {
         const { manpower, ammunition, rations, sparePart } = record
         return (
@@ -104,31 +106,19 @@ const QuestTable = ({
         })
       },
     },
-    {
-      title: '队伍要求',
-      dataIndex: 'captainLevel',
-      render: (val, record) => {
-        const { captainLevel, requiredPeople } = record
-        return (
-          <div className={les.teamReq}>
-            <div>
-              <span className={les.title}>队长等级：</span>
-              {captainLevel}
-            </div>
-            <div>
-              <span className={les.title}>队伍人数：</span>
-              {requiredPeople}
-            </div>
-          </div>
-        )
-      },
-    },
   ]
   const propsOfTable = {
+    ...tableProps,
     columns,
     dataSource: planFilterList,
     rowKey: 'code',
-    className: les.table,
+    className: `${les.table} ${lesMine.resizeTable}`,
+    scroll: {
+      x: clientType === 'web' ?
+      0 :
+      clientWidth - 16,
+      y: 300,
+    },
     pagination: false,
     // loading: loading.effects['quest/countQuest'],
     // loading: true,

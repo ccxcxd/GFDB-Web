@@ -9,6 +9,7 @@ import FilterList from './filterList'
 
 const DrawerPlan = ({
   dispatch,
+  app,
   quest,
 }) => {
   // 属性获取
@@ -32,10 +33,12 @@ const DrawerPlan = ({
   }
   const propsOfCountList = {
     dispatch,
+    app,
     quest,
   }
   const propsOfFilterList = {
     dispatch,
+    app,
     quest,
   }
 

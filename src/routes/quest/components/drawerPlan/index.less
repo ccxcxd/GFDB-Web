@@ -6,3 +6,13 @@
   line-height: 26px;
   font-size: 18px;
 }
+
+.resizeTable {
+  :global(.ant-table-scroll) :global(.ant-table-fixed) {
+    width: 800px !important;
+  }
+  :global(.ant-table) td {
+    // width: @layout_body_width_web;
+    white-space: nowrap;
+  }
+}

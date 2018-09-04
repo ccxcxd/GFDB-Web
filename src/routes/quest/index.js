@@ -16,10 +16,6 @@ const Main = ({
   const propsOfBtnLab = {
     dispatch,
   }
-  const propsOfDrawerFilter = {
-    dispatch,
-    quest,
-  }
   const propsOfTable = {
     dispatch,
     loading,
@@ -34,6 +30,7 @@ const Main = ({
   const propsOfDrawerPlan = {
     dispatch,
     loading,
+    app,
     quest,
   }
 

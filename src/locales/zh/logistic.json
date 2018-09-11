@@ -91,5 +91,14 @@
     "102": "前线支援",
     "103": "腹地侦查",
     "104": "夺取通讯"
+  },
+  "supportPlan": {
+    "entryButton": "一键咸鱼",
+    "countModalName": "试算弹窗",
+    "hourLabel": "后勤时数",
+    "minuteLabel": "后勤分钟数",
+    "resourceLabel": "资源",
+    "extraLabel": "资源",
+    "countButton": "试算"
   }
 }

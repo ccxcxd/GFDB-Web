@@ -44,7 +44,7 @@ class ModalPlan extends React.Component {
       wrapperCol: { span: 14 },
     }
     const propsOfModal = {
-      title: '筹划弹窗',
+      title: __('logistic.supportPlan.countModalName'),
       visible: modalPlanVisible,
       width: '70%',
       footer: null,
@@ -58,7 +58,7 @@ class ModalPlan extends React.Component {
         <Form>
           <FormItem
             {...formItemLayout}
-            label="后勤时数"
+            label={__('logistic.supportPlan.hourLabel')}
           >
             {getFieldDecorator('hour', {
               initialValue: 0,
@@ -73,7 +73,7 @@ class ModalPlan extends React.Component {
           </FormItem>
           <FormItem
             {...formItemLayout}
-            label="后勤分钟数"
+            label={__('logistic.supportPlan.minuteLabel')}
           >
             {getFieldDecorator('min', {
               initialValue: 0,
@@ -88,7 +88,7 @@ class ModalPlan extends React.Component {
           </FormItem>
           <FormItem
             {...formItemLayout}
-            label="资源"
+            label={__('logistic.supportPlan.resourceLabel')}
           >
             {getFieldDecorator('resource', {
               initialValue: [],
@@ -102,20 +102,20 @@ class ModalPlan extends React.Component {
           </FormItem>
           <FormItem
             {...formItemLayout}
-            label="额外道具"
+            label={__('logistic.supportPlan.extraLabel')}
           >
             {getFieldDecorator('extra', {
               initialValue: [],
             })(
               <CheckboxGroup
                 options={qDB.extra.map(d => {
-                  return { label: d.name, value: d._id }
+                  return { label: __(d.name), value: d._id }
                 })}
               />
             )}
           </FormItem>
         </Form>
-        <Button type='primary' onClick={submit}>试算</Button>
+        <Button type='primary' onClick={submit}>{__('logistic.supportPlan.countButton')}</Button>
       </Modal>
     )
   }

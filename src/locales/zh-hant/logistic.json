@@ -91,5 +91,14 @@
     "102": "前線支援",
     "103": "腹地偵查",
     "104": "奪取通訊"
+  },
+  "supportPlan": {
+    "entryButton": "試算後勤",
+    "countModalName": "試算彈窗",
+    "hourLabel": "後勤時數",
+    "minuteLabel": "後勤分鐘數",
+    "resourceLabel": "資源",
+    "extraLabel": "額外道具",
+    "countButton": "試算"
   }
 }

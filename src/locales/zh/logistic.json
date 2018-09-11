@@ -98,7 +98,7 @@
     "hourLabel": "后勤时数",
     "minuteLabel": "后勤分钟数",
     "resourceLabel": "资源",
-    "extraLabel": "资源",
+    "extraLabel": "额外道具",
     "countButton": "试算"
   }
 }

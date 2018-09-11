@@ -9,7 +9,7 @@
     "captainLevel": "队长等级",
     "captainNumber": "队伍人数",
     "filterTotalDescend": "总量降序",
-    "filterYieldDescend": "总量降序",
+    "filterYieldDescend": "时量降序",
     "filterExtraYieldDescend": "按产能效率降序"
   },
   "manpower": "人力",

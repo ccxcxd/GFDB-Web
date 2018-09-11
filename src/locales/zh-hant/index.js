@@ -1,7 +1,9 @@
 const base = require('./translation.json')
+const logistic = require('./logistic.json')
 
 module.exports = {
   ...base,
+  logistic,
   'name': 'zh-hant',
   'Hello text': '你好 歡迎來到少前攻略站',
   'menus': [

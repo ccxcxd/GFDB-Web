@@ -1,0 +1,16 @@
+{
+  "columns": {
+    "code": "後勤編號",
+    "time": "任務時間",
+    "name": "後勤名稱",
+    "manpower": "人力",
+    "ammunition": "彈藥",
+    "rations": "口糧",
+    "sparePart": "零件",
+    "total": "資源總量",
+    "extra": "額外道具",
+    "teamRequire": "隊伍要求",
+    "captainLevel": "隊長等級",
+    "captainNumber": "隊伍人數"
+  }
+}

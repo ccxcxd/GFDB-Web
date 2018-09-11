@@ -70,6 +70,7 @@ const QuestTable = ({
   }
 
   // 属性定义
+  const basePad = clientType === 'web' ? 3 : 1.5
   const filterResData = [
     {
       text: '总量降序',
@@ -103,10 +104,10 @@ const QuestTable = ({
   }
   const columns = [
     {
-      title: '后勤编号',
+      title: __('logistic.columns.code'),
       dataIndex: 'code',
       fixed: 'left',
-      width: 120,
+      width: `${__('logistic.columns.code').length + basePad}em`,
       render: (val, record) => {
         const { code, battleName } = record
         return (
@@ -118,48 +119,49 @@ const QuestTable = ({
       },
     },
     {
-      title: '后勤名称',
-      dataIndex: 'name',
-      width: 110,
-    },
-    {
-      title: '任务时间',
+      title: __('logistic.columns.time'),
       dataIndex: 'time',
-      width: 110,
+      fixed: 'left',
+      width: `${__('logistic.columns.time').length + basePad}em`,
       render: v => <div className={les.timeLab}>{dealTime(v)}</div>,
     },
     {
-      title: '人力',
+      title: __('logistic.columns.name'),
+      dataIndex: 'name',
+      width: `${__('logistic.columns.name').length + basePad}em`,
+    },
+    {
+      title: __('logistic.columns.manpower'),
       dataIndex: 'manpower',
-      width: 100,
+      width: `${5 + basePad}em`,
       ...filterRes('manpower'),
       render: resLab,
     },
     {
-      title: '弹药',
+      title: __('logistic.columns.ammunition'),
       dataIndex: 'ammunition',
-      width: 100,
+      width: `${5 + basePad}em`,
       ...filterRes('ammunition'),
       render: resLab,
     },
     {
-      title: '口粮',
+      title: __('logistic.columns.rations'),
       dataIndex: 'rations',
-      width: 100,
+      width: `${5 + basePad}em`,
       ...filterRes('rations'),
       render: resLab,
     },
     {
-      title: '零件',
-      width: 100,
+      title: __('logistic.columns.sparePart'),
       dataIndex: 'sparePart',
+      width: `${5 + basePad}em`,
       ...filterRes('sparePart'),
       render: resLab,
     },
     {
-      title: '资源总值',
-      width: 120,
+      title: __('logistic.columns.total'),
       dataIndex: 'total',
+      width: `${__('logistic.columns.total').length + 1.4 + basePad}em`,
       sorter: true,
       render: (val, record) => {
         const { manpower, ammunition, rations, sparePart } = record
@@ -169,8 +171,8 @@ const QuestTable = ({
       }
     },
     {
-      title: '额外道具',
-      width: 120,
+      title: __('logistic.columns.extra'),
+      width: `${__('logistic.columns.extra').length + 1.4 + basePad}em`,
       dataIndex: 'extra',
       filterIcon: <Icon type="down-square-o" />,
       // filters: qDB.extra.map(d => {
@@ -202,18 +204,18 @@ const QuestTable = ({
       },
     },
     {
-      title: '队伍要求',
-      dataIndex: 'captainLevel',
+      title: __('logistic.columns.teamRequire'),
+      dataIndex: 'teamRequire',
       render: (val, record) => {
         const { captainLevel, requiredPeople } = record
         return (
           <div className={les.teamReq}>
             <div>
-              <span className={les.title}>队长等级：</span>
+              <span className={les.title}>{__('logistic.columns.captainLevel')}：</span>
               {captainLevel}
             </div>
             <div>
-              <span className={les.title}>队伍人数：</span>
+              <span className={les.title}>{__('logistic.columns.captainNumber')}：</span>
               {requiredPeople}
             </div>
           </div>

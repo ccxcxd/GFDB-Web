@@ -70,14 +70,14 @@ const QuestTable = ({
   }
 
   // 属性定义
-  const basePad = clientType === 'web' ? 3 : 1.5
+  const basePad = clientType === 'web' ? 4 : 1.5
   const filterResData = [
     {
-      text: '总量降序',
+      text: __('logistic.columns.filterTotalDescend'),
       value: 'total',
     },
     {
-      text: '时量降序',
+      text: __('logistic.columns.filterYieldDescend'),
       value: 'times',
     },
   ]
@@ -109,11 +109,11 @@ const QuestTable = ({
       fixed: 'left',
       width: `${__('logistic.columns.code').length + basePad}em`,
       render: (val, record) => {
-        const { code, battleName } = record
+        const { code, name } = record
         return (
           <span className="codeLab">
-            <div className="battleName hidden-xs">{battleName}</div>
             <div className="code">{code}</div>
+            <div className="battleName">{__(name)}</div>
           </span>
         )
       },
@@ -126,33 +126,28 @@ const QuestTable = ({
       render: v => <div className={les.timeLab}>{dealTime(v)}</div>,
     },
     {
-      title: __('logistic.columns.name'),
-      dataIndex: 'name',
-      width: `${__('logistic.columns.name').length + basePad}em`,
-    },
-    {
-      title: __('logistic.columns.manpower'),
+      title: __('logistic.manpower'),
       dataIndex: 'manpower',
       width: `${5 + basePad}em`,
       ...filterRes('manpower'),
       render: resLab,
     },
     {
-      title: __('logistic.columns.ammunition'),
+      title: __('logistic.ammunition'),
       dataIndex: 'ammunition',
       width: `${5 + basePad}em`,
       ...filterRes('ammunition'),
       render: resLab,
     },
     {
-      title: __('logistic.columns.rations'),
+      title: __('logistic.rations'),
       dataIndex: 'rations',
       width: `${5 + basePad}em`,
       ...filterRes('rations'),
       render: resLab,
     },
     {
-      title: __('logistic.columns.sparePart'),
+      title: __('logistic.sparePart'),
       dataIndex: 'sparePart',
       width: `${5 + basePad}em`,
       ...filterRes('sparePart'),
@@ -181,7 +176,7 @@ const QuestTable = ({
       filterDropdown: () => (
         <List
           size='small'
-          header="按产能效率排序"
+          header={__('logistic.columns.filterExtraYieldDescend')}
           bordered
           className={les.filterExtraCon}
           dataSource={qDB.extra}
@@ -190,7 +185,7 @@ const QuestTable = ({
               <List.Item
                 onClick={() => dealExtraSort(_id)}
                 className={`${filters.extra === _id ? les.active : ''}`}
-              ><Icon type="check" className={les.check} />{name}</List.Item>
+              ><Icon type="check" className={les.check} />{__(name)}</List.Item>
             )
           }}
         />
@@ -198,7 +193,7 @@ const QuestTable = ({
       render: (val) => {
         return val.map(d => {
           return (
-            <ExtraItem key={d._id} icon={d.icon} label={d.name} />
+            <ExtraItem key={d._id} icon={d.icon} label={__(d.name)} />
           )
         })
       },

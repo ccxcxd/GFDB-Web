@@ -95,7 +95,7 @@ class ModalPlan extends React.Component {
             })(
               <CheckboxGroup
                 options={qDB.resource.map(d => {
-                  return { label: d.label, value: d.name }
+                  return { label: __(d.label), value: d.name }
                 })}
               />
             )}

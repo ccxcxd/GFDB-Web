@@ -19,7 +19,7 @@ const DrawerPlan = ({
 
   // 属性定义
   const propsOfDrawer = {
-    title: '试算结果',
+    title: __('logistic.supportPlan.resultModalName'),
     visible: drawerPlanVisible,
     width: '80%',
     placement: 'right',
@@ -48,11 +48,11 @@ const DrawerPlan = ({
         {/* 试算条件 */}
         <Condition {...propsOfCondition} />
         {/* 推荐后勤 */}
-        <div className={les.title}>推荐后勤</div>
+        <div className={les.title}>{__('logistic.supportPlan.recommendList')}</div>
         <CountList  {...propsOfCountList} />
         <br/>
         {/* 筛选结果 */}
-        <div className={les.title}>筛选列表</div>
+        <div className={les.title}>{__('logistic.supportPlan.filterList')}</div>
         <FilterList {...propsOfFilterList} />
       </div>
     </Drawer>

@@ -43,45 +43,46 @@ const QuestTable = ({
   }
 
   // 属性定义
+  const basePad = clientType === 'web' ? 4 : 1.5
   const columns = [
     {
-      title: '后勤编号',
+      title: __('logistic.columns.code'),
       dataIndex: 'code',
       fixed: 'left',
-      width: 100,
+      width: `${__('logistic.columns.code').length + basePad}em`,
     },
     {
-      title: '任务时间',
+      title: __('logistic.columns.time'),
       dataIndex: 'time',
-      width: 100,
+      width: `${__('logistic.columns.time').length + basePad}em`,
       render: v => <div className={les.timeLab}>{dealTime(v)}</div>,
     },
     {
-      title: '人力',
+      title: __('logistic.manpower'),
       dataIndex: 'manpower',
-      width: 90,
+      width: `${5 + basePad}em`,
       render: resLab,
     },
     {
-      title: '弹药',
+      title: __('logistic.ammunition'),
       dataIndex: 'ammunition',
-      width: 90,
+      width: `${5 + basePad}em`,
       render: resLab,
     },
     {
-      title: '口粮',
+      title: __('logistic.rations'),
       dataIndex: 'rations',
-      width: 90,
+      width: `${5 + basePad}em`,
       render: resLab,
     },
     {
-      title: '零件',
+      title: __('logistic.sparePart'),
       dataIndex: 'sparePart',
-      width: 90,
+      width: `${5 + basePad}em`,
       render: resLab,
     },
     {
-      title: '资源总值',
+      title: __('logistic.columns.total'),
       dataIndex: 'total',
       width: 90,
       render: (val, record) => {
@@ -92,7 +93,7 @@ const QuestTable = ({
       }
     },
     {
-      title: '额外道具',
+      title: __('logistic.columns.extra'),
       dataIndex: 'extra',
       render: (val) => {
         return val.map(d => {
@@ -100,7 +101,7 @@ const QuestTable = ({
             <ExtraItem
               key={d._id}
               icon={d.icon}
-              label={d.name}
+              label={__(d.name)}
             />
           )
         })

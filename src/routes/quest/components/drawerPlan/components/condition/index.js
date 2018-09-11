@@ -22,7 +22,7 @@ const ConditionLab = ({
   const mapRes = (ary) => {
     return ary.map(d => {
       return (
-        <span key={d}>{find(resource, r => r.name === d).label}</span>
+        <span key={d}>{__(find(resource, r => r.name === d).label)}</span>
       )
     })
   }
@@ -33,14 +33,14 @@ const ConditionLab = ({
         <ExtraItem
           key={d}
           icon={ext.icon}
-          label={ext.name}
+          label={__(ext.name)}
         />
       )
     })
   }
   const showNothing = () => {
     return (
-      <div>暂无选择</div>
+      <div>{__('logistic.supportPlan.noSelect')}</div>
     )
   }
 
@@ -48,12 +48,12 @@ const ConditionLab = ({
     <div>
       <div className={les.condition}>
         <div className={`${les.item} ${les.timeLab}`}>
-          <div className={les.title}>后勤总时长：</div>
+          <div className={les.title}>{__('logistic.supportPlan.totalTimeLab')}：</div>
           <div className={les.text}>
-          <span className={les.timeTxt}>{planCondition.hour}</span>时<span className={les.timeTxt}>{planCondition.min}</span>分</div>
+          <span className={les.timeTxt}>{planCondition.hour}</span>H<span className={les.timeTxt}>{planCondition.min}</span>M</div>
         </div>
         <div className={`${les.item} ${les.resLab}`}>
-          <div className={les.title}>需求资源：</div>
+          <div className={les.title}>{__('logistic.supportPlan.needResLab')}：</div>
           <div className={les.text}>
             {
               (planCondition.resource && planCondition.resource.length) ?
@@ -63,7 +63,7 @@ const ConditionLab = ({
           </div>
         </div>
         <div className={`${les.item} ${les.extLab}`}>
-          <div className={les.title}>需求道具：</div>
+          <div className={les.title}>{__('logistic.supportPlan.needExtraLab')}：</div>
           <div className={les.text}>
             {
               (planCondition.extra && planCondition.extra.length) ?

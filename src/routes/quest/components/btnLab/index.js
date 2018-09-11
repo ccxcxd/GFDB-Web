@@ -17,7 +17,7 @@ const BtnLab = ({
       <Button
         type="primary"
         onClick={onPlanClick}
-      >一键咸鱼</Button>
+      >{__('logistic.supportPlan.entryButton')}</Button>
       <div className={les.blank} />
     </div>
   )

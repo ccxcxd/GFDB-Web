@@ -9,8 +9,8 @@
     "dev": "webpack-dev-server --config ./webpack-config/config.dev.js",
     "prebuild": "rimraf dist/** && node ./bin/init.js build",
     "build": "cross-env publicPath='/gf/' webpack --config ./webpack-config/config.prod.js",
-    "dll": "webpack --config ./webpack-config/config.dll.js",
-    "local": "http-server ./dist"
+    "local": "http-server ./dist",
+    "dll": "webpack --config ./webpack-config/config.dll.js"
   },
   "author": "L.T.",
   "license": "MIT",

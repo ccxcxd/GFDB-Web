@@ -4,7 +4,7 @@ const logistic = require('./logistic.json')
 module.exports = {
   ...base,
   logistic,
-  'name': 'ja-jp',
+  'name': 'ja',
   'Hello text': 'こんにちは、女の子の前線レイダーズ駅へようこそ',
   'menus': [
     { path: '/', icon: 'home' },

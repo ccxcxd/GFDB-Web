@@ -5,10 +5,101 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>GF</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+    ul,li {
+      list-style: none;
+    }
+    html, body {
+      height: 100%;
+      width: 100%;
+    }
+    body {
+      background-color: #34372F;
+    }
+    .container {
+      width: 300px;
+      position: relative;
+      top: 50%;
+      left: 50%;
+      margin-top: -200px;
+      margin-left: -150px;
+      font-size: 14px;
+    }
+    .title {
+      height: 56px;
+      line-height: 56px;
+      text-align: center;
+      font-size: 2em;
+      color: #fff;
+    }
+    .card {
+      position: relative;
+    }
+    .card:after {
+      content: '';
+      display: block;
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      width: 0;
+      height: 0;
+      border-width: 30px 30px 0 0;
+      border-style: solid;
+      border-color: transparent #34372F transparent transparent;
+    }
+    .list {
+      width: 220px;
+      margin: 20px auto 0;
+    }
+    .list li {
+      margin-bottom: 20px;
+      text-align: center;
+    }
+    .item:after {
+      border-width: 12px 12px 0 0;
+    }
+    .item > a {
+      display: block;
+      height: 48px;
+      line-height: 48px;
+      text-decoration: none;
+      background-color: #efefef;
+      color: #191919;
+      font-size: 1.2em;
+      box-shadow: 0 1px 2px 0 rgba(0,0,0,.1);
+      transition: all ease .3s;
+    }
+    .item > a:hover {
+      background-color: #FFC000;
+    }
+  </style>
 </head>
 <body>
-  <script>
-    window.location.href = './zh';
-  </script>
+  <div class="container">
+    <div class="title">少女前线攻略站</div>
+    <div class="list-container">
+      <ul class="list">
+        <li class="card item">
+          <a href="./zh">简中用户入口</a>
+        </li>
+        <li class="card item">
+          <a href="./zh-hant">繁中用戶入口</a>
+        </li>
+        <li class="card item">
+          <a href="./en">English user entrance</a>
+        </li>
+        <li class="card item">
+          <a href="./ja">日本のユーザーポータル</a>
+        </li>
+        <li class="card item">
+          <a href="./ko">한국어 사용자 포털</a>
+        </li>
+      </ul>
+    </div>
+  </div>
 </body>
 </html>

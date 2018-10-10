@@ -1,3 +1,4 @@
 dist
 node_modules
 src/entries
+webpack-config/base/languages.js

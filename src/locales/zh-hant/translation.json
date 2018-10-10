@@ -1,5 +1,9 @@
 {
 	"title": "少女前線敵方數據",
+  "metas": {
+    "keywords": "少女前線,工具,攻略,戰役,地圖,後勤",
+    "description": "少女前線工具網址，提供戰役的地圖和敵人查詢、後勤列表以及試算功能"
+  },
 	"font": {
 		"serif": "PMingLiU",
 		"sans-serif": "SimHei"

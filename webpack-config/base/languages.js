@@ -5,14 +5,14 @@ module.exports = [
     entry: 'D:\\code\\gf\\GFDB-Web\\src\\entries\\index.en.js'
   },
   {
-    name: 'ja-jp',
-    config: require('../../src/locales/ja-jp/index.js'),
-    entry: 'D:\\code\\gf\\GFDB-Web\\src\\entries\\index.ja-jp.js'
+    name: 'ja',
+    config: require('../../src/locales/ja/index.js'),
+    entry: 'D:\\code\\gf\\GFDB-Web\\src\\entries\\index.ja.js'
   },
   {
-    name: 'ko-kr',
-    config: require('../../src/locales/ko-kr/index.js'),
-    entry: 'D:\\code\\gf\\GFDB-Web\\src\\entries\\index.ko-kr.js'
+    name: 'ko',
+    config: require('../../src/locales/ko/index.js'),
+    entry: 'D:\\code\\gf\\GFDB-Web\\src\\entries\\index.ko.js'
   },
   {
     name: 'zh-hant',

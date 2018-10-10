@@ -1,5 +1,9 @@
 {
 	"title": "Girls' Frontline Enemy Data",
+  "metas": {
+    "keywords": "少女前线,工具,攻略,战役,地图,后勤",
+    "description": "少女前线工具网站，提供战役的地图和敌人查询、后勤列表以及试算功能"
+  },
 	"font": {
 		"serif": "serif",
 		"sans-serif": "sans-serif"

@@ -1,12 +1,16 @@
 {
 	"title": "少女前线敌方数据",
+  "metas": {
+    "keywords": "少女前线,工具,攻略,战役,地图,后勤",
+    "description": "少女前线工具网站，提供战役的地图和敌人查询、后勤列表以及试算功能"
+  },
 	"font": {
 		"serif": "SimSun",
 		"sans-serif": "SimHei"
 	},
 	"map_sel": {
 		"label": "选择地图："
-	},
+  },
 	"mission_map": {
 		"generate": "生成地图",
 		"auto_generate": "自动",

@@ -2,27 +2,27 @@ export const langList = [
   {
     name: 'en',
     desc: 'English',
-    alias: ['en'],
+    alias: ['en', 'en-US'],
   },
   {
     name: 'zh',
     desc: '简体中文',
-    alias: ['zh-CN'],
+    alias: ['zh', 'zh-CN', 'zh-hans'],
   },
   {
     name: 'zh-hant',
-    desc: '繁体中文(需要翻譯)',
-    alias: [],
+    desc: '繁体中文',
+    alias: ['zh-hant', 'zh-TW'],
   },
   {
-    name: 'ja-jp',
-    desc: '日本語(翻訳者募集)',
-    alias: [],
+    name: 'ja',
+    desc: '日本語',
+    alias: ['ja', 'ja-JP'],
   },
   {
-    name: 'ko-kr',
+    name: 'ko',
     desc: '한국어',
-    alias: [],
+    alias: ['ko', 'ko-KR'],
   },
 ]
 

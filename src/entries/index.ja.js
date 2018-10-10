@@ -10,7 +10,7 @@ import 'moment/locale/zh-cn'
 import { initI18n } from '../utils/js/i18n'
 import mDB from '../db/mainDB'
 import qDB from '../db/questDB'
-import LANG from '../locales/ko-kr'
+import LANG from '../locales/ja'
 
 const __ = initI18n(LANG)
 

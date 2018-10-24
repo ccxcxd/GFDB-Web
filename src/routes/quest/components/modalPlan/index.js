@@ -20,22 +20,11 @@ class ModalPlan extends React.Component {
       quest,
     } = this.props
     const {
+      resourceList,
+      extraList,
       modalPlanVisible,
     } = quest
     const { getFieldDecorator } = form
-    const resourceList = mDB.item_info.filter((ele) => [
-      '501',
-      '502',
-      '503',
-      '504',
-    ].indexOf(ele.id) !== -1)
-    const extraList = mDB.item_info.filter((ele) => [
-      '1',
-      '2',
-      '3',
-      '4',
-      '41',
-    ].indexOf(ele.id) !== -1)
 
     // 方法定义
     const submit = () => {

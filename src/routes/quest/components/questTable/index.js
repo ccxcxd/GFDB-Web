@@ -28,14 +28,8 @@ const QuestTable = ({
   const {
     list,
     filters,
+    extraList,
   } = quest
-  const extraList = mDB.item_info.filter((ele) => [
-    '1',
-    '2',
-    '3',
-    '4',
-    '41',
-  ].indexOf(ele.id) !== -1)
 
   // 方法定义
   // 处理表单校验和筛选
@@ -179,9 +173,6 @@ const QuestTable = ({
       width: `${__('logistic.columns.extra').length + 1.4 + basePad}em`,
       dataIndex: 'item_pool',
       filterIcon: <Icon type="down-square-o" />,
-      // filters: qDB.extra.map(d => {
-      //   return { text: d.name, value: d._id }
-      // }),
       filterDropdown: () => (
         <List
           size='small'

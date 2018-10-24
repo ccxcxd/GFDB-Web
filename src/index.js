@@ -9,7 +9,6 @@ import 'moment/locale/zh-cn'
 // import './rollbar'
 import { initI18n } from './utils/js/i18n'
 import mDB from '@/db/mainDB'
-import qDB from '@/db/questDB'
 /** IMPORT_LANG */
 
 const __ = initI18n(LANG)
@@ -17,7 +16,6 @@ const __ = initI18n(LANG)
 // 全局变量注入
 window.__ = __
 window.mDB = mDB
-window.qDB = qDB
 
 const basePath = PUBLIC_PATH
 // import './index.less'

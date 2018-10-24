@@ -1,5 +1,12 @@
 export default [
   {
+    version: '0.0.5',
+    date: '2018.10.24',
+    desc: '使用原生后勤列表数据库',
+    details: [
+    ],
+  },
+  {
     version: '0.0.4',
     date: '2018.08.30',
     desc: '增加版本历史相关功能',

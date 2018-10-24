@@ -97,12 +97,13 @@ export default moduleExtend(model, {
         list = list.reverse()
       } else if (payload.extra) {
         const matchId = payload.extra
-        list = sortBy(list, [({ time, extra }) => {
+        list = sortBy(list, [({ duration, item_pool }) => {
           let weight = 0
-          if (extra && extra.length) {
-            const ifTarHaveValue = find(extra, d => d._id === matchId)
+          const itemList = item_pool.split(',')
+          if (itemList && itemList.length) {
+            const ifTarHaveValue = find(itemList, d => d === matchId)
             if (ifTarHaveValue) {
-              weight = 1/time
+              weight = 1/ duration
             }
           }
           return weight

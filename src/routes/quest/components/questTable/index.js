@@ -29,13 +29,13 @@ const QuestTable = ({
     list,
     filters,
   } = quest
-  const extraList = [
-    mDB.item_info[0],
-    mDB.item_info[1],
-    mDB.item_info[2],
-    mDB.item_info[3],
-    mDB.item_info[4],
-  ]
+  const extraList = mDB.item_info.filter((ele) => [
+    '1',
+    '2',
+    '3',
+    '4',
+    '41',
+  ].indexOf(ele.id) !== -1)
 
   // 方法定义
   // 处理表单校验和筛选

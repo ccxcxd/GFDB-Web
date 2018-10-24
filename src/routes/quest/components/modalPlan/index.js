@@ -6,7 +6,7 @@ import {
   Checkbox,
   Button,
 } from 'antd'
-import qDB from '@/db/questDB'
+import mDB from '@/db/mainDB'
 
 const FormItem = Form.Item
 const CheckboxGroup = Checkbox.Group
@@ -23,6 +23,19 @@ class ModalPlan extends React.Component {
       modalPlanVisible,
     } = quest
     const { getFieldDecorator } = form
+    const resourceList = mDB.item_info.filter((ele) => [
+      '501',
+      '502',
+      '503',
+      '504',
+    ].indexOf(ele.id) !== -1)
+    const extraList = mDB.item_info.filter((ele) => [
+      '1',
+      '2',
+      '3',
+      '4',
+      '41',
+    ].indexOf(ele.id) !== -1)
 
     // 方法定义
     const submit = () => {
@@ -94,8 +107,8 @@ class ModalPlan extends React.Component {
               initialValue: [],
             })(
               <CheckboxGroup
-                options={qDB.resource.map(d => {
-                  return { label: __(d.label), value: d.name }
+                options={resourceList.map(d => {
+                  return { label: __(d.item_name), value: d.code }
                 })}
               />
             )}
@@ -108,8 +121,8 @@ class ModalPlan extends React.Component {
               initialValue: [],
             })(
               <CheckboxGroup
-                options={qDB.extra.map(d => {
-                  return { label: __(d.name), value: d._id }
+                options={extraList.map(d => {
+                  return { label: __(d.item_name), value: d.id }
                 })}
               />
             )}

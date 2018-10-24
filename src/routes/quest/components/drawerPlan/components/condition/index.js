@@ -1,13 +1,8 @@
 import React from 'react'
 import les from './index.less'
-import qDB from '@/db/questDB'
+import mDB from '@/db/mainDB'
 import { find } from 'lodash'
 import { ExtraItem } from '@/components/item'
-
-const {
-  extra,
-  resource,
-} = qDB
 
 const ConditionLab = ({
   dispatch,
@@ -17,23 +12,36 @@ const ConditionLab = ({
   const {
     planCondition,
   } = quest
+  const resourceList = mDB.item_info.filter((ele) => [
+    '501',
+    '502',
+    '503',
+    '504',
+  ].indexOf(ele.id) !== -1)
+  const extraList = mDB.item_info.filter((ele) => [
+    '1',
+    '2',
+    '3',
+    '4',
+    '41',
+  ].indexOf(ele.id) !== -1)
 
   // 遍历方法定义
   const mapRes = (ary) => {
     return ary.map(d => {
       return (
-        <span key={d}>{__(find(resource, r => r.name === d).label)}</span>
+        <span key={d}>{__(find(resourceList, r => r.code === d).item_name)}</span>
       )
     })
   }
   const mapExtra = (ary) => {
     return ary.map(d => {
-      const ext = find(extra, e => e._id === d)
+      const ext = find(extraList, e => e.id === d)
       return (
         <ExtraItem
           key={d}
           icon={ext.icon}
-          label={__(ext.name)}
+          label={__(ext.item_name)}
         />
       )
     })

@@ -2,7 +2,7 @@ import React from 'react'
 import {
   Table,
 } from 'antd'
-import { sum } from 'lodash'
+import { sum, remove, filter } from 'lodash'
 import les from '../questTable/index.less'
 import {
   dealTime,
@@ -32,12 +32,12 @@ const CountList = ({
   
   // 渲染方法定义
   const resLab = (val, record) => {
-    const { time } = record
+    const { duration } = record
     return (
       <div className={les.resLab}>
         <div className={`${les.total} ${(filters.resource && filters.resource.type === 'total') ? les.active : ''}`}>{val}</div>
         {/* 每小时量 */}
-        <div className={`${les.hours} ${(filters.resource && filters.resource.type === 'times') ? les.active : ''}`}>{dealHours(val, time)}/h</div>
+        <div className={`${les.hours} ${(filters.resource && filters.resource.type === 'times') ? les.active : ''}`}>{dealHours(val, duration)}/h</div>
       </div>
     )
   }
@@ -50,43 +50,40 @@ const CountList = ({
       dataIndex: 'code',
       fixed: 'left',
       width: `${__('logistic.columns.code').length + basePad}em`,
-      // render: (val, record) => {
-      //   const { code, battleName } = record
-      //   return (
-      //     <span className="codeLab">
-      //       <div className="battleName hidden-xs">{battleName}</div>
-      //       <div className="code">{code}</div>
-      //     </span>
-      //   )
-      // },
+      render: (val, record) => {
+        const { id, campaign } = record
+        return (
+          <div className="code">{`${campaign}-${id % 4 || 4}`}</div>
+        )
+      },
     },
     {
       title: __('logistic.columns.time'),
-      dataIndex: 'time',
+      dataIndex: 'duration',
       width: `${__('logistic.columns.time').length + basePad}em`,
       render: v => <div className={les.timeLab}>{dealTime(v)}</div>,
     },
     {
       title: __('logistic.manpower'),
-      dataIndex: 'manpower',
+      dataIndex: 'mp',
       width: `${3 + basePad}em`,
       render: resLab,
     },
     {
       title: __('logistic.ammunition'),
-      dataIndex: 'ammunition',
+      dataIndex: 'ammo',
       width: `${3 + basePad}em`,
       render: resLab,
     },
     {
       title: __('logistic.rations'),
-      dataIndex: 'rations',
+      dataIndex: 'mre',
       width: `${3 + basePad}em`,
       render: resLab,
     },
     {
       title: __('logistic.sparePart'),
-      dataIndex: 'sparePart',
+      dataIndex: 'part',
       width: `${3 + basePad}em`,
       render: resLab,
     },
@@ -95,22 +92,27 @@ const CountList = ({
       dataIndex: 'total',
       width: `${__('logistic.columns.total').length + 1.4 + basePad}em`,
       render: (val, record) => {
-        const { manpower, ammunition, rations, sparePart } = record
+        const { mp, ammo, mre, part } = record
         return (
-          <div className={les.totalLab}>{sum([manpower, ammunition, rations, sparePart])}</div>
+          <div className={les.totalLab}>{sum([
+            parseInt(mp, 10), parseInt(ammo, 10), parseInt(mre, 10), parseInt(part, 10)
+          ])}</div>
         )
       }
     },
     {
       title: __('logistic.columns.extra'),
-      dataIndex: 'extra',
+      dataIndex: 'item_pool',
       render: (val) => {
-        return val.map(d => {
+        const list = val.split(',')
+        remove(list, d => d === '0')
+        const realList = filter(mDB.item_info, d => list.indexOf(d.id) !== -1)
+        return realList.map(d => {
           return (
             <ExtraItem
-              key={d._id}
+              key={d.id}
               icon={d.icon}
-              label={__(d.name)}
+              label={__(d.item_name)}
             />
           )
         })
@@ -121,7 +123,7 @@ const CountList = ({
     ...tableProps,
     columns,
     dataSource: planCountList,
-    rowKey: 'code',
+    rowKey: 'id',
     className: `${les.table} ${lesMine.resizeTable}`,
     scroll: {
       x: clientType === 'web' ?

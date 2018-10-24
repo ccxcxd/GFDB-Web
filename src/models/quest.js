@@ -25,7 +25,8 @@ const filterByPlan = (list, condition) => {
     }
     // 资源筛选
     for (var i = 0; i < resource.length; i += 1) {
-      if (parseInt(ele[resource[i]], 10) > 0) {
+      const keyName = resource[i].toLowerCase()
+      if (parseInt(ele[keyName], 10) > 0) {
         ifReturn = true
       } else {
         return false
@@ -33,7 +34,10 @@ const filterByPlan = (list, condition) => {
     }
     // 道具筛选
     for (var j = 0; j < extra.length; j += 1) {
-      if (find(ele.extra, d => d._id === extra[j])) {
+      if (find(ele.item_pool, (d) => {
+        const list = d.split(',')
+        return list.indexOf(extra[j]) !== -1
+      })) {
         ifReturn = true
       } else {
         return false

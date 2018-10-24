@@ -35,6 +35,12 @@ const ally_team_info = require('./json/ally_team_info.json')
 // 建筑数据
 const building_info = require('./json/building_info.json')
 
+// 后勤数据
+const operation_info = require('./json/operation_info.json')
+
+// 物料数据
+const item_info = require('./json/item_info.json')
+
 export default {
   campaign_info,
   mission_info,
@@ -45,4 +51,6 @@ export default {
   gun_info,
   ally_team_info,
   building_info,
+  operation_info,
+  item_info,
 }

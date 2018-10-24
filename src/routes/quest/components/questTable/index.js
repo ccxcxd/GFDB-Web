@@ -4,13 +4,13 @@ import {
   Icon,
   List,
 } from 'antd'
-import { sum } from 'lodash'
+import { sum, remove, filter } from 'lodash'
 import les from './index.less'
 import {
   dealTime,
   dealHours,
 } from '@/utils/js/func'
-import qDB from '@/db/questDB'
+import mDB from '@/db/mainDB'
 import { ExtraItem } from '@/components/item'
 
 const QuestTable = ({
@@ -29,6 +29,13 @@ const QuestTable = ({
     list,
     filters,
   } = quest
+  const extraList = [
+    mDB.item_info[0],
+    mDB.item_info[1],
+    mDB.item_info[2],
+    mDB.item_info[3],
+    mDB.item_info[4],
+  ]
 
   // 方法定义
   // 处理表单校验和筛选
@@ -59,12 +66,12 @@ const QuestTable = ({
 
   // 渲染方法定义
   const resLab = (val, record) => {
-    const { time } = record
+    const { duration } = record
     return (
       <div className={les.resLab}>
         <div className={`${les.total} ${(filters.resource && filters.resource.type === 'total') ? les.active : ''}`}>{val}</div>
         {/* 每小时量 */}
-        <div className={`${les.hours} ${(filters.resource && filters.resource.type === 'times') ? les.active : ''}`}>{dealHours(val, time)}/h</div>
+        <div className={`${les.hours} ${(filters.resource && filters.resource.type === 'times') ? les.active : ''}`}>{dealHours(val, duration)}/h</div>
       </div>
     )
   }
@@ -109,10 +116,10 @@ const QuestTable = ({
       fixed: 'left',
       width: `${__('logistic.columns.code').length + basePad}em`,
       render: (val, record) => {
-        const { code, name } = record
+        const { id, campaign, name } = record
         return (
           <span className="codeLab">
-            <div className="code">{code}</div>
+            <div className="code">{`${campaign}-${id % 4 || 4}`}</div>
             <div className="battleName">{__(name)}</div>
           </span>
         )
@@ -120,37 +127,37 @@ const QuestTable = ({
     },
     {
       title: __('logistic.columns.time'),
-      dataIndex: 'time',
+      dataIndex: 'duration',
       fixed: 'left',
       width: `${__('logistic.columns.time').length + basePad}em`,
       render: v => <div className={les.timeLab}>{dealTime(v)}</div>,
     },
     {
       title: __('logistic.manpower'),
-      dataIndex: 'manpower',
+      dataIndex: 'mp',
       width: `${5 + basePad}em`,
-      ...filterRes('manpower'),
+      ...filterRes('mp'),
       render: resLab,
     },
     {
       title: __('logistic.ammunition'),
-      dataIndex: 'ammunition',
+      dataIndex: 'ammo',
       width: `${5 + basePad}em`,
-      ...filterRes('ammunition'),
+      ...filterRes('ammo'),
       render: resLab,
     },
     {
       title: __('logistic.rations'),
-      dataIndex: 'rations',
+      dataIndex: 'mre',
       width: `${5 + basePad}em`,
-      ...filterRes('rations'),
+      ...filterRes('mre'),
       render: resLab,
     },
     {
       title: __('logistic.sparePart'),
-      dataIndex: 'sparePart',
+      dataIndex: 'part',
       width: `${5 + basePad}em`,
-      ...filterRes('sparePart'),
+      ...filterRes('part'),
       render: resLab,
     },
     {
@@ -159,16 +166,18 @@ const QuestTable = ({
       width: `${__('logistic.columns.total').length + 1.4 + basePad}em`,
       sorter: true,
       render: (val, record) => {
-        const { manpower, ammunition, rations, sparePart } = record
+        const { mp, ammo, mre, part } = record
         return (
-          <div className={les.totalLab}>{sum([manpower, ammunition, rations, sparePart])}</div>
+          <div className={les.totalLab}>{sum([
+            parseInt(mp, 10), parseInt(ammo, 10), parseInt(mre, 10), parseInt(part, 10)
+          ])}</div>
         )
       }
     },
     {
       title: __('logistic.columns.extra'),
       width: `${__('logistic.columns.extra').length + 1.4 + basePad}em`,
-      dataIndex: 'extra',
+      dataIndex: 'item_pool',
       filterIcon: <Icon type="down-square-o" />,
       // filters: qDB.extra.map(d => {
       //   return { text: d.name, value: d._id }
@@ -179,21 +188,24 @@ const QuestTable = ({
           header={__('logistic.columns.filterExtraYieldDescend')}
           bordered
           className={les.filterExtraCon}
-          dataSource={qDB.extra}
-          renderItem={({ _id, name }) => {
+          dataSource={extraList}
+          renderItem={({ id, item_name }) => {
             return (
               <List.Item
-                onClick={() => dealExtraSort(_id)}
-                className={`${filters.extra === _id ? les.active : ''}`}
-              ><Icon type="check" className={les.check} />{__(name)}</List.Item>
+                onClick={() => dealExtraSort(id)}
+                className={`${filters.extra === id ? les.active : ''}`}
+              ><Icon type="check" className={les.check} />{__(item_name)}</List.Item>
             )
           }}
         />
       ),
       render: (val) => {
-        return val.map(d => {
+        const list = val.split(',')
+        remove(list, d => d === '0')
+        const realList = filter(mDB.item_info, d => list.indexOf(d.id) !== -1)
+        return realList.map(d => {
           return (
-            <ExtraItem key={d._id} icon={d.icon} label={__(d.name)} />
+            <ExtraItem key={d.id} icon={d.icon} label={__(d.item_name)} />
           )
         })
       },
@@ -202,16 +214,16 @@ const QuestTable = ({
       title: __('logistic.columns.teamRequire'),
       dataIndex: 'teamRequire',
       render: (val, record) => {
-        const { captainLevel, requiredPeople } = record
+        const { team_leader_min_level, gun_min } = record
         return (
           <div className={les.teamReq}>
             <div>
               <span className={les.title}>{__('logistic.columns.captainLevel')}：</span>
-              {captainLevel}
+              {team_leader_min_level}
             </div>
             <div>
               <span className={les.title}>{__('logistic.columns.captainNumber')}：</span>
-              {requiredPeople}
+              {gun_min}
             </div>
           </div>
         )
@@ -222,7 +234,7 @@ const QuestTable = ({
     ...tableProps,
     columns,
     dataSource: list,
-    rowKey: 'code',
+    rowKey: 'id',
     className: `responsive-table ${les.table}`,
     scroll: {
       x: clientType === 'web' ?

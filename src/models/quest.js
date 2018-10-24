@@ -2,7 +2,7 @@ import moduleExtend from 'dva-model-extend'
 // import pathToRegexp from 'path-to-regexp'
 // import { isEmpty } from 'lodash'
 import { model } from '../utils/model'
-import qDB from '@/db/questDB'
+import mDB from '@/db/mainDB'
 import {
   sortBy,
   sum,
@@ -14,11 +14,11 @@ import {
 
 const filterByPlan = (list, condition) => {
   const baseList = [].concat(list)
-  const { hour, min, resource, extra }= condition
-  const time = hour * 60 + min
+  const { hour, min, resource, extra } = condition
+  const time = hour * 60 * 60 + min *60
   return baseList.filter(function (ele) {
     var ifReturn = false
-    if (ele.time <= time) {
+    if (ele.duration <= time) {
       ifReturn = true
     } else {
       return false
@@ -55,7 +55,7 @@ export default moduleExtend(model, {
   namespace: 'quest',
 
   state: {
-    list: qDB.quest,
+    list: mDB.operation_info,
     filters: {},
 
     modalPlanVisible: false,  // 筹划弹窗可视状态
@@ -90,7 +90,7 @@ export default moduleExtend(model, {
           if (type === 'total') {
             return pud
           } else if (type === 'times') {
-            return parseFloat(dealHours(pud, que.time))
+            return parseFloat(dealHours(pud, que.duration))
           }
           return 0
         }])
@@ -147,7 +147,7 @@ export default moduleExtend(model, {
     },
     // 试算后勤序列
     * countQuest({ payload }, { put }) {
-      const res = filterByPlan(qDB.quest, payload)
+      const res = filterByPlan(mDB.operation_info, payload)
       const countList = countByPlan(res, payload)
       yield put.resolve({
         type: 'updateState',

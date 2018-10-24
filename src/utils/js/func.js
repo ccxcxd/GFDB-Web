@@ -3,9 +3,10 @@
  * @param getMin 分钟数
 */
 export const dealTime = function (getMin) {
-  const hour = parseInt(getMin / 60, 10)
+  const realMin = parseInt(getMin / 60, 10)
+  const hour = parseInt(realMin / 60, 10)
   let hourText = '' + hour
-  const min = getMin % 60
+  const min = realMin % 60
   let minText = '' + min
   if (hour < 1) {
     hourText = '00'
@@ -24,7 +25,7 @@ export const dealTime = function (getMin) {
  * @param time 生产时间
 */
 export const dealHours = function (total, time) {
-  return ((total * 60) / time).toFixed(2)
+  return ((total * 60 * 60) / time).toFixed(2)
 }
 
 /** 获取设备宽度 */

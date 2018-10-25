@@ -2,11 +2,10 @@ import React from 'react'
 import {
   Table,
 } from 'antd'
-import { sum, remove, filter } from 'lodash'
+import { filter } from 'lodash'
 import les from '../questTable/index.less'
 import {
   dealTime,
-  dealHours,
 } from '@/utils/js/func'
 import { ExtraItem } from '@/components/item'
 import lesMine from './index.less'

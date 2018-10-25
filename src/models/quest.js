@@ -57,19 +57,19 @@ const countByPlan = (list, condition) => {
   })).reverse().slice(0, 4)
 }
 
-const resourceList = mDB.item_info.filter((ele) => [
-  '501',
-  '502',
-  '503',
-  '504',
-].indexOf(ele.id) !== -1)
-const extraList = mDB.item_info.filter((ele) => [
-  '1',
-  '2',
-  '3',
-  '4',
-  '41',
-].indexOf(ele.id) !== -1)
+const resourceList = [
+  mDB.item_info['501'],
+  mDB.item_info['502'],
+  mDB.item_info['503'],
+  mDB.item_info['504'],
+]
+const extraList = [
+  mDB.item_info['1'],
+  mDB.item_info['2'],
+  mDB.item_info['3'],
+  mDB.item_info['4'],
+  mDB.item_info['41'],
+]
 
 export default moduleExtend(model, {
   namespace: 'quest',

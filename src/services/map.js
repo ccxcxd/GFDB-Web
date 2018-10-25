@@ -284,7 +284,7 @@ class Map {
 
       if (spot.building_id != 0) {
         var building = building_info[spot.building_id];
-        var imagename2 = "images/building/" + building.code + building.belong + ".png";
+        var imagename2 = `${IMAGE_BASEPATH}/building/` + building.code + building.belong + ".png";
         building.imagename = imagename2;
         imgLoader.add(imagename2);
       }

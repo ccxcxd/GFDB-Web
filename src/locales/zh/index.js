@@ -1,8 +1,10 @@
 const base = require('./translation.json')
+const table = require('./table.json')
 const logistic = require('./logistic.json')
 
 module.exports = {
   ...base,
+  ...table,
   logistic,
   'name': 'zh',
   'menus': [

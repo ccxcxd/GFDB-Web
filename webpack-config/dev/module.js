@@ -21,6 +21,7 @@ module.exports = (conf) => {
           ],
           'plugins': [
             ["import", { "libraryName": "antd", "libraryDirectory": "es", "style": "css" }],
+            ['lodash'],
           ],
         },
       },

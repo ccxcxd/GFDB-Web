@@ -6,6 +6,7 @@ module.exports = (conf) => {
 
   return {
     ...baseConfig,
+    mode: 'production',
     // 代码压缩
     optimization: {
       minimizer: [

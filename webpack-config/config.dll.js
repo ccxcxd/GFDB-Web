@@ -17,10 +17,6 @@ module.exports = {
       或是css/less/图片/字体文件等资源，但注意要在module参数配置好相应的loader
     */
     dll: [
-      'react',
-      'react-dom',
-      'prop-types',
-      'create-react-class',
       path.resolve(SRC, './db/mainDB.js'),
       // 'regenerator-runtime',
       // 'core-js',

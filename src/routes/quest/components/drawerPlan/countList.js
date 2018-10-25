@@ -31,13 +31,12 @@ const CountList = ({
   // 方法定义
   
   // 渲染方法定义
-  const resLab = (val, record) => {
-    const { duration } = record
+  const resLab = (val, val_h) => {
     return (
       <div className={les.resLab}>
         <div className={`${les.total} ${(filters.resource && filters.resource.type === 'total') ? les.active : ''}`}>{val}</div>
         {/* 每小时量 */}
-        <div className={`${les.hours} ${(filters.resource && filters.resource.type === 'times') ? les.active : ''}`}>{dealHours(val, duration)}/h</div>
+        <div className={`${les.hours} ${(filters.resource && filters.resource.type === 'times') ? les.active : ''}`}>{val_h.toFixed(2)}/h</div>
       </div>
     )
   }
@@ -67,36 +66,33 @@ const CountList = ({
       title: __('logistic.manpower'),
       dataIndex: 'mp',
       width: `${3 + basePad}em`,
-      render: resLab,
+      render: (val, rec) => resLab(val, rec[`mp_h`]),
     },
     {
       title: __('logistic.ammunition'),
       dataIndex: 'ammo',
       width: `${3 + basePad}em`,
-      render: resLab,
+      render: (val, rec) => resLab(val, rec[`ammo_h`]),
     },
     {
       title: __('logistic.rations'),
       dataIndex: 'mre',
       width: `${3 + basePad}em`,
-      render: resLab,
+      render: (val, rec) => resLab(val, rec[`mre_h`]),
     },
     {
       title: __('logistic.sparePart'),
       dataIndex: 'part',
       width: `${3 + basePad}em`,
-      render: resLab,
+      render: (val, rec) => resLab(val, rec[`part_h`]),
     },
     {
       title: __('logistic.columns.total'),
       dataIndex: 'total',
       width: `${__('logistic.columns.total').length + 1.4 + basePad}em`,
-      render: (val, record) => {
-        const { mp, ammo, mre, part } = record
+      render: (val) => {
         return (
-          <div className={les.totalLab}>{sum([
-            parseInt(mp, 10), parseInt(ammo, 10), parseInt(mre, 10), parseInt(part, 10)
-          ])}</div>
+          <div className={les.totalLab}>{val}</div>
         )
       }
     },
@@ -104,9 +100,7 @@ const CountList = ({
       title: __('logistic.columns.extra'),
       dataIndex: 'item_pool',
       render: (val) => {
-        const list = val.split(',')
-        remove(list, d => d === '0')
-        const realList = filter(mDB.item_info, d => list.indexOf(d.id) !== -1)
+        const realList = filter(mDB.item_info, d => val.indexOf(parseInt(d.id, 10)) !== -1)
         return realList.map(d => {
           return (
             <ExtraItem

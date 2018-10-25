@@ -2,11 +2,10 @@ import React from 'react'
 import {
   Table,
 } from 'antd'
-import { sum, remove, filter } from 'lodash'
+import { filter } from 'lodash'
 import les from '../questTable/index.less'
 import {
   dealTime,
-  dealHours,
 } from '@/utils/js/func'
 import { ExtraItem } from '@/components/item'
 import lesMine from './index.less'
@@ -31,13 +30,12 @@ const QuestTable = ({
   // 方法定义
   
   // 渲染方法定义
-  const resLab = (val, record) => {
-    const { duration } = record
+  const resLab = (val, val_h) => {
     return (
       <div className={les.resLab}>
         <div className={`${les.total} ${(filters.resource && filters.resource.type === 'total') ? les.active : ''}`}>{val}</div>
         {/* 每小时量 */}
-        <div className={`${les.hours} ${(filters.resource && filters.resource.type === 'times') ? les.active : ''}`}>{dealHours(val, duration)}/h</div>
+        <div className={`${les.hours} ${(filters.resource && filters.resource.type === 'times') ? les.active : ''}`}>{val_h.toFixed(2)}/h</div>
       </div>
     )
   }
@@ -67,46 +65,41 @@ const QuestTable = ({
       title: __('logistic.manpower'),
       dataIndex: 'mp',
       width: `${5 + basePad}em`,
-      render: resLab,
+      render: (val, rec) => resLab(val, rec[`mp_h`]),
     },
     {
       title: __('logistic.ammunition'),
       dataIndex: 'ammo',
       width: `${5 + basePad}em`,
-      render: resLab,
+      render: (val, rec) => resLab(val, rec[`ammo_h`]),
     },
     {
       title: __('logistic.rations'),
       dataIndex: 'mre',
       width: `${5 + basePad}em`,
-      render: resLab,
+      render: (val, rec) => resLab(val, rec[`mre_h`]),
     },
     {
       title: __('logistic.sparePart'),
       dataIndex: 'part',
       width: `${5 + basePad}em`,
-      render: resLab,
+      render: (val, rec) => resLab(val, rec[`part_h`]),
     },
     {
       title: __('logistic.columns.total'),
       dataIndex: 'total',
       width: 90,
-      render: (val, record) => {
-        const { mp, ammo, mre, part } = record
+      render: (val) => {
         return (
-          <div className={les.totalLab}>{sum([
-            parseInt(mp, 10), parseInt(ammo, 10), parseInt(mre, 10), parseInt(part, 10)
-          ])}</div>
+          <div className={les.totalLab}>{val}</div>
         )
       }
     },
     {
       title: __('logistic.columns.extra'),
-      dataIndex: 'item_pool',
+      dataIndex: 'item_list',
       render: (val) => {
-        const list = val.split(',')
-        remove(list, d => d === '0')
-        const realList = filter(mDB.item_info, d => list.indexOf(d.id) !== -1)
+        const realList = filter(mDB.item_info, d => val.indexOf(parseInt(d.id, 10)) !== -1)
         return realList.map(d => {
           return (
             <ExtraItem

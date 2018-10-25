@@ -12,6 +12,8 @@ import {
   dealHours,
 } from '@/utils/js/func'
 
+const operationList = Object.keys(mDB.operation_info).map(d => mDB.operation_info[d])
+
 const filterByPlan = (list, condition) => {
   const baseList = [].concat(list)
   const { hour, min, resource, extra } = condition
@@ -73,7 +75,7 @@ export default moduleExtend(model, {
   namespace: 'quest',
 
   state: {
-    list: mDB.operation_info,
+    list: operationList,
     resourceList,
     extraList,
     filters: {},
@@ -168,7 +170,7 @@ export default moduleExtend(model, {
     },
     // 试算后勤序列
     * countQuest({ payload }, { put }) {
-      const res = filterByPlan(mDB.operation_info, payload)
+      const res = filterByPlan(operationList, payload)
       const countList = countByPlan(res, payload)
       yield put.resolve({
         type: 'updateState',

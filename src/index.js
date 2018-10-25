@@ -8,6 +8,7 @@ import createLoading from 'dva-loading'
 // import './rollbar'
 import { initI18n } from './utils/js/i18n'
 import mDB from '@/db/mainDB'
+import moment from 'moment'
 /** IMPORT_LANG */
 /** IMPORT_LANG_MOMENT */
 

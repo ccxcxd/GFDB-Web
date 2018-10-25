@@ -6,7 +6,6 @@ module.exports = (conf) => {
 
   return {
     ...baseConfig,
-    mode: 'production',
     // 代码压缩
     optimization: {
       minimizer: [
@@ -17,14 +16,24 @@ module.exports = (conf) => {
               warnings: false,
             },
             output: {
-              beautify: true,
+              beautify: false,
               quote_keys: true,
             },
             keep_fnames: true,
             sourceMap: false,
           },
         })
-      ]
+      ],
+      splitChunks: {
+        chunks: 'async',
+        // maxSize: 20000,
+        cacheGroups: {
+          commons: {
+            name: 'commons',
+            filename: '[name].bundle.js',
+          },
+        }
+      },
     },
   }
 }

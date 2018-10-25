@@ -7,6 +7,7 @@ module.exports = {
   ...table,
   logistic,
   'name': 'ko',
+  'moment': 'ko',
   'menus': [
     { path: '/', icon: 'home' },
     { path: '/maps', label: '적데이터' },

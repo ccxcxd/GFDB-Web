@@ -22,15 +22,28 @@ const getLang = function () {
   return dirList.map(d => d.substr(0, d.length - 1))
 }
 
-/** 替换文件 */
-const replaceEntry = function (baseContent, target) {
-  return baseContent.replace(
-    /\/\*\* IMPORT_LANG \*\//,
-    `import LANG from '${target}'`,
-  ).replace(
-    /'.\/+/g,
-    '\'../',
-  )
+function File (content) { this.content = content }
+
+File.prototype = {
+  /** 替换moment引用 */
+  replaceMoment: function (langName) {
+    this.content = this.content.replace(
+      /\/\*\* IMPORT_LANG_MOMENT \*\//,
+      `import 'moment/locale/${langName}'`,
+    )
+    return this
+  },
+  /** 替换文件 */
+  replaceEntry: function (target) {
+    this.content = this.content.replace(
+      /\/\*\* IMPORT_LANG \*\//,
+      `import LANG from '${target}'`,
+    ).replace(
+      /'.\/+/g,
+      '\'../',
+    )
+    return this
+  },
 }
 
 /** 生成posix格式的相对路径 */
@@ -86,11 +99,15 @@ const initEntries = function () {
   // 根据语种列表生成入口文件
   for (let i = 0; i < langList.length; i += 1) {
     const langPath = `../locales/${langList[i]}`
-    const replaceContent = replaceEntry(entryContent, langPath)
+    const langConfig = require(`../src/locales/${langList[i]}`)
+    const replaceContent = new File(entryContent)
+    replaceContent
+      .replaceEntry(langPath)
+      .replaceMoment(langConfig.moment)
     const filePath = path.resolve(ENTRIES_DIR, `./index.${langList[i]}.js`)
     saveFile(
       filePath,
-      replaceContent,
+      replaceContent.content,
       'utf-8',
     )
     console.log(`save lang entry: ${filePath}`)

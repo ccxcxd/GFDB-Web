@@ -5,13 +5,14 @@ import dva from 'dva'
 // user BrowserHistory
 import createHistory from 'history/createBrowserHistory'
 import createLoading from 'dva-loading'
-import 'moment/locale/zh-cn'
 // import './rollbar'
 import { initI18n } from './utils/js/i18n'
 import mDB from '@/db/mainDB'
 /** IMPORT_LANG */
+/** IMPORT_LANG_MOMENT */
 
 const __ = initI18n(LANG)
+moment.locale(LANG.name)
 
 // 全局变量注入
 window.__ = __

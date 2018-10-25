@@ -1,4 +1,5 @@
 const basePlus = require('../public/plugins')
+const webpack = require('webpack')
 const ProgressBarPlugin = require('progress-bar-webpack-plugin')
 const Visualizer = require('webpack-visualizer-plugin')
 
@@ -9,6 +10,7 @@ module.exports = (conf) => {
     ...basePlugins,
     // 进度条插件
     new ProgressBarPlugin(),
+    new webpack.IgnorePlugin(/^\.\/locale$/, /moment$/),
     // 包体积分析
     new Visualizer(),
   ]

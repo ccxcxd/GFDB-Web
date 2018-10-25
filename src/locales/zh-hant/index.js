@@ -7,6 +7,7 @@ module.exports = {
   ...table,
   logistic,
   'name': 'zh-hant',
+  'moment': 'zh-hk',
   'menus': [
     { path: '/', icon: 'home' },
     { path: '/maps', label: '敵方數據' },

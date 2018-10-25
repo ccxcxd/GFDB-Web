@@ -31,6 +31,16 @@ const Main = ({
     })
   }
 
+  // 引入字体
+  const newStyle = document.createElement('style')
+  newStyle.appendChild(document.createTextNode("\
+@font-face {\
+font-family: 'EnemyPower';\
+src: url('" + PUBLIC_PATH + "static/font/Microgme.ttf');\
+}\
+  "))
+  document.head.appendChild(newStyle)
+
   return (
     <Page {...propsOfPage}>
       {/* 插入自定义meta */}

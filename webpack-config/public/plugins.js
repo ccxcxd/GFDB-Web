@@ -19,6 +19,7 @@ module.exports = ({
         xhtml: true,
         chunks: [d.name],
         PUBLIC_PATH: PUBLIC_PATH,
+        LANG_CONFIG: d.config,
       })
     )
   })

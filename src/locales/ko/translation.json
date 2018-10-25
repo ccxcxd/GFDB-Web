@@ -1,12 +1,12 @@
 {
-	"title": "소녀전선 적 데이터",
+	"title": "소녀전선 데이터 웹사이트",
 	"welcome": {
-		"hello": "您好！",
-		"choose": "↖请在上方选择工具"
+		"hello": "안녕하세요，소녀전선 데이터 웹 사이트에 오신걸 환영합니다!",
+		"choose": "↖상단의 도구를 클릭하세요"
 	},
 	"metas": {
-		"keywords": "少女前线,工具,攻略,战役,地图,后勤",
-		"description": "少女前线数据网站，提供战役的地图和敌人查询、后勤列表以及试算等功能"
+		"keywords": "소녀전선,도구,가이드,전투,지도,군수",
+		"description": "소녀전선 데이터 웹사이트， 전역의 지도 및 적 유닛 정보, 군수표 및 시뮬레이터(시험계산) 등의 기능을 제공합니다"
 	},
 	"font": {
 		"serif": "GungsuhChe",
@@ -17,7 +17,7 @@
 	},
 	"mission_map": {
 		"generate": "생성",
-		"auto_generate": "자동",
+		"auto_generate": "자동 생성",
 		"download": "현재 지도 다운로드",
 		"download_full": "전체 지도 다운로드",
 		"power_display_hide": "작전능력 숨기기",

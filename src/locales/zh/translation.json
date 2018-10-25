@@ -17,7 +17,7 @@
 	},
 	"mission_map": {
 		"generate": "生成地图",
-		"auto_generate": "自动",
+		"auto_generate": "自动生成",
 		"download": "下载当前地图",
 		"download_full": "下载完整地图",
 		"power_display_hide": "隐藏效能",
@@ -93,6 +93,7 @@
 		"main8": "第八战役",
 		"main9": "第九战役",
 		"main10": "第十战役",
+		"main11": "第十一战役",
 		"simulation1": "经验特训",
 		"simulation2": "强化练习",
 		"simulation3": "资料采样",

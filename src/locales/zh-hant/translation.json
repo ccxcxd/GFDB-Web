@@ -17,9 +17,11 @@
 	},
 	"mission_map": {
 		"generate": "生成地圖",
-		"auto_generate": "自動",
+		"auto_generate": "自動生成",
 		"download": "下載當前地圖",
 		"download_full": "下載完整地圖",
+		"power_display_hide": "隱藏效能",
+		"power_display_all": "顯示效能",
 		"description": "點擊“自動”可以自動生成地圖。"
 	},
 	"map_tbl": {

@@ -17,9 +17,11 @@
 	},
 	"mission_map": {
 		"generate": "マップを作成する",
-		"auto_generate": "自動的に",
+		"auto_generate": "自動作成",
 		"download": "今のマップをダウンロードする",
 		"download_full": "フルマップをダウンロードする",
+		"power_display_hide": "作戦能力を隠す",
+		"power_display_all": " 作戦能力を示す",
 		"description": "“自動的に”をクリックするとマップが自動的に作成されます。"
 	},
 	"map_tbl": {

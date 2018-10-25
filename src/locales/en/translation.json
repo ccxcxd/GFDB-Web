@@ -17,9 +17,11 @@
 	},
 	"mission_map": {
 		"generate": "Generate map",
-		"auto_generate": "Auto-",
+		"auto_generate": "Auto Generate",
 		"download": "Download Current Map",
 		"download_full": "Download Full Map",
+		"power_display_hide": "Hide Effectiveness",
+		"power_display_all": " Show Effectiveness",
 		"description": "Check \"Auto\" can automatically generate map after you change selection."
 	},
 	"map_tbl": {

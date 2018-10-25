@@ -7,7 +7,7 @@ module.exports = {
   'name': 'ko',
   'menus': [
     { path: '/', icon: 'home' },
-    { path: '/maps', label: '적 데이터' },
-    { path: '/quest', label: '물류리스트' },
+    { path: '/maps', label: '적데이터' },
+    { path: '/quest', label: '군수리스트' },
   ],
 }

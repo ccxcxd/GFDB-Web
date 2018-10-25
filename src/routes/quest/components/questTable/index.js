@@ -196,7 +196,11 @@ const QuestTable = ({
         const realList = filter(mDB.item_info, d => list.indexOf(d.id) !== -1)
         return realList.map(d => {
           return (
-            <ExtraItem key={d.id} icon={d.icon} label={__(d.item_name)} />
+            <ExtraItem
+              key={d.id}
+              icon={d.code}
+              label={__(d.item_name)}
+            />
           )
         })
       },

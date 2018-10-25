@@ -111,7 +111,7 @@ const QuestTable = ({
           return (
             <ExtraItem
               key={d.id}
-              icon={d.icon}
+              icon={d.code}
               label={__(d.item_name)}
             />
           )

@@ -40,7 +40,7 @@ const ConditionLab = ({
       return (
         <ExtraItem
           key={d}
-          icon={ext.icon}
+          icon={ext.code}
           label={__(ext.item_name)}
         />
       )

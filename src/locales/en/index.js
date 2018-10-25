@@ -10,6 +10,6 @@ module.exports = {
   'menus': [
     { path: '/', icon: 'home' },
     { path: '/maps', label: 'Maps & Enemy Stats' },
-    { path: '/quest', label: 'Logistic Supports' },
+    //{ path: '/quest', label: 'Logistic Supports' },
   ],
 }

@@ -1,5 +1,13 @@
 export default [
   {
+    version: '0.0.6',
+    date: '2018.10.25',
+    desc: '更新第11章数据/Update Chapter 11 Data & Translations',
+    details: [
+      'BUG：F5之后自动无效，需要手动生成一次/Auto-Generate does not work after F5, you must manually generate map',
+    ],
+  },
+  {
     version: '0.0.5',
     date: '2018.10.24',
     desc: '使用原生后勤列表数据库',

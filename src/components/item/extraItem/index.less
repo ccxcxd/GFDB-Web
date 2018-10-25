@@ -1,21 +1,22 @@
 :global(.extra-item) {
   .clearfix();
-  display: block;
-  height: 1.6em;
+  display: inline-block;
+  height: 2em;
+  min-width: 2.4em;
+  text-align: center;
   position: relative;
 
   :global(.icon) {
     float: left;
-    width: 1.4em;
-    height: 1.4em;
-    margin-right: 2px;
+    width: 2em;
+    height: 2em;
     position: relative;
-    top: 0.1em;
   }
   :global(.label) {
     float: left;
-    height: 1.6em;
-    line-height: 1.6em;
+    height: 2em;
+    margin-left: 2px;
+    line-height: 2em;
     font-size: 1em;
   }
 }

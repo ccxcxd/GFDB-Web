@@ -1,5 +1,4 @@
-{
-  "operation_info": [
+[
     {
       "id": "1",
       "campaign": "0",
@@ -1008,5 +1007,4 @@
       "guntype6_min": "0",
       "guntype7_min": "0"
     }
-  ]
-}
+]

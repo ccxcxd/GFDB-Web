@@ -48,7 +48,7 @@ export default moduleExtend(model, {
         type: 'updateState',
         payload: { displayPower: display },
       })
-      LG.set('display_power', display ? '1' : '0')
+      LG.set('hide_power', display ? '0' : '1')
     },
     * selectCampaign ({ payload, autoChild }, { put }) {
       const campaign = campaign_info[payload]

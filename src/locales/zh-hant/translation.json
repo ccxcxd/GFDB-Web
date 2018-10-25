@@ -1,9 +1,13 @@
 {
 	"title": "少女前線敵方數據",
-  "metas": {
-    "keywords": "少女前線,工具,攻略,戰役,地圖,後勤",
-    "description": "少女前線工具網址，提供戰役的地圖和敵人查詢、後勤列表以及試算功能"
-  },
+	"welcome": {
+		"hello": "您好，歡迎來到少女前线数据网站！",
+		"choose": "↖請在上方選擇工具"
+	},
+	"metas": {
+		"keywords": "少女前線,工具,攻略,戰役,地圖,後勤",
+		"description": "少女前線數據網站，提供戰役的地圖和敵人查詢、後勤列表以及試算等功能"
+	},
 	"font": {
 		"serif": "PMingLiU",
 		"sans-serif": "SimHei"
@@ -55,8 +59,9 @@
 		"armor_piercing": "穿甲",
 		"armor": "護甲",
 		"def_break": "破防",
-		"def": "立場",
-		"def_percent": "立場%",
+		"def": "力場",
+		"def_percent": "力場%",
+		"coordinator": "坐標",
 		"coordinator_x": "橫坐標",
 		"coordinator_y": "縱坐標",
 		"character": "描述"

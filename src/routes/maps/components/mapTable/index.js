@@ -169,7 +169,7 @@ const TeamTable = ({
     <div>
       <Table {...propsOfTable} />
       <div className={les.teamSelect}>
-        <span className={les.title}>切换其他敌方编队：</span>
+        <span className={les.title}>{__('team_sel.label')}</span>
         <select
           className={`ant-select ant-select-enabled ${les.select}`}
           value={enemyTeamSelected.id}

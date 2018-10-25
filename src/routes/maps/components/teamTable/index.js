@@ -109,7 +109,7 @@ const TeamTable = ({
       dataIndex: 'def_percent',
     },
     {
-      title: '坐标',
+      title: __('team_tbl.coordinator'),
       dataIndex: 'coordinator',
       render: (val, { coordinator_x, coordinator_y }) => {
         return `${coordinator_x}, ${coordinator_y}`
@@ -135,7 +135,6 @@ const TeamTable = ({
   }
   return (
     <div>
-      <div className={les.title}>{__('team_sel.label')}</div>
       <Table {...propsOfTable} />
     </div>
   )

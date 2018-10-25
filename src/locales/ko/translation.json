@@ -1,9 +1,13 @@
 {
 	"title": "소녀전선 적 데이터",
-  "metas": {
-    "keywords": "少女前线,工具,攻略,战役,地图,后勤",
-    "description": "少女前线工具网站，提供战役的地图和敌人查询、后勤列表以及试算功能"
-  },
+	"welcome": {
+		"hello": "您好！",
+		"choose": "↖请在上方选择工具"
+	},
+	"metas": {
+		"keywords": "少女前线,工具,攻略,战役,地图,后勤",
+		"description": "少女前线数据网站，提供战役的地图和敌人查询、后勤列表以及试算等功能"
+	},
 	"font": {
 		"serif": "GungsuhChe",
 		"sans-serif": "Malgun Gothic"
@@ -59,6 +63,7 @@
 		"def_break": "파쇄",
 		"def": "쉴드",
 		"def_percent": "쉴드%",
+		"coordinator": "로축",
 		"coordinator_x": "가로축",
 		"coordinator_y": "세로축",
 		"character": "특징"

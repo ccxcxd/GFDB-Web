@@ -5,10 +5,9 @@ module.exports = {
   ...base,
   logistic,
   'name': 'ja',
-  'Hello text': 'こんにちは、女の子の前線レイダーズ駅へようこそ',
   'menus': [
     { path: '/', icon: 'home' },
-    { path: '/maps', label: '敵のデータ' },
-    { path: '/quest', label: '物流タスクリスト' },
+    { path: '/maps', label: '敵情報' },
+    { path: '/quest', label: '後方支援' },
   ],
 }

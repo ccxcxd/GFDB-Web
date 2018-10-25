@@ -13,7 +13,8 @@ const Main = ({
 
   return (
     <div className={les.welcome}>
-      <Icon type="smile-o" /> {lang['Hello text']}
+      <Icon type="smile-o" /> {__('welcome.hello')}<br/>
+      {__('welcome.choose')}
     </div>
   )
 }

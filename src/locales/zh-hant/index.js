@@ -5,10 +5,9 @@ module.exports = {
   ...base,
   logistic,
   'name': 'zh-hant',
-  'Hello text': '你好 歡迎來到少前攻略站',
   'menus': [
     { path: '/', icon: 'home' },
-    { path: '/maps', label: '敌方数据' },
-    { path: '/quest', label: '后勤列表' },
+    { path: '/maps', label: '敵方數據' },
+    { path: '/quest', label: '後勤列表' },
   ],
 }

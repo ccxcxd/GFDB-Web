@@ -1,16 +1,20 @@
 {
-	"title": "少女前线敌方数据",
-  "metas": {
-    "keywords": "少女前线,工具,攻略,战役,地图,后勤",
-    "description": "少女前线工具网站，提供战役的地图和敌人查询、后勤列表以及试算功能"
-  },
+	"title": "少女前线数据网站",
+	"welcome": {
+		"hello": "您好，欢迎来到少女前线数据网站！",
+		"choose": "↖请在上方选择工具"
+	},
+	"metas": {
+		"keywords": "少女前线,工具,攻略,战役,地图,后勤",
+		"description": "少女前线数据网站，提供战役的地图和敌人查询、后勤列表以及试算等功能"
+	},
 	"font": {
 		"serif": "SimSun",
 		"sans-serif": "SimHei"
 	},
 	"map_sel": {
 		"label": "选择地图："
-  },
+	},
 	"mission_map": {
 		"generate": "生成地图",
 		"auto_generate": "自动",
@@ -46,7 +50,7 @@
 	},
 	"team_tbl": {
 		"name": "名称",
-		"number": "人数",
+		"number": "扩编",
 		"maxlife": "生命",
 		"pow": "伤害",
 		"rate": "射速",
@@ -57,8 +61,9 @@
 		"armor_piercing": "穿甲",
 		"armor": "护甲",
 		"def_break": "破防",
-		"def": "立场",
-		"def_percent": "立场%",
+		"def": "力场",
+		"def_percent": "力场%",
+		"coordinator": "坐标",
 		"coordinator_x": "横坐标",
 		"coordinator_y": "纵坐标",
 		"character": "描述"

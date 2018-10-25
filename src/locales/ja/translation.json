@@ -1,9 +1,13 @@
 {
 	"title": "ドールズフロントライン 敵情報データベース",
-  "metas": {
-    "keywords": "少女前线,工具,攻略,战役,地图,后勤",
-    "description": "少女前线工具网站，提供战役的地图和敌人查询、后勤列表以及试算功能"
-  },
+	"welcome": {
+		"hello": "ドルフロデータサイトへようこそ！",
+		"choose": "↖上から使いたいツールを選択してください"
+	},
+	"metas": {
+		"keywords": "ドールズフロントライン,ドルフロ、ツール、攻略、作戦任務、マップ、後方支援",
+		"description": "ドルフロデータサイト、作戦任務のマップ情報や敵配置、後方支援リストなどの試算ツールを提供しています"
+	},
 	"font": {
 		"serif": "MS Mincho",
 		"sans-serif": "MS Gothic"
@@ -57,6 +61,7 @@
 		"def_break": "破防",
 		"def": "シールド",
 		"def_percent": "シールド%",
+		"coordinator": "座標",
 		"coordinator_x": "横座標",
 		"coordinator_y": "縦座標",
 		"character": "説明"

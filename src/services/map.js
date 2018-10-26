@@ -568,6 +568,9 @@ class Map {
           var allyColor = "white";
           var order = "  ";
           var power = "";
+          var text = __(ally_team.name);
+          if (typeof text === "undefined")
+            text = "";
           if (ally_team.initial_type == 0) {
             allyColor = "#FFC33E";
             power = enemy_team_info[spot.enemy_team_id].difficulty;
@@ -578,7 +581,7 @@ class Map {
             allyColor = "#FF0000";
             power = enemy_team_info[spot.enemy_team_id].difficulty;
           }
-          this.drawFriendStats(ctx, x0, y0, __(ally_team.name), allyColor, order, allyColor, power, 1, "ally", allyColor);
+          this.drawFriendStats(ctx, x0, y0, text, allyColor, order, allyColor, power, 1, "ally", allyColor);
         } else if (spot.enemy_team_id) {
           var enemy_team = enemy_team_info[spot.enemy_team_id];
           this.drawEnemyPower(ctx, x0, y0, enemy_team.difficulty, mission.difficulty);

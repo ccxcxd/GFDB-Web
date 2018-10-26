@@ -39,11 +39,11 @@
 		"spot3": "spot3KR",
 		"spot5": "spot5",
 		"spot6": "spot6",
-		"spot7": "spot7",
+		"spot7": "spot7KR",
 		"random": "random",
 		"radar": "radarKR",
 		"closedap": "closedapKR",
-		"closedhvap": "closedhvap"
+		"closedhvap": "closedhvapKR"
 	},
 	"team_sel": {
 		"label": "번호:"

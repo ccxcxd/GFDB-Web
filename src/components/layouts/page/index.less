@@ -83,7 +83,11 @@
       .clearfix();
       width: @layout_body_width_web;
       margin: 0 auto;
-      padding: @layout_spacing_vertical_web 0;
+      padding: 0 0 @layout_spacing_vertical_web;
+
+      > * {
+        margin-top: @layout_spacing_vertical_web;
+      }
     }
 
     .showAbout {
@@ -141,7 +145,7 @@ and (max-device-width : @layout_media_mobile_max_width) {
     .footer {
       .footerContainer {
         width: @layout_body_width_mobile;
-        padding: @layout_spacing_vertical_web @layout_spacing_horizontal;
+        padding: 0 @layout_spacing_horizontal @layout_spacing_vertical_web;
       }
     }
   }

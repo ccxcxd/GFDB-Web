@@ -216,7 +216,7 @@ class MapCanvas extends React.Component {
             >{__('mission_map.download_full')}</Button>
           </Button.Group>
           <Dropdown
-            trigger="click"
+            trigger={["click"]}
             placement="topRight"
             overlay={(
               <div className={les.settingList}>

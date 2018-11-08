@@ -117,8 +117,11 @@ and (max-device-width : @layout_media_mobile_max_width) {
   }
   // 响应式表格
   :global(.responsive-table) {
-    :global(.ant-table-scroll) :global(.ant-table-fixed) {
-      width: @layout_body_width_web * 0.8 - @layout_spacing_horizontal*2 !important;
+    :global(.ant-table) {
+      overflow-x: auto;
+      :global(.ant-table-content) {
+        width: @layout_body_width_web * 0.6;
+      }
     }
     :global(.ant-table) td {
       // width: @layout_body_width_web;

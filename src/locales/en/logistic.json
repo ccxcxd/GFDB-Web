@@ -8,24 +8,24 @@
     "teamRequire": "team require",
     "captainLevel": "cap's level",
     "captainNumber": "mem's number",
-    "filterTotalDescend": "总量降序",
-    "filterYieldDescend": "时量降序",
-    "filterExtraYieldDescend": "按产能效率降序"
+    "filterTotalDescend": "total descend",
+    "filterYieldDescend": "time yield descend",
+    "filterExtraYieldDescend": "time yield descend"
   },
   "supportPlan": {
-    "entryButton": "一键咸鱼",
-    "countModalName": "试算弹窗",
-    "hourLabel": "后勤时数",
-    "minuteLabel": "后勤分钟数",
-    "resourceLabel": "资源",
-    "extraLabel": "额外道具",
-    "countButton": "试算",
-    "resultModalName": "试算结果",
-    "recommendList": "推荐后勤",
-    "filterList": "筛选列表",
-    "totalTimeLab": "后勤总时长",
-    "needResLab": "需求资源",
-    "needExtraLab": "需求道具",
-    "noSelect": "暂无选择"
+    "entryButton": "logistics calculation",
+    "countModalName": "calculation modal",
+    "hourLabel": "hour",
+    "minuteLabel": "minute",
+    "resourceLabel": "resource",
+    "extraLabel": "extra",
+    "countButton": "calculate",
+    "resultModalName": "calculation",
+    "recommendList": "recommend",
+    "filterList": "filter list",
+    "totalTimeLab": "total time",
+    "needResLab": "needed resource",
+    "needExtraLab": "needed extra",
+    "noSelect": "not select"
   }
 }

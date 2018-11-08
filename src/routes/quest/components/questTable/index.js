@@ -105,8 +105,7 @@ const QuestTable = ({
     {
       title: __('logistic.columns.code'),
       dataIndex: 'code',
-      fixed: 'left',
-      width: `${__('logistic.columns.code').length + basePad}em`,
+      width: `${3 + basePad}em`,
       render: (val, record) => {
         const { id, campaign, name } = record
         return (
@@ -120,8 +119,7 @@ const QuestTable = ({
     {
       title: __('logistic.columns.time'),
       dataIndex: 'duration',
-      fixed: 'left',
-      width: `${__('logistic.columns.time').length + basePad}em`,
+      width: `${3 + basePad}em`,
       render: v => <div className={les.timeLab}>{dealTime(v)}</div>,
     },
     {
@@ -154,7 +152,7 @@ const QuestTable = ({
     },
     {
       title: __('logistic.columns.extra'),
-      width: `${__('logistic.columns.extra').length + 1.4 + basePad}em`,
+      width: `${4 + 1.4 + basePad}em`,
       dataIndex: 'item_list',
       filterIcon: <Icon type="down-square-o" />,
       filterDropdown: () => (
@@ -205,12 +203,6 @@ const QuestTable = ({
     dataSource: list,
     rowKey: 'id',
     className: `responsive-table ${les.table}`,
-    scroll: {
-      x: clientType === 'web' ?
-      0 :
-      clientWidth - 16,
-      y: document.body.clientHeight - 236,
-    },
     pagination: false,
     onChange: dealTableChange,
     loading: loading.effects['quest/sorterList'],

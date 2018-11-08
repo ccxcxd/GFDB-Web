@@ -11,6 +11,6 @@ module.exports = {
   'menus': [
     { path: '/', icon: 'home' },
     { path: '/maps', label: '敵情報' },
-    //{ path: '/quest', label: '後方支援' },
+    { path: '/quest', label: '後方支援' },
   ],
 }

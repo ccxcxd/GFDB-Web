@@ -31,7 +31,7 @@ const DrawerSetting = ({
   const mapContent = (ary) => {
     if (!ary || ary.length === 0) {
       return (
-        <div>暂无版本信息</div>
+        <div>{__('version.no_message')}</div>
       )
     }
     return ary.map(v => {
@@ -69,7 +69,7 @@ const DrawerSetting = ({
 
   // 定义属性
   const propsOfDrawer = {
-    title: '版本信息',
+    title: __('version.title'),
     visible: versionVisible,
     width: 380,
     onClose: () => {

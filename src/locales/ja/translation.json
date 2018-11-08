@@ -68,6 +68,15 @@
     "coordinator_y": "縦座標",
     "character": "説明"
   },
+  "setting": {
+    "title": "system setting",
+    "enemy_data_setting": "enemy data setting",
+    "quest_list_setting": "quest list setting"
+  },
+  "version": {
+    "title": "version message",
+    "no_message": "no version message yet"
+  },
   "about": {
     "title": "このサイトについて",
     "designer": "制作",

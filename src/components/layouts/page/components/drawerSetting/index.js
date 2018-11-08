@@ -36,7 +36,7 @@ const DrawerSetting = ({
 
   // 定义属性
   const propsOfDrawer = {
-    title: '系统设置',
+    title: __('setting.title'),
     visible: settingVisible,
     width: 280,
     onClose: () => {
@@ -46,7 +46,7 @@ const DrawerSetting = ({
 
   return (
     <Drawer {...propsOfDrawer}>
-      <Divider orientation="left">敌方数据设置</Divider>
+      <Divider orientation="left">{__('setting.enemy_data_setting')}</Divider>
       <div className={les.card}>
         <Checkbox
           checked={autoGenerate}
@@ -58,7 +58,7 @@ const DrawerSetting = ({
         >{__('mission_map.power_display_hide')}</Checkbox>
       </div>
 
-      <Divider orientation="left">后勤列表设置</Divider>
+      <Divider orientation="left">{__('setting.quest_list_setting')}</Divider>
     </Drawer>
   )
 }

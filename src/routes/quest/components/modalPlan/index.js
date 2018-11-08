@@ -6,7 +6,6 @@ import {
   Checkbox,
   Button,
 } from 'antd'
-import mDB from '@/db/mainDB'
 
 const FormItem = Form.Item
 const CheckboxGroup = Checkbox.Group

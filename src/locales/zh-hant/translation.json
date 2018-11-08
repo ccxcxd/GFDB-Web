@@ -68,6 +68,15 @@
     "coordinator_y": "縱坐標",
     "character": "描述"
   },
+  "setting": {
+    "title": "系統設定",
+    "enemy_data_setting": "敵方數據設定",
+    "quest_list_setting": "後勤列表設定"
+  },
+  "version": {
+    "title": "版本信息",
+    "no_message": "暫無版本信息"
+  },
   "about": {
     "title": "關於本站",
     "designer": "製作",

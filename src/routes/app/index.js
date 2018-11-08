@@ -26,7 +26,7 @@ const Main = ({
   const mapMeta = (ary) => {
     return ary.map(ar => {
       return (
-        <meta name={ar} content={metas[ar]} />
+        <meta key={ar} name={ar} content={metas[ar]} />
       )
     })
   }

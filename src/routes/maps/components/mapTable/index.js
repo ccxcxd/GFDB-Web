@@ -98,6 +98,7 @@ const TeamTable = ({
         id: parseInt(teamId, 10),
         leader: __(enemy_character_type_info[enemyTeam.enemy_leader].name),
         difficulty: enemyTeam.difficulty,
+        difficulty_display: enemyTeam.difficulty + (enemyTeam.correction_turn?"*":""),
         members: members,
         count: count,
         drop: drops,
@@ -121,7 +122,7 @@ const TeamTable = ({
     },
     {
       title: __('map_tbl.power'),
-      dataIndex: 'difficulty',
+      dataIndex: 'difficulty_display',
       sorter: (a, b) => a.difficulty - b.difficulty,
     },
     {

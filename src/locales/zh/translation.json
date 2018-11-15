@@ -52,6 +52,7 @@
 	"team_tbl": {
 		"name": "名称",
 		"number": "扩编",
+		"level": "等级",
 		"maxlife": "生命",
 		"pow": "伤害",
 		"rate": "射速",

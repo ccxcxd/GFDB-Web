@@ -53,6 +53,7 @@
   "team_tbl": {
     "name": "Name",
     "number": "Links",
+		"level": "LV",
     "maxlife": "HP",
     "pow": "DMG",
     "rate": "ROF",

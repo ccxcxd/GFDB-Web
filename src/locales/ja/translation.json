@@ -53,6 +53,7 @@
   "team_tbl": {
     "name": "名前",
     "number": "人数",
+		"level": "レベル",
     "maxlife": "HP",
     "pow": "火力",
     "rate": "射速",

@@ -24,7 +24,7 @@ const InfoModal = ({
         </div>
         <div className={les.extraMission}>
           <div className={les.title}>勋章获取条件</div>
-          <div className={les.contnet}>示例文本</div>
+          <div className={les.content}>示例文本</div>
         </div>
       </div>
     </Modal>

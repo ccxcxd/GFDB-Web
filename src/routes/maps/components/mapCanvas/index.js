@@ -10,6 +10,7 @@ import {
 import Map from '@/services/map'
 import { isEqual } from 'lodash'
 import les from './index.less'
+import InfoModal from '../infoModal'
 
 class MapCanvas extends React.Component {
   constructor (props) {
@@ -18,6 +19,9 @@ class MapCanvas extends React.Component {
     this.state = {
       loading: false,
       show: false,
+
+      infoVisible: false,
+      infoData: {},
     }
   } 
 
@@ -144,6 +148,13 @@ class MapCanvas extends React.Component {
     this.mapObj.downloadFullMap(name)
   }
 
+  showInfoModal (data, show = true) {
+    this.setState({
+      infoVisible: show,
+      infoData: data,
+    })
+  }
+
   render () {
     // 属性获取
     const {
@@ -152,12 +163,23 @@ class MapCanvas extends React.Component {
     const {
       loading,
       show,
+
+      infoVisible,
+      infoData,
     } = this.state
     const {
       autoGenerate,
       displayPower,
       missionSelected,
     } = maps
+
+    const propsOfInfoModal = {
+      visible: infoVisible,
+      data: infoData,
+      onHide: () => {
+        this.showInfoModal({}, false)
+      },
+    }
 
     return (
       <div>
@@ -168,6 +190,11 @@ class MapCanvas extends React.Component {
         </div>
         {/* canvas */}
         <div className={les.canvasArea}>
+          {/* 关卡条件 */}
+          <div className={les.mapInfo} onClick={() => this.showInfoModal({})}>
+            <Icon type="profile" />
+            <div className={les.infoTxt}>{'战场说明'}</div>
+          </div>
           {
             (loading || show) ?
             null :
@@ -242,6 +269,8 @@ class MapCanvas extends React.Component {
         <div className={`${les.btnTips} hidden-xs`}>
           &nbsp;&nbsp;&nbsp;&nbsp;&uarr;&nbsp;&nbsp;<span>{__('mission_map.description')}</span>
         </div>
+        {/* 战役信息弹窗 */}
+        <InfoModal {...propsOfInfoModal} />
       </div>
     )
   }

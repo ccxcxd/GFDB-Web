@@ -1,0 +1,37 @@
+.content {
+  &:before,
+  &:after {
+    content: '';
+    display: table;
+  }
+  &:after {
+    clear: both;
+  }
+
+  .title {
+    height: 36px;
+    line-height: 36px;
+    border-bottom: 1px solid #c1c1c1;
+    font-size: 18px;
+  }
+  .content {
+    min-height: 100px;
+  }
+  .baseMission,
+  .extraMission {
+    float: left;
+    width: 50%;
+    padding: 0 10px;
+  }
+}
+
+@media only screen
+// and (min-device-width : 768px)
+and (max-device-width : @layout_media_mobile_max_width) {
+  .content {
+    .baseMission,
+    .extraMission {
+      width: 100%;
+    }
+  }
+}

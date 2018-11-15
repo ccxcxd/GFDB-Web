@@ -1,0 +1,25 @@
+.clearfix() {
+  &:before,
+  &:after {
+    content: '';
+    display: table;
+  }
+  &:after {
+    clear: both;
+  }
+}
+
+.norATag() {
+  &:-webkit-any-link,
+  &:focus,
+  &:active,
+  &:visited {
+    text-decoration: none;
+  }
+}
+
+@media only screen
+// and (min-device-width : 768px)
+and (max-device-width : @layout_media_mobile_max_width) {
+  
+}

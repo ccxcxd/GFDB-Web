@@ -1,0 +1,81 @@
+.table {
+  background-color: #fff;
+}
+
+.timeLab {
+  font-size: 1.4rem;
+}
+
+.resLab {
+  position: relative;
+
+  .total {
+    width: 5rem;
+    font-size: 1.4rem;
+    text-align: right;
+    color: @theme_color_black;
+
+    &.active {
+      font-weight: bold;
+      color: @theme_color_red;
+    }
+  }
+  .hours {
+    width: 5rem;
+    font-size: .8rem;
+    font-weight: bold;
+    text-align: right;
+    color: @theme_color_gray_7;
+
+    &.active {
+      font-size: 1rem;
+      color: @theme_color_red;
+    }
+  }
+}
+.totalLab {
+  height: 1.4rem;
+  line-height: 1.4rem;
+  font-size: 1.4rem;
+  text-align: right;
+}
+
+.teamReq {
+  .title {
+    font-weight: bold;
+  }
+}
+
+.listItem() {
+  line-height: 21px;
+  cursor: pointer;
+  
+  &:hover {
+    background-color: @theme_color_gray;
+  }
+  .check {
+    display: none;
+    margin-right: 8px;
+    line-height: 21px;
+  }
+  &.active .check {
+    display: inline;
+    color: @theme_color_red;
+  }
+}
+
+.filterListCon {
+  background-color: #fff;
+
+  :global(.ant-list-item) {
+    .listItem();
+  }
+}
+
+.filterExtraCon {
+  background-color: #fff;
+
+  :global(.ant-list-item) {
+    .listItem();
+  }
+}

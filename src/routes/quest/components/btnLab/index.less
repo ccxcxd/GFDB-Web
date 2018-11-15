@@ -1,0 +1,16 @@
+.btnArea {
+  display: flex;
+  margin-bottom: @layout_spacing_vertical_web;
+
+  :global(.ant-btn) {
+    margin-right: @layout_spacing_horizontal;
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+
+  .blank {
+    flex: 1;
+  }
+}

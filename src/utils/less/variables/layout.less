@@ -1,0 +1,32 @@
+@layou_width_web: 1200px;
+@layou_width_pad: 768px;
+
+@layout_body_width_web: @layou_width_web;  // web端页面内容主体的宽度
+@layout_body_width_mobile: 100%;  // 移动端页面内容主体的宽度
+
+@layout_header_height: 48px;  // 页头高度
+
+@layout_spacing_vertical_web: 10px;  // 竖直间隔
+@layout_spacing_horizontal: 8px; // 水平间隔
+
+@layout_card_border_radius: 3px;  // 内容卡片圆角
+
+@layout_title_font_size: 16px;  // 小标题字体大小
+
+@layout_base_font_size_web: 12px; // web端字体基准大小
+@layout_base_font_size_mobile: 10px; // 移动端字体基准大小
+
+@layout_media_mobile_max_width: 1024px;
+
+// 内容卡片
+.bodyContent() {
+  padding: @layout_spacing_vertical_web @layout_spacing_horizontal;
+  background-color: #fff;
+  border-radius: @layout_card_border_radius;
+}
+
+// 小标题
+.h4 () {
+  font-size: @layout_title_font_size;
+  line-height: 2em;
+}

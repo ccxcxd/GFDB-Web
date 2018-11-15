@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Girls' Frontline Database</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+    ul,li {
+      list-style: none;
+    }
+    html, body {
+      height: 100%;
+      width: 100%;
+    }
+    body {
+      background-color: #34372F;
+    }
+    .container {
+      width: 300px;
+      position: relative;
+      top: 50%;
+      left: 50%;
+      margin-top: -212px;
+      margin-left: -150px;
+      font-size: 14px;
+    }
+    .title {
+      height: 48px;
+      line-height: 48px;
+      text-align: center;
+      font-size: 2em;
+      color: #fff;
+    }
+    .title-en {
+      text-align: center;
+      font-size: .8em;
+      color: #fff;
+    }
+    .card {
+      position: relative;
+    }
+    .card:after {
+      content: '';
+      display: block;
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      width: 0;
+      height: 0;
+      border-width: 30px 30px 0 0;
+      border-style: solid;
+      border-color: transparent #34372F transparent transparent;
+    }
+    .list {
+      width: 220px;
+      margin: 30px auto 0;
+    }
+    .list li {
+      margin-bottom: 20px;
+      text-align: center;
+    }
+    .item:after {
+      border-width: 12px 12px 0 0;
+    }
+    .item > a {
+      display: block;
+      height: 48px;
+      line-height: 48px;
+      text-decoration: none;
+      background-color: #efefef;
+      color: #191919;
+      font-size: 1.2em;
+      box-shadow: 0 1px 2px 0 rgba(0,0,0,.1);
+      transition: all ease .3s;
+    }
+    .item > a:hover {
+      background-color: #FFC000;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="title">少女前线数据网站</div>
+    <div class="title-en">Girls' Frontline Database</div>
+    <div class="list-container">
+      <ul class="list">
+        <li class="card item">
+          <a href="./zh">简体中文</a>
+        </li>
+        <li class="card item">
+          <a href="./zh-hant">繁体中文</a>
+        </li>
+        <li class="card item">
+          <a href="./ko">한국어</a>
+        </li>
+        <li class="card item">
+          <a href="./en">English</a>
+        </li>
+        <li class="card item">
+          <a href="./ja">日本語</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</body>
+</html>

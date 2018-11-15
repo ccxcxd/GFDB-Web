@@ -1,0 +1,31 @@
+{
+  "columns": {
+    "code": "code",
+    "time": "time",
+    "name": "name",
+    "total": "total",
+    "extra": "extra",
+    "teamRequire": "team require",
+    "captainLevel": "cap's level",
+    "captainNumber": "mem's number",
+    "filterTotalDescend": "total descend",
+    "filterYieldDescend": "time yield descend",
+    "filterExtraYieldDescend": "time yield descend"
+  },
+  "supportPlan": {
+    "entryButton": "logistics calculation",
+    "countModalName": "calculation modal",
+    "hourLabel": "hour",
+    "minuteLabel": "minute",
+    "resourceLabel": "resource",
+    "extraLabel": "extra",
+    "countButton": "calculate",
+    "resultModalName": "calculation",
+    "recommendList": "recommend",
+    "filterList": "filter list",
+    "totalTimeLab": "total time",
+    "needResLab": "needed resource",
+    "needExtraLab": "needed extra",
+    "noSelect": "not select"
+  }
+}

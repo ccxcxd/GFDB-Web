@@ -1,0 +1,29 @@
+.card {
+  margin-bottom: @layout_spacing_vertical_web;
+  color: @theme_color_gray_7;
+
+  & :global(h4) {
+    color: inherit;
+  }
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+
+  &:hover,
+  &.active {
+    color: @theme_color_black;
+  }
+
+  .titleContent {
+    .title {
+      display: inline-block;
+      line-height: 1.6em;
+    }
+    .new {
+      margin-left: 8px;
+      font-size: .8em;
+      color: #f5222d;
+    }
+  }
+}

@@ -1,0 +1,62 @@
+.condition {
+  margin-bottom: @layout_spacing_vertical_web;
+
+  .item {
+    display: inline-block;
+  }
+}
+
+.item {
+  vertical-align: sub;
+  margin-right: @layout_spacing_horizontal;
+  &:last-child {
+    margin-right: 0;
+  }
+
+  .title {
+    display: inline-block;
+    // font-weight: bold;
+    background-color: @theme_color_black;
+    color: @theme_color_white;
+    padding: 0 6px;
+    margin-right: 6px;
+    border-radius: 3px;
+  }
+  .text {
+    display: inline-block;
+    font-size: 1.2em;
+  }
+}
+
+.timeLab {
+  height: 36px;
+  .title {
+    vertical-align: sub;
+  }
+  .timeTxt {
+    height: 36px;
+    line-height: 36px;
+    padding: 0 4px;
+    font-size: 24px;
+  }
+}
+
+.resLab {
+  .text > span {
+    text-decoration: underline;
+    margin-right: 6px;
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}
+
+.extLab {
+  :global(.extra-item) {
+    display: inline-block;
+    margin-right: 6px;
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}

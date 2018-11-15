@@ -51,7 +51,8 @@
   },
   "team_tbl": {
     "name": "名稱",
-    "number": "人數",
+    "number": "擴編",
+		"level": "等級",
     "maxlife": "生命",
     "pow": "傷害",
     "rate": "射速",

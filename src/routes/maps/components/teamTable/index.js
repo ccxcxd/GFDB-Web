@@ -31,6 +31,7 @@ const TeamTable = ({
       id: id,
       name: __(character.name),
       number: character.number,
+      level: character.level,
       maxlife: Math.ceil(character.maxlife / character.number),
       pow: character.pow,
       rate: character.rate,
@@ -59,6 +60,10 @@ const TeamTable = ({
     {
       title: __('team_tbl.number'),
       dataIndex: 'number',
+    },
+    {
+      title: __('team_tbl.level'),
+      dataIndex: 'level',
     },
     {
       title: __('team_tbl.maxlife'),

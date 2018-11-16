@@ -1,5 +1,6 @@
 import $ from 'jquery'
 import ImgLoader from './imgLoader'
+import Game from './game'
 
 const { saveAs } = require('file-saver/FileSaver.min.js')
 const {
@@ -574,19 +575,19 @@ class Map {
           if (ally_team.initial_type == 0) {
             allyColor = "#FFC33E";
             var enemy_team = enemy_team_info[spot.enemy_team_id];
-            power = enemy_team.difficulty + (enemy_team.correction_turn?"*":"");
+            power = Game.getEnemyTeamPower(enemy_team) + (enemy_team.correction_turn?"*":"");
           } else if (ally_team.initial_type == 1) {
             allyColor = "#96C9F8";
             order = __("game.30132")
           } else if (ally_team.initial_type == 2) {
             allyColor = "#FF0000";
             var enemy_team = enemy_team_info[spot.enemy_team_id];
-            power = enemy_team.difficulty + (enemy_team.correction_turn?"*":"");
+            power = Game.getEnemyTeamPower(enemy_team) + (enemy_team.correction_turn?"*":"");
           }
           this.drawFriendStats(ctx, x0, y0, text, allyColor, order, allyColor, power, 1, "ally", allyColor);
         } else if (spot.enemy_team_id) {
           var enemy_team = enemy_team_info[spot.enemy_team_id];
-          power = enemy_team.difficulty + (enemy_team.correction_turn?"*":"");
+          power = Game.getEnemyTeamPower(enemy_team) + (enemy_team.correction_turn?"*":"");
           this.drawEnemyPower(ctx, x0, y0, power, mission.difficulty);
         }
       });

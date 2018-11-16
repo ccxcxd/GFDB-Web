@@ -52,7 +52,7 @@
 	"team_tbl": {
 		"name": "이름",
 		"number": "편제",
-		"level": "수평",
+		"level": "레벨",
 		"maxlife": "체력",
 		"pow": "화력",
 		"rate": "사속",

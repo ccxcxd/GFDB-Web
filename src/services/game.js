@@ -29,7 +29,7 @@ class GameClass {
         if (enemyChar && lv_from && lv_to) {
             result.number = number;
             result.level = level;
-            result.maxlife = this.ueRound(enemyChar.maxlife * lv_to.maxlife / lv_from.maxlife * number);
+            result.maxlife = this.ueRound(f32(enemyChar.maxlife * lv_to.maxlife / lv_from.maxlife) * number);
             result.pow = this.ueRound(enemyChar.pow * lv_to.pow / lv_from.pow);
             result.hit = this.ueRound(enemyChar.hit * lv_to.hit / lv_from.hit);
             result.dodge = this.ueRound(enemyChar.dodge * lv_to.dodge / lv_from.dodge);
@@ -55,7 +55,7 @@ class GameClass {
         var defEff = f32(f32(enemy.def * def_percent) / 100);
         var effect_defence = this.ueCeil(eed[0] * (enemy.maxlife * (eed[1] + enemy.dodge) / eed[1] * eed[2] / (eed[2] - enemy.armor) + eed[3]) * 
                              (enemy.def * 2 - defEff + eed[4] * 2) / (enemy.def - defEff + eed[4]) / 2);
-        var effect = this.ueCeil(enemy.effect_ratio * (effect_attack + effect_defence));
+        var effect = this.ueCeil(f32(enemy.effect_ratio) * (f32(effect_attack) + f32(effect_defence)));
 
         return effect;
     }

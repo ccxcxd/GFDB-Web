@@ -6,11 +6,21 @@ import {
   Dropdown,
   Checkbox,
   message,
+  Input,
+  Slider,
 } from 'antd'
 import Map from '@/services/map'
 import { isEqual } from 'lodash'
 import les from './index.less'
 import InfoModal from '../infoModal'
+
+const IF_RANGE_SHOW = true
+const ROUND_MIN = 1
+const ROUND_MAX = 50
+
+const ROUND_MARK = {}
+ROUND_MARK[ROUND_MIN] = ROUND_MIN
+ROUND_MARK[ROUND_MAX] = ROUND_MAX
 
 class MapCanvas extends React.Component {
   constructor (props) {
@@ -154,6 +164,22 @@ class MapCanvas extends React.Component {
       infoData: data,
     })
   }
+  handleRoundInputChange (e) {
+    const value = parseInt(e.target.value, 10)
+    if (value < ROUND_MIN || value > ROUND_MAX) {
+      message.error(`round value ${value} is out of range of round`)
+    } else {
+      this.changeRound(value || ROUND_MIN)
+    }
+  }
+  changeRound (val) {
+    console.log(this.props)
+    const { dispatch } = this.props
+    dispatch({
+      type: 'maps/roundChange',
+      round: val,
+    })
+  }
 
   render () {
     // 属性获取
@@ -171,6 +197,7 @@ class MapCanvas extends React.Component {
       autoGenerate,
       displayPower,
       missionSelected,
+      currentRound,
     } = maps
 
     const propsOfInfoModal = {
@@ -265,6 +292,26 @@ class MapCanvas extends React.Component {
               className={les.settingBtn}
             />
           </Dropdown>
+          {
+            IF_RANGE_SHOW &&
+            <div className={les.roundSelCon}>
+              <div className={les.roundTip}>回合数选择:</div>
+              <Input
+                className={les.roundInput}
+                placeholder="回合数"
+                value={currentRound}
+                onChange={(e) => this.handleRoundInputChange(e)}
+              />
+              <Slider
+                className={les.roundSlider}
+                marks={ROUND_MARK}
+                min={ROUND_MIN}
+                max={ROUND_MAX}
+                value={currentRound}
+                onChange={(v) => this.changeRound(v)}
+              />
+            </div>
+          }
         </div>
         <div className={`${les.btnTips} hidden-xs`}>
           &nbsp;&nbsp;&nbsp;&nbsp;&uarr;&nbsp;&nbsp;<span>{__('mission_map.description')}</span>

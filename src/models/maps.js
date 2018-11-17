@@ -21,6 +21,8 @@ export default moduleExtend(model, {
     campaignSelected: {}, // 选中的战役
     missionSelected: {},  // 选中的任务
     enemyTeamSelected: {},  // 选中的队伍
+
+    currentRound: 1, // 当前回合
   },
 
   subscriptions: {
@@ -93,6 +95,12 @@ export default moduleExtend(model, {
         payload: { enemyTeamSelected: enemyTeam },
       })
       LG.set('team_select_id', payload)
+    },
+    * roundChange ({ round }, { put }) {
+      yield put({
+        type: 'updateState',
+        payload: { currentRound: round },
+      })
     },
   },
 

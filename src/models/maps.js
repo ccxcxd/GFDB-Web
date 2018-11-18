@@ -22,7 +22,7 @@ export default moduleExtend(model, {
     missionSelected: {},  // 选中的任务
     enemyTeamSelected: {},  // 选中的队伍
 
-    currentRound: 1, // 当前回合
+    currentTurn: 1, // 当前回合
   },
 
   subscriptions: {
@@ -96,10 +96,10 @@ export default moduleExtend(model, {
       })
       LG.set('team_select_id', payload)
     },
-    * roundChange ({ round }, { put }) {
+    * turnChange ({ turn }, { put }) {
       yield put({
         type: 'updateState',
-        payload: { currentRound: round },
+        payload: { currentTurn: turn },
       })
     },
   },

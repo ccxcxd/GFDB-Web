@@ -13,6 +13,21 @@
   resize: both;
   overflow: auto;
 
+  .canvasBtnLab {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+  
+    &::before,
+    &::after {
+      content: '';
+      display: table;
+    }
+    &:after {
+      clear: both;
+    }
+  }
   .mapInfo {
     position: absolute;
     left: 0;
@@ -33,6 +48,25 @@
     .infoTxt {
       display: block;
       text-align: center;
+      line-height: 18px;
+      font-size: 0.2rem;
+    }
+  }
+  .turnLab {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 8px 10px;
+    border: 2px solid @theme_color_white;
+    background-color: @theme_color_black;
+    color: @theme_color_yellow;
+
+    .turnContnet {
+      display: block;
+      font-size: 2rem;
+    }
+    .turnTips {
+      display: block;
       line-height: 18px;
       font-size: 0.2rem;
     }
@@ -113,25 +147,37 @@
   .roundTip {
     height: 32px;
     line-height: 32px;
+    margin-right: 10px;
   }
-  .roundInput {
-    display: inline-block;
-    width: 100px;
-    margin: 0 10px;
+  :global(.ant-btn) {
+    z-index: 11;
+  }
+  :global(.anticon-caret-left),
+  :global(.anticon-caret-right) {
+    text-align: center;
+    cursor: pointer;
+    font-size: 18px;
+    color: #40a9ff;
+    transition: all .3s ease;
     z-index: 11;
 
-    :global(.ant-input-number-handler-wrap) {
-      opacity: 1;
+    &:hover {
+      color: #1890ff;
     }
   }
   .roundSlider {
     display: inline-block;
     width: 200px;
     top: -12px;
+    margin-left: 12px;
+    margin-right: 12px;
     // :global(.ant-slider-mark) {
     //   overflow-x: hidden;
     // }
   }
+}
+.turnLab {
+  float: right;
 }
 .btnTips {
   padding: 0 0 8px;

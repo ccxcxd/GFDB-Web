@@ -6,7 +6,6 @@ import {
   Dropdown,
   Checkbox,
   message,
-  InputNumber,
   Slider,
 } from 'antd'
 import Map from '@/services/map'
@@ -14,13 +13,11 @@ import { isEqual, debounce } from 'lodash'
 import les from './index.less'
 import InfoModal from '../infoModal'
 
-const IF_RANGE_SHOW = true
-const ROUND_MIN = 1
-const ROUND_MAX = 50
+const TURN_MIN = 1
 
-const ROUND_MARK = {}
-ROUND_MARK[ROUND_MIN] = ROUND_MIN
-ROUND_MARK[ROUND_MAX] = ROUND_MAX
+const roundMax = (mission) => {
+  return mission.turn_limit > 0 ? mission.turn_limit : 1
+}
 
 class MapCanvas extends React.Component {
   constructor (props) {
@@ -32,6 +29,8 @@ class MapCanvas extends React.Component {
 
       infoVisible: false,
       infoData: {},
+
+      currentTurnReal: this.props.maps.currentTurn,
     }
   } 
 
@@ -72,30 +71,16 @@ class MapCanvas extends React.Component {
     }
   }
   componentDidUpdate(prevProps) {
-    const {
-      show,
-    } = this.state
     const oldMaps = prevProps.maps
     const newMaps = this.props.maps
     // 监听变量变化，重绘页面
-    const oldMisson = oldMaps.missionSelected
-    const newMisson = newMaps.missionSelected
-    if (!isEqual(oldMisson, newMisson)) {
-      // console.log('更新了')
+    if (!isEqual(oldMaps, newMaps)) {
       // 检查自动更新
       if (newMaps.autoGenerate) {
         this.onGenerate()
       } else {
         this.mapObj.remove()
       }
-    }
-    const oldAuto = oldMaps.autoGenerate
-    const newAuto = newMaps.autoGenerate
-    if (oldAuto !== newAuto && newAuto === true) {
-      this.onGenerate()
-    }
-    if (oldMaps.displayPower !== newMaps.displayPower && show) {
-      this.onGenerate()
     }
   }
 
@@ -165,22 +150,28 @@ class MapCanvas extends React.Component {
       infoData: data,
     })
   }
-  handleRoundInputChange (value) {
-    // const value = parseInt(e.target.value, 10)
-    if (value < ROUND_MIN || value > ROUND_MAX) {
-      message.error(`round value ${value} is out of range of round`)
-    } else {
-      this.changeRound(value || ROUND_MIN)
-    }
-  }
-  changeRound (val) {
+  changeGlobalTurn (val) {
     const { dispatch } = this.props
     dispatch({
-      type: 'maps/roundChange',
-      round: val,
+      type: 'maps/turnChange',
+      turn: val,
     })
-    this.mapObj.turnNo = val;
-    this.onGenerate();
+    this.mapObj.turnNo = val
+    // this.onGenerate();
+  }
+  changeTurn (val) {
+    this.setState({
+      currentTurnReal: val,
+    })
+    this.changeGlobalTurn(val)
+  }
+  turnAdd () {
+    const val = this.state.currentTurnReal + 1
+    this.changeTurn(val)
+  }
+  turnReduce () {
+    const val = this.state.currentTurnReal - 1
+    this.changeTurn(val)
   }
 
   render () {
@@ -194,12 +185,14 @@ class MapCanvas extends React.Component {
 
       infoVisible,
       infoData,
+
+      currentTurnReal,
     } = this.state
     const {
       autoGenerate,
       displayPower,
       missionSelected,
-      currentRound,
+      currentTurn,
     } = maps
 
     const propsOfInfoModal = {
@@ -209,6 +202,11 @@ class MapCanvas extends React.Component {
         this.showInfoModal({}, false)
       },
     }
+    const IF_RANGE_SHOW = !!missionSelected.turn_limit
+    const TURN_MAX = roundMax(missionSelected)
+    const TURN_MARK = {}
+    TURN_MARK[TURN_MIN] = TURN_MIN
+    TURN_MARK[TURN_MAX] = TURN_MAX
 
     return (
       <div>
@@ -219,10 +217,17 @@ class MapCanvas extends React.Component {
         </div>
         {/* canvas */}
         <div className={les.canvasArea}>
-          {/* 关卡条件 */}
-          <div className={les.mapInfo} onClick={() => this.showInfoModal({})}>
-            <Icon type="profile" />
-            <div className={les.infoTxt}>{'战场说明'}</div>
+          <div className={les.canvasBtnLab}>
+            {/* 关卡条件 */}
+            <div className={les.mapInfo} onClick={() => this.showInfoModal({})}>
+              <Icon type="profile" />
+              <div className={les.infoTxt}>{'战场说明'}</div>
+            </div>
+            {/* 当前回合 */}
+            <div className={les.turnLab}>
+              <div className={les.turnContnet}>{currentTurnReal}</div>
+              <div className={les.turnTips}>当前回合</div>
+            </div>
           </div>
           {
             (loading || show) ?
@@ -298,21 +303,23 @@ class MapCanvas extends React.Component {
             IF_RANGE_SHOW &&
             <div className={les.roundSelCon}>
               <div className={les.roundTip}>回合数选择:</div>
-              <InputNumber
-                className={les.roundInput}
-                min={ROUND_MIN}
-                max={ROUND_MAX}
-                placeholder="回合数"
-                value={currentRound}
-                onChange={(e) => this.handleRoundInputChange(e)}
+              <Button
+                icon="caret-left"
+                disabled={currentTurnReal <= TURN_MIN}
+                onClick={() => this.turnReduce()}
               />
               <Slider
                 className={les.roundSlider}
-                marks={ROUND_MARK}
-                min={ROUND_MIN}
-                max={ROUND_MAX}
-                value={currentRound}
-                onChange={(v) => this.changeRound(v)}
+                marks={TURN_MARK}
+                min={TURN_MIN}
+                max={TURN_MAX}
+                value={currentTurnReal}
+                onChange={(v) => this.changeTurn(v)}
+              />
+              <Button
+                icon="caret-right"
+                disabled={currentTurnReal >= TURN_MAX}
+                onClick={() => this.turnAdd()}
               />
             </div>
           }

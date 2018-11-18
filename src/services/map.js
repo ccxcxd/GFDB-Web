@@ -647,11 +647,12 @@ class Map {
     y0 = Math.floor(this.bgY2fgY(y0 + y_off - h / 2));
 
     ctx.save();
-    if (power <= map_difficulty * 0.5)
+    var powerNo = parseInt(power);
+    if (powerNo <= map_difficulty * 0.5)
       ctx.fillStyle = "white";
-    else if (power <= map_difficulty * 0.75)
+    else if (powerNo <= map_difficulty * 0.75)
       ctx.fillStyle = "#FFCC00";
-    else if (power <= map_difficulty * 1)
+    else if (powerNo <= map_difficulty * 1)
       ctx.fillStyle = "#FF6600";
     else
       ctx.fillStyle = "red";

@@ -36,7 +36,7 @@
     "init_map_not_yet": "未生成地圖",
     "init_map_loading": "地圖生成中...",
     "current_turn": "當前回合",
-    "select_turn": "當前回合"
+    "select_turn": "當前回合："
   },
   "spot_img": {
     "spot1": "spot1",

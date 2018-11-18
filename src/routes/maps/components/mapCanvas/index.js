@@ -120,7 +120,7 @@ class MapCanvas extends React.Component {
     } = maps
     const missionId = missionSelected.id
     if (!missionId) {
-      message.warning('请先选择要生成的地图')
+      message.warning(__('map_tbl.noSelectMapWarning'))
       this.setState({
         loading: false,
       })
@@ -219,10 +219,10 @@ class MapCanvas extends React.Component {
         <div className={les.canvasArea}>
           <div className={les.canvasBtnLab}>
             {/* 关卡条件 */}
-            <div className={les.mapInfo} onClick={() => this.showInfoModal({})}>
+            {/* <div className={les.mapInfo} onClick={() => this.showInfoModal({})}>
               <Icon type="profile" />
               <div className={les.infoTxt}>{'战场说明'}</div>
-            </div>
+            </div> */}
             {/* 当前回合 */}
             <div className={les.turnLab}>
               <div className={les.turnContnet}>{currentTurnReal}</div>

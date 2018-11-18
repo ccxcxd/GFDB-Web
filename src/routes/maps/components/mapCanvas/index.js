@@ -178,6 +178,8 @@ class MapCanvas extends React.Component {
       type: 'maps/roundChange',
       round: val,
     })
+    this.mapObj.turnNo = val;
+    this.onGenerate();
   }
 
   render () {

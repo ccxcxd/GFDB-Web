@@ -68403,7 +68403,7 @@
     "enemy_character_type_id": 10002,
     "coordinator_x": 12,
     "coordinator_y": 0,
-    "level": 64,
+    "level": 50,
     "number": 3,
     "is_advance": 1,
     "def_percent": 0
@@ -68414,7 +68414,7 @@
     "enemy_character_type_id": 10002,
     "coordinator_x": 12,
     "coordinator_y": 3,
-    "level": 64,
+    "level": 50,
     "number": 3,
     "is_advance": 1,
     "def_percent": 0
@@ -68425,7 +68425,7 @@
     "enemy_character_type_id": 10002,
     "coordinator_x": 12,
     "coordinator_y": 6,
-    "level": 64,
+    "level": 50,
     "number": 3,
     "is_advance": 1,
     "def_percent": 0
@@ -68436,7 +68436,7 @@
     "enemy_character_type_id": 10005,
     "coordinator_x": 16,
     "coordinator_y": 0,
-    "level": 64,
+    "level": 50,
     "number": 3,
     "is_advance": 1,
     "def_percent": 0
@@ -68447,7 +68447,7 @@
     "enemy_character_type_id": 10005,
     "coordinator_x": 16,
     "coordinator_y": 3,
-    "level": 64,
+    "level": 50,
     "number": 3,
     "is_advance": 1,
     "def_percent": 0
@@ -68458,7 +68458,7 @@
     "enemy_character_type_id": 10005,
     "coordinator_x": 16,
     "coordinator_y": 6,
-    "level": 64,
+    "level": 50,
     "number": 3,
     "is_advance": 1,
     "def_percent": 0
@@ -68469,7 +68469,7 @@
     "enemy_character_type_id": 10007,
     "coordinator_x": 12,
     "coordinator_y": 0,
-    "level": 64,
+    "level": 50,
     "number": 3,
     "is_advance": 1,
     "def_percent": 0
@@ -68480,7 +68480,7 @@
     "enemy_character_type_id": 10007,
     "coordinator_x": 12,
     "coordinator_y": 3,
-    "level": 64,
+    "level": 50,
     "number": 3,
     "is_advance": 1,
     "def_percent": 0
@@ -68491,7 +68491,7 @@
     "enemy_character_type_id": 10007,
     "coordinator_x": 12,
     "coordinator_y": 6,
-    "level": 64,
+    "level": 50,
     "number": 3,
     "is_advance": 1,
     "def_percent": 0
@@ -68502,7 +68502,7 @@
     "enemy_character_type_id": 10006,
     "coordinator_x": 16,
     "coordinator_y": 0,
-    "level": 64,
+    "level": 50,
     "number": 3,
     "is_advance": 1,
     "def_percent": 0
@@ -68513,7 +68513,7 @@
     "enemy_character_type_id": 10006,
     "coordinator_x": 16,
     "coordinator_y": 3,
-    "level": 64,
+    "level": 50,
     "number": 3,
     "is_advance": 1,
     "def_percent": 0
@@ -68524,7 +68524,7 @@
     "enemy_character_type_id": 10006,
     "coordinator_x": 16,
     "coordinator_y": 6,
-    "level": 64,
+    "level": 50,
     "number": 3,
     "is_advance": 1,
     "def_percent": 0
@@ -68535,7 +68535,7 @@
     "enemy_character_type_id": 10004,
     "coordinator_x": 10,
     "coordinator_y": 0,
-    "level": 64,
+    "level": 50,
     "number": 3,
     "is_advance": 1,
     "def_percent": 0
@@ -68546,7 +68546,7 @@
     "enemy_character_type_id": 10004,
     "coordinator_x": 10,
     "coordinator_y": 3,
-    "level": 64,
+    "level": 50,
     "number": 3,
     "is_advance": 1,
     "def_percent": 0
@@ -68557,7 +68557,7 @@
     "enemy_character_type_id": 10004,
     "coordinator_x": 10,
     "coordinator_y": 6,
-    "level": 64,
+    "level": 50,
     "number": 3,
     "is_advance": 1,
     "def_percent": 0
@@ -68568,7 +68568,7 @@
     "enemy_character_type_id": 10004,
     "coordinator_x": 10,
     "coordinator_y": 9,
-    "level": 64,
+    "level": 50,
     "number": 3,
     "is_advance": 1,
     "def_percent": 0
@@ -68579,7 +68579,7 @@
     "enemy_character_type_id": 10004,
     "coordinator_x": 16,
     "coordinator_y": 0,
-    "level": 64,
+    "level": 50,
     "number": 3,
     "is_advance": 1,
     "def_percent": 0
@@ -68590,7 +68590,7 @@
     "enemy_character_type_id": 10004,
     "coordinator_x": 16,
     "coordinator_y": 3,
-    "level": 64,
+    "level": 50,
     "number": 3,
     "is_advance": 1,
     "def_percent": 0
@@ -68601,7 +68601,7 @@
     "enemy_character_type_id": 10004,
     "coordinator_x": 16,
     "coordinator_y": 6,
-    "level": 64,
+    "level": 50,
     "number": 3,
     "is_advance": 1,
     "def_percent": 0
@@ -68612,7 +68612,7 @@
     "enemy_character_type_id": 10004,
     "coordinator_x": 16,
     "coordinator_y": 9,
-    "level": 64,
+    "level": 50,
     "number": 3,
     "is_advance": 1,
     "def_percent": 0
@@ -68623,7 +68623,7 @@
     "enemy_character_type_id": 10007,
     "coordinator_x": 12,
     "coordinator_y": 0,
-    "level": 64,
+    "level": 50,
     "number": 3,
     "is_advance": 1,
     "def_percent": 0
@@ -68634,7 +68634,7 @@
     "enemy_character_type_id": 10007,
     "coordinator_x": 12,
     "coordinator_y": 3,
-    "level": 64,
+    "level": 50,
     "number": 3,
     "is_advance": 1,
     "def_percent": 0
@@ -68645,7 +68645,7 @@
     "enemy_character_type_id": 10007,
     "coordinator_x": 12,
     "coordinator_y": 6,
-    "level": 64,
+    "level": 50,
     "number": 3,
     "is_advance": 1,
     "def_percent": 0
@@ -68656,7 +68656,7 @@
     "enemy_character_type_id": 10004,
     "coordinator_x": 16,
     "coordinator_y": 0,
-    "level": 64,
+    "level": 50,
     "number": 4,
     "is_advance": 1,
     "def_percent": 0
@@ -68667,7 +68667,7 @@
     "enemy_character_type_id": 10004,
     "coordinator_x": 16,
     "coordinator_y": 3,
-    "level": 64,
+    "level": 50,
     "number": 4,
     "is_advance": 1,
     "def_percent": 0
@@ -68678,7 +68678,7 @@
     "enemy_character_type_id": 10004,
     "coordinator_x": 16,
     "coordinator_y": 6,
-    "level": 64,
+    "level": 50,
     "number": 4,
     "is_advance": 1,
     "def_percent": 0
@@ -68689,7 +68689,7 @@
     "enemy_character_type_id": 10017,
     "coordinator_x": 12,
     "coordinator_y": 0,
-    "level": 64,
+    "level": 50,
     "number": 3,
     "is_advance": 1,
     "def_percent": 0
@@ -68700,7 +68700,7 @@
     "enemy_character_type_id": 10017,
     "coordinator_x": 12,
     "coordinator_y": 3,
-    "level": 64,
+    "level": 50,
     "number": 3,
     "is_advance": 1,
     "def_percent": 0
@@ -68711,7 +68711,7 @@
     "enemy_character_type_id": 10017,
     "coordinator_x": 12,
     "coordinator_y": 6,
-    "level": 64,
+    "level": 50,
     "number": 3,
     "is_advance": 1,
     "def_percent": 0
@@ -68722,7 +68722,7 @@
     "enemy_character_type_id": 10017,
     "coordinator_x": 12,
     "coordinator_y": 9,
-    "level": 64,
+    "level": 50,
     "number": 3,
     "is_advance": 1,
     "def_percent": 0
@@ -68733,7 +68733,7 @@
     "enemy_character_type_id": 10017,
     "coordinator_x": 16,
     "coordinator_y": 0,
-    "level": 64,
+    "level": 50,
     "number": 3,
     "is_advance": 1,
     "def_percent": 0
@@ -68744,7 +68744,7 @@
     "enemy_character_type_id": 10017,
     "coordinator_x": 16,
     "coordinator_y": 3,
-    "level": 64,
+    "level": 50,
     "number": 3,
     "is_advance": 1,
     "def_percent": 0
@@ -68755,7 +68755,7 @@
     "enemy_character_type_id": 10017,
     "coordinator_x": 16,
     "coordinator_y": 6,
-    "level": 64,
+    "level": 50,
     "number": 3,
     "is_advance": 1,
     "def_percent": 0
@@ -68766,7 +68766,7 @@
     "enemy_character_type_id": 10017,
     "coordinator_x": 16,
     "coordinator_y": 9,
-    "level": 64,
+    "level": 50,
     "number": 3,
     "is_advance": 1,
     "def_percent": 0
@@ -68777,7 +68777,7 @@
     "enemy_character_type_id": 10007,
     "coordinator_x": 12,
     "coordinator_y": 0,
-    "level": 64,
+    "level": 50,
     "number": 3,
     "is_advance": 1,
     "def_percent": 0
@@ -68788,7 +68788,7 @@
     "enemy_character_type_id": 10007,
     "coordinator_x": 12,
     "coordinator_y": 3,
-    "level": 64,
+    "level": 50,
     "number": 3,
     "is_advance": 1,
     "def_percent": 0
@@ -68799,7 +68799,7 @@
     "enemy_character_type_id": 10007,
     "coordinator_x": 12,
     "coordinator_y": 6,
-    "level": 64,
+    "level": 50,
     "number": 3,
     "is_advance": 1,
     "def_percent": 0
@@ -68810,7 +68810,7 @@
     "enemy_character_type_id": 10007,
     "coordinator_x": 12,
     "coordinator_y": 9,
-    "level": 64,
+    "level": 50,
     "number": 3,
     "is_advance": 1,
     "def_percent": 0
@@ -68821,7 +68821,7 @@
     "enemy_character_type_id": 10005,
     "coordinator_x": 16,
     "coordinator_y": 0,
-    "level": 64,
+    "level": 50,
     "number": 4,
     "is_advance": 1,
     "def_percent": 0
@@ -68832,7 +68832,7 @@
     "enemy_character_type_id": 10005,
     "coordinator_x": 16,
     "coordinator_y": 3,
-    "level": 64,
+    "level": 50,
     "number": 4,
     "is_advance": 1,
     "def_percent": 0
@@ -68843,7 +68843,7 @@
     "enemy_character_type_id": 10005,
     "coordinator_x": 16,
     "coordinator_y": 6,
-    "level": 64,
+    "level": 50,
     "number": 4,
     "is_advance": 1,
     "def_percent": 0
@@ -68854,7 +68854,7 @@
     "enemy_character_type_id": 10005,
     "coordinator_x": 16,
     "coordinator_y": 9,
-    "level": 64,
+    "level": 50,
     "number": 4,
     "is_advance": 1,
     "def_percent": 0
@@ -68865,7 +68865,7 @@
     "enemy_character_type_id": 10002,
     "coordinator_x": 12,
     "coordinator_y": 0,
-    "level": 64,
+    "level": 50,
     "number": 4,
     "is_advance": 1,
     "def_percent": 0
@@ -68876,7 +68876,7 @@
     "enemy_character_type_id": 10002,
     "coordinator_x": 12,
     "coordinator_y": 3,
-    "level": 64,
+    "level": 50,
     "number": 4,
     "is_advance": 1,
     "def_percent": 0
@@ -68887,7 +68887,7 @@
     "enemy_character_type_id": 10002,
     "coordinator_x": 12,
     "coordinator_y": 6,
-    "level": 64,
+    "level": 50,
     "number": 4,
     "is_advance": 1,
     "def_percent": 0
@@ -68898,7 +68898,7 @@
     "enemy_character_type_id": 10005,
     "coordinator_x": 16,
     "coordinator_y": 0,
-    "level": 64,
+    "level": 50,
     "number": 4,
     "is_advance": 1,
     "def_percent": 0
@@ -68909,7 +68909,7 @@
     "enemy_character_type_id": 10005,
     "coordinator_x": 16,
     "coordinator_y": 3,
-    "level": 64,
+    "level": 50,
     "number": 4,
     "is_advance": 1,
     "def_percent": 0
@@ -68920,7 +68920,7 @@
     "enemy_character_type_id": 10005,
     "coordinator_x": 16,
     "coordinator_y": 6,
-    "level": 64,
+    "level": 50,
     "number": 4,
     "is_advance": 1,
     "def_percent": 0
@@ -68931,7 +68931,7 @@
     "enemy_character_type_id": 10007,
     "coordinator_x": 12,
     "coordinator_y": 0,
-    "level": 64,
+    "level": 50,
     "number": 4,
     "is_advance": 1,
     "def_percent": 0
@@ -68942,7 +68942,7 @@
     "enemy_character_type_id": 10007,
     "coordinator_x": 12,
     "coordinator_y": 3,
-    "level": 64,
+    "level": 50,
     "number": 4,
     "is_advance": 1,
     "def_percent": 0
@@ -68953,7 +68953,7 @@
     "enemy_character_type_id": 10007,
     "coordinator_x": 12,
     "coordinator_y": 6,
-    "level": 64,
+    "level": 50,
     "number": 4,
     "is_advance": 1,
     "def_percent": 0
@@ -68964,7 +68964,7 @@
     "enemy_character_type_id": 10006,
     "coordinator_x": 16,
     "coordinator_y": 0,
-    "level": 64,
+    "level": 50,
     "number": 4,
     "is_advance": 1,
     "def_percent": 0
@@ -68975,7 +68975,7 @@
     "enemy_character_type_id": 10006,
     "coordinator_x": 16,
     "coordinator_y": 3,
-    "level": 64,
+    "level": 50,
     "number": 4,
     "is_advance": 1,
     "def_percent": 0
@@ -68986,7 +68986,7 @@
     "enemy_character_type_id": 10006,
     "coordinator_x": 16,
     "coordinator_y": 6,
-    "level": 64,
+    "level": 50,
     "number": 4,
     "is_advance": 1,
     "def_percent": 0
@@ -68997,7 +68997,7 @@
     "enemy_character_type_id": 10004,
     "coordinator_x": 10,
     "coordinator_y": 0,
-    "level": 64,
+    "level": 50,
     "number": 4,
     "is_advance": 1,
     "def_percent": 0
@@ -69008,7 +69008,7 @@
     "enemy_character_type_id": 10004,
     "coordinator_x": 10,
     "coordinator_y": 3,
-    "level": 64,
+    "level": 50,
     "number": 4,
     "is_advance": 1,
     "def_percent": 0
@@ -69019,7 +69019,7 @@
     "enemy_character_type_id": 10004,
     "coordinator_x": 10,
     "coordinator_y": 6,
-    "level": 64,
+    "level": 50,
     "number": 4,
     "is_advance": 1,
     "def_percent": 0
@@ -69030,7 +69030,7 @@
     "enemy_character_type_id": 10004,
     "coordinator_x": 10,
     "coordinator_y": 9,
-    "level": 64,
+    "level": 50,
     "number": 4,
     "is_advance": 1,
     "def_percent": 0
@@ -69041,7 +69041,7 @@
     "enemy_character_type_id": 10004,
     "coordinator_x": 16,
     "coordinator_y": 0,
-    "level": 64,
+    "level": 50,
     "number": 4,
     "is_advance": 1,
     "def_percent": 0
@@ -69052,7 +69052,7 @@
     "enemy_character_type_id": 10004,
     "coordinator_x": 16,
     "coordinator_y": 3,
-    "level": 64,
+    "level": 50,
     "number": 4,
     "is_advance": 1,
     "def_percent": 0
@@ -69063,7 +69063,7 @@
     "enemy_character_type_id": 10004,
     "coordinator_x": 16,
     "coordinator_y": 6,
-    "level": 64,
+    "level": 50,
     "number": 4,
     "is_advance": 1,
     "def_percent": 0
@@ -69074,7 +69074,7 @@
     "enemy_character_type_id": 10004,
     "coordinator_x": 16,
     "coordinator_y": 9,
-    "level": 64,
+    "level": 50,
     "number": 4,
     "is_advance": 1,
     "def_percent": 0
@@ -69085,7 +69085,7 @@
     "enemy_character_type_id": 10007,
     "coordinator_x": 12,
     "coordinator_y": 0,
-    "level": 64,
+    "level": 50,
     "number": 4,
     "is_advance": 1,
     "def_percent": 0
@@ -69096,7 +69096,7 @@
     "enemy_character_type_id": 10007,
     "coordinator_x": 12,
     "coordinator_y": 3,
-    "level": 64,
+    "level": 50,
     "number": 4,
     "is_advance": 1,
     "def_percent": 0
@@ -69107,7 +69107,7 @@
     "enemy_character_type_id": 10007,
     "coordinator_x": 12,
     "coordinator_y": 6,
-    "level": 64,
+    "level": 50,
     "number": 4,
     "is_advance": 1,
     "def_percent": 0
@@ -69118,7 +69118,7 @@
     "enemy_character_type_id": 10004,
     "coordinator_x": 16,
     "coordinator_y": 0,
-    "level": 64,
+    "level": 50,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -69129,7 +69129,7 @@
     "enemy_character_type_id": 10004,
     "coordinator_x": 16,
     "coordinator_y": 3,
-    "level": 64,
+    "level": 50,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -69140,7 +69140,7 @@
     "enemy_character_type_id": 10004,
     "coordinator_x": 16,
     "coordinator_y": 6,
-    "level": 64,
+    "level": 50,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -69151,7 +69151,7 @@
     "enemy_character_type_id": 10017,
     "coordinator_x": 12,
     "coordinator_y": 0,
-    "level": 64,
+    "level": 50,
     "number": 4,
     "is_advance": 1,
     "def_percent": 0
@@ -69162,7 +69162,7 @@
     "enemy_character_type_id": 10017,
     "coordinator_x": 12,
     "coordinator_y": 3,
-    "level": 64,
+    "level": 50,
     "number": 4,
     "is_advance": 1,
     "def_percent": 0
@@ -69173,7 +69173,7 @@
     "enemy_character_type_id": 10017,
     "coordinator_x": 12,
     "coordinator_y": 6,
-    "level": 64,
+    "level": 50,
     "number": 4,
     "is_advance": 1,
     "def_percent": 0
@@ -69184,7 +69184,7 @@
     "enemy_character_type_id": 10017,
     "coordinator_x": 12,
     "coordinator_y": 9,
-    "level": 64,
+    "level": 50,
     "number": 4,
     "is_advance": 1,
     "def_percent": 0
@@ -69195,7 +69195,7 @@
     "enemy_character_type_id": 10017,
     "coordinator_x": 16,
     "coordinator_y": 0,
-    "level": 64,
+    "level": 50,
     "number": 4,
     "is_advance": 1,
     "def_percent": 0
@@ -69206,7 +69206,7 @@
     "enemy_character_type_id": 10017,
     "coordinator_x": 16,
     "coordinator_y": 3,
-    "level": 64,
+    "level": 50,
     "number": 4,
     "is_advance": 1,
     "def_percent": 0
@@ -69217,7 +69217,7 @@
     "enemy_character_type_id": 10017,
     "coordinator_x": 16,
     "coordinator_y": 6,
-    "level": 64,
+    "level": 50,
     "number": 4,
     "is_advance": 1,
     "def_percent": 0
@@ -69228,7 +69228,7 @@
     "enemy_character_type_id": 10017,
     "coordinator_x": 16,
     "coordinator_y": 9,
-    "level": 64,
+    "level": 50,
     "number": 4,
     "is_advance": 1,
     "def_percent": 0
@@ -69239,7 +69239,7 @@
     "enemy_character_type_id": 10007,
     "coordinator_x": 12,
     "coordinator_y": 0,
-    "level": 64,
+    "level": 50,
     "number": 4,
     "is_advance": 1,
     "def_percent": 0
@@ -69250,7 +69250,7 @@
     "enemy_character_type_id": 10007,
     "coordinator_x": 12,
     "coordinator_y": 3,
-    "level": 64,
+    "level": 50,
     "number": 4,
     "is_advance": 1,
     "def_percent": 0
@@ -69261,7 +69261,7 @@
     "enemy_character_type_id": 10007,
     "coordinator_x": 12,
     "coordinator_y": 6,
-    "level": 64,
+    "level": 50,
     "number": 4,
     "is_advance": 1,
     "def_percent": 0
@@ -69272,7 +69272,7 @@
     "enemy_character_type_id": 10007,
     "coordinator_x": 12,
     "coordinator_y": 9,
-    "level": 64,
+    "level": 50,
     "number": 4,
     "is_advance": 1,
     "def_percent": 0
@@ -69283,7 +69283,7 @@
     "enemy_character_type_id": 10005,
     "coordinator_x": 16,
     "coordinator_y": 0,
-    "level": 64,
+    "level": 50,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -69294,7 +69294,7 @@
     "enemy_character_type_id": 10005,
     "coordinator_x": 16,
     "coordinator_y": 3,
-    "level": 64,
+    "level": 50,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -69305,7 +69305,7 @@
     "enemy_character_type_id": 10005,
     "coordinator_x": 16,
     "coordinator_y": 6,
-    "level": 64,
+    "level": 50,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -69316,7 +69316,7 @@
     "enemy_character_type_id": 10005,
     "coordinator_x": 16,
     "coordinator_y": 9,
-    "level": 64,
+    "level": 50,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -69327,7 +69327,7 @@
     "enemy_character_type_id": 10008,
     "coordinator_x": 12,
     "coordinator_y": 0,
-    "level": 64,
+    "level": 50,
     "number": 3,
     "is_advance": 1,
     "def_percent": 0
@@ -69338,7 +69338,7 @@
     "enemy_character_type_id": 10008,
     "coordinator_x": 12,
     "coordinator_y": 3,
-    "level": 64,
+    "level": 50,
     "number": 3,
     "is_advance": 1,
     "def_percent": 0
@@ -69349,7 +69349,7 @@
     "enemy_character_type_id": 10008,
     "coordinator_x": 12,
     "coordinator_y": 6,
-    "level": 64,
+    "level": 50,
     "number": 3,
     "is_advance": 1,
     "def_percent": 0
@@ -69360,7 +69360,7 @@
     "enemy_character_type_id": 10008,
     "coordinator_x": 12,
     "coordinator_y": 9,
-    "level": 64,
+    "level": 50,
     "number": 3,
     "is_advance": 1,
     "def_percent": 0
@@ -69371,7 +69371,7 @@
     "enemy_character_type_id": 10007,
     "coordinator_x": 12,
     "coordinator_y": 0,
-    "level": 64,
+    "level": 50,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -69382,7 +69382,7 @@
     "enemy_character_type_id": 10007,
     "coordinator_x": 12,
     "coordinator_y": 3,
-    "level": 64,
+    "level": 50,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -69393,7 +69393,7 @@
     "enemy_character_type_id": 10007,
     "coordinator_x": 12,
     "coordinator_y": 6,
-    "level": 64,
+    "level": 50,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -69404,7 +69404,7 @@
     "enemy_character_type_id": 10007,
     "coordinator_x": 12,
     "coordinator_y": 9,
-    "level": 64,
+    "level": 50,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -69415,7 +69415,7 @@
     "enemy_character_type_id": 10006,
     "coordinator_x": 16,
     "coordinator_y": 0,
-    "level": 64,
+    "level": 50,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -69426,7 +69426,7 @@
     "enemy_character_type_id": 10006,
     "coordinator_x": 16,
     "coordinator_y": 3,
-    "level": 64,
+    "level": 50,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -69437,7 +69437,7 @@
     "enemy_character_type_id": 10006,
     "coordinator_x": 16,
     "coordinator_y": 6,
-    "level": 64,
+    "level": 50,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -69448,7 +69448,7 @@
     "enemy_character_type_id": 10006,
     "coordinator_x": 16,
     "coordinator_y": 9,
-    "level": 64,
+    "level": 50,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -69459,7 +69459,7 @@
     "enemy_character_type_id": 10001,
     "coordinator_x": 10,
     "coordinator_y": 0,
-    "level": 64,
+    "level": 50,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -69470,7 +69470,7 @@
     "enemy_character_type_id": 10001,
     "coordinator_x": 10,
     "coordinator_y": 3,
-    "level": 64,
+    "level": 50,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -69481,7 +69481,7 @@
     "enemy_character_type_id": 10001,
     "coordinator_x": 10,
     "coordinator_y": 6,
-    "level": 64,
+    "level": 50,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -69492,7 +69492,7 @@
     "enemy_character_type_id": 10001,
     "coordinator_x": 10,
     "coordinator_y": 9,
-    "level": 64,
+    "level": 50,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -69503,7 +69503,7 @@
     "enemy_character_type_id": 10002,
     "coordinator_x": 14,
     "coordinator_y": 0,
-    "level": 64,
+    "level": 50,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -69514,7 +69514,7 @@
     "enemy_character_type_id": 10002,
     "coordinator_x": 14,
     "coordinator_y": 3,
-    "level": 64,
+    "level": 50,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -69525,7 +69525,7 @@
     "enemy_character_type_id": 10002,
     "coordinator_x": 14,
     "coordinator_y": 6,
-    "level": 64,
+    "level": 50,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -69536,7 +69536,7 @@
     "enemy_character_type_id": 10002,
     "coordinator_x": 14,
     "coordinator_y": 9,
-    "level": 64,
+    "level": 50,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -69547,7 +69547,7 @@
     "enemy_character_type_id": 10004,
     "coordinator_x": 16,
     "coordinator_y": 0,
-    "level": 64,
+    "level": 50,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -69558,7 +69558,7 @@
     "enemy_character_type_id": 10004,
     "coordinator_x": 16,
     "coordinator_y": 3,
-    "level": 64,
+    "level": 50,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -69569,7 +69569,7 @@
     "enemy_character_type_id": 10004,
     "coordinator_x": 16,
     "coordinator_y": 6,
-    "level": 64,
+    "level": 50,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -69580,7 +69580,7 @@
     "enemy_character_type_id": 10004,
     "coordinator_x": 16,
     "coordinator_y": 9,
-    "level": 64,
+    "level": 50,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -76862,7 +76862,7 @@
     "enemy_character_type_id": 10015,
     "coordinator_x": 12,
     "coordinator_y": 0,
-    "level": 64,
+    "level": 50,
     "number": 3,
     "is_advance": 1,
     "def_percent": 0
@@ -76873,7 +76873,7 @@
     "enemy_character_type_id": 10015,
     "coordinator_x": 12,
     "coordinator_y": 3,
-    "level": 64,
+    "level": 50,
     "number": 3,
     "is_advance": 1,
     "def_percent": 0
@@ -76884,7 +76884,7 @@
     "enemy_character_type_id": 10015,
     "coordinator_x": 12,
     "coordinator_y": 6,
-    "level": 64,
+    "level": 50,
     "number": 3,
     "is_advance": 1,
     "def_percent": 0
@@ -76895,7 +76895,7 @@
     "enemy_character_type_id": 10015,
     "coordinator_x": 12,
     "coordinator_y": 9,
-    "level": 64,
+    "level": 50,
     "number": 3,
     "is_advance": 1,
     "def_percent": 0
@@ -76906,7 +76906,7 @@
     "enemy_character_type_id": 10016,
     "coordinator_x": 16,
     "coordinator_y": 0,
-    "level": 64,
+    "level": 50,
     "number": 3,
     "is_advance": 1,
     "def_percent": 0
@@ -76917,7 +76917,7 @@
     "enemy_character_type_id": 10016,
     "coordinator_x": 16,
     "coordinator_y": 3,
-    "level": 64,
+    "level": 50,
     "number": 3,
     "is_advance": 1,
     "def_percent": 0
@@ -76928,7 +76928,7 @@
     "enemy_character_type_id": 10016,
     "coordinator_x": 16,
     "coordinator_y": 6,
-    "level": 64,
+    "level": 50,
     "number": 3,
     "is_advance": 1,
     "def_percent": 0
@@ -76939,7 +76939,7 @@
     "enemy_character_type_id": 10016,
     "coordinator_x": 16,
     "coordinator_y": 9,
-    "level": 64,
+    "level": 50,
     "number": 3,
     "is_advance": 1,
     "def_percent": 0
@@ -76950,7 +76950,7 @@
     "enemy_character_type_id": 10015,
     "coordinator_x": 12,
     "coordinator_y": 0,
-    "level": 64,
+    "level": 50,
     "number": 3,
     "is_advance": 1,
     "def_percent": 0
@@ -76961,7 +76961,7 @@
     "enemy_character_type_id": 10015,
     "coordinator_x": 12,
     "coordinator_y": 3,
-    "level": 64,
+    "level": 50,
     "number": 3,
     "is_advance": 1,
     "def_percent": 0
@@ -76972,7 +76972,7 @@
     "enemy_character_type_id": 10015,
     "coordinator_x": 12,
     "coordinator_y": 6,
-    "level": 64,
+    "level": 50,
     "number": 3,
     "is_advance": 1,
     "def_percent": 0
@@ -76983,7 +76983,7 @@
     "enemy_character_type_id": 10015,
     "coordinator_x": 12,
     "coordinator_y": 9,
-    "level": 64,
+    "level": 50,
     "number": 3,
     "is_advance": 1,
     "def_percent": 0
@@ -76994,7 +76994,7 @@
     "enemy_character_type_id": 10016,
     "coordinator_x": 16,
     "coordinator_y": 0,
-    "level": 64,
+    "level": 50,
     "number": 4,
     "is_advance": 1,
     "def_percent": 0
@@ -77005,7 +77005,7 @@
     "enemy_character_type_id": 10016,
     "coordinator_x": 16,
     "coordinator_y": 3,
-    "level": 64,
+    "level": 50,
     "number": 4,
     "is_advance": 1,
     "def_percent": 0
@@ -77016,7 +77016,7 @@
     "enemy_character_type_id": 10016,
     "coordinator_x": 16,
     "coordinator_y": 6,
-    "level": 64,
+    "level": 50,
     "number": 4,
     "is_advance": 1,
     "def_percent": 0
@@ -77027,7 +77027,7 @@
     "enemy_character_type_id": 10016,
     "coordinator_x": 16,
     "coordinator_y": 9,
-    "level": 64,
+    "level": 50,
     "number": 4,
     "is_advance": 1,
     "def_percent": 0
@@ -77038,7 +77038,7 @@
     "enemy_character_type_id": 10015,
     "coordinator_x": 12,
     "coordinator_y": 0,
-    "level": 64,
+    "level": 50,
     "number": 4,
     "is_advance": 1,
     "def_percent": 0
@@ -77049,7 +77049,7 @@
     "enemy_character_type_id": 10015,
     "coordinator_x": 12,
     "coordinator_y": 3,
-    "level": 64,
+    "level": 50,
     "number": 4,
     "is_advance": 1,
     "def_percent": 0
@@ -77060,7 +77060,7 @@
     "enemy_character_type_id": 10015,
     "coordinator_x": 12,
     "coordinator_y": 6,
-    "level": 64,
+    "level": 50,
     "number": 4,
     "is_advance": 1,
     "def_percent": 0
@@ -77071,7 +77071,7 @@
     "enemy_character_type_id": 10015,
     "coordinator_x": 12,
     "coordinator_y": 9,
-    "level": 64,
+    "level": 50,
     "number": 4,
     "is_advance": 1,
     "def_percent": 0
@@ -77082,7 +77082,7 @@
     "enemy_character_type_id": 10016,
     "coordinator_x": 16,
     "coordinator_y": 0,
-    "level": 64,
+    "level": 50,
     "number": 4,
     "is_advance": 1,
     "def_percent": 0
@@ -77093,7 +77093,7 @@
     "enemy_character_type_id": 10016,
     "coordinator_x": 16,
     "coordinator_y": 3,
-    "level": 64,
+    "level": 50,
     "number": 4,
     "is_advance": 1,
     "def_percent": 0
@@ -77104,7 +77104,7 @@
     "enemy_character_type_id": 10016,
     "coordinator_x": 16,
     "coordinator_y": 6,
-    "level": 64,
+    "level": 50,
     "number": 4,
     "is_advance": 1,
     "def_percent": 0
@@ -77115,7 +77115,7 @@
     "enemy_character_type_id": 10016,
     "coordinator_x": 16,
     "coordinator_y": 9,
-    "level": 64,
+    "level": 50,
     "number": 4,
     "is_advance": 1,
     "def_percent": 0
@@ -77126,7 +77126,7 @@
     "enemy_character_type_id": 10018,
     "coordinator_x": 11,
     "coordinator_y": 0,
-    "level": 64,
+    "level": 50,
     "number": 4,
     "is_advance": 1,
     "def_percent": 0
@@ -77137,7 +77137,7 @@
     "enemy_character_type_id": 10018,
     "coordinator_x": 12,
     "coordinator_y": 1,
-    "level": 64,
+    "level": 50,
     "number": 4,
     "is_advance": 1,
     "def_percent": 0
@@ -77148,7 +77148,7 @@
     "enemy_character_type_id": 10018,
     "coordinator_x": 13,
     "coordinator_y": 2,
-    "level": 64,
+    "level": 50,
     "number": 4,
     "is_advance": 1,
     "def_percent": 0
@@ -77159,7 +77159,7 @@
     "enemy_character_type_id": 10018,
     "coordinator_x": 12,
     "coordinator_y": 3,
-    "level": 64,
+    "level": 50,
     "number": 4,
     "is_advance": 1,
     "def_percent": 0
@@ -77170,7 +77170,7 @@
     "enemy_character_type_id": 10018,
     "coordinator_x": 11,
     "coordinator_y": 4,
-    "level": 64,
+    "level": 50,
     "number": 4,
     "is_advance": 1,
     "def_percent": 0
@@ -77181,7 +77181,7 @@
     "enemy_character_type_id": 10018,
     "coordinator_x": 13,
     "coordinator_y": 5,
-    "level": 64,
+    "level": 50,
     "number": 4,
     "is_advance": 1,
     "def_percent": 0
@@ -77192,7 +77192,7 @@
     "enemy_character_type_id": 10018,
     "coordinator_x": 12,
     "coordinator_y": 6,
-    "level": 64,
+    "level": 50,
     "number": 4,
     "is_advance": 1,
     "def_percent": 0
@@ -77203,7 +77203,7 @@
     "enemy_character_type_id": 10018,
     "coordinator_x": 11,
     "coordinator_y": 7,
-    "level": 64,
+    "level": 50,
     "number": 4,
     "is_advance": 1,
     "def_percent": 0
@@ -77214,7 +77214,7 @@
     "enemy_character_type_id": 10018,
     "coordinator_x": 12,
     "coordinator_y": 8,
-    "level": 64,
+    "level": 50,
     "number": 4,
     "is_advance": 1,
     "def_percent": 0
@@ -77225,7 +77225,7 @@
     "enemy_character_type_id": 10018,
     "coordinator_x": 11,
     "coordinator_y": 9,
-    "level": 64,
+    "level": 50,
     "number": 4,
     "is_advance": 1,
     "def_percent": 0
@@ -77236,7 +77236,7 @@
     "enemy_character_type_id": 10018,
     "coordinator_x": 11,
     "coordinator_y": 0,
-    "level": 64,
+    "level": 50,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -77247,7 +77247,7 @@
     "enemy_character_type_id": 10018,
     "coordinator_x": 12,
     "coordinator_y": 1,
-    "level": 64,
+    "level": 50,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -77258,7 +77258,7 @@
     "enemy_character_type_id": 10018,
     "coordinator_x": 13,
     "coordinator_y": 2,
-    "level": 64,
+    "level": 50,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -77269,7 +77269,7 @@
     "enemy_character_type_id": 10018,
     "coordinator_x": 12,
     "coordinator_y": 3,
-    "level": 64,
+    "level": 50,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -77280,7 +77280,7 @@
     "enemy_character_type_id": 10018,
     "coordinator_x": 11,
     "coordinator_y": 4,
-    "level": 64,
+    "level": 50,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -77291,7 +77291,7 @@
     "enemy_character_type_id": 10018,
     "coordinator_x": 13,
     "coordinator_y": 5,
-    "level": 64,
+    "level": 50,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -77302,7 +77302,7 @@
     "enemy_character_type_id": 10018,
     "coordinator_x": 12,
     "coordinator_y": 6,
-    "level": 64,
+    "level": 50,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -77313,7 +77313,7 @@
     "enemy_character_type_id": 10018,
     "coordinator_x": 11,
     "coordinator_y": 7,
-    "level": 64,
+    "level": 50,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -77324,7 +77324,7 @@
     "enemy_character_type_id": 10018,
     "coordinator_x": 12,
     "coordinator_y": 8,
-    "level": 64,
+    "level": 50,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -77335,7 +77335,7 @@
     "enemy_character_type_id": 10018,
     "coordinator_x": 11,
     "coordinator_y": 9,
-    "level": 64,
+    "level": 50,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -77346,7 +77346,7 @@
     "enemy_character_type_id": 10003,
     "coordinator_x": 11,
     "coordinator_y": 0,
-    "level": 64,
+    "level": 50,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -77357,7 +77357,7 @@
     "enemy_character_type_id": 10003,
     "coordinator_x": 12,
     "coordinator_y": 1,
-    "level": 64,
+    "level": 50,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -77368,7 +77368,7 @@
     "enemy_character_type_id": 10003,
     "coordinator_x": 13,
     "coordinator_y": 2,
-    "level": 64,
+    "level": 50,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -77379,7 +77379,7 @@
     "enemy_character_type_id": 10003,
     "coordinator_x": 12,
     "coordinator_y": 3,
-    "level": 64,
+    "level": 50,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -77390,7 +77390,7 @@
     "enemy_character_type_id": 10003,
     "coordinator_x": 11,
     "coordinator_y": 4,
-    "level": 64,
+    "level": 50,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -77401,7 +77401,7 @@
     "enemy_character_type_id": 10003,
     "coordinator_x": 13,
     "coordinator_y": 5,
-    "level": 64,
+    "level": 50,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -77412,7 +77412,7 @@
     "enemy_character_type_id": 10003,
     "coordinator_x": 12,
     "coordinator_y": 6,
-    "level": 64,
+    "level": 50,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -77423,7 +77423,7 @@
     "enemy_character_type_id": 10003,
     "coordinator_x": 11,
     "coordinator_y": 7,
-    "level": 64,
+    "level": 50,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -77434,7 +77434,7 @@
     "enemy_character_type_id": 10003,
     "coordinator_x": 12,
     "coordinator_y": 8,
-    "level": 64,
+    "level": 50,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -77445,7 +77445,7 @@
     "enemy_character_type_id": 10003,
     "coordinator_x": 11,
     "coordinator_y": 9,
-    "level": 64,
+    "level": 50,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -94748,7 +94748,7 @@
     "enemy_character_type_id": 10007,
     "coordinator_x": 10,
     "coordinator_y": 5,
-    "level": 30,
+    "level": 25,
     "number": 1,
     "is_advance": 1,
     "def_percent": 0
@@ -94759,7 +94759,7 @@
     "enemy_character_type_id": 10002,
     "coordinator_x": 20,
     "coordinator_y": 3,
-    "level": 40,
+    "level": 35,
     "number": 3,
     "is_advance": 1,
     "def_percent": 0
@@ -94770,7 +94770,7 @@
     "enemy_character_type_id": 10005,
     "coordinator_x": 16,
     "coordinator_y": 6,
-    "level": 20,
+    "level": 15,
     "number": 2,
     "is_advance": 1,
     "def_percent": 0
@@ -94781,7 +94781,7 @@
     "enemy_character_type_id": 10005,
     "coordinator_x": 14,
     "coordinator_y": 3,
-    "level": 20,
+    "level": 15,
     "number": 1,
     "is_advance": 1,
     "def_percent": 0
@@ -95474,7 +95474,7 @@
     "enemy_character_type_id": 10007,
     "coordinator_x": 10,
     "coordinator_y": 5,
-    "level": 30,
+    "level": 25,
     "number": 1,
     "is_advance": 1,
     "def_percent": 0
@@ -95485,7 +95485,7 @@
     "enemy_character_type_id": 10002,
     "coordinator_x": 20,
     "coordinator_y": 3,
-    "level": 40,
+    "level": 35,
     "number": 3,
     "is_advance": 1,
     "def_percent": 0
@@ -95496,7 +95496,7 @@
     "enemy_character_type_id": 10005,
     "coordinator_x": 16,
     "coordinator_y": 6,
-    "level": 20,
+    "level": 15,
     "number": 2,
     "is_advance": 1,
     "def_percent": 0
@@ -95507,7 +95507,7 @@
     "enemy_character_type_id": 10005,
     "coordinator_x": 14,
     "coordinator_y": 3,
-    "level": 20,
+    "level": 15,
     "number": 1,
     "is_advance": 1,
     "def_percent": 0
@@ -113756,7 +113756,7 @@
     "enemy_character_type_id": 10024,
     "coordinator_x": 10,
     "coordinator_y": 6,
-    "level": 170,
+    "level": 110,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -113767,7 +113767,7 @@
     "enemy_character_type_id": 10024,
     "coordinator_x": 10,
     "coordinator_y": 4,
-    "level": 170,
+    "level": 110,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -113778,7 +113778,7 @@
     "enemy_character_type_id": 10024,
     "coordinator_x": 10,
     "coordinator_y": 2,
-    "level": 170,
+    "level": 110,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -113789,7 +113789,7 @@
     "enemy_character_type_id": 10024,
     "coordinator_x": 12,
     "coordinator_y": 5,
-    "level": 170,
+    "level": 110,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -113800,7 +113800,7 @@
     "enemy_character_type_id": 10024,
     "coordinator_x": 12,
     "coordinator_y": 3,
-    "level": 170,
+    "level": 110,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -113811,7 +113811,7 @@
     "enemy_character_type_id": 10024,
     "coordinator_x": 12,
     "coordinator_y": 1,
-    "level": 170,
+    "level": 110,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -113822,7 +113822,7 @@
     "enemy_character_type_id": 10024,
     "coordinator_x": 14,
     "coordinator_y": 6,
-    "level": 160,
+    "level": 100,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -113833,7 +113833,7 @@
     "enemy_character_type_id": 10024,
     "coordinator_x": 14,
     "coordinator_y": 8,
-    "level": 170,
+    "level": 110,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -113844,7 +113844,7 @@
     "enemy_character_type_id": 10024,
     "coordinator_x": 16,
     "coordinator_y": 7,
-    "level": 170,
+    "level": 110,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -113855,7 +113855,7 @@
     "enemy_character_type_id": 10024,
     "coordinator_x": 16,
     "coordinator_y": 10,
-    "level": 170,
+    "level": 110,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -147691,7 +147691,7 @@
     "enemy_character_type_id": 10002,
     "coordinator_x": 12,
     "coordinator_y": 0,
-    "level": 94,
+    "level": 80,
     "number": 4,
     "is_advance": 1,
     "def_percent": 0
@@ -147702,7 +147702,7 @@
     "enemy_character_type_id": 10002,
     "coordinator_x": 12,
     "coordinator_y": 3,
-    "level": 94,
+    "level": 80,
     "number": 4,
     "is_advance": 1,
     "def_percent": 0
@@ -147713,7 +147713,7 @@
     "enemy_character_type_id": 10002,
     "coordinator_x": 12,
     "coordinator_y": 6,
-    "level": 94,
+    "level": 80,
     "number": 4,
     "is_advance": 1,
     "def_percent": 0
@@ -147724,7 +147724,7 @@
     "enemy_character_type_id": 10005,
     "coordinator_x": 16,
     "coordinator_y": 0,
-    "level": 94,
+    "level": 80,
     "number": 4,
     "is_advance": 1,
     "def_percent": 0
@@ -147735,7 +147735,7 @@
     "enemy_character_type_id": 10005,
     "coordinator_x": 16,
     "coordinator_y": 3,
-    "level": 94,
+    "level": 80,
     "number": 4,
     "is_advance": 1,
     "def_percent": 0
@@ -147746,7 +147746,7 @@
     "enemy_character_type_id": 10005,
     "coordinator_x": 16,
     "coordinator_y": 6,
-    "level": 94,
+    "level": 80,
     "number": 4,
     "is_advance": 1,
     "def_percent": 0
@@ -147757,7 +147757,7 @@
     "enemy_character_type_id": 10007,
     "coordinator_x": 12,
     "coordinator_y": 0,
-    "level": 94,
+    "level": 80,
     "number": 4,
     "is_advance": 1,
     "def_percent": 0
@@ -147768,7 +147768,7 @@
     "enemy_character_type_id": 10007,
     "coordinator_x": 12,
     "coordinator_y": 3,
-    "level": 94,
+    "level": 80,
     "number": 4,
     "is_advance": 1,
     "def_percent": 0
@@ -147779,7 +147779,7 @@
     "enemy_character_type_id": 10007,
     "coordinator_x": 12,
     "coordinator_y": 6,
-    "level": 94,
+    "level": 80,
     "number": 4,
     "is_advance": 1,
     "def_percent": 0
@@ -147790,7 +147790,7 @@
     "enemy_character_type_id": 10006,
     "coordinator_x": 16,
     "coordinator_y": 0,
-    "level": 94,
+    "level": 80,
     "number": 4,
     "is_advance": 1,
     "def_percent": 0
@@ -147801,7 +147801,7 @@
     "enemy_character_type_id": 10006,
     "coordinator_x": 16,
     "coordinator_y": 3,
-    "level": 94,
+    "level": 80,
     "number": 4,
     "is_advance": 1,
     "def_percent": 0
@@ -147812,7 +147812,7 @@
     "enemy_character_type_id": 10006,
     "coordinator_x": 16,
     "coordinator_y": 6,
-    "level": 94,
+    "level": 80,
     "number": 4,
     "is_advance": 1,
     "def_percent": 0
@@ -147823,7 +147823,7 @@
     "enemy_character_type_id": 10004,
     "coordinator_x": 10,
     "coordinator_y": 0,
-    "level": 94,
+    "level": 80,
     "number": 4,
     "is_advance": 1,
     "def_percent": 0
@@ -147834,7 +147834,7 @@
     "enemy_character_type_id": 10004,
     "coordinator_x": 10,
     "coordinator_y": 3,
-    "level": 94,
+    "level": 80,
     "number": 4,
     "is_advance": 1,
     "def_percent": 0
@@ -147845,7 +147845,7 @@
     "enemy_character_type_id": 10004,
     "coordinator_x": 10,
     "coordinator_y": 6,
-    "level": 94,
+    "level": 80,
     "number": 4,
     "is_advance": 1,
     "def_percent": 0
@@ -147856,7 +147856,7 @@
     "enemy_character_type_id": 10004,
     "coordinator_x": 10,
     "coordinator_y": 9,
-    "level": 94,
+    "level": 80,
     "number": 4,
     "is_advance": 1,
     "def_percent": 0
@@ -147867,7 +147867,7 @@
     "enemy_character_type_id": 10004,
     "coordinator_x": 16,
     "coordinator_y": 0,
-    "level": 94,
+    "level": 80,
     "number": 4,
     "is_advance": 1,
     "def_percent": 0
@@ -147878,7 +147878,7 @@
     "enemy_character_type_id": 10004,
     "coordinator_x": 16,
     "coordinator_y": 3,
-    "level": 94,
+    "level": 80,
     "number": 4,
     "is_advance": 1,
     "def_percent": 0
@@ -147889,7 +147889,7 @@
     "enemy_character_type_id": 10004,
     "coordinator_x": 16,
     "coordinator_y": 6,
-    "level": 94,
+    "level": 80,
     "number": 4,
     "is_advance": 1,
     "def_percent": 0
@@ -147900,7 +147900,7 @@
     "enemy_character_type_id": 10004,
     "coordinator_x": 16,
     "coordinator_y": 9,
-    "level": 94,
+    "level": 80,
     "number": 4,
     "is_advance": 1,
     "def_percent": 0
@@ -147911,7 +147911,7 @@
     "enemy_character_type_id": 10007,
     "coordinator_x": 12,
     "coordinator_y": 0,
-    "level": 94,
+    "level": 80,
     "number": 4,
     "is_advance": 1,
     "def_percent": 0
@@ -147922,7 +147922,7 @@
     "enemy_character_type_id": 10007,
     "coordinator_x": 12,
     "coordinator_y": 3,
-    "level": 94,
+    "level": 80,
     "number": 4,
     "is_advance": 1,
     "def_percent": 0
@@ -147933,7 +147933,7 @@
     "enemy_character_type_id": 10007,
     "coordinator_x": 12,
     "coordinator_y": 6,
-    "level": 94,
+    "level": 80,
     "number": 4,
     "is_advance": 1,
     "def_percent": 0
@@ -147944,7 +147944,7 @@
     "enemy_character_type_id": 10004,
     "coordinator_x": 16,
     "coordinator_y": 0,
-    "level": 94,
+    "level": 80,
     "number": 4,
     "is_advance": 1,
     "def_percent": 0
@@ -147955,7 +147955,7 @@
     "enemy_character_type_id": 10004,
     "coordinator_x": 16,
     "coordinator_y": 3,
-    "level": 94,
+    "level": 80,
     "number": 4,
     "is_advance": 1,
     "def_percent": 0
@@ -147966,7 +147966,7 @@
     "enemy_character_type_id": 10004,
     "coordinator_x": 16,
     "coordinator_y": 6,
-    "level": 94,
+    "level": 80,
     "number": 4,
     "is_advance": 1,
     "def_percent": 0
@@ -147977,7 +147977,7 @@
     "enemy_character_type_id": 10017,
     "coordinator_x": 12,
     "coordinator_y": 0,
-    "level": 94,
+    "level": 80,
     "number": 4,
     "is_advance": 1,
     "def_percent": 0
@@ -147988,7 +147988,7 @@
     "enemy_character_type_id": 10017,
     "coordinator_x": 12,
     "coordinator_y": 3,
-    "level": 94,
+    "level": 80,
     "number": 4,
     "is_advance": 1,
     "def_percent": 0
@@ -147999,7 +147999,7 @@
     "enemy_character_type_id": 10017,
     "coordinator_x": 12,
     "coordinator_y": 6,
-    "level": 94,
+    "level": 80,
     "number": 4,
     "is_advance": 1,
     "def_percent": 0
@@ -148010,7 +148010,7 @@
     "enemy_character_type_id": 10017,
     "coordinator_x": 12,
     "coordinator_y": 9,
-    "level": 94,
+    "level": 80,
     "number": 4,
     "is_advance": 1,
     "def_percent": 0
@@ -148021,7 +148021,7 @@
     "enemy_character_type_id": 10017,
     "coordinator_x": 16,
     "coordinator_y": 0,
-    "level": 94,
+    "level": 80,
     "number": 4,
     "is_advance": 1,
     "def_percent": 0
@@ -148032,7 +148032,7 @@
     "enemy_character_type_id": 10017,
     "coordinator_x": 16,
     "coordinator_y": 3,
-    "level": 94,
+    "level": 80,
     "number": 4,
     "is_advance": 1,
     "def_percent": 0
@@ -148043,7 +148043,7 @@
     "enemy_character_type_id": 10017,
     "coordinator_x": 16,
     "coordinator_y": 6,
-    "level": 94,
+    "level": 80,
     "number": 4,
     "is_advance": 1,
     "def_percent": 0
@@ -148054,7 +148054,7 @@
     "enemy_character_type_id": 10017,
     "coordinator_x": 16,
     "coordinator_y": 9,
-    "level": 94,
+    "level": 80,
     "number": 4,
     "is_advance": 1,
     "def_percent": 0
@@ -148065,7 +148065,7 @@
     "enemy_character_type_id": 10007,
     "coordinator_x": 12,
     "coordinator_y": 0,
-    "level": 94,
+    "level": 80,
     "number": 4,
     "is_advance": 1,
     "def_percent": 0
@@ -148076,7 +148076,7 @@
     "enemy_character_type_id": 10007,
     "coordinator_x": 12,
     "coordinator_y": 3,
-    "level": 94,
+    "level": 80,
     "number": 4,
     "is_advance": 1,
     "def_percent": 0
@@ -148087,7 +148087,7 @@
     "enemy_character_type_id": 10007,
     "coordinator_x": 12,
     "coordinator_y": 6,
-    "level": 94,
+    "level": 80,
     "number": 4,
     "is_advance": 1,
     "def_percent": 0
@@ -148098,7 +148098,7 @@
     "enemy_character_type_id": 10007,
     "coordinator_x": 12,
     "coordinator_y": 9,
-    "level": 94,
+    "level": 80,
     "number": 4,
     "is_advance": 1,
     "def_percent": 0
@@ -148109,7 +148109,7 @@
     "enemy_character_type_id": 10005,
     "coordinator_x": 16,
     "coordinator_y": 0,
-    "level": 94,
+    "level": 80,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -148120,7 +148120,7 @@
     "enemy_character_type_id": 10005,
     "coordinator_x": 16,
     "coordinator_y": 3,
-    "level": 94,
+    "level": 80,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -148131,7 +148131,7 @@
     "enemy_character_type_id": 10005,
     "coordinator_x": 16,
     "coordinator_y": 6,
-    "level": 94,
+    "level": 80,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -148142,7 +148142,7 @@
     "enemy_character_type_id": 10005,
     "coordinator_x": 16,
     "coordinator_y": 9,
-    "level": 94,
+    "level": 80,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -148153,7 +148153,7 @@
     "enemy_character_type_id": 10002,
     "coordinator_x": 12,
     "coordinator_y": 0,
-    "level": 94,
+    "level": 80,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -148164,7 +148164,7 @@
     "enemy_character_type_id": 10002,
     "coordinator_x": 12,
     "coordinator_y": 3,
-    "level": 94,
+    "level": 80,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -148175,7 +148175,7 @@
     "enemy_character_type_id": 10002,
     "coordinator_x": 12,
     "coordinator_y": 6,
-    "level": 94,
+    "level": 80,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -148186,7 +148186,7 @@
     "enemy_character_type_id": 10005,
     "coordinator_x": 16,
     "coordinator_y": 0,
-    "level": 94,
+    "level": 80,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -148197,7 +148197,7 @@
     "enemy_character_type_id": 10005,
     "coordinator_x": 16,
     "coordinator_y": 3,
-    "level": 94,
+    "level": 80,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -148208,7 +148208,7 @@
     "enemy_character_type_id": 10005,
     "coordinator_x": 16,
     "coordinator_y": 6,
-    "level": 94,
+    "level": 80,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -148219,7 +148219,7 @@
     "enemy_character_type_id": 10007,
     "coordinator_x": 12,
     "coordinator_y": 0,
-    "level": 94,
+    "level": 80,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -148230,7 +148230,7 @@
     "enemy_character_type_id": 10007,
     "coordinator_x": 12,
     "coordinator_y": 3,
-    "level": 94,
+    "level": 80,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -148241,7 +148241,7 @@
     "enemy_character_type_id": 10007,
     "coordinator_x": 12,
     "coordinator_y": 6,
-    "level": 94,
+    "level": 80,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -148252,7 +148252,7 @@
     "enemy_character_type_id": 10006,
     "coordinator_x": 16,
     "coordinator_y": 0,
-    "level": 94,
+    "level": 80,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -148263,7 +148263,7 @@
     "enemy_character_type_id": 10006,
     "coordinator_x": 16,
     "coordinator_y": 3,
-    "level": 94,
+    "level": 80,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -148274,7 +148274,7 @@
     "enemy_character_type_id": 10006,
     "coordinator_x": 16,
     "coordinator_y": 6,
-    "level": 94,
+    "level": 80,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -148285,7 +148285,7 @@
     "enemy_character_type_id": 10004,
     "coordinator_x": 10,
     "coordinator_y": 0,
-    "level": 94,
+    "level": 80,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -148296,7 +148296,7 @@
     "enemy_character_type_id": 10004,
     "coordinator_x": 10,
     "coordinator_y": 3,
-    "level": 94,
+    "level": 80,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -148307,7 +148307,7 @@
     "enemy_character_type_id": 10004,
     "coordinator_x": 10,
     "coordinator_y": 6,
-    "level": 94,
+    "level": 80,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -148318,7 +148318,7 @@
     "enemy_character_type_id": 10004,
     "coordinator_x": 10,
     "coordinator_y": 9,
-    "level": 94,
+    "level": 80,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -148329,7 +148329,7 @@
     "enemy_character_type_id": 10004,
     "coordinator_x": 16,
     "coordinator_y": 0,
-    "level": 94,
+    "level": 80,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -148340,7 +148340,7 @@
     "enemy_character_type_id": 10004,
     "coordinator_x": 16,
     "coordinator_y": 3,
-    "level": 94,
+    "level": 80,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -148351,7 +148351,7 @@
     "enemy_character_type_id": 10004,
     "coordinator_x": 16,
     "coordinator_y": 6,
-    "level": 94,
+    "level": 80,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -148362,7 +148362,7 @@
     "enemy_character_type_id": 10004,
     "coordinator_x": 16,
     "coordinator_y": 9,
-    "level": 94,
+    "level": 80,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -148373,7 +148373,7 @@
     "enemy_character_type_id": 10007,
     "coordinator_x": 12,
     "coordinator_y": 0,
-    "level": 94,
+    "level": 80,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -148384,7 +148384,7 @@
     "enemy_character_type_id": 10007,
     "coordinator_x": 12,
     "coordinator_y": 3,
-    "level": 94,
+    "level": 80,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -148395,7 +148395,7 @@
     "enemy_character_type_id": 10007,
     "coordinator_x": 12,
     "coordinator_y": 6,
-    "level": 94,
+    "level": 80,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -148406,7 +148406,7 @@
     "enemy_character_type_id": 10004,
     "coordinator_x": 16,
     "coordinator_y": 0,
-    "level": 94,
+    "level": 80,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -148417,7 +148417,7 @@
     "enemy_character_type_id": 10004,
     "coordinator_x": 16,
     "coordinator_y": 3,
-    "level": 94,
+    "level": 80,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -148428,7 +148428,7 @@
     "enemy_character_type_id": 10004,
     "coordinator_x": 16,
     "coordinator_y": 6,
-    "level": 94,
+    "level": 80,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -148439,7 +148439,7 @@
     "enemy_character_type_id": 10017,
     "coordinator_x": 12,
     "coordinator_y": 0,
-    "level": 94,
+    "level": 80,
     "number": 4,
     "is_advance": 1,
     "def_percent": 0
@@ -148450,7 +148450,7 @@
     "enemy_character_type_id": 10017,
     "coordinator_x": 12,
     "coordinator_y": 3,
-    "level": 94,
+    "level": 80,
     "number": 4,
     "is_advance": 1,
     "def_percent": 0
@@ -148461,7 +148461,7 @@
     "enemy_character_type_id": 10017,
     "coordinator_x": 12,
     "coordinator_y": 6,
-    "level": 94,
+    "level": 80,
     "number": 4,
     "is_advance": 1,
     "def_percent": 0
@@ -148472,7 +148472,7 @@
     "enemy_character_type_id": 10017,
     "coordinator_x": 12,
     "coordinator_y": 9,
-    "level": 94,
+    "level": 80,
     "number": 4,
     "is_advance": 1,
     "def_percent": 0
@@ -148483,7 +148483,7 @@
     "enemy_character_type_id": 10017,
     "coordinator_x": 16,
     "coordinator_y": 0,
-    "level": 94,
+    "level": 80,
     "number": 4,
     "is_advance": 1,
     "def_percent": 0
@@ -148494,7 +148494,7 @@
     "enemy_character_type_id": 10017,
     "coordinator_x": 16,
     "coordinator_y": 3,
-    "level": 94,
+    "level": 80,
     "number": 4,
     "is_advance": 1,
     "def_percent": 0
@@ -148505,7 +148505,7 @@
     "enemy_character_type_id": 10017,
     "coordinator_x": 16,
     "coordinator_y": 6,
-    "level": 94,
+    "level": 80,
     "number": 4,
     "is_advance": 1,
     "def_percent": 0
@@ -148516,7 +148516,7 @@
     "enemy_character_type_id": 10017,
     "coordinator_x": 16,
     "coordinator_y": 9,
-    "level": 94,
+    "level": 80,
     "number": 4,
     "is_advance": 1,
     "def_percent": 0
@@ -148527,7 +148527,7 @@
     "enemy_character_type_id": 10007,
     "coordinator_x": 12,
     "coordinator_y": 0,
-    "level": 94,
+    "level": 80,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -148538,7 +148538,7 @@
     "enemy_character_type_id": 10007,
     "coordinator_x": 12,
     "coordinator_y": 3,
-    "level": 94,
+    "level": 80,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -148549,7 +148549,7 @@
     "enemy_character_type_id": 10007,
     "coordinator_x": 12,
     "coordinator_y": 6,
-    "level": 94,
+    "level": 80,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -148560,7 +148560,7 @@
     "enemy_character_type_id": 10007,
     "coordinator_x": 12,
     "coordinator_y": 9,
-    "level": 94,
+    "level": 80,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -148571,7 +148571,7 @@
     "enemy_character_type_id": 10005,
     "coordinator_x": 16,
     "coordinator_y": 0,
-    "level": 94,
+    "level": 80,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -148582,7 +148582,7 @@
     "enemy_character_type_id": 10005,
     "coordinator_x": 16,
     "coordinator_y": 3,
-    "level": 94,
+    "level": 80,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -148593,7 +148593,7 @@
     "enemy_character_type_id": 10005,
     "coordinator_x": 16,
     "coordinator_y": 6,
-    "level": 94,
+    "level": 80,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -148604,7 +148604,7 @@
     "enemy_character_type_id": 10005,
     "coordinator_x": 16,
     "coordinator_y": 9,
-    "level": 94,
+    "level": 80,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -148615,7 +148615,7 @@
     "enemy_character_type_id": 10008,
     "coordinator_x": 12,
     "coordinator_y": 0,
-    "level": 94,
+    "level": 80,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -148626,7 +148626,7 @@
     "enemy_character_type_id": 10008,
     "coordinator_x": 12,
     "coordinator_y": 3,
-    "level": 94,
+    "level": 80,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -148637,7 +148637,7 @@
     "enemy_character_type_id": 10008,
     "coordinator_x": 12,
     "coordinator_y": 6,
-    "level": 94,
+    "level": 80,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -148648,7 +148648,7 @@
     "enemy_character_type_id": 10008,
     "coordinator_x": 12,
     "coordinator_y": 9,
-    "level": 94,
+    "level": 80,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -148659,7 +148659,7 @@
     "enemy_character_type_id": 10007,
     "coordinator_x": 12,
     "coordinator_y": 0,
-    "level": 94,
+    "level": 80,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -148670,7 +148670,7 @@
     "enemy_character_type_id": 10007,
     "coordinator_x": 12,
     "coordinator_y": 3,
-    "level": 94,
+    "level": 80,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -148681,7 +148681,7 @@
     "enemy_character_type_id": 10007,
     "coordinator_x": 12,
     "coordinator_y": 6,
-    "level": 94,
+    "level": 80,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -148692,7 +148692,7 @@
     "enemy_character_type_id": 10007,
     "coordinator_x": 12,
     "coordinator_y": 9,
-    "level": 94,
+    "level": 80,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -148703,7 +148703,7 @@
     "enemy_character_type_id": 10006,
     "coordinator_x": 16,
     "coordinator_y": 0,
-    "level": 94,
+    "level": 80,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -148714,7 +148714,7 @@
     "enemy_character_type_id": 10006,
     "coordinator_x": 16,
     "coordinator_y": 3,
-    "level": 94,
+    "level": 80,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -148725,7 +148725,7 @@
     "enemy_character_type_id": 10006,
     "coordinator_x": 16,
     "coordinator_y": 6,
-    "level": 94,
+    "level": 80,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -148736,7 +148736,7 @@
     "enemy_character_type_id": 10006,
     "coordinator_x": 16,
     "coordinator_y": 9,
-    "level": 94,
+    "level": 80,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -148747,7 +148747,7 @@
     "enemy_character_type_id": 10001,
     "coordinator_x": 10,
     "coordinator_y": 0,
-    "level": 94,
+    "level": 80,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -148758,7 +148758,7 @@
     "enemy_character_type_id": 10001,
     "coordinator_x": 10,
     "coordinator_y": 3,
-    "level": 94,
+    "level": 80,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -148769,7 +148769,7 @@
     "enemy_character_type_id": 10001,
     "coordinator_x": 10,
     "coordinator_y": 6,
-    "level": 94,
+    "level": 80,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -148780,7 +148780,7 @@
     "enemy_character_type_id": 10001,
     "coordinator_x": 10,
     "coordinator_y": 9,
-    "level": 94,
+    "level": 80,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -148791,7 +148791,7 @@
     "enemy_character_type_id": 10002,
     "coordinator_x": 14,
     "coordinator_y": 0,
-    "level": 94,
+    "level": 80,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -148802,7 +148802,7 @@
     "enemy_character_type_id": 10002,
     "coordinator_x": 14,
     "coordinator_y": 3,
-    "level": 94,
+    "level": 80,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -148813,7 +148813,7 @@
     "enemy_character_type_id": 10002,
     "coordinator_x": 14,
     "coordinator_y": 6,
-    "level": 94,
+    "level": 80,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -148824,7 +148824,7 @@
     "enemy_character_type_id": 10002,
     "coordinator_x": 14,
     "coordinator_y": 9,
-    "level": 94,
+    "level": 80,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -148835,7 +148835,7 @@
     "enemy_character_type_id": 10004,
     "coordinator_x": 16,
     "coordinator_y": 0,
-    "level": 94,
+    "level": 80,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -148846,7 +148846,7 @@
     "enemy_character_type_id": 10004,
     "coordinator_x": 16,
     "coordinator_y": 3,
-    "level": 94,
+    "level": 80,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -148857,7 +148857,7 @@
     "enemy_character_type_id": 10004,
     "coordinator_x": 16,
     "coordinator_y": 6,
-    "level": 94,
+    "level": 80,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -148868,7 +148868,7 @@
     "enemy_character_type_id": 10004,
     "coordinator_x": 16,
     "coordinator_y": 9,
-    "level": 94,
+    "level": 80,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -148879,7 +148879,7 @@
     "enemy_character_type_id": 10015,
     "coordinator_x": 12,
     "coordinator_y": 0,
-    "level": 94,
+    "level": 80,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -148890,7 +148890,7 @@
     "enemy_character_type_id": 10015,
     "coordinator_x": 12,
     "coordinator_y": 3,
-    "level": 94,
+    "level": 80,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -148901,7 +148901,7 @@
     "enemy_character_type_id": 10015,
     "coordinator_x": 12,
     "coordinator_y": 6,
-    "level": 94,
+    "level": 80,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -148912,7 +148912,7 @@
     "enemy_character_type_id": 10015,
     "coordinator_x": 12,
     "coordinator_y": 9,
-    "level": 94,
+    "level": 80,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -148923,7 +148923,7 @@
     "enemy_character_type_id": 10016,
     "coordinator_x": 16,
     "coordinator_y": 0,
-    "level": 94,
+    "level": 80,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -148934,7 +148934,7 @@
     "enemy_character_type_id": 10016,
     "coordinator_x": 16,
     "coordinator_y": 3,
-    "level": 94,
+    "level": 80,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -148945,7 +148945,7 @@
     "enemy_character_type_id": 10016,
     "coordinator_x": 16,
     "coordinator_y": 6,
-    "level": 94,
+    "level": 80,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -148956,7 +148956,7 @@
     "enemy_character_type_id": 10016,
     "coordinator_x": 16,
     "coordinator_y": 9,
-    "level": 94,
+    "level": 80,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -148967,7 +148967,7 @@
     "enemy_character_type_id": 10015,
     "coordinator_x": 12,
     "coordinator_y": 0,
-    "level": 94,
+    "level": 80,
     "number": 4,
     "is_advance": 1,
     "def_percent": 0
@@ -148978,7 +148978,7 @@
     "enemy_character_type_id": 10015,
     "coordinator_x": 12,
     "coordinator_y": 3,
-    "level": 94,
+    "level": 80,
     "number": 4,
     "is_advance": 1,
     "def_percent": 0
@@ -148989,7 +148989,7 @@
     "enemy_character_type_id": 10015,
     "coordinator_x": 12,
     "coordinator_y": 6,
-    "level": 94,
+    "level": 80,
     "number": 4,
     "is_advance": 1,
     "def_percent": 0
@@ -149000,7 +149000,7 @@
     "enemy_character_type_id": 10015,
     "coordinator_x": 12,
     "coordinator_y": 9,
-    "level": 94,
+    "level": 80,
     "number": 4,
     "is_advance": 1,
     "def_percent": 0
@@ -149011,7 +149011,7 @@
     "enemy_character_type_id": 10016,
     "coordinator_x": 16,
     "coordinator_y": 0,
-    "level": 94,
+    "level": 80,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -149022,7 +149022,7 @@
     "enemy_character_type_id": 10016,
     "coordinator_x": 16,
     "coordinator_y": 3,
-    "level": 94,
+    "level": 80,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -149033,7 +149033,7 @@
     "enemy_character_type_id": 10016,
     "coordinator_x": 16,
     "coordinator_y": 6,
-    "level": 94,
+    "level": 80,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -149044,7 +149044,7 @@
     "enemy_character_type_id": 10016,
     "coordinator_x": 16,
     "coordinator_y": 9,
-    "level": 94,
+    "level": 80,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -149055,7 +149055,7 @@
     "enemy_character_type_id": 10015,
     "coordinator_x": 12,
     "coordinator_y": 0,
-    "level": 94,
+    "level": 80,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -149066,7 +149066,7 @@
     "enemy_character_type_id": 10015,
     "coordinator_x": 12,
     "coordinator_y": 3,
-    "level": 94,
+    "level": 80,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -149077,7 +149077,7 @@
     "enemy_character_type_id": 10015,
     "coordinator_x": 12,
     "coordinator_y": 6,
-    "level": 94,
+    "level": 80,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -149088,7 +149088,7 @@
     "enemy_character_type_id": 10015,
     "coordinator_x": 12,
     "coordinator_y": 9,
-    "level": 94,
+    "level": 80,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -149099,7 +149099,7 @@
     "enemy_character_type_id": 10016,
     "coordinator_x": 16,
     "coordinator_y": 0,
-    "level": 94,
+    "level": 80,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -149110,7 +149110,7 @@
     "enemy_character_type_id": 10016,
     "coordinator_x": 16,
     "coordinator_y": 3,
-    "level": 94,
+    "level": 80,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -149121,7 +149121,7 @@
     "enemy_character_type_id": 10016,
     "coordinator_x": 16,
     "coordinator_y": 6,
-    "level": 94,
+    "level": 80,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -149132,7 +149132,7 @@
     "enemy_character_type_id": 10016,
     "coordinator_x": 16,
     "coordinator_y": 9,
-    "level": 94,
+    "level": 80,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -149143,7 +149143,7 @@
     "enemy_character_type_id": 10018,
     "coordinator_x": 11,
     "coordinator_y": 0,
-    "level": 94,
+    "level": 80,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -149154,7 +149154,7 @@
     "enemy_character_type_id": 10018,
     "coordinator_x": 12,
     "coordinator_y": 1,
-    "level": 94,
+    "level": 80,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -149165,7 +149165,7 @@
     "enemy_character_type_id": 10018,
     "coordinator_x": 13,
     "coordinator_y": 2,
-    "level": 94,
+    "level": 80,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -149176,7 +149176,7 @@
     "enemy_character_type_id": 10018,
     "coordinator_x": 12,
     "coordinator_y": 3,
-    "level": 94,
+    "level": 80,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -149187,7 +149187,7 @@
     "enemy_character_type_id": 10018,
     "coordinator_x": 11,
     "coordinator_y": 4,
-    "level": 94,
+    "level": 80,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -149198,7 +149198,7 @@
     "enemy_character_type_id": 10018,
     "coordinator_x": 13,
     "coordinator_y": 5,
-    "level": 94,
+    "level": 80,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -149209,7 +149209,7 @@
     "enemy_character_type_id": 10018,
     "coordinator_x": 12,
     "coordinator_y": 6,
-    "level": 94,
+    "level": 80,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -149220,7 +149220,7 @@
     "enemy_character_type_id": 10018,
     "coordinator_x": 11,
     "coordinator_y": 7,
-    "level": 94,
+    "level": 80,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -149231,7 +149231,7 @@
     "enemy_character_type_id": 10018,
     "coordinator_x": 12,
     "coordinator_y": 8,
-    "level": 94,
+    "level": 80,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -149242,7 +149242,7 @@
     "enemy_character_type_id": 10018,
     "coordinator_x": 11,
     "coordinator_y": 9,
-    "level": 94,
+    "level": 80,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -149253,7 +149253,7 @@
     "enemy_character_type_id": 10018,
     "coordinator_x": 11,
     "coordinator_y": 0,
-    "level": 94,
+    "level": 80,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -149264,7 +149264,7 @@
     "enemy_character_type_id": 10018,
     "coordinator_x": 12,
     "coordinator_y": 1,
-    "level": 94,
+    "level": 80,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -149275,7 +149275,7 @@
     "enemy_character_type_id": 10018,
     "coordinator_x": 13,
     "coordinator_y": 2,
-    "level": 94,
+    "level": 80,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -149286,7 +149286,7 @@
     "enemy_character_type_id": 10018,
     "coordinator_x": 12,
     "coordinator_y": 3,
-    "level": 94,
+    "level": 80,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -149297,7 +149297,7 @@
     "enemy_character_type_id": 10018,
     "coordinator_x": 11,
     "coordinator_y": 4,
-    "level": 94,
+    "level": 80,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -149308,7 +149308,7 @@
     "enemy_character_type_id": 10018,
     "coordinator_x": 13,
     "coordinator_y": 5,
-    "level": 94,
+    "level": 80,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -149319,7 +149319,7 @@
     "enemy_character_type_id": 10018,
     "coordinator_x": 12,
     "coordinator_y": 6,
-    "level": 94,
+    "level": 80,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -149330,7 +149330,7 @@
     "enemy_character_type_id": 10018,
     "coordinator_x": 11,
     "coordinator_y": 7,
-    "level": 94,
+    "level": 80,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -149341,7 +149341,7 @@
     "enemy_character_type_id": 10018,
     "coordinator_x": 12,
     "coordinator_y": 8,
-    "level": 94,
+    "level": 80,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -149352,7 +149352,7 @@
     "enemy_character_type_id": 10018,
     "coordinator_x": 11,
     "coordinator_y": 9,
-    "level": 94,
+    "level": 80,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -149363,7 +149363,7 @@
     "enemy_character_type_id": 10003,
     "coordinator_x": 11,
     "coordinator_y": 0,
-    "level": 94,
+    "level": 80,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -149374,7 +149374,7 @@
     "enemy_character_type_id": 10003,
     "coordinator_x": 12,
     "coordinator_y": 1,
-    "level": 94,
+    "level": 80,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -149385,7 +149385,7 @@
     "enemy_character_type_id": 10003,
     "coordinator_x": 13,
     "coordinator_y": 2,
-    "level": 94,
+    "level": 80,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -149396,7 +149396,7 @@
     "enemy_character_type_id": 10003,
     "coordinator_x": 12,
     "coordinator_y": 3,
-    "level": 94,
+    "level": 80,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -149407,7 +149407,7 @@
     "enemy_character_type_id": 10003,
     "coordinator_x": 11,
     "coordinator_y": 4,
-    "level": 94,
+    "level": 80,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -149418,7 +149418,7 @@
     "enemy_character_type_id": 10003,
     "coordinator_x": 13,
     "coordinator_y": 5,
-    "level": 94,
+    "level": 80,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -149429,7 +149429,7 @@
     "enemy_character_type_id": 10003,
     "coordinator_x": 12,
     "coordinator_y": 6,
-    "level": 94,
+    "level": 80,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -149440,7 +149440,7 @@
     "enemy_character_type_id": 10003,
     "coordinator_x": 11,
     "coordinator_y": 7,
-    "level": 94,
+    "level": 80,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -149451,7 +149451,7 @@
     "enemy_character_type_id": 10003,
     "coordinator_x": 12,
     "coordinator_y": 8,
-    "level": 94,
+    "level": 80,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -149462,7 +149462,7 @@
     "enemy_character_type_id": 10003,
     "coordinator_x": 11,
     "coordinator_y": 9,
-    "level": 94,
+    "level": 80,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -187621,7 +187621,7 @@
     "enemy_character_type_id": 900032,
     "coordinator_x": 13,
     "coordinator_y": 2,
-    "level": 180,
+    "level": 120,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -187632,7 +187632,7 @@
     "enemy_character_type_id": 900032,
     "coordinator_x": 20,
     "coordinator_y": 5,
-    "level": 180,
+    "level": 120,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -187643,7 +187643,7 @@
     "enemy_character_type_id": 900032,
     "coordinator_x": 27,
     "coordinator_y": 8,
-    "level": 180,
+    "level": 120,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -187654,7 +187654,7 @@
     "enemy_character_type_id": 900032,
     "coordinator_x": 31,
     "coordinator_y": 2,
-    "level": 180,
+    "level": 120,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -187665,7 +187665,7 @@
     "enemy_character_type_id": 900032,
     "coordinator_x": 38,
     "coordinator_y": 5,
-    "level": 180,
+    "level": 120,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -187676,7 +187676,7 @@
     "enemy_character_type_id": 10002,
     "coordinator_x": 10,
     "coordinator_y": 7,
-    "level": 130,
+    "level": 80,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -187687,7 +187687,7 @@
     "enemy_character_type_id": 10002,
     "coordinator_x": 11,
     "coordinator_y": 4,
-    "level": 130,
+    "level": 80,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -187698,7 +187698,7 @@
     "enemy_character_type_id": 10002,
     "coordinator_x": 12,
     "coordinator_y": 1,
-    "level": 130,
+    "level": 80,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -187709,7 +187709,7 @@
     "enemy_character_type_id": 10004,
     "coordinator_x": 13,
     "coordinator_y": 6,
-    "level": 130,
+    "level": 80,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -187720,7 +187720,7 @@
     "enemy_character_type_id": 10004,
     "coordinator_x": 14,
     "coordinator_y": 3,
-    "level": 130,
+    "level": 80,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -187731,7 +187731,7 @@
     "enemy_character_type_id": 10001,
     "coordinator_x": 10,
     "coordinator_y": 7,
-    "level": 130,
+    "level": 80,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -187742,7 +187742,7 @@
     "enemy_character_type_id": 10001,
     "coordinator_x": 10,
     "coordinator_y": 3,
-    "level": 130,
+    "level": 80,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -187753,7 +187753,7 @@
     "enemy_character_type_id": 10009,
     "coordinator_x": 11,
     "coordinator_y": 5,
-    "level": 130,
+    "level": 80,
     "number": 1,
     "is_advance": 1,
     "def_percent": 0
@@ -187764,7 +187764,7 @@
     "enemy_character_type_id": 10001,
     "coordinator_x": 12,
     "coordinator_y": 9,
-    "level": 130,
+    "level": 80,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -187775,7 +187775,7 @@
     "enemy_character_type_id": 10001,
     "coordinator_x": 12,
     "coordinator_y": 1,
-    "level": 130,
+    "level": 80,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -187786,7 +187786,7 @@
     "enemy_character_type_id": 10003,
     "coordinator_x": 13,
     "coordinator_y": 3,
-    "level": 130,
+    "level": 80,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -187797,7 +187797,7 @@
     "enemy_character_type_id": 10003,
     "coordinator_x": 15,
     "coordinator_y": 3,
-    "level": 130,
+    "level": 80,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -187808,7 +187808,7 @@
     "enemy_character_type_id": 10003,
     "coordinator_x": 13,
     "coordinator_y": 7,
-    "level": 130,
+    "level": 80,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -187819,7 +187819,7 @@
     "enemy_character_type_id": 10003,
     "coordinator_x": 15,
     "coordinator_y": 7,
-    "level": 130,
+    "level": 80,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -187830,7 +187830,7 @@
     "enemy_character_type_id": 10003,
     "coordinator_x": 17,
     "coordinator_y": 3,
-    "level": 130,
+    "level": 80,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -187841,7 +187841,7 @@
     "enemy_character_type_id": 10003,
     "coordinator_x": 17,
     "coordinator_y": 7,
-    "level": 130,
+    "level": 80,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -187852,7 +187852,7 @@
     "enemy_character_type_id": 10003,
     "coordinator_x": 17,
     "coordinator_y": 7,
-    "level": 130,
+    "level": 80,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -187863,7 +187863,7 @@
     "enemy_character_type_id": 10003,
     "coordinator_x": 17,
     "coordinator_y": 3,
-    "level": 130,
+    "level": 80,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -187874,7 +187874,7 @@
     "enemy_character_type_id": 10003,
     "coordinator_x": 17,
     "coordinator_y": 5,
-    "level": 130,
+    "level": 80,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -187885,7 +187885,7 @@
     "enemy_character_type_id": 10003,
     "coordinator_x": 15,
     "coordinator_y": 5,
-    "level": 130,
+    "level": 80,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -187896,7 +187896,7 @@
     "enemy_character_type_id": 10003,
     "coordinator_x": 13,
     "coordinator_y": 7,
-    "level": 130,
+    "level": 80,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -187907,7 +187907,7 @@
     "enemy_character_type_id": 10003,
     "coordinator_x": 13,
     "coordinator_y": 5,
-    "level": 130,
+    "level": 80,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -187918,7 +187918,7 @@
     "enemy_character_type_id": 10003,
     "coordinator_x": 13,
     "coordinator_y": 3,
-    "level": 130,
+    "level": 80,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -187929,7 +187929,7 @@
     "enemy_character_type_id": 10003,
     "coordinator_x": 11,
     "coordinator_y": 5,
-    "level": 130,
+    "level": 80,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -187940,7 +187940,7 @@
     "enemy_character_type_id": 10003,
     "coordinator_x": 19,
     "coordinator_y": 5,
-    "level": 130,
+    "level": 80,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -187951,7 +187951,7 @@
     "enemy_character_type_id": 10003,
     "coordinator_x": 21,
     "coordinator_y": 7,
-    "level": 130,
+    "level": 80,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -187962,7 +187962,7 @@
     "enemy_character_type_id": 10003,
     "coordinator_x": 21,
     "coordinator_y": 5,
-    "level": 130,
+    "level": 80,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -187973,7 +187973,7 @@
     "enemy_character_type_id": 10003,
     "coordinator_x": 21,
     "coordinator_y": 3,
-    "level": 130,
+    "level": 80,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -187984,7 +187984,7 @@
     "enemy_character_type_id": 10004,
     "coordinator_x": 9,
     "coordinator_y": 6,
-    "level": 130,
+    "level": 80,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -187995,7 +187995,7 @@
     "enemy_character_type_id": 10004,
     "coordinator_x": 9,
     "coordinator_y": 3,
-    "level": 130,
+    "level": 80,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -188006,7 +188006,7 @@
     "enemy_character_type_id": 10005,
     "coordinator_x": 12,
     "coordinator_y": 3,
-    "level": 130,
+    "level": 80,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -188017,7 +188017,7 @@
     "enemy_character_type_id": 10005,
     "coordinator_x": 12,
     "coordinator_y": 6,
-    "level": 130,
+    "level": 80,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -188028,7 +188028,7 @@
     "enemy_character_type_id": 10005,
     "coordinator_x": 12,
     "coordinator_y": 9,
-    "level": 130,
+    "level": 80,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -188270,7 +188270,7 @@
     "enemy_character_type_id": 10017,
     "coordinator_x": 11,
     "coordinator_y": 5,
-    "level": 130,
+    "level": 80,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -188281,7 +188281,7 @@
     "enemy_character_type_id": 10017,
     "coordinator_x": 9,
     "coordinator_y": 2,
-    "level": 130,
+    "level": 80,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -188292,7 +188292,7 @@
     "enemy_character_type_id": 10017,
     "coordinator_x": 13,
     "coordinator_y": 8,
-    "level": 130,
+    "level": 80,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -188303,7 +188303,7 @@
     "enemy_character_type_id": 10004,
     "coordinator_x": 13,
     "coordinator_y": 3,
-    "level": 130,
+    "level": 80,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -188314,7 +188314,7 @@
     "enemy_character_type_id": 10004,
     "coordinator_x": 15,
     "coordinator_y": 6,
-    "level": 130,
+    "level": 80,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -188325,7 +188325,7 @@
     "enemy_character_type_id": 10008,
     "coordinator_x": 10,
     "coordinator_y": 9,
-    "level": 130,
+    "level": 80,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -188336,7 +188336,7 @@
     "enemy_character_type_id": 10012,
     "coordinator_x": 13,
     "coordinator_y": 6,
-    "level": 130,
+    "level": 80,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -188347,7 +188347,7 @@
     "enemy_character_type_id": 10012,
     "coordinator_x": 13,
     "coordinator_y": 3,
-    "level": 130,
+    "level": 80,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -188358,7 +188358,7 @@
     "enemy_character_type_id": 10008,
     "coordinator_x": 10,
     "coordinator_y": 6,
-    "level": 130,
+    "level": 80,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -188369,7 +188369,7 @@
     "enemy_character_type_id": 10008,
     "coordinator_x": 10,
     "coordinator_y": 3,
-    "level": 130,
+    "level": 80,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -188380,7 +188380,7 @@
     "enemy_character_type_id": 10011,
     "coordinator_x": 9,
     "coordinator_y": 3,
-    "level": 130,
+    "level": 80,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -188391,7 +188391,7 @@
     "enemy_character_type_id": 10011,
     "coordinator_x": 9,
     "coordinator_y": 6,
-    "level": 130,
+    "level": 80,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -188402,7 +188402,7 @@
     "enemy_character_type_id": 10011,
     "coordinator_x": 9,
     "coordinator_y": 9,
-    "level": 130,
+    "level": 80,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -188413,7 +188413,7 @@
     "enemy_character_type_id": 10016,
     "coordinator_x": 12,
     "coordinator_y": 6,
-    "level": 130,
+    "level": 80,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -188424,7 +188424,7 @@
     "enemy_character_type_id": 10016,
     "coordinator_x": 12,
     "coordinator_y": 3,
-    "level": 130,
+    "level": 80,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -188435,7 +188435,7 @@
     "enemy_character_type_id": 10016,
     "coordinator_x": 12,
     "coordinator_y": 9,
-    "level": 130,
+    "level": 80,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -188446,7 +188446,7 @@
     "enemy_character_type_id": 10018,
     "coordinator_x": 12,
     "coordinator_y": 2,
-    "level": 130,
+    "level": 80,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -188457,7 +188457,7 @@
     "enemy_character_type_id": 10018,
     "coordinator_x": 14,
     "coordinator_y": 4,
-    "level": 130,
+    "level": 80,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -188468,7 +188468,7 @@
     "enemy_character_type_id": 10018,
     "coordinator_x": 16,
     "coordinator_y": 6,
-    "level": 130,
+    "level": 80,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -188479,7 +188479,7 @@
     "enemy_character_type_id": 10018,
     "coordinator_x": 18,
     "coordinator_y": 8,
-    "level": 130,
+    "level": 80,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -188490,7 +188490,7 @@
     "enemy_character_type_id": 10018,
     "coordinator_x": 10,
     "coordinator_y": 4,
-    "level": 130,
+    "level": 80,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -188501,7 +188501,7 @@
     "enemy_character_type_id": 10018,
     "coordinator_x": 12,
     "coordinator_y": 6,
-    "level": 130,
+    "level": 80,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -188512,7 +188512,7 @@
     "enemy_character_type_id": 10018,
     "coordinator_x": 14,
     "coordinator_y": 8,
-    "level": 130,
+    "level": 80,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -188523,7 +188523,7 @@
     "enemy_character_type_id": 10018,
     "coordinator_x": 16,
     "coordinator_y": 2,
-    "level": 130,
+    "level": 80,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -188534,7 +188534,7 @@
     "enemy_character_type_id": 10018,
     "coordinator_x": 18,
     "coordinator_y": 4,
-    "level": 130,
+    "level": 80,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -188545,7 +188545,7 @@
     "enemy_character_type_id": 10018,
     "coordinator_x": 20,
     "coordinator_y": 6,
-    "level": 130,
+    "level": 80,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -188556,7 +188556,7 @@
     "enemy_character_type_id": 10018,
     "coordinator_x": 22,
     "coordinator_y": 8,
-    "level": 130,
+    "level": 80,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -188567,7 +188567,7 @@
     "enemy_character_type_id": 10018,
     "coordinator_x": 22,
     "coordinator_y": 4,
-    "level": 130,
+    "level": 80,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -188578,7 +188578,7 @@
     "enemy_character_type_id": 10018,
     "coordinator_x": 24,
     "coordinator_y": 6,
-    "level": 130,
+    "level": 80,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -188589,7 +188589,7 @@
     "enemy_character_type_id": 10018,
     "coordinator_x": 20,
     "coordinator_y": 2,
-    "level": 130,
+    "level": 80,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -188600,7 +188600,7 @@
     "enemy_character_type_id": 10007,
     "coordinator_x": 9,
     "coordinator_y": 2,
-    "level": 130,
+    "level": 80,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -188611,7 +188611,7 @@
     "enemy_character_type_id": 10007,
     "coordinator_x": 9,
     "coordinator_y": 5,
-    "level": 130,
+    "level": 80,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -188622,7 +188622,7 @@
     "enemy_character_type_id": 10007,
     "coordinator_x": 9,
     "coordinator_y": 8,
-    "level": 130,
+    "level": 80,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -188633,7 +188633,7 @@
     "enemy_character_type_id": 10006,
     "coordinator_x": 12,
     "coordinator_y": 8,
-    "level": 130,
+    "level": 80,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -188644,7 +188644,7 @@
     "enemy_character_type_id": 10006,
     "coordinator_x": 12,
     "coordinator_y": 5,
-    "level": 130,
+    "level": 80,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -188655,7 +188655,7 @@
     "enemy_character_type_id": 10009,
     "coordinator_x": 11,
     "coordinator_y": 5,
-    "level": 130,
+    "level": 80,
     "number": 1,
     "is_advance": 1,
     "def_percent": 0
@@ -188666,7 +188666,7 @@
     "enemy_character_type_id": 10017,
     "coordinator_x": 10,
     "coordinator_y": 4,
-    "level": 130,
+    "level": 80,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -188677,7 +188677,7 @@
     "enemy_character_type_id": 10017,
     "coordinator_x": 10,
     "coordinator_y": 7,
-    "level": 130,
+    "level": 80,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -188688,7 +188688,7 @@
     "enemy_character_type_id": 10008,
     "coordinator_x": 12,
     "coordinator_y": 1,
-    "level": 130,
+    "level": 80,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -188699,7 +188699,7 @@
     "enemy_character_type_id": 10008,
     "coordinator_x": 12,
     "coordinator_y": 9,
-    "level": 130,
+    "level": 80,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -188710,7 +188710,7 @@
     "enemy_character_type_id": 10008,
     "coordinator_x": 13,
     "coordinator_y": 5,
-    "level": 130,
+    "level": 80,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -188721,7 +188721,7 @@
     "enemy_character_type_id": 10011,
     "coordinator_x": 10,
     "coordinator_y": 1,
-    "level": 150,
+    "level": 100,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -188732,7 +188732,7 @@
     "enemy_character_type_id": 10011,
     "coordinator_x": 10,
     "coordinator_y": 5,
-    "level": 150,
+    "level": 100,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -188743,7 +188743,7 @@
     "enemy_character_type_id": 10011,
     "coordinator_x": 10,
     "coordinator_y": 9,
-    "level": 150,
+    "level": 100,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -188754,7 +188754,7 @@
     "enemy_character_type_id": 10011,
     "coordinator_x": 12,
     "coordinator_y": 7,
-    "level": 150,
+    "level": 100,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -188765,7 +188765,7 @@
     "enemy_character_type_id": 10011,
     "coordinator_x": 12,
     "coordinator_y": 3,
-    "level": 150,
+    "level": 100,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -188776,7 +188776,7 @@
     "enemy_character_type_id": 10011,
     "coordinator_x": 14,
     "coordinator_y": 5,
-    "level": 150,
+    "level": 100,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -188787,7 +188787,7 @@
     "enemy_character_type_id": 10011,
     "coordinator_x": 14,
     "coordinator_y": 1,
-    "level": 150,
+    "level": 100,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -188798,7 +188798,7 @@
     "enemy_character_type_id": 10011,
     "coordinator_x": 14,
     "coordinator_y": 9,
-    "level": 150,
+    "level": 100,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -188809,7 +188809,7 @@
     "enemy_character_type_id": 10004,
     "coordinator_x": 10,
     "coordinator_y": 5,
-    "level": 150,
+    "level": 100,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -188820,7 +188820,7 @@
     "enemy_character_type_id": 10004,
     "coordinator_x": 10,
     "coordinator_y": 2,
-    "level": 150,
+    "level": 100,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -188831,7 +188831,7 @@
     "enemy_character_type_id": 10004,
     "coordinator_x": 10,
     "coordinator_y": 8,
-    "level": 150,
+    "level": 100,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -188842,7 +188842,7 @@
     "enemy_character_type_id": 10004,
     "coordinator_x": 12,
     "coordinator_y": 3,
-    "level": 150,
+    "level": 100,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -188853,7 +188853,7 @@
     "enemy_character_type_id": 10004,
     "coordinator_x": 12,
     "coordinator_y": 6,
-    "level": 150,
+    "level": 100,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -188864,7 +188864,7 @@
     "enemy_character_type_id": 10004,
     "coordinator_x": 12,
     "coordinator_y": 9,
-    "level": 150,
+    "level": 100,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -188875,7 +188875,7 @@
     "enemy_character_type_id": 10006,
     "coordinator_x": 14,
     "coordinator_y": 8,
-    "level": 150,
+    "level": 100,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -188886,7 +188886,7 @@
     "enemy_character_type_id": 10006,
     "coordinator_x": 14,
     "coordinator_y": 2,
-    "level": 150,
+    "level": 100,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -188897,7 +188897,7 @@
     "enemy_character_type_id": 10016,
     "coordinator_x": 10,
     "coordinator_y": 4,
-    "level": 150,
+    "level": 100,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -188908,7 +188908,7 @@
     "enemy_character_type_id": 10016,
     "coordinator_x": 13,
     "coordinator_y": 4,
-    "level": 150,
+    "level": 100,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -188919,7 +188919,7 @@
     "enemy_character_type_id": 10016,
     "coordinator_x": 11,
     "coordinator_y": 7,
-    "level": 150,
+    "level": 100,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -188930,7 +188930,7 @@
     "enemy_character_type_id": 10016,
     "coordinator_x": 11,
     "coordinator_y": 1,
-    "level": 150,
+    "level": 100,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -188941,7 +188941,7 @@
     "enemy_character_type_id": 10016,
     "coordinator_x": 14,
     "coordinator_y": 7,
-    "level": 150,
+    "level": 100,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -188952,7 +188952,7 @@
     "enemy_character_type_id": 10016,
     "coordinator_x": 17,
     "coordinator_y": 7,
-    "level": 150,
+    "level": 100,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -188963,7 +188963,7 @@
     "enemy_character_type_id": 10007,
     "coordinator_x": 10,
     "coordinator_y": 5,
-    "level": 150,
+    "level": 100,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -188974,7 +188974,7 @@
     "enemy_character_type_id": 10005,
     "coordinator_x": 11,
     "coordinator_y": 1,
-    "level": 150,
+    "level": 100,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -188985,7 +188985,7 @@
     "enemy_character_type_id": 10005,
     "coordinator_x": 13,
     "coordinator_y": 5,
-    "level": 150,
+    "level": 100,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -188996,7 +188996,7 @@
     "enemy_character_type_id": 10005,
     "coordinator_x": 14,
     "coordinator_y": 2,
-    "level": 150,
+    "level": 100,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -189007,7 +189007,7 @@
     "enemy_character_type_id": 10005,
     "coordinator_x": 14,
     "coordinator_y": 8,
-    "level": 150,
+    "level": 100,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -189018,7 +189018,7 @@
     "enemy_character_type_id": 10007,
     "coordinator_x": 12,
     "coordinator_y": 3,
-    "level": 150,
+    "level": 100,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -189029,7 +189029,7 @@
     "enemy_character_type_id": 10005,
     "coordinator_x": 11,
     "coordinator_y": 9,
-    "level": 150,
+    "level": 100,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -189040,7 +189040,7 @@
     "enemy_character_type_id": 10007,
     "coordinator_x": 12,
     "coordinator_y": 7,
-    "level": 150,
+    "level": 100,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -189051,7 +189051,7 @@
     "enemy_character_type_id": 10021,
     "coordinator_x": 11,
     "coordinator_y": 5,
-    "level": 150,
+    "level": 10,
     "number": 1,
     "is_advance": 1,
     "def_percent": 0
@@ -189062,7 +189062,7 @@
     "enemy_character_type_id": 10021,
     "coordinator_x": 11,
     "coordinator_y": 8,
-    "level": 150,
+    "level": 10,
     "number": 1,
     "is_advance": 1,
     "def_percent": 0
@@ -189073,7 +189073,7 @@
     "enemy_character_type_id": 10021,
     "coordinator_x": 14,
     "coordinator_y": 5,
-    "level": 150,
+    "level": 10,
     "number": 1,
     "is_advance": 1,
     "def_percent": 0
@@ -189084,7 +189084,7 @@
     "enemy_character_type_id": 10022,
     "coordinator_x": 12,
     "coordinator_y": 5,
-    "level": 150,
+    "level": 10,
     "number": 1,
     "is_advance": 1,
     "def_percent": 0
@@ -189095,7 +189095,7 @@
     "enemy_character_type_id": 10022,
     "coordinator_x": 21,
     "coordinator_y": 5,
-    "level": 150,
+    "level": 10,
     "number": 1,
     "is_advance": 1,
     "def_percent": 0
@@ -189106,7 +189106,7 @@
     "enemy_character_type_id": 10022,
     "coordinator_x": 24,
     "coordinator_y": 5,
-    "level": 150,
+    "level": 10,
     "number": 1,
     "is_advance": 1,
     "def_percent": 0
@@ -189117,7 +189117,7 @@
     "enemy_character_type_id": 10022,
     "coordinator_x": 15,
     "coordinator_y": 5,
-    "level": 150,
+    "level": 10,
     "number": 1,
     "is_advance": 1,
     "def_percent": 0
@@ -189128,7 +189128,7 @@
     "enemy_character_type_id": 10007,
     "coordinator_x": 10,
     "coordinator_y": 9,
-    "level": 150,
+    "level": 100,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -189139,7 +189139,7 @@
     "enemy_character_type_id": 10007,
     "coordinator_x": 10,
     "coordinator_y": 6,
-    "level": 150,
+    "level": 100,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -189150,7 +189150,7 @@
     "enemy_character_type_id": 10007,
     "coordinator_x": 10,
     "coordinator_y": 3,
-    "level": 150,
+    "level": 100,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -189161,7 +189161,7 @@
     "enemy_character_type_id": 10006,
     "coordinator_x": 12,
     "coordinator_y": 5,
-    "level": 150,
+    "level": 100,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -189172,7 +189172,7 @@
     "enemy_character_type_id": 10006,
     "coordinator_x": 12,
     "coordinator_y": 2,
-    "level": 150,
+    "level": 100,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -189183,7 +189183,7 @@
     "enemy_character_type_id": 10006,
     "coordinator_x": 12,
     "coordinator_y": 8,
-    "level": 150,
+    "level": 100,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -189194,7 +189194,7 @@
     "enemy_character_type_id": 10006,
     "coordinator_x": 14,
     "coordinator_y": 7,
-    "level": 150,
+    "level": 100,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -189205,7 +189205,7 @@
     "enemy_character_type_id": 10006,
     "coordinator_x": 14,
     "coordinator_y": 4,
-    "level": 150,
+    "level": 100,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -189216,7 +189216,7 @@
     "enemy_character_type_id": 10006,
     "coordinator_x": 14,
     "coordinator_y": 1,
-    "level": 150,
+    "level": 100,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -189227,7 +189227,7 @@
     "enemy_character_type_id": 10005,
     "coordinator_x": 14,
     "coordinator_y": 0,
-    "level": 150,
+    "level": 100,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -189238,7 +189238,7 @@
     "enemy_character_type_id": 10005,
     "coordinator_x": 15,
     "coordinator_y": 3,
-    "level": 150,
+    "level": 100,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -189249,7 +189249,7 @@
     "enemy_character_type_id": 10005,
     "coordinator_x": 12,
     "coordinator_y": 3,
-    "level": 150,
+    "level": 100,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -189260,7 +189260,7 @@
     "enemy_character_type_id": 10005,
     "coordinator_x": 13,
     "coordinator_y": 6,
-    "level": 150,
+    "level": 100,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -189271,7 +189271,7 @@
     "enemy_character_type_id": 10005,
     "coordinator_x": 12,
     "coordinator_y": 9,
-    "level": 150,
+    "level": 100,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -189282,7 +189282,7 @@
     "enemy_character_type_id": 10004,
     "coordinator_x": 10,
     "coordinator_y": 6,
-    "level": 150,
+    "level": 100,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -189293,7 +189293,7 @@
     "enemy_character_type_id": 10004,
     "coordinator_x": 9,
     "coordinator_y": 3,
-    "level": 150,
+    "level": 100,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -189304,7 +189304,7 @@
     "enemy_character_type_id": 10004,
     "coordinator_x": 9,
     "coordinator_y": 9,
-    "level": 150,
+    "level": 100,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -189315,7 +189315,7 @@
     "enemy_character_type_id": 10018,
     "coordinator_x": 11,
     "coordinator_y": 6,
-    "level": 150,
+    "level": 100,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -189326,7 +189326,7 @@
     "enemy_character_type_id": 10018,
     "coordinator_x": 13,
     "coordinator_y": 6,
-    "level": 150,
+    "level": 100,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -189337,7 +189337,7 @@
     "enemy_character_type_id": 10018,
     "coordinator_x": 11,
     "coordinator_y": 8,
-    "level": 150,
+    "level": 100,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -189348,7 +189348,7 @@
     "enemy_character_type_id": 10018,
     "coordinator_x": 11,
     "coordinator_y": 3,
-    "level": 150,
+    "level": 100,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -189359,7 +189359,7 @@
     "enemy_character_type_id": 10018,
     "coordinator_x": 13,
     "coordinator_y": 3,
-    "level": 150,
+    "level": 100,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -189370,7 +189370,7 @@
     "enemy_character_type_id": 10018,
     "coordinator_x": 11,
     "coordinator_y": 1,
-    "level": 150,
+    "level": 100,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -189381,7 +189381,7 @@
     "enemy_character_type_id": 10018,
     "coordinator_x": 15,
     "coordinator_y": 6,
-    "level": 150,
+    "level": 100,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -189392,7 +189392,7 @@
     "enemy_character_type_id": 10018,
     "coordinator_x": 15,
     "coordinator_y": 3,
-    "level": 150,
+    "level": 100,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -189403,7 +189403,7 @@
     "enemy_character_type_id": 10018,
     "coordinator_x": 17,
     "coordinator_y": 3,
-    "level": 150,
+    "level": 100,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -189414,7 +189414,7 @@
     "enemy_character_type_id": 10018,
     "coordinator_x": 17,
     "coordinator_y": 6,
-    "level": 150,
+    "level": 100,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -189425,7 +189425,7 @@
     "enemy_character_type_id": 10018,
     "coordinator_x": 19,
     "coordinator_y": 6,
-    "level": 150,
+    "level": 100,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -189436,7 +189436,7 @@
     "enemy_character_type_id": 10018,
     "coordinator_x": 19,
     "coordinator_y": 8,
-    "level": 150,
+    "level": 100,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -189447,7 +189447,7 @@
     "enemy_character_type_id": 10018,
     "coordinator_x": 19,
     "coordinator_y": 3,
-    "level": 150,
+    "level": 100,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -189458,7 +189458,7 @@
     "enemy_character_type_id": 10018,
     "coordinator_x": 19,
     "coordinator_y": 1,
-    "level": 150,
+    "level": 100,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -189469,7 +189469,7 @@
     "enemy_character_type_id": 10018,
     "coordinator_x": 14,
     "coordinator_y": 1,
-    "level": 150,
+    "level": 100,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -189480,7 +189480,7 @@
     "enemy_character_type_id": 10018,
     "coordinator_x": 14,
     "coordinator_y": 8,
-    "level": 150,
+    "level": 100,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -189491,7 +189491,7 @@
     "enemy_character_type_id": 10008,
     "coordinator_x": 10,
     "coordinator_y": 2,
-    "level": 150,
+    "level": 100,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -189502,7 +189502,7 @@
     "enemy_character_type_id": 10008,
     "coordinator_x": 10,
     "coordinator_y": 5,
-    "level": 150,
+    "level": 100,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -189513,7 +189513,7 @@
     "enemy_character_type_id": 10008,
     "coordinator_x": 10,
     "coordinator_y": 8,
-    "level": 150,
+    "level": 100,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -189524,7 +189524,7 @@
     "enemy_character_type_id": 10005,
     "coordinator_x": 12,
     "coordinator_y": 7,
-    "level": 150,
+    "level": 100,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -189535,7 +189535,7 @@
     "enemy_character_type_id": 10005,
     "coordinator_x": 12,
     "coordinator_y": 3,
-    "level": 150,
+    "level": 100,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -189546,7 +189546,7 @@
     "enemy_character_type_id": 10011,
     "coordinator_x": 10,
     "coordinator_y": 3,
-    "level": 150,
+    "level": 100,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -189557,7 +189557,7 @@
     "enemy_character_type_id": 10016,
     "coordinator_x": 13,
     "coordinator_y": 4,
-    "level": 150,
+    "level": 100,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -189568,7 +189568,7 @@
     "enemy_character_type_id": 10011,
     "coordinator_x": 11,
     "coordinator_y": 5,
-    "level": 150,
+    "level": 100,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -189579,7 +189579,7 @@
     "enemy_character_type_id": 10016,
     "coordinator_x": 14,
     "coordinator_y": 6,
-    "level": 150,
+    "level": 100,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -189590,7 +189590,7 @@
     "enemy_character_type_id": 10016,
     "coordinator_x": 16,
     "coordinator_y": 5,
-    "level": 150,
+    "level": 100,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -189601,7 +189601,7 @@
     "enemy_character_type_id": 10016,
     "coordinator_x": 15,
     "coordinator_y": 3,
-    "level": 150,
+    "level": 100,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -189612,7 +189612,7 @@
     "enemy_character_type_id": 10011,
     "coordinator_x": 12,
     "coordinator_y": 7,
-    "level": 150,
+    "level": 100,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -189623,7 +189623,7 @@
     "enemy_character_type_id": 10011,
     "coordinator_x": 14,
     "coordinator_y": 1,
-    "level": 150,
+    "level": 100,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -189634,7 +189634,7 @@
     "enemy_character_type_id": 10003,
     "coordinator_x": 11,
     "coordinator_y": 6,
-    "level": 150,
+    "level": 100,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -189645,7 +189645,7 @@
     "enemy_character_type_id": 10003,
     "coordinator_x": 11,
     "coordinator_y": 3,
-    "level": 150,
+    "level": 100,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -189656,7 +189656,7 @@
     "enemy_character_type_id": 10003,
     "coordinator_x": 14,
     "coordinator_y": 6,
-    "level": 150,
+    "level": 100,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -189667,7 +189667,7 @@
     "enemy_character_type_id": 10003,
     "coordinator_x": 14,
     "coordinator_y": 3,
-    "level": 150,
+    "level": 100,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -189678,7 +189678,7 @@
     "enemy_character_type_id": 10003,
     "coordinator_x": 14,
     "coordinator_y": 9,
-    "level": 150,
+    "level": 100,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -189689,7 +189689,7 @@
     "enemy_character_type_id": 10003,
     "coordinator_x": 17,
     "coordinator_y": 9,
-    "level": 150,
+    "level": 100,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -189700,7 +189700,7 @@
     "enemy_character_type_id": 10003,
     "coordinator_x": 20,
     "coordinator_y": 9,
-    "level": 150,
+    "level": 100,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -189711,7 +189711,7 @@
     "enemy_character_type_id": 10003,
     "coordinator_x": 11,
     "coordinator_y": 0,
-    "level": 150,
+    "level": 100,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -189722,7 +189722,7 @@
     "enemy_character_type_id": 10003,
     "coordinator_x": 17,
     "coordinator_y": 6,
-    "level": 150,
+    "level": 100,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -189733,7 +189733,7 @@
     "enemy_character_type_id": 10003,
     "coordinator_x": 20,
     "coordinator_y": 3,
-    "level": 150,
+    "level": 100,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -189744,7 +189744,7 @@
     "enemy_character_type_id": 10003,
     "coordinator_x": 23,
     "coordinator_y": 6,
-    "level": 150,
+    "level": 100,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -189755,7 +189755,7 @@
     "enemy_character_type_id": 10003,
     "coordinator_x": 26,
     "coordinator_y": 9,
-    "level": 150,
+    "level": 100,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -189766,7 +189766,7 @@
     "enemy_character_type_id": 10003,
     "coordinator_x": 17,
     "coordinator_y": 0,
-    "level": 150,
+    "level": 100,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -189777,7 +189777,7 @@
     "enemy_character_type_id": 10003,
     "coordinator_x": 23,
     "coordinator_y": 3,
-    "level": 150,
+    "level": 100,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -189788,7 +189788,7 @@
     "enemy_character_type_id": 10003,
     "coordinator_x": 23,
     "coordinator_y": 0,
-    "level": 150,
+    "level": 100,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -189799,7 +189799,7 @@
     "enemy_character_type_id": 10003,
     "coordinator_x": 26,
     "coordinator_y": 6,
-    "level": 150,
+    "level": 100,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -189810,7 +189810,7 @@
     "enemy_character_type_id": 10003,
     "coordinator_x": 26,
     "coordinator_y": 3,
-    "level": 150,
+    "level": 100,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -189821,7 +189821,7 @@
     "enemy_character_type_id": 10003,
     "coordinator_x": 20,
     "coordinator_y": 0,
-    "level": 150,
+    "level": 100,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -189832,7 +189832,7 @@
     "enemy_character_type_id": 10009,
     "coordinator_x": 11,
     "coordinator_y": 6,
-    "level": 150,
+    "level": 100,
     "number": 1,
     "is_advance": 1,
     "def_percent": 0
@@ -189843,7 +189843,7 @@
     "enemy_character_type_id": 10002,
     "coordinator_x": 10,
     "coordinator_y": 3,
-    "level": 150,
+    "level": 100,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -189854,7 +189854,7 @@
     "enemy_character_type_id": 10017,
     "coordinator_x": 12,
     "coordinator_y": 5,
-    "level": 150,
+    "level": 100,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -189865,7 +189865,7 @@
     "enemy_character_type_id": 10017,
     "coordinator_x": 12,
     "coordinator_y": 2,
-    "level": 150,
+    "level": 100,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -189876,7 +189876,7 @@
     "enemy_character_type_id": 10017,
     "coordinator_x": 14,
     "coordinator_y": 3,
-    "level": 150,
+    "level": 100,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -189887,7 +189887,7 @@
     "enemy_character_type_id": 10001,
     "coordinator_x": 14,
     "coordinator_y": 6,
-    "level": 150,
+    "level": 100,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -189898,7 +189898,7 @@
     "enemy_character_type_id": 10002,
     "coordinator_x": 12,
     "coordinator_y": 9,
-    "level": 150,
+    "level": 100,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -189909,7 +189909,7 @@
     "enemy_character_type_id": 10001,
     "coordinator_x": 13,
     "coordinator_y": 0,
-    "level": 150,
+    "level": 100,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -189920,7 +189920,7 @@
     "enemy_character_type_id": 10002,
     "coordinator_x": 10,
     "coordinator_y": 5,
-    "level": 150,
+    "level": 100,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -189931,7 +189931,7 @@
     "enemy_character_type_id": 10002,
     "coordinator_x": 11,
     "coordinator_y": 7,
-    "level": 150,
+    "level": 100,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -189942,7 +189942,7 @@
     "enemy_character_type_id": 10002,
     "coordinator_x": 12,
     "coordinator_y": 5,
-    "level": 150,
+    "level": 100,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -189953,7 +189953,7 @@
     "enemy_character_type_id": 10002,
     "coordinator_x": 13,
     "coordinator_y": 7,
-    "level": 150,
+    "level": 100,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -189964,7 +189964,7 @@
     "enemy_character_type_id": 10002,
     "coordinator_x": 12,
     "coordinator_y": 2,
-    "level": 150,
+    "level": 100,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -189975,7 +189975,7 @@
     "enemy_character_type_id": 10002,
     "coordinator_x": 13,
     "coordinator_y": 4,
-    "level": 150,
+    "level": 100,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -189986,7 +189986,7 @@
     "enemy_character_type_id": 10002,
     "coordinator_x": 14,
     "coordinator_y": 2,
-    "level": 150,
+    "level": 100,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -189997,7 +189997,7 @@
     "enemy_character_type_id": 10002,
     "coordinator_x": 15,
     "coordinator_y": 4,
-    "level": 150,
+    "level": 100,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -190008,7 +190008,7 @@
     "enemy_character_type_id": 10006,
     "coordinator_x": 14,
     "coordinator_y": 5,
-    "level": 150,
+    "level": 100,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -190019,7 +190019,7 @@
     "enemy_character_type_id": 10016,
     "coordinator_x": 11,
     "coordinator_y": 7,
-    "level": 150,
+    "level": 100,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -190030,7 +190030,7 @@
     "enemy_character_type_id": 10016,
     "coordinator_x": 12,
     "coordinator_y": 10,
-    "level": 150,
+    "level": 100,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -190041,7 +190041,7 @@
     "enemy_character_type_id": 10016,
     "coordinator_x": 10,
     "coordinator_y": 4,
-    "level": 150,
+    "level": 100,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -190052,7 +190052,7 @@
     "enemy_character_type_id": 10016,
     "coordinator_x": 12,
     "coordinator_y": 3,
-    "level": 150,
+    "level": 100,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -190063,7 +190063,7 @@
     "enemy_character_type_id": 10016,
     "coordinator_x": 13,
     "coordinator_y": 6,
-    "level": 150,
+    "level": 100,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -190074,7 +190074,7 @@
     "enemy_character_type_id": 10016,
     "coordinator_x": 15,
     "coordinator_y": 5,
-    "level": 150,
+    "level": 100,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -190085,7 +190085,7 @@
     "enemy_character_type_id": 10016,
     "coordinator_x": 14,
     "coordinator_y": 2,
-    "level": 150,
+    "level": 100,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -190096,7 +190096,7 @@
     "enemy_character_type_id": 10016,
     "coordinator_x": 16,
     "coordinator_y": 8,
-    "level": 150,
+    "level": 100,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -190107,7 +190107,7 @@
     "enemy_character_type_id": 900025,
     "coordinator_x": 11,
     "coordinator_y": 8,
-    "level": 150,
+    "level": 100,
     "number": 3,
     "is_advance": 1,
     "def_percent": 0
@@ -190118,7 +190118,7 @@
     "enemy_character_type_id": 900025,
     "coordinator_x": 12,
     "coordinator_y": 5,
-    "level": 150,
+    "level": 100,
     "number": 3,
     "is_advance": 1,
     "def_percent": 0
@@ -190129,7 +190129,7 @@
     "enemy_character_type_id": 900025,
     "coordinator_x": 13,
     "coordinator_y": 2,
-    "level": 150,
+    "level": 100,
     "number": 3,
     "is_advance": 1,
     "def_percent": 0
@@ -190140,7 +190140,7 @@
     "enemy_character_type_id": 10003,
     "coordinator_x": 9,
     "coordinator_y": 4,
-    "level": 150,
+    "level": 100,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -190151,7 +190151,7 @@
     "enemy_character_type_id": 10017,
     "coordinator_x": 9,
     "coordinator_y": 10,
-    "level": 150,
+    "level": 100,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -190162,7 +190162,7 @@
     "enemy_character_type_id": 10017,
     "coordinator_x": 10,
     "coordinator_y": 7,
-    "level": 150,
+    "level": 100,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -190173,7 +190173,7 @@
     "enemy_character_type_id": 10017,
     "coordinator_x": 11,
     "coordinator_y": 4,
-    "level": 150,
+    "level": 100,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -190184,7 +190184,7 @@
     "enemy_character_type_id": 10017,
     "coordinator_x": 10,
     "coordinator_y": 1,
-    "level": 150,
+    "level": 100,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -190195,7 +190195,7 @@
     "enemy_character_type_id": 10012,
     "coordinator_x": 13,
     "coordinator_y": 6,
-    "level": 150,
+    "level": 100,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -190206,7 +190206,7 @@
     "enemy_character_type_id": 10012,
     "coordinator_x": 12,
     "coordinator_y": 9,
-    "level": 150,
+    "level": 100,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -190217,7 +190217,7 @@
     "enemy_character_type_id": 10012,
     "coordinator_x": 14,
     "coordinator_y": 3,
-    "level": 150,
+    "level": 100,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -190228,7 +190228,7 @@
     "enemy_character_type_id": 10012,
     "coordinator_x": 13,
     "coordinator_y": 0,
-    "level": 150,
+    "level": 100,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -190239,7 +190239,7 @@
     "enemy_character_type_id": 10001,
     "coordinator_x": 9,
     "coordinator_y": 3,
-    "level": 150,
+    "level": 100,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -190250,7 +190250,7 @@
     "enemy_character_type_id": 10001,
     "coordinator_x": 9,
     "coordinator_y": 5,
-    "level": 150,
+    "level": 100,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -190261,7 +190261,7 @@
     "enemy_character_type_id": 10001,
     "coordinator_x": 9,
     "coordinator_y": 7,
-    "level": 150,
+    "level": 100,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -190272,7 +190272,7 @@
     "enemy_character_type_id": 10001,
     "coordinator_x": 11,
     "coordinator_y": 7,
-    "level": 150,
+    "level": 100,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -190283,7 +190283,7 @@
     "enemy_character_type_id": 10001,
     "coordinator_x": 11,
     "coordinator_y": 9,
-    "level": 150,
+    "level": 100,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -190294,7 +190294,7 @@
     "enemy_character_type_id": 10002,
     "coordinator_x": 13,
     "coordinator_y": 7,
-    "level": 150,
+    "level": 100,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -190305,7 +190305,7 @@
     "enemy_character_type_id": 10002,
     "coordinator_x": 13,
     "coordinator_y": 5,
-    "level": 150,
+    "level": 100,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -190316,7 +190316,7 @@
     "enemy_character_type_id": 10002,
     "coordinator_x": 13,
     "coordinator_y": 3,
-    "level": 150,
+    "level": 100,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -190327,7 +190327,7 @@
     "enemy_character_type_id": 10002,
     "coordinator_x": 11,
     "coordinator_y": 3,
-    "level": 150,
+    "level": 100,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -190338,7 +190338,7 @@
     "enemy_character_type_id": 10002,
     "coordinator_x": 11,
     "coordinator_y": 1,
-    "level": 150,
+    "level": 100,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -190349,7 +190349,7 @@
     "enemy_character_type_id": 10006,
     "coordinator_x": 11,
     "coordinator_y": 6,
-    "level": 150,
+    "level": 100,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -190360,7 +190360,7 @@
     "enemy_character_type_id": 10005,
     "coordinator_x": 10,
     "coordinator_y": 3,
-    "level": 150,
+    "level": 100,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -190371,7 +190371,7 @@
     "enemy_character_type_id": 10006,
     "coordinator_x": 13,
     "coordinator_y": 6,
-    "level": 150,
+    "level": 100,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -190382,7 +190382,7 @@
     "enemy_character_type_id": 10005,
     "coordinator_x": 12,
     "coordinator_y": 3,
-    "level": 150,
+    "level": 100,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -190393,7 +190393,7 @@
     "enemy_character_type_id": 10005,
     "coordinator_x": 12,
     "coordinator_y": 0,
-    "level": 150,
+    "level": 100,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -190404,7 +190404,7 @@
     "enemy_character_type_id": 10005,
     "coordinator_x": 14,
     "coordinator_y": 3,
-    "level": 150,
+    "level": 100,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -190415,7 +190415,7 @@
     "enemy_character_type_id": 10006,
     "coordinator_x": 15,
     "coordinator_y": 6,
-    "level": 150,
+    "level": 100,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -190426,7 +190426,7 @@
     "enemy_character_type_id": 10006,
     "coordinator_x": 15,
     "coordinator_y": 9,
-    "level": 150,
+    "level": 100,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -190437,7 +190437,7 @@
     "enemy_character_type_id": 10008,
     "coordinator_x": 10,
     "coordinator_y": 1,
-    "level": 150,
+    "level": 100,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -190448,7 +190448,7 @@
     "enemy_character_type_id": 10008,
     "coordinator_x": 11,
     "coordinator_y": 5,
-    "level": 150,
+    "level": 100,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -190459,7 +190459,7 @@
     "enemy_character_type_id": 10008,
     "coordinator_x": 10,
     "coordinator_y": 9,
-    "level": 150,
+    "level": 100,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -190470,7 +190470,7 @@
     "enemy_character_type_id": 10008,
     "coordinator_x": 13,
     "coordinator_y": 2,
-    "level": 150,
+    "level": 100,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -190481,7 +190481,7 @@
     "enemy_character_type_id": 10008,
     "coordinator_x": 13,
     "coordinator_y": 8,
-    "level": 150,
+    "level": 100,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -190492,7 +190492,7 @@
     "enemy_character_type_id": 10011,
     "coordinator_x": 10,
     "coordinator_y": 3,
-    "level": 150,
+    "level": 100,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -190503,7 +190503,7 @@
     "enemy_character_type_id": 10011,
     "coordinator_x": 11,
     "coordinator_y": 6,
-    "level": 150,
+    "level": 100,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -190514,7 +190514,7 @@
     "enemy_character_type_id": 10011,
     "coordinator_x": 12,
     "coordinator_y": 9,
-    "level": 150,
+    "level": 100,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -190525,7 +190525,7 @@
     "enemy_character_type_id": 900025,
     "coordinator_x": 15,
     "coordinator_y": 9,
-    "level": 150,
+    "level": 100,
     "number": 3,
     "is_advance": 1,
     "def_percent": 0
@@ -190536,7 +190536,7 @@
     "enemy_character_type_id": 900025,
     "coordinator_x": 14,
     "coordinator_y": 6,
-    "level": 150,
+    "level": 100,
     "number": 3,
     "is_advance": 1,
     "def_percent": 0
@@ -190547,7 +190547,7 @@
     "enemy_character_type_id": 900025,
     "coordinator_x": 13,
     "coordinator_y": 3,
-    "level": 150,
+    "level": 100,
     "number": 3,
     "is_advance": 1,
     "def_percent": 0
@@ -190558,7 +190558,7 @@
     "enemy_character_type_id": 10011,
     "coordinator_x": 11,
     "coordinator_y": 0,
-    "level": 150,
+    "level": 100,
     "number": 5,
     "is_advance": 1,
     "def_percent": 0
@@ -197180,7 +197180,7 @@
     "enemy_character_type_id": 10005,
     "coordinator_x": 12,
     "coordinator_y": 0,
-    "level": 63,
+    "level": 55,
     "number": 4,
     "is_advance": 1,
     "def_percent": 0
@@ -197191,7 +197191,7 @@
     "enemy_character_type_id": 10005,
     "coordinator_x": 12,
     "coordinator_y": 3,
-    "level": 63,
+    "level": 55,
     "number": 4,
     "is_advance": 1,
     "def_percent": 0
@@ -197202,7 +197202,7 @@
     "enemy_character_type_id": 10005,
     "coordinator_x": 12,
     "coordinator_y": 6,
-    "level": 63,
+    "level": 55,
     "number": 4,
     "is_advance": 1,
     "def_percent": 0

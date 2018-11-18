@@ -60,14 +60,31 @@ class GameClass {
         return effect;
     }
 
-    getEnemyTeamPower (enemyTeam) {
+    getEnemyTeamPower (enemyTeam, turnNo) {
         var power = 0;
+        var lvUp = this.getEnemyTeamLvCorrection(enemyTeam, turnNo);
         $.each(enemyTeam.member_ids, (index, member_ids) => {
             var member = enemy_in_team_info[member_ids];
-            var enemy = this.getEnemyCharAtLevel(member.enemy_character_type_id, member.level, member.number);
+            var enemy = this.getEnemyCharAtLevel(member.enemy_character_type_id, member.level + lvUp, member.number);
             power += this.getEnemyPower(enemy, member.def_percent);
         });
         return power;
+    }
+
+    getEnemyTeamLvCorrection (enemyTeam, turnNo) {
+        if (turnNo)
+            turnNo -= 1; // lvUpArray start from 0 (= 1st turn)
+        else
+            turnNo = 0;
+
+        var lvUpArray = enemyTeam.lv_up_array;
+        if (lvUpArray.length == 0 || turnNo < 0) {
+            return 0;
+        } else if (turnNo >= lvUpArray.length) {
+            return lvUpArray[lvUpArray.length - 1];
+        } else {
+            return lvUpArray[turnNo];
+        }
     }
 
     breakStringArray(str, converter, seperator = ",") {

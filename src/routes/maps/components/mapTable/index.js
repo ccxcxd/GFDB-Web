@@ -44,6 +44,7 @@ const TeamTable = ({
   const {
     missionSelected,
     enemyTeamSelected,
+    currentRound,
   } = maps
   const {
     enemy_team_info,
@@ -95,7 +96,7 @@ const TeamTable = ({
       forEach(enemyTeam.drops, (drop) => {
         drops += __(drop) + ' '
       })
-      const teamPower = Game.getEnemyTeamPower(enemyTeam);
+      const teamPower = Game.getEnemyTeamPower(enemyTeam, currentRound);
 
       data[i] = {
         id: parseInt(teamId, 10),

@@ -18,6 +18,7 @@ const TeamTable = ({
   } = app
   const {
     enemyTeamSelected,
+    currentRound,
   } = maps
   const {
     enemy_in_team_info,
@@ -27,7 +28,8 @@ const TeamTable = ({
   const ids = enemyTeamSelected.member_ids || []
   const data = ids.map(id => {
     var member = enemy_in_team_info[id]
-    var enemy = Game.getEnemyCharAtLevel(member.enemy_character_type_id, member.level, member.number);
+    var lvUp = Game.getEnemyTeamLvCorrection(enemyTeamSelected, currentRound);
+    var enemy = Game.getEnemyCharAtLevel(member.enemy_character_type_id, member.level + lvUp, member.number);
     return {
       id: id,
       name: __(enemy.name),

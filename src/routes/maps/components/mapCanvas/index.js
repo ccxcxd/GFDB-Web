@@ -10,7 +10,7 @@ import {
   Slider,
 } from 'antd'
 import Map from '@/services/map'
-import { isEqual } from 'lodash'
+import { isEqual, debounce } from 'lodash'
 import les from './index.less'
 import InfoModal from '../infoModal'
 
@@ -173,7 +173,6 @@ class MapCanvas extends React.Component {
     }
   }
   changeRound (val) {
-    console.log(this.props)
     const { dispatch } = this.props
     dispatch({
       type: 'maps/roundChange',

@@ -120,7 +120,7 @@ class MapCanvas extends React.Component {
     } = maps
     const missionId = missionSelected.id
     if (!missionId) {
-      message.warning(__('map_tbl.noSelectMapWarning'))
+      message.warning(__('map_tbl.warning_no_map_selected'))
       this.setState({
         loading: false,
       })
@@ -225,7 +225,7 @@ class MapCanvas extends React.Component {
             {/* 当前回合 */}
             <div className={les.turnLab}>
               <div className={les.turnContnet}>{currentTurnReal}</div>
-              <div className={les.turnTips}>{__('map_tbl.currentTurn')}</div>
+              <div className={les.turnTips}>{__('map_tbl.current_turn')}</div>
             </div>
           </div>
           {
@@ -234,7 +234,7 @@ class MapCanvas extends React.Component {
             (
               <div className={les.waitMap}>
                 <div className={les.content}>
-                  <Icon type="setting" /> {__('map_tbl.initMapNotYet')}
+                  <Icon type="setting" /> {__('map_tbl.init_map_not_yet')}
                 </div>
               </div>
             )
@@ -244,7 +244,7 @@ class MapCanvas extends React.Component {
             (
               <div className={les.loading}>
                 <div className={les.content}>
-                  <Icon type="loading" /> {__('map_tbl.initMapLoading')}
+                  <Icon type="loading" /> {__('map_tbl.init_map_loading')}
                 </div>
               </div>
             ) :
@@ -301,7 +301,7 @@ class MapCanvas extends React.Component {
           {
             IF_RANGE_SHOW &&
             <div className={les.roundSelCon}>
-              <div className={les.roundTip}>{__('map_tbl.turnSelect')}</div>
+              <div className={les.roundTip}>{__('map_tbl.select_turn')}</div>
               <Button
                 icon="caret-left"
                 disabled={currentTurnReal <= TURN_MIN}

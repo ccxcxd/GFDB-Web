@@ -32,11 +32,11 @@
     "count": "數量",
     "drop": "限定掉落（僅供參考）",
     "warning": "註意：地圖和下表只列出了初始位置固定敵人，位置隨機和後續生成的敵人壹般不顯示。這些敵人的配置可以通過手動翻查下面的敵人編號查看。",
-    "noSelectMapWarning": "請先選擇要生成的地圖",
-    "initMapNotYet": "未生成地圖",
-    "initMapLoading": "地圖生成中...",
-    "currentTurn": "當前回合",
-    "turnSelect": "當前回合"
+    "warning_no_map_selected": "請先選擇要生成的地圖",
+    "init_map_not_yet": "未生成地圖",
+    "init_map_loading": "地圖生成中...",
+    "current_turn": "當前回合",
+    "select_turn": "當前回合"
   },
   "spot_img": {
     "spot1": "spot1",

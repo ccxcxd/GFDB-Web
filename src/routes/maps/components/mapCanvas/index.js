@@ -226,7 +226,7 @@ class MapCanvas extends React.Component {
             {/* 当前回合 */}
             <div className={les.turnLab}>
               <div className={les.turnContnet}>{currentTurnReal}</div>
-              <div className={les.turnTips}>{__('map_tbl.txtCurrentTurn')}</div>
+              <div className={les.turnTips}>{__('map_tbl.currentTurn')}</div>
             </div>
           </div>
           {
@@ -235,7 +235,7 @@ class MapCanvas extends React.Component {
             (
               <div className={les.waitMap}>
                 <div className={les.content}>
-                  <Icon type="setting" /> {__('map_tbl.txtInitMapNotYet')}
+                  <Icon type="setting" /> {__('map_tbl.initMapNotYet')}
                 </div>
               </div>
             )
@@ -245,7 +245,7 @@ class MapCanvas extends React.Component {
             (
               <div className={les.loading}>
                 <div className={les.content}>
-                  <Icon type="loading" /> {__('map_tbl.txtInitMapLoading')}
+                  <Icon type="loading" /> {__('map_tbl.initMapLoading')}
                 </div>
               </div>
             ) :
@@ -302,7 +302,7 @@ class MapCanvas extends React.Component {
           {
             IF_RANGE_SHOW &&
             <div className={les.roundSelCon}>
-              <div className={les.roundTip}>{__('map_tbl.txtTurnSelect')}:</div>
+              <div className={les.roundTip}>{__('map_tbl.turnSelect')}</div>
               <Button
                 icon="caret-left"
                 disabled={currentTurnReal <= TURN_MIN}

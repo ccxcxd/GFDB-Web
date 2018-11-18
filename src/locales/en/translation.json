@@ -32,7 +32,6 @@
     "count": "Count",
     "drop": "Limited drop (for ref. only)",
     "warning": "Attention: The map and the following table only show enemies with fixed starting position. Enemies that have random starting position, or appear later in the game normally will not be shown here. They can be viewed by manually change the Enemy Team ID in the box below.",
-		"warning2": "Spetial Attention: Enemies with a * mark in the Effectiveness will have stats changed with game turns. The following table will only show the max value. Some enemies inside Imaginary Maze+ has huge stats change, between first and last turn it can have 50~60 lv difference, so don't be scared by the max value, initial value is different. The features to adjust stats according to turns will be added in the near future.",
     "noSelectMapWarning": "Please first select the map to be generated",
     "initMapNotYet": "Map not generated",
     "initMapLoading": "Generating map...",

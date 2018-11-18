@@ -213,7 +213,6 @@ class MapCanvas extends React.Component {
         {/* 提示 */}
         <div className={les.warning}>
           <Alert message={__('map_tbl.warning')} type="error" />
-          <Alert message={(<font size="4"><b>{__('map_tbl.warning2')}</b></font>)} type="error" />
         </div>
         {/* canvas */}
         <div className={les.canvasArea}>

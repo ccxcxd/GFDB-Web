@@ -6,7 +6,7 @@ import {
   Dropdown,
   Checkbox,
   message,
-  Input,
+  InputNumber,
   Slider,
 } from 'antd'
 import Map from '@/services/map'
@@ -141,6 +141,7 @@ class MapCanvas extends React.Component {
       })
       return
     }
+    console.log('displayPower', displayPower)
     this.mapObj.generate(missionId, {
       displayPower,
     })
@@ -164,8 +165,8 @@ class MapCanvas extends React.Component {
       infoData: data,
     })
   }
-  handleRoundInputChange (e) {
-    const value = parseInt(e.target.value, 10)
+  handleRoundInputChange (value) {
+    // const value = parseInt(e.target.value, 10)
     if (value < ROUND_MIN || value > ROUND_MAX) {
       message.error(`round value ${value} is out of range of round`)
     } else {
@@ -295,8 +296,10 @@ class MapCanvas extends React.Component {
             IF_RANGE_SHOW &&
             <div className={les.roundSelCon}>
               <div className={les.roundTip}>回合数选择:</div>
-              <Input
+              <InputNumber
                 className={les.roundInput}
+                min={ROUND_MIN}
+                max={ROUND_MAX}
                 placeholder="回合数"
                 value={currentRound}
                 onChange={(e) => this.handleRoundInputChange(e)}

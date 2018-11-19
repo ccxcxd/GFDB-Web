@@ -9,7 +9,7 @@ import {
   Slider,
 } from 'antd'
 import Map from '@/services/map'
-import { isEqual, debounce } from 'lodash'
+import { isEqual, find } from 'lodash'
 import les from './index.less'
 import InfoModal from '../infoModal'
 
@@ -144,10 +144,10 @@ class MapCanvas extends React.Component {
     this.mapObj.downloadFullMap(name)
   }
 
-  showInfoModal (data, show = true) {
+  showInfoModal (show = true) {
     this.setState({
       infoVisible: show,
-      infoData: data,
+      infoData: { mission: this.props.maps.missionSelected },
     })
   }
   changeGlobalTurn (val) {
@@ -199,7 +199,7 @@ class MapCanvas extends React.Component {
       visible: infoVisible,
       data: infoData,
       onHide: () => {
-        this.showInfoModal({}, false)
+        this.showInfoModal(false)
       },
     }
     const IF_RANGE_SHOW = !!missionSelected.turn_limit
@@ -218,10 +218,10 @@ class MapCanvas extends React.Component {
         <div className={les.canvasArea}>
           <div className={les.canvasBtnLab}>
             {/* 关卡条件 */}
-            {/* <div className={les.mapInfo} onClick={() => this.showInfoModal({})}>
+            <div className={les.mapInfo} onClick={() => this.showInfoModal()}>
               <Icon type="profile" />
               <div className={les.infoTxt}>{'战场说明'}</div>
-            </div> */}
+            </div>
             {/* 当前回合 */}
             <div className={les.turnLab}>
               <div className={les.turnContnet}>{currentTurnReal}</div>
@@ -327,7 +327,7 @@ class MapCanvas extends React.Component {
           &nbsp;&nbsp;&nbsp;&nbsp;&uarr;&nbsp;&nbsp;<span>{__('mission_map.description')}</span>
         </div>
         {/* 战役信息弹窗 */}
-        <InfoModal {...propsOfInfoModal} />
+        {infoVisible && <InfoModal {...propsOfInfoModal} />}
       </div>
     )
   }

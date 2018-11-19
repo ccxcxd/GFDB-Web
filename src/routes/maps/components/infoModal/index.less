@@ -1,3 +1,22 @@
+@medal_width: 16px;
+
+.importantContent() {
+  i {
+    padding: 0 .2em;
+    color: @theme_color_yellow;
+    font-style: normal;
+  }
+}
+.medalBefore() {
+  content: '';
+  display: block;
+  position: absolute;
+  width: @medal_width;
+  height: @medal_width;
+  left: 0;
+  top: 4px;
+  border-radius: @medal_width/2;
+}
 .content {
   &:before,
   &:after {
@@ -15,13 +34,45 @@
     font-size: 18px;
   }
   .content {
+    .importantContent();
     min-height: 100px;
   }
   .baseMission,
-  .extraMission {
+  .medalMission {
     float: left;
     width: 50%;
     padding: 0 10px;
+  }
+
+  .medalList {
+    .importantContent();
+    padding: 0;
+    list-style: none;
+
+    .medalCon {
+      position: relative;
+      padding: 4px 0;
+      padding-left: @medal_width + 2px;
+
+      &.gold {
+        &:before {
+          .medalBefore();
+          background-color: #FFCF00;
+        }
+      }
+      &.silver {
+        &:before {
+          .medalBefore();
+          background-color: #CECFCE;
+        }
+      }
+      &.copper {
+        &:before {
+          .medalBefore();
+          background-color: #DE7521;
+        }
+      }
+    }
   }
 }
 

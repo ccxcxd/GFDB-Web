@@ -5,6 +5,7 @@ import {
 } from 'antd'
 import { forEach } from 'lodash'
 import les from './index.less'
+import Game from '@/services/game'
 
 // 渲染方法定义
 const mapTeamOpt = () => {
@@ -43,6 +44,7 @@ const TeamTable = ({
   const {
     missionSelected,
     enemyTeamSelected,
+    currentRound,
   } = maps
   const {
     enemy_team_info,
@@ -82,7 +84,8 @@ const TeamTable = ({
       const enemyTeam = enemy_team_info[teamId]
       const countDict = {}
       forEach(enemyTeam.member_ids, (menId) => {
-        const name = __(enemy_in_team_info[menId].enemy_character.name)
+        const char_id = enemy_in_team_info[menId].enemy_character_type_id;
+        const name = __(enemy_character_type_info[char_id].name)
         countDict[name] = (countDict[name] || 0) + enemy_in_team_info[menId].number
       })
       let members = ''
@@ -93,12 +96,13 @@ const TeamTable = ({
       forEach(enemyTeam.drops, (drop) => {
         drops += __(drop) + ' '
       })
+      const teamPower = Game.getEnemyTeamPower(enemyTeam, currentRound);
 
       data[i] = {
         id: parseInt(teamId, 10),
         leader: __(enemy_character_type_info[enemyTeam.enemy_leader].name),
-        difficulty: enemyTeam.difficulty,
-        difficulty_display: enemyTeam.difficulty + (enemyTeam.correction_turn?"*":""),
+        power: teamPower,
+        power_display: teamPower + (enemyTeam.correction_turn?"*":""),
         members: members,
         count: count,
         drop: drops,
@@ -122,8 +126,8 @@ const TeamTable = ({
     },
     {
       title: __('map_tbl.power'),
-      dataIndex: 'difficulty_display',
-      sorter: (a, b) => a.difficulty - b.difficulty,
+      dataIndex: 'power_display',
+      sorter: (a, b) => a.power - b.power,
     },
     {
       title: __('map_tbl.members'),

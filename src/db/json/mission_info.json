@@ -85,7 +85,11 @@
     "map_eff_width": 2495,
     "map_eff_height": 1830,
     "map_offset_x": -298,
-    "map_offset_y": -1274
+    "map_offset_y": -1274,
+    "win_objs": [
+      2
+    ],
+    "has_medal_obj": true
   },
   "2": {
     "id": 2,
@@ -191,7 +195,11 @@
     "map_eff_width": 2812,
     "map_eff_height": 3017,
     "map_offset_x": 370,
-    "map_offset_y": -171
+    "map_offset_y": -171,
+    "win_objs": [
+      2
+    ],
+    "has_medal_obj": true
   },
   "3": {
     "id": 3,
@@ -301,7 +309,11 @@
     "map_eff_width": 2440,
     "map_eff_height": 3176,
     "map_offset_x": 0,
-    "map_offset_y": 0
+    "map_offset_y": 0,
+    "win_objs": [
+      2
+    ],
+    "has_medal_obj": true
   },
   "4": {
     "id": 4,
@@ -430,7 +442,11 @@
     "map_eff_width": 4029,
     "map_eff_height": 3690,
     "map_offset_x": 0,
-    "map_offset_y": 0
+    "map_offset_y": 0,
+    "win_objs": [
+      2
+    ],
+    "has_medal_obj": true
   },
   "5": {
     "id": 5,
@@ -513,7 +529,11 @@
     "map_eff_width": 2472,
     "map_eff_height": 1574,
     "map_offset_x": 0,
-    "map_offset_y": -758
+    "map_offset_y": -758,
+    "win_objs": [
+      2
+    ],
+    "has_medal_obj": true
   },
   "6": {
     "id": 6,
@@ -602,7 +622,11 @@
     "map_eff_width": 3444,
     "map_eff_height": 2001,
     "map_offset_x": -102,
-    "map_offset_y": -420
+    "map_offset_y": -420,
+    "win_objs": [
+      2
+    ],
+    "has_medal_obj": true
   },
   "7": {
     "id": 7,
@@ -693,7 +717,11 @@
     "map_eff_width": 2591,
     "map_eff_height": 1876,
     "map_offset_x": 0,
-    "map_offset_y": 437
+    "map_offset_y": 437,
+    "win_objs": [
+      2
+    ],
+    "has_medal_obj": true
   },
   "8": {
     "id": 8,
@@ -786,7 +814,11 @@
     "map_eff_width": -3373,
     "map_eff_height": 2298,
     "map_offset_x": 55,
-    "map_offset_y": 242
+    "map_offset_y": 242,
+    "win_objs": [
+      2
+    ],
+    "has_medal_obj": true
   },
   "9": {
     "id": 9,
@@ -884,7 +916,11 @@
     "map_eff_width": -3493,
     "map_eff_height": 2079,
     "map_offset_x": 49,
-    "map_offset_y": -88
+    "map_offset_y": -88,
+    "win_objs": [
+      2
+    ],
+    "has_medal_obj": true
   },
   "10": {
     "id": 10,
@@ -986,7 +1022,11 @@
     "map_eff_width": -3490,
     "map_eff_height": -3097,
     "map_offset_x": 0,
-    "map_offset_y": 0
+    "map_offset_y": 0,
+    "win_objs": [
+      2
+    ],
+    "has_medal_obj": true
   },
   "11": {
     "id": 11,
@@ -1077,7 +1117,11 @@
     "map_eff_width": 2563,
     "map_eff_height": 2091,
     "map_offset_x": 60,
-    "map_offset_y": 509
+    "map_offset_y": 509,
+    "win_objs": [
+      2
+    ],
+    "has_medal_obj": true
   },
   "12": {
     "id": 12,
@@ -1170,7 +1214,11 @@
     "map_eff_width": -2978,
     "map_eff_height": 2562,
     "map_offset_x": 216,
-    "map_offset_y": 302
+    "map_offset_y": 302,
+    "win_objs": [
+      2
+    ],
+    "has_medal_obj": true
   },
   "13": {
     "id": 13,
@@ -1268,7 +1316,11 @@
     "map_eff_width": -3207,
     "map_eff_height": 2455,
     "map_offset_x": 138,
-    "map_offset_y": -116
+    "map_offset_y": -116,
+    "win_objs": [
+      2
+    ],
+    "has_medal_obj": true
   },
   "14": {
     "id": 14,
@@ -1370,7 +1422,11 @@
     "map_eff_width": -3485,
     "map_eff_height": -3106,
     "map_offset_x": 0,
-    "map_offset_y": 0
+    "map_offset_y": 0,
+    "win_objs": [
+      2
+    ],
+    "has_medal_obj": true
   },
   "15": {
     "id": 15,
@@ -1462,7 +1518,11 @@
     "map_eff_width": 3000,
     "map_eff_height": 2615,
     "map_offset_x": -793,
-    "map_offset_y": -474
+    "map_offset_y": -474,
+    "win_objs": [
+      2
+    ],
+    "has_medal_obj": true
   },
   "16": {
     "id": 16,
@@ -1554,7 +1614,11 @@
     "map_eff_width": 3696,
     "map_eff_height": 2200,
     "map_offset_x": -442,
-    "map_offset_y": -947
+    "map_offset_y": -947,
+    "win_objs": [
+      2
+    ],
+    "has_medal_obj": true
   },
   "17": {
     "id": 17,
@@ -1653,7 +1717,11 @@
     "map_eff_width": 4157,
     "map_eff_height": 2455,
     "map_offset_x": 23,
-    "map_offset_y": 803
+    "map_offset_y": 803,
+    "win_objs": [
+      2
+    ],
+    "has_medal_obj": true
   },
   "18": {
     "id": 18,
@@ -1748,7 +1816,11 @@
     "map_eff_width": 4059,
     "map_eff_height": -2128,
     "map_offset_x": 0,
-    "map_offset_y": 973
+    "map_offset_y": 973,
+    "win_objs": [
+      2
+    ],
+    "has_medal_obj": true
   },
   "19": {
     "id": 19,
@@ -1848,7 +1920,11 @@
     "map_eff_width": -3996,
     "map_eff_height": -4043,
     "map_offset_x": 291,
-    "map_offset_y": 0
+    "map_offset_y": 0,
+    "win_objs": [
+      2
+    ],
+    "has_medal_obj": true
   },
   "20": {
     "id": 20,
@@ -1950,7 +2026,11 @@
     "map_eff_width": 4096,
     "map_eff_height": 3595,
     "map_offset_x": 243,
-    "map_offset_y": -182
+    "map_offset_y": -182,
+    "win_objs": [
+      2
+    ],
+    "has_medal_obj": true
   },
   "21": {
     "id": 21,
@@ -2049,7 +2129,11 @@
     "map_eff_width": 4157,
     "map_eff_height": 2455,
     "map_offset_x": 23,
-    "map_offset_y": 803
+    "map_offset_y": 803,
+    "win_objs": [
+      2
+    ],
+    "has_medal_obj": true
   },
   "22": {
     "id": 22,
@@ -2146,7 +2230,11 @@
     "map_eff_width": 4059,
     "map_eff_height": -2128,
     "map_offset_x": 0,
-    "map_offset_y": 973
+    "map_offset_y": 973,
+    "win_objs": [
+      2
+    ],
+    "has_medal_obj": true
   },
   "23": {
     "id": 23,
@@ -2248,7 +2336,11 @@
     "map_eff_width": -3996,
     "map_eff_height": -4043,
     "map_offset_x": 291,
-    "map_offset_y": 0
+    "map_offset_y": 0,
+    "win_objs": [
+      2
+    ],
+    "has_medal_obj": true
   },
   "24": {
     "id": 24,
@@ -2350,7 +2442,11 @@
     "map_eff_width": 4096,
     "map_eff_height": 3595,
     "map_offset_x": 243,
-    "map_offset_y": -182
+    "map_offset_y": -182,
+    "win_objs": [
+      2
+    ],
+    "has_medal_obj": true
   },
   "25": {
     "id": 25,
@@ -2441,7 +2537,11 @@
     "map_eff_width": 4209,
     "map_eff_height": 2266,
     "map_offset_x": 0,
-    "map_offset_y": 739
+    "map_offset_y": 739,
+    "win_objs": [
+      2
+    ],
+    "has_medal_obj": true
   },
   "26": {
     "id": 26,
@@ -2536,7 +2636,11 @@
     "map_eff_width": 3190,
     "map_eff_height": 2465,
     "map_offset_x": 511,
-    "map_offset_y": -652
+    "map_offset_y": -652,
+    "win_objs": [
+      2
+    ],
+    "has_medal_obj": true
   },
   "27": {
     "id": 27,
@@ -2632,7 +2736,11 @@
     "map_eff_width": 3823,
     "map_eff_height": 2593,
     "map_offset_x": -95,
-    "map_offset_y": 489
+    "map_offset_y": 489,
+    "win_objs": [
+      2
+    ],
+    "has_medal_obj": true
   },
   "28": {
     "id": 28,
@@ -2728,7 +2836,11 @@
     "map_eff_width": 3854,
     "map_eff_height": 2365,
     "map_offset_x": 173,
-    "map_offset_y": -767
+    "map_offset_y": -767,
+    "win_objs": [
+      2
+    ],
+    "has_medal_obj": true
   },
   "29": {
     "id": 29,
@@ -2828,7 +2940,11 @@
     "map_eff_width": 4043,
     "map_eff_height": 3245,
     "map_offset_x": -89,
-    "map_offset_y": 0
+    "map_offset_y": 0,
+    "win_objs": [
+      2
+    ],
+    "has_medal_obj": true
   },
   "30": {
     "id": 30,
@@ -2936,7 +3052,11 @@
     "map_eff_width": 4214,
     "map_eff_height": 3617,
     "map_offset_x": -5,
-    "map_offset_y": -70
+    "map_offset_y": -70,
+    "win_objs": [
+      2
+    ],
+    "has_medal_obj": true
   },
   "31": {
     "id": 31,
@@ -3031,7 +3151,11 @@
     "map_eff_width": 3823,
     "map_eff_height": 2593,
     "map_offset_x": -95,
-    "map_offset_y": 489
+    "map_offset_y": 489,
+    "win_objs": [
+      2
+    ],
+    "has_medal_obj": true
   },
   "32": {
     "id": 32,
@@ -3127,7 +3251,11 @@
     "map_eff_width": 3854,
     "map_eff_height": 2365,
     "map_offset_x": 173,
-    "map_offset_y": -767
+    "map_offset_y": -767,
+    "win_objs": [
+      2
+    ],
+    "has_medal_obj": true
   },
   "33": {
     "id": 33,
@@ -3227,7 +3355,11 @@
     "map_eff_width": 4043,
     "map_eff_height": 3245,
     "map_offset_x": -89,
-    "map_offset_y": 0
+    "map_offset_y": 0,
+    "win_objs": [
+      2
+    ],
+    "has_medal_obj": true
   },
   "34": {
     "id": 34,
@@ -3332,7 +3464,11 @@
     "map_eff_width": 4214,
     "map_eff_height": 3617,
     "map_offset_x": -5,
-    "map_offset_y": -70
+    "map_offset_y": -70,
+    "win_objs": [
+      2
+    ],
+    "has_medal_obj": true
   },
   "35": {
     "id": 35,
@@ -3426,7 +3562,11 @@
     "map_eff_width": 1904,
     "map_eff_height": 2849,
     "map_offset_x": -1225,
-    "map_offset_y": -476
+    "map_offset_y": -476,
+    "win_objs": [
+      2
+    ],
+    "has_medal_obj": true
   },
   "36": {
     "id": 36,
@@ -3519,7 +3659,11 @@
     "map_eff_width": 2689,
     "map_eff_height": -2087,
     "map_offset_x": -755,
-    "map_offset_y": -862
+    "map_offset_y": -862,
+    "win_objs": [
+      2
+    ],
+    "has_medal_obj": true
   },
   "37": {
     "id": 37,
@@ -3618,7 +3762,11 @@
     "map_eff_width": 4249,
     "map_eff_height": 2157,
     "map_offset_x": 0,
-    "map_offset_y": 813
+    "map_offset_y": 813,
+    "win_objs": [
+      2
+    ],
+    "has_medal_obj": true
   },
   "38": {
     "id": 38,
@@ -3719,7 +3867,11 @@
     "map_eff_width": 2917,
     "map_eff_height": 3076,
     "map_offset_x": 669,
-    "map_offset_y": 350
+    "map_offset_y": 350,
+    "win_objs": [
+      2
+    ],
+    "has_medal_obj": true
   },
   "39": {
     "id": 39,
@@ -3825,7 +3977,11 @@
     "map_eff_width": 3409,
     "map_eff_height": 3321,
     "map_offset_x": -423,
-    "map_offset_y": -240
+    "map_offset_y": -240,
+    "win_objs": [
+      2
+    ],
+    "has_medal_obj": true
   },
   "40": {
     "id": 40,
@@ -3939,7 +4095,11 @@
     "map_eff_width": 4257,
     "map_eff_height": 3799,
     "map_offset_x": 0,
-    "map_offset_y": 0
+    "map_offset_y": 0,
+    "win_objs": [
+      2
+    ],
+    "has_medal_obj": true
   },
   "41": {
     "id": 41,
@@ -4038,7 +4198,11 @@
     "map_eff_width": 4249,
     "map_eff_height": 2157,
     "map_offset_x": 0,
-    "map_offset_y": 813
+    "map_offset_y": 813,
+    "win_objs": [
+      2
+    ],
+    "has_medal_obj": true
   },
   "42": {
     "id": 42,
@@ -4138,7 +4302,11 @@
     "map_eff_width": 2917,
     "map_eff_height": 3076,
     "map_offset_x": 669,
-    "map_offset_y": 350
+    "map_offset_y": 350,
+    "win_objs": [
+      2
+    ],
+    "has_medal_obj": true
   },
   "43": {
     "id": 43,
@@ -4244,7 +4412,11 @@
     "map_eff_width": 3409,
     "map_eff_height": 3321,
     "map_offset_x": -423,
-    "map_offset_y": -240
+    "map_offset_y": -240,
+    "win_objs": [
+      2
+    ],
+    "has_medal_obj": true
   },
   "44": {
     "id": 44,
@@ -4358,7 +4530,11 @@
     "map_eff_width": 4257,
     "map_eff_height": 3799,
     "map_offset_x": 0,
-    "map_offset_y": 0
+    "map_offset_y": 0,
+    "win_objs": [
+      2
+    ],
+    "has_medal_obj": true
   },
   "45": {
     "id": 45,
@@ -4463,7 +4639,11 @@
     "map_eff_width": 3419,
     "map_eff_height": 2141,
     "map_offset_x": 1887,
-    "map_offset_y": -2106
+    "map_offset_y": -2106,
+    "win_objs": [
+      2
+    ],
+    "has_medal_obj": true
   },
   "46": {
     "id": 46,
@@ -4570,7 +4750,11 @@
     "map_eff_width": 3217,
     "map_eff_height": 3692,
     "map_offset_x": 2524,
-    "map_offset_y": 783
+    "map_offset_y": 783,
+    "win_objs": [
+      2
+    ],
+    "has_medal_obj": true
   },
   "47": {
     "id": 47,
@@ -4683,7 +4867,11 @@
     "map_eff_width": 4144,
     "map_eff_height": 2303,
     "map_offset_x": 115,
-    "map_offset_y": 0
+    "map_offset_y": 0,
+    "win_objs": [
+      2
+    ],
+    "has_medal_obj": true
   },
   "48": {
     "id": 48,
@@ -4799,7 +4987,11 @@
     "map_eff_width": 4103,
     "map_eff_height": 2603,
     "map_offset_x": 1596,
-    "map_offset_y": 1802
+    "map_offset_y": 1802,
+    "win_objs": [
+      2
+    ],
+    "has_medal_obj": true
   },
   "49": {
     "id": 49,
@@ -4916,7 +5108,11 @@
     "map_eff_width": 2079,
     "map_eff_height": 3899,
     "map_offset_x": -1478,
-    "map_offset_y": -196
+    "map_offset_y": -196,
+    "win_objs": [
+      2
+    ],
+    "has_medal_obj": true
   },
   "50": {
     "id": 50,
@@ -5035,7 +5231,11 @@
     "map_eff_width": 4001,
     "map_eff_height": 3647,
     "map_offset_x": -575,
-    "map_offset_y": 393
+    "map_offset_y": 393,
+    "win_objs": [
+      2
+    ],
+    "has_medal_obj": true
   },
   "51": {
     "id": 51,
@@ -5146,7 +5346,11 @@
     "map_eff_width": 4144,
     "map_eff_height": 2303,
     "map_offset_x": 115,
-    "map_offset_y": 0
+    "map_offset_y": 0,
+    "win_objs": [
+      2
+    ],
+    "has_medal_obj": true
   },
   "52": {
     "id": 52,
@@ -5263,7 +5467,11 @@
     "map_eff_width": 4103,
     "map_eff_height": 2603,
     "map_offset_x": 1596,
-    "map_offset_y": 1802
+    "map_offset_y": 1802,
+    "win_objs": [
+      2
+    ],
+    "has_medal_obj": true
   },
   "53": {
     "id": 53,
@@ -5378,7 +5586,11 @@
     "map_eff_width": 2079,
     "map_eff_height": 3899,
     "map_offset_x": -1478,
-    "map_offset_y": -196
+    "map_offset_y": -196,
+    "win_objs": [
+      2
+    ],
+    "has_medal_obj": true
   },
   "54": {
     "id": 54,
@@ -5499,7 +5711,11 @@
     "map_eff_width": 4001,
     "map_eff_height": 3647,
     "map_offset_x": -575,
-    "map_offset_y": 393
+    "map_offset_y": 393,
+    "win_objs": [
+      2
+    ],
+    "has_medal_obj": true
   },
   "55": {
     "id": 55,
@@ -5595,7 +5811,11 @@
     "map_eff_width": 3330,
     "map_eff_height": 2340,
     "map_offset_x": -778,
-    "map_offset_y": -1332
+    "map_offset_y": -1332,
+    "win_objs": [
+      2
+    ],
+    "has_medal_obj": true
   },
   "56": {
     "id": 56,
@@ -5691,7 +5911,11 @@
     "map_eff_width": 3520,
     "map_eff_height": 2359,
     "map_offset_x": 779,
-    "map_offset_y": -1414
+    "map_offset_y": -1414,
+    "win_objs": [
+      2
+    ],
+    "has_medal_obj": true
   },
   "57": {
     "id": 57,
@@ -5786,7 +6010,11 @@
     "map_eff_width": -2442,
     "map_eff_height": 2636,
     "map_offset_x": 1004,
-    "map_offset_y": 792
+    "map_offset_y": 792,
+    "win_objs": [
+      2
+    ],
+    "has_medal_obj": true
   },
   "58": {
     "id": 58,
@@ -5889,7 +6117,11 @@
     "map_eff_width": 3474,
     "map_eff_height": 3417,
     "map_offset_x": -843,
-    "map_offset_y": -808
+    "map_offset_y": -808,
+    "win_objs": [
+      2
+    ],
+    "has_medal_obj": true
   },
   "59": {
     "id": 59,
@@ -5994,7 +6226,11 @@
     "map_eff_width": 3577,
     "map_eff_height": 3544,
     "map_offset_x": -918,
-    "map_offset_y": 493
+    "map_offset_y": 493,
+    "win_objs": [
+      2
+    ],
+    "has_medal_obj": true
   },
   "60": {
     "id": 60,
@@ -6101,7 +6337,11 @@
     "map_eff_width": 4500,
     "map_eff_height": 3667,
     "map_offset_x": 17,
-    "map_offset_y": 283
+    "map_offset_y": 283,
+    "win_objs": [
+      2
+    ],
+    "has_medal_obj": true
   },
   "61": {
     "id": 61,
@@ -6197,7 +6437,11 @@
     "map_eff_width": 2726,
     "map_eff_height": 3462,
     "map_offset_x": 1093,
-    "map_offset_y": -494
+    "map_offset_y": -494,
+    "win_objs": [
+      2
+    ],
+    "has_medal_obj": true
   },
   "62": {
     "id": 62,
@@ -6299,7 +6543,11 @@
     "map_eff_width": 3538,
     "map_eff_height": -4208,
     "map_offset_x": -821,
-    "map_offset_y": 480
+    "map_offset_y": 480,
+    "win_objs": [
+      2
+    ],
+    "has_medal_obj": true
   },
   "63": {
     "id": 63,
@@ -6403,7 +6651,11 @@
     "map_eff_width": 4674,
     "map_eff_height": -3457,
     "map_offset_x": 0,
-    "map_offset_y": -745
+    "map_offset_y": -745,
+    "win_objs": [
+      2
+    ],
+    "has_medal_obj": true
   },
   "64": {
     "id": 64,
@@ -6527,7 +6779,11 @@
     "map_eff_width": 4500,
     "map_eff_height": 4251,
     "map_offset_x": 0,
-    "map_offset_y": 0
+    "map_offset_y": 0,
+    "win_objs": [
+      2
+    ],
+    "has_medal_obj": true
   },
   "65": {
     "id": 65,
@@ -6621,7 +6877,11 @@
     "map_eff_width": 3810,
     "map_eff_height": 2718,
     "map_offset_x": 1872,
-    "map_offset_y": -1993
+    "map_offset_y": -1993,
+    "win_objs": [
+      2
+    ],
+    "has_medal_obj": true
   },
   "66": {
     "id": 66,
@@ -6717,7 +6977,11 @@
     "map_eff_width": -2778,
     "map_eff_height": 2542,
     "map_offset_x": -2389,
-    "map_offset_y": 761
+    "map_offset_y": 761,
+    "win_objs": [
+      2
+    ],
+    "has_medal_obj": true
   },
   "67": {
     "id": 67,
@@ -6817,7 +7081,11 @@
     "map_eff_width": 3855,
     "map_eff_height": 1942,
     "map_offset_x": -1460,
-    "map_offset_y": -2378
+    "map_offset_y": -2378,
+    "win_objs": [
+      2
+    ],
+    "has_medal_obj": true
   },
   "68": {
     "id": 68,
@@ -6918,7 +7186,11 @@
     "map_eff_width": 4812,
     "map_eff_height": -2081,
     "map_offset_x": 1374,
-    "map_offset_y": 2299
+    "map_offset_y": 2299,
+    "win_objs": [
+      2
+    ],
+    "has_medal_obj": true
   },
   "69": {
     "id": 69,
@@ -7019,7 +7291,11 @@
     "map_eff_width": 3379,
     "map_eff_height": 2766,
     "map_offset_x": 98,
-    "map_offset_y": -719
+    "map_offset_y": -719,
+    "win_objs": [
+      2
+    ],
+    "has_medal_obj": true
   },
   "70": {
     "id": 70,
@@ -7123,7 +7399,11 @@
     "map_eff_width": 3500,
     "map_eff_height": -2764,
     "map_offset_x": -364,
-    "map_offset_y": 473
+    "map_offset_y": 473,
+    "win_objs": [
+      2
+    ],
+    "has_medal_obj": true
   },
   "71": {
     "id": 71,
@@ -7223,7 +7503,11 @@
     "map_eff_width": 3290,
     "map_eff_height": 2045,
     "map_offset_x": -1437,
-    "map_offset_y": -2337
+    "map_offset_y": -2337,
+    "win_objs": [
+      2
+    ],
+    "has_medal_obj": true
   },
   "72": {
     "id": 72,
@@ -7325,7 +7609,11 @@
     "map_eff_width": 4788,
     "map_eff_height": -2118,
     "map_offset_x": 1372,
-    "map_offset_y": 2288
+    "map_offset_y": 2288,
+    "win_objs": [
+      2
+    ],
+    "has_medal_obj": true
   },
   "73": {
     "id": 73,
@@ -7428,7 +7716,11 @@
     "map_eff_width": 3782,
     "map_eff_height": 2588,
     "map_offset_x": 210,
-    "map_offset_y": -632
+    "map_offset_y": -632,
+    "win_objs": [
+      2
+    ],
+    "has_medal_obj": true
   },
   "74": {
     "id": 74,
@@ -7533,7 +7825,11 @@
     "map_eff_width": 3641,
     "map_eff_height": -2993,
     "map_offset_x": -347,
-    "map_offset_y": 473
+    "map_offset_y": 473,
+    "win_objs": [
+      2
+    ],
+    "has_medal_obj": true
   },
   "75": {
     "id": 75,
@@ -7633,7 +7929,11 @@
     "map_eff_width": 3972,
     "map_eff_height": 2675,
     "map_offset_x": -1120,
-    "map_offset_y": -1434
+    "map_offset_y": -1434,
+    "win_objs": [
+      2
+    ],
+    "has_medal_obj": true
   },
   "76": {
     "id": 76,
@@ -7737,7 +8037,11 @@
     "map_eff_width": 4067,
     "map_eff_height": 3009,
     "map_offset_x": -151,
-    "map_offset_y": -1895
+    "map_offset_y": -1895,
+    "win_objs": [
+      2
+    ],
+    "has_medal_obj": true
   },
   "77": {
     "id": 77,
@@ -7847,7 +8151,11 @@
     "map_eff_width": -3966,
     "map_eff_height": -2985,
     "map_offset_x": 2271,
-    "map_offset_y": -2288
+    "map_offset_y": -2288,
+    "win_objs": [
+      2
+    ],
+    "has_medal_obj": true
   },
   "78": {
     "id": 78,
@@ -7966,7 +8274,11 @@
     "map_eff_width": 6131,
     "map_eff_height": 3013,
     "map_offset_x": 716,
-    "map_offset_y": -1982
+    "map_offset_y": -1982,
+    "win_objs": [
+      2
+    ],
+    "has_medal_obj": true
   },
   "79": {
     "id": 79,
@@ -8081,7 +8393,11 @@
     "map_eff_width": -3814,
     "map_eff_height": 3274,
     "map_offset_x": 2328,
-    "map_offset_y": 573
+    "map_offset_y": 573,
+    "win_objs": [
+      2
+    ],
+    "has_medal_obj": true
   },
   "80": {
     "id": 80,
@@ -8199,7 +8515,11 @@
     "map_eff_width": 3198,
     "map_eff_height": -4625,
     "map_offset_x": -1818,
-    "map_offset_y": 1428
+    "map_offset_y": 1428,
+    "win_objs": [
+      4
+    ],
+    "has_medal_obj": true
   },
   "81": {
     "id": 81,
@@ -8309,7 +8629,11 @@
     "map_eff_width": -3966,
     "map_eff_height": -2985,
     "map_offset_x": 2271,
-    "map_offset_y": -2288
+    "map_offset_y": -2288,
+    "win_objs": [
+      2
+    ],
+    "has_medal_obj": true
   },
   "82": {
     "id": 82,
@@ -8427,7 +8751,11 @@
     "map_eff_width": 6131,
     "map_eff_height": 3013,
     "map_offset_x": 716,
-    "map_offset_y": -1982
+    "map_offset_y": -1982,
+    "win_objs": [
+      2
+    ],
+    "has_medal_obj": true
   },
   "83": {
     "id": 83,
@@ -8543,7 +8871,11 @@
     "map_eff_width": -3814,
     "map_eff_height": 3274,
     "map_offset_x": 2328,
-    "map_offset_y": 573
+    "map_offset_y": 573,
+    "win_objs": [
+      2
+    ],
+    "has_medal_obj": true
   },
   "84": {
     "id": 84,
@@ -8662,7 +8994,11 @@
     "map_eff_width": 3198,
     "map_eff_height": -4625,
     "map_offset_x": -1818,
-    "map_offset_y": 1428
+    "map_offset_y": 1428,
+    "win_objs": [
+      4
+    ],
+    "has_medal_obj": true
   },
   "85": {
     "id": 85,
@@ -8757,7 +9093,11 @@
     "map_eff_width": 3200,
     "map_eff_height": 1800,
     "map_offset_x": -1400,
-    "map_offset_y": 1500
+    "map_offset_y": 1500,
+    "win_objs": [
+      2
+    ],
+    "has_medal_obj": true
   },
   "86": {
     "id": 86,
@@ -8856,7 +9196,11 @@
     "map_eff_width": 3200,
     "map_eff_height": 3200,
     "map_offset_x": -550,
-    "map_offset_y": 1000
+    "map_offset_y": 1000,
+    "win_objs": [
+      2
+    ],
+    "has_medal_obj": true
   },
   "87": {
     "id": 87,
@@ -8952,7 +9296,11 @@
     "map_eff_width": 3600,
     "map_eff_height": 2300,
     "map_offset_x": 1400,
-    "map_offset_y": -400
+    "map_offset_y": -400,
+    "win_objs": [
+      2
+    ],
+    "has_medal_obj": true
   },
   "88": {
     "id": 88,
@@ -9056,7 +9404,11 @@
     "map_eff_width": 3600,
     "map_eff_height": 3600,
     "map_offset_x": 1600,
-    "map_offset_y": 1100
+    "map_offset_y": 1100,
+    "win_objs": [
+      2
+    ],
+    "has_medal_obj": true
   },
   "89": {
     "id": 89,
@@ -9156,7 +9508,11 @@
     "map_eff_width": 3300,
     "map_eff_height": 2500,
     "map_offset_x": 800,
-    "map_offset_y": -1700
+    "map_offset_y": -1700,
+    "win_objs": [
+      2
+    ],
+    "has_medal_obj": true
   },
   "90": {
     "id": 90,
@@ -9256,7 +9612,11 @@
     "map_eff_width": 3400,
     "map_eff_height": 3400,
     "map_offset_x": -1100,
-    "map_offset_y": -1400
+    "map_offset_y": -1400,
+    "win_objs": [
+      2
+    ],
+    "has_medal_obj": true
   },
   "91": {
     "id": 91,
@@ -9354,7 +9714,11 @@
     "map_eff_width": 4600,
     "map_eff_height": 2500,
     "map_offset_x": -650,
-    "map_offset_y": 1500
+    "map_offset_y": 1500,
+    "win_objs": [
+      6
+    ],
+    "has_medal_obj": true
   },
   "92": {
     "id": 92,
@@ -9458,7 +9822,11 @@
     "map_eff_width": 3200,
     "map_eff_height": 4000,
     "map_offset_x": 1500,
-    "map_offset_y": 1050
+    "map_offset_y": 1050,
+    "win_objs": [
+      6
+    ],
+    "has_medal_obj": true
   },
   "93": {
     "id": 93,
@@ -9558,7 +9926,11 @@
     "map_eff_width": 3800,
     "map_eff_height": 3400,
     "map_offset_x": -200,
-    "map_offset_y": 200
+    "map_offset_y": 200,
+    "win_objs": [
+      7
+    ],
+    "has_medal_obj": true
   },
   "94": {
     "id": 94,
@@ -9658,7 +10030,11 @@
     "map_eff_width": 4200,
     "map_eff_height": 4000,
     "map_offset_x": 600,
-    "map_offset_y": 900
+    "map_offset_y": 900,
+    "win_objs": [
+      7
+    ],
+    "has_medal_obj": true
   },
   "95": {
     "id": 95,
@@ -9767,7 +10143,11 @@
     "map_eff_width": 4000,
     "map_eff_height": 4000,
     "map_offset_x": -2100,
-    "map_offset_y": -2200
+    "map_offset_y": -2200,
+    "win_objs": [
+      6
+    ],
+    "has_medal_obj": true
   },
   "96": {
     "id": 96,
@@ -9885,7 +10265,11 @@
     "map_eff_width": 4600,
     "map_eff_height": 4900,
     "map_offset_x": -1400,
-    "map_offset_y": -1300
+    "map_offset_y": -1300,
+    "win_objs": [
+      2
+    ],
+    "has_medal_obj": true
   },
   "97": {
     "id": 97,
@@ -9997,7 +10381,11 @@
     "map_eff_width": 4000,
     "map_eff_height": 4000,
     "map_offset_x": -2200,
-    "map_offset_y": 800
+    "map_offset_y": 800,
+    "win_objs": [
+      2
+    ],
+    "has_medal_obj": true
   },
   "98": {
     "id": 98,
@@ -10108,7 +10496,11 @@
     "map_eff_width": 4800,
     "map_eff_height": 3400,
     "map_offset_x": -1900,
-    "map_offset_y": 2400
+    "map_offset_y": 2400,
+    "win_objs": [
+      2
+    ],
+    "has_medal_obj": true
   },
   "99": {
     "id": 99,
@@ -10227,7 +10619,11 @@
     "map_eff_width": 4600,
     "map_eff_height": 4600,
     "map_offset_x": 830,
-    "map_offset_y": 1700
+    "map_offset_y": 1700,
+    "win_objs": [
+      2
+    ],
+    "has_medal_obj": true
   },
   "100": {
     "id": 100,
@@ -10340,7 +10736,11 @@
     "map_eff_width": 4200,
     "map_eff_height": 4200,
     "map_offset_x": 680,
-    "map_offset_y": 850
+    "map_offset_y": 850,
+    "win_objs": [
+      7
+    ],
+    "has_medal_obj": true
   },
   "101": {
     "id": 101,
@@ -10446,7 +10846,11 @@
     "map_eff_width": 5100,
     "map_eff_height": 3300,
     "map_offset_x": 1500,
-    "map_offset_y": 1550
+    "map_offset_y": 1550,
+    "win_objs": [
+      3
+    ],
+    "has_medal_obj": true
   },
   "102": {
     "id": 102,
@@ -10564,7 +10968,11 @@
     "map_eff_width": 7200,
     "map_eff_height": 6500,
     "map_offset_x": -300,
-    "map_offset_y": 300
+    "map_offset_y": 300,
+    "win_objs": [
+      7
+    ],
+    "has_medal_obj": true
   },
   "103": {
     "id": 103,
@@ -10679,7 +11087,11 @@
     "map_eff_width": 5000,
     "map_eff_height": 4400,
     "map_offset_x": 1600,
-    "map_offset_y": 1200
+    "map_offset_y": 1200,
+    "win_objs": [
+      6
+    ],
+    "has_medal_obj": true
   },
   "104": {
     "id": 104,
@@ -10801,7 +11213,11 @@
     "map_eff_width": 5800,
     "map_eff_height": 6700,
     "map_offset_x": 1400,
-    "map_offset_y": -500
+    "map_offset_y": -500,
+    "win_objs": [
+      6
+    ],
+    "has_medal_obj": true
   },
   "105": {
     "id": 105,
@@ -10937,7 +11353,11 @@
     "map_eff_width": 5000,
     "map_eff_height": 4200,
     "map_offset_x": 1700,
-    "map_offset_y": -1350
+    "map_offset_y": -1350,
+    "win_objs": [
+      6
+    ],
+    "has_medal_obj": true
   },
   "106": {
     "id": 106,
@@ -11067,7 +11487,11 @@
     "map_eff_width": 5500,
     "map_eff_height": 4000,
     "map_offset_x": -350,
-    "map_offset_y": 0
+    "map_offset_y": 0,
+    "win_objs": [
+      6
+    ],
+    "has_medal_obj": true
   },
   "107": {
     "id": 107,
@@ -11186,7 +11610,11 @@
     "map_eff_width": 5000,
     "map_eff_height": 3300,
     "map_offset_x": 1700,
-    "map_offset_y": -1350
+    "map_offset_y": -1350,
+    "win_objs": [
+      3
+    ],
+    "has_medal_obj": true
   },
   "108": {
     "id": 108,
@@ -11305,7 +11733,11 @@
     "map_eff_width": 5200,
     "map_eff_height": 3600,
     "map_offset_x": -2850,
-    "map_offset_y": -2850
+    "map_offset_y": -2850,
+    "win_objs": [
+      7
+    ],
+    "has_medal_obj": true
   },
   "109": {
     "id": 109,
@@ -11436,7 +11868,11 @@
     "map_eff_width": 6300,
     "map_eff_height": 4000,
     "map_offset_x": -750,
-    "map_offset_y": 400
+    "map_offset_y": 400,
+    "win_objs": [
+      2
+    ],
+    "has_medal_obj": true
   },
   "110": {
     "id": 110,
@@ -11572,7 +12008,11 @@
     "map_eff_width": 7000,
     "map_eff_height": 5500,
     "map_offset_x": -1500,
-    "map_offset_y": -200
+    "map_offset_y": -200,
+    "win_objs": [
+      2
+    ],
+    "has_medal_obj": true
   },
   "111": {
     "id": 111,
@@ -11709,7 +12149,11 @@
     "map_eff_width": 7000,
     "map_eff_height": 4000,
     "map_offset_x": 50,
-    "map_offset_y": 600
+    "map_offset_y": 600,
+    "win_objs": [
+      7
+    ],
+    "has_medal_obj": true
   },
   "112": {
     "id": 112,
@@ -11837,7 +12281,11 @@
     "map_eff_width": 6000,
     "map_eff_height": 3500,
     "map_offset_x": -400,
-    "map_offset_y": 2000
+    "map_offset_y": 2000,
+    "win_objs": [
+      2
+    ],
+    "has_medal_obj": true
   },
   "113": {
     "id": 113,
@@ -11964,7 +12412,11 @@
     "map_eff_width": 6000,
     "map_eff_height": 5000,
     "map_offset_x": -3200,
-    "map_offset_y": 2500
+    "map_offset_y": 2500,
+    "win_objs": [
+      7
+    ],
+    "has_medal_obj": true
   },
   "114": {
     "id": 114,
@@ -12132,7 +12584,11 @@
     "map_eff_width": 9000,
     "map_eff_height": 5000,
     "map_offset_x": 1600,
-    "map_offset_y": 2800
+    "map_offset_y": 2800,
+    "win_objs": [
+      2
+    ],
+    "has_medal_obj": true
   },
   "1101": {
     "id": 1101,
@@ -12217,7 +12673,11 @@
     "map_eff_width": 2182,
     "map_eff_height": 1561,
     "map_offset_x": 424,
-    "map_offset_y": -957
+    "map_offset_y": -957,
+    "win_objs": [
+      3
+    ],
+    "has_medal_obj": false
   },
   "1102": {
     "id": 1102,
@@ -12308,7 +12768,11 @@
     "map_eff_width": 3021,
     "map_eff_height": 1883,
     "map_offset_x": -182,
-    "map_offset_y": -733
+    "map_offset_y": -733,
+    "win_objs": [
+      3
+    ],
+    "has_medal_obj": false
   },
   "1103": {
     "id": 1103,
@@ -12406,7 +12870,11 @@
     "map_eff_width": 3218,
     "map_eff_height": 2070,
     "map_offset_x": 0,
-    "map_offset_y": -576
+    "map_offset_y": -576,
+    "win_objs": [
+      3
+    ],
+    "has_medal_obj": false
   },
   "1201": {
     "id": 1201,
@@ -12488,7 +12956,11 @@
     "map_eff_width": 2061,
     "map_eff_height": 1387,
     "map_offset_x": -723,
-    "map_offset_y": 247
+    "map_offset_y": 247,
+    "win_objs": [
+      3
+    ],
+    "has_medal_obj": false
   },
   "1202": {
     "id": 1202,
@@ -12571,7 +13043,11 @@
     "map_eff_width": 2117,
     "map_eff_height": 1788,
     "map_offset_x": -719,
-    "map_offset_y": 500
+    "map_offset_y": 500,
+    "win_objs": [
+      3
+    ],
+    "has_medal_obj": false
   },
   "1203": {
     "id": 1203,
@@ -12655,7 +13131,11 @@
     "map_eff_width": -2476,
     "map_eff_height": -1796,
     "map_offset_x": 640,
-    "map_offset_y": -366
+    "map_offset_y": -366,
+    "win_objs": [
+      3
+    ],
+    "has_medal_obj": false
   },
   "1301": {
     "id": 1301,
@@ -12735,7 +13215,11 @@
     "map_eff_width": 2048,
     "map_eff_height": 1351,
     "map_offset_x": 0,
-    "map_offset_y": 0
+    "map_offset_y": 0,
+    "win_objs": [
+      3
+    ],
+    "has_medal_obj": false
   },
   "1302": {
     "id": 1302,
@@ -12815,7 +13299,11 @@
     "map_eff_width": 2048,
     "map_eff_height": 1351,
     "map_offset_x": 0,
-    "map_offset_y": 0
+    "map_offset_y": 0,
+    "win_objs": [
+      3
+    ],
+    "has_medal_obj": false
   },
   "1303": {
     "id": 1303,
@@ -12895,7 +13383,11 @@
     "map_eff_width": 2048,
     "map_eff_height": 1351,
     "map_offset_x": 0,
-    "map_offset_y": 0
+    "map_offset_y": 0,
+    "win_objs": [
+      3
+    ],
+    "has_medal_obj": false
   },
   "1501": {
     "id": 1501,
@@ -12978,7 +13470,11 @@
     "map_eff_width": 2400,
     "map_eff_height": 1800,
     "map_offset_x": -1950,
-    "map_offset_y": 2930
+    "map_offset_y": 2930,
+    "win_objs": [
+      3
+    ],
+    "has_medal_obj": false
   },
   "1502": {
     "id": 1502,
@@ -13062,7 +13558,11 @@
     "map_eff_width": 3500,
     "map_eff_height": 2500,
     "map_offset_x": -200,
-    "map_offset_y": 800
+    "map_offset_y": 800,
+    "win_objs": [
+      3
+    ],
+    "has_medal_obj": false
   },
   "1503": {
     "id": 1503,
@@ -13147,7 +13647,11 @@
     "map_eff_width": 3700,
     "map_eff_height": 2800,
     "map_offset_x": -1900,
-    "map_offset_y": -1450
+    "map_offset_y": -1450,
+    "win_objs": [
+      3
+    ],
+    "has_medal_obj": false
   },
   "10001": {
     "id": 10001,
@@ -13256,7 +13760,11 @@
     "map_eff_width": 2048,
     "map_eff_height": 1351,
     "map_offset_x": 0,
-    "map_offset_y": 0
+    "map_offset_y": 0,
+    "win_objs": [
+      3
+    ],
+    "has_medal_obj": true
   },
   "10002": {
     "id": 10002,
@@ -13375,7 +13883,11 @@
     "map_eff_width": 2048,
     "map_eff_height": 1351,
     "map_offset_x": 0,
-    "map_offset_y": 0
+    "map_offset_y": 0,
+    "win_objs": [
+      4
+    ],
+    "has_medal_obj": true
   },
   "10003": {
     "id": 10003,
@@ -13508,7 +14020,11 @@
     "map_eff_width": 2048,
     "map_eff_height": 1351,
     "map_offset_x": 0,
-    "map_offset_y": 0
+    "map_offset_y": 0,
+    "win_objs": [
+      4
+    ],
+    "has_medal_obj": true
   },
   "10004": {
     "id": 10004,
@@ -13655,7 +14171,11 @@
     "map_eff_width": 2048,
     "map_eff_height": 1351,
     "map_offset_x": 0,
-    "map_offset_y": 0
+    "map_offset_y": 0,
+    "win_objs": [
+      4
+    ],
+    "has_medal_obj": true
   },
   "10005": {
     "id": 10005,
@@ -13770,7 +14290,11 @@
     "map_eff_width": 8500,
     "map_eff_height": 7500,
     "map_offset_x": 0,
-    "map_offset_y": 0
+    "map_offset_y": 0,
+    "win_objs": [
+      2
+    ],
+    "has_medal_obj": true
   },
   "10006": {
     "id": 10006,
@@ -13884,7 +14408,11 @@
     "map_eff_width": 8500,
     "map_eff_height": 8000,
     "map_offset_x": 6,
-    "map_offset_y": -10
+    "map_offset_y": -10,
+    "win_objs": [
+      2
+    ],
+    "has_medal_obj": true
   },
   "10007": {
     "id": 10007,
@@ -14013,7 +14541,11 @@
     "map_eff_width": 8500,
     "map_eff_height": 7500,
     "map_offset_x": 0,
-    "map_offset_y": 0
+    "map_offset_y": 0,
+    "win_objs": [
+      2
+    ],
+    "has_medal_obj": true
   },
   "10008": {
     "id": 10008,
@@ -14144,7 +14676,11 @@
     "map_eff_width": 8500,
     "map_eff_height": 7500,
     "map_offset_x": 0,
-    "map_offset_y": 0
+    "map_offset_y": 0,
+    "win_objs": [
+      4
+    ],
+    "has_medal_obj": true
   },
   "10009": {
     "id": 10009,
@@ -14274,7 +14810,11 @@
     "map_eff_width": 8500,
     "map_eff_height": 7500,
     "map_offset_x": 0,
-    "map_offset_y": 0
+    "map_offset_y": 0,
+    "win_objs": [
+      2
+    ],
+    "has_medal_obj": false
   },
   "10010": {
     "id": 10010,
@@ -14414,7 +14954,11 @@
     "map_eff_width": 8500,
     "map_eff_height": 7500,
     "map_offset_x": 0,
-    "map_offset_y": 0
+    "map_offset_y": 0,
+    "win_objs": [
+      2
+    ],
+    "has_medal_obj": false
   },
   "10011": {
     "id": 10011,
@@ -14559,7 +15103,11 @@
     "map_eff_width": 8500,
     "map_eff_height": 7500,
     "map_offset_x": 0,
-    "map_offset_y": 0
+    "map_offset_y": 0,
+    "win_objs": [
+      2
+    ],
+    "has_medal_obj": false
   },
   "10012": {
     "id": 10012,
@@ -14699,7 +15247,11 @@
     "map_eff_width": 8500,
     "map_eff_height": 7500,
     "map_offset_x": 0,
-    "map_offset_y": 0
+    "map_offset_y": 0,
+    "win_objs": [
+      4
+    ],
+    "has_medal_obj": false
   },
   "10013": {
     "id": 10013,
@@ -14831,7 +15383,11 @@
     "map_eff_width": 8500,
     "map_eff_height": 7500,
     "map_offset_x": 0,
-    "map_offset_y": 0
+    "map_offset_y": 0,
+    "win_objs": [
+      2
+    ],
+    "has_medal_obj": false
   },
   "10014": {
     "id": 10014,
@@ -14966,7 +15522,11 @@
     "map_eff_width": 8500,
     "map_eff_height": 7500,
     "map_offset_x": 0,
-    "map_offset_y": 0
+    "map_offset_y": 0,
+    "win_objs": [
+      2
+    ],
+    "has_medal_obj": false
   },
   "10015": {
     "id": 10015,
@@ -15085,7 +15645,11 @@
     "map_eff_width": 8500,
     "map_eff_height": 7500,
     "map_offset_x": 0,
-    "map_offset_y": 0
+    "map_offset_y": 0,
+    "win_objs": [
+      2
+    ],
+    "has_medal_obj": true
   },
   "10016": {
     "id": 10016,
@@ -15245,7 +15809,11 @@
     "map_eff_width": 8500,
     "map_eff_height": 7500,
     "map_offset_x": 0,
-    "map_offset_y": 0
+    "map_offset_y": 0,
+    "win_objs": [
+      4
+    ],
+    "has_medal_obj": true
   },
   "10017": {
     "id": 10017,
@@ -15418,7 +15986,11 @@
     "map_eff_width": 6462,
     "map_eff_height": 5747,
     "map_offset_x": 571,
-    "map_offset_y": -149
+    "map_offset_y": -149,
+    "win_objs": [
+      5
+    ],
+    "has_medal_obj": true
   },
   "10018": {
     "id": 10018,
@@ -15527,7 +16099,11 @@
     "map_eff_width": 4229,
     "map_eff_height": 3153,
     "map_offset_x": 452,
-    "map_offset_y": 116
+    "map_offset_y": 116,
+    "win_objs": [
+      3
+    ],
+    "has_medal_obj": false
   },
   "10019": {
     "id": 10019,
@@ -15646,7 +16222,11 @@
     "map_eff_width": 5000,
     "map_eff_height": 4500,
     "map_offset_x": 0,
-    "map_offset_y": 0
+    "map_offset_y": 0,
+    "win_objs": [
+      4
+    ],
+    "has_medal_obj": false
   },
   "10020": {
     "id": 10020,
@@ -15779,7 +16359,11 @@
     "map_eff_width": 5145,
     "map_eff_height": 4562,
     "map_offset_x": 0,
-    "map_offset_y": 0
+    "map_offset_y": 0,
+    "win_objs": [
+      4
+    ],
+    "has_medal_obj": false
   },
   "10021": {
     "id": 10021,
@@ -15925,7 +16509,11 @@
     "map_eff_width": 5145,
     "map_eff_height": 4562,
     "map_offset_x": 0,
-    "map_offset_y": 0
+    "map_offset_y": 0,
+    "win_objs": [
+      4
+    ],
+    "has_medal_obj": false
   },
   "10022": {
     "id": 10022,
@@ -16056,7 +16644,11 @@
     "map_eff_width": 5145,
     "map_eff_height": 4562,
     "map_offset_x": 0,
-    "map_offset_y": 0
+    "map_offset_y": 0,
+    "win_objs": [
+      4
+    ],
+    "has_medal_obj": false
   },
   "10023": {
     "id": 10023,
@@ -16184,7 +16776,11 @@
     "map_eff_width": 5145,
     "map_eff_height": 4562,
     "map_offset_x": 0,
-    "map_offset_y": 0
+    "map_offset_y": 0,
+    "win_objs": [
+      4
+    ],
+    "has_medal_obj": false
   },
   "10024": {
     "id": 10024,
@@ -16335,7 +16931,11 @@
     "map_eff_width": 5145,
     "map_eff_height": 4562,
     "map_offset_x": 0,
-    "map_offset_y": 0
+    "map_offset_y": 0,
+    "win_objs": [
+      4
+    ],
+    "has_medal_obj": false
   },
   "10025": {
     "id": 10025,
@@ -16485,7 +17085,11 @@
     "map_eff_width": 5145,
     "map_eff_height": 4562,
     "map_offset_x": 0,
-    "map_offset_y": 0
+    "map_offset_y": 0,
+    "win_objs": [
+      4
+    ],
+    "has_medal_obj": false
   },
   "10026": {
     "id": 10026,
@@ -16581,7 +17185,11 @@
     "map_eff_width": 3650,
     "map_eff_height": 2600,
     "map_offset_x": -850,
-    "map_offset_y": -750
+    "map_offset_y": -750,
+    "win_objs": [
+      2
+    ],
+    "has_medal_obj": true
   },
   "10027": {
     "id": 10027,
@@ -16677,7 +17285,11 @@
     "map_eff_width": 3500,
     "map_eff_height": 2600,
     "map_offset_x": 900,
-    "map_offset_y": -600
+    "map_offset_y": -600,
+    "win_objs": [
+      2
+    ],
+    "has_medal_obj": true
   },
   "10028": {
     "id": 10028,
@@ -16783,7 +17395,11 @@
     "map_eff_width": 4000,
     "map_eff_height": 3300,
     "map_offset_x": 1000,
-    "map_offset_y": 1600
+    "map_offset_y": 1600,
+    "win_objs": [
+      2
+    ],
+    "has_medal_obj": true
   },
   "10029": {
     "id": 10029,
@@ -16897,7 +17513,11 @@
     "map_eff_width": 6800,
     "map_eff_height": 3300,
     "map_offset_x": 100,
-    "map_offset_y": 1600
+    "map_offset_y": 1600,
+    "win_objs": [
+      4
+    ],
+    "has_medal_obj": true
   },
   "10030": {
     "id": 10030,
@@ -16988,7 +17608,11 @@
     "map_eff_width": 2500,
     "map_eff_height": 2400,
     "map_offset_x": -200,
-    "map_offset_y": -800
+    "map_offset_y": -800,
+    "win_objs": [
+      2
+    ],
+    "has_medal_obj": true
   },
   "10031": {
     "id": 10031,
@@ -17081,7 +17705,11 @@
     "map_eff_width": 3000,
     "map_eff_height": 2500,
     "map_offset_x": -250,
-    "map_offset_y": 800
+    "map_offset_y": 800,
+    "win_objs": [
+      7
+    ],
+    "has_medal_obj": true
   },
   "10032": {
     "id": 10032,
@@ -17180,7 +17808,11 @@
     "map_eff_width": 3800,
     "map_eff_height": 4200,
     "map_offset_x": 1000,
-    "map_offset_y": -1900
+    "map_offset_y": -1900,
+    "win_objs": [
+      6
+    ],
+    "has_medal_obj": true
   },
   "10033": {
     "id": 10033,
@@ -17280,7 +17912,11 @@
     "map_eff_width": 5500,
     "map_eff_height": 3800,
     "map_offset_x": -800,
-    "map_offset_y": -500
+    "map_offset_y": -500,
+    "win_objs": [
+      7
+    ],
+    "has_medal_obj": true
   },
   "10034": {
     "id": 10034,
@@ -17388,7 +18024,11 @@
     "map_eff_width": 3400,
     "map_eff_height": 3600,
     "map_offset_x": -1400,
-    "map_offset_y": -950
+    "map_offset_y": -950,
+    "win_objs": [
+      7
+    ],
+    "has_medal_obj": false
   },
   "10035": {
     "id": 10035,
@@ -17498,7 +18138,11 @@
     "map_eff_width": 4300,
     "map_eff_height": 3400,
     "map_offset_x": -900,
-    "map_offset_y": 1000
+    "map_offset_y": 1000,
+    "win_objs": [
+      2
+    ],
+    "has_medal_obj": false
   },
   "10036": {
     "id": 10036,
@@ -17668,7 +18312,11 @@
     "map_eff_width": 6200,
     "map_eff_height": 5400,
     "map_offset_x": 0,
-    "map_offset_y": 0
+    "map_offset_y": 0,
+    "win_objs": [
+      6
+    ],
+    "has_medal_obj": true
   },
   "10037": {
     "id": 10037,
@@ -17782,7 +18430,11 @@
     "map_eff_width": 6400,
     "map_eff_height": 5300,
     "map_offset_x": 1230,
-    "map_offset_y": 370
+    "map_offset_y": 370,
+    "win_objs": [
+      6
+    ],
+    "has_medal_obj": false
   },
   "10038": {
     "id": 10038,
@@ -17906,7 +18558,11 @@
     "map_eff_width": 6000,
     "map_eff_height": 5200,
     "map_offset_x": 130,
-    "map_offset_y": -300
+    "map_offset_y": -300,
+    "win_objs": [
+      7
+    ],
+    "has_medal_obj": false
   },
   "10039": {
     "id": 10039,
@@ -18017,7 +18673,11 @@
     "map_eff_width": 5600,
     "map_eff_height": 4000,
     "map_offset_x": -1170,
-    "map_offset_y": 1980
+    "map_offset_y": 1980,
+    "win_objs": [
+      6
+    ],
+    "has_medal_obj": true
   },
   "10040": {
     "id": 10040,
@@ -18143,7 +18803,11 @@
     "map_eff_width": 7800,
     "map_eff_height": 5600,
     "map_offset_x": -150,
-    "map_offset_y": 0
+    "map_offset_y": 0,
+    "win_objs": [
+      6
+    ],
+    "has_medal_obj": false
   },
   "10041": {
     "id": 10041,
@@ -18269,7 +18933,11 @@
     "map_eff_width": 7200,
     "map_eff_height": 4000,
     "map_offset_x": 650,
-    "map_offset_y": 2100
+    "map_offset_y": 2100,
+    "win_objs": [
+      7
+    ],
+    "has_medal_obj": true
   },
   "10042": {
     "id": 10042,
@@ -18415,7 +19083,11 @@
     "map_eff_width": 9000,
     "map_eff_height": 5800,
     "map_offset_x": 0,
-    "map_offset_y": -1268
+    "map_offset_y": -1268,
+    "win_objs": [
+      7
+    ],
+    "has_medal_obj": false
   },
   "10043": {
     "id": 10043,
@@ -18514,7 +19186,11 @@
     "map_eff_width": 5400,
     "map_eff_height": 3400,
     "map_offset_x": -1700,
-    "map_offset_y": 2500
+    "map_offset_y": 2500,
+    "win_objs": [
+      2
+    ],
+    "has_medal_obj": true
   },
   "10044": {
     "id": 10044,
@@ -18621,7 +19297,11 @@
     "map_eff_width": 6200,
     "map_eff_height": 4200,
     "map_offset_x": -800,
-    "map_offset_y": 800
+    "map_offset_y": 800,
+    "win_objs": [
+      7
+    ],
+    "has_medal_obj": true
   },
   "10045": {
     "id": 10045,
@@ -18730,7 +19410,11 @@
     "map_eff_width": 4300,
     "map_eff_height": 4300,
     "map_offset_x": 2200,
-    "map_offset_y": 1950
+    "map_offset_y": 1950,
+    "win_objs": [
+      2
+    ],
+    "has_medal_obj": true
   },
   "10046": {
     "id": 10046,
@@ -18841,7 +19525,11 @@
     "map_eff_width": 5300,
     "map_eff_height": 3000,
     "map_offset_x": 1800,
-    "map_offset_y": 2000
+    "map_offset_y": 2000,
+    "win_objs": [
+      6
+    ],
+    "has_medal_obj": true
   },
   "10047": {
     "id": 10047,
@@ -18952,7 +19640,11 @@
     "map_eff_width": 4800,
     "map_eff_height": 4800,
     "map_offset_x": -1300,
-    "map_offset_y": -1750
+    "map_offset_y": -1750,
+    "win_objs": [
+      2
+    ],
+    "has_medal_obj": false
   },
   "10048": {
     "id": 10048,
@@ -19061,7 +19753,11 @@
     "map_eff_width": 5100,
     "map_eff_height": 4100,
     "map_offset_x": -300,
-    "map_offset_y": -1700
+    "map_offset_y": -1700,
+    "win_objs": [
+      6
+    ],
+    "has_medal_obj": false
   },
   "10049": {
     "id": 10049,
@@ -19189,7 +19885,11 @@
     "map_eff_width": 6800,
     "map_eff_height": 4400,
     "map_offset_x": 900,
-    "map_offset_y": -1700
+    "map_offset_y": -1700,
+    "win_objs": [
+      7
+    ],
+    "has_medal_obj": false
   },
   "10050": {
     "id": 10050,
@@ -19306,7 +20006,11 @@
     "map_eff_width": 4600,
     "map_eff_height": 2900,
     "map_offset_x": 1950,
-    "map_offset_y": -800
+    "map_offset_y": -800,
+    "win_objs": [
+      2
+    ],
+    "has_medal_obj": false
   },
   "10051": {
     "id": 10051,
@@ -19395,7 +20099,11 @@
     "map_eff_width": 2500,
     "map_eff_height": 2700,
     "map_offset_x": 4600,
-    "map_offset_y": 3500
+    "map_offset_y": 3500,
+    "win_objs": [
+      1
+    ],
+    "has_medal_obj": true
   },
   "10052": {
     "id": 10052,
@@ -19488,7 +20196,11 @@
     "map_eff_width": 4000,
     "map_eff_height": 3500,
     "map_offset_x": 3500,
-    "map_offset_y": 3250
+    "map_offset_y": 3250,
+    "win_objs": [
+      7
+    ],
+    "has_medal_obj": true
   },
   "10053": {
     "id": 10053,
@@ -19588,7 +20300,11 @@
     "map_eff_width": 3500,
     "map_eff_height": 2800,
     "map_offset_x": 1700,
-    "map_offset_y": 4200
+    "map_offset_y": 4200,
+    "win_objs": [
+      2
+    ],
+    "has_medal_obj": true
   },
   "10054": {
     "id": 10054,
@@ -19690,7 +20406,11 @@
     "map_eff_width": 4300,
     "map_eff_height": 3200,
     "map_offset_x": 370,
-    "map_offset_y": 3400
+    "map_offset_y": 3400,
+    "win_objs": [
+      3
+    ],
+    "has_medal_obj": true
   },
   "10055": {
     "id": 10055,
@@ -19787,7 +20507,11 @@
     "map_eff_width": 3000,
     "map_eff_height": 2600,
     "map_offset_x": -1700,
-    "map_offset_y": 3450
+    "map_offset_y": 3450,
+    "win_objs": [
+      6
+    ],
+    "has_medal_obj": true
   },
   "10056": {
     "id": 10056,
@@ -19897,7 +20621,11 @@
     "map_eff_width": 3700,
     "map_eff_height": 4000,
     "map_offset_x": -1300,
-    "map_offset_y": 2000
+    "map_offset_y": 2000,
+    "win_objs": [
+      4
+    ],
+    "has_medal_obj": true
   },
   "10057": {
     "id": 10057,
@@ -20001,7 +20729,11 @@
     "map_eff_width": 4900,
     "map_eff_height": 3000,
     "map_offset_x": 2750,
-    "map_offset_y": 2000
+    "map_offset_y": 2000,
+    "win_objs": [
+      6
+    ],
+    "has_medal_obj": true
   },
   "10058": {
     "id": 10058,
@@ -20098,7 +20830,11 @@
     "map_eff_width": 3600,
     "map_eff_height": 2500,
     "map_offset_x": 350,
-    "map_offset_y": 1600
+    "map_offset_y": 1600,
+    "win_objs": [
+      3
+    ],
+    "has_medal_obj": true
   },
   "10059": {
     "id": 10059,
@@ -20194,7 +20930,11 @@
     "map_eff_width": 2800,
     "map_eff_height": 3600,
     "map_offset_x": -150,
-    "map_offset_y": 1250
+    "map_offset_y": 1250,
+    "win_objs": [
+      6
+    ],
+    "has_medal_obj": true
   },
   "10060": {
     "id": 10060,
@@ -20304,7 +21044,11 @@
     "map_eff_width": 3700,
     "map_eff_height": 4000,
     "map_offset_x": -1300,
-    "map_offset_y": 2000
+    "map_offset_y": 2000,
+    "win_objs": [
+      4
+    ],
+    "has_medal_obj": true
   },
   "10061": {
     "id": 10061,
@@ -20415,7 +21159,11 @@
     "map_eff_width": 4800,
     "map_eff_height": 5400,
     "map_offset_x": -1150,
-    "map_offset_y": 400
+    "map_offset_y": 400,
+    "win_objs": [
+      6
+    ],
+    "has_medal_obj": true
   },
   "10062": {
     "id": 10062,
@@ -20512,7 +21260,11 @@
     "map_eff_width": 3800,
     "map_eff_height": 3400,
     "map_offset_x": -2100,
-    "map_offset_y": -2300
+    "map_offset_y": -2300,
+    "win_objs": [
+      1
+    ],
+    "has_medal_obj": true
   },
   "10063": {
     "id": 10063,
@@ -20628,7 +21380,11 @@
     "map_eff_width": 3000,
     "map_eff_height": 3400,
     "map_offset_x": 4500,
-    "map_offset_y": -4000
+    "map_offset_y": -4000,
+    "win_objs": [
+      2
+    ],
+    "has_medal_obj": true
   },
   "10064": {
     "id": 10064,
@@ -20747,7 +21503,11 @@
     "map_eff_width": 3650,
     "map_eff_height": 4200,
     "map_offset_x": 4250,
-    "map_offset_y": -2300
+    "map_offset_y": -2300,
+    "win_objs": [
+      6
+    ],
+    "has_medal_obj": true
   },
   "10065": {
     "id": 10065,
@@ -20842,7 +21602,11 @@
     "map_eff_width": 4000,
     "map_eff_height": 3200,
     "map_offset_x": -2000,
-    "map_offset_y": 1550
+    "map_offset_y": 1550,
+    "win_objs": [
+      1
+    ],
+    "has_medal_obj": false
   },
   "10066": {
     "id": 10066,
@@ -20943,7 +21707,11 @@
     "map_eff_width": 2800,
     "map_eff_height": 2500,
     "map_offset_x": -3550,
-    "map_offset_y": 1150
+    "map_offset_y": 1150,
+    "win_objs": [
+      1
+    ],
+    "has_medal_obj": false
   },
   "10067": {
     "id": 10067,
@@ -21038,7 +21806,11 @@
     "map_eff_width": 2800,
     "map_eff_height": 2900,
     "map_offset_x": -3820,
-    "map_offset_y": 150
+    "map_offset_y": 150,
+    "win_objs": [
+      1
+    ],
+    "has_medal_obj": false
   },
   "10068": {
     "id": 10068,
@@ -21134,7 +21906,11 @@
     "map_eff_width": 4800,
     "map_eff_height": 2500,
     "map_offset_x": 510,
-    "map_offset_y": 600
+    "map_offset_y": 600,
+    "win_objs": [
+      6
+    ],
+    "has_medal_obj": false
   },
   "10069": {
     "id": 10069,
@@ -21240,7 +22016,11 @@
     "map_eff_width": 5400,
     "map_eff_height": 3500,
     "map_offset_x": 310,
-    "map_offset_y": 680
+    "map_offset_y": 680,
+    "win_objs": [
+      6
+    ],
+    "has_medal_obj": false
   },
   "10070": {
     "id": 10070,
@@ -21335,7 +22115,11 @@
     "map_eff_width": 3000,
     "map_eff_height": 2600,
     "map_offset_x": -2250,
-    "map_offset_y": -450
+    "map_offset_y": -450,
+    "win_objs": [
+      2
+    ],
+    "has_medal_obj": false
   },
   "10071": {
     "id": 10071,
@@ -21429,7 +22213,11 @@
     "map_eff_width": 4500,
     "map_eff_height": 3700,
     "map_offset_x": -50,
-    "map_offset_y": -2150
+    "map_offset_y": -2150,
+    "win_objs": [
+      2
+    ],
+    "has_medal_obj": false
   },
   "10072": {
     "id": 10072,
@@ -21526,7 +22314,11 @@
     "map_eff_width": 3800,
     "map_eff_height": 3600,
     "map_offset_x": -2300,
-    "map_offset_y": -3300
+    "map_offset_y": -3300,
+    "win_objs": [
+      3
+    ],
+    "has_medal_obj": false
   },
   "10073": {
     "id": 10073,
@@ -21648,7 +22440,11 @@
     "map_eff_width": 5200,
     "map_eff_height": 3300,
     "map_offset_x": -900,
-    "map_offset_y": -4350
+    "map_offset_y": -4350,
+    "win_objs": [
+      2
+    ],
+    "has_medal_obj": false
   },
   "10074": {
     "id": 10074,
@@ -21742,7 +22538,11 @@
     "map_eff_width": 3500,
     "map_eff_height": 2200,
     "map_offset_x": 3550,
-    "map_offset_y": -4100
+    "map_offset_y": -4100,
+    "win_objs": [
+      3
+    ],
+    "has_medal_obj": false
   },
   "10075": {
     "id": 10075,
@@ -21836,7 +22636,11 @@
     "map_eff_width": 4200,
     "map_eff_height": 3400,
     "map_offset_x": 900,
-    "map_offset_y": -4150
+    "map_offset_y": -4150,
+    "win_objs": [
+      2
+    ],
+    "has_medal_obj": false
   },
   "10076": {
     "id": 10076,
@@ -21944,7 +22748,11 @@
     "map_eff_width": 4000,
     "map_eff_height": 3000,
     "map_offset_x": -1000,
-    "map_offset_y": -4400
+    "map_offset_y": -4400,
+    "win_objs": [
+      7
+    ],
+    "has_medal_obj": false
   },
   "10077": {
     "id": 10077,
@@ -22066,7 +22874,11 @@
     "map_eff_width": 5200,
     "map_eff_height": 3300,
     "map_offset_x": -900,
-    "map_offset_y": -4350
+    "map_offset_y": -4350,
+    "win_objs": [
+      2
+    ],
+    "has_medal_obj": false
   },
   "10078": {
     "id": 10078,
@@ -22169,7 +22981,11 @@
     "map_eff_width": 4900,
     "map_eff_height": 4000,
     "map_offset_x": 300,
-    "map_offset_y": -2000
+    "map_offset_y": -2000,
+    "win_objs": [
+      6
+    ],
+    "has_medal_obj": false
   },
   "10079": {
     "id": 10079,
@@ -22285,7 +23101,11 @@
     "map_eff_width": 3600,
     "map_eff_height": 3600,
     "map_offset_x": 1450,
-    "map_offset_y": -2100
+    "map_offset_y": -2100,
+    "win_objs": [
+      6
+    ],
+    "has_medal_obj": false
   },
   "10080": {
     "id": 10080,
@@ -22387,7 +23207,11 @@
     "map_eff_width": 5500,
     "map_eff_height": 4000,
     "map_offset_x": 1800,
-    "map_offset_y": -1850
+    "map_offset_y": -1850,
+    "win_objs": [
+      7
+    ],
+    "has_medal_obj": false
   },
   "10081": {
     "id": 10081,
@@ -22491,7 +23315,11 @@
     "map_eff_width": 5500,
     "map_eff_height": 4000,
     "map_offset_x": 1800,
-    "map_offset_y": -1850
+    "map_offset_y": -1850,
+    "win_objs": [
+      2
+    ],
+    "has_medal_obj": false
   },
   "10082": {
     "id": 10082,
@@ -22591,7 +23419,11 @@
     "map_eff_width": 3200,
     "map_eff_height": 3000,
     "map_offset_x": -2900,
-    "map_offset_y": -4200
+    "map_offset_y": -4200,
+    "win_objs": [
+      3
+    ],
+    "has_medal_obj": true
   },
   "10083": {
     "id": 10083,
@@ -22703,7 +23535,11 @@
     "map_eff_width": 5200,
     "map_eff_height": 3600,
     "map_offset_x": -750,
-    "map_offset_y": -780
+    "map_offset_y": -780,
+    "win_objs": [
+      6
+    ],
+    "has_medal_obj": true
   },
   "10084": {
     "id": 10084,
@@ -22831,7 +23667,11 @@
     "map_eff_width": 5000,
     "map_eff_height": 5000,
     "map_offset_x": -2600,
-    "map_offset_y": -700
+    "map_offset_y": -700,
+    "win_objs": [
+      3
+    ],
+    "has_medal_obj": true
   },
   "10085": {
     "id": 10085,
@@ -22935,7 +23775,11 @@
     "map_eff_width": 4300,
     "map_eff_height": 3800,
     "map_offset_x": -4000,
-    "map_offset_y": -2100
+    "map_offset_y": -2100,
+    "win_objs": [
+      4
+    ],
+    "has_medal_obj": true
   },
   "10086": {
     "id": 10086,
@@ -23048,7 +23892,11 @@
     "map_eff_width": 5000,
     "map_eff_height": 5600,
     "map_offset_x": -2500,
-    "map_offset_y": -130
+    "map_offset_y": -130,
+    "win_objs": [
+      1
+    ],
+    "has_medal_obj": true
   },
   "10087": {
     "id": 10087,
@@ -23162,7 +24010,11 @@
     "map_eff_width": 4100,
     "map_eff_height": 4500,
     "map_offset_x": -1900,
-    "map_offset_y": 3600
+    "map_offset_y": 3600,
+    "win_objs": [
+      1
+    ],
+    "has_medal_obj": true
   },
   "10088": {
     "id": 10088,
@@ -23260,7 +24112,11 @@
     "map_eff_width": 3800,
     "map_eff_height": 3600,
     "map_offset_x": 4000,
-    "map_offset_y": 900
+    "map_offset_y": 900,
+    "win_objs": [
+      2
+    ],
+    "has_medal_obj": false
   },
   "10089": {
     "id": 10089,
@@ -23381,7 +24237,11 @@
     "map_eff_width": 5400,
     "map_eff_height": 5200,
     "map_offset_x": -3400,
-    "map_offset_y": -3500
+    "map_offset_y": -3500,
+    "win_objs": [
+      6
+    ],
+    "has_medal_obj": false
   },
   "10090": {
     "id": 10090,
@@ -23491,7 +24351,11 @@
     "map_eff_width": 3600,
     "map_eff_height": 4000,
     "map_offset_x": -4300,
-    "map_offset_y": 3400
+    "map_offset_y": 3400,
+    "win_objs": [
+      4
+    ],
+    "has_medal_obj": true
   },
   "10091": {
     "id": 10091,
@@ -23759,7 +24623,11 @@
     "map_eff_width": 7000,
     "map_eff_height": 8500,
     "map_offset_x": -200,
-    "map_offset_y": -1400
+    "map_offset_y": -1400,
+    "win_objs": [
+      5
+    ],
+    "has_medal_obj": false
   },
   "10092": {
     "id": 10092,
@@ -23844,7 +24712,11 @@
     "map_eff_width": 3600,
     "map_eff_height": 3600,
     "map_offset_x": -2400,
-    "map_offset_y": 4200
+    "map_offset_y": 4200,
+    "win_objs": [
+      1
+    ],
+    "has_medal_obj": true
   },
   "10093": {
     "id": 10093,
@@ -23942,7 +24814,11 @@
     "map_eff_width": 3302,
     "map_eff_height": -2261,
     "map_offset_x": -257,
-    "map_offset_y": -1001
+    "map_offset_y": -1001,
+    "win_objs": [
+      2
+    ],
+    "has_medal_obj": true
   },
   "10094": {
     "id": 10094,
@@ -24043,7 +24919,11 @@
     "map_eff_width": 4700,
     "map_eff_height": 2800,
     "map_offset_x": -638,
-    "map_offset_y": -1371
+    "map_offset_y": -1371,
+    "win_objs": [
+      2
+    ],
+    "has_medal_obj": true
   },
   "10095": {
     "id": 10095,
@@ -24152,7 +25032,11 @@
     "map_eff_width": 3967,
     "map_eff_height": 3227,
     "map_offset_x": -985,
-    "map_offset_y": -1100
+    "map_offset_y": -1100,
+    "win_objs": [
+      2
+    ],
+    "has_medal_obj": true
   },
   "10096": {
     "id": 10096,
@@ -24264,7 +25148,11 @@
     "map_eff_width": 4958,
     "map_eff_height": 4071,
     "map_offset_x": -363,
-    "map_offset_y": -511
+    "map_offset_y": -511,
+    "win_objs": [
+      6
+    ],
+    "has_medal_obj": true
   },
   "10097": {
     "id": 10097,
@@ -24388,7 +25276,11 @@
     "map_eff_width": -4118,
     "map_eff_height": -3920,
     "map_offset_x": -189,
-    "map_offset_y": -17
+    "map_offset_y": -17,
+    "win_objs": [
+      2
+    ],
+    "has_medal_obj": true
   },
   "10098": {
     "id": 10098,
@@ -24513,7 +25405,11 @@
     "map_eff_width": 6260,
     "map_eff_height": -5540,
     "map_offset_x": 0,
-    "map_offset_y": 0
+    "map_offset_y": 0,
+    "win_objs": [
+      4
+    ],
+    "has_medal_obj": true
   },
   "10099": {
     "id": 10099,
@@ -24613,7 +25509,11 @@
     "map_eff_width": 3302,
     "map_eff_height": -2261,
     "map_offset_x": -257,
-    "map_offset_y": -1001
+    "map_offset_y": -1001,
+    "win_objs": [
+      2
+    ],
+    "has_medal_obj": true
   },
   "10100": {
     "id": 10100,
@@ -24711,7 +25611,11 @@
     "map_eff_width": 4700,
     "map_eff_height": 2800,
     "map_offset_x": -638,
-    "map_offset_y": -1371
+    "map_offset_y": -1371,
+    "win_objs": [
+      2
+    ],
+    "has_medal_obj": true
   },
   "10101": {
     "id": 10101,
@@ -24818,7 +25722,11 @@
     "map_eff_width": 3762,
     "map_eff_height": 3227,
     "map_offset_x": -1154,
-    "map_offset_y": -1100
+    "map_offset_y": -1100,
+    "win_objs": [
+      2
+    ],
+    "has_medal_obj": true
   },
   "10102": {
     "id": 10102,
@@ -24922,7 +25830,11 @@
     "map_eff_width": 4814,
     "map_eff_height": 3853,
     "map_offset_x": -401,
-    "map_offset_y": -348
+    "map_offset_y": -348,
+    "win_objs": [
+      6
+    ],
+    "has_medal_obj": true
   },
   "10103": {
     "id": 10103,
@@ -25041,7 +25953,11 @@
     "map_eff_width": -4118,
     "map_eff_height": -3920,
     "map_offset_x": -189,
-    "map_offset_y": -17
+    "map_offset_y": -17,
+    "win_objs": [
+      2
+    ],
+    "has_medal_obj": true
   },
   "10104": {
     "id": 10104,
@@ -25163,7 +26079,11 @@
     "map_eff_width": 6260,
     "map_eff_height": -5540,
     "map_offset_x": 0,
-    "map_offset_y": 0
+    "map_offset_y": 0,
+    "win_objs": [
+      4
+    ],
+    "has_medal_obj": true
   },
   "10105": {
     "id": 10105,
@@ -25339,7 +26259,11 @@
     "map_eff_width": 6462,
     "map_eff_height": 5747,
     "map_offset_x": 571,
-    "map_offset_y": -149
+    "map_offset_y": -149,
+    "win_objs": [
+      5
+    ],
+    "has_medal_obj": true
   },
   "10106": {
     "id": 10106,
@@ -25425,7 +26349,12 @@
     "map_eff_width": 1697,
     "map_eff_height": 2137,
     "map_offset_x": 2394,
-    "map_offset_y": 0
+    "map_offset_y": 0,
+    "win_objs": [
+      1,
+      2
+    ],
+    "has_medal_obj": true
   },
   "10107": {
     "id": 10107,
@@ -25507,7 +26436,11 @@
     "map_eff_width": 1685,
     "map_eff_height": 1452,
     "map_offset_x": 2200,
-    "map_offset_y": 776
+    "map_offset_y": 776,
+    "win_objs": [
+      11
+    ],
+    "has_medal_obj": true
   },
   "10108": {
     "id": 10108,
@@ -25597,7 +26530,11 @@
     "map_eff_width": 2776,
     "map_eff_height": 2656,
     "map_offset_x": 1837,
-    "map_offset_y": -1620
+    "map_offset_y": -1620,
+    "win_objs": [
+      3
+    ],
+    "has_medal_obj": true
   },
   "10109": {
     "id": 10109,
@@ -25696,7 +26633,11 @@
     "map_eff_width": 3000,
     "map_eff_height": 4000,
     "map_offset_x": 1739,
-    "map_offset_y": -894
+    "map_offset_y": -894,
+    "win_objs": [
+      2
+    ],
+    "has_medal_obj": true
   },
   "10110": {
     "id": 10110,
@@ -25794,7 +26735,12 @@
     "map_eff_width": 3337,
     "map_eff_height": 3346,
     "map_offset_x": 1460,
-    "map_offset_y": 510
+    "map_offset_y": 510,
+    "win_objs": [
+      3,
+      2
+    ],
+    "has_medal_obj": true
   },
   "10111": {
     "id": 10111,
@@ -25890,7 +26836,11 @@
     "map_eff_width": 3289,
     "map_eff_height": 3200,
     "map_offset_x": 1350,
-    "map_offset_y": 478
+    "map_offset_y": 478,
+    "win_objs": [
+      4
+    ],
+    "has_medal_obj": true
   },
   "10112": {
     "id": 10112,
@@ -25975,7 +26925,11 @@
     "map_eff_width": 2500,
     "map_eff_height": 2576,
     "map_offset_x": 756,
-    "map_offset_y": 596
+    "map_offset_y": 596,
+    "win_objs": [
+      11
+    ],
+    "has_medal_obj": true
   },
   "10113": {
     "id": 10113,
@@ -26078,7 +27032,11 @@
     "map_eff_width": 4000,
     "map_eff_height": 3579,
     "map_offset_x": 981,
-    "map_offset_y": 845
+    "map_offset_y": 845,
+    "win_objs": [
+      7
+    ],
+    "has_medal_obj": true
   },
   "10114": {
     "id": 10114,
@@ -26179,7 +27137,11 @@
     "map_eff_width": 3763,
     "map_eff_height": 3248,
     "map_offset_x": 197,
-    "map_offset_y": 531
+    "map_offset_y": 531,
+    "win_objs": [
+      2
+    ],
+    "has_medal_obj": true
   },
   "10115": {
     "id": 10115,
@@ -26280,7 +27242,11 @@
     "map_eff_width": 4000,
     "map_eff_height": 3412,
     "map_offset_x": 430,
-    "map_offset_y": -346
+    "map_offset_y": -346,
+    "win_objs": [
+      11
+    ],
+    "has_medal_obj": true
   },
   "10116": {
     "id": 10116,
@@ -26385,7 +27351,11 @@
     "map_eff_width": 3696,
     "map_eff_height": 3686,
     "map_offset_x": 1395,
-    "map_offset_y": 1892
+    "map_offset_y": 1892,
+    "win_objs": [
+      2
+    ],
+    "has_medal_obj": true
   },
   "10117": {
     "id": 10117,
@@ -26489,7 +27459,11 @@
     "map_eff_width": 4393,
     "map_eff_height": 3831,
     "map_offset_x": 117,
-    "map_offset_y": -777
+    "map_offset_y": -777,
+    "win_objs": [
+      3
+    ],
+    "has_medal_obj": true
   },
   "10118": {
     "id": 10118,
@@ -26608,7 +27582,11 @@
     "map_eff_width": 4603,
     "map_eff_height": 4222,
     "map_offset_x": 928,
-    "map_offset_y": 815
+    "map_offset_y": 815,
+    "win_objs": [
+      10
+    ],
+    "has_medal_obj": true
   },
   "10120": {
     "id": 10120,
@@ -26717,7 +27695,11 @@
     "map_eff_width": 5000,
     "map_eff_height": 3300,
     "map_offset_x": -2600,
-    "map_offset_y": 6000
+    "map_offset_y": 6000,
+    "win_objs": [
+      3
+    ],
+    "has_medal_obj": true
   },
   "10121": {
     "id": 10121,
@@ -26830,7 +27812,12 @@
     "map_eff_width": 4800,
     "map_eff_height": 3800,
     "map_offset_x": -600,
-    "map_offset_y": 4200
+    "map_offset_y": 4200,
+    "win_objs": [
+      6,
+      11
+    ],
+    "has_medal_obj": true
   },
   "10122": {
     "id": 10122,
@@ -26940,7 +27927,11 @@
     "map_eff_width": 5500,
     "map_eff_height": 3500,
     "map_offset_x": 400,
-    "map_offset_y": 7000
+    "map_offset_y": 7000,
+    "win_objs": [
+      6
+    ],
+    "has_medal_obj": true
   },
   "10123": {
     "id": 10123,
@@ -27057,7 +28048,12 @@
     "map_eff_width": 5400,
     "map_eff_height": 4000,
     "map_offset_x": -1000,
-    "map_offset_y": 5900
+    "map_offset_y": 5900,
+    "win_objs": [
+      2,
+      7
+    ],
+    "has_medal_obj": true
   },
   "10124": {
     "id": 10124,
@@ -27177,7 +28173,12 @@
     "map_eff_width": 5500,
     "map_eff_height": 3500,
     "map_offset_x": 0,
-    "map_offset_y": 6200
+    "map_offset_y": 6200,
+    "win_objs": [
+      2,
+      7
+    ],
+    "has_medal_obj": true
   },
   "10125": {
     "id": 10125,
@@ -27295,7 +28296,11 @@
     "map_eff_width": 4500,
     "map_eff_height": 4500,
     "map_offset_x": 1000,
-    "map_offset_y": 3900
+    "map_offset_y": 3900,
+    "win_objs": [
+      3
+    ],
+    "has_medal_obj": true
   },
   "10126": {
     "id": 10126,
@@ -27421,7 +28426,12 @@
     "map_eff_width": 5800,
     "map_eff_height": 4000,
     "map_offset_x": 1800,
-    "map_offset_y": 6500
+    "map_offset_y": 6500,
+    "win_objs": [
+      2,
+      7
+    ],
+    "has_medal_obj": true
   },
   "10127": {
     "id": 10127,
@@ -27538,7 +28548,11 @@
     "map_eff_width": 4600,
     "map_eff_height": 4500,
     "map_offset_x": 1000,
-    "map_offset_y": 3800
+    "map_offset_y": 3800,
+    "win_objs": [
+      3
+    ],
+    "has_medal_obj": true
   },
   "10128": {
     "id": 10128,
@@ -27680,7 +28694,11 @@
     "map_eff_width": 7500,
     "map_eff_height": 4500,
     "map_offset_x": 800,
-    "map_offset_y": 4400
+    "map_offset_y": 4400,
+    "win_objs": [
+      4
+    ],
+    "has_medal_obj": true
   },
   "10129": {
     "id": 10129,
@@ -27823,7 +28841,11 @@
     "map_eff_width": 7500,
     "map_eff_height": 4700,
     "map_offset_x": 600,
-    "map_offset_y": 4500
+    "map_offset_y": 4500,
+    "win_objs": [
+      4
+    ],
+    "has_medal_obj": true
   },
   "10130": {
     "id": 10130,
@@ -27910,7 +28932,13 @@
     "map_eff_width": 3500,
     "map_eff_height": 3000,
     "map_offset_x": 3200,
-    "map_offset_y": 6050
+    "map_offset_y": 6050,
+    "win_objs": [
+      1,
+      101,
+      2
+    ],
+    "has_medal_obj": true
   },
   "10131": {
     "id": 10131,
@@ -27995,7 +29023,11 @@
     "map_eff_width": 2200,
     "map_eff_height": 2000,
     "map_offset_x": -4014,
-    "map_offset_y": -6711
+    "map_offset_y": -6711,
+    "win_objs": [
+      1
+    ],
+    "has_medal_obj": false
   },
   "10132": {
     "id": 10132,
@@ -28124,7 +29156,12 @@
     "map_eff_width": 5000,
     "map_eff_height": 3000,
     "map_offset_x": -3463,
-    "map_offset_y": -6000
+    "map_offset_y": -6000,
+    "win_objs": [
+      7,
+      1
+    ],
+    "has_medal_obj": false
   },
   "10133": {
     "id": 10133,
@@ -28248,7 +29285,12 @@
     "map_eff_width": 6000,
     "map_eff_height": 4000,
     "map_offset_x": -3700,
-    "map_offset_y": -6000
+    "map_offset_y": -6000,
+    "win_objs": [
+      7,
+      11
+    ],
+    "has_medal_obj": false
   },
   "10134": {
     "id": 10134,
@@ -28381,7 +29423,12 @@
     "map_eff_width": 5000,
     "map_eff_height": 4500,
     "map_offset_x": -3600,
-    "map_offset_y": -4600
+    "map_offset_y": -4600,
+    "win_objs": [
+      7,
+      11
+    ],
+    "has_medal_obj": false
   },
   "10135": {
     "id": 10135,
@@ -28498,7 +29545,12 @@
     "map_eff_width": 4500,
     "map_eff_height": 4253,
     "map_offset_x": 0,
-    "map_offset_y": -257
+    "map_offset_y": -257,
+    "win_objs": [
+      6,
+      11
+    ],
+    "has_medal_obj": false
   },
   "10136": {
     "id": 10136,
@@ -28621,7 +29673,11 @@
     "map_eff_width": 4500,
     "map_eff_height": 4253,
     "map_offset_x": 0,
-    "map_offset_y": -257
+    "map_offset_y": -257,
+    "win_objs": [
+      6
+    ],
+    "has_medal_obj": false
   },
   "10137": {
     "id": 10137,
@@ -28758,7 +29814,12 @@
     "map_eff_width": 6000,
     "map_eff_height": 4200,
     "map_offset_x": -800,
-    "map_offset_y": 0
+    "map_offset_y": 0,
+    "win_objs": [
+      1,
+      2
+    ],
+    "has_medal_obj": false
   },
   "10138": {
     "id": 10138,
@@ -28881,7 +29942,12 @@
     "map_eff_width": 4500,
     "map_eff_height": 4000,
     "map_offset_x": 170,
-    "map_offset_y": 5500
+    "map_offset_y": 5500,
+    "win_objs": [
+      7,
+      6
+    ],
+    "has_medal_obj": false
   },
   "10139": {
     "id": 10139,
@@ -29037,7 +30103,11 @@
     "map_eff_width": 6500,
     "map_eff_height": 4000,
     "map_offset_x": 0,
-    "map_offset_y": 2000
+    "map_offset_y": 2000,
+    "win_objs": [
+      7
+    ],
+    "has_medal_obj": false
   },
   "10140": {
     "id": 10140,
@@ -29181,7 +30251,12 @@
     "map_eff_width": 6000,
     "map_eff_height": 4000,
     "map_offset_x": 180,
-    "map_offset_y": 2500
+    "map_offset_y": 2500,
+    "win_objs": [
+      7,
+      11
+    ],
+    "has_medal_obj": false
   },
   "10141": {
     "id": 10141,
@@ -29339,7 +30414,11 @@
     "map_eff_width": 5000,
     "map_eff_height": 4300,
     "map_offset_x": -3000,
-    "map_offset_y": 8200
+    "map_offset_y": 8200,
+    "win_objs": [
+      11
+    ],
+    "has_medal_obj": false
   },
   "10142": {
     "id": 10142,
@@ -29420,7 +30499,11 @@
     "map_eff_width": 2478,
     "map_eff_height": 1890,
     "map_offset_x": 313,
-    "map_offset_y": 1551
+    "map_offset_y": 1551,
+    "win_objs": [
+      11
+    ],
+    "has_medal_obj": false
   },
   "10143": {
     "id": 10143,
@@ -29517,7 +30600,11 @@
     "map_eff_width": 4000,
     "map_eff_height": 2589,
     "map_offset_x": -289,
-    "map_offset_y": 2864
+    "map_offset_y": 2864,
+    "win_objs": [
+      11
+    ],
+    "has_medal_obj": false
   },
   "10144": {
     "id": 10144,
@@ -29681,7 +30768,11 @@
     "map_eff_width": 8000,
     "map_eff_height": 5000,
     "map_offset_x": 350,
-    "map_offset_y": 5000
+    "map_offset_y": 5000,
+    "win_objs": [
+      2
+    ],
+    "has_medal_obj": true
   },
   "10145": {
     "id": 10145,
@@ -29763,7 +30854,11 @@
     "map_eff_width": 1901,
     "map_eff_height": 1642,
     "map_offset_x": 2111,
-    "map_offset_y": 3186
+    "map_offset_y": 3186,
+    "win_objs": [
+      11
+    ],
+    "has_medal_obj": true
   },
   "10146": {
     "id": 10146,
@@ -29846,7 +30941,11 @@
     "map_eff_width": 3000,
     "map_eff_height": 1800,
     "map_offset_x": -500,
-    "map_offset_y": 2500
+    "map_offset_y": 2500,
+    "win_objs": [
+      3
+    ],
+    "has_medal_obj": true
   },
   "10147": {
     "id": 10147,
@@ -29929,7 +31028,11 @@
     "map_eff_width": 3000,
     "map_eff_height": 1800,
     "map_offset_x": -500,
-    "map_offset_y": 2500
+    "map_offset_y": 2500,
+    "win_objs": [
+      3
+    ],
+    "has_medal_obj": true
   },
   "10148": {
     "id": 10148,
@@ -30011,7 +31114,11 @@
     "map_eff_width": 3000,
     "map_eff_height": 1800,
     "map_offset_x": -500,
-    "map_offset_y": 2500
+    "map_offset_y": 2500,
+    "win_objs": [
+      3
+    ],
+    "has_medal_obj": true
   },
   "10149": {
     "id": 10149,
@@ -30094,7 +31201,11 @@
     "map_eff_width": 3000,
     "map_eff_height": 1800,
     "map_offset_x": -500,
-    "map_offset_y": 2500
+    "map_offset_y": 2500,
+    "win_objs": [
+      3
+    ],
+    "has_medal_obj": true
   },
   "10150": {
     "id": 10150,
@@ -30177,7 +31288,11 @@
     "map_eff_width": 3000,
     "map_eff_height": 1800,
     "map_offset_x": -500,
-    "map_offset_y": 2500
+    "map_offset_y": 2500,
+    "win_objs": [
+      3
+    ],
+    "has_medal_obj": true
   },
   "10151": {
     "id": 10151,
@@ -30258,7 +31373,11 @@
     "map_eff_width": 2000,
     "map_eff_height": 2000,
     "map_offset_x": -1030,
-    "map_offset_y": -2515
+    "map_offset_y": -2515,
+    "win_objs": [
+      11
+    ],
+    "has_medal_obj": false
   },
   "10154": {
     "id": 10154,
@@ -30339,7 +31458,11 @@
     "map_eff_width": 2104,
     "map_eff_height": 1444,
     "map_offset_x": -852,
-    "map_offset_y": 3074
+    "map_offset_y": 3074,
+    "win_objs": [
+      11
+    ],
+    "has_medal_obj": false
   },
   "10155": {
     "id": 10155,
@@ -30608,7 +31731,11 @@
     "map_eff_width": 10000,
     "map_eff_height": 7500,
     "map_offset_x": 600,
-    "map_offset_y": 1550
+    "map_offset_y": 1550,
+    "win_objs": [
+      5
+    ],
+    "has_medal_obj": false
   },
   "10156": {
     "id": 10156,
@@ -30691,7 +31818,11 @@
     "map_eff_width": 2444,
     "map_eff_height": 1413,
     "map_offset_x": -254,
-    "map_offset_y": 3280
+    "map_offset_y": 3280,
+    "win_objs": [
+      11
+    ],
+    "has_medal_obj": true
   },
   "10157": {
     "id": 10157,
@@ -30771,7 +31902,11 @@
     "map_eff_width": 2478,
     "map_eff_height": 1890,
     "map_offset_x": 313,
-    "map_offset_y": 1551
+    "map_offset_y": 1551,
+    "win_objs": [
+      11
+    ],
+    "has_medal_obj": true
   },
   "10158": {
     "id": 10158,
@@ -30952,7 +32087,11 @@
     "map_eff_width": 5600,
     "map_eff_height": 4640,
     "map_offset_x": -500,
-    "map_offset_y": -200
+    "map_offset_y": -200,
+    "win_objs": [
+      6
+    ],
+    "has_medal_obj": true
   },
   "90001": {
     "id": 90001,
@@ -31042,7 +32181,11 @@
     "map_eff_width": 2436,
     "map_eff_height": 1767,
     "map_offset_x": -82,
-    "map_offset_y": 509
+    "map_offset_y": 509,
+    "win_objs": [
+      3
+    ],
+    "has_medal_obj": false
   },
   "90002": {
     "id": 90002,
@@ -31135,7 +32278,11 @@
     "map_eff_width": 3131,
     "map_eff_height": -2321,
     "map_offset_x": 147,
-    "map_offset_y": 348
+    "map_offset_y": 348,
+    "win_objs": [
+      3
+    ],
+    "has_medal_obj": false
   },
   "90003": {
     "id": 90003,
@@ -31230,7 +32377,11 @@
     "map_eff_width": -3305,
     "map_eff_height": 2483,
     "map_offset_x": 88,
-    "map_offset_y": -229
+    "map_offset_y": -229,
+    "win_objs": [
+      3
+    ],
+    "has_medal_obj": false
   },
   "90004": {
     "id": 90004,
@@ -31328,7 +32479,11 @@
     "map_eff_width": -2922,
     "map_eff_height": -2915,
     "map_offset_x": 286,
-    "map_offset_y": 0
+    "map_offset_y": 0,
+    "win_objs": [
+      3
+    ],
+    "has_medal_obj": false
   },
   "90005": {
     "id": 90005,
@@ -31421,7 +32576,11 @@
     "map_eff_width": 3207,
     "map_eff_height": 2360,
     "map_offset_x": -334,
-    "map_offset_y": 862
+    "map_offset_y": 862,
+    "win_objs": [
+      3
+    ],
+    "has_medal_obj": false
   },
   "90006": {
     "id": 90006,
@@ -31518,7 +32677,11 @@
     "map_eff_width": -4157,
     "map_eff_height": 2122,
     "map_offset_x": 0,
-    "map_offset_y": 1066
+    "map_offset_y": 1066,
+    "win_objs": [
+      3
+    ],
+    "has_medal_obj": false
   },
   "90007": {
     "id": 90007,
@@ -31618,7 +32781,11 @@
     "map_eff_width": -3774,
     "map_eff_height": -3614,
     "map_offset_x": 371,
-    "map_offset_y": 157
+    "map_offset_y": 157,
+    "win_objs": [
+      3
+    ],
+    "has_medal_obj": false
   },
   "90008": {
     "id": 90008,
@@ -31721,7 +32888,11 @@
     "map_eff_width": 4076,
     "map_eff_height": 3528,
     "map_offset_x": 248,
-    "map_offset_y": 0
+    "map_offset_y": 0,
+    "win_objs": [
+      3
+    ],
+    "has_medal_obj": false
   },
   "90009": {
     "id": 90009,
@@ -31818,7 +32989,11 @@
     "map_eff_width": 4014,
     "map_eff_height": 2628,
     "map_offset_x": -97,
-    "map_offset_y": 269
+    "map_offset_y": 269,
+    "win_objs": [
+      3
+    ],
+    "has_medal_obj": false
   },
   "90010": {
     "id": 90010,
@@ -31916,7 +33091,11 @@
     "map_eff_width": 3680,
     "map_eff_height": 1909,
     "map_offset_x": 161,
-    "map_offset_y": -784
+    "map_offset_y": -784,
+    "win_objs": [
+      3
+    ],
+    "has_medal_obj": false
   },
   "90011": {
     "id": 90011,
@@ -32015,7 +33194,11 @@
     "map_eff_width": 3867,
     "map_eff_height": -2354,
     "map_offset_x": -165,
-    "map_offset_y": -803
+    "map_offset_y": -803,
+    "win_objs": [
+      3
+    ],
+    "has_medal_obj": false
   },
   "90012": {
     "id": 90012,
@@ -32120,7 +33303,11 @@
     "map_eff_width": -3849,
     "map_eff_height": 3578,
     "map_offset_x": 0,
-    "map_offset_y": 70
+    "map_offset_y": 70,
+    "win_objs": [
+      3
+    ],
+    "has_medal_obj": false
   },
   "90013": {
     "id": 90013,
@@ -32221,7 +33408,11 @@
     "map_eff_width": 4249,
     "map_eff_height": 2157,
     "map_offset_x": 0,
-    "map_offset_y": 813
+    "map_offset_y": 813,
+    "win_objs": [
+      3
+    ],
+    "has_medal_obj": false
   },
   "90014": {
     "id": 90014,
@@ -32321,7 +33512,11 @@
     "map_eff_width": 2821,
     "map_eff_height": 3076,
     "map_offset_x": 717,
-    "map_offset_y": 350
+    "map_offset_y": 350,
+    "win_objs": [
+      3
+    ],
+    "has_medal_obj": false
   },
   "90015": {
     "id": 90015,
@@ -32426,7 +33621,11 @@
     "map_eff_width": 3410,
     "map_eff_height": 3321,
     "map_offset_x": -423,
-    "map_offset_y": -240
+    "map_offset_y": -240,
+    "win_objs": [
+      3
+    ],
+    "has_medal_obj": false
   },
   "90016": {
     "id": 90016,
@@ -32536,7 +33735,11 @@
     "map_eff_width": 4257,
     "map_eff_height": 3799,
     "map_offset_x": 0,
-    "map_offset_y": 0
+    "map_offset_y": 0,
+    "win_objs": [
+      3
+    ],
+    "has_medal_obj": false
   },
   "90017": {
     "id": 90017,
@@ -32642,7 +33845,11 @@
     "map_eff_width": 4144,
     "map_eff_height": 2303,
     "map_offset_x": 115,
-    "map_offset_y": 0
+    "map_offset_y": 0,
+    "win_objs": [
+      3
+    ],
+    "has_medal_obj": false
   },
   "90018": {
     "id": 90018,
@@ -32754,7 +33961,11 @@
     "map_eff_width": 4056,
     "map_eff_height": 2932,
     "map_offset_x": 2172,
-    "map_offset_y": 1979
+    "map_offset_y": 1979,
+    "win_objs": [
+      3
+    ],
+    "has_medal_obj": false
   },
   "90019": {
     "id": 90019,
@@ -32865,7 +34076,11 @@
     "map_eff_width": 2079,
     "map_eff_height": 3899,
     "map_offset_x": -1478,
-    "map_offset_y": -200
+    "map_offset_y": -200,
+    "win_objs": [
+      3
+    ],
+    "has_medal_obj": false
   },
   "90020": {
     "id": 90020,
@@ -32978,7 +34193,11 @@
     "map_eff_width": 4001,
     "map_eff_height": 3647,
     "map_offset_x": -575,
-    "map_offset_y": 393
+    "map_offset_y": 393,
+    "win_objs": [
+      3
+    ],
+    "has_medal_obj": false
   },
   "90021": {
     "id": 90021,
@@ -33092,7 +34311,11 @@
     "map_eff_width": 4000,
     "map_eff_height": 3000,
     "map_offset_x": -50,
-    "map_offset_y": 100
+    "map_offset_y": 100,
+    "win_objs": [
+      3
+    ],
+    "has_medal_obj": false
   },
   "90022": {
     "id": 90022,
@@ -33203,7 +34426,11 @@
     "map_eff_width": 4200,
     "map_eff_height": 3100,
     "map_offset_x": 300,
-    "map_offset_y": 850
+    "map_offset_y": 850,
+    "win_objs": [
+      3
+    ],
+    "has_medal_obj": false
   },
   "90023": {
     "id": 90023,
@@ -33311,7 +34538,11 @@
     "map_eff_width": 3400,
     "map_eff_height": 2200,
     "map_offset_x": 50,
-    "map_offset_y": -640
+    "map_offset_y": -640,
+    "win_objs": [
+      3
+    ],
+    "has_medal_obj": false
   },
   "90024": {
     "id": 90024,
@@ -33438,7 +34669,11 @@
     "map_eff_width": 6000,
     "map_eff_height": 6000,
     "map_offset_x": 0,
-    "map_offset_y": 0
+    "map_offset_y": 0,
+    "win_objs": [
+      3
+    ],
+    "has_medal_obj": false
   },
   "90025": {
     "id": 90025,
@@ -33530,7 +34765,11 @@
     "map_eff_width": 3706,
     "map_eff_height": 3190,
     "map_offset_x": -1437,
-    "map_offset_y": -1752
+    "map_offset_y": -1752,
+    "win_objs": [
+      3
+    ],
+    "has_medal_obj": false
   },
   "90026": {
     "id": 90026,
@@ -33633,7 +34872,11 @@
     "map_eff_width": 4788,
     "map_eff_height": -2118,
     "map_offset_x": 1372,
-    "map_offset_y": 2288
+    "map_offset_y": 2288,
+    "win_objs": [
+      3
+    ],
+    "has_medal_obj": false
   },
   "90027": {
     "id": 90027,
@@ -33754,7 +34997,11 @@
     "map_eff_width": 4480,
     "map_eff_height": 3957,
     "map_offset_x": -1535,
-    "map_offset_y": 109
+    "map_offset_y": 109,
+    "win_objs": [
+      3
+    ],
+    "has_medal_obj": false
   },
   "90028": {
     "id": 90028,
@@ -33872,7 +35119,11 @@
     "map_eff_width": 5441,
     "map_eff_height": 4497,
     "map_offset_x": 1005,
-    "map_offset_y": 796
+    "map_offset_y": 796,
+    "win_objs": [
+      4
+    ],
+    "has_medal_obj": false
   },
   "90029": {
     "id": 90029,
@@ -33979,7 +35230,11 @@
     "map_eff_width": 4500,
     "map_eff_height": 2800,
     "map_offset_x": -600,
-    "map_offset_y": -400
+    "map_offset_y": -400,
+    "win_objs": [
+      3
+    ],
+    "has_medal_obj": false
   },
   "90030": {
     "id": 90030,
@@ -34090,7 +35345,11 @@
     "map_eff_width": 4000,
     "map_eff_height": 3600,
     "map_offset_x": 900,
-    "map_offset_y": -800
+    "map_offset_y": -800,
+    "win_objs": [
+      3
+    ],
+    "has_medal_obj": false
   },
   "90031": {
     "id": 90031,
@@ -34197,7 +35456,11 @@
     "map_eff_width": 3800,
     "map_eff_height": 2800,
     "map_offset_x": 500,
-    "map_offset_y": -100
+    "map_offset_y": -100,
+    "win_objs": [
+      3
+    ],
+    "has_medal_obj": false
   },
   "90032": {
     "id": 90032,
@@ -34330,6 +35593,10 @@
     "map_eff_width": 5600,
     "map_eff_height": 3600,
     "map_offset_x": 0,
-    "map_offset_y": 400
+    "map_offset_y": 400,
+    "win_objs": [
+      4
+    ],
+    "has_medal_obj": false
   }
 }

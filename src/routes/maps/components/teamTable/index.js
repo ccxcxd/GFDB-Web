@@ -4,6 +4,7 @@ import {
 } from 'antd'
 import { forEach } from 'lodash'
 import les from './index.less'
+import Game from '@/services/game'
 
 const TeamTable = ({
   app,
@@ -17,6 +18,7 @@ const TeamTable = ({
   } = app
   const {
     enemyTeamSelected,
+    currentRound,
   } = maps
   const {
     enemy_in_team_info,
@@ -26,27 +28,28 @@ const TeamTable = ({
   const ids = enemyTeamSelected.member_ids || []
   const data = ids.map(id => {
     var member = enemy_in_team_info[id]
-    var character = member.enemy_character
+    var lvUp = Game.getEnemyTeamLvCorrection(enemyTeamSelected, currentRound);
+    var enemy = Game.getEnemyCharAtLevel(member.enemy_character_type_id, member.level + lvUp, member.number);
     return {
       id: id,
-      name: __(character.name),
-      number: character.number,
-      level: character.level,
-      maxlife: Math.ceil(character.maxlife / character.number),
-      pow: character.pow,
-      rate: character.rate,
-      hit: character.hit,
-      dodge: character.dodge,
-      range: character.range,
-      speed: character.speed,
-      armor_piercing: character.armor_piercing,
-      armor: character.armor,
-      def_break: character.def_break,
-      def: character.def,
+      name: __(enemy.name),
+      number: enemy.number,
+      level: enemy.level,
+      maxlife: Math.ceil(enemy.maxlife / enemy.number),
+      pow: enemy.pow,
+      rate: enemy.rate,
+      hit: enemy.hit,
+      dodge: enemy.dodge,
+      range: enemy.range,
+      speed: enemy.speed,
+      armor_piercing: enemy.armor_piercing,
+      armor: enemy.armor,
+      def_break: enemy.def_break,
+      def: enemy.def,
       def_percent: `${member.def_percent}%`,
       coordinator_x: member.coordinator_x,
       coordinator_y: member.coordinator_y,
-      character: __(character.character).replace(new RegExp("//c", "g"), " "),
+      character: __(enemy.character).replace(new RegExp("//c", "g"), " "),
     }
   })
 

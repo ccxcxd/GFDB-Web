@@ -6,10 +6,18 @@ import {
   Dropdown,
   Checkbox,
   message,
+  Slider,
 } from 'antd'
 import Map from '@/services/map'
-import { isEqual } from 'lodash'
+import { isEqual, debounce } from 'lodash'
 import les from './index.less'
+import InfoModal from '../infoModal'
+
+const TURN_MIN = 1
+
+const roundMax = (mission) => {
+  return mission.turn_limit > 0 ? mission.turn_limit : 1
+}
 
 class MapCanvas extends React.Component {
   constructor (props) {
@@ -18,6 +26,11 @@ class MapCanvas extends React.Component {
     this.state = {
       loading: false,
       show: false,
+
+      infoVisible: false,
+      infoData: {},
+
+      currentTurnReal: this.props.maps.currentTurn,
     }
   } 
 
@@ -58,30 +71,16 @@ class MapCanvas extends React.Component {
     }
   }
   componentDidUpdate(prevProps) {
-    const {
-      show,
-    } = this.state
     const oldMaps = prevProps.maps
     const newMaps = this.props.maps
     // 监听变量变化，重绘页面
-    const oldMisson = oldMaps.missionSelected
-    const newMisson = newMaps.missionSelected
-    if (!isEqual(oldMisson, newMisson)) {
-      // console.log('更新了')
+    if (!isEqual(oldMaps, newMaps)) {
       // 检查自动更新
       if (newMaps.autoGenerate) {
         this.onGenerate()
       } else {
         this.mapObj.remove()
       }
-    }
-    const oldAuto = oldMaps.autoGenerate
-    const newAuto = newMaps.autoGenerate
-    if (oldAuto !== newAuto && newAuto === true) {
-      this.onGenerate()
-    }
-    if (oldMaps.displayPower !== newMaps.displayPower && show) {
-      this.onGenerate()
     }
   }
 
@@ -121,12 +120,13 @@ class MapCanvas extends React.Component {
     } = maps
     const missionId = missionSelected.id
     if (!missionId) {
-      message.warning('请先选择要生成的地图')
+      message.warning(__('map_tbl.warning_no_map_selected'))
       this.setState({
         loading: false,
       })
       return
     }
+    console.log('displayPower', displayPower)
     this.mapObj.generate(missionId, {
       displayPower,
     })
@@ -144,6 +144,36 @@ class MapCanvas extends React.Component {
     this.mapObj.downloadFullMap(name)
   }
 
+  showInfoModal (data, show = true) {
+    this.setState({
+      infoVisible: show,
+      infoData: data,
+    })
+  }
+  changeGlobalTurn (val) {
+    const { dispatch } = this.props
+    dispatch({
+      type: 'maps/turnChange',
+      turn: val,
+    })
+    this.mapObj.turnNo = val
+    // this.onGenerate();
+  }
+  changeTurn (val) {
+    this.setState({
+      currentTurnReal: val,
+    })
+    this.changeGlobalTurn(val)
+  }
+  turnAdd () {
+    const val = this.state.currentTurnReal + 1
+    this.changeTurn(val)
+  }
+  turnReduce () {
+    const val = this.state.currentTurnReal - 1
+    this.changeTurn(val)
+  }
+
   render () {
     // 属性获取
     const {
@@ -152,29 +182,59 @@ class MapCanvas extends React.Component {
     const {
       loading,
       show,
+
+      infoVisible,
+      infoData,
+
+      currentTurnReal,
     } = this.state
     const {
       autoGenerate,
       displayPower,
       missionSelected,
+      currentTurn,
     } = maps
+
+    const propsOfInfoModal = {
+      visible: infoVisible,
+      data: infoData,
+      onHide: () => {
+        this.showInfoModal({}, false)
+      },
+    }
+    const IF_RANGE_SHOW = !!missionSelected.turn_limit
+    const TURN_MAX = roundMax(missionSelected)
+    const TURN_MARK = {}
+    TURN_MARK[TURN_MIN] = TURN_MIN
+    TURN_MARK[TURN_MAX] = TURN_MAX
 
     return (
       <div>
         {/* 提示 */}
         <div className={les.warning}>
           <Alert message={__('map_tbl.warning')} type="error" />
-          <Alert message={(<font size="4"><b>{__('map_tbl.warning2')}</b></font>)} type="error" />
         </div>
         {/* canvas */}
         <div className={les.canvasArea}>
+          <div className={les.canvasBtnLab}>
+            {/* 关卡条件 */}
+            {/* <div className={les.mapInfo} onClick={() => this.showInfoModal({})}>
+              <Icon type="profile" />
+              <div className={les.infoTxt}>{'战场说明'}</div>
+            </div> */}
+            {/* 当前回合 */}
+            <div className={les.turnLab}>
+              <div className={les.turnContnet}>{currentTurnReal}</div>
+              <div className={les.turnTips}>{__('map_tbl.current_turn')}</div>
+            </div>
+          </div>
           {
             (loading || show) ?
             null :
             (
               <div className={les.waitMap}>
                 <div className={les.content}>
-                  <Icon type="setting" /> 未生成地图
+                  <Icon type="setting" /> {__('map_tbl.init_map_not_yet')}
                 </div>
               </div>
             )
@@ -184,7 +244,7 @@ class MapCanvas extends React.Component {
             (
               <div className={les.loading}>
                 <div className={les.content}>
-                  <Icon type="loading" /> 地图生成中...
+                  <Icon type="loading" /> {__('map_tbl.init_map_loading')}
                 </div>
               </div>
             ) :
@@ -238,10 +298,36 @@ class MapCanvas extends React.Component {
               className={les.settingBtn}
             />
           </Dropdown>
+          {
+            IF_RANGE_SHOW &&
+            <div className={les.roundSelCon}>
+              <div className={les.roundTip}>{__('map_tbl.select_turn')}</div>
+              <Button
+                icon="caret-left"
+                disabled={currentTurnReal <= TURN_MIN}
+                onClick={() => this.turnReduce()}
+              />
+              <Slider
+                className={les.roundSlider}
+                marks={TURN_MARK}
+                min={TURN_MIN}
+                max={TURN_MAX}
+                value={currentTurnReal}
+                onChange={(v) => this.changeTurn(v)}
+              />
+              <Button
+                icon="caret-right"
+                disabled={currentTurnReal >= TURN_MAX}
+                onClick={() => this.turnAdd()}
+              />
+            </div>
+          }
         </div>
         <div className={`${les.btnTips} hidden-xs`}>
           &nbsp;&nbsp;&nbsp;&nbsp;&uarr;&nbsp;&nbsp;<span>{__('mission_map.description')}</span>
         </div>
+        {/* 战役信息弹窗 */}
+        <InfoModal {...propsOfInfoModal} />
       </div>
     )
   }

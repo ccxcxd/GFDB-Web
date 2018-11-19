@@ -103,9 +103,9 @@ export default (LANG) => {
           autoChild: autoMission,
         })
         const auto_generate = LG.get('auto_generate') === '1' ? true : false
-        yield put({ type: 'maps/setAutoGenerate', auto: auto_generate })
+        yield put.resolve({ type: 'maps/setAutoGenerate', auto: auto_generate })
         const hide_power = LG.get('hide_power') === '1' ? true : false
-        yield put({ type: 'maps/setDisplayPower', display: !hide_power })
+        yield put.resolve({ type: 'maps/setDisplayPower', display: !hide_power })
         /** /maps路由相关 end */
       },
       * getLang(inval, { put }) {

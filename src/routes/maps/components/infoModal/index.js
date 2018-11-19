@@ -9,9 +9,10 @@ const replaceTxt = (txt, ...args) => {
     return ''
   }
   let resTxt = txt
-  for (let i = 1; i <= args.length; i += 1) {
-    const regex = new RegExp(`\\$${i}`, 'g')
-    resTxt = resTxt.replace(regex, args[i - 1])
+  for (let i = 0; i < args.length; i += 1) {
+    const regex = new RegExp(`\\{${i}\\}`, 'g')
+    console.log(regex)
+    resTxt = resTxt.replace(regex, args[i])
   }
   return resTxt
 }
@@ -32,8 +33,19 @@ const InfoModal = ({
   } = data
 
   // props definition
-  const ifBaseShow = ["2", "3", "4", "8", "9", "10"].indexOf(mission.type) !== -1
+  const ifBaseShow = ["2", "3", "4", "6", "7", "8", "9", "10"].indexOf(mission.type) !== -1
   const ifModalShow = mission.has_medal_obj
+
+  // func definition
+  const mapBaseInfoContent = () => {
+    const baseTxt = __(`map_info_tbl.type.${mission.type}`)
+    if (mission.type === "6") {
+      return replaceTxt(baseTxt, mission.expect_turn)
+    } else if (mission.type === "7") {
+      return replaceTxt(baseTxt, mission.expect_hostage_num[0])
+    }
+    return baseTxt
+  }
 
   return (
     <Modal {...propsOfModal}>
@@ -42,9 +54,12 @@ const InfoModal = ({
           ifBaseShow &&
           <div className={les.baseMission}>
             <div className={les.title}>{__('map_info_tbl.base_mission_title')}</div>
-            <div className={les.content}>
-              {__(`map_info_tbl.type.${mission.type}`)}
-            </div>
+            <div
+              className={les.content}
+              dangerouslySetInnerHTML={{
+                __html: mapBaseInfoContent(),
+              }}
+            />
           </div>
         }
         {

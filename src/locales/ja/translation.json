@@ -35,8 +35,8 @@
   "warning_no_map_selected": "作成するマップを選択してください",
   "init_map_not_yet": "マップ未作成",
   "init_map_loading": "マップ作成中...",
-  "current_turn": "現在のターン",
-  "select_turn": "現在のターン："
+  "current_turn": "現在のターン数",
+  "select_turn": "現在のターン数："
   },
   "spot_img": {
     "spot1": "spot1JP",

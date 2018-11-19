@@ -32,11 +32,11 @@
     "count": "チーム数",
     "drop": "限定ドロップ（参考用）",
     "warning": "注意：下記のマップと表には、初期位置固定の敵のみ示されています。初期位置ランダムの敵と飛行場から生成された敵は表示されません。これらの敵の構成は、“敵の番号”リストから確認できます。",
-  "warning_no_map_selected": "作成するマップを選択してください",
-  "init_map_not_yet": "マップ未作成",
-  "init_map_loading": "マップ作成中...",
-  "current_turn": "現在のターン",
-  "select_turn": "現在のターン："
+    "warning_no_map_selected": "作成するマップを選択してください",
+    "init_map_not_yet": "マップ未作成",
+    "init_map_loading": "マップ作成中...",
+    "current_turn": "現在のターン",
+    "select_turn": "現在のターン："
   },
   "spot_img": {
     "spot1": "spot1JP",

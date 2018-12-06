@@ -731,6 +731,12 @@
     "parameter_value": "20;1440;3600",
     "client_require": 1
   },
+  "force_open_mission": {
+    "parameter_name": "force_open_mission",
+    "parameter_type": "string",
+    "parameter_value": "10160",
+    "client_require": 1
+  },
   "foreign_switch": {
     "parameter_name": "foreign_switch",
     "parameter_type": "string",

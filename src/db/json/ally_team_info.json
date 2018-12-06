@@ -3139,6 +3139,26 @@
     "icon": "Army",
     "leader_id": 143
   },
+  "2230": {
+    "id": 2230,
+    "code": "",
+    "ui_image_icon": "",
+    "name": "ally_team-10002230",
+    "guns": "728",
+    "fairy": 0,
+    "enemy_team_id": 2410,
+    "initial_type": 2,
+    "ai": "102;1;102",
+    "ai_content": "4;0;4",
+    "betray_condition": "0",
+    "betray_number": "0",
+    "betray_result": "0",
+    "transform_condition": "0",
+    "transform_number": "0",
+    "transform_result": "0",
+    "icon": "Army",
+    "leader_id": 143
+  },
   "10001": {
     "id": 10001,
     "code": "",

@@ -1539,6 +1539,13 @@
     "code": "A91",
     "en_introduce": "gun-50000227"
   },
+  "228": {
+    "id": 228,
+    "name": "gun-10000228",
+    "en_name": "Sakura",
+    "code": "Type100",
+    "en_introduce": "gun-50000228"
+  },
   "229": {
     "id": 229,
     "name": "gun-10000229",
@@ -1629,6 +1636,41 @@
     "en_name": "RT-20",
     "code": "RT20",
     "en_introduce": "gun-50000241"
+  },
+  "243": {
+    "id": 243,
+    "name": "gun-10000243",
+    "en_name": "Type64",
+    "code": "Type64-AR",
+    "en_introduce": "gun-50000243"
+  },
+  "245": {
+    "id": 245,
+    "name": "gun-10000245",
+    "en_name": "P90",
+    "code": "P90",
+    "en_introduce": "gun-50000245"
+  },
+  "247": {
+    "id": 247,
+    "name": "gun-10000247",
+    "en_name": "K31",
+    "code": "K31",
+    "en_introduce": "gun-50000247"
+  },
+  "248": {
+    "id": 248,
+    "name": "gun-10000248",
+    "en_name": "Jericho",
+    "code": "Jericho",
+    "en_introduce": "gun-50000248"
+  },
+  "249": {
+    "id": 249,
+    "name": "gun-10000249",
+    "en_name": "Type62",
+    "code": "Type62",
+    "en_introduce": "gun-50000249"
   },
   "1001": {
     "id": 1001,
@@ -1959,6 +2001,20 @@
     "code": "M1895Mod",
     "en_introduce": "gun-50020005"
   },
+  "20029": {
+    "id": 20029,
+    "name": "gun-10020029",
+    "en_name": "Sten Mk Ⅱ",
+    "code": "StenMK2Mod",
+    "en_introduce": "gun-50020029"
+  },
+  "20037": {
+    "id": 20037,
+    "name": "gun-10020037",
+    "en_name": "M14",
+    "code": "M14Mod",
+    "en_introduce": "gun-50020037"
+  },
   "20039": {
     "id": 20039,
     "name": "gun-10020039",
@@ -2008,12 +2064,26 @@
     "code": "G3Mod",
     "en_introduce": "gun-50020063"
   },
+  "20064": {
+    "id": 20064,
+    "name": "gun-10020064",
+    "en_name": "G36",
+    "code": "G36Mod",
+    "en_introduce": "gun-50020064"
+  },
   "20075": {
     "id": 20075,
     "name": "gun-10020075",
     "en_name": "M1918",
     "code": "M1918Mod",
     "en_introduce": "gun-50020075"
+  },
+  "20081": {
+    "id": 20081,
+    "name": "gun-10020081",
+    "en_name": "LWMMG",
+    "code": "LWMMGMod",
+    "en_introduce": "gun-50020081"
   },
   "20089": {
     "id": 20089,

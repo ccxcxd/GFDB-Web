@@ -65,8 +65,14 @@ const MapSelect = ({
     return childrens
   }
   const mapMapOpt = (obj) => {
-    const childrens = []
+    const sorted_mission_ids = {}
     forEach(obj, (v) => {
+      sorted_mission_ids[mission_info[v].index_sort] = v
+    })
+    Object.keys(sorted_mission_ids).sort()
+
+    const childrens = []
+    forEach(sorted_mission_ids, (v, k) => {
       const mission = mission_info[v]
       childrens.push(
         <Option

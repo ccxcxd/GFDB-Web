@@ -45504,6 +45504,836 @@
     "drops": [],
     "lv_up_array": []
   },
+  "2373": {
+    "id": 2373,
+    "enemy_leader": 10008,
+    "correction_belong": "",
+    "correction_turn": "",
+    "ai": 0,
+    "ai_content": "",
+    "member_ids": [
+      18092,
+      18093,
+      18094,
+      18095
+    ],
+    "spot_id": 9478,
+    "drops": [],
+    "lv_up_array": []
+  },
+  "2374": {
+    "id": 2374,
+    "enemy_leader": 10005,
+    "correction_belong": "",
+    "correction_turn": "",
+    "ai": 0,
+    "ai_content": "",
+    "member_ids": [
+      18096,
+      18097,
+      18098,
+      18099,
+      18100,
+      18101,
+      18102
+    ],
+    "spot_id": 9470,
+    "drops": [],
+    "lv_up_array": []
+  },
+  "2375": {
+    "id": 2375,
+    "enemy_leader": 10007,
+    "correction_belong": "",
+    "correction_turn": "",
+    "ai": 0,
+    "ai_content": "",
+    "member_ids": [
+      18103,
+      18104,
+      18105,
+      18106,
+      18107,
+      18108,
+      18109
+    ],
+    "spot_id": 9466,
+    "drops": [],
+    "lv_up_array": []
+  },
+  "2376": {
+    "id": 2376,
+    "enemy_leader": 10003,
+    "correction_belong": "",
+    "correction_turn": "",
+    "ai": 0,
+    "ai_content": "",
+    "member_ids": [
+      18110,
+      18111,
+      18112,
+      18113,
+      18114,
+      18115,
+      18116,
+      18117,
+      18118,
+      18119,
+      18377,
+      18378,
+      18379,
+      18380
+    ],
+    "spot_id": 9481,
+    "drops": [],
+    "lv_up_array": []
+  },
+  "2377": {
+    "id": 2377,
+    "enemy_leader": 10009,
+    "correction_belong": "",
+    "correction_turn": "",
+    "ai": 0,
+    "ai_content": "",
+    "member_ids": [
+      18120,
+      18121,
+      18122,
+      18123,
+      18124,
+      18125,
+      18126,
+      18127,
+      18128
+    ],
+    "spot_id": 9469,
+    "drops": [],
+    "lv_up_array": []
+  },
+  "2378": {
+    "id": 2378,
+    "enemy_leader": 10017,
+    "correction_belong": "",
+    "correction_turn": "",
+    "ai": 0,
+    "ai_content": "",
+    "member_ids": [
+      18129,
+      18130,
+      18131,
+      18132,
+      18133,
+      18134
+    ],
+    "spot_id": 9465,
+    "drops": [],
+    "lv_up_array": []
+  },
+  "2379": {
+    "id": 2379,
+    "enemy_leader": 10021,
+    "correction_belong": "",
+    "correction_turn": "",
+    "ai": 0,
+    "ai_content": "",
+    "member_ids": [
+      18135,
+      18136
+    ],
+    "spot_id": 9468,
+    "drops": [],
+    "lv_up_array": []
+  },
+  "2380": {
+    "id": 2380,
+    "enemy_leader": 10002,
+    "correction_belong": "",
+    "correction_turn": "",
+    "ai": 0,
+    "ai_content": "",
+    "member_ids": [
+      18137,
+      18138,
+      18139,
+      18140,
+      18141,
+      18142
+    ],
+    "spot_id": 9467,
+    "drops": [],
+    "lv_up_array": []
+  },
+  "2381": {
+    "id": 2381,
+    "enemy_leader": 10003,
+    "correction_belong": "",
+    "correction_turn": "",
+    "ai": 0,
+    "ai_content": "",
+    "member_ids": [
+      18143,
+      18144,
+      18145,
+      18146,
+      18147,
+      18148
+    ],
+    "spot_id": 0,
+    "drops": [],
+    "lv_up_array": []
+  },
+  "2382": {
+    "id": 2382,
+    "enemy_leader": 900032,
+    "correction_belong": "",
+    "correction_turn": "",
+    "ai": 102,
+    "ai_content": "2",
+    "member_ids": [
+      18149,
+      18150,
+      18151
+    ],
+    "spot_id": 9483,
+    "drops": [],
+    "lv_up_array": []
+  },
+  "2383": {
+    "id": 2383,
+    "enemy_leader": 10004,
+    "correction_belong": "",
+    "correction_turn": "",
+    "ai": 0,
+    "ai_content": "",
+    "member_ids": [
+      18152,
+      18153,
+      18154,
+      18155,
+      18156,
+      18157,
+      18158,
+      18159
+    ],
+    "spot_id": 9460,
+    "drops": [],
+    "lv_up_array": []
+  },
+  "2384": {
+    "id": 2384,
+    "enemy_leader": 10008,
+    "correction_belong": "",
+    "correction_turn": "",
+    "ai": 0,
+    "ai_content": "",
+    "member_ids": [
+      18160,
+      18161,
+      18162,
+      18163,
+      18164
+    ],
+    "spot_id": 9480,
+    "drops": [],
+    "lv_up_array": []
+  },
+  "2385": {
+    "id": 2385,
+    "enemy_leader": 10022,
+    "correction_belong": "",
+    "correction_turn": "",
+    "ai": 0,
+    "ai_content": "",
+    "member_ids": [
+      18167,
+      18168,
+      18169,
+      18170
+    ],
+    "spot_id": 9473,
+    "drops": [],
+    "lv_up_array": []
+  },
+  "2386": {
+    "id": 2386,
+    "enemy_leader": 900138,
+    "correction_belong": "",
+    "correction_turn": "",
+    "ai": 0,
+    "ai_content": "",
+    "member_ids": [
+      18171,
+      18172,
+      18173,
+      18174,
+      18175,
+      18176,
+      18177,
+      18178,
+      18179,
+      18180,
+      18181,
+      18182,
+      18183,
+      18184,
+      18185
+    ],
+    "spot_id": 9458,
+    "drops": [],
+    "lv_up_array": []
+  },
+  "2387": {
+    "id": 2387,
+    "enemy_leader": 900032,
+    "correction_belong": "",
+    "correction_turn": "",
+    "ai": 0,
+    "ai_content": "",
+    "member_ids": [
+      18186,
+      18187,
+      18188,
+      18189
+    ],
+    "spot_id": 0,
+    "drops": [],
+    "lv_up_array": []
+  },
+  "2388": {
+    "id": 2388,
+    "enemy_leader": 10008,
+    "correction_belong": "",
+    "correction_turn": "",
+    "ai": 0,
+    "ai_content": "",
+    "member_ids": [
+      18190,
+      18191,
+      18192,
+      18193,
+      18194,
+      18195
+    ],
+    "spot_id": 0,
+    "drops": [],
+    "lv_up_array": []
+  },
+  "2389": {
+    "id": 2389,
+    "enemy_leader": 10003,
+    "correction_belong": "",
+    "correction_turn": "",
+    "ai": 0,
+    "ai_content": "",
+    "member_ids": [
+      18196,
+      18197,
+      18198,
+      18199,
+      18200,
+      18201,
+      18202,
+      18203,
+      18204,
+      18205,
+      18206,
+      18207,
+      18208,
+      18209,
+      18210,
+      18211
+    ],
+    "spot_id": 0,
+    "drops": [],
+    "lv_up_array": []
+  },
+  "2390": {
+    "id": 2390,
+    "enemy_leader": 10012,
+    "correction_belong": "",
+    "correction_turn": "",
+    "ai": 0,
+    "ai_content": "",
+    "member_ids": [
+      18212,
+      18213,
+      18214,
+      18215,
+      18216,
+      18217,
+      18218,
+      18219,
+      18220
+    ],
+    "spot_id": 9494,
+    "drops": [],
+    "lv_up_array": []
+  },
+  "2391": {
+    "id": 2391,
+    "enemy_leader": 10007,
+    "correction_belong": "",
+    "correction_turn": "",
+    "ai": 0,
+    "ai_content": "",
+    "member_ids": [
+      18221,
+      18222,
+      18223,
+      18224,
+      18225,
+      18226,
+      18227,
+      18228,
+      18229
+    ],
+    "spot_id": 9491,
+    "drops": [],
+    "lv_up_array": []
+  },
+  "2392": {
+    "id": 2392,
+    "enemy_leader": 10021,
+    "correction_belong": "",
+    "correction_turn": "",
+    "ai": 0,
+    "ai_content": "",
+    "member_ids": [
+      18230,
+      18231
+    ],
+    "spot_id": 9498,
+    "drops": [],
+    "lv_up_array": []
+  },
+  "2393": {
+    "id": 2393,
+    "enemy_leader": 10014,
+    "correction_belong": "",
+    "correction_turn": "",
+    "ai": 0,
+    "ai_content": "",
+    "member_ids": [
+      18232,
+      18233,
+      18234,
+      18235,
+      18236,
+      18237
+    ],
+    "spot_id": 9499,
+    "drops": [],
+    "lv_up_array": []
+  },
+  "2394": {
+    "id": 2394,
+    "enemy_leader": 900025,
+    "correction_belong": "",
+    "correction_turn": "",
+    "ai": 101,
+    "ai_content": "9497,9503",
+    "member_ids": [
+      18238,
+      18239,
+      18240,
+      18241
+    ],
+    "spot_id": 9497,
+    "drops": [],
+    "lv_up_array": []
+  },
+  "2395": {
+    "id": 2395,
+    "enemy_leader": 10008,
+    "correction_belong": "",
+    "correction_turn": "",
+    "ai": 0,
+    "ai_content": "",
+    "member_ids": [
+      18242,
+      18243,
+      18244
+    ],
+    "spot_id": 9492,
+    "drops": [],
+    "lv_up_array": []
+  },
+  "2396": {
+    "id": 2396,
+    "enemy_leader": 10005,
+    "correction_belong": "",
+    "correction_turn": "",
+    "ai": 102,
+    "ai_content": "1",
+    "member_ids": [
+      18245,
+      18246,
+      18247,
+      18248,
+      18249,
+      18250,
+      18251,
+      18252
+    ],
+    "spot_id": 9501,
+    "drops": [],
+    "lv_up_array": []
+  },
+  "2397": {
+    "id": 2397,
+    "enemy_leader": 10017,
+    "correction_belong": "",
+    "correction_turn": "",
+    "ai": 0,
+    "ai_content": "",
+    "member_ids": [
+      18253,
+      18254,
+      18255,
+      18256,
+      18257,
+      18258
+    ],
+    "spot_id": 9500,
+    "drops": [],
+    "lv_up_array": []
+  },
+  "2398": {
+    "id": 2398,
+    "enemy_leader": 10007,
+    "correction_belong": "",
+    "correction_turn": "",
+    "ai": 0,
+    "ai_content": "",
+    "member_ids": [
+      18259,
+      18260,
+      18261,
+      18262,
+      18263,
+      18264,
+      18265,
+      18266,
+      18267,
+      18268
+    ],
+    "spot_id": 9502,
+    "drops": [],
+    "lv_up_array": []
+  },
+  "2399": {
+    "id": 2399,
+    "enemy_leader": 10008,
+    "correction_belong": "",
+    "correction_turn": "",
+    "ai": 0,
+    "ai_content": "",
+    "member_ids": [
+      18269,
+      18270,
+      18271
+    ],
+    "spot_id": 9495,
+    "drops": [],
+    "lv_up_array": []
+  },
+  "2400": {
+    "id": 2400,
+    "enemy_leader": 10017,
+    "correction_belong": "",
+    "correction_turn": "",
+    "ai": 0,
+    "ai_content": "",
+    "member_ids": [
+      18272,
+      18273,
+      18274,
+      18275,
+      18276,
+      18277,
+      18278
+    ],
+    "spot_id": 9496,
+    "drops": [],
+    "lv_up_array": []
+  },
+  "2401": {
+    "id": 2401,
+    "enemy_leader": 900032,
+    "correction_belong": "",
+    "correction_turn": "",
+    "ai": 0,
+    "ai_content": "",
+    "member_ids": [
+      18279,
+      18280,
+      18281,
+      18282
+    ],
+    "spot_id": 9506,
+    "drops": [],
+    "lv_up_array": []
+  },
+  "2402": {
+    "id": 2402,
+    "enemy_leader": 10022,
+    "correction_belong": "",
+    "correction_turn": "",
+    "ai": 101,
+    "ai_content": "9488,9505",
+    "member_ids": [
+      18283,
+      18284,
+      18285,
+      18286,
+      18287,
+      18288,
+      18289,
+      18290
+    ],
+    "spot_id": 9488,
+    "drops": [],
+    "lv_up_array": []
+  },
+  "2403": {
+    "id": 2403,
+    "enemy_leader": 10008,
+    "correction_belong": "",
+    "correction_turn": "",
+    "ai": 0,
+    "ai_content": "",
+    "member_ids": [
+      18291,
+      18292,
+      18293,
+      18294
+    ],
+    "spot_id": 0,
+    "drops": [],
+    "lv_up_array": []
+  },
+  "2404": {
+    "id": 2404,
+    "enemy_leader": 10006,
+    "correction_belong": "",
+    "correction_turn": "",
+    "ai": 0,
+    "ai_content": "",
+    "member_ids": [
+      18295,
+      18296,
+      18297,
+      18298,
+      18299,
+      18300,
+      18301,
+      18302,
+      18303
+    ],
+    "spot_id": 0,
+    "drops": [],
+    "lv_up_array": []
+  },
+  "2405": {
+    "id": 2405,
+    "enemy_leader": 10003,
+    "correction_belong": "",
+    "correction_turn": "",
+    "ai": 102,
+    "ai_content": "5",
+    "member_ids": [
+      18304,
+      18305,
+      18306,
+      18307,
+      18308,
+      18309,
+      18310,
+      18311,
+      18312,
+      18313,
+      18314,
+      18315,
+      18316,
+      18317,
+      18318,
+      18319,
+      18320,
+      18321
+    ],
+    "spot_id": 9528,
+    "drops": [],
+    "lv_up_array": []
+  },
+  "2406": {
+    "id": 2406,
+    "enemy_leader": 10017,
+    "correction_belong": "",
+    "correction_turn": "",
+    "ai": 0,
+    "ai_content": "",
+    "member_ids": [
+      18322,
+      18323,
+      18324,
+      18325,
+      18326,
+      18327,
+      18328,
+      18329,
+      18330
+    ],
+    "spot_id": 9537,
+    "drops": [],
+    "lv_up_array": []
+  },
+  "2407": {
+    "id": 2407,
+    "enemy_leader": 10008,
+    "correction_belong": "",
+    "correction_turn": "",
+    "ai": 0,
+    "ai_content": "",
+    "member_ids": [
+      18331,
+      18332,
+      18333,
+      18334,
+      18335
+    ],
+    "spot_id": 9524,
+    "drops": [],
+    "lv_up_array": []
+  },
+  "2408": {
+    "id": 2408,
+    "enemy_leader": 10015,
+    "correction_belong": "",
+    "correction_turn": "",
+    "ai": 0,
+    "ai_content": "",
+    "member_ids": [
+      18336,
+      18337,
+      18338,
+      18339,
+      18340,
+      18341
+    ],
+    "spot_id": 9523,
+    "drops": [],
+    "lv_up_array": []
+  },
+  "2409": {
+    "id": 2409,
+    "enemy_leader": 900025,
+    "correction_belong": "",
+    "correction_turn": "",
+    "ai": 0,
+    "ai_content": "",
+    "member_ids": [
+      18342,
+      18343,
+      18344,
+      18345,
+      18346
+    ],
+    "spot_id": 9522,
+    "drops": [],
+    "lv_up_array": []
+  },
+  "2410": {
+    "id": 2410,
+    "enemy_leader": 10021,
+    "correction_belong": "",
+    "correction_turn": "",
+    "ai": 102,
+    "ai_content": "3",
+    "member_ids": [
+      18347,
+      18348
+    ],
+    "spot_id": 9510,
+    "drops": [],
+    "lv_up_array": []
+  },
+  "2411": {
+    "id": 2411,
+    "enemy_leader": 10022,
+    "correction_belong": "",
+    "correction_turn": "",
+    "ai": 102,
+    "ai_content": "2",
+    "member_ids": [
+      18349,
+      18350
+    ],
+    "spot_id": 9531,
+    "drops": [],
+    "lv_up_array": []
+  },
+  "2412": {
+    "id": 2412,
+    "enemy_leader": 900139,
+    "correction_belong": "",
+    "correction_turn": "",
+    "ai": 0,
+    "ai_content": "",
+    "member_ids": [
+      18354,
+      18355,
+      18356,
+      18357,
+      18358
+    ],
+    "spot_id": 9530,
+    "drops": [],
+    "lv_up_array": []
+  },
+  "2413": {
+    "id": 2413,
+    "enemy_leader": 10017,
+    "correction_belong": "",
+    "correction_turn": "",
+    "ai": 0,
+    "ai_content": "",
+    "member_ids": [
+      18359,
+      18360,
+      18361,
+      18362,
+      18363,
+      18364
+    ],
+    "spot_id": 0,
+    "drops": [],
+    "lv_up_array": []
+  },
+  "2414": {
+    "id": 2414,
+    "enemy_leader": 10018,
+    "correction_belong": "",
+    "correction_turn": "",
+    "ai": 0,
+    "ai_content": "",
+    "member_ids": [
+      18365,
+      18366,
+      18367,
+      18368,
+      18369,
+      18370,
+      18371,
+      18372,
+      18373,
+      18374,
+      18375,
+      18376
+    ],
+    "spot_id": 0,
+    "drops": [],
+    "lv_up_array": []
+  },
   "10001": {
     "id": 10001,
     "enemy_leader": 900029,

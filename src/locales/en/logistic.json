@@ -10,7 +10,7 @@
     "captainNumber": "mem's number",
     "filterTotalDescend": "total descend",
     "filterYieldDescend": "time yield descend",
-    "filterExtraYieldDescend": "time yield descend"
+    "filterExtraYieldDescend": "extra yield descend"
   },
   "supportPlan": {
     "entryButton": "logistics calculation",

@@ -8,7 +8,7 @@
     "armor_piercing": 3.0,
     "armor": 30.72,
     "shield": 1.0,
-    "def": 1.0,
+    "def": 336.0,
     "def_break": 1.0
   },
   "2": {
@@ -20,7 +20,7 @@
     "armor_piercing": 4.0,
     "armor": 32.64,
     "shield": 1.0,
-    "def": 1.0,
+    "def": 343.0,
     "def_break": 1.0
   },
   "3": {
@@ -32,7 +32,7 @@
     "armor_piercing": 4.0,
     "armor": 32.64,
     "shield": 1.0,
-    "def": 1.0,
+    "def": 349.0,
     "def_break": 1.0
   },
   "4": {
@@ -44,7 +44,7 @@
     "armor_piercing": 5.0,
     "armor": 32.64,
     "shield": 1.0,
-    "def": 1.0,
+    "def": 356.0,
     "def_break": 1.0
   },
   "5": {
@@ -56,7 +56,7 @@
     "armor_piercing": 5.0,
     "armor": 32.64,
     "shield": 1.0,
-    "def": 1.0,
+    "def": 363.0,
     "def_break": 1.0
   },
   "6": {
@@ -68,7 +68,7 @@
     "armor_piercing": 5.0,
     "armor": 34.56,
     "shield": 1.0,
-    "def": 1.0,
+    "def": 370.0,
     "def_break": 1.0
   },
   "7": {
@@ -80,7 +80,7 @@
     "armor_piercing": 6.0,
     "armor": 34.56,
     "shield": 1.0,
-    "def": 1.0,
+    "def": 376.0,
     "def_break": 1.0
   },
   "8": {
@@ -92,7 +92,7 @@
     "armor_piercing": 6.0,
     "armor": 34.56,
     "shield": 1.0,
-    "def": 1.0,
+    "def": 383.0,
     "def_break": 1.0
   },
   "9": {
@@ -104,7 +104,7 @@
     "armor_piercing": 7.0,
     "armor": 34.56,
     "shield": 1.0,
-    "def": 1.0,
+    "def": 390.0,
     "def_break": 1.0
   },
   "10": {
@@ -116,7 +116,7 @@
     "armor_piercing": 7.0,
     "armor": 36.48,
     "shield": 1.0,
-    "def": 1.0,
+    "def": 396.0,
     "def_break": 1.0
   },
   "11": {
@@ -128,7 +128,7 @@
     "armor_piercing": 7.0,
     "armor": 36.48,
     "shield": 1.0,
-    "def": 1.0,
+    "def": 403.0,
     "def_break": 1.0
   },
   "12": {
@@ -140,7 +140,7 @@
     "armor_piercing": 8.0,
     "armor": 36.48,
     "shield": 1.0,
-    "def": 1.0,
+    "def": 410.0,
     "def_break": 1.0
   },
   "13": {
@@ -152,7 +152,7 @@
     "armor_piercing": 8.0,
     "armor": 36.48,
     "shield": 1.0,
-    "def": 1.0,
+    "def": 417.0,
     "def_break": 1.0
   },
   "14": {
@@ -164,7 +164,7 @@
     "armor_piercing": 8.0,
     "armor": 38.4,
     "shield": 1.0,
-    "def": 1.0,
+    "def": 423.0,
     "def_break": 1.0
   },
   "15": {
@@ -176,7 +176,7 @@
     "armor_piercing": 9.0,
     "armor": 38.4,
     "shield": 1.0,
-    "def": 1.0,
+    "def": 430.0,
     "def_break": 1.0
   },
   "16": {
@@ -188,7 +188,7 @@
     "armor_piercing": 9.0,
     "armor": 38.4,
     "shield": 1.0,
-    "def": 1.0,
+    "def": 437.0,
     "def_break": 1.0
   },
   "17": {
@@ -200,7 +200,7 @@
     "armor_piercing": 10.0,
     "armor": 38.4,
     "shield": 1.0,
-    "def": 1.0,
+    "def": 443.0,
     "def_break": 1.0
   },
   "18": {
@@ -212,7 +212,7 @@
     "armor_piercing": 10.0,
     "armor": 40.32,
     "shield": 1.0,
-    "def": 1.0,
+    "def": 450.0,
     "def_break": 1.0
   },
   "19": {
@@ -224,7 +224,7 @@
     "armor_piercing": 10.0,
     "armor": 40.32,
     "shield": 1.0,
-    "def": 1.0,
+    "def": 457.0,
     "def_break": 1.0
   },
   "20": {
@@ -236,7 +236,7 @@
     "armor_piercing": 11.0,
     "armor": 40.32,
     "shield": 1.0,
-    "def": 1.0,
+    "def": 464.0,
     "def_break": 1.0
   },
   "21": {
@@ -248,7 +248,7 @@
     "armor_piercing": 11.0,
     "armor": 40.32,
     "shield": 1.0,
-    "def": 1.0,
+    "def": 470.0,
     "def_break": 1.0
   },
   "22": {
@@ -260,7 +260,7 @@
     "armor_piercing": 12.0,
     "armor": 42.24,
     "shield": 1.0,
-    "def": 1.0,
+    "def": 477.0,
     "def_break": 1.0
   },
   "23": {
@@ -272,7 +272,7 @@
     "armor_piercing": 12.0,
     "armor": 42.24,
     "shield": 1.0,
-    "def": 1.0,
+    "def": 484.0,
     "def_break": 1.0
   },
   "24": {
@@ -284,7 +284,7 @@
     "armor_piercing": 12.0,
     "armor": 42.24,
     "shield": 1.0,
-    "def": 1.0,
+    "def": 490.0,
     "def_break": 1.0
   },
   "25": {
@@ -296,7 +296,7 @@
     "armor_piercing": 13.0,
     "armor": 42.24,
     "shield": 1.0,
-    "def": 1.0,
+    "def": 497.0,
     "def_break": 1.0
   },
   "26": {
@@ -308,7 +308,7 @@
     "armor_piercing": 13.0,
     "armor": 44.16,
     "shield": 1.0,
-    "def": 1.0,
+    "def": 504.0,
     "def_break": 1.0
   },
   "27": {
@@ -320,7 +320,7 @@
     "armor_piercing": 13.0,
     "armor": 44.16,
     "shield": 1.0,
-    "def": 1.0,
+    "def": 511.0,
     "def_break": 1.0
   },
   "28": {
@@ -332,7 +332,7 @@
     "armor_piercing": 14.0,
     "armor": 44.16,
     "shield": 1.0,
-    "def": 1.0,
+    "def": 517.0,
     "def_break": 1.0
   },
   "29": {
@@ -344,7 +344,7 @@
     "armor_piercing": 14.0,
     "armor": 44.16,
     "shield": 1.0,
-    "def": 1.0,
+    "def": 524.0,
     "def_break": 1.0
   },
   "30": {
@@ -356,7 +356,7 @@
     "armor_piercing": 15.0,
     "armor": 46.08,
     "shield": 1.0,
-    "def": 1.0,
+    "def": 531.0,
     "def_break": 1.0
   },
   "31": {
@@ -368,7 +368,7 @@
     "armor_piercing": 15.0,
     "armor": 46.08,
     "shield": 1.0,
-    "def": 1.0,
+    "def": 537.0,
     "def_break": 1.0
   },
   "32": {
@@ -380,7 +380,7 @@
     "armor_piercing": 15.0,
     "armor": 46.08,
     "shield": 1.0,
-    "def": 1.0,
+    "def": 544.0,
     "def_break": 1.0
   },
   "33": {
@@ -392,7 +392,7 @@
     "armor_piercing": 16.0,
     "armor": 46.08,
     "shield": 1.0,
-    "def": 1.0,
+    "def": 551.0,
     "def_break": 1.0
   },
   "34": {
@@ -404,7 +404,7 @@
     "armor_piercing": 16.0,
     "armor": 46.08,
     "shield": 1.0,
-    "def": 1.0,
+    "def": 558.0,
     "def_break": 1.0
   },
   "35": {
@@ -416,7 +416,7 @@
     "armor_piercing": 17.0,
     "armor": 48.0,
     "shield": 1.0,
-    "def": 1.0,
+    "def": 564.0,
     "def_break": 1.0
   },
   "36": {
@@ -428,7 +428,7 @@
     "armor_piercing": 17.0,
     "armor": 48.0,
     "shield": 1.0,
-    "def": 1.0,
+    "def": 571.0,
     "def_break": 1.0
   },
   "37": {
@@ -440,7 +440,7 @@
     "armor_piercing": 17.0,
     "armor": 48.0,
     "shield": 1.0,
-    "def": 1.0,
+    "def": 578.0,
     "def_break": 1.0
   },
   "38": {
@@ -452,7 +452,7 @@
     "armor_piercing": 18.0,
     "armor": 48.0,
     "shield": 1.0,
-    "def": 1.0,
+    "def": 584.0,
     "def_break": 1.0
   },
   "39": {
@@ -464,7 +464,7 @@
     "armor_piercing": 18.0,
     "armor": 49.92,
     "shield": 1.0,
-    "def": 1.0,
+    "def": 591.0,
     "def_break": 1.0
   },
   "40": {
@@ -476,7 +476,7 @@
     "armor_piercing": 18.0,
     "armor": 49.92,
     "shield": 1.0,
-    "def": 1.0,
+    "def": 598.0,
     "def_break": 1.0
   },
   "41": {
@@ -488,7 +488,7 @@
     "armor_piercing": 19.0,
     "armor": 49.92,
     "shield": 1.0,
-    "def": 1.0,
+    "def": 605.0,
     "def_break": 1.0
   },
   "42": {
@@ -500,7 +500,7 @@
     "armor_piercing": 19.0,
     "armor": 49.92,
     "shield": 1.0,
-    "def": 1.0,
+    "def": 611.0,
     "def_break": 1.0
   },
   "43": {
@@ -512,7 +512,7 @@
     "armor_piercing": 20.0,
     "armor": 51.84,
     "shield": 1.0,
-    "def": 1.0,
+    "def": 618.0,
     "def_break": 1.0
   },
   "44": {
@@ -524,7 +524,7 @@
     "armor_piercing": 20.0,
     "armor": 51.84,
     "shield": 1.0,
-    "def": 1.0,
+    "def": 625.0,
     "def_break": 1.0
   },
   "45": {
@@ -536,7 +536,7 @@
     "armor_piercing": 20.0,
     "armor": 51.84,
     "shield": 1.0,
-    "def": 1.0,
+    "def": 631.0,
     "def_break": 1.0
   },
   "46": {
@@ -548,7 +548,7 @@
     "armor_piercing": 21.0,
     "armor": 51.84,
     "shield": 1.0,
-    "def": 1.0,
+    "def": 638.0,
     "def_break": 1.0
   },
   "47": {
@@ -560,7 +560,7 @@
     "armor_piercing": 21.0,
     "armor": 53.76,
     "shield": 1.0,
-    "def": 1.0,
+    "def": 645.0,
     "def_break": 1.0
   },
   "48": {
@@ -572,7 +572,7 @@
     "armor_piercing": 22.0,
     "armor": 53.76,
     "shield": 1.0,
-    "def": 1.0,
+    "def": 652.0,
     "def_break": 1.0
   },
   "49": {
@@ -584,7 +584,7 @@
     "armor_piercing": 22.0,
     "armor": 53.76,
     "shield": 1.0,
-    "def": 1.0,
+    "def": 658.0,
     "def_break": 1.0
   },
   "50": {
@@ -596,7 +596,7 @@
     "armor_piercing": 22.0,
     "armor": 53.76,
     "shield": 1.0,
-    "def": 1.0,
+    "def": 665.0,
     "def_break": 1.0
   },
   "51": {
@@ -608,7 +608,7 @@
     "armor_piercing": 23.0,
     "armor": 55.68,
     "shield": 1.0,
-    "def": 1.0,
+    "def": 672.0,
     "def_break": 1.0
   },
   "52": {
@@ -620,7 +620,7 @@
     "armor_piercing": 23.0,
     "armor": 55.68,
     "shield": 1.0,
-    "def": 1.0,
+    "def": 678.0,
     "def_break": 1.0
   },
   "53": {
@@ -632,7 +632,7 @@
     "armor_piercing": 23.0,
     "armor": 55.68,
     "shield": 1.0,
-    "def": 1.0,
+    "def": 685.0,
     "def_break": 1.0
   },
   "54": {
@@ -644,7 +644,7 @@
     "armor_piercing": 24.0,
     "armor": 55.68,
     "shield": 1.0,
-    "def": 1.0,
+    "def": 692.0,
     "def_break": 1.0
   },
   "55": {
@@ -656,7 +656,7 @@
     "armor_piercing": 24.0,
     "armor": 57.6,
     "shield": 1.0,
-    "def": 1.0,
+    "def": 698.0,
     "def_break": 1.0
   },
   "56": {
@@ -668,7 +668,7 @@
     "armor_piercing": 25.0,
     "armor": 57.6,
     "shield": 1.0,
-    "def": 1.0,
+    "def": 705.0,
     "def_break": 1.0
   },
   "57": {
@@ -680,7 +680,7 @@
     "armor_piercing": 25.0,
     "armor": 57.6,
     "shield": 1.0,
-    "def": 1.0,
+    "def": 712.0,
     "def_break": 1.0
   },
   "58": {
@@ -692,7 +692,7 @@
     "armor_piercing": 25.0,
     "armor": 57.6,
     "shield": 1.0,
-    "def": 1.0,
+    "def": 719.0,
     "def_break": 1.0
   },
   "59": {
@@ -704,7 +704,7 @@
     "armor_piercing": 26.0,
     "armor": 59.52,
     "shield": 1.0,
-    "def": 1.0,
+    "def": 725.0,
     "def_break": 1.0
   },
   "60": {
@@ -716,7 +716,7 @@
     "armor_piercing": 26.0,
     "armor": 59.52,
     "shield": 1.0,
-    "def": 1.0,
+    "def": 732.0,
     "def_break": 1.0
   },
   "61": {
@@ -728,7 +728,7 @@
     "armor_piercing": 26.0,
     "armor": 59.52,
     "shield": 1.0,
-    "def": 1.0,
+    "def": 739.0,
     "def_break": 1.0
   },
   "62": {
@@ -740,7 +740,7 @@
     "armor_piercing": 27.0,
     "armor": 59.52,
     "shield": 1.0,
-    "def": 1.0,
+    "def": 745.0,
     "def_break": 1.0
   },
   "63": {
@@ -752,7 +752,7 @@
     "armor_piercing": 27.0,
     "armor": 61.44,
     "shield": 1.0,
-    "def": 1.0,
+    "def": 752.0,
     "def_break": 1.0
   },
   "64": {
@@ -764,7 +764,7 @@
     "armor_piercing": 28.0,
     "armor": 61.44,
     "shield": 1.0,
-    "def": 1.0,
+    "def": 759.0,
     "def_break": 1.0
   },
   "65": {
@@ -776,7 +776,7 @@
     "armor_piercing": 28.0,
     "armor": 61.44,
     "shield": 1.0,
-    "def": 1.0,
+    "def": 766.0,
     "def_break": 1.0
   },
   "66": {
@@ -788,7 +788,7 @@
     "armor_piercing": 28.0,
     "armor": 61.44,
     "shield": 1.0,
-    "def": 1.0,
+    "def": 772.0,
     "def_break": 1.0
   },
   "67": {
@@ -800,7 +800,7 @@
     "armor_piercing": 29.0,
     "armor": 61.44,
     "shield": 1.0,
-    "def": 1.0,
+    "def": 779.0,
     "def_break": 1.0
   },
   "68": {
@@ -812,7 +812,7 @@
     "armor_piercing": 29.0,
     "armor": 63.36,
     "shield": 1.0,
-    "def": 1.0,
+    "def": 786.0,
     "def_break": 1.0
   },
   "69": {
@@ -824,7 +824,7 @@
     "armor_piercing": 30.0,
     "armor": 63.36,
     "shield": 1.0,
-    "def": 1.0,
+    "def": 792.0,
     "def_break": 1.0
   },
   "70": {
@@ -836,7 +836,7 @@
     "armor_piercing": 30.0,
     "armor": 63.36,
     "shield": 1.0,
-    "def": 1.0,
+    "def": 799.0,
     "def_break": 1.0
   },
   "71": {
@@ -848,7 +848,7 @@
     "armor_piercing": 30.0,
     "armor": 63.36,
     "shield": 1.0,
-    "def": 1.0,
+    "def": 806.0,
     "def_break": 1.0
   },
   "72": {
@@ -860,7 +860,7 @@
     "armor_piercing": 31.0,
     "armor": 65.28,
     "shield": 1.0,
-    "def": 1.0,
+    "def": 813.0,
     "def_break": 1.0
   },
   "73": {
@@ -872,7 +872,7 @@
     "armor_piercing": 31.0,
     "armor": 65.28,
     "shield": 1.0,
-    "def": 1.0,
+    "def": 819.0,
     "def_break": 1.0
   },
   "74": {
@@ -884,7 +884,7 @@
     "armor_piercing": 31.0,
     "armor": 65.28,
     "shield": 1.0,
-    "def": 1.0,
+    "def": 826.0,
     "def_break": 1.0
   },
   "75": {
@@ -896,7 +896,7 @@
     "armor_piercing": 32.0,
     "armor": 65.28,
     "shield": 1.0,
-    "def": 1.0,
+    "def": 833.0,
     "def_break": 1.0
   },
   "76": {
@@ -908,7 +908,7 @@
     "armor_piercing": 32.0,
     "armor": 67.2,
     "shield": 1.0,
-    "def": 1.0,
+    "def": 839.0,
     "def_break": 1.0
   },
   "77": {
@@ -920,7 +920,7 @@
     "armor_piercing": 33.0,
     "armor": 67.2,
     "shield": 1.0,
-    "def": 1.0,
+    "def": 846.0,
     "def_break": 1.0
   },
   "78": {
@@ -932,7 +932,7 @@
     "armor_piercing": 33.0,
     "armor": 67.2,
     "shield": 1.0,
-    "def": 1.0,
+    "def": 853.0,
     "def_break": 1.0
   },
   "79": {
@@ -944,7 +944,7 @@
     "armor_piercing": 33.0,
     "armor": 67.2,
     "shield": 1.0,
-    "def": 1.0,
+    "def": 860.0,
     "def_break": 1.0
   },
   "80": {
@@ -956,7 +956,7 @@
     "armor_piercing": 34.0,
     "armor": 69.12,
     "shield": 1.0,
-    "def": 1.0,
+    "def": 866.0,
     "def_break": 1.0
   },
   "81": {
@@ -968,7 +968,7 @@
     "armor_piercing": 34.0,
     "armor": 69.12,
     "shield": 1.0,
-    "def": 1.0,
+    "def": 873.0,
     "def_break": 1.0
   },
   "82": {
@@ -980,7 +980,7 @@
     "armor_piercing": 35.0,
     "armor": 69.12,
     "shield": 1.0,
-    "def": 1.0,
+    "def": 880.0,
     "def_break": 1.0
   },
   "83": {
@@ -992,7 +992,7 @@
     "armor_piercing": 35.0,
     "armor": 69.12,
     "shield": 1.0,
-    "def": 1.0,
+    "def": 886.0,
     "def_break": 1.0
   },
   "84": {
@@ -1004,7 +1004,7 @@
     "armor_piercing": 35.0,
     "armor": 71.04,
     "shield": 1.0,
-    "def": 1.0,
+    "def": 893.0,
     "def_break": 1.0
   },
   "85": {
@@ -1016,7 +1016,7 @@
     "armor_piercing": 36.0,
     "armor": 71.04,
     "shield": 1.0,
-    "def": 1.0,
+    "def": 900.0,
     "def_break": 1.0
   },
   "86": {
@@ -1028,7 +1028,7 @@
     "armor_piercing": 36.0,
     "armor": 71.04,
     "shield": 1.0,
-    "def": 1.0,
+    "def": 907.0,
     "def_break": 1.0
   },
   "87": {
@@ -1040,7 +1040,7 @@
     "armor_piercing": 36.0,
     "armor": 71.04,
     "shield": 1.0,
-    "def": 1.0,
+    "def": 913.0,
     "def_break": 1.0
   },
   "88": {
@@ -1052,7 +1052,7 @@
     "armor_piercing": 37.0,
     "armor": 72.96,
     "shield": 1.0,
-    "def": 1.0,
+    "def": 920.0,
     "def_break": 1.0
   },
   "89": {
@@ -1064,7 +1064,7 @@
     "armor_piercing": 37.0,
     "armor": 72.96,
     "shield": 1.0,
-    "def": 1.0,
+    "def": 927.0,
     "def_break": 1.0
   },
   "90": {
@@ -1076,7 +1076,7 @@
     "armor_piercing": 38.0,
     "armor": 72.96,
     "shield": 1.0,
-    "def": 1.0,
+    "def": 933.0,
     "def_break": 1.0
   },
   "91": {
@@ -1088,7 +1088,7 @@
     "armor_piercing": 38.0,
     "armor": 72.96,
     "shield": 1.0,
-    "def": 1.0,
+    "def": 940.0,
     "def_break": 1.0
   },
   "92": {
@@ -1100,7 +1100,7 @@
     "armor_piercing": 38.0,
     "armor": 74.88,
     "shield": 1.0,
-    "def": 1.0,
+    "def": 947.0,
     "def_break": 1.0
   },
   "93": {
@@ -1112,7 +1112,7 @@
     "armor_piercing": 39.0,
     "armor": 74.88,
     "shield": 1.0,
-    "def": 1.0,
+    "def": 954.0,
     "def_break": 1.0
   },
   "94": {
@@ -1124,7 +1124,7 @@
     "armor_piercing": 39.0,
     "armor": 74.88,
     "shield": 1.0,
-    "def": 1.0,
+    "def": 960.0,
     "def_break": 1.0
   },
   "95": {
@@ -1136,7 +1136,7 @@
     "armor_piercing": 40.0,
     "armor": 74.88,
     "shield": 1.0,
-    "def": 1.0,
+    "def": 967.0,
     "def_break": 1.0
   },
   "96": {
@@ -1148,7 +1148,7 @@
     "armor_piercing": 40.0,
     "armor": 74.88,
     "shield": 1.0,
-    "def": 1.0,
+    "def": 974.0,
     "def_break": 1.0
   },
   "97": {
@@ -1160,7 +1160,7 @@
     "armor_piercing": 40.0,
     "armor": 76.8,
     "shield": 1.0,
-    "def": 1.0,
+    "def": 980.0,
     "def_break": 1.0
   },
   "98": {
@@ -1172,7 +1172,7 @@
     "armor_piercing": 41.0,
     "armor": 76.8,
     "shield": 1.0,
-    "def": 1.0,
+    "def": 987.0,
     "def_break": 1.0
   },
   "99": {
@@ -1184,7 +1184,7 @@
     "armor_piercing": 41.0,
     "armor": 76.8,
     "shield": 1.0,
-    "def": 1.0,
+    "def": 994.0,
     "def_break": 1.0
   },
   "100": {
@@ -1196,7 +1196,7 @@
     "armor_piercing": 41.0,
     "armor": 76.8,
     "shield": 1.0,
-    "def": 1.0,
+    "def": 1000.0,
     "def_break": 1.0
   },
   "101": {
@@ -1208,7 +1208,7 @@
     "armor_piercing": 41.25,
     "armor": 77.52,
     "shield": 1.0,
-    "def": 1.0,
+    "def": 1007.0,
     "def_break": 1.0
   },
   "102": {
@@ -1220,7 +1220,7 @@
     "armor_piercing": 41.49,
     "armor": 78.25,
     "shield": 1.0,
-    "def": 1.0,
+    "def": 1014.0,
     "def_break": 1.0
   },
   "103": {
@@ -1232,7 +1232,7 @@
     "armor_piercing": 41.74,
     "armor": 78.98,
     "shield": 1.0,
-    "def": 1.0,
+    "def": 1021.0,
     "def_break": 1.0
   },
   "104": {
@@ -1244,7 +1244,7 @@
     "armor_piercing": 41.99,
     "armor": 79.73,
     "shield": 1.0,
-    "def": 1.0,
+    "def": 1027.0,
     "def_break": 1.0
   },
   "105": {
@@ -1256,7 +1256,7 @@
     "armor_piercing": 42.24,
     "armor": 80.47,
     "shield": 1.0,
-    "def": 1.0,
+    "def": 1034.0,
     "def_break": 1.0
   },
   "106": {
@@ -1268,7 +1268,7 @@
     "armor_piercing": 42.5,
     "armor": 81.23,
     "shield": 1.0,
-    "def": 1.0,
+    "def": 1041.0,
     "def_break": 1.0
   },
   "107": {
@@ -1280,7 +1280,7 @@
     "armor_piercing": 42.75,
     "armor": 81.99,
     "shield": 1.0,
-    "def": 1.0,
+    "def": 1047.0,
     "def_break": 1.0
   },
   "108": {
@@ -1292,7 +1292,7 @@
     "armor_piercing": 43.01,
     "armor": 82.76,
     "shield": 1.0,
-    "def": 1.0,
+    "def": 1054.0,
     "def_break": 1.0
   },
   "109": {
@@ -1304,7 +1304,7 @@
     "armor_piercing": 43.27,
     "armor": 83.54,
     "shield": 1.0,
-    "def": 1.0,
+    "def": 1061.0,
     "def_break": 1.0
   },
   "110": {
@@ -1316,7 +1316,7 @@
     "armor_piercing": 43.52,
     "armor": 84.33,
     "shield": 1.0,
-    "def": 1.0,
+    "def": 1068.0,
     "def_break": 1.0
   },
   "111": {
@@ -1328,7 +1328,7 @@
     "armor_piercing": 43.79,
     "armor": 85.12,
     "shield": 1.0,
-    "def": 1.0,
+    "def": 1074.0,
     "def_break": 1.0
   },
   "112": {
@@ -1340,7 +1340,7 @@
     "armor_piercing": 44.05,
     "armor": 85.92,
     "shield": 1.0,
-    "def": 1.0,
+    "def": 1081.0,
     "def_break": 1.0
   },
   "113": {
@@ -1352,7 +1352,7 @@
     "armor_piercing": 44.31,
     "armor": 86.72,
     "shield": 1.0,
-    "def": 1.0,
+    "def": 1088.0,
     "def_break": 1.0
   },
   "114": {
@@ -1364,7 +1364,7 @@
     "armor_piercing": 44.58,
     "armor": 87.54,
     "shield": 1.0,
-    "def": 1.0,
+    "def": 1094.0,
     "def_break": 1.0
   },
   "115": {
@@ -1376,7 +1376,7 @@
     "armor_piercing": 44.84,
     "armor": 88.36,
     "shield": 1.0,
-    "def": 1.0,
+    "def": 1101.0,
     "def_break": 1.0
   },
   "116": {
@@ -1388,7 +1388,7 @@
     "armor_piercing": 45.11,
     "armor": 89.19,
     "shield": 1.0,
-    "def": 1.0,
+    "def": 1108.0,
     "def_break": 1.0
   },
   "117": {
@@ -1400,7 +1400,7 @@
     "armor_piercing": 45.38,
     "armor": 90.03,
     "shield": 1.0,
-    "def": 1.0,
+    "def": 1115.0,
     "def_break": 1.0
   },
   "118": {
@@ -1412,7 +1412,7 @@
     "armor_piercing": 45.65,
     "armor": 90.87,
     "shield": 1.0,
-    "def": 1.0,
+    "def": 1121.0,
     "def_break": 1.0
   },
   "119": {
@@ -1424,7 +1424,7 @@
     "armor_piercing": 45.93,
     "armor": 91.73,
     "shield": 1.0,
-    "def": 1.0,
+    "def": 1128.0,
     "def_break": 1.0
   },
   "120": {
@@ -1436,7 +1436,7 @@
     "armor_piercing": 46.2,
     "armor": 92.59,
     "shield": 1.0,
-    "def": 1.0,
+    "def": 1135.0,
     "def_break": 1.0
   },
   "121": {
@@ -1448,7 +1448,7 @@
     "armor_piercing": 46.48,
     "armor": 93.46,
     "shield": 1.0,
-    "def": 1.0,
+    "def": 1141.0,
     "def_break": 1.0
   },
   "122": {
@@ -1460,7 +1460,7 @@
     "armor_piercing": 46.76,
     "armor": 94.33,
     "shield": 1.0,
-    "def": 1.0,
+    "def": 1148.0,
     "def_break": 1.0
   },
   "123": {
@@ -1472,7 +1472,7 @@
     "armor_piercing": 47.04,
     "armor": 95.22,
     "shield": 1.0,
-    "def": 1.0,
+    "def": 1155.0,
     "def_break": 1.0
   },
   "124": {
@@ -1484,7 +1484,7 @@
     "armor_piercing": 47.32,
     "armor": 96.11,
     "shield": 1.0,
-    "def": 1.0,
+    "def": 1162.0,
     "def_break": 1.0
   },
   "125": {
@@ -1496,7 +1496,7 @@
     "armor_piercing": 47.6,
     "armor": 97.02,
     "shield": 1.0,
-    "def": 1.0,
+    "def": 1168.0,
     "def_break": 1.0
   },
   "126": {
@@ -1508,7 +1508,7 @@
     "armor_piercing": 47.89,
     "armor": 97.93,
     "shield": 1.0,
-    "def": 1.0,
+    "def": 1175.0,
     "def_break": 1.0
   },
   "127": {
@@ -1520,7 +1520,7 @@
     "armor_piercing": 48.18,
     "armor": 98.85,
     "shield": 1.0,
-    "def": 1.0,
+    "def": 1182.0,
     "def_break": 1.0
   },
   "128": {
@@ -1532,7 +1532,7 @@
     "armor_piercing": 48.46,
     "armor": 99.77,
     "shield": 1.0,
-    "def": 1.0,
+    "def": 1188.0,
     "def_break": 1.0
   },
   "129": {
@@ -1544,7 +1544,7 @@
     "armor_piercing": 48.76,
     "armor": 100.71,
     "shield": 1.0,
-    "def": 1.0,
+    "def": 1195.0,
     "def_break": 1.0
   },
   "130": {
@@ -1556,7 +1556,7 @@
     "armor_piercing": 49.05,
     "armor": 101.66,
     "shield": 1.0,
-    "def": 1.0,
+    "def": 1202.0,
     "def_break": 1.0
   },
   "131": {
@@ -1568,7 +1568,7 @@
     "armor_piercing": 49.34,
     "armor": 102.61,
     "shield": 1.0,
-    "def": 1.0,
+    "def": 1209.0,
     "def_break": 1.0
   },
   "132": {
@@ -1580,7 +1580,7 @@
     "armor_piercing": 49.64,
     "armor": 103.57,
     "shield": 1.0,
-    "def": 1.0,
+    "def": 1215.0,
     "def_break": 1.0
   },
   "133": {
@@ -1592,7 +1592,7 @@
     "armor_piercing": 49.94,
     "armor": 104.55,
     "shield": 1.0,
-    "def": 1.0,
+    "def": 1222.0,
     "def_break": 1.0
   },
   "134": {
@@ -1604,7 +1604,7 @@
     "armor_piercing": 50.24,
     "armor": 105.53,
     "shield": 1.0,
-    "def": 1.0,
+    "def": 1229.0,
     "def_break": 1.0
   },
   "135": {
@@ -1616,7 +1616,7 @@
     "armor_piercing": 50.54,
     "armor": 106.52,
     "shield": 1.0,
-    "def": 1.0,
+    "def": 1235.0,
     "def_break": 1.0
   },
   "136": {
@@ -1628,7 +1628,7 @@
     "armor_piercing": 50.84,
     "armor": 107.52,
     "shield": 1.0,
-    "def": 1.0,
+    "def": 1242.0,
     "def_break": 1.0
   },
   "137": {
@@ -1640,7 +1640,7 @@
     "armor_piercing": 51.15,
     "armor": 108.53,
     "shield": 1.0,
-    "def": 1.0,
+    "def": 1249.0,
     "def_break": 1.0
   },
   "138": {
@@ -1652,7 +1652,7 @@
     "armor_piercing": 51.46,
     "armor": 109.55,
     "shield": 1.0,
-    "def": 1.0,
+    "def": 1256.0,
     "def_break": 1.0
   },
   "139": {
@@ -1664,7 +1664,7 @@
     "armor_piercing": 51.76,
     "armor": 110.57,
     "shield": 1.0,
-    "def": 1.0,
+    "def": 1262.0,
     "def_break": 1.0
   },
   "140": {
@@ -1676,7 +1676,7 @@
     "armor_piercing": 52.08,
     "armor": 111.61,
     "shield": 1.0,
-    "def": 1.0,
+    "def": 1269.0,
     "def_break": 1.0
   },
   "141": {
@@ -1688,7 +1688,7 @@
     "armor_piercing": 52.08,
     "armor": 112.17,
     "shield": 1.0,
-    "def": 1.0,
+    "def": 1276.0,
     "def_break": 1.0
   },
   "142": {
@@ -1700,7 +1700,7 @@
     "armor_piercing": 52.08,
     "armor": 112.73,
     "shield": 1.0,
-    "def": 1.0,
+    "def": 1282.0,
     "def_break": 1.0
   },
   "143": {
@@ -1712,7 +1712,7 @@
     "armor_piercing": 52.08,
     "armor": 113.29,
     "shield": 1.0,
-    "def": 1.0,
+    "def": 1289.0,
     "def_break": 1.0
   },
   "144": {
@@ -1724,7 +1724,7 @@
     "armor_piercing": 52.08,
     "armor": 113.86,
     "shield": 1.0,
-    "def": 1.0,
+    "def": 1296.0,
     "def_break": 1.0
   },
   "145": {
@@ -1736,7 +1736,7 @@
     "armor_piercing": 52.08,
     "armor": 114.43,
     "shield": 1.0,
-    "def": 1.0,
+    "def": 1303.0,
     "def_break": 1.0
   },
   "146": {
@@ -1748,7 +1748,7 @@
     "armor_piercing": 52.08,
     "armor": 115.0,
     "shield": 1.0,
-    "def": 1.0,
+    "def": 1309.0,
     "def_break": 1.0
   },
   "147": {
@@ -1760,7 +1760,7 @@
     "armor_piercing": 52.08,
     "armor": 115.58,
     "shield": 1.0,
-    "def": 1.0,
+    "def": 1316.0,
     "def_break": 1.0
   },
   "148": {
@@ -1772,7 +1772,7 @@
     "armor_piercing": 52.08,
     "armor": 116.16,
     "shield": 1.0,
-    "def": 1.0,
+    "def": 1323.0,
     "def_break": 1.0
   },
   "149": {
@@ -1784,7 +1784,7 @@
     "armor_piercing": 52.08,
     "armor": 116.74,
     "shield": 1.0,
-    "def": 1.0,
+    "def": 1329.0,
     "def_break": 1.0
   },
   "150": {
@@ -1796,7 +1796,7 @@
     "armor_piercing": 55.31,
     "armor": 117.32,
     "shield": 1.0,
-    "def": 1.0,
+    "def": 1336.0,
     "def_break": 1.0
   },
   "151": {
@@ -1808,7 +1808,7 @@
     "armor_piercing": 55.31,
     "armor": 117.32,
     "shield": 1.0,
-    "def": 1.0,
+    "def": 1336.0,
     "def_break": 1.0
   },
   "152": {
@@ -1820,7 +1820,7 @@
     "armor_piercing": 55.31,
     "armor": 117.32,
     "shield": 1.0,
-    "def": 1.0,
+    "def": 1336.0,
     "def_break": 1.0
   },
   "153": {
@@ -1832,7 +1832,7 @@
     "armor_piercing": 55.31,
     "armor": 117.32,
     "shield": 1.0,
-    "def": 1.0,
+    "def": 1336.0,
     "def_break": 1.0
   },
   "154": {
@@ -1844,7 +1844,7 @@
     "armor_piercing": 55.31,
     "armor": 117.32,
     "shield": 1.0,
-    "def": 1.0,
+    "def": 1336.0,
     "def_break": 1.0
   },
   "155": {
@@ -1856,7 +1856,7 @@
     "armor_piercing": 55.31,
     "armor": 117.32,
     "shield": 1.0,
-    "def": 1.0,
+    "def": 1336.0,
     "def_break": 1.0
   },
   "156": {
@@ -1868,7 +1868,7 @@
     "armor_piercing": 55.31,
     "armor": 117.32,
     "shield": 1.0,
-    "def": 1.0,
+    "def": 1336.0,
     "def_break": 1.0
   },
   "157": {
@@ -1880,7 +1880,7 @@
     "armor_piercing": 55.31,
     "armor": 117.32,
     "shield": 1.0,
-    "def": 1.0,
+    "def": 1336.0,
     "def_break": 1.0
   },
   "158": {
@@ -1892,7 +1892,7 @@
     "armor_piercing": 55.31,
     "armor": 117.32,
     "shield": 1.0,
-    "def": 1.0,
+    "def": 1336.0,
     "def_break": 1.0
   },
   "159": {
@@ -1904,7 +1904,7 @@
     "armor_piercing": 55.31,
     "armor": 117.32,
     "shield": 1.0,
-    "def": 1.0,
+    "def": 1336.0,
     "def_break": 1.0
   },
   "160": {
@@ -1916,7 +1916,7 @@
     "armor_piercing": 55.31,
     "armor": 117.32,
     "shield": 1.0,
-    "def": 1.0,
+    "def": 1336.0,
     "def_break": 1.0
   },
   "161": {
@@ -1928,7 +1928,7 @@
     "armor_piercing": 55.31,
     "armor": 117.32,
     "shield": 1.0,
-    "def": 1.0,
+    "def": 1336.0,
     "def_break": 1.0
   },
   "162": {
@@ -1940,7 +1940,7 @@
     "armor_piercing": 55.31,
     "armor": 117.32,
     "shield": 1.0,
-    "def": 1.0,
+    "def": 1336.0,
     "def_break": 1.0
   },
   "163": {
@@ -1952,7 +1952,7 @@
     "armor_piercing": 55.31,
     "armor": 117.32,
     "shield": 1.0,
-    "def": 1.0,
+    "def": 1336.0,
     "def_break": 1.0
   },
   "164": {
@@ -1964,7 +1964,7 @@
     "armor_piercing": 55.31,
     "armor": 117.32,
     "shield": 1.0,
-    "def": 1.0,
+    "def": 1336.0,
     "def_break": 1.0
   },
   "165": {
@@ -1976,7 +1976,7 @@
     "armor_piercing": 55.31,
     "armor": 117.32,
     "shield": 1.0,
-    "def": 1.0,
+    "def": 1336.0,
     "def_break": 1.0
   },
   "166": {
@@ -1988,7 +1988,7 @@
     "armor_piercing": 55.31,
     "armor": 117.32,
     "shield": 1.0,
-    "def": 1.0,
+    "def": 1336.0,
     "def_break": 1.0
   },
   "167": {
@@ -2000,7 +2000,7 @@
     "armor_piercing": 55.31,
     "armor": 117.32,
     "shield": 1.0,
-    "def": 1.0,
+    "def": 1336.0,
     "def_break": 1.0
   },
   "168": {
@@ -2012,7 +2012,7 @@
     "armor_piercing": 55.31,
     "armor": 117.32,
     "shield": 1.0,
-    "def": 1.0,
+    "def": 1336.0,
     "def_break": 1.0
   },
   "169": {
@@ -2024,7 +2024,7 @@
     "armor_piercing": 55.31,
     "armor": 117.32,
     "shield": 1.0,
-    "def": 1.0,
+    "def": 1336.0,
     "def_break": 1.0
   },
   "170": {
@@ -2036,7 +2036,7 @@
     "armor_piercing": 55.31,
     "armor": 117.32,
     "shield": 1.0,
-    "def": 1.0,
+    "def": 1336.0,
     "def_break": 1.0
   },
   "171": {
@@ -2048,7 +2048,7 @@
     "armor_piercing": 55.31,
     "armor": 117.32,
     "shield": 1.0,
-    "def": 1.0,
+    "def": 1336.0,
     "def_break": 1.0
   },
   "172": {
@@ -2060,7 +2060,7 @@
     "armor_piercing": 55.31,
     "armor": 117.32,
     "shield": 1.0,
-    "def": 1.0,
+    "def": 1336.0,
     "def_break": 1.0
   },
   "173": {
@@ -2072,7 +2072,7 @@
     "armor_piercing": 55.31,
     "armor": 117.32,
     "shield": 1.0,
-    "def": 1.0,
+    "def": 1336.0,
     "def_break": 1.0
   },
   "174": {
@@ -2084,7 +2084,7 @@
     "armor_piercing": 55.31,
     "armor": 117.32,
     "shield": 1.0,
-    "def": 1.0,
+    "def": 1336.0,
     "def_break": 1.0
   },
   "175": {
@@ -2096,7 +2096,7 @@
     "armor_piercing": 55.31,
     "armor": 117.32,
     "shield": 1.0,
-    "def": 1.0,
+    "def": 1336.0,
     "def_break": 1.0
   },
   "176": {
@@ -2108,7 +2108,7 @@
     "armor_piercing": 55.31,
     "armor": 117.32,
     "shield": 1.0,
-    "def": 1.0,
+    "def": 1336.0,
     "def_break": 1.0
   },
   "177": {
@@ -2120,7 +2120,7 @@
     "armor_piercing": 55.31,
     "armor": 117.32,
     "shield": 1.0,
-    "def": 1.0,
+    "def": 1336.0,
     "def_break": 1.0
   },
   "178": {
@@ -2132,7 +2132,7 @@
     "armor_piercing": 55.31,
     "armor": 117.32,
     "shield": 1.0,
-    "def": 1.0,
+    "def": 1336.0,
     "def_break": 1.0
   },
   "179": {
@@ -2144,7 +2144,7 @@
     "armor_piercing": 55.31,
     "armor": 117.32,
     "shield": 1.0,
-    "def": 1.0,
+    "def": 1336.0,
     "def_break": 1.0
   },
   "180": {
@@ -2156,7 +2156,7 @@
     "armor_piercing": 55.31,
     "armor": 117.32,
     "shield": 1.0,
-    "def": 1.0,
+    "def": 1336.0,
     "def_break": 1.0
   },
   "181": {
@@ -2168,7 +2168,7 @@
     "armor_piercing": 55.31,
     "armor": 117.32,
     "shield": 1.0,
-    "def": 1.0,
+    "def": 1336.0,
     "def_break": 1.0
   },
   "182": {
@@ -2180,7 +2180,7 @@
     "armor_piercing": 55.31,
     "armor": 117.32,
     "shield": 1.0,
-    "def": 1.0,
+    "def": 1336.0,
     "def_break": 1.0
   },
   "183": {
@@ -2192,7 +2192,7 @@
     "armor_piercing": 55.31,
     "armor": 117.32,
     "shield": 1.0,
-    "def": 1.0,
+    "def": 1336.0,
     "def_break": 1.0
   },
   "184": {
@@ -2204,7 +2204,7 @@
     "armor_piercing": 55.31,
     "armor": 117.32,
     "shield": 1.0,
-    "def": 1.0,
+    "def": 1336.0,
     "def_break": 1.0
   },
   "185": {
@@ -2216,7 +2216,7 @@
     "armor_piercing": 55.31,
     "armor": 117.32,
     "shield": 1.0,
-    "def": 1.0,
+    "def": 1336.0,
     "def_break": 1.0
   },
   "186": {
@@ -2228,7 +2228,7 @@
     "armor_piercing": 55.31,
     "armor": 117.32,
     "shield": 1.0,
-    "def": 1.0,
+    "def": 1336.0,
     "def_break": 1.0
   },
   "187": {
@@ -2240,7 +2240,7 @@
     "armor_piercing": 55.31,
     "armor": 117.32,
     "shield": 1.0,
-    "def": 1.0,
+    "def": 1336.0,
     "def_break": 1.0
   },
   "188": {
@@ -2252,7 +2252,7 @@
     "armor_piercing": 55.31,
     "armor": 117.32,
     "shield": 1.0,
-    "def": 1.0,
+    "def": 1336.0,
     "def_break": 1.0
   },
   "189": {
@@ -2264,7 +2264,7 @@
     "armor_piercing": 55.31,
     "armor": 117.32,
     "shield": 1.0,
-    "def": 1.0,
+    "def": 1336.0,
     "def_break": 1.0
   },
   "190": {
@@ -2276,7 +2276,7 @@
     "armor_piercing": 55.31,
     "armor": 117.32,
     "shield": 1.0,
-    "def": 1.0,
+    "def": 1336.0,
     "def_break": 1.0
   },
   "191": {
@@ -2288,7 +2288,7 @@
     "armor_piercing": 55.31,
     "armor": 117.32,
     "shield": 1.0,
-    "def": 1.0,
+    "def": 1336.0,
     "def_break": 1.0
   },
   "192": {
@@ -2300,7 +2300,7 @@
     "armor_piercing": 55.31,
     "armor": 117.32,
     "shield": 1.0,
-    "def": 1.0,
+    "def": 1336.0,
     "def_break": 1.0
   },
   "193": {
@@ -2312,7 +2312,7 @@
     "armor_piercing": 55.31,
     "armor": 117.32,
     "shield": 1.0,
-    "def": 1.0,
+    "def": 1336.0,
     "def_break": 1.0
   },
   "194": {
@@ -2324,7 +2324,7 @@
     "armor_piercing": 55.31,
     "armor": 117.32,
     "shield": 1.0,
-    "def": 1.0,
+    "def": 1336.0,
     "def_break": 1.0
   },
   "195": {
@@ -2336,7 +2336,7 @@
     "armor_piercing": 55.31,
     "armor": 117.32,
     "shield": 1.0,
-    "def": 1.0,
+    "def": 1336.0,
     "def_break": 1.0
   },
   "196": {
@@ -2348,7 +2348,7 @@
     "armor_piercing": 55.31,
     "armor": 117.32,
     "shield": 1.0,
-    "def": 1.0,
+    "def": 1336.0,
     "def_break": 1.0
   },
   "197": {
@@ -2360,7 +2360,7 @@
     "armor_piercing": 55.31,
     "armor": 117.32,
     "shield": 1.0,
-    "def": 1.0,
+    "def": 1336.0,
     "def_break": 1.0
   },
   "198": {
@@ -2372,7 +2372,7 @@
     "armor_piercing": 55.31,
     "armor": 117.32,
     "shield": 1.0,
-    "def": 1.0,
+    "def": 1336.0,
     "def_break": 1.0
   },
   "199": {
@@ -2384,7 +2384,7 @@
     "armor_piercing": 55.31,
     "armor": 117.32,
     "shield": 1.0,
-    "def": 1.0,
+    "def": 1336.0,
     "def_break": 1.0
   },
   "200": {
@@ -2396,7 +2396,7 @@
     "armor_piercing": 55.31,
     "armor": 117.32,
     "shield": 1.0,
-    "def": 1.0,
+    "def": 1336.0,
     "def_break": 1.0
   },
   "10001": {
@@ -5997,6 +5997,2406 @@
     "armor": 111.0,
     "shield": 1.0,
     "def": 1.0,
+    "def_break": 1.0
+  },
+  "30001": {
+    "level": 30001,
+    "maxlife": 226.8,
+    "dodge": 2.14,
+    "pow": 6.94,
+    "hit": 3.33,
+    "armor_piercing": 3.0,
+    "armor": 30.72,
+    "shield": 1.0,
+    "def": 336.0,
+    "def_break": 1.0
+  },
+  "30002": {
+    "level": 30002,
+    "maxlife": 246.33,
+    "dodge": 2.57,
+    "pow": 7.14,
+    "hit": 4.0,
+    "armor_piercing": 4.0,
+    "armor": 32.64,
+    "shield": 1.0,
+    "def": 343.0,
+    "def_break": 1.0
+  },
+  "30003": {
+    "level": 30003,
+    "maxlife": 246.33,
+    "dodge": 2.57,
+    "pow": 7.34,
+    "hit": 4.0,
+    "armor_piercing": 4.0,
+    "armor": 32.64,
+    "shield": 1.0,
+    "def": 349.0,
+    "def_break": 1.0
+  },
+  "30004": {
+    "level": 30004,
+    "maxlife": 246.33,
+    "dodge": 2.57,
+    "pow": 7.41,
+    "hit": 4.0,
+    "armor_piercing": 5.0,
+    "armor": 32.64,
+    "shield": 1.0,
+    "def": 356.0,
+    "def_break": 1.0
+  },
+  "30005": {
+    "level": 30005,
+    "maxlife": 246.33,
+    "dodge": 3.0,
+    "pow": 7.61,
+    "hit": 4.67,
+    "armor_piercing": 5.0,
+    "armor": 32.64,
+    "shield": 1.0,
+    "def": 363.0,
+    "def_break": 1.0
+  },
+  "30006": {
+    "level": 30006,
+    "maxlife": 260.82,
+    "dodge": 3.0,
+    "pow": 7.68,
+    "hit": 4.67,
+    "armor_piercing": 5.0,
+    "armor": 34.56,
+    "shield": 1.0,
+    "def": 370.0,
+    "def_break": 1.0
+  },
+  "30007": {
+    "level": 30007,
+    "maxlife": 266.49,
+    "dodge": 3.0,
+    "pow": 7.89,
+    "hit": 4.67,
+    "armor_piercing": 6.0,
+    "armor": 34.56,
+    "shield": 1.0,
+    "def": 376.0,
+    "def_break": 1.0
+  },
+  "30008": {
+    "level": 30008,
+    "maxlife": 266.49,
+    "dodge": 3.43,
+    "pow": 7.97,
+    "hit": 5.33,
+    "armor_piercing": 6.0,
+    "armor": 34.56,
+    "shield": 1.0,
+    "def": 383.0,
+    "def_break": 1.0
+  },
+  "30009": {
+    "level": 30009,
+    "maxlife": 266.49,
+    "dodge": 3.43,
+    "pow": 8.18,
+    "hit": 5.33,
+    "armor_piercing": 7.0,
+    "armor": 34.56,
+    "shield": 1.0,
+    "def": 390.0,
+    "def_break": 1.0
+  },
+  "30010": {
+    "level": 30010,
+    "maxlife": 281.29,
+    "dodge": 3.43,
+    "pow": 8.25,
+    "hit": 5.33,
+    "armor_piercing": 7.0,
+    "armor": 36.48,
+    "shield": 1.0,
+    "def": 396.0,
+    "def_break": 1.0
+  },
+  "30011": {
+    "level": 30011,
+    "maxlife": 281.29,
+    "dodge": 3.86,
+    "pow": 8.46,
+    "hit": 6.0,
+    "armor_piercing": 7.0,
+    "armor": 36.48,
+    "shield": 1.0,
+    "def": 403.0,
+    "def_break": 1.0
+  },
+  "30012": {
+    "level": 30012,
+    "maxlife": 281.29,
+    "dodge": 3.86,
+    "pow": 8.68,
+    "hit": 6.0,
+    "armor_piercing": 8.0,
+    "armor": 36.48,
+    "shield": 1.0,
+    "def": 410.0,
+    "def_break": 1.0
+  },
+  "30013": {
+    "level": 30013,
+    "maxlife": 287.28,
+    "dodge": 3.86,
+    "pow": 8.76,
+    "hit": 6.0,
+    "armor_piercing": 8.0,
+    "armor": 36.48,
+    "shield": 1.0,
+    "def": 417.0,
+    "def_break": 1.0
+  },
+  "30014": {
+    "level": 30014,
+    "maxlife": 302.4,
+    "dodge": 3.86,
+    "pow": 8.98,
+    "hit": 6.0,
+    "armor_piercing": 8.0,
+    "armor": 38.4,
+    "shield": 1.0,
+    "def": 423.0,
+    "def_break": 1.0
+  },
+  "30015": {
+    "level": 30015,
+    "maxlife": 302.4,
+    "dodge": 4.29,
+    "pow": 9.06,
+    "hit": 6.67,
+    "armor_piercing": 9.0,
+    "armor": 38.4,
+    "shield": 1.0,
+    "def": 430.0,
+    "def_break": 1.0
+  },
+  "30016": {
+    "level": 30016,
+    "maxlife": 302.4,
+    "dodge": 4.29,
+    "pow": 9.28,
+    "hit": 6.67,
+    "armor_piercing": 9.0,
+    "armor": 38.4,
+    "shield": 1.0,
+    "def": 437.0,
+    "def_break": 1.0
+  },
+  "30017": {
+    "level": 30017,
+    "maxlife": 302.4,
+    "dodge": 4.29,
+    "pow": 9.36,
+    "hit": 6.67,
+    "armor_piercing": 10.0,
+    "armor": 38.4,
+    "shield": 1.0,
+    "def": 443.0,
+    "def_break": 1.0
+  },
+  "30018": {
+    "level": 30018,
+    "maxlife": 324.14,
+    "dodge": 4.71,
+    "pow": 9.59,
+    "hit": 7.33,
+    "armor_piercing": 10.0,
+    "armor": 40.32,
+    "shield": 1.0,
+    "def": 450.0,
+    "def_break": 1.0
+  },
+  "30019": {
+    "level": 30019,
+    "maxlife": 324.14,
+    "dodge": 4.71,
+    "pow": 9.67,
+    "hit": 7.33,
+    "armor_piercing": 10.0,
+    "armor": 40.32,
+    "shield": 1.0,
+    "def": 457.0,
+    "def_break": 1.0
+  },
+  "30020": {
+    "level": 30020,
+    "maxlife": 324.14,
+    "dodge": 4.71,
+    "pow": 9.9,
+    "hit": 7.33,
+    "armor_piercing": 11.0,
+    "armor": 40.32,
+    "shield": 1.0,
+    "def": 464.0,
+    "def_break": 1.0
+  },
+  "30021": {
+    "level": 30021,
+    "maxlife": 324.14,
+    "dodge": 5.14,
+    "pow": 10.13,
+    "hit": 8.0,
+    "armor_piercing": 11.0,
+    "armor": 40.32,
+    "shield": 1.0,
+    "def": 470.0,
+    "def_break": 1.0
+  },
+  "30022": {
+    "level": 30022,
+    "maxlife": 339.57,
+    "dodge": 5.14,
+    "pow": 10.22,
+    "hit": 8.0,
+    "armor_piercing": 12.0,
+    "armor": 42.24,
+    "shield": 1.0,
+    "def": 477.0,
+    "def_break": 1.0
+  },
+  "30023": {
+    "level": 30023,
+    "maxlife": 339.57,
+    "dodge": 5.14,
+    "pow": 10.46,
+    "hit": 8.0,
+    "armor_piercing": 12.0,
+    "armor": 42.24,
+    "shield": 1.0,
+    "def": 484.0,
+    "def_break": 1.0
+  },
+  "30024": {
+    "level": 30024,
+    "maxlife": 346.5,
+    "dodge": 5.14,
+    "pow": 10.54,
+    "hit": 8.0,
+    "armor_piercing": 12.0,
+    "armor": 42.24,
+    "shield": 1.0,
+    "def": 490.0,
+    "def_break": 1.0
+  },
+  "30025": {
+    "level": 30025,
+    "maxlife": 346.5,
+    "dodge": 5.57,
+    "pow": 10.78,
+    "hit": 8.67,
+    "armor_piercing": 13.0,
+    "armor": 42.24,
+    "shield": 1.0,
+    "def": 497.0,
+    "def_break": 1.0
+  },
+  "30026": {
+    "level": 30026,
+    "maxlife": 362.25,
+    "dodge": 5.57,
+    "pow": 10.87,
+    "hit": 8.67,
+    "armor_piercing": 13.0,
+    "armor": 44.16,
+    "shield": 1.0,
+    "def": 504.0,
+    "def_break": 1.0
+  },
+  "30027": {
+    "level": 30027,
+    "maxlife": 362.25,
+    "dodge": 5.57,
+    "pow": 11.11,
+    "hit": 8.67,
+    "armor_piercing": 13.0,
+    "armor": 44.16,
+    "shield": 1.0,
+    "def": 511.0,
+    "def_break": 1.0
+  },
+  "30028": {
+    "level": 30028,
+    "maxlife": 362.25,
+    "dodge": 6.0,
+    "pow": 11.2,
+    "hit": 9.33,
+    "armor_piercing": 14.0,
+    "armor": 44.16,
+    "shield": 1.0,
+    "def": 517.0,
+    "def_break": 1.0
+  },
+  "30029": {
+    "level": 30029,
+    "maxlife": 369.5,
+    "dodge": 6.0,
+    "pow": 11.45,
+    "hit": 9.33,
+    "armor_piercing": 14.0,
+    "armor": 44.16,
+    "shield": 1.0,
+    "def": 524.0,
+    "def_break": 1.0
+  },
+  "30030": {
+    "level": 30030,
+    "maxlife": 385.56,
+    "dodge": 6.0,
+    "pow": 11.7,
+    "hit": 9.33,
+    "armor_piercing": 15.0,
+    "armor": 46.08,
+    "shield": 1.0,
+    "def": 531.0,
+    "def_break": 1.0
+  },
+  "30031": {
+    "level": 30031,
+    "maxlife": 385.56,
+    "dodge": 6.43,
+    "pow": 11.79,
+    "hit": 10.0,
+    "armor_piercing": 15.0,
+    "armor": 46.08,
+    "shield": 1.0,
+    "def": 537.0,
+    "def_break": 1.0
+  },
+  "30032": {
+    "level": 30032,
+    "maxlife": 385.56,
+    "dodge": 6.43,
+    "pow": 12.05,
+    "hit": 10.0,
+    "armor_piercing": 15.0,
+    "armor": 46.08,
+    "shield": 1.0,
+    "def": 544.0,
+    "def_break": 1.0
+  },
+  "30033": {
+    "level": 30033,
+    "maxlife": 385.56,
+    "dodge": 6.43,
+    "pow": 12.14,
+    "hit": 10.0,
+    "armor_piercing": 16.0,
+    "armor": 46.08,
+    "shield": 1.0,
+    "def": 551.0,
+    "def_break": 1.0
+  },
+  "30034": {
+    "level": 30034,
+    "maxlife": 385.56,
+    "dodge": 6.43,
+    "pow": 12.39,
+    "hit": 10.0,
+    "armor_piercing": 16.0,
+    "armor": 46.08,
+    "shield": 1.0,
+    "def": 558.0,
+    "def_break": 1.0
+  },
+  "30035": {
+    "level": 30035,
+    "maxlife": 409.5,
+    "dodge": 6.86,
+    "pow": 12.49,
+    "hit": 10.67,
+    "armor_piercing": 17.0,
+    "armor": 48.0,
+    "shield": 1.0,
+    "def": 564.0,
+    "def_break": 1.0
+  },
+  "30036": {
+    "level": 30036,
+    "maxlife": 409.5,
+    "dodge": 6.86,
+    "pow": 12.75,
+    "hit": 10.67,
+    "armor_piercing": 17.0,
+    "armor": 48.0,
+    "shield": 1.0,
+    "def": 571.0,
+    "def_break": 1.0
+  },
+  "30037": {
+    "level": 30037,
+    "maxlife": 409.5,
+    "dodge": 6.86,
+    "pow": 12.84,
+    "hit": 10.67,
+    "armor_piercing": 17.0,
+    "armor": 48.0,
+    "shield": 1.0,
+    "def": 578.0,
+    "def_break": 1.0
+  },
+  "30038": {
+    "level": 30038,
+    "maxlife": 409.5,
+    "dodge": 7.29,
+    "pow": 13.11,
+    "hit": 11.33,
+    "armor_piercing": 18.0,
+    "armor": 48.0,
+    "shield": 1.0,
+    "def": 584.0,
+    "def_break": 1.0
+  },
+  "30039": {
+    "level": 30039,
+    "maxlife": 425.88,
+    "dodge": 7.29,
+    "pow": 13.38,
+    "hit": 11.33,
+    "armor_piercing": 18.0,
+    "armor": 49.92,
+    "shield": 1.0,
+    "def": 591.0,
+    "def_break": 1.0
+  },
+  "30040": {
+    "level": 30040,
+    "maxlife": 434.07,
+    "dodge": 7.29,
+    "pow": 13.47,
+    "hit": 11.33,
+    "armor_piercing": 18.0,
+    "armor": 49.92,
+    "shield": 1.0,
+    "def": 598.0,
+    "def_break": 1.0
+  },
+  "30041": {
+    "level": 30041,
+    "maxlife": 434.07,
+    "dodge": 7.71,
+    "pow": 13.75,
+    "hit": 12.0,
+    "armor_piercing": 19.0,
+    "armor": 49.92,
+    "shield": 1.0,
+    "def": 605.0,
+    "def_break": 1.0
+  },
+  "30042": {
+    "level": 30042,
+    "maxlife": 434.07,
+    "dodge": 7.71,
+    "pow": 13.84,
+    "hit": 12.0,
+    "armor_piercing": 19.0,
+    "armor": 49.92,
+    "shield": 1.0,
+    "def": 611.0,
+    "def_break": 1.0
+  },
+  "30043": {
+    "level": 30043,
+    "maxlife": 450.77,
+    "dodge": 7.71,
+    "pow": 14.12,
+    "hit": 12.0,
+    "armor_piercing": 20.0,
+    "armor": 51.84,
+    "shield": 1.0,
+    "def": 618.0,
+    "def_break": 1.0
+  },
+  "30044": {
+    "level": 30044,
+    "maxlife": 450.77,
+    "dodge": 8.14,
+    "pow": 14.22,
+    "hit": 12.67,
+    "armor_piercing": 20.0,
+    "armor": 51.84,
+    "shield": 1.0,
+    "def": 625.0,
+    "def_break": 1.0
+  },
+  "30045": {
+    "level": 30045,
+    "maxlife": 450.77,
+    "dodge": 8.14,
+    "pow": 14.5,
+    "hit": 12.67,
+    "armor_piercing": 20.0,
+    "armor": 51.84,
+    "shield": 1.0,
+    "def": 631.0,
+    "def_break": 1.0
+  },
+  "30046": {
+    "level": 30046,
+    "maxlife": 459.27,
+    "dodge": 8.14,
+    "pow": 14.6,
+    "hit": 12.67,
+    "armor_piercing": 21.0,
+    "armor": 51.84,
+    "shield": 1.0,
+    "def": 638.0,
+    "def_break": 1.0
+  },
+  "30047": {
+    "level": 30047,
+    "maxlife": 476.28,
+    "dodge": 8.14,
+    "pow": 14.88,
+    "hit": 12.67,
+    "armor_piercing": 21.0,
+    "armor": 53.76,
+    "shield": 1.0,
+    "def": 645.0,
+    "def_break": 1.0
+  },
+  "30048": {
+    "level": 30048,
+    "maxlife": 476.28,
+    "dodge": 8.57,
+    "pow": 15.17,
+    "hit": 13.33,
+    "armor_piercing": 22.0,
+    "armor": 53.76,
+    "shield": 1.0,
+    "def": 652.0,
+    "def_break": 1.0
+  },
+  "30049": {
+    "level": 30049,
+    "maxlife": 476.28,
+    "dodge": 8.57,
+    "pow": 15.27,
+    "hit": 13.33,
+    "armor_piercing": 22.0,
+    "armor": 53.76,
+    "shield": 1.0,
+    "def": 658.0,
+    "def_break": 1.0
+  },
+  "30050": {
+    "level": 30050,
+    "maxlife": 476.28,
+    "dodge": 8.57,
+    "pow": 15.56,
+    "hit": 13.33,
+    "armor_piercing": 22.0,
+    "armor": 53.76,
+    "shield": 1.0,
+    "def": 665.0,
+    "def_break": 1.0
+  },
+  "30051": {
+    "level": 30051,
+    "maxlife": 502.42,
+    "dodge": 9.0,
+    "pow": 15.56,
+    "hit": 14.0,
+    "armor_piercing": 23.0,
+    "armor": 55.68,
+    "shield": 1.0,
+    "def": 672.0,
+    "def_break": 1.0
+  },
+  "30052": {
+    "level": 30052,
+    "maxlife": 502.42,
+    "dodge": 9.0,
+    "pow": 15.75,
+    "hit": 14.0,
+    "armor_piercing": 23.0,
+    "armor": 55.68,
+    "shield": 1.0,
+    "def": 678.0,
+    "def_break": 1.0
+  },
+  "30053": {
+    "level": 30053,
+    "maxlife": 502.42,
+    "dodge": 9.0,
+    "pow": 15.75,
+    "hit": 14.0,
+    "armor_piercing": 23.0,
+    "armor": 55.68,
+    "shield": 1.0,
+    "def": 685.0,
+    "def_break": 1.0
+  },
+  "30054": {
+    "level": 30054,
+    "maxlife": 502.42,
+    "dodge": 9.43,
+    "pow": 15.94,
+    "hit": 14.67,
+    "armor_piercing": 24.0,
+    "armor": 55.68,
+    "shield": 1.0,
+    "def": 692.0,
+    "def_break": 1.0
+  },
+  "30055": {
+    "level": 30055,
+    "maxlife": 519.75,
+    "dodge": 9.43,
+    "pow": 15.94,
+    "hit": 14.67,
+    "armor_piercing": 24.0,
+    "armor": 57.6,
+    "shield": 1.0,
+    "def": 698.0,
+    "def_break": 1.0
+  },
+  "30056": {
+    "level": 30056,
+    "maxlife": 519.75,
+    "dodge": 9.43,
+    "pow": 16.13,
+    "hit": 14.67,
+    "armor_piercing": 25.0,
+    "armor": 57.6,
+    "shield": 1.0,
+    "def": 705.0,
+    "def_break": 1.0
+  },
+  "30057": {
+    "level": 30057,
+    "maxlife": 529.2,
+    "dodge": 9.43,
+    "pow": 16.31,
+    "hit": 14.67,
+    "armor_piercing": 25.0,
+    "armor": 57.6,
+    "shield": 1.0,
+    "def": 712.0,
+    "def_break": 1.0
+  },
+  "30058": {
+    "level": 30058,
+    "maxlife": 529.2,
+    "dodge": 9.86,
+    "pow": 16.31,
+    "hit": 15.33,
+    "armor_piercing": 25.0,
+    "armor": 57.6,
+    "shield": 1.0,
+    "def": 719.0,
+    "def_break": 1.0
+  },
+  "30059": {
+    "level": 30059,
+    "maxlife": 546.84,
+    "dodge": 9.86,
+    "pow": 16.5,
+    "hit": 15.33,
+    "armor_piercing": 26.0,
+    "armor": 59.52,
+    "shield": 1.0,
+    "def": 725.0,
+    "def_break": 1.0
+  },
+  "30060": {
+    "level": 30060,
+    "maxlife": 546.84,
+    "dodge": 9.86,
+    "pow": 16.5,
+    "hit": 15.33,
+    "armor_piercing": 26.0,
+    "armor": 59.52,
+    "shield": 1.0,
+    "def": 732.0,
+    "def_break": 1.0
+  },
+  "30061": {
+    "level": 30061,
+    "maxlife": 546.84,
+    "dodge": 10.29,
+    "pow": 16.69,
+    "hit": 16.0,
+    "armor_piercing": 26.0,
+    "armor": 59.52,
+    "shield": 1.0,
+    "def": 739.0,
+    "def_break": 1.0
+  },
+  "30062": {
+    "level": 30062,
+    "maxlife": 556.61,
+    "dodge": 10.29,
+    "pow": 16.69,
+    "hit": 16.0,
+    "armor_piercing": 27.0,
+    "armor": 59.52,
+    "shield": 1.0,
+    "def": 745.0,
+    "def_break": 1.0
+  },
+  "30063": {
+    "level": 30063,
+    "maxlife": 574.56,
+    "dodge": 10.29,
+    "pow": 16.88,
+    "hit": 16.0,
+    "armor_piercing": 27.0,
+    "armor": 61.44,
+    "shield": 1.0,
+    "def": 752.0,
+    "def_break": 1.0
+  },
+  "30064": {
+    "level": 30064,
+    "maxlife": 574.56,
+    "dodge": 10.71,
+    "pow": 16.88,
+    "hit": 16.67,
+    "armor_piercing": 28.0,
+    "armor": 61.44,
+    "shield": 1.0,
+    "def": 759.0,
+    "def_break": 1.0
+  },
+  "30065": {
+    "level": 30065,
+    "maxlife": 574.56,
+    "dodge": 10.71,
+    "pow": 17.06,
+    "hit": 16.67,
+    "armor_piercing": 28.0,
+    "armor": 61.44,
+    "shield": 1.0,
+    "def": 766.0,
+    "def_break": 1.0
+  },
+  "30066": {
+    "level": 30066,
+    "maxlife": 574.56,
+    "dodge": 10.71,
+    "pow": 17.25,
+    "hit": 16.67,
+    "armor_piercing": 28.0,
+    "armor": 61.44,
+    "shield": 1.0,
+    "def": 772.0,
+    "def_break": 1.0
+  },
+  "30067": {
+    "level": 30067,
+    "maxlife": 574.56,
+    "dodge": 10.71,
+    "pow": 17.25,
+    "hit": 16.67,
+    "armor_piercing": 29.0,
+    "armor": 61.44,
+    "shield": 1.0,
+    "def": 779.0,
+    "def_break": 1.0
+  },
+  "30068": {
+    "level": 30068,
+    "maxlife": 602.91,
+    "dodge": 11.14,
+    "pow": 17.44,
+    "hit": 17.33,
+    "armor_piercing": 29.0,
+    "armor": 63.36,
+    "shield": 1.0,
+    "def": 786.0,
+    "def_break": 1.0
+  },
+  "30069": {
+    "level": 30069,
+    "maxlife": 602.91,
+    "dodge": 11.14,
+    "pow": 17.44,
+    "hit": 17.33,
+    "armor_piercing": 30.0,
+    "armor": 63.36,
+    "shield": 1.0,
+    "def": 792.0,
+    "def_break": 1.0
+  },
+  "30070": {
+    "level": 30070,
+    "maxlife": 602.91,
+    "dodge": 11.14,
+    "pow": 17.63,
+    "hit": 17.33,
+    "armor_piercing": 30.0,
+    "armor": 63.36,
+    "shield": 1.0,
+    "def": 799.0,
+    "def_break": 1.0
+  },
+  "30071": {
+    "level": 30071,
+    "maxlife": 602.91,
+    "dodge": 11.57,
+    "pow": 17.63,
+    "hit": 18.0,
+    "armor_piercing": 30.0,
+    "armor": 63.36,
+    "shield": 1.0,
+    "def": 806.0,
+    "def_break": 1.0
+  },
+  "30072": {
+    "level": 30072,
+    "maxlife": 621.18,
+    "dodge": 11.57,
+    "pow": 17.81,
+    "hit": 18.0,
+    "armor_piercing": 31.0,
+    "armor": 65.28,
+    "shield": 1.0,
+    "def": 813.0,
+    "def_break": 1.0
+  },
+  "30073": {
+    "level": 30073,
+    "maxlife": 631.89,
+    "dodge": 11.57,
+    "pow": 17.81,
+    "hit": 18.0,
+    "armor_piercing": 31.0,
+    "armor": 65.28,
+    "shield": 1.0,
+    "def": 819.0,
+    "def_break": 1.0
+  },
+  "30074": {
+    "level": 30074,
+    "maxlife": 631.89,
+    "dodge": 12.0,
+    "pow": 18.0,
+    "hit": 18.67,
+    "armor_piercing": 31.0,
+    "armor": 65.28,
+    "shield": 1.0,
+    "def": 826.0,
+    "def_break": 1.0
+  },
+  "30075": {
+    "level": 30075,
+    "maxlife": 631.89,
+    "dodge": 12.0,
+    "pow": 18.19,
+    "hit": 18.67,
+    "armor_piercing": 32.0,
+    "armor": 65.28,
+    "shield": 1.0,
+    "def": 833.0,
+    "def_break": 1.0
+  },
+  "30076": {
+    "level": 30076,
+    "maxlife": 650.47,
+    "dodge": 12.0,
+    "pow": 18.19,
+    "hit": 18.67,
+    "armor_piercing": 32.0,
+    "armor": 67.2,
+    "shield": 1.0,
+    "def": 839.0,
+    "def_break": 1.0
+  },
+  "30077": {
+    "level": 30077,
+    "maxlife": 650.47,
+    "dodge": 12.43,
+    "pow": 18.38,
+    "hit": 19.33,
+    "armor_piercing": 33.0,
+    "armor": 67.2,
+    "shield": 1.0,
+    "def": 846.0,
+    "def_break": 1.0
+  },
+  "30078": {
+    "level": 30078,
+    "maxlife": 650.47,
+    "dodge": 12.43,
+    "pow": 18.38,
+    "hit": 19.33,
+    "armor_piercing": 33.0,
+    "armor": 67.2,
+    "shield": 1.0,
+    "def": 853.0,
+    "def_break": 1.0
+  },
+  "30079": {
+    "level": 30079,
+    "maxlife": 661.5,
+    "dodge": 12.43,
+    "pow": 18.56,
+    "hit": 19.33,
+    "armor_piercing": 33.0,
+    "armor": 67.2,
+    "shield": 1.0,
+    "def": 860.0,
+    "def_break": 1.0
+  },
+  "30080": {
+    "level": 30080,
+    "maxlife": 680.4,
+    "dodge": 12.43,
+    "pow": 18.56,
+    "hit": 19.33,
+    "armor_piercing": 34.0,
+    "armor": 69.12,
+    "shield": 1.0,
+    "def": 866.0,
+    "def_break": 1.0
+  },
+  "30081": {
+    "level": 30081,
+    "maxlife": 680.4,
+    "dodge": 12.86,
+    "pow": 18.75,
+    "hit": 20.0,
+    "armor_piercing": 34.0,
+    "armor": 69.12,
+    "shield": 1.0,
+    "def": 873.0,
+    "def_break": 1.0
+  },
+  "30082": {
+    "level": 30082,
+    "maxlife": 680.4,
+    "dodge": 12.86,
+    "pow": 18.75,
+    "hit": 20.0,
+    "armor_piercing": 35.0,
+    "armor": 69.12,
+    "shield": 1.0,
+    "def": 880.0,
+    "def_break": 1.0
+  },
+  "30083": {
+    "level": 30083,
+    "maxlife": 680.4,
+    "dodge": 12.86,
+    "pow": 18.94,
+    "hit": 20.0,
+    "armor_piercing": 35.0,
+    "armor": 69.12,
+    "shield": 1.0,
+    "def": 886.0,
+    "def_break": 1.0
+  },
+  "30084": {
+    "level": 30084,
+    "maxlife": 710.95,
+    "dodge": 13.29,
+    "pow": 19.12,
+    "hit": 20.67,
+    "armor_piercing": 35.0,
+    "armor": 71.04,
+    "shield": 1.0,
+    "def": 893.0,
+    "def_break": 1.0
+  },
+  "30085": {
+    "level": 30085,
+    "maxlife": 710.95,
+    "dodge": 13.29,
+    "pow": 19.12,
+    "hit": 20.67,
+    "armor_piercing": 36.0,
+    "armor": 71.04,
+    "shield": 1.0,
+    "def": 900.0,
+    "def_break": 1.0
+  },
+  "30086": {
+    "level": 30086,
+    "maxlife": 710.95,
+    "dodge": 13.29,
+    "pow": 19.31,
+    "hit": 20.67,
+    "armor_piercing": 36.0,
+    "armor": 71.04,
+    "shield": 1.0,
+    "def": 907.0,
+    "def_break": 1.0
+  },
+  "30087": {
+    "level": 30087,
+    "maxlife": 710.95,
+    "dodge": 13.71,
+    "pow": 19.31,
+    "hit": 21.33,
+    "armor_piercing": 36.0,
+    "armor": 71.04,
+    "shield": 1.0,
+    "def": 913.0,
+    "def_break": 1.0
+  },
+  "30088": {
+    "level": 30088,
+    "maxlife": 730.17,
+    "dodge": 13.71,
+    "pow": 19.5,
+    "hit": 21.33,
+    "armor_piercing": 37.0,
+    "armor": 72.96,
+    "shield": 1.0,
+    "def": 920.0,
+    "def_break": 1.0
+  },
+  "30089": {
+    "level": 30089,
+    "maxlife": 730.17,
+    "dodge": 13.71,
+    "pow": 19.5,
+    "hit": 21.33,
+    "armor_piercing": 37.0,
+    "armor": 72.96,
+    "shield": 1.0,
+    "def": 927.0,
+    "def_break": 1.0
+  },
+  "30090": {
+    "level": 30090,
+    "maxlife": 742.14,
+    "dodge": 13.71,
+    "pow": 19.69,
+    "hit": 21.33,
+    "armor_piercing": 38.0,
+    "armor": 72.96,
+    "shield": 1.0,
+    "def": 933.0,
+    "def_break": 1.0
+  },
+  "30091": {
+    "level": 30091,
+    "maxlife": 742.14,
+    "dodge": 14.14,
+    "pow": 19.69,
+    "hit": 22.0,
+    "armor_piercing": 38.0,
+    "armor": 72.96,
+    "shield": 1.0,
+    "def": 940.0,
+    "def_break": 1.0
+  },
+  "30092": {
+    "level": 30092,
+    "maxlife": 761.67,
+    "dodge": 14.14,
+    "pow": 19.88,
+    "hit": 22.0,
+    "armor_piercing": 38.0,
+    "armor": 74.88,
+    "shield": 1.0,
+    "def": 947.0,
+    "def_break": 1.0
+  },
+  "30093": {
+    "level": 30093,
+    "maxlife": 761.67,
+    "dodge": 14.14,
+    "pow": 20.06,
+    "hit": 22.0,
+    "armor_piercing": 39.0,
+    "armor": 74.88,
+    "shield": 1.0,
+    "def": 954.0,
+    "def_break": 1.0
+  },
+  "30094": {
+    "level": 30094,
+    "maxlife": 761.67,
+    "dodge": 14.57,
+    "pow": 20.06,
+    "hit": 22.67,
+    "armor_piercing": 39.0,
+    "armor": 74.88,
+    "shield": 1.0,
+    "def": 960.0,
+    "def_break": 1.0
+  },
+  "30095": {
+    "level": 30095,
+    "maxlife": 773.96,
+    "dodge": 14.57,
+    "pow": 20.25,
+    "hit": 22.67,
+    "armor_piercing": 40.0,
+    "armor": 74.88,
+    "shield": 1.0,
+    "def": 967.0,
+    "def_break": 1.0
+  },
+  "30096": {
+    "level": 30096,
+    "maxlife": 773.96,
+    "dodge": 14.57,
+    "pow": 20.25,
+    "hit": 22.67,
+    "armor_piercing": 40.0,
+    "armor": 74.88,
+    "shield": 1.0,
+    "def": 974.0,
+    "def_break": 1.0
+  },
+  "30097": {
+    "level": 30097,
+    "maxlife": 793.8,
+    "dodge": 15.0,
+    "pow": 20.44,
+    "hit": 23.33,
+    "armor_piercing": 40.0,
+    "armor": 76.8,
+    "shield": 1.0,
+    "def": 980.0,
+    "def_break": 1.0
+  },
+  "30098": {
+    "level": 30098,
+    "maxlife": 793.8,
+    "dodge": 15.0,
+    "pow": 20.44,
+    "hit": 23.33,
+    "armor_piercing": 41.0,
+    "armor": 76.8,
+    "shield": 1.0,
+    "def": 987.0,
+    "def_break": 1.0
+  },
+  "30099": {
+    "level": 30099,
+    "maxlife": 793.8,
+    "dodge": 15.0,
+    "pow": 20.63,
+    "hit": 23.33,
+    "armor_piercing": 41.0,
+    "armor": 76.8,
+    "shield": 1.0,
+    "def": 994.0,
+    "def_break": 1.0
+  },
+  "30100": {
+    "level": 30100,
+    "maxlife": 793.8,
+    "dodge": 15.0,
+    "pow": 20.63,
+    "hit": 23.33,
+    "armor_piercing": 41.0,
+    "armor": 76.8,
+    "shield": 1.0,
+    "def": 1000.0,
+    "def_break": 1.0
+  },
+  "30101": {
+    "level": 30101,
+    "maxlife": 830.2,
+    "dodge": 15.12,
+    "pow": 20.75,
+    "hit": 23.52,
+    "armor_piercing": 41.25,
+    "armor": 77.52,
+    "shield": 1.0,
+    "def": 1007.0,
+    "def_break": 1.0
+  },
+  "30102": {
+    "level": 30102,
+    "maxlife": 866.6,
+    "dodge": 15.24,
+    "pow": 20.88,
+    "hit": 23.7,
+    "armor_piercing": 41.49,
+    "armor": 78.25,
+    "shield": 1.0,
+    "def": 1014.0,
+    "def_break": 1.0
+  },
+  "30103": {
+    "level": 30103,
+    "maxlife": 902.99,
+    "dodge": 15.36,
+    "pow": 21.0,
+    "hit": 23.89,
+    "armor_piercing": 41.74,
+    "armor": 78.98,
+    "shield": 1.0,
+    "def": 1021.0,
+    "def_break": 1.0
+  },
+  "30104": {
+    "level": 30104,
+    "maxlife": 939.39,
+    "dodge": 15.48,
+    "pow": 21.12,
+    "hit": 24.08,
+    "armor_piercing": 41.99,
+    "armor": 79.73,
+    "shield": 1.0,
+    "def": 1027.0,
+    "def_break": 1.0
+  },
+  "30105": {
+    "level": 30105,
+    "maxlife": 975.79,
+    "dodge": 15.6,
+    "pow": 21.25,
+    "hit": 24.26,
+    "armor_piercing": 42.24,
+    "armor": 80.47,
+    "shield": 1.0,
+    "def": 1034.0,
+    "def_break": 1.0
+  },
+  "30106": {
+    "level": 30106,
+    "maxlife": 1012.19,
+    "dodge": 15.72,
+    "pow": 21.38,
+    "hit": 24.45,
+    "armor_piercing": 42.5,
+    "armor": 81.23,
+    "shield": 1.0,
+    "def": 1041.0,
+    "def_break": 1.0
+  },
+  "30107": {
+    "level": 30107,
+    "maxlife": 1048.58,
+    "dodge": 15.84,
+    "pow": 21.5,
+    "hit": 24.64,
+    "armor_piercing": 42.75,
+    "armor": 81.99,
+    "shield": 1.0,
+    "def": 1047.0,
+    "def_break": 1.0
+  },
+  "30108": {
+    "level": 30108,
+    "maxlife": 1084.98,
+    "dodge": 15.96,
+    "pow": 21.63,
+    "hit": 24.82,
+    "armor_piercing": 43.01,
+    "armor": 82.76,
+    "shield": 1.0,
+    "def": 1054.0,
+    "def_break": 1.0
+  },
+  "30109": {
+    "level": 30109,
+    "maxlife": 1121.38,
+    "dodge": 16.08,
+    "pow": 21.76,
+    "hit": 25.01,
+    "armor_piercing": 43.27,
+    "armor": 83.54,
+    "shield": 1.0,
+    "def": 1061.0,
+    "def_break": 1.0
+  },
+  "30110": {
+    "level": 30110,
+    "maxlife": 1157.78,
+    "dodge": 16.2,
+    "pow": 21.89,
+    "hit": 25.2,
+    "armor_piercing": 43.52,
+    "armor": 84.33,
+    "shield": 1.0,
+    "def": 1068.0,
+    "def_break": 1.0
+  },
+  "30111": {
+    "level": 30111,
+    "maxlife": 1161.86,
+    "dodge": 16.32,
+    "pow": 22.02,
+    "hit": 25.38,
+    "armor_piercing": 43.79,
+    "armor": 85.12,
+    "shield": 1.0,
+    "def": 1074.0,
+    "def_break": 1.0
+  },
+  "30112": {
+    "level": 30112,
+    "maxlife": 1165.95,
+    "dodge": 16.44,
+    "pow": 22.15,
+    "hit": 25.57,
+    "armor_piercing": 44.05,
+    "armor": 85.92,
+    "shield": 1.0,
+    "def": 1081.0,
+    "def_break": 1.0
+  },
+  "30113": {
+    "level": 30113,
+    "maxlife": 1170.04,
+    "dodge": 16.56,
+    "pow": 22.28,
+    "hit": 25.76,
+    "armor_piercing": 44.31,
+    "armor": 86.72,
+    "shield": 1.0,
+    "def": 1088.0,
+    "def_break": 1.0
+  },
+  "30114": {
+    "level": 30114,
+    "maxlife": 1174.13,
+    "dodge": 16.68,
+    "pow": 22.41,
+    "hit": 25.94,
+    "armor_piercing": 44.58,
+    "armor": 87.54,
+    "shield": 1.0,
+    "def": 1094.0,
+    "def_break": 1.0
+  },
+  "30115": {
+    "level": 30115,
+    "maxlife": 1178.21,
+    "dodge": 16.8,
+    "pow": 22.55,
+    "hit": 26.13,
+    "armor_piercing": 44.84,
+    "armor": 88.36,
+    "shield": 1.0,
+    "def": 1101.0,
+    "def_break": 1.0
+  },
+  "30116": {
+    "level": 30116,
+    "maxlife": 1182.3,
+    "dodge": 16.92,
+    "pow": 22.68,
+    "hit": 26.32,
+    "armor_piercing": 45.11,
+    "armor": 89.19,
+    "shield": 1.0,
+    "def": 1108.0,
+    "def_break": 1.0
+  },
+  "30117": {
+    "level": 30117,
+    "maxlife": 1186.39,
+    "dodge": 17.04,
+    "pow": 22.81,
+    "hit": 26.5,
+    "armor_piercing": 45.38,
+    "armor": 90.03,
+    "shield": 1.0,
+    "def": 1115.0,
+    "def_break": 1.0
+  },
+  "30118": {
+    "level": 30118,
+    "maxlife": 1190.47,
+    "dodge": 17.16,
+    "pow": 22.95,
+    "hit": 26.69,
+    "armor_piercing": 45.65,
+    "armor": 90.87,
+    "shield": 1.0,
+    "def": 1121.0,
+    "def_break": 1.0
+  },
+  "30119": {
+    "level": 30119,
+    "maxlife": 1194.56,
+    "dodge": 17.28,
+    "pow": 23.09,
+    "hit": 26.88,
+    "armor_piercing": 45.93,
+    "armor": 91.73,
+    "shield": 1.0,
+    "def": 1128.0,
+    "def_break": 1.0
+  },
+  "30120": {
+    "level": 30120,
+    "maxlife": 1198.65,
+    "dodge": 17.4,
+    "pow": 23.22,
+    "hit": 27.06,
+    "armor_piercing": 46.2,
+    "armor": 92.59,
+    "shield": 1.0,
+    "def": 1135.0,
+    "def_break": 1.0
+  },
+  "30121": {
+    "level": 30121,
+    "maxlife": 1203.24,
+    "dodge": 17.52,
+    "pow": 23.22,
+    "hit": 27.25,
+    "armor_piercing": 46.48,
+    "armor": 93.46,
+    "shield": 1.0,
+    "def": 1141.0,
+    "def_break": 1.0
+  },
+  "30122": {
+    "level": 30122,
+    "maxlife": 1207.84,
+    "dodge": 17.64,
+    "pow": 23.22,
+    "hit": 27.44,
+    "armor_piercing": 46.76,
+    "armor": 94.33,
+    "shield": 1.0,
+    "def": 1148.0,
+    "def_break": 1.0
+  },
+  "30123": {
+    "level": 30123,
+    "maxlife": 1212.43,
+    "dodge": 17.76,
+    "pow": 23.22,
+    "hit": 27.62,
+    "armor_piercing": 47.04,
+    "armor": 95.22,
+    "shield": 1.0,
+    "def": 1155.0,
+    "def_break": 1.0
+  },
+  "30124": {
+    "level": 30124,
+    "maxlife": 1217.02,
+    "dodge": 17.88,
+    "pow": 23.22,
+    "hit": 27.81,
+    "armor_piercing": 47.32,
+    "armor": 96.11,
+    "shield": 1.0,
+    "def": 1162.0,
+    "def_break": 1.0
+  },
+  "30125": {
+    "level": 30125,
+    "maxlife": 1221.62,
+    "dodge": 18.0,
+    "pow": 23.22,
+    "hit": 28.0,
+    "armor_piercing": 47.6,
+    "armor": 97.02,
+    "shield": 1.0,
+    "def": 1168.0,
+    "def_break": 1.0
+  },
+  "30126": {
+    "level": 30126,
+    "maxlife": 1226.21,
+    "dodge": 18.12,
+    "pow": 23.22,
+    "hit": 28.18,
+    "armor_piercing": 47.89,
+    "armor": 97.93,
+    "shield": 1.0,
+    "def": 1175.0,
+    "def_break": 1.0
+  },
+  "30127": {
+    "level": 30127,
+    "maxlife": 1230.8,
+    "dodge": 18.24,
+    "pow": 23.22,
+    "hit": 28.37,
+    "armor_piercing": 48.18,
+    "armor": 98.85,
+    "shield": 1.0,
+    "def": 1182.0,
+    "def_break": 1.0
+  },
+  "30128": {
+    "level": 30128,
+    "maxlife": 1235.4,
+    "dodge": 18.36,
+    "pow": 23.22,
+    "hit": 28.56,
+    "armor_piercing": 48.46,
+    "armor": 99.77,
+    "shield": 1.0,
+    "def": 1188.0,
+    "def_break": 1.0
+  },
+  "30129": {
+    "level": 30129,
+    "maxlife": 1239.99,
+    "dodge": 18.48,
+    "pow": 23.22,
+    "hit": 28.74,
+    "armor_piercing": 48.76,
+    "armor": 100.71,
+    "shield": 1.0,
+    "def": 1195.0,
+    "def_break": 1.0
+  },
+  "30130": {
+    "level": 30130,
+    "maxlife": 1244.59,
+    "dodge": 18.6,
+    "pow": 23.22,
+    "hit": 28.93,
+    "armor_piercing": 49.05,
+    "armor": 101.66,
+    "shield": 1.0,
+    "def": 1202.0,
+    "def_break": 1.0
+  },
+  "30131": {
+    "level": 30131,
+    "maxlife": 1249.26,
+    "dodge": 18.72,
+    "pow": 23.22,
+    "hit": 29.12,
+    "armor_piercing": 49.34,
+    "armor": 102.61,
+    "shield": 1.0,
+    "def": 1209.0,
+    "def_break": 1.0
+  },
+  "30132": {
+    "level": 30132,
+    "maxlife": 1253.94,
+    "dodge": 18.84,
+    "pow": 23.22,
+    "hit": 29.3,
+    "armor_piercing": 49.64,
+    "armor": 103.57,
+    "shield": 1.0,
+    "def": 1215.0,
+    "def_break": 1.0
+  },
+  "30133": {
+    "level": 30133,
+    "maxlife": 1258.62,
+    "dodge": 18.96,
+    "pow": 23.22,
+    "hit": 29.49,
+    "armor_piercing": 49.94,
+    "armor": 104.55,
+    "shield": 1.0,
+    "def": 1222.0,
+    "def_break": 1.0
+  },
+  "30134": {
+    "level": 30134,
+    "maxlife": 1263.29,
+    "dodge": 19.08,
+    "pow": 23.22,
+    "hit": 29.68,
+    "armor_piercing": 50.24,
+    "armor": 105.53,
+    "shield": 1.0,
+    "def": 1229.0,
+    "def_break": 1.0
+  },
+  "30135": {
+    "level": 30135,
+    "maxlife": 1267.97,
+    "dodge": 19.2,
+    "pow": 23.22,
+    "hit": 29.86,
+    "armor_piercing": 50.54,
+    "armor": 106.52,
+    "shield": 1.0,
+    "def": 1235.0,
+    "def_break": 1.0
+  },
+  "30136": {
+    "level": 30136,
+    "maxlife": 1272.65,
+    "dodge": 19.32,
+    "pow": 23.22,
+    "hit": 30.05,
+    "armor_piercing": 50.84,
+    "armor": 107.52,
+    "shield": 1.0,
+    "def": 1242.0,
+    "def_break": 1.0
+  },
+  "30137": {
+    "level": 30137,
+    "maxlife": 1277.32,
+    "dodge": 19.44,
+    "pow": 23.22,
+    "hit": 30.24,
+    "armor_piercing": 51.15,
+    "armor": 108.53,
+    "shield": 1.0,
+    "def": 1249.0,
+    "def_break": 1.0
+  },
+  "30138": {
+    "level": 30138,
+    "maxlife": 1282.0,
+    "dodge": 19.56,
+    "pow": 23.22,
+    "hit": 30.42,
+    "armor_piercing": 51.46,
+    "armor": 109.55,
+    "shield": 1.0,
+    "def": 1256.0,
+    "def_break": 1.0
+  },
+  "30139": {
+    "level": 30139,
+    "maxlife": 1286.68,
+    "dodge": 19.68,
+    "pow": 23.22,
+    "hit": 30.61,
+    "armor_piercing": 51.76,
+    "armor": 110.57,
+    "shield": 1.0,
+    "def": 1262.0,
+    "def_break": 1.0
+  },
+  "30140": {
+    "level": 30140,
+    "maxlife": 1291.35,
+    "dodge": 19.8,
+    "pow": 23.22,
+    "hit": 30.8,
+    "armor_piercing": 52.08,
+    "armor": 111.61,
+    "shield": 1.0,
+    "def": 1269.0,
+    "def_break": 1.0
+  },
+  "30141": {
+    "level": 30141,
+    "maxlife": 1304.7,
+    "dodge": 19.92,
+    "pow": 23.22,
+    "hit": 30.98,
+    "armor_piercing": 52.08,
+    "armor": 112.17,
+    "shield": 1.0,
+    "def": 1276.0,
+    "def_break": 1.0
+  },
+  "30142": {
+    "level": 30142,
+    "maxlife": 1318.05,
+    "dodge": 20.04,
+    "pow": 23.22,
+    "hit": 31.17,
+    "armor_piercing": 52.08,
+    "armor": 112.73,
+    "shield": 1.0,
+    "def": 1282.0,
+    "def_break": 1.0
+  },
+  "30143": {
+    "level": 30143,
+    "maxlife": 1331.39,
+    "dodge": 20.16,
+    "pow": 23.22,
+    "hit": 31.36,
+    "armor_piercing": 52.08,
+    "armor": 113.29,
+    "shield": 1.0,
+    "def": 1289.0,
+    "def_break": 1.0
+  },
+  "30144": {
+    "level": 30144,
+    "maxlife": 1344.74,
+    "dodge": 20.28,
+    "pow": 23.22,
+    "hit": 31.54,
+    "armor_piercing": 52.08,
+    "armor": 113.86,
+    "shield": 1.0,
+    "def": 1296.0,
+    "def_break": 1.0
+  },
+  "30145": {
+    "level": 30145,
+    "maxlife": 1358.09,
+    "dodge": 20.4,
+    "pow": 23.22,
+    "hit": 31.73,
+    "armor_piercing": 52.08,
+    "armor": 114.43,
+    "shield": 1.0,
+    "def": 1303.0,
+    "def_break": 1.0
+  },
+  "30146": {
+    "level": 30146,
+    "maxlife": 1371.44,
+    "dodge": 20.52,
+    "pow": 23.22,
+    "hit": 31.92,
+    "armor_piercing": 52.08,
+    "armor": 115.0,
+    "shield": 1.0,
+    "def": 1309.0,
+    "def_break": 1.0
+  },
+  "30147": {
+    "level": 30147,
+    "maxlife": 1384.78,
+    "dodge": 20.64,
+    "pow": 23.22,
+    "hit": 32.1,
+    "armor_piercing": 52.08,
+    "armor": 115.58,
+    "shield": 1.0,
+    "def": 1316.0,
+    "def_break": 1.0
+  },
+  "30148": {
+    "level": 30148,
+    "maxlife": 1398.13,
+    "dodge": 20.76,
+    "pow": 23.22,
+    "hit": 32.29,
+    "armor_piercing": 52.08,
+    "armor": 116.16,
+    "shield": 1.0,
+    "def": 1323.0,
+    "def_break": 1.0
+  },
+  "30149": {
+    "level": 30149,
+    "maxlife": 1411.48,
+    "dodge": 20.88,
+    "pow": 23.22,
+    "hit": 32.48,
+    "armor_piercing": 52.08,
+    "armor": 116.74,
+    "shield": 1.0,
+    "def": 1329.0,
+    "def_break": 1.0
+  },
+  "30150": {
+    "level": 30150,
+    "maxlife": 1424.82,
+    "dodge": 21.0,
+    "pow": 23.22,
+    "hit": 32.66,
+    "armor_piercing": 55.31,
+    "armor": 117.32,
+    "shield": 1.0,
+    "def": 1336.0,
+    "def_break": 1.0
+  },
+  "30151": {
+    "level": 30151,
+    "maxlife": 1424.82,
+    "dodge": 21.0,
+    "pow": 23.22,
+    "hit": 32.66,
+    "armor_piercing": 55.31,
+    "armor": 117.32,
+    "shield": 1.0,
+    "def": 1336.0,
+    "def_break": 1.0
+  },
+  "30152": {
+    "level": 30152,
+    "maxlife": 1424.82,
+    "dodge": 21.0,
+    "pow": 23.22,
+    "hit": 32.66,
+    "armor_piercing": 55.31,
+    "armor": 117.32,
+    "shield": 1.0,
+    "def": 1336.0,
+    "def_break": 1.0
+  },
+  "30153": {
+    "level": 30153,
+    "maxlife": 1424.82,
+    "dodge": 21.0,
+    "pow": 23.22,
+    "hit": 32.66,
+    "armor_piercing": 55.31,
+    "armor": 117.32,
+    "shield": 1.0,
+    "def": 1336.0,
+    "def_break": 1.0
+  },
+  "30154": {
+    "level": 30154,
+    "maxlife": 1424.82,
+    "dodge": 21.0,
+    "pow": 23.22,
+    "hit": 32.66,
+    "armor_piercing": 55.31,
+    "armor": 117.32,
+    "shield": 1.0,
+    "def": 1336.0,
+    "def_break": 1.0
+  },
+  "30155": {
+    "level": 30155,
+    "maxlife": 1424.82,
+    "dodge": 21.0,
+    "pow": 23.22,
+    "hit": 32.66,
+    "armor_piercing": 55.31,
+    "armor": 117.32,
+    "shield": 1.0,
+    "def": 1336.0,
+    "def_break": 1.0
+  },
+  "30156": {
+    "level": 30156,
+    "maxlife": 1424.82,
+    "dodge": 21.0,
+    "pow": 23.22,
+    "hit": 32.66,
+    "armor_piercing": 55.31,
+    "armor": 117.32,
+    "shield": 1.0,
+    "def": 1336.0,
+    "def_break": 1.0
+  },
+  "30157": {
+    "level": 30157,
+    "maxlife": 1424.82,
+    "dodge": 21.0,
+    "pow": 23.22,
+    "hit": 32.66,
+    "armor_piercing": 55.31,
+    "armor": 117.32,
+    "shield": 1.0,
+    "def": 1336.0,
+    "def_break": 1.0
+  },
+  "30158": {
+    "level": 30158,
+    "maxlife": 1424.82,
+    "dodge": 21.0,
+    "pow": 23.22,
+    "hit": 32.66,
+    "armor_piercing": 55.31,
+    "armor": 117.32,
+    "shield": 1.0,
+    "def": 1336.0,
+    "def_break": 1.0
+  },
+  "30159": {
+    "level": 30159,
+    "maxlife": 1424.82,
+    "dodge": 21.0,
+    "pow": 23.22,
+    "hit": 32.66,
+    "armor_piercing": 55.31,
+    "armor": 117.32,
+    "shield": 1.0,
+    "def": 1336.0,
+    "def_break": 1.0
+  },
+  "30160": {
+    "level": 30160,
+    "maxlife": 1424.82,
+    "dodge": 21.0,
+    "pow": 23.22,
+    "hit": 32.66,
+    "armor_piercing": 55.31,
+    "armor": 117.32,
+    "shield": 1.0,
+    "def": 1336.0,
+    "def_break": 1.0
+  },
+  "30161": {
+    "level": 30161,
+    "maxlife": 1424.82,
+    "dodge": 21.0,
+    "pow": 23.22,
+    "hit": 32.66,
+    "armor_piercing": 55.31,
+    "armor": 117.32,
+    "shield": 1.0,
+    "def": 1336.0,
+    "def_break": 1.0
+  },
+  "30162": {
+    "level": 30162,
+    "maxlife": 1424.82,
+    "dodge": 21.0,
+    "pow": 23.22,
+    "hit": 32.66,
+    "armor_piercing": 55.31,
+    "armor": 117.32,
+    "shield": 1.0,
+    "def": 1336.0,
+    "def_break": 1.0
+  },
+  "30163": {
+    "level": 30163,
+    "maxlife": 1424.82,
+    "dodge": 21.0,
+    "pow": 23.22,
+    "hit": 32.66,
+    "armor_piercing": 55.31,
+    "armor": 117.32,
+    "shield": 1.0,
+    "def": 1336.0,
+    "def_break": 1.0
+  },
+  "30164": {
+    "level": 30164,
+    "maxlife": 1424.82,
+    "dodge": 21.0,
+    "pow": 23.22,
+    "hit": 32.66,
+    "armor_piercing": 55.31,
+    "armor": 117.32,
+    "shield": 1.0,
+    "def": 1336.0,
+    "def_break": 1.0
+  },
+  "30165": {
+    "level": 30165,
+    "maxlife": 1424.82,
+    "dodge": 21.0,
+    "pow": 23.22,
+    "hit": 32.66,
+    "armor_piercing": 55.31,
+    "armor": 117.32,
+    "shield": 1.0,
+    "def": 1336.0,
+    "def_break": 1.0
+  },
+  "30166": {
+    "level": 30166,
+    "maxlife": 1424.82,
+    "dodge": 21.0,
+    "pow": 23.22,
+    "hit": 32.66,
+    "armor_piercing": 55.31,
+    "armor": 117.32,
+    "shield": 1.0,
+    "def": 1336.0,
+    "def_break": 1.0
+  },
+  "30167": {
+    "level": 30167,
+    "maxlife": 1424.82,
+    "dodge": 21.0,
+    "pow": 23.22,
+    "hit": 32.66,
+    "armor_piercing": 55.31,
+    "armor": 117.32,
+    "shield": 1.0,
+    "def": 1336.0,
+    "def_break": 1.0
+  },
+  "30168": {
+    "level": 30168,
+    "maxlife": 1424.82,
+    "dodge": 21.0,
+    "pow": 23.22,
+    "hit": 32.66,
+    "armor_piercing": 55.31,
+    "armor": 117.32,
+    "shield": 1.0,
+    "def": 1336.0,
+    "def_break": 1.0
+  },
+  "30169": {
+    "level": 30169,
+    "maxlife": 1424.82,
+    "dodge": 21.0,
+    "pow": 23.22,
+    "hit": 32.66,
+    "armor_piercing": 55.31,
+    "armor": 117.32,
+    "shield": 1.0,
+    "def": 1336.0,
+    "def_break": 1.0
+  },
+  "30170": {
+    "level": 30170,
+    "maxlife": 1424.82,
+    "dodge": 21.0,
+    "pow": 23.22,
+    "hit": 32.66,
+    "armor_piercing": 55.31,
+    "armor": 117.32,
+    "shield": 1.0,
+    "def": 1336.0,
+    "def_break": 1.0
+  },
+  "30171": {
+    "level": 30171,
+    "maxlife": 1424.82,
+    "dodge": 21.0,
+    "pow": 23.22,
+    "hit": 32.66,
+    "armor_piercing": 55.31,
+    "armor": 117.32,
+    "shield": 1.0,
+    "def": 1336.0,
+    "def_break": 1.0
+  },
+  "30172": {
+    "level": 30172,
+    "maxlife": 1424.82,
+    "dodge": 21.0,
+    "pow": 23.22,
+    "hit": 32.66,
+    "armor_piercing": 55.31,
+    "armor": 117.32,
+    "shield": 1.0,
+    "def": 1336.0,
+    "def_break": 1.0
+  },
+  "30173": {
+    "level": 30173,
+    "maxlife": 1424.82,
+    "dodge": 21.0,
+    "pow": 23.22,
+    "hit": 32.66,
+    "armor_piercing": 55.31,
+    "armor": 117.32,
+    "shield": 1.0,
+    "def": 1336.0,
+    "def_break": 1.0
+  },
+  "30174": {
+    "level": 30174,
+    "maxlife": 1424.82,
+    "dodge": 21.0,
+    "pow": 23.22,
+    "hit": 32.66,
+    "armor_piercing": 55.31,
+    "armor": 117.32,
+    "shield": 1.0,
+    "def": 1336.0,
+    "def_break": 1.0
+  },
+  "30175": {
+    "level": 30175,
+    "maxlife": 1424.82,
+    "dodge": 21.0,
+    "pow": 23.22,
+    "hit": 32.66,
+    "armor_piercing": 55.31,
+    "armor": 117.32,
+    "shield": 1.0,
+    "def": 1336.0,
+    "def_break": 1.0
+  },
+  "30176": {
+    "level": 30176,
+    "maxlife": 1424.82,
+    "dodge": 21.0,
+    "pow": 23.22,
+    "hit": 32.66,
+    "armor_piercing": 55.31,
+    "armor": 117.32,
+    "shield": 1.0,
+    "def": 1336.0,
+    "def_break": 1.0
+  },
+  "30177": {
+    "level": 30177,
+    "maxlife": 1424.82,
+    "dodge": 21.0,
+    "pow": 23.22,
+    "hit": 32.66,
+    "armor_piercing": 55.31,
+    "armor": 117.32,
+    "shield": 1.0,
+    "def": 1336.0,
+    "def_break": 1.0
+  },
+  "30178": {
+    "level": 30178,
+    "maxlife": 1424.82,
+    "dodge": 21.0,
+    "pow": 23.22,
+    "hit": 32.66,
+    "armor_piercing": 55.31,
+    "armor": 117.32,
+    "shield": 1.0,
+    "def": 1336.0,
+    "def_break": 1.0
+  },
+  "30179": {
+    "level": 30179,
+    "maxlife": 1424.82,
+    "dodge": 21.0,
+    "pow": 23.22,
+    "hit": 32.66,
+    "armor_piercing": 55.31,
+    "armor": 117.32,
+    "shield": 1.0,
+    "def": 1336.0,
+    "def_break": 1.0
+  },
+  "30180": {
+    "level": 30180,
+    "maxlife": 1424.82,
+    "dodge": 21.0,
+    "pow": 23.22,
+    "hit": 32.66,
+    "armor_piercing": 55.31,
+    "armor": 117.32,
+    "shield": 1.0,
+    "def": 1336.0,
+    "def_break": 1.0
+  },
+  "30181": {
+    "level": 30181,
+    "maxlife": 1424.82,
+    "dodge": 21.0,
+    "pow": 23.22,
+    "hit": 32.66,
+    "armor_piercing": 55.31,
+    "armor": 117.32,
+    "shield": 1.0,
+    "def": 1336.0,
+    "def_break": 1.0
+  },
+  "30182": {
+    "level": 30182,
+    "maxlife": 1424.82,
+    "dodge": 21.0,
+    "pow": 23.22,
+    "hit": 32.66,
+    "armor_piercing": 55.31,
+    "armor": 117.32,
+    "shield": 1.0,
+    "def": 1336.0,
+    "def_break": 1.0
+  },
+  "30183": {
+    "level": 30183,
+    "maxlife": 1424.82,
+    "dodge": 21.0,
+    "pow": 23.22,
+    "hit": 32.66,
+    "armor_piercing": 55.31,
+    "armor": 117.32,
+    "shield": 1.0,
+    "def": 1336.0,
+    "def_break": 1.0
+  },
+  "30184": {
+    "level": 30184,
+    "maxlife": 1424.82,
+    "dodge": 21.0,
+    "pow": 23.22,
+    "hit": 32.66,
+    "armor_piercing": 55.31,
+    "armor": 117.32,
+    "shield": 1.0,
+    "def": 1336.0,
+    "def_break": 1.0
+  },
+  "30185": {
+    "level": 30185,
+    "maxlife": 1424.82,
+    "dodge": 21.0,
+    "pow": 23.22,
+    "hit": 32.66,
+    "armor_piercing": 55.31,
+    "armor": 117.32,
+    "shield": 1.0,
+    "def": 1336.0,
+    "def_break": 1.0
+  },
+  "30186": {
+    "level": 30186,
+    "maxlife": 1424.82,
+    "dodge": 21.0,
+    "pow": 23.22,
+    "hit": 32.66,
+    "armor_piercing": 55.31,
+    "armor": 117.32,
+    "shield": 1.0,
+    "def": 1336.0,
+    "def_break": 1.0
+  },
+  "30187": {
+    "level": 30187,
+    "maxlife": 1424.82,
+    "dodge": 21.0,
+    "pow": 23.22,
+    "hit": 32.66,
+    "armor_piercing": 55.31,
+    "armor": 117.32,
+    "shield": 1.0,
+    "def": 1336.0,
+    "def_break": 1.0
+  },
+  "30188": {
+    "level": 30188,
+    "maxlife": 1424.82,
+    "dodge": 21.0,
+    "pow": 23.22,
+    "hit": 32.66,
+    "armor_piercing": 55.31,
+    "armor": 117.32,
+    "shield": 1.0,
+    "def": 1336.0,
+    "def_break": 1.0
+  },
+  "30189": {
+    "level": 30189,
+    "maxlife": 1424.82,
+    "dodge": 21.0,
+    "pow": 23.22,
+    "hit": 32.66,
+    "armor_piercing": 55.31,
+    "armor": 117.32,
+    "shield": 1.0,
+    "def": 1336.0,
+    "def_break": 1.0
+  },
+  "30190": {
+    "level": 30190,
+    "maxlife": 1424.82,
+    "dodge": 21.0,
+    "pow": 23.22,
+    "hit": 32.66,
+    "armor_piercing": 55.31,
+    "armor": 117.32,
+    "shield": 1.0,
+    "def": 1336.0,
+    "def_break": 1.0
+  },
+  "30191": {
+    "level": 30191,
+    "maxlife": 1424.82,
+    "dodge": 21.0,
+    "pow": 23.22,
+    "hit": 32.66,
+    "armor_piercing": 55.31,
+    "armor": 117.32,
+    "shield": 1.0,
+    "def": 1336.0,
+    "def_break": 1.0
+  },
+  "30192": {
+    "level": 30192,
+    "maxlife": 1424.82,
+    "dodge": 21.0,
+    "pow": 23.22,
+    "hit": 32.66,
+    "armor_piercing": 55.31,
+    "armor": 117.32,
+    "shield": 1.0,
+    "def": 1336.0,
+    "def_break": 1.0
+  },
+  "30193": {
+    "level": 30193,
+    "maxlife": 1424.82,
+    "dodge": 21.0,
+    "pow": 23.22,
+    "hit": 32.66,
+    "armor_piercing": 55.31,
+    "armor": 117.32,
+    "shield": 1.0,
+    "def": 1336.0,
+    "def_break": 1.0
+  },
+  "30194": {
+    "level": 30194,
+    "maxlife": 1424.82,
+    "dodge": 21.0,
+    "pow": 23.22,
+    "hit": 32.66,
+    "armor_piercing": 55.31,
+    "armor": 117.32,
+    "shield": 1.0,
+    "def": 1336.0,
+    "def_break": 1.0
+  },
+  "30195": {
+    "level": 30195,
+    "maxlife": 1424.82,
+    "dodge": 21.0,
+    "pow": 23.22,
+    "hit": 32.66,
+    "armor_piercing": 55.31,
+    "armor": 117.32,
+    "shield": 1.0,
+    "def": 1336.0,
+    "def_break": 1.0
+  },
+  "30196": {
+    "level": 30196,
+    "maxlife": 1424.82,
+    "dodge": 21.0,
+    "pow": 23.22,
+    "hit": 32.66,
+    "armor_piercing": 55.31,
+    "armor": 117.32,
+    "shield": 1.0,
+    "def": 1336.0,
+    "def_break": 1.0
+  },
+  "30197": {
+    "level": 30197,
+    "maxlife": 1424.82,
+    "dodge": 21.0,
+    "pow": 23.22,
+    "hit": 32.66,
+    "armor_piercing": 55.31,
+    "armor": 117.32,
+    "shield": 1.0,
+    "def": 1336.0,
+    "def_break": 1.0
+  },
+  "30198": {
+    "level": 30198,
+    "maxlife": 1424.82,
+    "dodge": 21.0,
+    "pow": 23.22,
+    "hit": 32.66,
+    "armor_piercing": 55.31,
+    "armor": 117.32,
+    "shield": 1.0,
+    "def": 1336.0,
+    "def_break": 1.0
+  },
+  "30199": {
+    "level": 30199,
+    "maxlife": 1424.82,
+    "dodge": 21.0,
+    "pow": 23.22,
+    "hit": 32.66,
+    "armor_piercing": 55.31,
+    "armor": 117.32,
+    "shield": 1.0,
+    "def": 1336.0,
+    "def_break": 1.0
+  },
+  "30200": {
+    "level": 30200,
+    "maxlife": 1424.82,
+    "dodge": 21.0,
+    "pow": 23.22,
+    "hit": 32.66,
+    "armor_piercing": 55.31,
+    "armor": 117.32,
+    "shield": 1.0,
+    "def": 1336.0,
     "def_break": 1.0
   }
 }

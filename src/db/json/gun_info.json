@@ -1644,6 +1644,13 @@
     "code": "Type64-AR",
     "en_introduce": "gun-50000243"
   },
+  "244": {
+    "id": 244,
+    "name": "gun-10000244",
+    "en_name": "TEC-9",
+    "code": "TEC9",
+    "en_introduce": "gun-50000244"
+  },
   "245": {
     "id": 245,
     "name": "gun-10000245",

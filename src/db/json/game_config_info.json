@@ -74,19 +74,31 @@
   "attack_effect_mg": {
     "parameter_name": "attack_effect_mg",
     "parameter_type": "string",
-    "parameter_value": "7,1.5,4,200,23,8,2",
+    "parameter_value": "7,1.5,4,200,23,8,3",
     "client_require": 1
   },
   "attack_effect_normal": {
     "parameter_name": "attack_effect_normal",
     "parameter_type": "string",
-    "parameter_value": "5,1.5,23,8,50,2",
+    "parameter_value": "5,1.5,23,8,50,3",
     "client_require": 1
   },
   "attack_effect_sg": {
     "parameter_name": "attack_effect_sg",
     "parameter_type": "string",
-    "parameter_value": "6,1.5,23,8,50,2,3,1.5,0.5",
+    "parameter_value": "6,1.5,23,8,50,3,3,1.5,0.5",
+    "client_require": 1
+  },
+  "auto_mission_exp": {
+    "parameter_name": "auto_mission_exp",
+    "parameter_type": "int",
+    "parameter_value": "50",
+    "client_require": 1
+  },
+  "auto_mission_times": {
+    "parameter_name": "auto_mission_times",
+    "parameter_type": "string",
+    "parameter_value": "3,5",
     "client_require": 1
   },
   "avg_auto_play_speed": {
@@ -133,6 +145,12 @@
   },
   "bp_buy_limit": {
     "parameter_name": "bp_buy_limit",
+    "parameter_type": "int",
+    "parameter_value": "10",
+    "client_require": 1
+  },
+  "break_overflow": {
+    "parameter_name": "break_overflow",
     "parameter_type": "int",
     "parameter_value": "10",
     "client_require": 1
@@ -278,13 +296,13 @@
   "dorm_carpet_size": {
     "parameter_name": "dorm_carpet_size",
     "parameter_type": "string",
-    "parameter_value": "30,12",
+    "parameter_value": "35,14",
     "client_require": 1
   },
   "dorm_floor_size": {
     "parameter_name": "dorm_floor_size",
     "parameter_type": "string",
-    "parameter_value": "30,12",
+    "parameter_value": "35,14",
     "client_require": 1
   },
   "dorm_furniture_position_init": {
@@ -326,7 +344,7 @@
   "dorm_wall_size": {
     "parameter_name": "dorm_wall_size",
     "parameter_type": "string",
-    "parameter_value": "30,20",
+    "parameter_value": "35,23",
     "client_require": 1
   },
   "download_on": {
@@ -374,7 +392,7 @@
   "enemy_effect_defence": {
     "parameter_name": "enemy_effect_defence",
     "parameter_type": "string",
-    "parameter_value": "0.25,35,200,100,150",
+    "parameter_value": "0.25,35,300,100,1200",
     "client_require": 1
   },
   "enemy_quickmove_maplimit": {
@@ -465,6 +483,12 @@
     "parameter_name": "exclude_skins",
     "parameter_type": "string",
     "parameter_value": "0",
+    "client_require": 1
+  },
+  "explore_items": {
+    "parameter_name": "explore_items",
+    "parameter_type": "string",
+    "parameter_value": "1:4005|2:6001,6002|3:4001,4002,4003,4004|4:6003,6004",
     "client_require": 1
   },
   "fairy_armor_grow": {
@@ -758,7 +782,7 @@
   "friend_limit": {
     "parameter_name": "friend_limit",
     "parameter_type": "int",
-    "parameter_value": "50",
+    "parameter_value": "100",
     "client_require": 1
   },
   "friend_supported_prize": {
@@ -932,7 +956,7 @@
   "max_fairy": {
     "parameter_name": "max_fairy",
     "parameter_type": "int",
-    "parameter_value": "100",
+    "parameter_value": "200",
     "client_require": 1
   },
   "max_gun_exp": {
@@ -995,6 +1019,12 @@
     "parameter_value": "60",
     "client_require": 1
   },
+  "mica_bind_date": {
+    "parameter_name": "mica_bind_date",
+    "parameter_type": "string",
+    "parameter_value": "2013-11-02 00:00:00;2013-10-30 10:00:00",
+    "client_require": 1
+  },
   "mindupdate_condition": {
     "parameter_name": "mindupdate_condition",
     "parameter_type": "string",
@@ -1027,8 +1057,8 @@
   },
   "mission_group_reset_draw_max": {
     "parameter_name": "mission_group_reset_draw_max",
-    "parameter_type": "int",
-    "parameter_value": "100000",
+    "parameter_type": "string",
+    "parameter_value": "1,1;2,1;3,1;4,100000;5,100000;6,100000",
     "client_require": 1
   },
   "naive_build_gun_formula": {
@@ -1154,13 +1184,13 @@
   "precise_coef": {
     "parameter_name": "precise_coef",
     "parameter_type": "float",
-    "parameter_value": "10",
+    "parameter_value": "8",
     "client_require": 1
   },
   "precise_min": {
     "parameter_name": "precise_min",
     "parameter_type": "float",
-    "parameter_value": "0.3",
+    "parameter_value": "0.4",
     "client_require": 1
   },
   "property_rate": {
@@ -1256,13 +1286,13 @@
   "reload_coef1": {
     "parameter_name": "reload_coef1",
     "parameter_type": "int",
-    "parameter_value": "900",
+    "parameter_value": "1500",
     "client_require": 1
   },
   "reload_coef2": {
     "parameter_name": "reload_coef2",
     "parameter_type": "int",
-    "parameter_value": "75",
+    "parameter_value": "300",
     "client_require": 1
   },
   "rename_control": {
@@ -1347,6 +1377,12 @@
     "parameter_name": "skill2_effect",
     "parameter_type": "string",
     "parameter_value": "15,2",
+    "client_require": 1
+  },
+  "skill_cd_reduction_limit": {
+    "parameter_name": "skill_cd_reduction_limit",
+    "parameter_type": "int",
+    "parameter_value": "30",
     "client_require": 1
   },
   "skill_effect": {
@@ -1712,7 +1748,7 @@
   "storage_limit": {
     "parameter_name": "storage_limit",
     "parameter_type": "int",
-    "parameter_value": "2000",
+    "parameter_value": "2500",
     "client_require": 1
   },
   "support_daily_limit": {
@@ -1731,6 +1767,30 @@
     "parameter_name": "support_reward_limit",
     "parameter_type": "int",
     "parameter_value": "10",
+    "client_require": 1
+  },
+  "theater_adaptive_coef": {
+    "parameter_name": "theater_adaptive_coef",
+    "parameter_type": "string",
+    "parameter_value": "500,3",
+    "client_require": 1
+  },
+  "theater_boss_pt_rank_coef": {
+    "parameter_name": "theater_boss_pt_rank_coef",
+    "parameter_type": "string",
+    "parameter_value": "0.4,0.3,0.2,0.1",
+    "client_require": 1
+  },
+  "theater_defeated_coef": {
+    "parameter_name": "theater_defeated_coef",
+    "parameter_type": "int",
+    "parameter_value": "60",
+    "client_require": 1
+  },
+  "theater_scout_limit_coef": {
+    "parameter_name": "theater_scout_limit_coef",
+    "parameter_type": "int",
+    "parameter_value": "3",
     "client_require": 1
   },
   "trail_switch": {

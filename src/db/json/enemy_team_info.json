@@ -48020,7 +48020,7 @@
     "enemy_leader": 10006,
     "correction_belong": "",
     "correction_turn": "",
-    "limit_guns": "192,191,193",
+    "limit_guns": "191,193",
     "limit_equips": "",
     "ai": 103,
     "ai_content": "",
@@ -48036,7 +48036,6 @@
     ],
     "spot_id": 5595,
     "drops_limit": [
-      "gun-10000192",
       "gun-10000191",
       "gun-10000193"
     ],
@@ -48054,7 +48053,7 @@
     "enemy_leader": 900051,
     "correction_belong": "-50,-50,0",
     "correction_turn": "",
-    "limit_guns": "192,191,193",
+    "limit_guns": "191,193",
     "limit_equips": "",
     "ai": 0,
     "ai_content": "",
@@ -48067,7 +48066,6 @@
     ],
     "spot_id": 5592,
     "drops_limit": [
-      "gun-10000192",
       "gun-10000191",
       "gun-10000193"
     ],
@@ -48146,7 +48144,7 @@
     "enemy_leader": 900051,
     "correction_belong": "-100,-100,0",
     "correction_turn": "",
-    "limit_guns": "151,195,176,182",
+    "limit_guns": "195,176,182",
     "limit_equips": "",
     "ai": 0,
     "ai_content": "",
@@ -48160,7 +48158,6 @@
     ],
     "spot_id": 5610,
     "drops_limit": [
-      "gun-10000151",
       "gun-10000195",
       "gun-10000176",
       "gun-10000182"
@@ -48179,7 +48176,7 @@
     "enemy_leader": 900088,
     "correction_belong": "",
     "correction_turn": "",
-    "limit_guns": "151,195,176,182",
+    "limit_guns": "195,176,182",
     "limit_equips": "",
     "ai": 0,
     "ai_content": "",
@@ -48193,7 +48190,6 @@
     ],
     "spot_id": 5613,
     "drops_limit": [
-      "gun-10000151",
       "gun-10000195",
       "gun-10000176",
       "gun-10000182"
@@ -48472,7 +48468,7 @@
     "enemy_leader": 10009,
     "correction_belong": "",
     "correction_turn": "",
-    "limit_guns": "98,176,186",
+    "limit_guns": "176,186",
     "limit_equips": "",
     "ai": 103,
     "ai_content": "",
@@ -48486,7 +48482,6 @@
     ],
     "spot_id": 5669,
     "drops_limit": [
-      "gun-10000098",
       "gun-10000176",
       "gun-10000186"
     ],
@@ -48714,7 +48709,7 @@
     "enemy_leader": 10009,
     "correction_belong": "",
     "correction_turn": "",
-    "limit_guns": "142,191,193",
+    "limit_guns": "191,193",
     "limit_equips": "",
     "ai": 103,
     "ai_content": "",
@@ -48729,7 +48724,6 @@
     ],
     "spot_id": 5743,
     "drops_limit": [
-      "gun-10000142",
       "gun-10000191",
       "gun-10000193"
     ],
@@ -48747,7 +48741,7 @@
     "enemy_leader": 10021,
     "correction_belong": "",
     "correction_turn": "",
-    "limit_guns": "142,191,193",
+    "limit_guns": "191,193",
     "limit_equips": "",
     "ai": 103,
     "ai_content": "",
@@ -48759,7 +48753,6 @@
     ],
     "spot_id": 5732,
     "drops_limit": [
-      "gun-10000142",
       "gun-10000191",
       "gun-10000193"
     ],
@@ -48841,7 +48834,7 @@
     "enemy_leader": 10026,
     "correction_belong": "",
     "correction_turn": "",
-    "limit_guns": "175,195,176,182",
+    "limit_guns": "195,176,182",
     "limit_equips": "",
     "ai": 0,
     "ai_content": "",
@@ -48856,7 +48849,6 @@
     ],
     "spot_id": 5762,
     "drops_limit": [
-      "gun-10000175",
       "gun-10000195",
       "gun-10000176",
       "gun-10000182"
@@ -48875,7 +48867,7 @@
     "enemy_leader": 10026,
     "correction_belong": "",
     "correction_turn": "",
-    "limit_guns": "175,195,176,182",
+    "limit_guns": "195,176,182",
     "limit_equips": "",
     "ai": 0,
     "ai_content": "",
@@ -48890,7 +48882,6 @@
     ],
     "spot_id": 5766,
     "drops_limit": [
-      "gun-10000175",
       "gun-10000195",
       "gun-10000176",
       "gun-10000182"
@@ -48909,7 +48900,7 @@
     "enemy_leader": 10028,
     "correction_belong": "",
     "correction_turn": "",
-    "limit_guns": "175,195,176,182",
+    "limit_guns": "195,176,182",
     "limit_equips": "",
     "ai": 0,
     "ai_content": "",
@@ -48925,7 +48916,6 @@
     ],
     "spot_id": 5773,
     "drops_limit": [
-      "gun-10000175",
       "gun-10000195",
       "gun-10000176",
       "gun-10000182"
@@ -49722,7 +49712,7 @@
     "enemy_leader": 10016,
     "correction_belong": "",
     "correction_turn": "",
-    "limit_guns": "98,186",
+    "limit_guns": "186",
     "limit_equips": "",
     "ai": 0,
     "ai_content": "",
@@ -49738,7 +49728,6 @@
     ],
     "spot_id": 5891,
     "drops_limit": [
-      "gun-10000098",
       "gun-10000186"
     ],
     "drops_reg_count": [
@@ -49755,7 +49744,7 @@
     "enemy_leader": 10026,
     "correction_belong": "",
     "correction_turn": "",
-    "limit_guns": "98,186",
+    "limit_guns": "186",
     "limit_equips": "",
     "ai": 0,
     "ai_content": "",
@@ -49770,7 +49759,6 @@
     ],
     "spot_id": 5889,
     "drops_limit": [
-      "gun-10000098",
       "gun-10000186"
     ],
     "drops_reg_count": [
@@ -49787,7 +49775,7 @@
     "enemy_leader": 10033,
     "correction_belong": "",
     "correction_turn": "",
-    "limit_guns": "98,186",
+    "limit_guns": "186",
     "limit_equips": "",
     "ai": 0,
     "ai_content": "",
@@ -49806,7 +49794,6 @@
     ],
     "spot_id": 5883,
     "drops_limit": [
-      "gun-10000098",
       "gun-10000186"
     ],
     "drops_reg_count": [
@@ -51299,7 +51286,7 @@
     "enemy_leader": 10021,
     "correction_belong": "",
     "correction_turn": "",
-    "limit_guns": "142,182,191,195",
+    "limit_guns": "182,191,195",
     "limit_equips": "",
     "ai": 103,
     "ai_content": "",
@@ -51311,7 +51298,6 @@
     ],
     "spot_id": 6185,
     "drops_limit": [
-      "gun-10000142",
       "gun-10000182",
       "gun-10000191",
       "gun-10000195"
@@ -51330,7 +51316,7 @@
     "enemy_leader": 10008,
     "correction_belong": "",
     "correction_turn": "",
-    "limit_guns": "142,182,191,195",
+    "limit_guns": "182,191,195",
     "limit_equips": "",
     "ai": 103,
     "ai_content": "",
@@ -51345,7 +51331,6 @@
     ],
     "spot_id": 6180,
     "drops_limit": [
-      "gun-10000142",
       "gun-10000182",
       "gun-10000191",
       "gun-10000195"
@@ -51428,7 +51413,7 @@
     "enemy_leader": 10030,
     "correction_belong": "",
     "correction_turn": "",
-    "limit_guns": "151,176,186,193",
+    "limit_guns": "176,186,193",
     "limit_equips": "",
     "ai": 0,
     "ai_content": "",
@@ -51447,7 +51432,6 @@
     ],
     "spot_id": 6209,
     "drops_limit": [
-      "gun-10000151",
       "gun-10000176",
       "gun-10000186",
       "gun-10000193"
@@ -51466,7 +51450,7 @@
     "enemy_leader": 10027,
     "correction_belong": "",
     "correction_turn": "",
-    "limit_guns": "151,176,186,193",
+    "limit_guns": "176,186,193",
     "limit_equips": "",
     "ai": 0,
     "ai_content": "",
@@ -51486,7 +51470,6 @@
     ],
     "spot_id": 6283,
     "drops_limit": [
-      "gun-10000151",
       "gun-10000176",
       "gun-10000186",
       "gun-10000193"
@@ -51566,7 +51549,7 @@
     "enemy_leader": 10021,
     "correction_belong": "",
     "correction_turn": "",
-    "limit_guns": "175,182,191,193",
+    "limit_guns": "182,191,193",
     "limit_equips": "",
     "ai": 102,
     "ai_content": "2",
@@ -51582,7 +51565,6 @@
     ],
     "spot_id": 6259,
     "drops_limit": [
-      "gun-10000175",
       "gun-10000182",
       "gun-10000191",
       "gun-10000193"
@@ -51601,7 +51583,7 @@
     "enemy_leader": 10003,
     "correction_belong": "",
     "correction_turn": "",
-    "limit_guns": "175,182,191,193",
+    "limit_guns": "182,191,193",
     "limit_equips": "",
     "ai": 102,
     "ai_content": "2",
@@ -51629,7 +51611,6 @@
     ],
     "spot_id": 6246,
     "drops_limit": [
-      "gun-10000175",
       "gun-10000182",
       "gun-10000191",
       "gun-10000193"
@@ -51714,7 +51695,7 @@
     "enemy_leader": 10008,
     "correction_belong": "",
     "correction_turn": "",
-    "limit_guns": "192,176,186,195",
+    "limit_guns": "176,186,195",
     "limit_equips": "",
     "ai": 0,
     "ai_content": "0",
@@ -51732,7 +51713,6 @@
     ],
     "spot_id": 6269,
     "drops_limit": [
-      "gun-10000192",
       "gun-10000176",
       "gun-10000186",
       "gun-10000195"
@@ -51751,7 +51731,7 @@
     "enemy_leader": 900093,
     "correction_belong": "",
     "correction_turn": "",
-    "limit_guns": "192,176,186,195",
+    "limit_guns": "176,186,195",
     "limit_equips": "",
     "ai": 102,
     "ai_content": "2",
@@ -51773,7 +51753,6 @@
     ],
     "spot_id": 6271,
     "drops_limit": [
-      "gun-10000192",
       "gun-10000176",
       "gun-10000186",
       "gun-10000195"
@@ -51855,7 +51834,7 @@
     "enemy_leader": 10027,
     "correction_belong": "",
     "correction_turn": "",
-    "limit_guns": "179,176,182,193",
+    "limit_guns": "176,182,193",
     "limit_equips": "",
     "ai": 0,
     "ai_content": "",
@@ -51872,7 +51851,6 @@
     ],
     "spot_id": 6310,
     "drops_limit": [
-      "gun-10000179",
       "gun-10000176",
       "gun-10000182",
       "gun-10000193"
@@ -51891,7 +51869,7 @@
     "enemy_leader": 10030,
     "correction_belong": "",
     "correction_turn": "",
-    "limit_guns": "179,176,182,193",
+    "limit_guns": "176,182,193",
     "limit_equips": "",
     "ai": 0,
     "ai_content": "",
@@ -51907,7 +51885,6 @@
     ],
     "spot_id": 6309,
     "drops_limit": [
-      "gun-10000179",
       "gun-10000176",
       "gun-10000182",
       "gun-10000193"
@@ -54226,7 +54203,7 @@
     "enemy_leader": 900051,
     "correction_belong": "-100,-100,0",
     "correction_turn": "",
-    "limit_guns": "179,171,193,195",
+    "limit_guns": "191,193,195",
     "limit_equips": "",
     "ai": 0,
     "ai_content": "",
@@ -54240,8 +54217,7 @@
     ],
     "spot_id": 5690,
     "drops_limit": [
-      "gun-10000179",
-      "gun-10000171",
+      "gun-10000191",
       "gun-10000193",
       "gun-10000195"
     ],
@@ -54259,7 +54235,7 @@
     "enemy_leader": 900088,
     "correction_belong": "",
     "correction_turn": "",
-    "limit_guns": "179,171,193,195",
+    "limit_guns": "191,193,195",
     "limit_equips": "",
     "ai": 0,
     "ai_content": "",
@@ -54273,8 +54249,7 @@
     ],
     "spot_id": 5693,
     "drops_limit": [
-      "gun-10000179",
-      "gun-10000171",
+      "gun-10000191",
       "gun-10000193",
       "gun-10000195"
     ],

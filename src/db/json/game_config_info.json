@@ -1058,7 +1058,7 @@
   "mission_group_reset_draw_max": {
     "parameter_name": "mission_group_reset_draw_max",
     "parameter_type": "string",
-    "parameter_value": "1,1;2,1;3,1;4,100000;5,100000;6,100000",
+    "parameter_value": "1,100000;2,100000;3,100000;4,100000;5,100000;6,100000",
     "client_require": 1
   },
   "naive_build_gun_formula": {

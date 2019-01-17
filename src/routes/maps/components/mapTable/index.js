@@ -92,10 +92,17 @@ const TeamTable = ({
       forEach(countDict, (val, key) => {
         members += key + '*' + val + ' '
       });
-      let drops = ''
-      forEach(enemyTeam.drops, (drop) => {
-        drops += __(drop) + ' '
+      let drops_limit = ''
+      forEach(enemyTeam.drops_limit, (drop) => {
+        drops_limit += __(drop) + ' '
       })
+      let drops_reg = ''
+      let rank = 0
+      for (rank = 0; rank < 5; rank++) { 
+        if (enemyTeam.drops_reg_count[rank] > 0) {
+          drops_reg += "★" + (rank + 1).toString() + "×" + enemyTeam.drops_reg_count[rank] + " "
+        }
+      }
       const teamPower = Game.getEnemyTeamPower(enemyTeam, currentTurn);
 
       data[i] = {
@@ -105,7 +112,8 @@ const TeamTable = ({
         power_display: teamPower + (enemyTeam.correction_turn?"*":""),
         members: members,
         count: count,
-        drop: drops,
+        drop_limit: drops_limit,
+        drop_reg: drops_reg,
         member_ids: enemyTeam.member_ids,
       }
       i += 1
@@ -139,9 +147,14 @@ const TeamTable = ({
       sorter: (a, b) => a.count - b.count,
     },
     {
-      title: __('map_tbl.drop'),
-      dataIndex: 'drop',
-      sorter: (a, b) => getStrLength(a.drop) - getStrLength(b.drop),
+      title: __('map_tbl.drop_limit'),
+      dataIndex: 'drop_limit',
+      sorter: (a, b) => getStrLength(a.drop_limit) - getStrLength(b.drop_limit),
+    },
+    {
+      title: __('map_tbl.drop_reg'),
+      dataIndex: 'drop_reg',
+      sorter: (a, b) => getStrLength(a.drop_reg) - getStrLength(b.drop_reg),
     },
   ]
   const propsOfTable = {

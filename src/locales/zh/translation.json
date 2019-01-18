@@ -68,7 +68,7 @@
     "armor_piercing": "穿甲",
     "armor": "护甲",
     "def_break": "破防",
-    "def": "力场",
+    "def": "最大力场",
     "def_percent": "力场%",
     "coordinator": "坐标",
     "coordinator_x": "横坐标",

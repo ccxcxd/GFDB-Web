@@ -69,7 +69,7 @@
     "armor_piercing": "AP",
     "armor": "Armor",
     "def_break": "DEF Break",
-    "def": "DEF",
+    "def": "Max DEF",
     "def_percent": "DEF%",
     "coordinator": "Coord.",
     "coordinator_x": "X Coord.",

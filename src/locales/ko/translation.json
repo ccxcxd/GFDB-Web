@@ -68,7 +68,7 @@
     "armor_piercing": "관통",
     "armor": "장갑",
     "def_break": "파쇄",
-    "def": "쉴드",
+    "def": "최대쉴드",
     "def_percent": "쉴드%",
     "coordinator": "로축",
     "coordinator_x": "가로축",

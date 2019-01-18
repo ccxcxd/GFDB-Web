@@ -68,7 +68,7 @@
     "armor_piercing": "破甲",
     "armor": "防御",
     "def_break": "破防",
-    "def": "シールド",
+    "def": "最大シールド",
     "def_percent": "シールド%",
     "coordinator": "座標",
     "coordinator_x": "横座標",

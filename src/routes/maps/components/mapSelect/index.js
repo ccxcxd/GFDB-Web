@@ -74,6 +74,8 @@ const MapSelect = ({
     const childrens = []
     forEach(sorted_mission_ids, (v, k) => {
       const mission = mission_info[v]
+      if (mission.special_type == 9)
+        return
       childrens.push(
         <Option
           key={mission.id}

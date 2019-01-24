@@ -1175,7 +1175,7 @@
     "name": "enemy_char_name.10040",
     "code": "Rodelero",
     "maxlife": 3500,
-    "pow": 18,
+    "pow": 27,
     "hit": 40,
     "dodge": 15,
     "range": 7,
@@ -6715,7 +6715,7 @@
     "special_attack": 0,
     "normal_attack": 406101,
     "passive_skill": "406103,406104,406113",
-    "effect_ratio": 0.5,
+    "effect_ratio": 0.2,
     "unable_buff_type": "221,733",
     "voice": "1,2"
   },
@@ -6745,7 +6745,7 @@
     "special_attack": 0,
     "normal_attack": 406001,
     "passive_skill": "406022,406002,406014,406015,406016,406020",
-    "effect_ratio": 0.5,
+    "effect_ratio": 0.2,
     "unable_buff_type": "221,733",
     "voice": "1,2,3"
   },
@@ -6775,7 +6775,7 @@
     "special_attack": 0,
     "normal_attack": 402800,
     "passive_skill": "402801,402809,402810,402811,402812,402813,402814,402819,402820,402821,403406,403407,403408",
-    "effect_ratio": 1.0,
+    "effect_ratio": 0.4,
     "unable_buff_type": "",
     "voice": "1,2,3"
   },

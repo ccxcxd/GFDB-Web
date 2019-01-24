@@ -1637,6 +1637,13 @@
     "code": "RT20",
     "rank": 3
   },
+  "242": {
+    "id": 242,
+    "name": "gun-10000242",
+    "en_name": "P22",
+    "code": "P22",
+    "rank": 5
+  },
   "243": {
     "id": 243,
     "name": "gun-10000243",
@@ -1677,6 +1684,48 @@
     "name": "gun-10000249",
     "en_name": "Type62",
     "code": "Type62",
+    "rank": 3
+  },
+  "250": {
+    "id": 250,
+    "name": "gun-10000250",
+    "en_name": "HS2000",
+    "code": "HS2000",
+    "rank": 5
+  },
+  "251": {
+    "id": 251,
+    "name": "gun-10000251",
+    "en_name": "X95",
+    "code": "X95",
+    "rank": 5
+  },
+  "252": {
+    "id": 252,
+    "name": "gun-10000252",
+    "en_name": "KSVK",
+    "code": "KSVK",
+    "rank": 4
+  },
+  "253": {
+    "id": 253,
+    "name": "gun-10000253",
+    "en_name": "Lewis",
+    "code": "Lewis",
+    "rank": 5
+  },
+  "254": {
+    "id": 254,
+    "name": "gun-10000254",
+    "en_name": "UKM-2000",
+    "code": "UKM2000",
+    "rank": 4
+  },
+  "255": {
+    "id": 255,
+    "name": "gun-10000255",
+    "en_name": "Scout",
+    "code": "scout",
     "rank": 3
   },
   "1001": {
@@ -1986,6 +2035,69 @@
     "en_name": "AN94",
     "code": "AN94",
     "rank": 5
+  },
+  "9036": {
+    "id": 9036,
+    "name": "gun-10009036",
+    "en_name": "M4A1_Motor",
+    "code": "M4A1_Motor",
+    "rank": 4
+  },
+  "9037": {
+    "id": 9037,
+    "name": "gun-10009037",
+    "en_name": "AR15_Motor",
+    "code": "AR15_Motor",
+    "rank": 4
+  },
+  "9038": {
+    "id": 9038,
+    "name": "gun-10009038",
+    "en_name": "AK12_Motor",
+    "code": "AK12_Motor",
+    "rank": 5
+  },
+  "9039": {
+    "id": 9039,
+    "name": "gun-10009039",
+    "en_name": "AN94_Motor",
+    "code": "AN94_Motor",
+    "rank": 5
+  },
+  "9040": {
+    "id": 9040,
+    "name": "gun-10009040",
+    "en_name": "M4A1",
+    "code": "M4A1_Motor",
+    "rank": 5
+  },
+  "9041": {
+    "id": 9041,
+    "name": "gun-10009041",
+    "en_name": "M4A1",
+    "code": "M4A1_Motor",
+    "rank": 5
+  },
+  "9042": {
+    "id": 9042,
+    "name": "gun-10009042",
+    "en_name": "M4A1",
+    "code": "M4A1_Motor",
+    "rank": 5
+  },
+  "9043": {
+    "id": 9043,
+    "name": "gun-10009043",
+    "en_name": "M4A1",
+    "code": "M4A1_Motor",
+    "rank": 5
+  },
+  "9044": {
+    "id": 9044,
+    "name": "gun-10009044",
+    "en_name": "M16A1",
+    "code": "M16A1_NPC",
+    "rank": 4
   },
   "20001": {
     "id": 20001,

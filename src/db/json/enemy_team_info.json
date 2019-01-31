@@ -94045,7 +94045,7 @@
       40403324,
       40403325
     ],
-    "spot_id": 0,
+    "spot_id": -1,
     "drops_limit": [
       "gun-10000254",
       "gun-10000223",
@@ -94080,7 +94080,7 @@
       40403331,
       40403332
     ],
-    "spot_id": 0,
+    "spot_id": -1,
     "drops_limit": [
       "gun-10000254",
       "gun-10000223",
@@ -94115,7 +94115,7 @@
       40403338,
       40403339
     ],
-    "spot_id": 0,
+    "spot_id": -1,
     "drops_limit": [
       "gun-10000242",
       "gun-10000232",
@@ -94150,7 +94150,7 @@
       40403345,
       40403346
     ],
-    "spot_id": 0,
+    "spot_id": -1,
     "drops_limit": [
       "gun-10000251",
       "gun-10000241",
@@ -94185,7 +94185,7 @@
       40403352,
       40403353
     ],
-    "spot_id": 0,
+    "spot_id": -1,
     "drops_limit": [
       "gun-10000254",
       "gun-10000223",
@@ -94220,7 +94220,7 @@
       40403359,
       40403360
     ],
-    "spot_id": 0,
+    "spot_id": -1,
     "drops_limit": [
       "gun-10000242",
       "gun-10000232",
@@ -94255,7 +94255,7 @@
       40403366,
       40403367
     ],
-    "spot_id": 0,
+    "spot_id": -1,
     "drops_limit": [
       "gun-10000251",
       "gun-10000241",
@@ -94286,7 +94286,7 @@
       40403369,
       40403370
     ],
-    "spot_id": 12471,
+    "spot_id": -1,
     "drops_limit": [],
     "drops_reg_count": [
       0,
@@ -94314,7 +94314,7 @@
       40403373,
       40403374
     ],
-    "spot_id": 12492,
+    "spot_id": -1,
     "drops_limit": [],
     "drops_reg_count": [
       0,
@@ -94347,7 +94347,7 @@
       40403382,
       40403383
     ],
-    "spot_id": 12487,
+    "spot_id": -1,
     "drops_limit": [],
     "drops_reg_count": [
       0,
@@ -94377,7 +94377,7 @@
       40403388,
       40403389
     ],
-    "spot_id": 12493,
+    "spot_id": -1,
     "drops_limit": [],
     "drops_reg_count": [
       0,
@@ -94407,7 +94407,7 @@
       40403394,
       40403395
     ],
-    "spot_id": 12495,
+    "spot_id": -1,
     "drops_limit": [],
     "drops_reg_count": [
       0,
@@ -94437,7 +94437,7 @@
       40403400,
       40403401
     ],
-    "spot_id": 0,
+    "spot_id": -1,
     "drops_limit": [],
     "drops_reg_count": [
       0,
@@ -94470,7 +94470,7 @@
       40403409,
       40403410
     ],
-    "spot_id": 0,
+    "spot_id": -1,
     "drops_limit": [],
     "drops_reg_count": [
       0,
@@ -94503,7 +94503,7 @@
       40403418,
       40403419
     ],
-    "spot_id": 0,
+    "spot_id": -1,
     "drops_limit": [],
     "drops_reg_count": [
       0,
@@ -94533,7 +94533,7 @@
       40403424,
       40403425
     ],
-    "spot_id": 0,
+    "spot_id": -1,
     "drops_limit": [],
     "drops_reg_count": [
       0,
@@ -94560,7 +94560,7 @@
       40403427,
       40403428
     ],
-    "spot_id": 0,
+    "spot_id": -1,
     "drops_limit": [],
     "drops_reg_count": [
       0,
@@ -94589,7 +94589,7 @@
       40403432,
       40403433
     ],
-    "spot_id": 0,
+    "spot_id": -1,
     "drops_limit": [],
     "drops_reg_count": [
       0,
@@ -94618,7 +94618,7 @@
       40403437,
       40403438
     ],
-    "spot_id": 0,
+    "spot_id": -1,
     "drops_limit": [],
     "drops_reg_count": [
       0,
@@ -94645,7 +94645,7 @@
       40403440,
       40403441
     ],
-    "spot_id": 0,
+    "spot_id": -1,
     "drops_limit": [],
     "drops_reg_count": [
       0,
@@ -94677,7 +94677,7 @@
       40403448,
       40403449
     ],
-    "spot_id": 0,
+    "spot_id": -1,
     "drops_limit": [],
     "drops_reg_count": [
       0,
@@ -94709,7 +94709,7 @@
       40403456,
       40403457
     ],
-    "spot_id": 0,
+    "spot_id": -1,
     "drops_limit": [],
     "drops_reg_count": [
       0,
@@ -94739,7 +94739,7 @@
       40403462,
       40403463
     ],
-    "spot_id": 0,
+    "spot_id": -1,
     "drops_limit": [],
     "drops_reg_count": [
       0,
@@ -94769,7 +94769,7 @@
       40403468,
       40403469
     ],
-    "spot_id": 0,
+    "spot_id": -1,
     "drops_limit": [],
     "drops_reg_count": [
       0,
@@ -94796,7 +94796,7 @@
       40403471,
       40403472
     ],
-    "spot_id": 0,
+    "spot_id": -1,
     "drops_limit": [],
     "drops_reg_count": [
       0,
@@ -94825,7 +94825,7 @@
       40403476,
       40403477
     ],
-    "spot_id": 0,
+    "spot_id": -1,
     "drops_limit": [],
     "drops_reg_count": [
       0,
@@ -94854,7 +94854,7 @@
       40403481,
       40403482
     ],
-    "spot_id": 0,
+    "spot_id": -1,
     "drops_limit": [],
     "drops_reg_count": [
       0,
@@ -94881,7 +94881,7 @@
       40403484,
       40403485
     ],
-    "spot_id": 0,
+    "spot_id": -1,
     "drops_limit": [],
     "drops_reg_count": [
       0,
@@ -94915,7 +94915,7 @@
       40403494,
       40403495
     ],
-    "spot_id": 0,
+    "spot_id": -1,
     "drops_limit": [],
     "drops_reg_count": [
       0,
@@ -94951,7 +94951,7 @@
       40403506,
       40403507
     ],
-    "spot_id": 0,
+    "spot_id": -1,
     "drops_limit": [],
     "drops_reg_count": [
       0,
@@ -94987,7 +94987,7 @@
       40403518,
       40403519
     ],
-    "spot_id": 0,
+    "spot_id": -1,
     "drops_limit": [],
     "drops_reg_count": [
       0,
@@ -95019,7 +95019,7 @@
       40403526,
       40403527
     ],
-    "spot_id": 0,
+    "spot_id": -1,
     "drops_limit": [],
     "drops_reg_count": [
       0,
@@ -95046,7 +95046,7 @@
       40403529,
       40403530
     ],
-    "spot_id": 0,
+    "spot_id": -1,
     "drops_limit": [],
     "drops_reg_count": [
       0,
@@ -95084,7 +95084,7 @@
       40403543,
       40403544
     ],
-    "spot_id": 0,
+    "spot_id": -1,
     "drops_limit": [],
     "drops_reg_count": [
       0,
@@ -95113,7 +95113,7 @@
       40403548,
       40403549
     ],
-    "spot_id": 0,
+    "spot_id": -1,
     "drops_limit": [],
     "drops_reg_count": [
       0,
@@ -95146,7 +95146,7 @@
       40403557,
       40403558
     ],
-    "spot_id": 0,
+    "spot_id": -1,
     "drops_limit": [],
     "drops_reg_count": [
       0,
@@ -95178,7 +95178,7 @@
       40403565,
       40403566
     ],
-    "spot_id": 0,
+    "spot_id": -1,
     "drops_limit": [],
     "drops_reg_count": [
       0,
@@ -95209,7 +95209,7 @@
       40403572,
       40403573
     ],
-    "spot_id": 0,
+    "spot_id": -1,
     "drops_limit": [],
     "drops_reg_count": [
       0,
@@ -95238,7 +95238,7 @@
       40403577,
       40403578
     ],
-    "spot_id": 0,
+    "spot_id": -1,
     "drops_limit": [],
     "drops_reg_count": [
       0,
@@ -95274,7 +95274,7 @@
       40403589,
       40403590
     ],
-    "spot_id": 0,
+    "spot_id": -1,
     "drops_limit": [],
     "drops_reg_count": [
       0,
@@ -95306,7 +95306,7 @@
       40403597,
       40403598
     ],
-    "spot_id": 0,
+    "spot_id": -1,
     "drops_limit": [],
     "drops_reg_count": [
       0,
@@ -95337,7 +95337,7 @@
       40403604,
       40403605
     ],
-    "spot_id": 0,
+    "spot_id": -1,
     "drops_limit": [],
     "drops_reg_count": [
       0,
@@ -95366,7 +95366,7 @@
       40403609,
       40403610
     ],
-    "spot_id": 0,
+    "spot_id": -1,
     "drops_limit": [],
     "drops_reg_count": [
       0,
@@ -95402,7 +95402,7 @@
       40403621,
       40403622
     ],
-    "spot_id": 0,
+    "spot_id": -1,
     "drops_limit": [],
     "drops_reg_count": [
       0,
@@ -95432,7 +95432,7 @@
       40403627,
       40403628
     ],
-    "spot_id": 0,
+    "spot_id": -1,
     "drops_limit": [],
     "drops_reg_count": [
       0,
@@ -95463,7 +95463,7 @@
       40403634,
       40403635
     ],
-    "spot_id": 0,
+    "spot_id": -1,
     "drops_limit": [],
     "drops_reg_count": [
       0,
@@ -95499,7 +95499,7 @@
       40403646,
       40403647
     ],
-    "spot_id": 0,
+    "spot_id": -1,
     "drops_limit": [],
     "drops_reg_count": [
       0,
@@ -95531,7 +95531,7 @@
       40403654,
       40403655
     ],
-    "spot_id": 0,
+    "spot_id": -1,
     "drops_limit": [],
     "drops_reg_count": [
       0,
@@ -95564,7 +95564,7 @@
       40403663,
       40403664
     ],
-    "spot_id": 12430,
+    "spot_id": -1,
     "drops_limit": [],
     "drops_reg_count": [
       0,
@@ -95607,7 +95607,7 @@
       40403672,
       40403673
     ],
-    "spot_id": 12456,
+    "spot_id": -1,
     "drops_limit": [],
     "drops_reg_count": [
       0,
@@ -95648,7 +95648,7 @@
       40403679,
       40403680
     ],
-    "spot_id": 12459,
+    "spot_id": -1,
     "drops_limit": [],
     "drops_reg_count": [
       0,
@@ -95689,7 +95689,7 @@
       40403686,
       40403687
     ],
-    "spot_id": 12419,
+    "spot_id": -1,
     "drops_limit": [],
     "drops_reg_count": [
       0,
@@ -95732,7 +95732,7 @@
       40403695,
       40403696
     ],
-    "spot_id": 12468,
+    "spot_id": -1,
     "drops_limit": [],
     "drops_reg_count": [
       0,
@@ -95775,7 +95775,7 @@
       40403704,
       40403705
     ],
-    "spot_id": 12473,
+    "spot_id": -1,
     "drops_limit": [],
     "drops_reg_count": [
       0,
@@ -95818,7 +95818,7 @@
       40403713,
       40403714
     ],
-    "spot_id": 12474,
+    "spot_id": -1,
     "drops_limit": [
       "gun-10000254",
       "gun-10000223",
@@ -95865,7 +95865,7 @@
       40403722,
       40403723
     ],
-    "spot_id": 12476,
+    "spot_id": -1,
     "drops_limit": [
       "gun-10000254",
       "gun-10000223",
@@ -95910,7 +95910,7 @@
       40403729,
       40403730
     ],
-    "spot_id": 12457,
+    "spot_id": -1,
     "drops_limit": [
       "gun-10000254",
       "gun-10000223",
@@ -97547,7 +97547,7 @@
       40404078,
       40404079
     ],
-    "spot_id": 12445,
+    "spot_id": -1,
     "drops_limit": [
       "gun-10000254",
       "gun-10000223",
@@ -97616,7 +97616,7 @@
       40402535,
       40402536
     ],
-    "spot_id": 0,
+    "spot_id": -1,
     "drops_limit": [
       "gun-10000254",
       "gun-10000223",
@@ -97651,7 +97651,7 @@
       40402542,
       40402543
     ],
-    "spot_id": 0,
+    "spot_id": -1,
     "drops_limit": [
       "gun-10000254",
       "gun-10000223",
@@ -97686,7 +97686,7 @@
       40402549,
       40402550
     ],
-    "spot_id": 0,
+    "spot_id": -1,
     "drops_limit": [
       "gun-10000242",
       "gun-10000232",
@@ -97721,7 +97721,7 @@
       40402556,
       40402557
     ],
-    "spot_id": 0,
+    "spot_id": -1,
     "drops_limit": [
       "gun-10000251",
       "gun-10000241",
@@ -97756,7 +97756,7 @@
       40402563,
       40402564
     ],
-    "spot_id": 0,
+    "spot_id": -1,
     "drops_limit": [
       "gun-10000254",
       "gun-10000223",
@@ -97791,7 +97791,7 @@
       40402570,
       40402571
     ],
-    "spot_id": 0,
+    "spot_id": -1,
     "drops_limit": [
       "gun-10000242",
       "gun-10000232",
@@ -97826,7 +97826,7 @@
       40402577,
       40402578
     ],
-    "spot_id": 0,
+    "spot_id": -1,
     "drops_limit": [
       "gun-10000251",
       "gun-10000241",
@@ -97857,7 +97857,7 @@
       40402580,
       40402581
     ],
-    "spot_id": 12261,
+    "spot_id": -1,
     "drops_limit": [],
     "drops_reg_count": [
       0,
@@ -97885,7 +97885,7 @@
       40402584,
       40402585
     ],
-    "spot_id": 12282,
+    "spot_id": -1,
     "drops_limit": [],
     "drops_reg_count": [
       0,
@@ -97918,7 +97918,7 @@
       40402593,
       40402594
     ],
-    "spot_id": 12277,
+    "spot_id": -1,
     "drops_limit": [],
     "drops_reg_count": [
       0,
@@ -97948,7 +97948,7 @@
       40402599,
       40402600
     ],
-    "spot_id": 12283,
+    "spot_id": -1,
     "drops_limit": [],
     "drops_reg_count": [
       0,
@@ -97978,7 +97978,7 @@
       40402605,
       40402606
     ],
-    "spot_id": 12285,
+    "spot_id": -1,
     "drops_limit": [],
     "drops_reg_count": [
       0,
@@ -98008,7 +98008,7 @@
       40402611,
       40402612
     ],
-    "spot_id": 0,
+    "spot_id": -1,
     "drops_limit": [],
     "drops_reg_count": [
       0,
@@ -98041,7 +98041,7 @@
       40402620,
       40402621
     ],
-    "spot_id": 0,
+    "spot_id": -1,
     "drops_limit": [],
     "drops_reg_count": [
       0,
@@ -98074,7 +98074,7 @@
       40402629,
       40402630
     ],
-    "spot_id": 0,
+    "spot_id": -1,
     "drops_limit": [],
     "drops_reg_count": [
       0,
@@ -98104,7 +98104,7 @@
       40402635,
       40402636
     ],
-    "spot_id": 0,
+    "spot_id": -1,
     "drops_limit": [],
     "drops_reg_count": [
       0,
@@ -98131,7 +98131,7 @@
       40402638,
       40402639
     ],
-    "spot_id": 0,
+    "spot_id": -1,
     "drops_limit": [],
     "drops_reg_count": [
       0,
@@ -98160,7 +98160,7 @@
       40402643,
       40402644
     ],
-    "spot_id": 0,
+    "spot_id": -1,
     "drops_limit": [],
     "drops_reg_count": [
       0,
@@ -98189,7 +98189,7 @@
       40402648,
       40402649
     ],
-    "spot_id": 0,
+    "spot_id": -1,
     "drops_limit": [],
     "drops_reg_count": [
       0,
@@ -98216,7 +98216,7 @@
       40402651,
       40402652
     ],
-    "spot_id": 0,
+    "spot_id": -1,
     "drops_limit": [],
     "drops_reg_count": [
       0,
@@ -98248,7 +98248,7 @@
       40402659,
       40402660
     ],
-    "spot_id": 0,
+    "spot_id": -1,
     "drops_limit": [],
     "drops_reg_count": [
       0,
@@ -98280,7 +98280,7 @@
       40402667,
       40402668
     ],
-    "spot_id": 0,
+    "spot_id": -1,
     "drops_limit": [],
     "drops_reg_count": [
       0,
@@ -98310,7 +98310,7 @@
       40402673,
       40402674
     ],
-    "spot_id": 0,
+    "spot_id": -1,
     "drops_limit": [],
     "drops_reg_count": [
       0,
@@ -98340,7 +98340,7 @@
       40402679,
       40402680
     ],
-    "spot_id": 0,
+    "spot_id": -1,
     "drops_limit": [],
     "drops_reg_count": [
       0,
@@ -98367,7 +98367,7 @@
       40402682,
       40402683
     ],
-    "spot_id": 0,
+    "spot_id": -1,
     "drops_limit": [],
     "drops_reg_count": [
       0,
@@ -98396,7 +98396,7 @@
       40402687,
       40402688
     ],
-    "spot_id": 0,
+    "spot_id": -1,
     "drops_limit": [],
     "drops_reg_count": [
       0,
@@ -98425,7 +98425,7 @@
       40402692,
       40402693
     ],
-    "spot_id": 0,
+    "spot_id": -1,
     "drops_limit": [],
     "drops_reg_count": [
       0,
@@ -98452,7 +98452,7 @@
       40402695,
       40402696
     ],
-    "spot_id": 0,
+    "spot_id": -1,
     "drops_limit": [],
     "drops_reg_count": [
       0,
@@ -98486,7 +98486,7 @@
       40402705,
       40402706
     ],
-    "spot_id": 0,
+    "spot_id": -1,
     "drops_limit": [],
     "drops_reg_count": [
       0,
@@ -98522,7 +98522,7 @@
       40402717,
       40402718
     ],
-    "spot_id": 0,
+    "spot_id": -1,
     "drops_limit": [],
     "drops_reg_count": [
       0,
@@ -98558,7 +98558,7 @@
       40402729,
       40402730
     ],
-    "spot_id": 0,
+    "spot_id": -1,
     "drops_limit": [],
     "drops_reg_count": [
       0,
@@ -98590,7 +98590,7 @@
       40402737,
       40402738
     ],
-    "spot_id": 0,
+    "spot_id": -1,
     "drops_limit": [],
     "drops_reg_count": [
       0,
@@ -98617,7 +98617,7 @@
       40402740,
       40402741
     ],
-    "spot_id": 0,
+    "spot_id": -1,
     "drops_limit": [],
     "drops_reg_count": [
       0,
@@ -98655,7 +98655,7 @@
       40402754,
       40402755
     ],
-    "spot_id": 0,
+    "spot_id": -1,
     "drops_limit": [],
     "drops_reg_count": [
       0,
@@ -98684,7 +98684,7 @@
       40402759,
       40402760
     ],
-    "spot_id": 0,
+    "spot_id": -1,
     "drops_limit": [],
     "drops_reg_count": [
       0,
@@ -98717,7 +98717,7 @@
       40402768,
       40402769
     ],
-    "spot_id": 0,
+    "spot_id": -1,
     "drops_limit": [],
     "drops_reg_count": [
       0,
@@ -98749,7 +98749,7 @@
       40402776,
       40402777
     ],
-    "spot_id": 0,
+    "spot_id": -1,
     "drops_limit": [],
     "drops_reg_count": [
       0,
@@ -98780,7 +98780,7 @@
       40402783,
       40402784
     ],
-    "spot_id": 0,
+    "spot_id": -1,
     "drops_limit": [],
     "drops_reg_count": [
       0,
@@ -98809,7 +98809,7 @@
       40402788,
       40402789
     ],
-    "spot_id": 0,
+    "spot_id": -1,
     "drops_limit": [],
     "drops_reg_count": [
       0,
@@ -98845,7 +98845,7 @@
       40402800,
       40402801
     ],
-    "spot_id": 0,
+    "spot_id": -1,
     "drops_limit": [],
     "drops_reg_count": [
       0,
@@ -98877,7 +98877,7 @@
       40402808,
       40402809
     ],
-    "spot_id": 0,
+    "spot_id": -1,
     "drops_limit": [],
     "drops_reg_count": [
       0,
@@ -98908,7 +98908,7 @@
       40402815,
       40402816
     ],
-    "spot_id": 0,
+    "spot_id": -1,
     "drops_limit": [],
     "drops_reg_count": [
       0,
@@ -98937,7 +98937,7 @@
       40402820,
       40402821
     ],
-    "spot_id": 0,
+    "spot_id": -1,
     "drops_limit": [],
     "drops_reg_count": [
       0,
@@ -98973,7 +98973,7 @@
       40402832,
       40402833
     ],
-    "spot_id": 0,
+    "spot_id": -1,
     "drops_limit": [],
     "drops_reg_count": [
       0,
@@ -99003,7 +99003,7 @@
       40402838,
       40402839
     ],
-    "spot_id": 0,
+    "spot_id": -1,
     "drops_limit": [],
     "drops_reg_count": [
       0,
@@ -99034,7 +99034,7 @@
       40402845,
       40402846
     ],
-    "spot_id": 0,
+    "spot_id": -1,
     "drops_limit": [],
     "drops_reg_count": [
       0,
@@ -99070,7 +99070,7 @@
       40402857,
       40402858
     ],
-    "spot_id": 0,
+    "spot_id": -1,
     "drops_limit": [],
     "drops_reg_count": [
       0,
@@ -99102,7 +99102,7 @@
       40402865,
       40402866
     ],
-    "spot_id": 12433,
+    "spot_id": -1,
     "drops_limit": [],
     "drops_reg_count": [
       0,
@@ -99135,7 +99135,7 @@
       40402874,
       40402875
     ],
-    "spot_id": 12220,
+    "spot_id": -1,
     "drops_limit": [],
     "drops_reg_count": [
       0,
@@ -99179,7 +99179,7 @@
       40402883,
       40402884
     ],
-    "spot_id": 12246,
+    "spot_id": -1,
     "drops_limit": [],
     "drops_reg_count": [
       0,
@@ -99221,7 +99221,7 @@
       40402890,
       40402891
     ],
-    "spot_id": 12249,
+    "spot_id": -1,
     "drops_limit": [],
     "drops_reg_count": [
       0,
@@ -99263,7 +99263,7 @@
       40402897,
       40402898
     ],
-    "spot_id": 12209,
+    "spot_id": -1,
     "drops_limit": [],
     "drops_reg_count": [
       0,
@@ -99307,7 +99307,7 @@
       40402906,
       40402907
     ],
-    "spot_id": 12258,
+    "spot_id": -1,
     "drops_limit": [],
     "drops_reg_count": [
       0,
@@ -99351,7 +99351,7 @@
       40402915,
       40402916
     ],
-    "spot_id": 12263,
+    "spot_id": -1,
     "drops_limit": [],
     "drops_reg_count": [
       0,
@@ -99395,7 +99395,7 @@
       40402924,
       40402925
     ],
-    "spot_id": 12264,
+    "spot_id": -1,
     "drops_limit": [
       "gun-10000242",
       "gun-10000232",
@@ -99443,7 +99443,7 @@
       40402933,
       40402934
     ],
-    "spot_id": 12266,
+    "spot_id": -1,
     "drops_limit": [
       "gun-10000251",
       "gun-10000241",
@@ -99489,7 +99489,7 @@
       40402940,
       40402941
     ],
-    "spot_id": 12247,
+    "spot_id": -1,
     "drops_limit": [
       "gun-10000254",
       "gun-10000223",
@@ -101156,7 +101156,7 @@
       40403289,
       40403290
     ],
-    "spot_id": 12235,
+    "spot_id": -1,
     "drops_limit": [
       "gun-10000254",
       "gun-10000223",

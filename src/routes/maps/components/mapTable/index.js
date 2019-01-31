@@ -72,7 +72,36 @@ const TeamTable = ({
     }
     return str.length
   }
-
+  const getMembers = (enemyTeam) => {
+    const countDict = {}
+    forEach(enemyTeam.member_ids, (menId) => {
+      const char_id = enemy_in_team_info[menId].enemy_character_type_id;
+      const name = __(enemy_character_type_info[char_id].name)
+      countDict[name] = (countDict[name] || 0) + enemy_in_team_info[menId].number
+    })
+    let members = ''
+    forEach(countDict, (val, key) => {
+      members += key + '*' + val + ' '
+    });
+    return members;
+  }
+  const getLimitedDrop = (enemyTeam) => {
+    let drops_limit = ''
+    forEach(enemyTeam.drops_limit, (drop) => {
+      drops_limit += __(drop) + ' '
+    })
+    return drops_limit;
+  }
+  const getRegularDrop = (enemyTeam) => {
+    let drops_reg = ''
+    let rank = 0
+    for (rank = 0; rank < 5; rank++) { 
+      if (enemyTeam.drops_reg_count[rank] > 0) {
+        drops_reg += "★" + (rank + 1).toString() + "×" + enemyTeam.drops_reg_count[rank] + " "
+      }
+    }
+    return drops_reg;
+  }
   
 
   // 属性定义
@@ -82,27 +111,6 @@ const TeamTable = ({
     let i = 0
     forEach(teamIds, (count, teamId) => {
       const enemyTeam = enemy_team_info[teamId]
-      const countDict = {}
-      forEach(enemyTeam.member_ids, (menId) => {
-        const char_id = enemy_in_team_info[menId].enemy_character_type_id;
-        const name = __(enemy_character_type_info[char_id].name)
-        countDict[name] = (countDict[name] || 0) + enemy_in_team_info[menId].number
-      })
-      let members = ''
-      forEach(countDict, (val, key) => {
-        members += key + '*' + val + ' '
-      });
-      let drops_limit = ''
-      forEach(enemyTeam.drops_limit, (drop) => {
-        drops_limit += __(drop) + ' '
-      })
-      let drops_reg = ''
-      let rank = 0
-      for (rank = 0; rank < 5; rank++) { 
-        if (enemyTeam.drops_reg_count[rank] > 0) {
-          drops_reg += "★" + (rank + 1).toString() + "×" + enemyTeam.drops_reg_count[rank] + " "
-        }
-      }
       const teamPower = Game.getEnemyTeamPower(enemyTeam, currentTurn);
 
       data[i] = {
@@ -110,10 +118,10 @@ const TeamTable = ({
         leader: __(enemy_character_type_info[enemyTeam.enemy_leader].name),
         power: teamPower,
         power_display: teamPower + (enemyTeam.correction_turn?"*":""),
-        members: members,
+        members: getMembers(enemyTeam),
         count: count,
-        drop_limit: drops_limit,
-        drop_reg: drops_reg,
+        drop_limit: getLimitedDrop(enemyTeam),
+        drop_reg: getRegularDrop(enemyTeam),
         member_ids: enemyTeam.member_ids,
       }
       i += 1

@@ -773,6 +773,12 @@
     "parameter_value": "10,10",
     "client_require": 1
   },
+  "friend_cosmetic_filter_type": {
+    "parameter_name": "friend_cosmetic_filter_type",
+    "parameter_type": "string",
+    "parameter_value": "1:1554,Activity;2:1555,Griffin;3:1556,Sangvis;4:1558,Skin;5:1559,Original;6:1560,Live2D;7:1561,Hot;8:1562,Rare;9:1563,New",
+    "client_require": 1
+  },
   "friend_itemstore_switch": {
     "parameter_name": "friend_itemstore_switch",
     "parameter_type": "int",
@@ -1061,6 +1067,12 @@
     "parameter_value": "1,100000;2,100000;3,100000;4,100000;5,100000;6,100000;7,100000",
     "client_require": 1
   },
+  "mission_group_reset_draw_max_client": {
+    "parameter_name": "mission_group_reset_draw_max_client",
+    "parameter_type": "string",
+    "parameter_value": "1,0;2,0;3,0;4,100000;5,100000;6,100000;7,0",
+    "client_require": 1
+  },
   "naive_build_gun_formula": {
     "parameter_name": "naive_build_gun_formula",
     "parameter_type": "string",
@@ -1149,6 +1161,12 @@
     "parameter_name": "pet_decorate_limit",
     "parameter_type": "int",
     "parameter_value": "3000",
+    "client_require": 1
+  },
+  "plan_mode_limit": {
+    "parameter_name": "plan_mode_limit",
+    "parameter_type": "int",
+    "parameter_value": "40",
     "client_require": 1
   },
   "plan_mode_off": {

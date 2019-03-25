@@ -123,6 +123,7 @@ const TeamTable = ({
         drop_limit: getLimitedDrop(enemyTeam),
         drop_reg: getRegularDrop(enemyTeam),
         member_ids: enemyTeam.member_ids,
+        note: (enemyTeam.no_map && enemyTeam.is_night?__('map_tbl.night_battle'):"")
       }
       i += 1
     })
@@ -163,6 +164,11 @@ const TeamTable = ({
       title: __('map_tbl.drop_reg'),
       dataIndex: 'drop_reg',
       sorter: (a, b) => getStrLength(a.drop_reg) - getStrLength(b.drop_reg),
+    },
+    {
+      title: __('map_tbl.note'),
+      dataIndex: 'note',
+      sorter: (a, b) => getStrLength(a.note) - getStrLength(b.note),
     },
   ]
   const propsOfTable = {

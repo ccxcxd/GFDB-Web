@@ -161,6 +161,11 @@ class Map {
       this.power_display = displayPower
     }
 
+    if (mission_info[missionId].no_map) {
+      this.remove();
+      return;
+    }
+
     this.show = true;
     this.missionId = missionId;
     this.preloadResources();

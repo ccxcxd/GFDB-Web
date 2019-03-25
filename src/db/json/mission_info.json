@@ -89,7 +89,8 @@
     "win_objs": [
       2
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "2": {
     "id": 2,
@@ -199,7 +200,8 @@
     "win_objs": [
       2
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "3": {
     "id": 3,
@@ -313,7 +315,8 @@
     "win_objs": [
       2
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "4": {
     "id": 4,
@@ -446,7 +449,8 @@
     "win_objs": [
       2
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "5": {
     "id": 5,
@@ -533,7 +537,8 @@
     "win_objs": [
       2
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "6": {
     "id": 6,
@@ -626,7 +631,8 @@
     "win_objs": [
       2
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "7": {
     "id": 7,
@@ -721,7 +727,8 @@
     "win_objs": [
       2
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "8": {
     "id": 8,
@@ -818,7 +825,8 @@
     "win_objs": [
       2
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "9": {
     "id": 9,
@@ -920,7 +928,8 @@
     "win_objs": [
       2
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "10": {
     "id": 10,
@@ -957,7 +966,7 @@
     "fog_length": "",
     "fog_color": "",
     "limit_equip_pool": "",
-    "draw_event_s_id": "179",
+    "draw_event_s_id": "203",
     "support_available": 2,
     "enemy_quickmove": 0,
     "expect_defend_line_turn": 0,
@@ -983,7 +992,7 @@
     "color_change_number": "0",
     "color_change_result": "0",
     "spot_reset": "0",
-    "draw_code": "0",
+    "draw_code": "203,1,chocolatedog;0",
     "reset_drop_key_once": 0,
     "close_mission_control": "0",
     "limit_squad": 0,
@@ -1026,7 +1035,8 @@
     "win_objs": [
       2
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "11": {
     "id": 11,
@@ -1121,7 +1131,8 @@
     "win_objs": [
       2
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "12": {
     "id": 12,
@@ -1218,7 +1229,8 @@
     "win_objs": [
       2
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "13": {
     "id": 13,
@@ -1320,7 +1332,8 @@
     "win_objs": [
       2
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "14": {
     "id": 14,
@@ -1357,7 +1370,7 @@
     "fog_length": "",
     "fog_color": "",
     "limit_equip_pool": "",
-    "draw_event_s_id": "0",
+    "draw_event_s_id": "197",
     "support_available": 2,
     "enemy_quickmove": 0,
     "expect_defend_line_turn": 0,
@@ -1426,7 +1439,8 @@
     "win_objs": [
       2
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "15": {
     "id": 15,
@@ -1522,7 +1536,8 @@
     "win_objs": [
       2
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "16": {
     "id": 16,
@@ -1618,7 +1633,8 @@
     "win_objs": [
       2
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "17": {
     "id": 17,
@@ -1721,7 +1737,8 @@
     "win_objs": [
       2
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "18": {
     "id": 18,
@@ -1820,7 +1837,8 @@
     "win_objs": [
       2
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "19": {
     "id": 19,
@@ -1924,7 +1942,8 @@
     "win_objs": [
       2
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "20": {
     "id": 20,
@@ -1961,7 +1980,7 @@
     "fog_length": "",
     "fog_color": "",
     "limit_equip_pool": "",
-    "draw_event_s_id": "180",
+    "draw_event_s_id": "204",
     "support_available": 2,
     "enemy_quickmove": 0,
     "expect_defend_line_turn": 0,
@@ -1987,7 +2006,7 @@
     "color_change_number": "0",
     "color_change_result": "0",
     "spot_reset": "0",
-    "draw_code": "0",
+    "draw_code": "204,1,chocolatedog;0",
     "reset_drop_key_once": 0,
     "close_mission_control": "0",
     "limit_squad": 0,
@@ -2030,7 +2049,8 @@
     "win_objs": [
       2
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "21": {
     "id": 21,
@@ -2133,7 +2153,8 @@
     "win_objs": [
       2
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "22": {
     "id": 22,
@@ -2234,7 +2255,8 @@
     "win_objs": [
       2
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "23": {
     "id": 23,
@@ -2340,7 +2362,8 @@
     "win_objs": [
       2
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "24": {
     "id": 24,
@@ -2377,7 +2400,7 @@
     "fog_length": "",
     "fog_color": "",
     "limit_equip_pool": "",
-    "draw_event_s_id": "158",
+    "draw_event_s_id": "198",
     "support_available": 2,
     "enemy_quickmove": 0,
     "expect_defend_line_turn": 0,
@@ -2446,7 +2469,8 @@
     "win_objs": [
       2
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "25": {
     "id": 25,
@@ -2541,7 +2565,8 @@
     "win_objs": [
       2
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "26": {
     "id": 26,
@@ -2640,7 +2665,8 @@
     "win_objs": [
       2
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "27": {
     "id": 27,
@@ -2740,7 +2766,8 @@
     "win_objs": [
       2
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "28": {
     "id": 28,
@@ -2840,7 +2867,8 @@
     "win_objs": [
       2
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "29": {
     "id": 29,
@@ -2944,7 +2972,8 @@
     "win_objs": [
       2
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "30": {
     "id": 30,
@@ -2981,7 +3010,7 @@
     "fog_length": "",
     "fog_color": "",
     "limit_equip_pool": "",
-    "draw_event_s_id": "181",
+    "draw_event_s_id": "205",
     "support_available": 2,
     "enemy_quickmove": 0,
     "expect_defend_line_turn": 0,
@@ -3007,7 +3036,7 @@
     "color_change_number": "0",
     "color_change_result": "0",
     "spot_reset": "0",
-    "draw_code": "0",
+    "draw_code": "205,1,chocolatedog;0",
     "reset_drop_key_once": 0,
     "close_mission_control": "0",
     "limit_squad": 0,
@@ -3056,7 +3085,8 @@
     "win_objs": [
       2
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "31": {
     "id": 31,
@@ -3155,7 +3185,8 @@
     "win_objs": [
       2
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "32": {
     "id": 32,
@@ -3255,7 +3286,8 @@
     "win_objs": [
       2
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "33": {
     "id": 33,
@@ -3359,7 +3391,8 @@
     "win_objs": [
       2
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "34": {
     "id": 34,
@@ -3396,7 +3429,7 @@
     "fog_length": "",
     "fog_color": "",
     "limit_equip_pool": "",
-    "draw_event_s_id": "159",
+    "draw_event_s_id": "199",
     "support_available": 2,
     "enemy_quickmove": 0,
     "expect_defend_line_turn": 0,
@@ -3468,7 +3501,8 @@
     "win_objs": [
       2
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "35": {
     "id": 35,
@@ -3566,7 +3600,8 @@
     "win_objs": [
       2
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "36": {
     "id": 36,
@@ -3663,7 +3698,8 @@
     "win_objs": [
       2
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "37": {
     "id": 37,
@@ -3766,7 +3802,8 @@
     "win_objs": [
       2
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "38": {
     "id": 38,
@@ -3871,7 +3908,8 @@
     "win_objs": [
       2
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "39": {
     "id": 39,
@@ -3981,7 +4019,8 @@
     "win_objs": [
       2
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "40": {
     "id": 40,
@@ -4018,7 +4057,7 @@
     "fog_length": "",
     "fog_color": "",
     "limit_equip_pool": "",
-    "draw_event_s_id": "182",
+    "draw_event_s_id": "206",
     "support_available": 2,
     "enemy_quickmove": 0,
     "expect_defend_line_turn": 0,
@@ -4044,7 +4083,7 @@
     "color_change_number": "0",
     "color_change_result": "0",
     "spot_reset": "0",
-    "draw_code": "0",
+    "draw_code": "206,1,chocolatedog;0",
     "reset_drop_key_once": 0,
     "close_mission_control": "0",
     "limit_squad": 0,
@@ -4099,7 +4138,8 @@
     "win_objs": [
       2
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "41": {
     "id": 41,
@@ -4202,7 +4242,8 @@
     "win_objs": [
       2
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "42": {
     "id": 42,
@@ -4306,7 +4347,8 @@
     "win_objs": [
       2
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "43": {
     "id": 43,
@@ -4416,7 +4458,8 @@
     "win_objs": [
       2
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "44": {
     "id": 44,
@@ -4453,7 +4496,7 @@
     "fog_length": "",
     "fog_color": "",
     "limit_equip_pool": "",
-    "draw_event_s_id": "160",
+    "draw_event_s_id": "200",
     "support_available": 2,
     "enemy_quickmove": 0,
     "expect_defend_line_turn": 0,
@@ -4534,7 +4577,8 @@
     "win_objs": [
       2
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "45": {
     "id": 45,
@@ -4643,7 +4687,8 @@
     "win_objs": [
       2
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "46": {
     "id": 46,
@@ -4754,7 +4799,8 @@
     "win_objs": [
       2
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "47": {
     "id": 47,
@@ -4871,7 +4917,8 @@
     "win_objs": [
       2
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "48": {
     "id": 48,
@@ -4991,7 +5038,8 @@
     "win_objs": [
       2
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "49": {
     "id": 49,
@@ -5112,7 +5160,8 @@
     "win_objs": [
       2
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "50": {
     "id": 50,
@@ -5149,7 +5198,7 @@
     "fog_length": "",
     "fog_color": "",
     "limit_equip_pool": "",
-    "draw_event_s_id": "183",
+    "draw_event_s_id": "207",
     "support_available": 2,
     "enemy_quickmove": 0,
     "expect_defend_line_turn": 0,
@@ -5175,7 +5224,7 @@
     "color_change_number": "0",
     "color_change_result": "0",
     "spot_reset": "0",
-    "draw_code": "0",
+    "draw_code": "207,1,chocolatedog;0",
     "reset_drop_key_once": 0,
     "close_mission_control": "0",
     "limit_squad": 0,
@@ -5235,7 +5284,8 @@
     "win_objs": [
       2
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "51": {
     "id": 51,
@@ -5350,7 +5400,8 @@
     "win_objs": [
       2
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "52": {
     "id": 52,
@@ -5471,7 +5522,8 @@
     "win_objs": [
       2
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "53": {
     "id": 53,
@@ -5590,7 +5642,8 @@
     "win_objs": [
       2
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "54": {
     "id": 54,
@@ -5627,7 +5680,7 @@
     "fog_length": "",
     "fog_color": "",
     "limit_equip_pool": "",
-    "draw_event_s_id": "161",
+    "draw_event_s_id": "201",
     "support_available": 2,
     "enemy_quickmove": 0,
     "expect_defend_line_turn": 0,
@@ -5715,7 +5768,8 @@
     "win_objs": [
       2
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "55": {
     "id": 55,
@@ -5815,7 +5869,8 @@
     "win_objs": [
       2
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "56": {
     "id": 56,
@@ -5915,7 +5970,8 @@
     "win_objs": [
       2
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "57": {
     "id": 57,
@@ -6014,7 +6070,8 @@
     "win_objs": [
       2
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "58": {
     "id": 58,
@@ -6121,7 +6178,8 @@
     "win_objs": [
       2
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "59": {
     "id": 59,
@@ -6230,7 +6288,8 @@
     "win_objs": [
       2
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "60": {
     "id": 60,
@@ -6267,7 +6326,7 @@
     "fog_length": "",
     "fog_color": "",
     "limit_equip_pool": "",
-    "draw_event_s_id": "184",
+    "draw_event_s_id": "208",
     "support_available": 2,
     "enemy_quickmove": 0,
     "expect_defend_line_turn": 0,
@@ -6293,7 +6352,7 @@
     "color_change_number": "0",
     "color_change_result": "0",
     "spot_reset": "0",
-    "draw_code": "0",
+    "draw_code": "208,1,chocolatedog;0",
     "reset_drop_key_once": 0,
     "close_mission_control": "0",
     "limit_squad": 0,
@@ -6341,7 +6400,8 @@
     "win_objs": [
       2
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "61": {
     "id": 61,
@@ -6441,7 +6501,8 @@
     "win_objs": [
       2
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "62": {
     "id": 62,
@@ -6547,7 +6608,8 @@
     "win_objs": [
       2
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "63": {
     "id": 63,
@@ -6655,7 +6717,8 @@
     "win_objs": [
       2
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "64": {
     "id": 64,
@@ -6692,7 +6755,7 @@
     "fog_length": "",
     "fog_color": "",
     "limit_equip_pool": "",
-    "draw_event_s_id": "162",
+    "draw_event_s_id": "202",
     "support_available": 2,
     "enemy_quickmove": 0,
     "expect_defend_line_turn": 0,
@@ -6783,7 +6846,8 @@
     "win_objs": [
       2
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "65": {
     "id": 65,
@@ -6881,7 +6945,8 @@
     "win_objs": [
       2
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "66": {
     "id": 66,
@@ -6981,7 +7046,8 @@
     "win_objs": [
       2
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "67": {
     "id": 67,
@@ -7085,7 +7151,8 @@
     "win_objs": [
       2
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "68": {
     "id": 68,
@@ -7190,7 +7257,8 @@
     "win_objs": [
       2
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "69": {
     "id": 69,
@@ -7295,7 +7363,8 @@
     "win_objs": [
       2
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "70": {
     "id": 70,
@@ -7403,7 +7472,8 @@
     "win_objs": [
       2
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "71": {
     "id": 71,
@@ -7507,7 +7577,8 @@
     "win_objs": [
       2
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "72": {
     "id": 72,
@@ -7613,7 +7684,8 @@
     "win_objs": [
       2
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "73": {
     "id": 73,
@@ -7720,7 +7792,8 @@
     "win_objs": [
       2
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "74": {
     "id": 74,
@@ -7829,7 +7902,8 @@
     "win_objs": [
       2
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "75": {
     "id": 75,
@@ -7933,7 +8007,8 @@
     "win_objs": [
       2
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "76": {
     "id": 76,
@@ -8041,7 +8116,8 @@
     "win_objs": [
       2
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "77": {
     "id": 77,
@@ -8155,7 +8231,8 @@
     "win_objs": [
       2
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "78": {
     "id": 78,
@@ -8278,7 +8355,8 @@
     "win_objs": [
       2
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "79": {
     "id": 79,
@@ -8397,7 +8475,8 @@
     "win_objs": [
       2
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "80": {
     "id": 80,
@@ -8519,7 +8598,8 @@
     "win_objs": [
       4
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "81": {
     "id": 81,
@@ -8633,7 +8713,8 @@
     "win_objs": [
       2
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "82": {
     "id": 82,
@@ -8755,7 +8836,8 @@
     "win_objs": [
       2
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "83": {
     "id": 83,
@@ -8875,7 +8957,8 @@
     "win_objs": [
       2
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "84": {
     "id": 84,
@@ -8998,7 +9081,8 @@
     "win_objs": [
       4
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "85": {
     "id": 85,
@@ -9097,7 +9181,8 @@
     "win_objs": [
       2
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "86": {
     "id": 86,
@@ -9200,7 +9285,8 @@
     "win_objs": [
       2
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "87": {
     "id": 87,
@@ -9300,7 +9386,8 @@
     "win_objs": [
       2
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "88": {
     "id": 88,
@@ -9408,7 +9495,8 @@
     "win_objs": [
       2
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "89": {
     "id": 89,
@@ -9512,7 +9600,8 @@
     "win_objs": [
       2
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "90": {
     "id": 90,
@@ -9616,7 +9705,8 @@
     "win_objs": [
       2
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "91": {
     "id": 91,
@@ -9718,7 +9808,8 @@
     "win_objs": [
       6
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "92": {
     "id": 92,
@@ -9826,7 +9917,8 @@
     "win_objs": [
       6
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "93": {
     "id": 93,
@@ -9930,7 +10022,8 @@
     "win_objs": [
       7
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "94": {
     "id": 94,
@@ -10034,7 +10127,8 @@
     "win_objs": [
       7
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "95": {
     "id": 95,
@@ -10147,7 +10241,8 @@
     "win_objs": [
       6
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "96": {
     "id": 96,
@@ -10269,7 +10364,8 @@
     "win_objs": [
       2
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "97": {
     "id": 97,
@@ -10385,7 +10481,8 @@
     "win_objs": [
       2
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "98": {
     "id": 98,
@@ -10500,7 +10597,8 @@
     "win_objs": [
       2
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "99": {
     "id": 99,
@@ -10623,7 +10721,8 @@
     "win_objs": [
       2
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "100": {
     "id": 100,
@@ -10740,7 +10839,8 @@
     "win_objs": [
       7
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "101": {
     "id": 101,
@@ -10850,7 +10950,8 @@
     "win_objs": [
       3
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "102": {
     "id": 102,
@@ -10972,7 +11073,8 @@
     "win_objs": [
       7
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "103": {
     "id": 103,
@@ -11091,7 +11193,8 @@
     "win_objs": [
       6
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "104": {
     "id": 104,
@@ -11217,7 +11320,8 @@
     "win_objs": [
       6
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "105": {
     "id": 105,
@@ -11357,7 +11461,8 @@
     "win_objs": [
       6
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "106": {
     "id": 106,
@@ -11491,7 +11596,8 @@
     "win_objs": [
       6
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "107": {
     "id": 107,
@@ -11614,7 +11720,8 @@
     "win_objs": [
       3
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "108": {
     "id": 108,
@@ -11737,7 +11844,8 @@
     "win_objs": [
       7
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "109": {
     "id": 109,
@@ -11872,7 +11980,8 @@
     "win_objs": [
       2
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "110": {
     "id": 110,
@@ -12012,7 +12121,8 @@
     "win_objs": [
       2
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "111": {
     "id": 111,
@@ -12153,7 +12263,8 @@
     "win_objs": [
       7
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "112": {
     "id": 112,
@@ -12285,7 +12396,8 @@
     "win_objs": [
       2
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "113": {
     "id": 113,
@@ -12416,7 +12528,8 @@
     "win_objs": [
       7
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "114": {
     "id": 114,
@@ -12588,7 +12701,8 @@
     "win_objs": [
       2
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "1101": {
     "id": 1101,
@@ -12677,7 +12791,8 @@
     "win_objs": [
       3
     ],
-    "has_medal_obj": false
+    "has_medal_obj": false,
+    "no_map": false
   },
   "1102": {
     "id": 1102,
@@ -12772,7 +12887,8 @@
     "win_objs": [
       3
     ],
-    "has_medal_obj": false
+    "has_medal_obj": false,
+    "no_map": false
   },
   "1103": {
     "id": 1103,
@@ -12874,7 +12990,8 @@
     "win_objs": [
       3
     ],
-    "has_medal_obj": false
+    "has_medal_obj": false,
+    "no_map": false
   },
   "1201": {
     "id": 1201,
@@ -12960,7 +13077,8 @@
     "win_objs": [
       3
     ],
-    "has_medal_obj": false
+    "has_medal_obj": false,
+    "no_map": false
   },
   "1202": {
     "id": 1202,
@@ -13047,7 +13165,8 @@
     "win_objs": [
       3
     ],
-    "has_medal_obj": false
+    "has_medal_obj": false,
+    "no_map": false
   },
   "1203": {
     "id": 1203,
@@ -13135,7 +13254,8 @@
     "win_objs": [
       3
     ],
-    "has_medal_obj": false
+    "has_medal_obj": false,
+    "no_map": false
   },
   "1301": {
     "id": 1301,
@@ -13219,7 +13339,8 @@
     "win_objs": [
       3
     ],
-    "has_medal_obj": false
+    "has_medal_obj": false,
+    "no_map": false
   },
   "1302": {
     "id": 1302,
@@ -13303,7 +13424,8 @@
     "win_objs": [
       3
     ],
-    "has_medal_obj": false
+    "has_medal_obj": false,
+    "no_map": false
   },
   "1303": {
     "id": 1303,
@@ -13387,7 +13509,8 @@
     "win_objs": [
       3
     ],
-    "has_medal_obj": false
+    "has_medal_obj": false,
+    "no_map": false
   },
   "1501": {
     "id": 1501,
@@ -13474,7 +13597,8 @@
     "win_objs": [
       3
     ],
-    "has_medal_obj": false
+    "has_medal_obj": false,
+    "no_map": false
   },
   "1502": {
     "id": 1502,
@@ -13562,7 +13686,8 @@
     "win_objs": [
       3
     ],
-    "has_medal_obj": false
+    "has_medal_obj": false,
+    "no_map": false
   },
   "1503": {
     "id": 1503,
@@ -13651,7 +13776,8 @@
     "win_objs": [
       3
     ],
-    "has_medal_obj": false
+    "has_medal_obj": false,
+    "no_map": false
   },
   "10001": {
     "id": 10001,
@@ -13764,7 +13890,8 @@
     "win_objs": [
       3
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "10002": {
     "id": 10002,
@@ -13887,7 +14014,8 @@
     "win_objs": [
       4
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "10003": {
     "id": 10003,
@@ -14024,7 +14152,8 @@
     "win_objs": [
       4
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "10004": {
     "id": 10004,
@@ -14175,7 +14304,8 @@
     "win_objs": [
       4
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "10005": {
     "id": 10005,
@@ -14294,7 +14424,8 @@
     "win_objs": [
       2
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "10006": {
     "id": 10006,
@@ -14412,7 +14543,8 @@
     "win_objs": [
       2
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "10007": {
     "id": 10007,
@@ -14545,7 +14677,8 @@
     "win_objs": [
       2
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "10008": {
     "id": 10008,
@@ -14680,7 +14813,8 @@
     "win_objs": [
       4
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "10009": {
     "id": 10009,
@@ -14814,7 +14948,8 @@
     "win_objs": [
       2
     ],
-    "has_medal_obj": false
+    "has_medal_obj": false,
+    "no_map": false
   },
   "10010": {
     "id": 10010,
@@ -14958,7 +15093,8 @@
     "win_objs": [
       2
     ],
-    "has_medal_obj": false
+    "has_medal_obj": false,
+    "no_map": false
   },
   "10011": {
     "id": 10011,
@@ -15107,7 +15243,8 @@
     "win_objs": [
       2
     ],
-    "has_medal_obj": false
+    "has_medal_obj": false,
+    "no_map": false
   },
   "10012": {
     "id": 10012,
@@ -15251,7 +15388,8 @@
     "win_objs": [
       4
     ],
-    "has_medal_obj": false
+    "has_medal_obj": false,
+    "no_map": false
   },
   "10013": {
     "id": 10013,
@@ -15387,7 +15525,8 @@
     "win_objs": [
       2
     ],
-    "has_medal_obj": false
+    "has_medal_obj": false,
+    "no_map": false
   },
   "10014": {
     "id": 10014,
@@ -15526,7 +15665,8 @@
     "win_objs": [
       2
     ],
-    "has_medal_obj": false
+    "has_medal_obj": false,
+    "no_map": false
   },
   "10015": {
     "id": 10015,
@@ -15649,7 +15789,8 @@
     "win_objs": [
       2
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "10016": {
     "id": 10016,
@@ -15813,7 +15954,8 @@
     "win_objs": [
       4
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "10017": {
     "id": 10017,
@@ -15990,7 +16132,8 @@
     "win_objs": [
       5
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "10018": {
     "id": 10018,
@@ -16103,7 +16246,8 @@
     "win_objs": [
       3
     ],
-    "has_medal_obj": false
+    "has_medal_obj": false,
+    "no_map": false
   },
   "10019": {
     "id": 10019,
@@ -16226,7 +16370,8 @@
     "win_objs": [
       4
     ],
-    "has_medal_obj": false
+    "has_medal_obj": false,
+    "no_map": false
   },
   "10020": {
     "id": 10020,
@@ -16363,7 +16508,8 @@
     "win_objs": [
       4
     ],
-    "has_medal_obj": false
+    "has_medal_obj": false,
+    "no_map": false
   },
   "10021": {
     "id": 10021,
@@ -16513,7 +16659,8 @@
     "win_objs": [
       4
     ],
-    "has_medal_obj": false
+    "has_medal_obj": false,
+    "no_map": false
   },
   "10022": {
     "id": 10022,
@@ -16648,7 +16795,8 @@
     "win_objs": [
       4
     ],
-    "has_medal_obj": false
+    "has_medal_obj": false,
+    "no_map": false
   },
   "10023": {
     "id": 10023,
@@ -16780,7 +16928,8 @@
     "win_objs": [
       4
     ],
-    "has_medal_obj": false
+    "has_medal_obj": false,
+    "no_map": false
   },
   "10024": {
     "id": 10024,
@@ -16935,7 +17084,8 @@
     "win_objs": [
       4
     ],
-    "has_medal_obj": false
+    "has_medal_obj": false,
+    "no_map": false
   },
   "10025": {
     "id": 10025,
@@ -17089,7 +17239,8 @@
     "win_objs": [
       4
     ],
-    "has_medal_obj": false
+    "has_medal_obj": false,
+    "no_map": false
   },
   "10026": {
     "id": 10026,
@@ -17189,7 +17340,8 @@
     "win_objs": [
       2
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "10027": {
     "id": 10027,
@@ -17289,7 +17441,8 @@
     "win_objs": [
       2
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "10028": {
     "id": 10028,
@@ -17399,7 +17552,8 @@
     "win_objs": [
       2
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "10029": {
     "id": 10029,
@@ -17517,7 +17671,8 @@
     "win_objs": [
       4
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "10030": {
     "id": 10030,
@@ -17612,7 +17767,8 @@
     "win_objs": [
       2
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "10031": {
     "id": 10031,
@@ -17709,7 +17865,8 @@
     "win_objs": [
       7
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "10032": {
     "id": 10032,
@@ -17812,7 +17969,8 @@
     "win_objs": [
       6
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "10033": {
     "id": 10033,
@@ -17916,7 +18074,8 @@
     "win_objs": [
       7
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "10034": {
     "id": 10034,
@@ -18028,7 +18187,8 @@
     "win_objs": [
       7
     ],
-    "has_medal_obj": false
+    "has_medal_obj": false,
+    "no_map": false
   },
   "10035": {
     "id": 10035,
@@ -18142,7 +18302,8 @@
     "win_objs": [
       2
     ],
-    "has_medal_obj": false
+    "has_medal_obj": false,
+    "no_map": false
   },
   "10036": {
     "id": 10036,
@@ -18316,7 +18477,8 @@
     "win_objs": [
       6
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "10037": {
     "id": 10037,
@@ -18434,7 +18596,8 @@
     "win_objs": [
       6
     ],
-    "has_medal_obj": false
+    "has_medal_obj": false,
+    "no_map": false
   },
   "10038": {
     "id": 10038,
@@ -18562,7 +18725,8 @@
     "win_objs": [
       7
     ],
-    "has_medal_obj": false
+    "has_medal_obj": false,
+    "no_map": false
   },
   "10039": {
     "id": 10039,
@@ -18677,7 +18841,8 @@
     "win_objs": [
       6
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "10040": {
     "id": 10040,
@@ -18807,7 +18972,8 @@
     "win_objs": [
       6
     ],
-    "has_medal_obj": false
+    "has_medal_obj": false,
+    "no_map": false
   },
   "10041": {
     "id": 10041,
@@ -18937,7 +19103,8 @@
     "win_objs": [
       7
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "10042": {
     "id": 10042,
@@ -19087,7 +19254,8 @@
     "win_objs": [
       7
     ],
-    "has_medal_obj": false
+    "has_medal_obj": false,
+    "no_map": false
   },
   "10043": {
     "id": 10043,
@@ -19190,7 +19358,8 @@
     "win_objs": [
       2
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "10044": {
     "id": 10044,
@@ -19301,7 +19470,8 @@
     "win_objs": [
       7
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "10045": {
     "id": 10045,
@@ -19414,7 +19584,8 @@
     "win_objs": [
       2
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "10046": {
     "id": 10046,
@@ -19529,7 +19700,8 @@
     "win_objs": [
       6
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "10047": {
     "id": 10047,
@@ -19644,7 +19816,8 @@
     "win_objs": [
       2
     ],
-    "has_medal_obj": false
+    "has_medal_obj": false,
+    "no_map": false
   },
   "10048": {
     "id": 10048,
@@ -19757,7 +19930,8 @@
     "win_objs": [
       6
     ],
-    "has_medal_obj": false
+    "has_medal_obj": false,
+    "no_map": false
   },
   "10049": {
     "id": 10049,
@@ -19889,7 +20063,8 @@
     "win_objs": [
       7
     ],
-    "has_medal_obj": false
+    "has_medal_obj": false,
+    "no_map": false
   },
   "10050": {
     "id": 10050,
@@ -20010,7 +20185,8 @@
     "win_objs": [
       2
     ],
-    "has_medal_obj": false
+    "has_medal_obj": false,
+    "no_map": false
   },
   "10051": {
     "id": 10051,
@@ -20103,7 +20279,8 @@
     "win_objs": [
       1
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "10052": {
     "id": 10052,
@@ -20200,7 +20377,8 @@
     "win_objs": [
       7
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "10053": {
     "id": 10053,
@@ -20304,7 +20482,8 @@
     "win_objs": [
       2
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "10054": {
     "id": 10054,
@@ -20410,7 +20589,8 @@
     "win_objs": [
       3
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "10055": {
     "id": 10055,
@@ -20511,7 +20691,8 @@
     "win_objs": [
       6
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "10056": {
     "id": 10056,
@@ -20625,7 +20806,8 @@
     "win_objs": [
       4
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "10057": {
     "id": 10057,
@@ -20733,7 +20915,8 @@
     "win_objs": [
       6
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "10058": {
     "id": 10058,
@@ -20834,7 +21017,8 @@
     "win_objs": [
       3
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "10059": {
     "id": 10059,
@@ -20934,7 +21118,8 @@
     "win_objs": [
       6
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "10060": {
     "id": 10060,
@@ -21048,7 +21233,8 @@
     "win_objs": [
       4
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "10061": {
     "id": 10061,
@@ -21163,7 +21349,8 @@
     "win_objs": [
       6
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "10062": {
     "id": 10062,
@@ -21264,7 +21451,8 @@
     "win_objs": [
       1
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "10063": {
     "id": 10063,
@@ -21384,7 +21572,8 @@
     "win_objs": [
       2
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "10064": {
     "id": 10064,
@@ -21507,7 +21696,8 @@
     "win_objs": [
       6
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "10065": {
     "id": 10065,
@@ -21606,7 +21796,8 @@
     "win_objs": [
       1
     ],
-    "has_medal_obj": false
+    "has_medal_obj": false,
+    "no_map": false
   },
   "10066": {
     "id": 10066,
@@ -21711,7 +21902,8 @@
     "win_objs": [
       1
     ],
-    "has_medal_obj": false
+    "has_medal_obj": false,
+    "no_map": false
   },
   "10067": {
     "id": 10067,
@@ -21810,7 +22002,8 @@
     "win_objs": [
       1
     ],
-    "has_medal_obj": false
+    "has_medal_obj": false,
+    "no_map": false
   },
   "10068": {
     "id": 10068,
@@ -21910,7 +22103,8 @@
     "win_objs": [
       6
     ],
-    "has_medal_obj": false
+    "has_medal_obj": false,
+    "no_map": false
   },
   "10069": {
     "id": 10069,
@@ -22020,7 +22214,8 @@
     "win_objs": [
       6
     ],
-    "has_medal_obj": false
+    "has_medal_obj": false,
+    "no_map": false
   },
   "10070": {
     "id": 10070,
@@ -22119,7 +22314,8 @@
     "win_objs": [
       2
     ],
-    "has_medal_obj": false
+    "has_medal_obj": false,
+    "no_map": false
   },
   "10071": {
     "id": 10071,
@@ -22217,7 +22413,8 @@
     "win_objs": [
       2
     ],
-    "has_medal_obj": false
+    "has_medal_obj": false,
+    "no_map": false
   },
   "10072": {
     "id": 10072,
@@ -22318,7 +22515,8 @@
     "win_objs": [
       3
     ],
-    "has_medal_obj": false
+    "has_medal_obj": false,
+    "no_map": false
   },
   "10073": {
     "id": 10073,
@@ -22444,7 +22642,8 @@
     "win_objs": [
       2
     ],
-    "has_medal_obj": false
+    "has_medal_obj": false,
+    "no_map": false
   },
   "10074": {
     "id": 10074,
@@ -22542,7 +22741,8 @@
     "win_objs": [
       3
     ],
-    "has_medal_obj": false
+    "has_medal_obj": false,
+    "no_map": false
   },
   "10075": {
     "id": 10075,
@@ -22640,7 +22840,8 @@
     "win_objs": [
       2
     ],
-    "has_medal_obj": false
+    "has_medal_obj": false,
+    "no_map": false
   },
   "10076": {
     "id": 10076,
@@ -22752,7 +22953,8 @@
     "win_objs": [
       7
     ],
-    "has_medal_obj": false
+    "has_medal_obj": false,
+    "no_map": false
   },
   "10077": {
     "id": 10077,
@@ -22878,7 +23080,8 @@
     "win_objs": [
       2
     ],
-    "has_medal_obj": false
+    "has_medal_obj": false,
+    "no_map": false
   },
   "10078": {
     "id": 10078,
@@ -22985,7 +23188,8 @@
     "win_objs": [
       6
     ],
-    "has_medal_obj": false
+    "has_medal_obj": false,
+    "no_map": false
   },
   "10079": {
     "id": 10079,
@@ -23105,7 +23309,8 @@
     "win_objs": [
       6
     ],
-    "has_medal_obj": false
+    "has_medal_obj": false,
+    "no_map": false
   },
   "10080": {
     "id": 10080,
@@ -23211,7 +23416,8 @@
     "win_objs": [
       7
     ],
-    "has_medal_obj": false
+    "has_medal_obj": false,
+    "no_map": false
   },
   "10081": {
     "id": 10081,
@@ -23319,7 +23525,8 @@
     "win_objs": [
       2
     ],
-    "has_medal_obj": false
+    "has_medal_obj": false,
+    "no_map": false
   },
   "10082": {
     "id": 10082,
@@ -23423,7 +23630,8 @@
     "win_objs": [
       3
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "10083": {
     "id": 10083,
@@ -23539,7 +23747,8 @@
     "win_objs": [
       6
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "10084": {
     "id": 10084,
@@ -23671,7 +23880,8 @@
     "win_objs": [
       3
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "10085": {
     "id": 10085,
@@ -23779,7 +23989,8 @@
     "win_objs": [
       4
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "10086": {
     "id": 10086,
@@ -23896,7 +24107,8 @@
     "win_objs": [
       1
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "10087": {
     "id": 10087,
@@ -24014,7 +24226,8 @@
     "win_objs": [
       1
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "10088": {
     "id": 10088,
@@ -24116,7 +24329,8 @@
     "win_objs": [
       2
     ],
-    "has_medal_obj": false
+    "has_medal_obj": false,
+    "no_map": false
   },
   "10089": {
     "id": 10089,
@@ -24241,7 +24455,8 @@
     "win_objs": [
       6
     ],
-    "has_medal_obj": false
+    "has_medal_obj": false,
+    "no_map": false
   },
   "10090": {
     "id": 10090,
@@ -24355,7 +24570,8 @@
     "win_objs": [
       4
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "10091": {
     "id": 10091,
@@ -24627,7 +24843,8 @@
     "win_objs": [
       5
     ],
-    "has_medal_obj": false
+    "has_medal_obj": false,
+    "no_map": false
   },
   "10092": {
     "id": 10092,
@@ -24716,7 +24933,8 @@
     "win_objs": [
       1
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "10093": {
     "id": 10093,
@@ -24818,7 +25036,8 @@
     "win_objs": [
       2
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "10094": {
     "id": 10094,
@@ -24923,7 +25142,8 @@
     "win_objs": [
       2
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "10095": {
     "id": 10095,
@@ -25036,7 +25256,8 @@
     "win_objs": [
       2
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "10096": {
     "id": 10096,
@@ -25152,7 +25373,8 @@
     "win_objs": [
       6
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "10097": {
     "id": 10097,
@@ -25280,7 +25502,8 @@
     "win_objs": [
       2
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "10098": {
     "id": 10098,
@@ -25409,7 +25632,8 @@
     "win_objs": [
       4
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "10099": {
     "id": 10099,
@@ -25513,7 +25737,8 @@
     "win_objs": [
       2
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "10100": {
     "id": 10100,
@@ -25615,7 +25840,8 @@
     "win_objs": [
       2
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "10101": {
     "id": 10101,
@@ -25726,7 +25952,8 @@
     "win_objs": [
       2
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "10102": {
     "id": 10102,
@@ -25834,7 +26061,8 @@
     "win_objs": [
       6
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "10103": {
     "id": 10103,
@@ -25957,7 +26185,8 @@
     "win_objs": [
       2
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "10104": {
     "id": 10104,
@@ -26083,7 +26312,8 @@
     "win_objs": [
       4
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "10105": {
     "id": 10105,
@@ -26263,7 +26493,8 @@
     "win_objs": [
       5
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "10106": {
     "id": 10106,
@@ -26354,7 +26585,8 @@
       1,
       2
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "10107": {
     "id": 10107,
@@ -26440,7 +26672,8 @@
     "win_objs": [
       11
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "10108": {
     "id": 10108,
@@ -26534,7 +26767,8 @@
     "win_objs": [
       3
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "10109": {
     "id": 10109,
@@ -26637,7 +26871,8 @@
     "win_objs": [
       2
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "10110": {
     "id": 10110,
@@ -26740,7 +26975,8 @@
       3,
       2
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "10111": {
     "id": 10111,
@@ -26840,7 +27076,8 @@
     "win_objs": [
       4
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "10112": {
     "id": 10112,
@@ -26929,7 +27166,8 @@
     "win_objs": [
       11
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "10113": {
     "id": 10113,
@@ -27036,7 +27274,8 @@
     "win_objs": [
       7
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "10114": {
     "id": 10114,
@@ -27141,7 +27380,8 @@
     "win_objs": [
       2
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "10115": {
     "id": 10115,
@@ -27246,7 +27486,8 @@
     "win_objs": [
       11
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "10116": {
     "id": 10116,
@@ -27355,7 +27596,8 @@
     "win_objs": [
       2
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "10117": {
     "id": 10117,
@@ -27463,7 +27705,8 @@
     "win_objs": [
       3
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "10118": {
     "id": 10118,
@@ -27586,7 +27829,8 @@
     "win_objs": [
       10
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "10120": {
     "id": 10120,
@@ -27699,7 +27943,8 @@
     "win_objs": [
       3
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "10121": {
     "id": 10121,
@@ -27817,7 +28062,8 @@
       6,
       11
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "10122": {
     "id": 10122,
@@ -27931,7 +28177,8 @@
     "win_objs": [
       6
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "10123": {
     "id": 10123,
@@ -28053,7 +28300,8 @@
       2,
       7
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "10124": {
     "id": 10124,
@@ -28178,7 +28426,8 @@
       2,
       7
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "10125": {
     "id": 10125,
@@ -28300,7 +28549,8 @@
     "win_objs": [
       3
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "10126": {
     "id": 10126,
@@ -28431,7 +28681,8 @@
       2,
       7
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "10127": {
     "id": 10127,
@@ -28552,7 +28803,8 @@
     "win_objs": [
       3
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "10128": {
     "id": 10128,
@@ -28698,7 +28950,8 @@
     "win_objs": [
       4
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "10129": {
     "id": 10129,
@@ -28845,7 +29098,8 @@
     "win_objs": [
       4
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "10130": {
     "id": 10130,
@@ -28938,7 +29192,8 @@
       101,
       2
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "10131": {
     "id": 10131,
@@ -29027,7 +29282,8 @@
     "win_objs": [
       1
     ],
-    "has_medal_obj": false
+    "has_medal_obj": false,
+    "no_map": false
   },
   "10132": {
     "id": 10132,
@@ -29161,7 +29417,8 @@
       7,
       1
     ],
-    "has_medal_obj": false
+    "has_medal_obj": false,
+    "no_map": false
   },
   "10133": {
     "id": 10133,
@@ -29290,7 +29547,8 @@
       7,
       11
     ],
-    "has_medal_obj": false
+    "has_medal_obj": false,
+    "no_map": false
   },
   "10134": {
     "id": 10134,
@@ -29428,7 +29686,8 @@
       7,
       11
     ],
-    "has_medal_obj": false
+    "has_medal_obj": false,
+    "no_map": false
   },
   "10135": {
     "id": 10135,
@@ -29550,7 +29809,8 @@
       6,
       11
     ],
-    "has_medal_obj": false
+    "has_medal_obj": false,
+    "no_map": false
   },
   "10136": {
     "id": 10136,
@@ -29677,7 +29937,8 @@
     "win_objs": [
       6
     ],
-    "has_medal_obj": false
+    "has_medal_obj": false,
+    "no_map": false
   },
   "10137": {
     "id": 10137,
@@ -29819,7 +30080,8 @@
       1,
       2
     ],
-    "has_medal_obj": false
+    "has_medal_obj": false,
+    "no_map": false
   },
   "10138": {
     "id": 10138,
@@ -29947,7 +30209,8 @@
       7,
       6
     ],
-    "has_medal_obj": false
+    "has_medal_obj": false,
+    "no_map": false
   },
   "10139": {
     "id": 10139,
@@ -30107,7 +30370,8 @@
     "win_objs": [
       7
     ],
-    "has_medal_obj": false
+    "has_medal_obj": false,
+    "no_map": false
   },
   "10140": {
     "id": 10140,
@@ -30256,7 +30520,8 @@
       7,
       11
     ],
-    "has_medal_obj": false
+    "has_medal_obj": false,
+    "no_map": false
   },
   "10141": {
     "id": 10141,
@@ -30418,7 +30683,8 @@
     "win_objs": [
       11
     ],
-    "has_medal_obj": false
+    "has_medal_obj": false,
+    "no_map": false
   },
   "10142": {
     "id": 10142,
@@ -30503,7 +30769,8 @@
     "win_objs": [
       11
     ],
-    "has_medal_obj": false
+    "has_medal_obj": false,
+    "no_map": false
   },
   "10143": {
     "id": 10143,
@@ -30604,7 +30871,8 @@
     "win_objs": [
       11
     ],
-    "has_medal_obj": false
+    "has_medal_obj": false,
+    "no_map": false
   },
   "10144": {
     "id": 10144,
@@ -30772,7 +31040,8 @@
     "win_objs": [
       2
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "10145": {
     "id": 10145,
@@ -30858,7 +31127,8 @@
     "win_objs": [
       11
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "10146": {
     "id": 10146,
@@ -30945,7 +31215,8 @@
     "win_objs": [
       3
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "10147": {
     "id": 10147,
@@ -31032,7 +31303,8 @@
     "win_objs": [
       3
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "10148": {
     "id": 10148,
@@ -31118,7 +31390,8 @@
     "win_objs": [
       3
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "10149": {
     "id": 10149,
@@ -31205,7 +31478,8 @@
     "win_objs": [
       3
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "10150": {
     "id": 10150,
@@ -31292,7 +31566,8 @@
     "win_objs": [
       3
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "10151": {
     "id": 10151,
@@ -31377,7 +31652,8 @@
     "win_objs": [
       11
     ],
-    "has_medal_obj": false
+    "has_medal_obj": false,
+    "no_map": false
   },
   "10154": {
     "id": 10154,
@@ -31462,7 +31738,8 @@
     "win_objs": [
       11
     ],
-    "has_medal_obj": false
+    "has_medal_obj": false,
+    "no_map": false
   },
   "10155": {
     "id": 10155,
@@ -31735,7 +32012,8 @@
     "win_objs": [
       5
     ],
-    "has_medal_obj": false
+    "has_medal_obj": false,
+    "no_map": false
   },
   "10156": {
     "id": 10156,
@@ -31822,7 +32100,8 @@
     "win_objs": [
       11
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "10157": {
     "id": 10157,
@@ -31906,7 +32185,8 @@
     "win_objs": [
       11
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "10158": {
     "id": 10158,
@@ -32091,7 +32371,8 @@
     "win_objs": [
       6
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "10159": {
     "id": 10159,
@@ -32195,7 +32476,8 @@
     "win_objs": [
       2
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "10160": {
     "id": 10160,
@@ -32297,7 +32579,8 @@
     "win_objs": [
       2
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "10161": {
     "id": 10161,
@@ -32414,7 +32697,8 @@
     "win_objs": [
       2
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "10162": {
     "id": 10162,
@@ -32534,7 +32818,8 @@
     "win_objs": [
       4
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "10194": {
     "id": 10194,
@@ -32632,7 +32917,8 @@
     "win_objs": [
       2
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "10195": {
     "id": 10195,
@@ -32712,7 +32998,8 @@
     "win_objs": [
       3
     ],
-    "has_medal_obj": false
+    "has_medal_obj": false,
+    "no_map": false
   },
   "10196": {
     "id": 10196,
@@ -32820,7 +33107,8 @@
     "win_objs": [
       3
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "10197": {
     "id": 10197,
@@ -32900,7 +33188,8 @@
     "win_objs": [
       3
     ],
-    "has_medal_obj": false
+    "has_medal_obj": false,
+    "no_map": false
   },
   "10198": {
     "id": 10198,
@@ -32980,7 +33269,8 @@
     "win_objs": [
       3
     ],
-    "has_medal_obj": false
+    "has_medal_obj": false,
+    "no_map": false
   },
   "10199": {
     "id": 10199,
@@ -33100,7 +33390,8 @@
     "win_objs": [
       7
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "10200": {
     "id": 10200,
@@ -33180,7 +33471,8 @@
     "win_objs": [
       3
     ],
-    "has_medal_obj": false
+    "has_medal_obj": false,
+    "no_map": false
   },
   "10201": {
     "id": 10201,
@@ -33260,7 +33552,8 @@
     "win_objs": [
       3
     ],
-    "has_medal_obj": false
+    "has_medal_obj": false,
+    "no_map": false
   },
   "10202": {
     "id": 10202,
@@ -33340,7 +33633,8 @@
     "win_objs": [
       3
     ],
-    "has_medal_obj": false
+    "has_medal_obj": false,
+    "no_map": false
   },
   "10203": {
     "id": 10203,
@@ -33420,7 +33714,8 @@
     "win_objs": [
       3
     ],
-    "has_medal_obj": false
+    "has_medal_obj": false,
+    "no_map": false
   },
   "10204": {
     "id": 10204,
@@ -33500,7 +33795,8 @@
     "win_objs": [
       3
     ],
-    "has_medal_obj": false
+    "has_medal_obj": false,
+    "no_map": false
   },
   "10205": {
     "id": 10205,
@@ -33580,7 +33876,8 @@
     "win_objs": [
       3
     ],
-    "has_medal_obj": false
+    "has_medal_obj": false,
+    "no_map": false
   },
   "10206": {
     "id": 10206,
@@ -33714,7 +34011,8 @@
     "win_objs": [
       2
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "10207": {
     "id": 10207,
@@ -33794,7 +34092,8 @@
     "win_objs": [
       3
     ],
-    "has_medal_obj": false
+    "has_medal_obj": false,
+    "no_map": false
   },
   "10208": {
     "id": 10208,
@@ -33932,7 +34231,8 @@
     "win_objs": [
       1
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "10209": {
     "id": 10209,
@@ -34012,7 +34312,8 @@
     "win_objs": [
       3
     ],
-    "has_medal_obj": false
+    "has_medal_obj": false,
+    "no_map": false
   },
   "10210": {
     "id": 10210,
@@ -34135,7 +34436,8 @@
     "win_objs": [
       2
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "10211": {
     "id": 10211,
@@ -34262,7 +34564,8 @@
     "win_objs": [
       6
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "10212": {
     "id": 10212,
@@ -34342,7 +34645,8 @@
     "win_objs": [
       3
     ],
-    "has_medal_obj": false
+    "has_medal_obj": false,
+    "no_map": false
   },
   "10213": {
     "id": 10213,
@@ -34422,7 +34726,8 @@
     "win_objs": [
       3
     ],
-    "has_medal_obj": false
+    "has_medal_obj": false,
+    "no_map": false
   },
   "10214": {
     "id": 10214,
@@ -34548,7 +34853,8 @@
     "win_objs": [
       1
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "10215": {
     "id": 10215,
@@ -34628,7 +34934,8 @@
     "win_objs": [
       3
     ],
-    "has_medal_obj": false
+    "has_medal_obj": false,
+    "no_map": false
   },
   "10216": {
     "id": 10216,
@@ -34708,7 +35015,8 @@
     "win_objs": [
       3
     ],
-    "has_medal_obj": false
+    "has_medal_obj": false,
+    "no_map": false
   },
   "10217": {
     "id": 10217,
@@ -34841,7 +35149,8 @@
     "win_objs": [
       7
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "10218": {
     "id": 10218,
@@ -34921,7 +35230,8 @@
     "win_objs": [
       3
     ],
-    "has_medal_obj": false
+    "has_medal_obj": false,
+    "no_map": false
   },
   "10219": {
     "id": 10219,
@@ -35001,7 +35311,8 @@
     "win_objs": [
       3
     ],
-    "has_medal_obj": false
+    "has_medal_obj": false,
+    "no_map": false
   },
   "10220": {
     "id": 10220,
@@ -35081,7 +35392,8 @@
     "win_objs": [
       3
     ],
-    "has_medal_obj": false
+    "has_medal_obj": false,
+    "no_map": false
   },
   "10221": {
     "id": 10221,
@@ -35206,7 +35518,8 @@
     "win_objs": [
       2
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "10222": {
     "id": 10222,
@@ -35286,7 +35599,8 @@
     "win_objs": [
       3
     ],
-    "has_medal_obj": false
+    "has_medal_obj": false,
+    "no_map": false
   },
   "10223": {
     "id": 10223,
@@ -35420,7 +35734,8 @@
     "win_objs": [
       1
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "10224": {
     "id": 10224,
@@ -35500,7 +35815,8 @@
     "win_objs": [
       3
     ],
-    "has_medal_obj": false
+    "has_medal_obj": false,
+    "no_map": false
   },
   "10225": {
     "id": 10225,
@@ -35633,7 +35949,8 @@
     "win_objs": [
       2
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "10226": {
     "id": 10226,
@@ -35713,7 +36030,8 @@
     "win_objs": [
       3
     ],
-    "has_medal_obj": false
+    "has_medal_obj": false,
+    "no_map": false
   },
   "10227": {
     "id": 10227,
@@ -35793,7 +36111,8 @@
     "win_objs": [
       3
     ],
-    "has_medal_obj": false
+    "has_medal_obj": false,
+    "no_map": false
   },
   "10228": {
     "id": 10228,
@@ -35918,7 +36237,8 @@
     "win_objs": [
       7
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "10229": {
     "id": 10229,
@@ -35998,7 +36318,8 @@
     "win_objs": [
       3
     ],
-    "has_medal_obj": false
+    "has_medal_obj": false,
+    "no_map": false
   },
   "10230": {
     "id": 10230,
@@ -36078,7 +36399,8 @@
     "win_objs": [
       3
     ],
-    "has_medal_obj": false
+    "has_medal_obj": false,
+    "no_map": false
   },
   "10231": {
     "id": 10231,
@@ -36206,7 +36528,8 @@
     "win_objs": [
       6
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "10232": {
     "id": 10232,
@@ -36286,7 +36609,8 @@
     "win_objs": [
       3
     ],
-    "has_medal_obj": false
+    "has_medal_obj": false,
+    "no_map": false
   },
   "10233": {
     "id": 10233,
@@ -36417,7 +36741,8 @@
     "win_objs": [
       7
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "10234": {
     "id": 10234,
@@ -36497,7 +36822,8 @@
     "win_objs": [
       3
     ],
-    "has_medal_obj": false
+    "has_medal_obj": false,
+    "no_map": false
   },
   "10235": {
     "id": 10235,
@@ -36577,7 +36903,8 @@
     "win_objs": [
       3
     ],
-    "has_medal_obj": false
+    "has_medal_obj": false,
+    "no_map": false
   },
   "10236": {
     "id": 10236,
@@ -36701,7 +37028,8 @@
     "win_objs": [
       2
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "10237": {
     "id": 10237,
@@ -36781,7 +37109,8 @@
     "win_objs": [
       3
     ],
-    "has_medal_obj": false
+    "has_medal_obj": false,
+    "no_map": false
   },
   "10238": {
     "id": 10238,
@@ -36901,7 +37230,8 @@
     "win_objs": [
       2
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "10239": {
     "id": 10239,
@@ -37043,7 +37373,8 @@
     "win_objs": [
       1
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "10240": {
     "id": 10240,
@@ -37123,7 +37454,8 @@
     "win_objs": [
       3
     ],
-    "has_medal_obj": false
+    "has_medal_obj": false,
+    "no_map": false
   },
   "10241": {
     "id": 10241,
@@ -37203,7 +37535,8 @@
     "win_objs": [
       3
     ],
-    "has_medal_obj": false
+    "has_medal_obj": false,
+    "no_map": false
   },
   "10242": {
     "id": 10242,
@@ -37283,7 +37616,8 @@
     "win_objs": [
       3
     ],
-    "has_medal_obj": false
+    "has_medal_obj": false,
+    "no_map": false
   },
   "10243": {
     "id": 10243,
@@ -37363,7 +37697,8 @@
     "win_objs": [
       3
     ],
-    "has_medal_obj": false
+    "has_medal_obj": false,
+    "no_map": false
   },
   "10244": {
     "id": 10244,
@@ -37443,7 +37778,8 @@
     "win_objs": [
       3
     ],
-    "has_medal_obj": false
+    "has_medal_obj": false,
+    "no_map": false
   },
   "10245": {
     "id": 10245,
@@ -37563,7 +37899,8 @@
     "win_objs": [
       4
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "10246": {
     "id": 10246,
@@ -37643,7 +37980,8 @@
     "win_objs": [
       3
     ],
-    "has_medal_obj": false
+    "has_medal_obj": false,
+    "no_map": false
   },
   "10247": {
     "id": 10247,
@@ -37732,7 +38070,8 @@
     "win_objs": [
       8
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "10248": {
     "id": 10248,
@@ -37821,7 +38160,8 @@
     "win_objs": [
       8
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "10249": {
     "id": 10249,
@@ -37945,7 +38285,8 @@
     "win_objs": [
       4
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "10250": {
     "id": 10250,
@@ -38025,7 +38366,8 @@
     "win_objs": [
       3
     ],
-    "has_medal_obj": false
+    "has_medal_obj": false,
+    "no_map": false
   },
   "10251": {
     "id": 10251,
@@ -38105,7 +38447,8 @@
     "win_objs": [
       3
     ],
-    "has_medal_obj": false
+    "has_medal_obj": false,
+    "no_map": false
   },
   "10252": {
     "id": 10252,
@@ -38185,7 +38528,8 @@
     "win_objs": [
       3
     ],
-    "has_medal_obj": false
+    "has_medal_obj": false,
+    "no_map": false
   },
   "10253": {
     "id": 10253,
@@ -38462,7 +38806,8 @@
     "win_objs": [
       6
     ],
-    "has_medal_obj": false
+    "has_medal_obj": false,
+    "no_map": false
   },
   "10254": {
     "id": 10254,
@@ -38573,7 +38918,8 @@
     "win_objs": [
       3
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "10255": {
     "id": 10255,
@@ -38694,7 +39040,8 @@
     "win_objs": [
       7
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "10256": {
     "id": 10256,
@@ -38830,7 +39177,8 @@
     "win_objs": [
       2
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "10257": {
     "id": 10257,
@@ -38967,7 +39315,8 @@
     "win_objs": [
       1
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "10258": {
     "id": 10258,
@@ -39086,7 +39435,8 @@
     "win_objs": [
       2
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "10259": {
     "id": 10259,
@@ -39215,7 +39565,8 @@
     "win_objs": [
       6
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "10260": {
     "id": 10260,
@@ -39343,7 +39694,8 @@
     "win_objs": [
       1
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "10261": {
     "id": 10261,
@@ -39478,7 +39830,8 @@
     "win_objs": [
       7
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "10262": {
     "id": 10262,
@@ -39606,7 +39959,8 @@
     "win_objs": [
       2
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "10263": {
     "id": 10263,
@@ -39739,7 +40093,8 @@
     "win_objs": [
       1
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "10264": {
     "id": 10264,
@@ -39877,7 +40232,8 @@
     "win_objs": [
       2
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "10265": {
     "id": 10265,
@@ -40003,7 +40359,8 @@
     "win_objs": [
       7
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "10266": {
     "id": 10266,
@@ -40131,7 +40488,8 @@
     "win_objs": [
       6
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "10267": {
     "id": 10267,
@@ -40261,7 +40619,8 @@
     "win_objs": [
       7
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "10268": {
     "id": 10268,
@@ -40385,7 +40744,8 @@
     "win_objs": [
       2
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "10269": {
     "id": 10269,
@@ -40508,7 +40868,8 @@
     "win_objs": [
       2
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "10270": {
     "id": 10270,
@@ -40652,7 +41013,8 @@
     "win_objs": [
       1
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "10271": {
     "id": 10271,
@@ -40772,7 +41134,8 @@
     "win_objs": [
       4
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "10272": {
     "id": 10272,
@@ -40896,7 +41259,8 @@
     "win_objs": [
       4
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "10273": {
     "id": 10273,
@@ -41172,7 +41536,8 @@
     "win_objs": [
       6
     ],
-    "has_medal_obj": false
+    "has_medal_obj": false,
+    "no_map": false
   },
   "10274": {
     "id": 10274,
@@ -41252,7 +41617,8 @@
     "win_objs": [
       3
     ],
-    "has_medal_obj": false
+    "has_medal_obj": false,
+    "no_map": false
   },
   "10275": {
     "id": 10275,
@@ -41341,7 +41707,8 @@
     "win_objs": [
       8
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "10276": {
     "id": 10276,
@@ -41430,7 +41797,8 @@
     "win_objs": [
       8
     ],
-    "has_medal_obj": true
+    "has_medal_obj": true,
+    "no_map": false
   },
   "90001": {
     "id": 90001,
@@ -41524,7 +41892,8 @@
     "win_objs": [
       3
     ],
-    "has_medal_obj": false
+    "has_medal_obj": false,
+    "no_map": false
   },
   "90002": {
     "id": 90002,
@@ -41621,7 +41990,8 @@
     "win_objs": [
       3
     ],
-    "has_medal_obj": false
+    "has_medal_obj": false,
+    "no_map": false
   },
   "90003": {
     "id": 90003,
@@ -41720,7 +42090,8 @@
     "win_objs": [
       3
     ],
-    "has_medal_obj": false
+    "has_medal_obj": false,
+    "no_map": false
   },
   "90004": {
     "id": 90004,
@@ -41822,7 +42193,8 @@
     "win_objs": [
       3
     ],
-    "has_medal_obj": false
+    "has_medal_obj": false,
+    "no_map": false
   },
   "90005": {
     "id": 90005,
@@ -41919,7 +42291,8 @@
     "win_objs": [
       3
     ],
-    "has_medal_obj": false
+    "has_medal_obj": false,
+    "no_map": false
   },
   "90006": {
     "id": 90006,
@@ -42020,7 +42393,8 @@
     "win_objs": [
       3
     ],
-    "has_medal_obj": false
+    "has_medal_obj": false,
+    "no_map": false
   },
   "90007": {
     "id": 90007,
@@ -42124,7 +42498,8 @@
     "win_objs": [
       3
     ],
-    "has_medal_obj": false
+    "has_medal_obj": false,
+    "no_map": false
   },
   "90008": {
     "id": 90008,
@@ -42231,7 +42606,8 @@
     "win_objs": [
       3
     ],
-    "has_medal_obj": false
+    "has_medal_obj": false,
+    "no_map": false
   },
   "90009": {
     "id": 90009,
@@ -42332,7 +42708,8 @@
     "win_objs": [
       3
     ],
-    "has_medal_obj": false
+    "has_medal_obj": false,
+    "no_map": false
   },
   "90010": {
     "id": 90010,
@@ -42434,7 +42811,8 @@
     "win_objs": [
       3
     ],
-    "has_medal_obj": false
+    "has_medal_obj": false,
+    "no_map": false
   },
   "90011": {
     "id": 90011,
@@ -42537,7 +42915,8 @@
     "win_objs": [
       3
     ],
-    "has_medal_obj": false
+    "has_medal_obj": false,
+    "no_map": false
   },
   "90012": {
     "id": 90012,
@@ -42646,7 +43025,8 @@
     "win_objs": [
       3
     ],
-    "has_medal_obj": false
+    "has_medal_obj": false,
+    "no_map": false
   },
   "90013": {
     "id": 90013,
@@ -42751,7 +43131,8 @@
     "win_objs": [
       3
     ],
-    "has_medal_obj": false
+    "has_medal_obj": false,
+    "no_map": false
   },
   "90014": {
     "id": 90014,
@@ -42855,7 +43236,8 @@
     "win_objs": [
       3
     ],
-    "has_medal_obj": false
+    "has_medal_obj": false,
+    "no_map": false
   },
   "90015": {
     "id": 90015,
@@ -42964,7 +43346,8 @@
     "win_objs": [
       3
     ],
-    "has_medal_obj": false
+    "has_medal_obj": false,
+    "no_map": false
   },
   "90016": {
     "id": 90016,
@@ -43078,7 +43461,8 @@
     "win_objs": [
       3
     ],
-    "has_medal_obj": false
+    "has_medal_obj": false,
+    "no_map": false
   },
   "90017": {
     "id": 90017,
@@ -43188,7 +43572,8 @@
     "win_objs": [
       3
     ],
-    "has_medal_obj": false
+    "has_medal_obj": false,
+    "no_map": false
   },
   "90018": {
     "id": 90018,
@@ -43304,7 +43689,8 @@
     "win_objs": [
       3
     ],
-    "has_medal_obj": false
+    "has_medal_obj": false,
+    "no_map": false
   },
   "90019": {
     "id": 90019,
@@ -43419,7 +43805,8 @@
     "win_objs": [
       3
     ],
-    "has_medal_obj": false
+    "has_medal_obj": false,
+    "no_map": false
   },
   "90020": {
     "id": 90020,
@@ -43536,7 +43923,8 @@
     "win_objs": [
       3
     ],
-    "has_medal_obj": false
+    "has_medal_obj": false,
+    "no_map": false
   },
   "90021": {
     "id": 90021,
@@ -43654,7 +44042,8 @@
     "win_objs": [
       3
     ],
-    "has_medal_obj": false
+    "has_medal_obj": false,
+    "no_map": false
   },
   "90022": {
     "id": 90022,
@@ -43769,7 +44158,8 @@
     "win_objs": [
       3
     ],
-    "has_medal_obj": false
+    "has_medal_obj": false,
+    "no_map": false
   },
   "90023": {
     "id": 90023,
@@ -43881,7 +44271,8 @@
     "win_objs": [
       3
     ],
-    "has_medal_obj": false
+    "has_medal_obj": false,
+    "no_map": false
   },
   "90024": {
     "id": 90024,
@@ -44012,7 +44403,8 @@
     "win_objs": [
       3
     ],
-    "has_medal_obj": false
+    "has_medal_obj": false,
+    "no_map": false
   },
   "90025": {
     "id": 90025,
@@ -44108,7 +44500,8 @@
     "win_objs": [
       3
     ],
-    "has_medal_obj": false
+    "has_medal_obj": false,
+    "no_map": false
   },
   "90026": {
     "id": 90026,
@@ -44215,7 +44608,8 @@
     "win_objs": [
       3
     ],
-    "has_medal_obj": false
+    "has_medal_obj": false,
+    "no_map": false
   },
   "90027": {
     "id": 90027,
@@ -44340,7 +44734,8 @@
     "win_objs": [
       3
     ],
-    "has_medal_obj": false
+    "has_medal_obj": false,
+    "no_map": false
   },
   "90028": {
     "id": 90028,
@@ -44462,7 +44857,8 @@
     "win_objs": [
       4
     ],
-    "has_medal_obj": false
+    "has_medal_obj": false,
+    "no_map": false
   },
   "90029": {
     "id": 90029,
@@ -44573,7 +44969,8 @@
     "win_objs": [
       3
     ],
-    "has_medal_obj": false
+    "has_medal_obj": false,
+    "no_map": false
   },
   "90030": {
     "id": 90030,
@@ -44688,7 +45085,8 @@
     "win_objs": [
       3
     ],
-    "has_medal_obj": false
+    "has_medal_obj": false,
+    "no_map": false
   },
   "90031": {
     "id": 90031,
@@ -44799,7 +45197,8 @@
     "win_objs": [
       3
     ],
-    "has_medal_obj": false
+    "has_medal_obj": false,
+    "no_map": false
   },
   "90032": {
     "id": 90032,
@@ -44936,6 +45335,2712 @@
     "win_objs": [
       4
     ],
-    "has_medal_obj": false
+    "has_medal_obj": false,
+    "no_map": false
+  },
+  "900411": {
+    "id": 900411,
+    "duplicate_type": 0,
+    "coin_type": 0,
+    "campaign": 0,
+    "sub": 0,
+    "if_emergency": 0,
+    "endless_mode": 0,
+    "special_type": 0,
+    "name": "theater_area-10000411",
+    "difficulty": 0,
+    "exp_parameter": 0,
+    "type": null,
+    "enemy_ai_type": 0,
+    "win_turn": 0,
+    "win_spot_id": null,
+    "special_spot_id": null,
+    "expect_enemy_die_num": 0,
+    "expect_gun_die_num": 0,
+    "expect_turn": 0,
+    "boss_team_id": null,
+    "turn_duration": 0,
+    "costbp": 0,
+    "coin_ap": 0,
+    "turn_limit": 10,
+    "limit_gun_pool": null,
+    "limit_team": 0,
+    "map_res_name": null,
+    "map_information": null,
+    "is_hide": 0,
+    "is_snow": 0,
+    "adaptive_gun": null,
+    "fog_length": null,
+    "fog_color": null,
+    "limit_equip_pool": null,
+    "draw_event_s_id": null,
+    "support_available": 0,
+    "enemy_quickmove": 0,
+    "expect_defend_line_turn": 0,
+    "expect_hostage_num": null,
+    "title_logo": null,
+    "random_line_spot": null,
+    "order": 0,
+    "reinforce_ally_team": null,
+    "reinforce_ally_turn": 0,
+    "reinforce_ally_spot": null,
+    "ally_boss_team_id": null,
+    "ally_code": null,
+    "supply_parameter": null,
+    "drop_mission_key": null,
+    "close_missions": null,
+    "mission_group_id": 0,
+    "mission_group_draw_event": null,
+    "open_mission_keys": null,
+    "mission_describe": null,
+    "force_type": null,
+    "round_config": null,
+    "color_change_type": null,
+    "color_change_number": null,
+    "color_change_result": null,
+    "spot_reset": null,
+    "draw_code": null,
+    "reset_drop_key_once": 0,
+    "close_mission_control": null,
+    "limit_squad": 0,
+    "index_text": "1",
+    "index_sort": 0,
+    "spot_ids": [],
+    "enemy_team_count": {
+      "90041101": 0,
+      "90041102": 0,
+      "90041103": 0
+    },
+    "map_all_width": 0,
+    "map_all_height": 0,
+    "map_eff_width": 0,
+    "map_eff_height": 0,
+    "map_offset_x": 0,
+    "map_offset_y": 0,
+    "win_objs": [],
+    "has_medal_obj": false,
+    "no_map": true
+  },
+  "900412": {
+    "id": 900412,
+    "duplicate_type": 0,
+    "coin_type": 0,
+    "campaign": 0,
+    "sub": 0,
+    "if_emergency": 0,
+    "endless_mode": 0,
+    "special_type": 0,
+    "name": "theater_area-10000412",
+    "difficulty": 0,
+    "exp_parameter": 0,
+    "type": null,
+    "enemy_ai_type": 0,
+    "win_turn": 0,
+    "win_spot_id": null,
+    "special_spot_id": null,
+    "expect_enemy_die_num": 0,
+    "expect_gun_die_num": 0,
+    "expect_turn": 0,
+    "boss_team_id": null,
+    "turn_duration": 0,
+    "costbp": 0,
+    "coin_ap": 0,
+    "turn_limit": 10,
+    "limit_gun_pool": null,
+    "limit_team": 0,
+    "map_res_name": null,
+    "map_information": null,
+    "is_hide": 0,
+    "is_snow": 0,
+    "adaptive_gun": null,
+    "fog_length": null,
+    "fog_color": null,
+    "limit_equip_pool": null,
+    "draw_event_s_id": null,
+    "support_available": 0,
+    "enemy_quickmove": 0,
+    "expect_defend_line_turn": 0,
+    "expect_hostage_num": null,
+    "title_logo": null,
+    "random_line_spot": null,
+    "order": 0,
+    "reinforce_ally_team": null,
+    "reinforce_ally_turn": 0,
+    "reinforce_ally_spot": null,
+    "ally_boss_team_id": null,
+    "ally_code": null,
+    "supply_parameter": null,
+    "drop_mission_key": null,
+    "close_missions": null,
+    "mission_group_id": 0,
+    "mission_group_draw_event": null,
+    "open_mission_keys": null,
+    "mission_describe": null,
+    "force_type": null,
+    "round_config": null,
+    "color_change_type": null,
+    "color_change_number": null,
+    "color_change_result": null,
+    "spot_reset": null,
+    "draw_code": null,
+    "reset_drop_key_once": 0,
+    "close_mission_control": null,
+    "limit_squad": 0,
+    "index_text": "2",
+    "index_sort": 1,
+    "spot_ids": [],
+    "enemy_team_count": {
+      "90041201": 0,
+      "90041202": 0,
+      "90041203": 0
+    },
+    "map_all_width": 0,
+    "map_all_height": 0,
+    "map_eff_width": 0,
+    "map_eff_height": 0,
+    "map_offset_x": 0,
+    "map_offset_y": 0,
+    "win_objs": [],
+    "has_medal_obj": false,
+    "no_map": true
+  },
+  "900413": {
+    "id": 900413,
+    "duplicate_type": 0,
+    "coin_type": 0,
+    "campaign": 0,
+    "sub": 0,
+    "if_emergency": 0,
+    "endless_mode": 0,
+    "special_type": 0,
+    "name": "theater_area-10000413",
+    "difficulty": 0,
+    "exp_parameter": 0,
+    "type": null,
+    "enemy_ai_type": 0,
+    "win_turn": 0,
+    "win_spot_id": null,
+    "special_spot_id": null,
+    "expect_enemy_die_num": 0,
+    "expect_gun_die_num": 0,
+    "expect_turn": 0,
+    "boss_team_id": null,
+    "turn_duration": 0,
+    "costbp": 0,
+    "coin_ap": 0,
+    "turn_limit": 10,
+    "limit_gun_pool": null,
+    "limit_team": 0,
+    "map_res_name": null,
+    "map_information": null,
+    "is_hide": 0,
+    "is_snow": 0,
+    "adaptive_gun": null,
+    "fog_length": null,
+    "fog_color": null,
+    "limit_equip_pool": null,
+    "draw_event_s_id": null,
+    "support_available": 0,
+    "enemy_quickmove": 0,
+    "expect_defend_line_turn": 0,
+    "expect_hostage_num": null,
+    "title_logo": null,
+    "random_line_spot": null,
+    "order": 0,
+    "reinforce_ally_team": null,
+    "reinforce_ally_turn": 0,
+    "reinforce_ally_spot": null,
+    "ally_boss_team_id": null,
+    "ally_code": null,
+    "supply_parameter": null,
+    "drop_mission_key": null,
+    "close_missions": null,
+    "mission_group_id": 0,
+    "mission_group_draw_event": null,
+    "open_mission_keys": null,
+    "mission_describe": null,
+    "force_type": null,
+    "round_config": null,
+    "color_change_type": null,
+    "color_change_number": null,
+    "color_change_result": null,
+    "spot_reset": null,
+    "draw_code": null,
+    "reset_drop_key_once": 0,
+    "close_mission_control": null,
+    "limit_squad": 0,
+    "index_text": "3",
+    "index_sort": 2,
+    "spot_ids": [],
+    "enemy_team_count": {
+      "90041301": 0,
+      "90041302": 0,
+      "90041303": 0
+    },
+    "map_all_width": 0,
+    "map_all_height": 0,
+    "map_eff_width": 0,
+    "map_eff_height": 0,
+    "map_offset_x": 0,
+    "map_offset_y": 0,
+    "win_objs": [],
+    "has_medal_obj": false,
+    "no_map": true
+  },
+  "900414": {
+    "id": 900414,
+    "duplicate_type": 0,
+    "coin_type": 0,
+    "campaign": 0,
+    "sub": 0,
+    "if_emergency": 0,
+    "endless_mode": 0,
+    "special_type": 0,
+    "name": "theater_area-10000414",
+    "difficulty": 0,
+    "exp_parameter": 0,
+    "type": null,
+    "enemy_ai_type": 0,
+    "win_turn": 0,
+    "win_spot_id": null,
+    "special_spot_id": null,
+    "expect_enemy_die_num": 0,
+    "expect_gun_die_num": 0,
+    "expect_turn": 0,
+    "boss_team_id": null,
+    "turn_duration": 0,
+    "costbp": 0,
+    "coin_ap": 0,
+    "turn_limit": 10,
+    "limit_gun_pool": null,
+    "limit_team": 0,
+    "map_res_name": null,
+    "map_information": null,
+    "is_hide": 0,
+    "is_snow": 0,
+    "adaptive_gun": null,
+    "fog_length": null,
+    "fog_color": null,
+    "limit_equip_pool": null,
+    "draw_event_s_id": null,
+    "support_available": 0,
+    "enemy_quickmove": 0,
+    "expect_defend_line_turn": 0,
+    "expect_hostage_num": null,
+    "title_logo": null,
+    "random_line_spot": null,
+    "order": 0,
+    "reinforce_ally_team": null,
+    "reinforce_ally_turn": 0,
+    "reinforce_ally_spot": null,
+    "ally_boss_team_id": null,
+    "ally_code": null,
+    "supply_parameter": null,
+    "drop_mission_key": null,
+    "close_missions": null,
+    "mission_group_id": 0,
+    "mission_group_draw_event": null,
+    "open_mission_keys": null,
+    "mission_describe": null,
+    "force_type": null,
+    "round_config": null,
+    "color_change_type": null,
+    "color_change_number": null,
+    "color_change_result": null,
+    "spot_reset": null,
+    "draw_code": null,
+    "reset_drop_key_once": 0,
+    "close_mission_control": null,
+    "limit_squad": 0,
+    "index_text": "4",
+    "index_sort": 3,
+    "spot_ids": [],
+    "enemy_team_count": {
+      "90041401": 0,
+      "90041402": 0,
+      "90041403": 0,
+      "90041404": 0,
+      "90041405": 0
+    },
+    "map_all_width": 0,
+    "map_all_height": 0,
+    "map_eff_width": 0,
+    "map_eff_height": 0,
+    "map_offset_x": 0,
+    "map_offset_y": 0,
+    "win_objs": [],
+    "has_medal_obj": false,
+    "no_map": true
+  },
+  "900415": {
+    "id": 900415,
+    "duplicate_type": 0,
+    "coin_type": 0,
+    "campaign": 0,
+    "sub": 0,
+    "if_emergency": 0,
+    "endless_mode": 0,
+    "special_type": 0,
+    "name": "theater_area-10000415",
+    "difficulty": 0,
+    "exp_parameter": 0,
+    "type": null,
+    "enemy_ai_type": 0,
+    "win_turn": 0,
+    "win_spot_id": null,
+    "special_spot_id": null,
+    "expect_enemy_die_num": 0,
+    "expect_gun_die_num": 0,
+    "expect_turn": 0,
+    "boss_team_id": null,
+    "turn_duration": 0,
+    "costbp": 0,
+    "coin_ap": 0,
+    "turn_limit": 10,
+    "limit_gun_pool": null,
+    "limit_team": 0,
+    "map_res_name": null,
+    "map_information": null,
+    "is_hide": 0,
+    "is_snow": 0,
+    "adaptive_gun": null,
+    "fog_length": null,
+    "fog_color": null,
+    "limit_equip_pool": null,
+    "draw_event_s_id": null,
+    "support_available": 0,
+    "enemy_quickmove": 0,
+    "expect_defend_line_turn": 0,
+    "expect_hostage_num": null,
+    "title_logo": null,
+    "random_line_spot": null,
+    "order": 0,
+    "reinforce_ally_team": null,
+    "reinforce_ally_turn": 0,
+    "reinforce_ally_spot": null,
+    "ally_boss_team_id": null,
+    "ally_code": null,
+    "supply_parameter": null,
+    "drop_mission_key": null,
+    "close_missions": null,
+    "mission_group_id": 0,
+    "mission_group_draw_event": null,
+    "open_mission_keys": null,
+    "mission_describe": null,
+    "force_type": null,
+    "round_config": null,
+    "color_change_type": null,
+    "color_change_number": null,
+    "color_change_result": null,
+    "spot_reset": null,
+    "draw_code": null,
+    "reset_drop_key_once": 0,
+    "close_mission_control": null,
+    "limit_squad": 0,
+    "index_text": "5",
+    "index_sort": 4,
+    "spot_ids": [],
+    "enemy_team_count": {
+      "90041501": 0,
+      "90041502": 0,
+      "90041503": 0
+    },
+    "map_all_width": 0,
+    "map_all_height": 0,
+    "map_eff_width": 0,
+    "map_eff_height": 0,
+    "map_offset_x": 0,
+    "map_offset_y": 0,
+    "win_objs": [],
+    "has_medal_obj": false,
+    "no_map": true
+  },
+  "900416": {
+    "id": 900416,
+    "duplicate_type": 0,
+    "coin_type": 0,
+    "campaign": 0,
+    "sub": 0,
+    "if_emergency": 0,
+    "endless_mode": 0,
+    "special_type": 0,
+    "name": "theater_area-10000416",
+    "difficulty": 0,
+    "exp_parameter": 0,
+    "type": null,
+    "enemy_ai_type": 0,
+    "win_turn": 0,
+    "win_spot_id": null,
+    "special_spot_id": null,
+    "expect_enemy_die_num": 0,
+    "expect_gun_die_num": 0,
+    "expect_turn": 0,
+    "boss_team_id": null,
+    "turn_duration": 0,
+    "costbp": 0,
+    "coin_ap": 0,
+    "turn_limit": 10,
+    "limit_gun_pool": null,
+    "limit_team": 0,
+    "map_res_name": null,
+    "map_information": null,
+    "is_hide": 0,
+    "is_snow": 0,
+    "adaptive_gun": null,
+    "fog_length": null,
+    "fog_color": null,
+    "limit_equip_pool": null,
+    "draw_event_s_id": null,
+    "support_available": 0,
+    "enemy_quickmove": 0,
+    "expect_defend_line_turn": 0,
+    "expect_hostage_num": null,
+    "title_logo": null,
+    "random_line_spot": null,
+    "order": 0,
+    "reinforce_ally_team": null,
+    "reinforce_ally_turn": 0,
+    "reinforce_ally_spot": null,
+    "ally_boss_team_id": null,
+    "ally_code": null,
+    "supply_parameter": null,
+    "drop_mission_key": null,
+    "close_missions": null,
+    "mission_group_id": 0,
+    "mission_group_draw_event": null,
+    "open_mission_keys": null,
+    "mission_describe": null,
+    "force_type": null,
+    "round_config": null,
+    "color_change_type": null,
+    "color_change_number": null,
+    "color_change_result": null,
+    "spot_reset": null,
+    "draw_code": null,
+    "reset_drop_key_once": 0,
+    "close_mission_control": null,
+    "limit_squad": 0,
+    "index_text": "6",
+    "index_sort": 5,
+    "spot_ids": [],
+    "enemy_team_count": {
+      "90041601": 0,
+      "90041602": 0,
+      "90041603": 0,
+      "90041604": 0
+    },
+    "map_all_width": 0,
+    "map_all_height": 0,
+    "map_eff_width": 0,
+    "map_eff_height": 0,
+    "map_offset_x": 0,
+    "map_offset_y": 0,
+    "win_objs": [],
+    "has_medal_obj": false,
+    "no_map": true
+  },
+  "900417": {
+    "id": 900417,
+    "duplicate_type": 0,
+    "coin_type": 0,
+    "campaign": 0,
+    "sub": 0,
+    "if_emergency": 0,
+    "endless_mode": 0,
+    "special_type": 0,
+    "name": "theater_area-10000417",
+    "difficulty": 0,
+    "exp_parameter": 0,
+    "type": null,
+    "enemy_ai_type": 0,
+    "win_turn": 0,
+    "win_spot_id": null,
+    "special_spot_id": null,
+    "expect_enemy_die_num": 0,
+    "expect_gun_die_num": 0,
+    "expect_turn": 0,
+    "boss_team_id": null,
+    "turn_duration": 0,
+    "costbp": 0,
+    "coin_ap": 0,
+    "turn_limit": 10,
+    "limit_gun_pool": null,
+    "limit_team": 0,
+    "map_res_name": null,
+    "map_information": null,
+    "is_hide": 0,
+    "is_snow": 0,
+    "adaptive_gun": null,
+    "fog_length": null,
+    "fog_color": null,
+    "limit_equip_pool": null,
+    "draw_event_s_id": null,
+    "support_available": 0,
+    "enemy_quickmove": 0,
+    "expect_defend_line_turn": 0,
+    "expect_hostage_num": null,
+    "title_logo": null,
+    "random_line_spot": null,
+    "order": 0,
+    "reinforce_ally_team": null,
+    "reinforce_ally_turn": 0,
+    "reinforce_ally_spot": null,
+    "ally_boss_team_id": null,
+    "ally_code": null,
+    "supply_parameter": null,
+    "drop_mission_key": null,
+    "close_missions": null,
+    "mission_group_id": 0,
+    "mission_group_draw_event": null,
+    "open_mission_keys": null,
+    "mission_describe": null,
+    "force_type": null,
+    "round_config": null,
+    "color_change_type": null,
+    "color_change_number": null,
+    "color_change_result": null,
+    "spot_reset": null,
+    "draw_code": null,
+    "reset_drop_key_once": 0,
+    "close_mission_control": null,
+    "limit_squad": 0,
+    "index_text": "7",
+    "index_sort": 6,
+    "spot_ids": [],
+    "enemy_team_count": {
+      "90041701": 0,
+      "90041702": 0,
+      "90041703": 0
+    },
+    "map_all_width": 0,
+    "map_all_height": 0,
+    "map_eff_width": 0,
+    "map_eff_height": 0,
+    "map_offset_x": 0,
+    "map_offset_y": 0,
+    "win_objs": [],
+    "has_medal_obj": false,
+    "no_map": true
+  },
+  "900418": {
+    "id": 900418,
+    "duplicate_type": 0,
+    "coin_type": 0,
+    "campaign": 0,
+    "sub": 0,
+    "if_emergency": 0,
+    "endless_mode": 0,
+    "special_type": 0,
+    "name": "theater_area-10000418",
+    "difficulty": 0,
+    "exp_parameter": 0,
+    "type": null,
+    "enemy_ai_type": 0,
+    "win_turn": 0,
+    "win_spot_id": null,
+    "special_spot_id": null,
+    "expect_enemy_die_num": 0,
+    "expect_gun_die_num": 0,
+    "expect_turn": 0,
+    "boss_team_id": null,
+    "turn_duration": 0,
+    "costbp": 0,
+    "coin_ap": 0,
+    "turn_limit": 10,
+    "limit_gun_pool": null,
+    "limit_team": 0,
+    "map_res_name": null,
+    "map_information": null,
+    "is_hide": 0,
+    "is_snow": 0,
+    "adaptive_gun": null,
+    "fog_length": null,
+    "fog_color": null,
+    "limit_equip_pool": null,
+    "draw_event_s_id": null,
+    "support_available": 0,
+    "enemy_quickmove": 0,
+    "expect_defend_line_turn": 0,
+    "expect_hostage_num": null,
+    "title_logo": null,
+    "random_line_spot": null,
+    "order": 0,
+    "reinforce_ally_team": null,
+    "reinforce_ally_turn": 0,
+    "reinforce_ally_spot": null,
+    "ally_boss_team_id": null,
+    "ally_code": null,
+    "supply_parameter": null,
+    "drop_mission_key": null,
+    "close_missions": null,
+    "mission_group_id": 0,
+    "mission_group_draw_event": null,
+    "open_mission_keys": null,
+    "mission_describe": null,
+    "force_type": null,
+    "round_config": null,
+    "color_change_type": null,
+    "color_change_number": null,
+    "color_change_result": null,
+    "spot_reset": null,
+    "draw_code": null,
+    "reset_drop_key_once": 0,
+    "close_mission_control": null,
+    "limit_squad": 0,
+    "index_text": "8",
+    "index_sort": 7,
+    "spot_ids": [],
+    "enemy_team_count": {
+      "90041801": 0,
+      "90041802": 0,
+      "90041803": 0,
+      "90041804": 0
+    },
+    "map_all_width": 0,
+    "map_all_height": 0,
+    "map_eff_width": 0,
+    "map_eff_height": 0,
+    "map_offset_x": 0,
+    "map_offset_y": 0,
+    "win_objs": [],
+    "has_medal_obj": false,
+    "no_map": true
+  },
+  "900421": {
+    "id": 900421,
+    "duplicate_type": 0,
+    "coin_type": 0,
+    "campaign": 0,
+    "sub": 0,
+    "if_emergency": 0,
+    "endless_mode": 0,
+    "special_type": 0,
+    "name": "theater_area-10000421",
+    "difficulty": 0,
+    "exp_parameter": 0,
+    "type": null,
+    "enemy_ai_type": 0,
+    "win_turn": 0,
+    "win_spot_id": null,
+    "special_spot_id": null,
+    "expect_enemy_die_num": 0,
+    "expect_gun_die_num": 0,
+    "expect_turn": 0,
+    "boss_team_id": null,
+    "turn_duration": 0,
+    "costbp": 0,
+    "coin_ap": 0,
+    "turn_limit": 10,
+    "limit_gun_pool": null,
+    "limit_team": 0,
+    "map_res_name": null,
+    "map_information": null,
+    "is_hide": 0,
+    "is_snow": 0,
+    "adaptive_gun": null,
+    "fog_length": null,
+    "fog_color": null,
+    "limit_equip_pool": null,
+    "draw_event_s_id": null,
+    "support_available": 0,
+    "enemy_quickmove": 0,
+    "expect_defend_line_turn": 0,
+    "expect_hostage_num": null,
+    "title_logo": null,
+    "random_line_spot": null,
+    "order": 0,
+    "reinforce_ally_team": null,
+    "reinforce_ally_turn": 0,
+    "reinforce_ally_spot": null,
+    "ally_boss_team_id": null,
+    "ally_code": null,
+    "supply_parameter": null,
+    "drop_mission_key": null,
+    "close_missions": null,
+    "mission_group_id": 0,
+    "mission_group_draw_event": null,
+    "open_mission_keys": null,
+    "mission_describe": null,
+    "force_type": null,
+    "round_config": null,
+    "color_change_type": null,
+    "color_change_number": null,
+    "color_change_result": null,
+    "spot_reset": null,
+    "draw_code": null,
+    "reset_drop_key_once": 0,
+    "close_mission_control": null,
+    "limit_squad": 0,
+    "index_text": "1",
+    "index_sort": 0,
+    "spot_ids": [],
+    "enemy_team_count": {
+      "90042101": 0,
+      "90042102": 0,
+      "90042103": 0
+    },
+    "map_all_width": 0,
+    "map_all_height": 0,
+    "map_eff_width": 0,
+    "map_eff_height": 0,
+    "map_offset_x": 0,
+    "map_offset_y": 0,
+    "win_objs": [],
+    "has_medal_obj": false,
+    "no_map": true
+  },
+  "900422": {
+    "id": 900422,
+    "duplicate_type": 0,
+    "coin_type": 0,
+    "campaign": 0,
+    "sub": 0,
+    "if_emergency": 0,
+    "endless_mode": 0,
+    "special_type": 0,
+    "name": "theater_area-10000422",
+    "difficulty": 0,
+    "exp_parameter": 0,
+    "type": null,
+    "enemy_ai_type": 0,
+    "win_turn": 0,
+    "win_spot_id": null,
+    "special_spot_id": null,
+    "expect_enemy_die_num": 0,
+    "expect_gun_die_num": 0,
+    "expect_turn": 0,
+    "boss_team_id": null,
+    "turn_duration": 0,
+    "costbp": 0,
+    "coin_ap": 0,
+    "turn_limit": 10,
+    "limit_gun_pool": null,
+    "limit_team": 0,
+    "map_res_name": null,
+    "map_information": null,
+    "is_hide": 0,
+    "is_snow": 0,
+    "adaptive_gun": null,
+    "fog_length": null,
+    "fog_color": null,
+    "limit_equip_pool": null,
+    "draw_event_s_id": null,
+    "support_available": 0,
+    "enemy_quickmove": 0,
+    "expect_defend_line_turn": 0,
+    "expect_hostage_num": null,
+    "title_logo": null,
+    "random_line_spot": null,
+    "order": 0,
+    "reinforce_ally_team": null,
+    "reinforce_ally_turn": 0,
+    "reinforce_ally_spot": null,
+    "ally_boss_team_id": null,
+    "ally_code": null,
+    "supply_parameter": null,
+    "drop_mission_key": null,
+    "close_missions": null,
+    "mission_group_id": 0,
+    "mission_group_draw_event": null,
+    "open_mission_keys": null,
+    "mission_describe": null,
+    "force_type": null,
+    "round_config": null,
+    "color_change_type": null,
+    "color_change_number": null,
+    "color_change_result": null,
+    "spot_reset": null,
+    "draw_code": null,
+    "reset_drop_key_once": 0,
+    "close_mission_control": null,
+    "limit_squad": 0,
+    "index_text": "2",
+    "index_sort": 1,
+    "spot_ids": [],
+    "enemy_team_count": {
+      "90042201": 0,
+      "90042202": 0,
+      "90042203": 0
+    },
+    "map_all_width": 0,
+    "map_all_height": 0,
+    "map_eff_width": 0,
+    "map_eff_height": 0,
+    "map_offset_x": 0,
+    "map_offset_y": 0,
+    "win_objs": [],
+    "has_medal_obj": false,
+    "no_map": true
+  },
+  "900423": {
+    "id": 900423,
+    "duplicate_type": 0,
+    "coin_type": 0,
+    "campaign": 0,
+    "sub": 0,
+    "if_emergency": 0,
+    "endless_mode": 0,
+    "special_type": 0,
+    "name": "theater_area-10000423",
+    "difficulty": 0,
+    "exp_parameter": 0,
+    "type": null,
+    "enemy_ai_type": 0,
+    "win_turn": 0,
+    "win_spot_id": null,
+    "special_spot_id": null,
+    "expect_enemy_die_num": 0,
+    "expect_gun_die_num": 0,
+    "expect_turn": 0,
+    "boss_team_id": null,
+    "turn_duration": 0,
+    "costbp": 0,
+    "coin_ap": 0,
+    "turn_limit": 10,
+    "limit_gun_pool": null,
+    "limit_team": 0,
+    "map_res_name": null,
+    "map_information": null,
+    "is_hide": 0,
+    "is_snow": 0,
+    "adaptive_gun": null,
+    "fog_length": null,
+    "fog_color": null,
+    "limit_equip_pool": null,
+    "draw_event_s_id": null,
+    "support_available": 0,
+    "enemy_quickmove": 0,
+    "expect_defend_line_turn": 0,
+    "expect_hostage_num": null,
+    "title_logo": null,
+    "random_line_spot": null,
+    "order": 0,
+    "reinforce_ally_team": null,
+    "reinforce_ally_turn": 0,
+    "reinforce_ally_spot": null,
+    "ally_boss_team_id": null,
+    "ally_code": null,
+    "supply_parameter": null,
+    "drop_mission_key": null,
+    "close_missions": null,
+    "mission_group_id": 0,
+    "mission_group_draw_event": null,
+    "open_mission_keys": null,
+    "mission_describe": null,
+    "force_type": null,
+    "round_config": null,
+    "color_change_type": null,
+    "color_change_number": null,
+    "color_change_result": null,
+    "spot_reset": null,
+    "draw_code": null,
+    "reset_drop_key_once": 0,
+    "close_mission_control": null,
+    "limit_squad": 0,
+    "index_text": "3",
+    "index_sort": 2,
+    "spot_ids": [],
+    "enemy_team_count": {
+      "90042301": 0,
+      "90042302": 0,
+      "90042303": 0
+    },
+    "map_all_width": 0,
+    "map_all_height": 0,
+    "map_eff_width": 0,
+    "map_eff_height": 0,
+    "map_offset_x": 0,
+    "map_offset_y": 0,
+    "win_objs": [],
+    "has_medal_obj": false,
+    "no_map": true
+  },
+  "900424": {
+    "id": 900424,
+    "duplicate_type": 0,
+    "coin_type": 0,
+    "campaign": 0,
+    "sub": 0,
+    "if_emergency": 0,
+    "endless_mode": 0,
+    "special_type": 0,
+    "name": "theater_area-10000424",
+    "difficulty": 0,
+    "exp_parameter": 0,
+    "type": null,
+    "enemy_ai_type": 0,
+    "win_turn": 0,
+    "win_spot_id": null,
+    "special_spot_id": null,
+    "expect_enemy_die_num": 0,
+    "expect_gun_die_num": 0,
+    "expect_turn": 0,
+    "boss_team_id": null,
+    "turn_duration": 0,
+    "costbp": 0,
+    "coin_ap": 0,
+    "turn_limit": 10,
+    "limit_gun_pool": null,
+    "limit_team": 0,
+    "map_res_name": null,
+    "map_information": null,
+    "is_hide": 0,
+    "is_snow": 0,
+    "adaptive_gun": null,
+    "fog_length": null,
+    "fog_color": null,
+    "limit_equip_pool": null,
+    "draw_event_s_id": null,
+    "support_available": 0,
+    "enemy_quickmove": 0,
+    "expect_defend_line_turn": 0,
+    "expect_hostage_num": null,
+    "title_logo": null,
+    "random_line_spot": null,
+    "order": 0,
+    "reinforce_ally_team": null,
+    "reinforce_ally_turn": 0,
+    "reinforce_ally_spot": null,
+    "ally_boss_team_id": null,
+    "ally_code": null,
+    "supply_parameter": null,
+    "drop_mission_key": null,
+    "close_missions": null,
+    "mission_group_id": 0,
+    "mission_group_draw_event": null,
+    "open_mission_keys": null,
+    "mission_describe": null,
+    "force_type": null,
+    "round_config": null,
+    "color_change_type": null,
+    "color_change_number": null,
+    "color_change_result": null,
+    "spot_reset": null,
+    "draw_code": null,
+    "reset_drop_key_once": 0,
+    "close_mission_control": null,
+    "limit_squad": 0,
+    "index_text": "4",
+    "index_sort": 3,
+    "spot_ids": [],
+    "enemy_team_count": {
+      "90042401": 0,
+      "90042402": 0,
+      "90042403": 0,
+      "90042404": 0,
+      "90042405": 0
+    },
+    "map_all_width": 0,
+    "map_all_height": 0,
+    "map_eff_width": 0,
+    "map_eff_height": 0,
+    "map_offset_x": 0,
+    "map_offset_y": 0,
+    "win_objs": [],
+    "has_medal_obj": false,
+    "no_map": true
+  },
+  "900425": {
+    "id": 900425,
+    "duplicate_type": 0,
+    "coin_type": 0,
+    "campaign": 0,
+    "sub": 0,
+    "if_emergency": 0,
+    "endless_mode": 0,
+    "special_type": 0,
+    "name": "theater_area-10000425",
+    "difficulty": 0,
+    "exp_parameter": 0,
+    "type": null,
+    "enemy_ai_type": 0,
+    "win_turn": 0,
+    "win_spot_id": null,
+    "special_spot_id": null,
+    "expect_enemy_die_num": 0,
+    "expect_gun_die_num": 0,
+    "expect_turn": 0,
+    "boss_team_id": null,
+    "turn_duration": 0,
+    "costbp": 0,
+    "coin_ap": 0,
+    "turn_limit": 10,
+    "limit_gun_pool": null,
+    "limit_team": 0,
+    "map_res_name": null,
+    "map_information": null,
+    "is_hide": 0,
+    "is_snow": 0,
+    "adaptive_gun": null,
+    "fog_length": null,
+    "fog_color": null,
+    "limit_equip_pool": null,
+    "draw_event_s_id": null,
+    "support_available": 0,
+    "enemy_quickmove": 0,
+    "expect_defend_line_turn": 0,
+    "expect_hostage_num": null,
+    "title_logo": null,
+    "random_line_spot": null,
+    "order": 0,
+    "reinforce_ally_team": null,
+    "reinforce_ally_turn": 0,
+    "reinforce_ally_spot": null,
+    "ally_boss_team_id": null,
+    "ally_code": null,
+    "supply_parameter": null,
+    "drop_mission_key": null,
+    "close_missions": null,
+    "mission_group_id": 0,
+    "mission_group_draw_event": null,
+    "open_mission_keys": null,
+    "mission_describe": null,
+    "force_type": null,
+    "round_config": null,
+    "color_change_type": null,
+    "color_change_number": null,
+    "color_change_result": null,
+    "spot_reset": null,
+    "draw_code": null,
+    "reset_drop_key_once": 0,
+    "close_mission_control": null,
+    "limit_squad": 0,
+    "index_text": "5",
+    "index_sort": 4,
+    "spot_ids": [],
+    "enemy_team_count": {
+      "90042501": 0,
+      "90042502": 0,
+      "90042503": 0,
+      "90042504": 0
+    },
+    "map_all_width": 0,
+    "map_all_height": 0,
+    "map_eff_width": 0,
+    "map_eff_height": 0,
+    "map_offset_x": 0,
+    "map_offset_y": 0,
+    "win_objs": [],
+    "has_medal_obj": false,
+    "no_map": true
+  },
+  "900426": {
+    "id": 900426,
+    "duplicate_type": 0,
+    "coin_type": 0,
+    "campaign": 0,
+    "sub": 0,
+    "if_emergency": 0,
+    "endless_mode": 0,
+    "special_type": 0,
+    "name": "theater_area-10000426",
+    "difficulty": 0,
+    "exp_parameter": 0,
+    "type": null,
+    "enemy_ai_type": 0,
+    "win_turn": 0,
+    "win_spot_id": null,
+    "special_spot_id": null,
+    "expect_enemy_die_num": 0,
+    "expect_gun_die_num": 0,
+    "expect_turn": 0,
+    "boss_team_id": null,
+    "turn_duration": 0,
+    "costbp": 0,
+    "coin_ap": 0,
+    "turn_limit": 10,
+    "limit_gun_pool": null,
+    "limit_team": 0,
+    "map_res_name": null,
+    "map_information": null,
+    "is_hide": 0,
+    "is_snow": 0,
+    "adaptive_gun": null,
+    "fog_length": null,
+    "fog_color": null,
+    "limit_equip_pool": null,
+    "draw_event_s_id": null,
+    "support_available": 0,
+    "enemy_quickmove": 0,
+    "expect_defend_line_turn": 0,
+    "expect_hostage_num": null,
+    "title_logo": null,
+    "random_line_spot": null,
+    "order": 0,
+    "reinforce_ally_team": null,
+    "reinforce_ally_turn": 0,
+    "reinforce_ally_spot": null,
+    "ally_boss_team_id": null,
+    "ally_code": null,
+    "supply_parameter": null,
+    "drop_mission_key": null,
+    "close_missions": null,
+    "mission_group_id": 0,
+    "mission_group_draw_event": null,
+    "open_mission_keys": null,
+    "mission_describe": null,
+    "force_type": null,
+    "round_config": null,
+    "color_change_type": null,
+    "color_change_number": null,
+    "color_change_result": null,
+    "spot_reset": null,
+    "draw_code": null,
+    "reset_drop_key_once": 0,
+    "close_mission_control": null,
+    "limit_squad": 0,
+    "index_text": "6",
+    "index_sort": 5,
+    "spot_ids": [],
+    "enemy_team_count": {
+      "90042601": 0,
+      "90042602": 0,
+      "90042603": 0,
+      "90042604": 0
+    },
+    "map_all_width": 0,
+    "map_all_height": 0,
+    "map_eff_width": 0,
+    "map_eff_height": 0,
+    "map_offset_x": 0,
+    "map_offset_y": 0,
+    "win_objs": [],
+    "has_medal_obj": false,
+    "no_map": true
+  },
+  "900427": {
+    "id": 900427,
+    "duplicate_type": 0,
+    "coin_type": 0,
+    "campaign": 0,
+    "sub": 0,
+    "if_emergency": 0,
+    "endless_mode": 0,
+    "special_type": 0,
+    "name": "theater_area-10000427",
+    "difficulty": 0,
+    "exp_parameter": 0,
+    "type": null,
+    "enemy_ai_type": 0,
+    "win_turn": 0,
+    "win_spot_id": null,
+    "special_spot_id": null,
+    "expect_enemy_die_num": 0,
+    "expect_gun_die_num": 0,
+    "expect_turn": 0,
+    "boss_team_id": null,
+    "turn_duration": 0,
+    "costbp": 0,
+    "coin_ap": 0,
+    "turn_limit": 10,
+    "limit_gun_pool": null,
+    "limit_team": 0,
+    "map_res_name": null,
+    "map_information": null,
+    "is_hide": 0,
+    "is_snow": 0,
+    "adaptive_gun": null,
+    "fog_length": null,
+    "fog_color": null,
+    "limit_equip_pool": null,
+    "draw_event_s_id": null,
+    "support_available": 0,
+    "enemy_quickmove": 0,
+    "expect_defend_line_turn": 0,
+    "expect_hostage_num": null,
+    "title_logo": null,
+    "random_line_spot": null,
+    "order": 0,
+    "reinforce_ally_team": null,
+    "reinforce_ally_turn": 0,
+    "reinforce_ally_spot": null,
+    "ally_boss_team_id": null,
+    "ally_code": null,
+    "supply_parameter": null,
+    "drop_mission_key": null,
+    "close_missions": null,
+    "mission_group_id": 0,
+    "mission_group_draw_event": null,
+    "open_mission_keys": null,
+    "mission_describe": null,
+    "force_type": null,
+    "round_config": null,
+    "color_change_type": null,
+    "color_change_number": null,
+    "color_change_result": null,
+    "spot_reset": null,
+    "draw_code": null,
+    "reset_drop_key_once": 0,
+    "close_mission_control": null,
+    "limit_squad": 0,
+    "index_text": "7",
+    "index_sort": 6,
+    "spot_ids": [],
+    "enemy_team_count": {
+      "90042701": 0,
+      "90042702": 0,
+      "90042703": 0,
+      "90042704": 0
+    },
+    "map_all_width": 0,
+    "map_all_height": 0,
+    "map_eff_width": 0,
+    "map_eff_height": 0,
+    "map_offset_x": 0,
+    "map_offset_y": 0,
+    "win_objs": [],
+    "has_medal_obj": false,
+    "no_map": true
+  },
+  "900428": {
+    "id": 900428,
+    "duplicate_type": 0,
+    "coin_type": 0,
+    "campaign": 0,
+    "sub": 0,
+    "if_emergency": 0,
+    "endless_mode": 0,
+    "special_type": 0,
+    "name": "theater_area-10000428",
+    "difficulty": 0,
+    "exp_parameter": 0,
+    "type": null,
+    "enemy_ai_type": 0,
+    "win_turn": 0,
+    "win_spot_id": null,
+    "special_spot_id": null,
+    "expect_enemy_die_num": 0,
+    "expect_gun_die_num": 0,
+    "expect_turn": 0,
+    "boss_team_id": null,
+    "turn_duration": 0,
+    "costbp": 0,
+    "coin_ap": 0,
+    "turn_limit": 10,
+    "limit_gun_pool": null,
+    "limit_team": 0,
+    "map_res_name": null,
+    "map_information": null,
+    "is_hide": 0,
+    "is_snow": 0,
+    "adaptive_gun": null,
+    "fog_length": null,
+    "fog_color": null,
+    "limit_equip_pool": null,
+    "draw_event_s_id": null,
+    "support_available": 0,
+    "enemy_quickmove": 0,
+    "expect_defend_line_turn": 0,
+    "expect_hostage_num": null,
+    "title_logo": null,
+    "random_line_spot": null,
+    "order": 0,
+    "reinforce_ally_team": null,
+    "reinforce_ally_turn": 0,
+    "reinforce_ally_spot": null,
+    "ally_boss_team_id": null,
+    "ally_code": null,
+    "supply_parameter": null,
+    "drop_mission_key": null,
+    "close_missions": null,
+    "mission_group_id": 0,
+    "mission_group_draw_event": null,
+    "open_mission_keys": null,
+    "mission_describe": null,
+    "force_type": null,
+    "round_config": null,
+    "color_change_type": null,
+    "color_change_number": null,
+    "color_change_result": null,
+    "spot_reset": null,
+    "draw_code": null,
+    "reset_drop_key_once": 0,
+    "close_mission_control": null,
+    "limit_squad": 0,
+    "index_text": "8",
+    "index_sort": 7,
+    "spot_ids": [],
+    "enemy_team_count": {
+      "90042801": 0,
+      "90042802": 0,
+      "90042803": 0,
+      "90042804": 0,
+      "90042805": 0,
+      "90042806": 0
+    },
+    "map_all_width": 0,
+    "map_all_height": 0,
+    "map_eff_width": 0,
+    "map_eff_height": 0,
+    "map_offset_x": 0,
+    "map_offset_y": 0,
+    "win_objs": [],
+    "has_medal_obj": false,
+    "no_map": true
+  },
+  "900431": {
+    "id": 900431,
+    "duplicate_type": 0,
+    "coin_type": 0,
+    "campaign": 0,
+    "sub": 0,
+    "if_emergency": 0,
+    "endless_mode": 0,
+    "special_type": 0,
+    "name": "theater_area-10000431",
+    "difficulty": 0,
+    "exp_parameter": 0,
+    "type": null,
+    "enemy_ai_type": 0,
+    "win_turn": 0,
+    "win_spot_id": null,
+    "special_spot_id": null,
+    "expect_enemy_die_num": 0,
+    "expect_gun_die_num": 0,
+    "expect_turn": 0,
+    "boss_team_id": null,
+    "turn_duration": 0,
+    "costbp": 0,
+    "coin_ap": 0,
+    "turn_limit": 10,
+    "limit_gun_pool": null,
+    "limit_team": 0,
+    "map_res_name": null,
+    "map_information": null,
+    "is_hide": 0,
+    "is_snow": 0,
+    "adaptive_gun": null,
+    "fog_length": null,
+    "fog_color": null,
+    "limit_equip_pool": null,
+    "draw_event_s_id": null,
+    "support_available": 0,
+    "enemy_quickmove": 0,
+    "expect_defend_line_turn": 0,
+    "expect_hostage_num": null,
+    "title_logo": null,
+    "random_line_spot": null,
+    "order": 0,
+    "reinforce_ally_team": null,
+    "reinforce_ally_turn": 0,
+    "reinforce_ally_spot": null,
+    "ally_boss_team_id": null,
+    "ally_code": null,
+    "supply_parameter": null,
+    "drop_mission_key": null,
+    "close_missions": null,
+    "mission_group_id": 0,
+    "mission_group_draw_event": null,
+    "open_mission_keys": null,
+    "mission_describe": null,
+    "force_type": null,
+    "round_config": null,
+    "color_change_type": null,
+    "color_change_number": null,
+    "color_change_result": null,
+    "spot_reset": null,
+    "draw_code": null,
+    "reset_drop_key_once": 0,
+    "close_mission_control": null,
+    "limit_squad": 0,
+    "index_text": "1",
+    "index_sort": 0,
+    "spot_ids": [],
+    "enemy_team_count": {
+      "90043101": 0,
+      "90043102": 0,
+      "90043103": 0,
+      "90043104": 0
+    },
+    "map_all_width": 0,
+    "map_all_height": 0,
+    "map_eff_width": 0,
+    "map_eff_height": 0,
+    "map_offset_x": 0,
+    "map_offset_y": 0,
+    "win_objs": [],
+    "has_medal_obj": false,
+    "no_map": true
+  },
+  "900432": {
+    "id": 900432,
+    "duplicate_type": 0,
+    "coin_type": 0,
+    "campaign": 0,
+    "sub": 0,
+    "if_emergency": 0,
+    "endless_mode": 0,
+    "special_type": 0,
+    "name": "theater_area-10000432",
+    "difficulty": 0,
+    "exp_parameter": 0,
+    "type": null,
+    "enemy_ai_type": 0,
+    "win_turn": 0,
+    "win_spot_id": null,
+    "special_spot_id": null,
+    "expect_enemy_die_num": 0,
+    "expect_gun_die_num": 0,
+    "expect_turn": 0,
+    "boss_team_id": null,
+    "turn_duration": 0,
+    "costbp": 0,
+    "coin_ap": 0,
+    "turn_limit": 10,
+    "limit_gun_pool": null,
+    "limit_team": 0,
+    "map_res_name": null,
+    "map_information": null,
+    "is_hide": 0,
+    "is_snow": 0,
+    "adaptive_gun": null,
+    "fog_length": null,
+    "fog_color": null,
+    "limit_equip_pool": null,
+    "draw_event_s_id": null,
+    "support_available": 0,
+    "enemy_quickmove": 0,
+    "expect_defend_line_turn": 0,
+    "expect_hostage_num": null,
+    "title_logo": null,
+    "random_line_spot": null,
+    "order": 0,
+    "reinforce_ally_team": null,
+    "reinforce_ally_turn": 0,
+    "reinforce_ally_spot": null,
+    "ally_boss_team_id": null,
+    "ally_code": null,
+    "supply_parameter": null,
+    "drop_mission_key": null,
+    "close_missions": null,
+    "mission_group_id": 0,
+    "mission_group_draw_event": null,
+    "open_mission_keys": null,
+    "mission_describe": null,
+    "force_type": null,
+    "round_config": null,
+    "color_change_type": null,
+    "color_change_number": null,
+    "color_change_result": null,
+    "spot_reset": null,
+    "draw_code": null,
+    "reset_drop_key_once": 0,
+    "close_mission_control": null,
+    "limit_squad": 0,
+    "index_text": "2",
+    "index_sort": 1,
+    "spot_ids": [],
+    "enemy_team_count": {
+      "90043201": 0,
+      "90043202": 0,
+      "90043203": 0,
+      "90043204": 0
+    },
+    "map_all_width": 0,
+    "map_all_height": 0,
+    "map_eff_width": 0,
+    "map_eff_height": 0,
+    "map_offset_x": 0,
+    "map_offset_y": 0,
+    "win_objs": [],
+    "has_medal_obj": false,
+    "no_map": true
+  },
+  "900433": {
+    "id": 900433,
+    "duplicate_type": 0,
+    "coin_type": 0,
+    "campaign": 0,
+    "sub": 0,
+    "if_emergency": 0,
+    "endless_mode": 0,
+    "special_type": 0,
+    "name": "theater_area-10000433",
+    "difficulty": 0,
+    "exp_parameter": 0,
+    "type": null,
+    "enemy_ai_type": 0,
+    "win_turn": 0,
+    "win_spot_id": null,
+    "special_spot_id": null,
+    "expect_enemy_die_num": 0,
+    "expect_gun_die_num": 0,
+    "expect_turn": 0,
+    "boss_team_id": null,
+    "turn_duration": 0,
+    "costbp": 0,
+    "coin_ap": 0,
+    "turn_limit": 10,
+    "limit_gun_pool": null,
+    "limit_team": 0,
+    "map_res_name": null,
+    "map_information": null,
+    "is_hide": 0,
+    "is_snow": 0,
+    "adaptive_gun": null,
+    "fog_length": null,
+    "fog_color": null,
+    "limit_equip_pool": null,
+    "draw_event_s_id": null,
+    "support_available": 0,
+    "enemy_quickmove": 0,
+    "expect_defend_line_turn": 0,
+    "expect_hostage_num": null,
+    "title_logo": null,
+    "random_line_spot": null,
+    "order": 0,
+    "reinforce_ally_team": null,
+    "reinforce_ally_turn": 0,
+    "reinforce_ally_spot": null,
+    "ally_boss_team_id": null,
+    "ally_code": null,
+    "supply_parameter": null,
+    "drop_mission_key": null,
+    "close_missions": null,
+    "mission_group_id": 0,
+    "mission_group_draw_event": null,
+    "open_mission_keys": null,
+    "mission_describe": null,
+    "force_type": null,
+    "round_config": null,
+    "color_change_type": null,
+    "color_change_number": null,
+    "color_change_result": null,
+    "spot_reset": null,
+    "draw_code": null,
+    "reset_drop_key_once": 0,
+    "close_mission_control": null,
+    "limit_squad": 0,
+    "index_text": "3",
+    "index_sort": 2,
+    "spot_ids": [],
+    "enemy_team_count": {
+      "90043301": 0,
+      "90043302": 0,
+      "90043303": 0,
+      "90043304": 0,
+      "90043305": 0,
+      "90043306": 0
+    },
+    "map_all_width": 0,
+    "map_all_height": 0,
+    "map_eff_width": 0,
+    "map_eff_height": 0,
+    "map_offset_x": 0,
+    "map_offset_y": 0,
+    "win_objs": [],
+    "has_medal_obj": false,
+    "no_map": true
+  },
+  "900434": {
+    "id": 900434,
+    "duplicate_type": 0,
+    "coin_type": 0,
+    "campaign": 0,
+    "sub": 0,
+    "if_emergency": 0,
+    "endless_mode": 0,
+    "special_type": 0,
+    "name": "theater_area-10000434",
+    "difficulty": 0,
+    "exp_parameter": 0,
+    "type": null,
+    "enemy_ai_type": 0,
+    "win_turn": 0,
+    "win_spot_id": null,
+    "special_spot_id": null,
+    "expect_enemy_die_num": 0,
+    "expect_gun_die_num": 0,
+    "expect_turn": 0,
+    "boss_team_id": null,
+    "turn_duration": 0,
+    "costbp": 0,
+    "coin_ap": 0,
+    "turn_limit": 10,
+    "limit_gun_pool": null,
+    "limit_team": 0,
+    "map_res_name": null,
+    "map_information": null,
+    "is_hide": 0,
+    "is_snow": 0,
+    "adaptive_gun": null,
+    "fog_length": null,
+    "fog_color": null,
+    "limit_equip_pool": null,
+    "draw_event_s_id": null,
+    "support_available": 0,
+    "enemy_quickmove": 0,
+    "expect_defend_line_turn": 0,
+    "expect_hostage_num": null,
+    "title_logo": null,
+    "random_line_spot": null,
+    "order": 0,
+    "reinforce_ally_team": null,
+    "reinforce_ally_turn": 0,
+    "reinforce_ally_spot": null,
+    "ally_boss_team_id": null,
+    "ally_code": null,
+    "supply_parameter": null,
+    "drop_mission_key": null,
+    "close_missions": null,
+    "mission_group_id": 0,
+    "mission_group_draw_event": null,
+    "open_mission_keys": null,
+    "mission_describe": null,
+    "force_type": null,
+    "round_config": null,
+    "color_change_type": null,
+    "color_change_number": null,
+    "color_change_result": null,
+    "spot_reset": null,
+    "draw_code": null,
+    "reset_drop_key_once": 0,
+    "close_mission_control": null,
+    "limit_squad": 0,
+    "index_text": "4",
+    "index_sort": 3,
+    "spot_ids": [],
+    "enemy_team_count": {
+      "90043401": 0,
+      "90043402": 0,
+      "90043403": 0,
+      "90043404": 0
+    },
+    "map_all_width": 0,
+    "map_all_height": 0,
+    "map_eff_width": 0,
+    "map_eff_height": 0,
+    "map_offset_x": 0,
+    "map_offset_y": 0,
+    "win_objs": [],
+    "has_medal_obj": false,
+    "no_map": true
+  },
+  "900435": {
+    "id": 900435,
+    "duplicate_type": 0,
+    "coin_type": 0,
+    "campaign": 0,
+    "sub": 0,
+    "if_emergency": 0,
+    "endless_mode": 0,
+    "special_type": 0,
+    "name": "theater_area-10000435",
+    "difficulty": 0,
+    "exp_parameter": 0,
+    "type": null,
+    "enemy_ai_type": 0,
+    "win_turn": 0,
+    "win_spot_id": null,
+    "special_spot_id": null,
+    "expect_enemy_die_num": 0,
+    "expect_gun_die_num": 0,
+    "expect_turn": 0,
+    "boss_team_id": null,
+    "turn_duration": 0,
+    "costbp": 0,
+    "coin_ap": 0,
+    "turn_limit": 10,
+    "limit_gun_pool": null,
+    "limit_team": 0,
+    "map_res_name": null,
+    "map_information": null,
+    "is_hide": 0,
+    "is_snow": 0,
+    "adaptive_gun": null,
+    "fog_length": null,
+    "fog_color": null,
+    "limit_equip_pool": null,
+    "draw_event_s_id": null,
+    "support_available": 0,
+    "enemy_quickmove": 0,
+    "expect_defend_line_turn": 0,
+    "expect_hostage_num": null,
+    "title_logo": null,
+    "random_line_spot": null,
+    "order": 0,
+    "reinforce_ally_team": null,
+    "reinforce_ally_turn": 0,
+    "reinforce_ally_spot": null,
+    "ally_boss_team_id": null,
+    "ally_code": null,
+    "supply_parameter": null,
+    "drop_mission_key": null,
+    "close_missions": null,
+    "mission_group_id": 0,
+    "mission_group_draw_event": null,
+    "open_mission_keys": null,
+    "mission_describe": null,
+    "force_type": null,
+    "round_config": null,
+    "color_change_type": null,
+    "color_change_number": null,
+    "color_change_result": null,
+    "spot_reset": null,
+    "draw_code": null,
+    "reset_drop_key_once": 0,
+    "close_mission_control": null,
+    "limit_squad": 0,
+    "index_text": "5",
+    "index_sort": 4,
+    "spot_ids": [],
+    "enemy_team_count": {
+      "90043501": 0,
+      "90043502": 0,
+      "90043503": 0
+    },
+    "map_all_width": 0,
+    "map_all_height": 0,
+    "map_eff_width": 0,
+    "map_eff_height": 0,
+    "map_offset_x": 0,
+    "map_offset_y": 0,
+    "win_objs": [],
+    "has_medal_obj": false,
+    "no_map": true
+  },
+  "900436": {
+    "id": 900436,
+    "duplicate_type": 0,
+    "coin_type": 0,
+    "campaign": 0,
+    "sub": 0,
+    "if_emergency": 0,
+    "endless_mode": 0,
+    "special_type": 0,
+    "name": "theater_area-10000436",
+    "difficulty": 0,
+    "exp_parameter": 0,
+    "type": null,
+    "enemy_ai_type": 0,
+    "win_turn": 0,
+    "win_spot_id": null,
+    "special_spot_id": null,
+    "expect_enemy_die_num": 0,
+    "expect_gun_die_num": 0,
+    "expect_turn": 0,
+    "boss_team_id": null,
+    "turn_duration": 0,
+    "costbp": 0,
+    "coin_ap": 0,
+    "turn_limit": 10,
+    "limit_gun_pool": null,
+    "limit_team": 0,
+    "map_res_name": null,
+    "map_information": null,
+    "is_hide": 0,
+    "is_snow": 0,
+    "adaptive_gun": null,
+    "fog_length": null,
+    "fog_color": null,
+    "limit_equip_pool": null,
+    "draw_event_s_id": null,
+    "support_available": 0,
+    "enemy_quickmove": 0,
+    "expect_defend_line_turn": 0,
+    "expect_hostage_num": null,
+    "title_logo": null,
+    "random_line_spot": null,
+    "order": 0,
+    "reinforce_ally_team": null,
+    "reinforce_ally_turn": 0,
+    "reinforce_ally_spot": null,
+    "ally_boss_team_id": null,
+    "ally_code": null,
+    "supply_parameter": null,
+    "drop_mission_key": null,
+    "close_missions": null,
+    "mission_group_id": 0,
+    "mission_group_draw_event": null,
+    "open_mission_keys": null,
+    "mission_describe": null,
+    "force_type": null,
+    "round_config": null,
+    "color_change_type": null,
+    "color_change_number": null,
+    "color_change_result": null,
+    "spot_reset": null,
+    "draw_code": null,
+    "reset_drop_key_once": 0,
+    "close_mission_control": null,
+    "limit_squad": 0,
+    "index_text": "6",
+    "index_sort": 5,
+    "spot_ids": [],
+    "enemy_team_count": {
+      "90043601": 0,
+      "90043602": 0,
+      "90043603": 0,
+      "90043604": 0,
+      "90043605": 0,
+      "90043606": 0
+    },
+    "map_all_width": 0,
+    "map_all_height": 0,
+    "map_eff_width": 0,
+    "map_eff_height": 0,
+    "map_offset_x": 0,
+    "map_offset_y": 0,
+    "win_objs": [],
+    "has_medal_obj": false,
+    "no_map": true
+  },
+  "900437": {
+    "id": 900437,
+    "duplicate_type": 0,
+    "coin_type": 0,
+    "campaign": 0,
+    "sub": 0,
+    "if_emergency": 0,
+    "endless_mode": 0,
+    "special_type": 0,
+    "name": "theater_area-10000437",
+    "difficulty": 0,
+    "exp_parameter": 0,
+    "type": null,
+    "enemy_ai_type": 0,
+    "win_turn": 0,
+    "win_spot_id": null,
+    "special_spot_id": null,
+    "expect_enemy_die_num": 0,
+    "expect_gun_die_num": 0,
+    "expect_turn": 0,
+    "boss_team_id": null,
+    "turn_duration": 0,
+    "costbp": 0,
+    "coin_ap": 0,
+    "turn_limit": 10,
+    "limit_gun_pool": null,
+    "limit_team": 0,
+    "map_res_name": null,
+    "map_information": null,
+    "is_hide": 0,
+    "is_snow": 0,
+    "adaptive_gun": null,
+    "fog_length": null,
+    "fog_color": null,
+    "limit_equip_pool": null,
+    "draw_event_s_id": null,
+    "support_available": 0,
+    "enemy_quickmove": 0,
+    "expect_defend_line_turn": 0,
+    "expect_hostage_num": null,
+    "title_logo": null,
+    "random_line_spot": null,
+    "order": 0,
+    "reinforce_ally_team": null,
+    "reinforce_ally_turn": 0,
+    "reinforce_ally_spot": null,
+    "ally_boss_team_id": null,
+    "ally_code": null,
+    "supply_parameter": null,
+    "drop_mission_key": null,
+    "close_missions": null,
+    "mission_group_id": 0,
+    "mission_group_draw_event": null,
+    "open_mission_keys": null,
+    "mission_describe": null,
+    "force_type": null,
+    "round_config": null,
+    "color_change_type": null,
+    "color_change_number": null,
+    "color_change_result": null,
+    "spot_reset": null,
+    "draw_code": null,
+    "reset_drop_key_once": 0,
+    "close_mission_control": null,
+    "limit_squad": 0,
+    "index_text": "7",
+    "index_sort": 6,
+    "spot_ids": [],
+    "enemy_team_count": {
+      "90043701": 0,
+      "90043702": 0,
+      "90043703": 0,
+      "90043704": 0,
+      "90043705": 0
+    },
+    "map_all_width": 0,
+    "map_all_height": 0,
+    "map_eff_width": 0,
+    "map_eff_height": 0,
+    "map_offset_x": 0,
+    "map_offset_y": 0,
+    "win_objs": [],
+    "has_medal_obj": false,
+    "no_map": true
+  },
+  "900438": {
+    "id": 900438,
+    "duplicate_type": 0,
+    "coin_type": 0,
+    "campaign": 0,
+    "sub": 0,
+    "if_emergency": 0,
+    "endless_mode": 0,
+    "special_type": 0,
+    "name": "theater_area-10000438",
+    "difficulty": 0,
+    "exp_parameter": 0,
+    "type": null,
+    "enemy_ai_type": 0,
+    "win_turn": 0,
+    "win_spot_id": null,
+    "special_spot_id": null,
+    "expect_enemy_die_num": 0,
+    "expect_gun_die_num": 0,
+    "expect_turn": 0,
+    "boss_team_id": null,
+    "turn_duration": 0,
+    "costbp": 0,
+    "coin_ap": 0,
+    "turn_limit": 10,
+    "limit_gun_pool": null,
+    "limit_team": 0,
+    "map_res_name": null,
+    "map_information": null,
+    "is_hide": 0,
+    "is_snow": 0,
+    "adaptive_gun": null,
+    "fog_length": null,
+    "fog_color": null,
+    "limit_equip_pool": null,
+    "draw_event_s_id": null,
+    "support_available": 0,
+    "enemy_quickmove": 0,
+    "expect_defend_line_turn": 0,
+    "expect_hostage_num": null,
+    "title_logo": null,
+    "random_line_spot": null,
+    "order": 0,
+    "reinforce_ally_team": null,
+    "reinforce_ally_turn": 0,
+    "reinforce_ally_spot": null,
+    "ally_boss_team_id": null,
+    "ally_code": null,
+    "supply_parameter": null,
+    "drop_mission_key": null,
+    "close_missions": null,
+    "mission_group_id": 0,
+    "mission_group_draw_event": null,
+    "open_mission_keys": null,
+    "mission_describe": null,
+    "force_type": null,
+    "round_config": null,
+    "color_change_type": null,
+    "color_change_number": null,
+    "color_change_result": null,
+    "spot_reset": null,
+    "draw_code": null,
+    "reset_drop_key_once": 0,
+    "close_mission_control": null,
+    "limit_squad": 0,
+    "index_text": "8",
+    "index_sort": 7,
+    "spot_ids": [],
+    "enemy_team_count": {
+      "90043801": 0,
+      "90043802": 0,
+      "90043803": 0,
+      "90043804": 0,
+      "90043805": 0,
+      "90043806": 0
+    },
+    "map_all_width": 0,
+    "map_all_height": 0,
+    "map_eff_width": 0,
+    "map_eff_height": 0,
+    "map_offset_x": 0,
+    "map_offset_y": 0,
+    "win_objs": [],
+    "has_medal_obj": false,
+    "no_map": true
+  },
+  "900441": {
+    "id": 900441,
+    "duplicate_type": 0,
+    "coin_type": 0,
+    "campaign": 0,
+    "sub": 0,
+    "if_emergency": 0,
+    "endless_mode": 0,
+    "special_type": 0,
+    "name": "theater_area-10000441",
+    "difficulty": 0,
+    "exp_parameter": 0,
+    "type": null,
+    "enemy_ai_type": 0,
+    "win_turn": 0,
+    "win_spot_id": null,
+    "special_spot_id": null,
+    "expect_enemy_die_num": 0,
+    "expect_gun_die_num": 0,
+    "expect_turn": 0,
+    "boss_team_id": null,
+    "turn_duration": 0,
+    "costbp": 0,
+    "coin_ap": 0,
+    "turn_limit": 10,
+    "limit_gun_pool": null,
+    "limit_team": 0,
+    "map_res_name": null,
+    "map_information": null,
+    "is_hide": 0,
+    "is_snow": 0,
+    "adaptive_gun": null,
+    "fog_length": null,
+    "fog_color": null,
+    "limit_equip_pool": null,
+    "draw_event_s_id": null,
+    "support_available": 0,
+    "enemy_quickmove": 0,
+    "expect_defend_line_turn": 0,
+    "expect_hostage_num": null,
+    "title_logo": null,
+    "random_line_spot": null,
+    "order": 0,
+    "reinforce_ally_team": null,
+    "reinforce_ally_turn": 0,
+    "reinforce_ally_spot": null,
+    "ally_boss_team_id": null,
+    "ally_code": null,
+    "supply_parameter": null,
+    "drop_mission_key": null,
+    "close_missions": null,
+    "mission_group_id": 0,
+    "mission_group_draw_event": null,
+    "open_mission_keys": null,
+    "mission_describe": null,
+    "force_type": null,
+    "round_config": null,
+    "color_change_type": null,
+    "color_change_number": null,
+    "color_change_result": null,
+    "spot_reset": null,
+    "draw_code": null,
+    "reset_drop_key_once": 0,
+    "close_mission_control": null,
+    "limit_squad": 0,
+    "index_text": "1",
+    "index_sort": 0,
+    "spot_ids": [],
+    "enemy_team_count": {
+      "90044101": 0,
+      "90044102": 0,
+      "90044103": 0
+    },
+    "map_all_width": 0,
+    "map_all_height": 0,
+    "map_eff_width": 0,
+    "map_eff_height": 0,
+    "map_offset_x": 0,
+    "map_offset_y": 0,
+    "win_objs": [],
+    "has_medal_obj": false,
+    "no_map": true
+  },
+  "900442": {
+    "id": 900442,
+    "duplicate_type": 0,
+    "coin_type": 0,
+    "campaign": 0,
+    "sub": 0,
+    "if_emergency": 0,
+    "endless_mode": 0,
+    "special_type": 0,
+    "name": "theater_area-10000442",
+    "difficulty": 0,
+    "exp_parameter": 0,
+    "type": null,
+    "enemy_ai_type": 0,
+    "win_turn": 0,
+    "win_spot_id": null,
+    "special_spot_id": null,
+    "expect_enemy_die_num": 0,
+    "expect_gun_die_num": 0,
+    "expect_turn": 0,
+    "boss_team_id": null,
+    "turn_duration": 0,
+    "costbp": 0,
+    "coin_ap": 0,
+    "turn_limit": 10,
+    "limit_gun_pool": null,
+    "limit_team": 0,
+    "map_res_name": null,
+    "map_information": null,
+    "is_hide": 0,
+    "is_snow": 0,
+    "adaptive_gun": null,
+    "fog_length": null,
+    "fog_color": null,
+    "limit_equip_pool": null,
+    "draw_event_s_id": null,
+    "support_available": 0,
+    "enemy_quickmove": 0,
+    "expect_defend_line_turn": 0,
+    "expect_hostage_num": null,
+    "title_logo": null,
+    "random_line_spot": null,
+    "order": 0,
+    "reinforce_ally_team": null,
+    "reinforce_ally_turn": 0,
+    "reinforce_ally_spot": null,
+    "ally_boss_team_id": null,
+    "ally_code": null,
+    "supply_parameter": null,
+    "drop_mission_key": null,
+    "close_missions": null,
+    "mission_group_id": 0,
+    "mission_group_draw_event": null,
+    "open_mission_keys": null,
+    "mission_describe": null,
+    "force_type": null,
+    "round_config": null,
+    "color_change_type": null,
+    "color_change_number": null,
+    "color_change_result": null,
+    "spot_reset": null,
+    "draw_code": null,
+    "reset_drop_key_once": 0,
+    "close_mission_control": null,
+    "limit_squad": 0,
+    "index_text": "2",
+    "index_sort": 1,
+    "spot_ids": [],
+    "enemy_team_count": {
+      "90044201": 0,
+      "90044202": 0,
+      "90044203": 0,
+      "90044204": 0,
+      "90044205": 0
+    },
+    "map_all_width": 0,
+    "map_all_height": 0,
+    "map_eff_width": 0,
+    "map_eff_height": 0,
+    "map_offset_x": 0,
+    "map_offset_y": 0,
+    "win_objs": [],
+    "has_medal_obj": false,
+    "no_map": true
+  },
+  "900443": {
+    "id": 900443,
+    "duplicate_type": 0,
+    "coin_type": 0,
+    "campaign": 0,
+    "sub": 0,
+    "if_emergency": 0,
+    "endless_mode": 0,
+    "special_type": 0,
+    "name": "theater_area-10000443",
+    "difficulty": 0,
+    "exp_parameter": 0,
+    "type": null,
+    "enemy_ai_type": 0,
+    "win_turn": 0,
+    "win_spot_id": null,
+    "special_spot_id": null,
+    "expect_enemy_die_num": 0,
+    "expect_gun_die_num": 0,
+    "expect_turn": 0,
+    "boss_team_id": null,
+    "turn_duration": 0,
+    "costbp": 0,
+    "coin_ap": 0,
+    "turn_limit": 10,
+    "limit_gun_pool": null,
+    "limit_team": 0,
+    "map_res_name": null,
+    "map_information": null,
+    "is_hide": 0,
+    "is_snow": 0,
+    "adaptive_gun": null,
+    "fog_length": null,
+    "fog_color": null,
+    "limit_equip_pool": null,
+    "draw_event_s_id": null,
+    "support_available": 0,
+    "enemy_quickmove": 0,
+    "expect_defend_line_turn": 0,
+    "expect_hostage_num": null,
+    "title_logo": null,
+    "random_line_spot": null,
+    "order": 0,
+    "reinforce_ally_team": null,
+    "reinforce_ally_turn": 0,
+    "reinforce_ally_spot": null,
+    "ally_boss_team_id": null,
+    "ally_code": null,
+    "supply_parameter": null,
+    "drop_mission_key": null,
+    "close_missions": null,
+    "mission_group_id": 0,
+    "mission_group_draw_event": null,
+    "open_mission_keys": null,
+    "mission_describe": null,
+    "force_type": null,
+    "round_config": null,
+    "color_change_type": null,
+    "color_change_number": null,
+    "color_change_result": null,
+    "spot_reset": null,
+    "draw_code": null,
+    "reset_drop_key_once": 0,
+    "close_mission_control": null,
+    "limit_squad": 0,
+    "index_text": "3",
+    "index_sort": 2,
+    "spot_ids": [],
+    "enemy_team_count": {
+      "90044301": 0,
+      "90044302": 0,
+      "90044303": 0,
+      "90044304": 0,
+      "90044305": 0,
+      "90044306": 0
+    },
+    "map_all_width": 0,
+    "map_all_height": 0,
+    "map_eff_width": 0,
+    "map_eff_height": 0,
+    "map_offset_x": 0,
+    "map_offset_y": 0,
+    "win_objs": [],
+    "has_medal_obj": false,
+    "no_map": true
+  },
+  "900444": {
+    "id": 900444,
+    "duplicate_type": 0,
+    "coin_type": 0,
+    "campaign": 0,
+    "sub": 0,
+    "if_emergency": 0,
+    "endless_mode": 0,
+    "special_type": 0,
+    "name": "theater_area-10000444",
+    "difficulty": 0,
+    "exp_parameter": 0,
+    "type": null,
+    "enemy_ai_type": 0,
+    "win_turn": 0,
+    "win_spot_id": null,
+    "special_spot_id": null,
+    "expect_enemy_die_num": 0,
+    "expect_gun_die_num": 0,
+    "expect_turn": 0,
+    "boss_team_id": null,
+    "turn_duration": 0,
+    "costbp": 0,
+    "coin_ap": 0,
+    "turn_limit": 10,
+    "limit_gun_pool": null,
+    "limit_team": 0,
+    "map_res_name": null,
+    "map_information": null,
+    "is_hide": 0,
+    "is_snow": 0,
+    "adaptive_gun": null,
+    "fog_length": null,
+    "fog_color": null,
+    "limit_equip_pool": null,
+    "draw_event_s_id": null,
+    "support_available": 0,
+    "enemy_quickmove": 0,
+    "expect_defend_line_turn": 0,
+    "expect_hostage_num": null,
+    "title_logo": null,
+    "random_line_spot": null,
+    "order": 0,
+    "reinforce_ally_team": null,
+    "reinforce_ally_turn": 0,
+    "reinforce_ally_spot": null,
+    "ally_boss_team_id": null,
+    "ally_code": null,
+    "supply_parameter": null,
+    "drop_mission_key": null,
+    "close_missions": null,
+    "mission_group_id": 0,
+    "mission_group_draw_event": null,
+    "open_mission_keys": null,
+    "mission_describe": null,
+    "force_type": null,
+    "round_config": null,
+    "color_change_type": null,
+    "color_change_number": null,
+    "color_change_result": null,
+    "spot_reset": null,
+    "draw_code": null,
+    "reset_drop_key_once": 0,
+    "close_mission_control": null,
+    "limit_squad": 0,
+    "index_text": "4",
+    "index_sort": 3,
+    "spot_ids": [],
+    "enemy_team_count": {
+      "90044401": 0,
+      "90044402": 0,
+      "90044403": 0,
+      "90044404": 0,
+      "90044405": 0,
+      "90044406": 0
+    },
+    "map_all_width": 0,
+    "map_all_height": 0,
+    "map_eff_width": 0,
+    "map_eff_height": 0,
+    "map_offset_x": 0,
+    "map_offset_y": 0,
+    "win_objs": [],
+    "has_medal_obj": false,
+    "no_map": true
+  },
+  "900445": {
+    "id": 900445,
+    "duplicate_type": 0,
+    "coin_type": 0,
+    "campaign": 0,
+    "sub": 0,
+    "if_emergency": 0,
+    "endless_mode": 0,
+    "special_type": 0,
+    "name": "theater_area-10000445",
+    "difficulty": 0,
+    "exp_parameter": 0,
+    "type": null,
+    "enemy_ai_type": 0,
+    "win_turn": 0,
+    "win_spot_id": null,
+    "special_spot_id": null,
+    "expect_enemy_die_num": 0,
+    "expect_gun_die_num": 0,
+    "expect_turn": 0,
+    "boss_team_id": null,
+    "turn_duration": 0,
+    "costbp": 0,
+    "coin_ap": 0,
+    "turn_limit": 10,
+    "limit_gun_pool": null,
+    "limit_team": 0,
+    "map_res_name": null,
+    "map_information": null,
+    "is_hide": 0,
+    "is_snow": 0,
+    "adaptive_gun": null,
+    "fog_length": null,
+    "fog_color": null,
+    "limit_equip_pool": null,
+    "draw_event_s_id": null,
+    "support_available": 0,
+    "enemy_quickmove": 0,
+    "expect_defend_line_turn": 0,
+    "expect_hostage_num": null,
+    "title_logo": null,
+    "random_line_spot": null,
+    "order": 0,
+    "reinforce_ally_team": null,
+    "reinforce_ally_turn": 0,
+    "reinforce_ally_spot": null,
+    "ally_boss_team_id": null,
+    "ally_code": null,
+    "supply_parameter": null,
+    "drop_mission_key": null,
+    "close_missions": null,
+    "mission_group_id": 0,
+    "mission_group_draw_event": null,
+    "open_mission_keys": null,
+    "mission_describe": null,
+    "force_type": null,
+    "round_config": null,
+    "color_change_type": null,
+    "color_change_number": null,
+    "color_change_result": null,
+    "spot_reset": null,
+    "draw_code": null,
+    "reset_drop_key_once": 0,
+    "close_mission_control": null,
+    "limit_squad": 0,
+    "index_text": "5",
+    "index_sort": 4,
+    "spot_ids": [],
+    "enemy_team_count": {
+      "90044501": 0,
+      "90044502": 0,
+      "90044503": 0,
+      "90044504": 0,
+      "90044505": 0,
+      "90044506": 0
+    },
+    "map_all_width": 0,
+    "map_all_height": 0,
+    "map_eff_width": 0,
+    "map_eff_height": 0,
+    "map_offset_x": 0,
+    "map_offset_y": 0,
+    "win_objs": [],
+    "has_medal_obj": false,
+    "no_map": true
+  },
+  "900446": {
+    "id": 900446,
+    "duplicate_type": 0,
+    "coin_type": 0,
+    "campaign": 0,
+    "sub": 0,
+    "if_emergency": 0,
+    "endless_mode": 0,
+    "special_type": 0,
+    "name": "theater_area-10000446",
+    "difficulty": 0,
+    "exp_parameter": 0,
+    "type": null,
+    "enemy_ai_type": 0,
+    "win_turn": 0,
+    "win_spot_id": null,
+    "special_spot_id": null,
+    "expect_enemy_die_num": 0,
+    "expect_gun_die_num": 0,
+    "expect_turn": 0,
+    "boss_team_id": null,
+    "turn_duration": 0,
+    "costbp": 0,
+    "coin_ap": 0,
+    "turn_limit": 10,
+    "limit_gun_pool": null,
+    "limit_team": 0,
+    "map_res_name": null,
+    "map_information": null,
+    "is_hide": 0,
+    "is_snow": 0,
+    "adaptive_gun": null,
+    "fog_length": null,
+    "fog_color": null,
+    "limit_equip_pool": null,
+    "draw_event_s_id": null,
+    "support_available": 0,
+    "enemy_quickmove": 0,
+    "expect_defend_line_turn": 0,
+    "expect_hostage_num": null,
+    "title_logo": null,
+    "random_line_spot": null,
+    "order": 0,
+    "reinforce_ally_team": null,
+    "reinforce_ally_turn": 0,
+    "reinforce_ally_spot": null,
+    "ally_boss_team_id": null,
+    "ally_code": null,
+    "supply_parameter": null,
+    "drop_mission_key": null,
+    "close_missions": null,
+    "mission_group_id": 0,
+    "mission_group_draw_event": null,
+    "open_mission_keys": null,
+    "mission_describe": null,
+    "force_type": null,
+    "round_config": null,
+    "color_change_type": null,
+    "color_change_number": null,
+    "color_change_result": null,
+    "spot_reset": null,
+    "draw_code": null,
+    "reset_drop_key_once": 0,
+    "close_mission_control": null,
+    "limit_squad": 0,
+    "index_text": "6",
+    "index_sort": 5,
+    "spot_ids": [],
+    "enemy_team_count": {
+      "90044601": 0,
+      "90044602": 0,
+      "90044603": 0,
+      "90044604": 0,
+      "90044605": 0,
+      "90044606": 0,
+      "90044607": 0
+    },
+    "map_all_width": 0,
+    "map_all_height": 0,
+    "map_eff_width": 0,
+    "map_eff_height": 0,
+    "map_offset_x": 0,
+    "map_offset_y": 0,
+    "win_objs": [],
+    "has_medal_obj": false,
+    "no_map": true
+  },
+  "900447": {
+    "id": 900447,
+    "duplicate_type": 0,
+    "coin_type": 0,
+    "campaign": 0,
+    "sub": 0,
+    "if_emergency": 0,
+    "endless_mode": 0,
+    "special_type": 0,
+    "name": "theater_area-10000447",
+    "difficulty": 0,
+    "exp_parameter": 0,
+    "type": null,
+    "enemy_ai_type": 0,
+    "win_turn": 0,
+    "win_spot_id": null,
+    "special_spot_id": null,
+    "expect_enemy_die_num": 0,
+    "expect_gun_die_num": 0,
+    "expect_turn": 0,
+    "boss_team_id": null,
+    "turn_duration": 0,
+    "costbp": 0,
+    "coin_ap": 0,
+    "turn_limit": 10,
+    "limit_gun_pool": null,
+    "limit_team": 0,
+    "map_res_name": null,
+    "map_information": null,
+    "is_hide": 0,
+    "is_snow": 0,
+    "adaptive_gun": null,
+    "fog_length": null,
+    "fog_color": null,
+    "limit_equip_pool": null,
+    "draw_event_s_id": null,
+    "support_available": 0,
+    "enemy_quickmove": 0,
+    "expect_defend_line_turn": 0,
+    "expect_hostage_num": null,
+    "title_logo": null,
+    "random_line_spot": null,
+    "order": 0,
+    "reinforce_ally_team": null,
+    "reinforce_ally_turn": 0,
+    "reinforce_ally_spot": null,
+    "ally_boss_team_id": null,
+    "ally_code": null,
+    "supply_parameter": null,
+    "drop_mission_key": null,
+    "close_missions": null,
+    "mission_group_id": 0,
+    "mission_group_draw_event": null,
+    "open_mission_keys": null,
+    "mission_describe": null,
+    "force_type": null,
+    "round_config": null,
+    "color_change_type": null,
+    "color_change_number": null,
+    "color_change_result": null,
+    "spot_reset": null,
+    "draw_code": null,
+    "reset_drop_key_once": 0,
+    "close_mission_control": null,
+    "limit_squad": 0,
+    "index_text": "7",
+    "index_sort": 6,
+    "spot_ids": [],
+    "enemy_team_count": {
+      "90044701": 0,
+      "90044702": 0,
+      "90044703": 0,
+      "90044704": 0,
+      "90044705": 0
+    },
+    "map_all_width": 0,
+    "map_all_height": 0,
+    "map_eff_width": 0,
+    "map_eff_height": 0,
+    "map_offset_x": 0,
+    "map_offset_y": 0,
+    "win_objs": [],
+    "has_medal_obj": false,
+    "no_map": true
+  },
+  "900448": {
+    "id": 900448,
+    "duplicate_type": 0,
+    "coin_type": 0,
+    "campaign": 0,
+    "sub": 0,
+    "if_emergency": 0,
+    "endless_mode": 0,
+    "special_type": 0,
+    "name": "theater_area-10000448",
+    "difficulty": 0,
+    "exp_parameter": 0,
+    "type": null,
+    "enemy_ai_type": 0,
+    "win_turn": 0,
+    "win_spot_id": null,
+    "special_spot_id": null,
+    "expect_enemy_die_num": 0,
+    "expect_gun_die_num": 0,
+    "expect_turn": 0,
+    "boss_team_id": null,
+    "turn_duration": 0,
+    "costbp": 0,
+    "coin_ap": 0,
+    "turn_limit": 10,
+    "limit_gun_pool": null,
+    "limit_team": 0,
+    "map_res_name": null,
+    "map_information": null,
+    "is_hide": 0,
+    "is_snow": 0,
+    "adaptive_gun": null,
+    "fog_length": null,
+    "fog_color": null,
+    "limit_equip_pool": null,
+    "draw_event_s_id": null,
+    "support_available": 0,
+    "enemy_quickmove": 0,
+    "expect_defend_line_turn": 0,
+    "expect_hostage_num": null,
+    "title_logo": null,
+    "random_line_spot": null,
+    "order": 0,
+    "reinforce_ally_team": null,
+    "reinforce_ally_turn": 0,
+    "reinforce_ally_spot": null,
+    "ally_boss_team_id": null,
+    "ally_code": null,
+    "supply_parameter": null,
+    "drop_mission_key": null,
+    "close_missions": null,
+    "mission_group_id": 0,
+    "mission_group_draw_event": null,
+    "open_mission_keys": null,
+    "mission_describe": null,
+    "force_type": null,
+    "round_config": null,
+    "color_change_type": null,
+    "color_change_number": null,
+    "color_change_result": null,
+    "spot_reset": null,
+    "draw_code": null,
+    "reset_drop_key_once": 0,
+    "close_mission_control": null,
+    "limit_squad": 0,
+    "index_text": "8",
+    "index_sort": 7,
+    "spot_ids": [],
+    "enemy_team_count": {
+      "90044801": 0,
+      "90044802": 0,
+      "90044803": 0,
+      "90044804": 0,
+      "90044805": 0,
+      "90044806": 0,
+      "90044807": 0,
+      "90044808": 0,
+      "90044809": 0
+    },
+    "map_all_width": 0,
+    "map_all_height": 0,
+    "map_eff_width": 0,
+    "map_eff_height": 0,
+    "map_offset_x": 0,
+    "map_offset_y": 0,
+    "win_objs": [],
+    "has_medal_obj": false,
+    "no_map": true
   }
 }

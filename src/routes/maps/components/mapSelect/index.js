@@ -52,6 +52,9 @@ const MapSelect = ({
         case 2:
           type_text = __('campaign.simulation')
           break;
+        case 3:
+          type_text = __('campaign.theater')
+          break;
         default:
           type_text = '？？'
       }

@@ -1,8 +1,29 @@
 export default [
   {
+    version: '0.1.0',
+    date: '2019.03.25',
+    desc: '支持战区/Add theater',
+    details: [
+    ],
+  },
+  {
+    version: '0.0.8',
+    date: '2018.01.17',
+    desc: '更新掉落信息/Update drops',
+    details: [
+    ],
+  },
+  {
+    version: '0.0.7',
+    date: '2018.11.19',
+    desc: '添加回合查询功能/Add per turn look up',
+    details: [
+    ],
+  },
+  {
     version: '0.0.6',
     date: '2018.10.25',
-    desc: '更新第11章数据/Update Chapter 11 Data & Translations',
+    desc: '使用新UI/Use new UI',
     details: [
       'BUG：F5之后自动无效，需要手动生成一次/Auto-Generate does not work after F5, you must manually generate map',
     ],

@@ -32,13 +32,14 @@
     "count": "Count",
     "drop_limit": "Limited Drop",
     "drop_reg": "Common Drop",
+    "note": "Note",
+    "night_battle": "Night Battle",
     "warning": "Attention: The map and the following table only show enemies with fixed starting position. Enemies that have random starting position, or appear later in the game normally will not be shown here. They can be viewed by manually change the Enemy Team ID in the box below.",
     "warning_no_map_selected": "Please first select the map to be generated",
     "init_map_not_yet": "Map not generated",
     "init_map_loading": "Generating map...",
     "current_turn": "Current Turn",
     "select_turn": "Current Turn: "
-
   },
   "spot_img": {
     "spot1": "spot1US",
@@ -99,6 +100,7 @@
     "main": "Main Story: ",
     "event": "Event: ",
     "simulation": "Drill: ",
+    "theater": "Theater: ",
     "main0": "Chapter 0",
     "main1": "Chapter 1",
     "main2": "Chapter 2",
@@ -217,6 +219,11 @@
     "90007": "Hunter",
     "90008": "Intruder",
     "90009": "Scarecrow",
+    "700001": "Destroyer",
+    "700002": "Gager",
+    "700003": "Executioner(Elite)",
+    "700004": "Hunter(Elite)",
+    "700005": "Judge",
     "900010": "Executioner",
     "900011": "Hunter",
     "900012": "Intruder",
@@ -360,6 +367,7 @@
     "900151": "Beak",
     "900152": "Beak",
     "900153": "Judge",
+    "900154": "Judge",
     "910101": "K2",
     "910102": "K2",
     "910103": "K2",
@@ -380,7 +388,11 @@
     "910118": "M950A",
     "910119": "TMP",
     "910120": "AEK999",
-    "910121": "Thunder"
+    "910121": "Thunder",
+    "910122": "M4A1",
+    "910123": "AR15",
+    "910124": "AK12",
+    "910125": "AN94"
   },
   "game": {
     "30130": "Wait",

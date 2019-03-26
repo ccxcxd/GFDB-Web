@@ -113,6 +113,8 @@
     "main9": "第九战役",
     "main10": "第十战役",
     "main11": "第十一战役",
+    "defense_drill": "防御演习",
+    "defense_drill_lv": "波",
     "simulation1": "经验特训",
     "simulation2": "强化练习",
     "simulation3": "资料采样",
@@ -401,5 +403,10 @@
     "30135": "等待救援",
     "30136": "离线"
   },
-    "placeholder": ""
+  "common": {
+    "1280": "初级训练",
+    "1281": "中级训练",
+    "1282": "高级训练"
+  },
+  "placeholder": ""
 }

@@ -113,6 +113,8 @@
     "main9": "Chapter 9",
     "main10": "Chapter 10",
     "main11": "Chapter 11",
+    "defense_drill": "Defense Drill",
+    "defense_drill_lv": "Wave",
     "simulation1": "Exp Mode",
     "simulation2": "Capsule Mode",
     "simulation3": "Data Mode",
@@ -400,6 +402,11 @@
     "30132": "Eliminate",
     "30135": "Awaiting rescue",
     "30136": "Offline"
+  },
+  "common": {
+    "1280": "Basic Training",
+    "1281": "Intermediate Training",
+    "1282": "Advanced Training"
   },
   "placeholder": ""
 }

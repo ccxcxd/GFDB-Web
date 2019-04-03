@@ -70,6 +70,16 @@ class GameClass {
         });
         return power;
     }
+    
+    getEnemyTeamPowerDecoratedString (enemyTeam, turnNo, power = null) {
+        if (power === null)
+            power = this.getEnemyTeamPower(enemyTeam, turnNo);
+
+        if (enemyTeam.lv_up_array.length > 0)
+            return power + '*'
+        else
+            return power.toString()
+    }
 
     getEnemyTeamLvCorrection (enemyTeam, turnNo) {
         if (turnNo)

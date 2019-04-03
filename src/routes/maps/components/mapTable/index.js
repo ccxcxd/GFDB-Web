@@ -117,7 +117,7 @@ const TeamTable = ({
         id: parseInt(teamId, 10),
         leader: __(enemy_character_type_info[enemyTeam.enemy_leader].name),
         power: teamPower,
-        power_display: teamPower + (enemyTeam.correction_turn?"*":""),
+        power_display: Game.getEnemyTeamPowerDecoratedString(enemyTeam, currentTurn, teamPower),
         members: getMembers(enemyTeam),
         count: count,
         drop_limit: getLimitedDrop(enemyTeam),

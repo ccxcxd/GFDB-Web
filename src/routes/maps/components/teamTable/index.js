@@ -2,7 +2,6 @@ import React from 'react'
 import {
   Table,
 } from 'antd'
-import { forEach } from 'lodash'
 import les from './index.less'
 import Game from '@/services/game'
 

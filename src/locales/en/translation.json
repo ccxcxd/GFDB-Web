@@ -54,7 +54,9 @@
     "closedhvap": "closedhvap"
   },
   "team_sel": {
-    "label": "Enemy ID: "
+    "label": "Enemy ID: ",
+    "input_in_hand": "Enemy ID, press enter to confirm",
+    "msg_team_no_exist": "not exist"
   },
   "team_tbl": {
     "name": "Name",

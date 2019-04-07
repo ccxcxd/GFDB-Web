@@ -1,7 +1,9 @@
 import React from 'react'
 import {
   Table,
-  Select,
+  Input,
+  message,
+  Icon,
 } from 'antd'
 import { forEach } from 'lodash'
 import les from './index.less'
@@ -64,6 +66,18 @@ const TeamTable = ({
       type: 'maps/selectEnemyTeam',
       payload: id,
     })
+  }
+  const handleInputComplete = (e) => {
+    const value = e.target.value
+    if (value in enemy_team_info) {
+      // 提交结果
+      dispatch({
+        type: 'maps/selectEnemyTeam',
+        payload: value,
+      })
+    } else {
+      message.warn(`${value} ${__('team_sel.msg_team_no_exist')}`)
+    }
   }
   const getStrLength = (str) => {
     if (!str) {
@@ -209,6 +223,13 @@ const TeamTable = ({
           {/* {mapTeamOpt(enemy_team_info)} */}
           {opts}
         </select>
+        <Input
+          allowClear
+          className={les.inputInHand}
+          placeholder={__('team_sel.input_in_hand')}
+          onPressEnter={handleInputComplete}
+          suffix={(<Icon type="enter" />)}
+        />
       </div>
     </div>
   )

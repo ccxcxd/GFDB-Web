@@ -54,7 +54,9 @@
     "closedhvap": "closedhvapKR"
   },
   "team_sel": {
-    "label": "번호:"
+    "label": "번호:",
+    "input_in_hand": "Enemy ID, press enter to confirm",
+    "msg_team_no_exist": "not exist"
   },
   "team_tbl": {
     "name": "이름",

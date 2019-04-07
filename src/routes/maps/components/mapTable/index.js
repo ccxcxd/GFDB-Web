@@ -13,7 +13,6 @@ const mapTeamOpt = () => {
     enemy_team_info,
   } = mDB
   const childrens = []
-  const Option = Select.Option
   forEach(enemy_team_info, (val, key) => {
     if (key && val.id) {
       childrens.push(

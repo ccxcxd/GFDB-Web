@@ -63,58 +63,72 @@ const TeamTable = ({
     {
       title: __('team_tbl.number'),
       dataIndex: 'number',
+      width: 50,
     },
     {
       title: __('team_tbl.level'),
       dataIndex: 'level',
+      width: 60,
     },
     {
       title: __('team_tbl.maxlife'),
       dataIndex: 'maxlife',
+      width: 60,
     },
     {
       title: __('team_tbl.pow'),
       dataIndex: 'pow',
+      width: 60,
     },
     {
       title: __('team_tbl.rate'),
       dataIndex: 'rate',
+      width: 60,
     },
     {
       title: __('team_tbl.hit'),
       dataIndex: 'hit',
+      width: 60,
     },
     {
       title: __('team_tbl.dodge'),
       dataIndex: 'dodge',
+      width: 60,
     },
     {
       title: __('team_tbl.range'),
       dataIndex: 'range',
+      width: 60,
     },
     {
       title: __('team_tbl.speed'),
       dataIndex: 'speed',
+      width: 70,
     },
     {
       title: __('team_tbl.armor_piercing'),
       dataIndex: 'armor_piercing',
+      width: 60,
     },
     {
       title: __('team_tbl.armor'),
       dataIndex: 'armor',
+      width: 60,
     },
     {
       title: __('team_tbl.def_break'),
       dataIndex: 'def_break',
+      width: 60,
     },
     {
       title: __('team_tbl.def'),
       dataIndex: 'def',
+      width: 80,
     },
     {
       title: __('team_tbl.def_percent'),
       dataIndex: 'def_percent',
+      width: 60,
     },
     {
       title: __('team_tbl.coordinator'),
@@ -122,6 +136,7 @@ const TeamTable = ({
       render: (val, { coordinator_x, coordinator_y }) => {
         return `${coordinator_x}, ${coordinator_y}`
       },
+      width: 60,
     },
     {
       title: __('team_tbl.character'),
@@ -133,16 +148,18 @@ const TeamTable = ({
     columns,
     dataSource: data,
     rowKey: 'id',
+    size: 'small',
     className: `responsive-table ${les.table}`,
     scroll: {
       x: clientType === 'web' ?
       0 :
       clientWidth - 16,
+      y: 240,
     },
     pagination: false,
   }
   return (
-    <div>
+    <div className={les.wrapepr}>
       <Table {...propsOfTable} />
     </div>
   )

@@ -54,7 +54,9 @@
     "closedhvap": "closedhvap"
   },
   "team_sel": {
-    "label": "敵人編號："
+    "label": "敵人編號：",
+    "input_in_hand": "敵人編號，回車確認",
+    "msg_team_no_exist": "不存在"
   },
   "team_tbl": {
     "name": "名稱",

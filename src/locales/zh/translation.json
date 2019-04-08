@@ -54,7 +54,9 @@
     "closedhvap": "closedhvap"
   },
   "team_sel": {
-    "label": "敌人编号："
+    "label": "敌人编号：",
+    "input_in_hand": "敌人编号，回车确认",
+    "msg_team_no_exist": "不存在"
   },
   "team_tbl": {
     "name": "名称",

@@ -1,4 +1,5 @@
 'use strict'
+const webpack = require('webpack')
 const merge = require('webpack-merge')
 const ProgressBarPlugin = require('progress-bar-webpack-plugin')
 const Visualizer = require('webpack-visualizer-plugin')
@@ -22,7 +23,9 @@ module.exports = merge(webpackBaseConf, {
   },
 
   resolve: {
-    jquery: 'jquery/dist/jquery.min.js',
+    alias: {
+      jquery: 'jquery/dist/jquery.min.js',
+    },
   },
 
   plugins: [

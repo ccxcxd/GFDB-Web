@@ -23,6 +23,21 @@ module.exports = {
   
   PUBLIC_PATH,
 
+  dll: {
+    entry: {
+      WEBPACK_DLL_DB: [
+        path.resolve(SRC, './db/mainDB.js'),
+        // 'regenerator-runtime',
+        // 'core-js',
+        // 'babel-polyfill',
+      ],
+      WEBPACK_DLL_ENV: [
+        'babel-polyfill',
+        'url-polyfill',
+      ],
+    },
+  },
+
   dev: {
     // Various Dev Server settings
     host: HOST || '0.0.0.0', // can be overwritten by process.env.HOST

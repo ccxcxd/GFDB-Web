@@ -13,7 +13,8 @@ const {
 } = config
 
 module.exports = merge(webpackBaseConf, {
-  mode: 'production',
+  // mode: 'production',
+  mode: 'development',
 
   output: {
     path: OUTPUT_DIR,

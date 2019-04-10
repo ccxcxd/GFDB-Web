@@ -14,6 +14,8 @@ const {
   PUBLIC_PATH,
   STATIC_DIR,
   DLL_DIR,
+
+  dll,
 } = config
 
 /** definition entry object */
@@ -138,6 +140,8 @@ module.exports = {
       'lang': path.resolve(SRC, 'locales'),
       'services': path.resolve(SRC, 'services'),
       'static': path.resolve(SRC, 'static'),
+      'babel-polyfill': 'babel-polyfill/dist/polyfill.min.js',
+      'url-polyfill': 'url-polyfill/url-polyfill.min.js',
     },
   },
 
@@ -145,11 +149,18 @@ module.exports = {
     // 进度条插件
     new ProgressBarPlugin(),
     // 配置 dll
-    new webpack.DllReferencePlugin({
-      context: STATIC_DIR,
-      manifest: path.resolve(DLL_DIR, './manifest.json'),
-      name: 'dll',
+    ...Object.keys(dll.entry).map(dllItem => {
+      return new webpack.DllReferencePlugin({
+        context: STATIC_DIR,
+        manifest: path.resolve(DLL_DIR, `./${dllItem}-manifest.json`),
+        name: dllItem,
+      })
     }),
+    // new webpack.DllReferencePlugin({
+    //   context: STATIC_DIR,
+    //   manifest: path.resolve(DLL_DIR, 'manifest.json'),
+    //   name: 'dll',
+    // }),
     // 复制资源文件
     new CopyWebpackPlugin([
       {

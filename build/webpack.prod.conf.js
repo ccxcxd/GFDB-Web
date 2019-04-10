@@ -30,6 +30,19 @@ module.exports = merge(webpackBaseConf, {
     },
   },
 
+  optimization: {
+    splitChunks: {
+      cacheGroups: {
+        commons: {
+          name: 'commons',
+          filename: './static/[name].[hash].js',
+          chunks: 'initial',
+          minChunks: 2
+        },
+      },
+    },
+  },
+
   plugins: [
     new webpack.IgnorePlugin(/^\.\/locale$/, /moment$/),
     // 另一个包体积分析插件

@@ -10,7 +10,10 @@ const LANG_DIR = path.resolve(ROOT, './src/locales')
 const ENTRIES_DIR = path.resolve(ROOT, './src/entries')
 const PACKAGE_JSON = path.resolve(ROOT, './package.json')
 const ENTRY_FILE = path.resolve(ROOT, './src/index.js')
-const WEBPACK_CONFIG_DIR = path.resolve(ROOT, './webpack-config/base/')
+// const WEBPACK_CONFIG_DIR = path.resolve(ROOT, './webpack-config/base/')
+// const WEBPACK_CONFIG_PATH = path.resolve(WEBPACK_CONFIG_DIR, './languages.js')
+
+const WEBPACK_CONFIG_DIR = path.resolve(ROOT, './build/config/')
 const WEBPACK_CONFIG_PATH = path.resolve(WEBPACK_CONFIG_DIR, './languages.js')
 
 /** 获取语种列表 */

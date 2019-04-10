@@ -48,7 +48,7 @@ const TeamTable = ({
       def_percent: `${member.def_percent}%`,
       coordinator_x: member.coordinator_x,
       coordinator_y: member.coordinator_y,
-      character: __(enemy.character).replace(new RegExp("//c", "g"), " "),
+      character: __(enemy.character),
     }
   })
 

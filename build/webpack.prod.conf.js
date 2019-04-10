@@ -1,8 +1,7 @@
 'use strict'
 const webpack = require('webpack')
 const merge = require('webpack-merge')
-const ProgressBarPlugin = require('progress-bar-webpack-plugin')
-const Visualizer = require('webpack-visualizer-plugin')
+const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin
 
 const webpackBaseConf = require('./webpack.base.conf.js')
 const config = require('./config/index.js')
@@ -33,7 +32,9 @@ module.exports = merge(webpackBaseConf, {
 
   plugins: [
     new webpack.IgnorePlugin(/^\.\/locale$/, /moment$/),
-    // 包体积分析
-    new Visualizer(),
+    // 另一个包体积分析插件
+    new BundleAnalyzerPlugin({
+      analyzerMode: 'static',
+    }),
   ],
 })

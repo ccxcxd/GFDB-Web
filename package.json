@@ -11,8 +11,10 @@
     "build": "cross-env publicPath='/' webpack --config ./webpack-config/config.prod.js",
     "local": "http-server ./dist",
     "dll": "webpack --config ./webpack-config/config.dll.js",
+
     "predev:new": "node ./bin/init.js dev",
-    "dev:new": "webpack-dev-server --config ./build/webpack.dev.conf.js"
+    "dev:new": "webpack-dev-server --config ./build/webpack.dev.conf.js",
+    "dll:new": "webpack --config ./build/webpack.dll.conf.js"
   },
   "author": "L.T.",
   "license": "MIT",

@@ -23,6 +23,13 @@ module.exports = {
   
   PUBLIC_PATH,
 
+  aliasBase: {
+    '@': SRC,
+    'lang': path.resolve(SRC, 'locales'),
+    'services': path.resolve(SRC, 'services'),
+    'static': path.resolve(SRC, 'static'),
+  },
+
   dll: {
     entry: {
       WEBPACK_DLL_DB: [
@@ -34,6 +41,11 @@ module.exports = {
       WEBPACK_DLL_ENV: [
         'babel-polyfill',
         'url-polyfill',
+
+        'react-dom',
+        '@ant-design/icons/lib/dist.js',
+        'moment/min/moment.min.js',
+        'jquery',
       ],
     },
   },
@@ -47,5 +59,12 @@ module.exports = {
     notifyOnErrors: true,
   },
 
-  prod: {},
+  prod: {
+    aliasExtra: {
+      'babel-polyfill': 'babel-polyfill/dist/polyfill.min.js',
+      'url-polyfill': 'url-polyfill/url-polyfill.min.js',
+      'react-dom': 'react-dom/cjs/react-dom.production.min.js',
+      'jquery': 'jquery/dist/jquery.min.js',
+    },
+  },
 }

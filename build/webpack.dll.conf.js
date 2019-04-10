@@ -12,6 +12,7 @@ const {
   DLL_DIR,
 
   dll,
+  prod,
 } = config
 
 module.exports = {
@@ -27,7 +28,12 @@ module.exports = {
   },
 
   module: webpackDevConf.module,
-  resolve: webpackDevConf.resolve,
+
+  resolve: {
+    alias: {
+      ...prod.aliasExtra,
+    },
+  },
 
   plugins: [
     // 进度条插件

@@ -10,11 +10,13 @@ const config = require('./config/index.js')
 const {
   OUTPUT_DIR,
   PUBLIC_PATH,
+
+  prod,
 } = config
 
 module.exports = merge(webpackBaseConf, {
-  // mode: 'production',
-  mode: 'development',
+  mode: 'production',
+  // mode: 'development',
 
   output: {
     path: OUTPUT_DIR,
@@ -25,7 +27,7 @@ module.exports = merge(webpackBaseConf, {
 
   resolve: {
     alias: {
-      jquery: 'jquery/dist/jquery.min.js',
+      ...prod.aliasExtra,
     },
   },
 

@@ -15,6 +15,7 @@ const {
   STATIC_DIR,
   DLL_DIR,
 
+  aliasBase,
   dll,
 } = config
 
@@ -135,14 +136,7 @@ module.exports = {
 
   resolve: {
     extensions: ['.js', '.jsx'],
-    alias: {
-      '@': SRC,
-      'lang': path.resolve(SRC, 'locales'),
-      'services': path.resolve(SRC, 'services'),
-      'static': path.resolve(SRC, 'static'),
-      'babel-polyfill': 'babel-polyfill/dist/polyfill.min.js',
-      'url-polyfill': 'url-polyfill/url-polyfill.min.js',
-    },
+    alias: aliasBase,
   },
 
   plugins: [

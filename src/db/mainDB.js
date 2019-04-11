@@ -1,12 +1,12 @@
 /** 将队列json转换为数组 */
-const convertJSONToArray = (json) => {
-  const keys = Object.keys(json)
-  const array = []
-  for(let i = 0; i < keys.length; i += 1) {
-    array[i] = json[keys[i]]
-  }
-  return array
-}
+// const convertJSONToArray = (json) => {
+//   const keys = Object.keys(json)
+//   const array = []
+//   for(let i = 0; i < keys.length; i += 1) {
+//     array[i] = json[keys[i]]
+//   }
+//   return array
+// }
 
 // 游戏常量
 const game_config_info = require('./json/game_config_info.json')

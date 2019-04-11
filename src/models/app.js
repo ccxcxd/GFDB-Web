@@ -150,6 +150,9 @@ export default (LANG) => {
           payload: { versionStoraged: payload },
         })
       },
+      /* init db after dom load */
+      * initDB() {
+      },
     },
 
     reducers: {},

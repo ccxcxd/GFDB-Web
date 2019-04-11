@@ -16,6 +16,7 @@ const {
   DLL_DIR,
 
   aliasBase,
+  db,
   dll,
 } = config
 
@@ -165,6 +166,7 @@ module.exports = {
     // 变量替换
     new webpack.DefinePlugin({
       'PUBLIC_PATH': JSON.stringify(PUBLIC_PATH),
+      'DB_FILE_NAME': JSON.stringify(db.outputFileName),
     }),
   ],
 }

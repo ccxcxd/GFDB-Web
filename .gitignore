@@ -4,3 +4,5 @@ src/entries
 webpack-config/base/languages.js
 build/config/languages.js
 src/static/dll/**
+src/db/db_output.js
+src/static/MAIN_DB.json

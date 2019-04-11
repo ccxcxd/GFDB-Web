@@ -11,7 +11,8 @@
     "build": "cross-env publicPath='/' webpack --config ./build/webpack.prod.conf.js",
     "local": "http-server ./dist",
     "predll": "rimraf src/static/dll/**",
-    "dll": "webpack --config ./build/webpack.dll.conf.js"
+    "dll": "webpack --config ./build/webpack.dll.conf.js",
+    "db": "webpack --config ./build/webpack.db.conf.js"
   },
   "author": "L.T.",
   "license": "MIT",
@@ -52,6 +53,7 @@
     "i18n-webpack-plugin": "^1.0.0",
     "less": "^3.9.0",
     "less-loader": "^4.1.0",
+    "merge-jsons-webpack-plugin": "^1.0.18",
     "node-notifier": "^5.4.0",
     "progress-bar-webpack-plugin": "^1.12.1",
     "style-loader": "^0.22.1",

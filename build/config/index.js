@@ -30,6 +30,25 @@ module.exports = {
     'static': path.resolve(SRC, 'static'),
   },
 
+  db: {
+    outputFileName: 'MAIN_DB',
+    jsons: [
+      'game_config_info',
+      'campaign_info',
+      'mission_info',
+      'spot_info',
+      'enemy_team_info',
+      'enemy_in_team_info',
+      'enemy_character_type_info',
+      'enemy_standard_attribute_info',
+      'gun_info',
+      'ally_team_info',
+      'building_info',
+      'operation_info',
+      'item_info',
+    ],
+  },
+
   dll: {
     entry: {
       WEBPACK_DLL_DB: [

@@ -38,6 +38,11 @@ module.exports = {
   plugins: [
     // 进度条插件
     new ProgressBarPlugin(),
+    // 忽略moment的locale自动全量引入
+    new webpack.IgnorePlugin({
+      resourceRegExp: /^\.\/locale$/,
+      contextRegExp: /moment$/,
+    }),
     // 变量替换
     // new webpack.DefinePlugin({
     //   'PUBLIC_PATH': JSON.stringify(PUBLIC_PATH),

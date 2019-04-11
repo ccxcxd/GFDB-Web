@@ -44,11 +44,6 @@ module.exports = merge(webpackBaseConf, {
   },
 
   plugins: [
-    // 忽略moment
-    new webpack.IgnorePlugin({
-      resourceRegExp: /^\.\/locale$/,
-      contextRegExp: /moment$/,
-    }),
     // 另一个包体积分析插件
     new BundleAnalyzerPlugin({
       analyzerMode: 'static',

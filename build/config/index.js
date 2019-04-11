@@ -45,6 +45,7 @@ module.exports = {
         'react-dom',
         '@ant-design/icons/lib/dist.js',
         'jquery',
+        'moment',
       ],
     },
   },

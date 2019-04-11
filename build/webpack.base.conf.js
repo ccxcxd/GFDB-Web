@@ -150,11 +150,6 @@ module.exports = {
         name: dllItem,
       })
     }),
-    // new webpack.DllReferencePlugin({
-    //   context: STATIC_DIR,
-    //   manifest: path.resolve(DLL_DIR, 'manifest.json'),
-    //   name: 'dll',
-    // }),
     // 复制资源文件
     new CopyWebpackPlugin([
       {

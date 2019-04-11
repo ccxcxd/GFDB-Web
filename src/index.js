@@ -13,7 +13,7 @@ import moment from 'moment'
 /** IMPORT_LANG_MOMENT */
 
 const __ = initI18n(LANG)
-moment.locale(LANG.name)
+moment.locale(LANG.moment)
 
 // 全局变量注入
 window.__ = __

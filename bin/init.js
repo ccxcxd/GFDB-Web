@@ -29,7 +29,7 @@ File.prototype = {
   replaceMoment: function (langName) {
     this.content = this.content.replace(
       /\/\*\* IMPORT_LANG_MOMENT \*\//,
-      `import 'moment/locale/${langName}'`,
+      `import 'moment/locale/${langName}.js'`,
     )
     return this
   },

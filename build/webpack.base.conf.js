@@ -52,17 +52,6 @@ module.exports = {
           SRC,
         ],
         loader: 'babel-loader',
-        options: {
-          'presets': [
-            'env',
-            'react',
-            'stage-0',
-          ],
-          'plugins': [
-            ["import", { "libraryName": "antd", "libraryDirectory": "es", "style": "css" }],
-            ['lodash'],
-          ],
-        },
       },
       {
         test: /\.(css)$/,

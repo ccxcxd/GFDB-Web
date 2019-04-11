@@ -18,7 +18,11 @@ module.exports = function (api) {
   ];
   const plugins = [
     '@babel/plugin-proposal-class-properties',
-    ["import", { "libraryName": "antd", "libraryDirectory": "es", "style": "css" }],
+    ['import', {
+      'libraryName': 'antd',
+      // 'libraryDirectory': 'es',
+      'style': 'css',
+    }],
     ['lodash'],
   ];
 

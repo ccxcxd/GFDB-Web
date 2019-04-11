@@ -2,7 +2,6 @@ import moduleExtend from 'dva-model-extend'
 // import pathToRegexp from 'path-to-regexp'
 // import { isEmpty } from 'lodash'
 import { model } from '../utils/model'
-import mDB from '@/db/mainDB'
 import {
   sortBy,
   sum,
@@ -11,8 +10,6 @@ import {
 import {
   dealHours,
 } from '@/utils/js/func'
-
-const operationList = Object.keys(mDB.operation_info).map(d => mDB.operation_info[d])
 
 const filterByPlan = (list, condition) => {
   const baseList = [].concat(list)
@@ -57,27 +54,13 @@ const countByPlan = (list, condition) => {
   })).reverse().slice(0, 4)
 }
 
-const resourceList = [
-  mDB.item_info['501'],
-  mDB.item_info['502'],
-  mDB.item_info['503'],
-  mDB.item_info['504'],
-]
-const extraList = [
-  mDB.item_info['1'],
-  mDB.item_info['2'],
-  mDB.item_info['3'],
-  mDB.item_info['4'],
-  mDB.item_info['41'],
-]
-
 export default moduleExtend(model, {
   namespace: 'quest',
 
   state: {
-    list: operationList,
-    resourceList,
-    extraList,
+    list: [],
+    resourceList: [],
+    extraList: [],
     filters: {},
 
     modalPlanVisible: false,  // 筹划弹窗可视状态
@@ -103,6 +86,32 @@ export default moduleExtend(model, {
   },
 
   effects: {
+    // 初始化state(在mdb数据下载回来之后)
+    * initState({ payload }, { select, put }) {
+      const { mDB } = yield select(({ app }) => app)
+      const operationList = Object.keys(mDB.operation_info).map(d => mDB.operation_info[d])
+      const resourceList = [
+        mDB.item_info['501'],
+        mDB.item_info['502'],
+        mDB.item_info['503'],
+        mDB.item_info['504'],
+      ]
+      const extraList = [
+        mDB.item_info['1'],
+        mDB.item_info['2'],
+        mDB.item_info['3'],
+        mDB.item_info['4'],
+        mDB.item_info['41'],
+      ]
+      yield put({
+        type: 'updateState',
+        payload: {
+          list: operationList,
+          resourceList,
+          extraList,
+        },
+      })
+    },
     * filterList({ payload }, { select, put }) {
       let { list } = yield select(({ quest }) => quest)
       if (payload.resource) {
@@ -169,8 +178,9 @@ export default moduleExtend(model, {
       })
     },
     // 试算后勤序列
-    * countQuest({ payload }, { put }) {
-      const res = filterByPlan(operationList, payload)
+    * countQuest({ payload }, { select, put }) {
+      const { list } = yield select(({ quest }) => quest)
+      const res = filterByPlan(list, payload)
       const countList = countByPlan(res, payload)
       yield put.resolve({
         type: 'updateState',

@@ -2,14 +2,7 @@ import moduleExtend from 'dva-model-extend'
 // import pathToRegexp from 'path-to-regexp'
 import { isEmpty } from 'lodash'
 import { model } from '../utils/model'
-import mDB from '@/db/mainDB'
 import LG from '@/services/localStorage'
-
-const {
-  mission_info,
-  campaign_info,
-  enemy_team_info,
-} = mDB
 
 export default moduleExtend(model, {
   namespace: 'maps',
@@ -52,8 +45,9 @@ export default moduleExtend(model, {
       })
       LG.set('hide_power', display ? '0' : '1')
     },
-    * selectCampaign ({ payload, autoChild }, { put }) {
-      const campaign = campaign_info[payload]
+    * selectCampaign ({ payload, autoChild }, { select, put }) {
+      const { mDB } = yield select(({ app }) => app)
+      const campaign = mDB.campaign_info[payload]
       yield put.resolve({
         type: 'updateState',
         payload: { campaignSelected: campaign },
@@ -70,8 +64,9 @@ export default moduleExtend(model, {
         }
       }
     },
-    * selectMisson ({ payload, autoChild }, { put }) {
-      const mission = mission_info[payload]
+    * selectMisson ({ payload, autoChild }, { select, put }) {
+      const { mDB } = yield select(({ app }) => app)
+      const mission = mDB.mission_info[payload]
       yield put.resolve({
         type: 'updateState',
         payload: { missionSelected: mission },
@@ -88,8 +83,9 @@ export default moduleExtend(model, {
         }
       }
     },
-    * selectEnemyTeam ({ payload }, { put }) {
-      const enemyTeam = enemy_team_info[payload]
+    * selectEnemyTeam ({ payload }, { select, put }) {
+      const { mDB } = yield select(({ app }) => app)
+      const enemyTeam = mDB.enemy_team_info[payload]
       yield put.resolve({
         type: 'updateState',
         payload: { enemyTeamSelected: enemyTeam },

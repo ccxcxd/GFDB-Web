@@ -15,6 +15,7 @@ const Main = ({
   // 属性定义
   const propsOfBtnLab = {
     dispatch,
+    app,
   }
   const propsOfTable = {
     dispatch,

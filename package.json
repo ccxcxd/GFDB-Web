@@ -10,7 +10,7 @@
     "prebuild": "rimraf dist/** && node ./bin/init.js build",
     "build": "cross-env publicPath='/' webpack --config ./build/webpack.prod.conf.js",
     "local": "http-server ./dist",
-    "predll": "rimraf src/static/dll/**",
+    "predll": "rimraf src/static/dll/** && node ./bin/init.js build",
     "dll": "webpack --config ./build/webpack.dll.conf.js",
     "db": "webpack --config ./build/webpack.db.conf.js"
   },
@@ -22,6 +22,7 @@
   },
   "dependencies": {
     "antd": "^3.16.1",
+    "axios": "^0.18.0",
     "dva": "^2.4.1",
     "dva-loading": "^2.0.6",
     "dva-model-extend": "^0.1.2",

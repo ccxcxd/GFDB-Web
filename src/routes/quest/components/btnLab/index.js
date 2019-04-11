@@ -6,7 +6,11 @@ import les from './index.less'
 
 const BtnLab = ({
   dispatch,
+  app,
 }) => {
+  const {
+    ifDBInit,
+  } = app
   // 方法定义
   const onPlanClick = () => {
     dispatch({ type: 'quest/showModalPlan', show: true })
@@ -16,6 +20,7 @@ const BtnLab = ({
     <div className={les.btnArea}>
       <Button
         type="primary"
+        disabled={!ifDBInit}
         onClick={onPlanClick}
       >{__('logistic.supportPlan.entryButton')}</Button>
       <div className={les.blank} />

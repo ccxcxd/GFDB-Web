@@ -9,9 +9,13 @@ const Option = Select.Option
 
 const MapSelect = ({
   dispatch,
+  app,
   maps,
 }) => {
   // 获取属性
+  const {
+    mDB,
+  } = app
   const {
     campaignSelected,
     missionSelected,

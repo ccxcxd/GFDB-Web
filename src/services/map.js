@@ -3,15 +3,6 @@ import ImgLoader from './imgLoader'
 import Game from './game'
 
 const { saveAs } = require('file-saver/FileSaver.min.js')
-const {
-  mission_info,
-  spot_info,
-  enemy_team_info,
-  enemy_character_type_info,
-  gun_info,
-  ally_team_info,
-  building_info,
-} = mDB
 
 const CANVAS_FG_ID = 'map_canvas_fg'
 const CANVAS_BG_ID = 'map_canvas_bg'
@@ -31,6 +22,14 @@ class Map {
   afterGenerate = null // 绘制完毕回调
   afterRemove = null // 销毁后回调
 
+  mission_info = null
+  spot_info = null
+  enemy_team_info = null
+  enemy_character_type_info = null
+  gun_info = null
+  ally_team_info = null
+  building_info = null
+
   /**
    * init map canvas Object
    */
@@ -39,11 +38,21 @@ class Map {
     onSpotClick,
     afterGenerate,
     afterRemove,
+
+    mDB,
   }) {
     this.power_display = powerDisplay
     this.onSpotClick = onSpotClick
     this.afterGenerate = afterGenerate
     this.afterRemove = afterRemove
+
+    this.mission_info = mDB.mission_info,
+    this.spot_info = mDB.spot_info,
+    this.enemy_team_info = mDB.enemy_team_info,
+    this.enemy_character_type_info = mDB.enemy_character_type_info,
+    this.gun_info = mDB.gun_info,
+    this.ally_team_info = mDB.ally_team_info,
+    this.building_info = mDB.building_info
     // init Object data
     this.fgCanvas = document.getElementById(CANVAS_FG_ID);
     this.bgCanvas = document.getElementById(CANVAS_BG_ID);
@@ -87,8 +96,8 @@ class Map {
       if (lastX == x && lastY == y) {
         x = this.fgX2bgX(x);
         y = this.fgY2bgY(y);
-        $.each(mission_info[this.missionId].spot_ids, (index, spot_id) => {
-          var spot = spot_info[spot_id];
+        $.each(this.mission_info[this.missionId].spot_ids, (index, spot_id) => {
+          var spot = this.spot_info[spot_id];
           var spotImg = imgLoader.imgs[spot.imagename];
           var w = spotImg.naturalWidth;
           var h = spotImg.naturalHeight;
@@ -161,7 +170,7 @@ class Map {
       this.power_display = displayPower
     }
 
-    if (mission_info[missionId].no_map) {
+    if (this.mission_info[missionId].no_map) {
       this.remove();
       return;
     }
@@ -172,7 +181,7 @@ class Map {
 
     // wait for all resources loaded to avoid racing conditions in drawing
     imgLoader.onload(() => {
-      var mission = mission_info[this.missionId];
+      var mission = this.mission_info[this.missionId];
       this.width = Math.abs(mission.map_eff_width);
       this.height = Math.abs(mission.map_eff_height);
       this.bgCanvas.width = this.width;
@@ -258,11 +267,11 @@ class Map {
 
   preloadResources () {
     // load images
-    var mission = mission_info[this.missionId];
+    var mission = this.mission_info[this.missionId];
     this.mapImgName = `${IMAGE_BASEPATH}/map/` + mission.map_res_name + ".png";
     imgLoader.add(this.mapImgName);
     $.each(mission.spot_ids, (index, spot_id) => {
-      var spot = spot_info[spot_id];
+      var spot = this.spot_info[spot_id];
 
       var imagename;
       if (spot.random_get) {
@@ -283,14 +292,14 @@ class Map {
       imgLoader.add(imagename);
 
       if (spot.hostage_info) {
-        var gun = gun_info[spot.hostage_info.split(",")[0]];
+        var gun = this.gun_info[spot.hostage_info.split(",")[0]];
         var imagename2 = `${IMAGE_BASEPATH}/spine/` + gun.code + ".png";
         gun.imagename = imagename2;
         imgLoader.add(imagename2);
       }
 
       if (spot.building_id != 0) {
-        var building = building_info[spot.building_id];
+        var building = this.building_info[spot.building_id];
         var imagename2 = `${IMAGE_BASEPATH}/building/` + building.code + building.belong + ".png";
         building.imagename = imagename2;
         imgLoader.add(imagename2);
@@ -298,9 +307,9 @@ class Map {
 
       var loadEnemySpine = false;
       if (spot.ally_team_id) {
-        var team = ally_team_info[spot.ally_team_id];
+        var team = this.ally_team_info[spot.ally_team_id];
         if (team.initial_type == 1) {
-          var leader_info = gun_info[team.leader_id];
+          var leader_info = this.gun_info[team.leader_id];
           var imagename2 = `${IMAGE_BASEPATH}/spine/` + leader_info.code + ".png";
           leader_info.imagename = imagename2;
           imgLoader.add(imagename2);
@@ -310,7 +319,7 @@ class Map {
       }
 
       if (loadEnemySpine || spot.enemy_team_id) {
-        var leader_info = enemy_character_type_info[enemy_team_info[spot.enemy_team_id].enemy_leader];
+        var leader_info =this. enemy_character_type_info[this.enemy_team_info[spot.enemy_team_id].enemy_leader];
         var imagename2 = `${IMAGE_BASEPATH}/spine/` + leader_info.code + ".png";
         leader_info.imagename = imagename2;
         imgLoader.add(imagename2);
@@ -332,7 +341,7 @@ class Map {
   drawBgImage (canvas) {
     var ctx = canvas.getContext('2d');
     var bgImg = imgLoader.imgs[this.mapImgName];
-    var mission = mission_info[this.missionId];
+    var mission = this.mission_info[this.missionId];
 
     // multiply night color
     ctx.save();
@@ -358,6 +367,7 @@ class Map {
 
     // draw spot connections
     $.each(mission.spot_ids, (index, spot_id) => {
+      var spot_info = this.spot_info
       var spot = spot_info[spot_id];
       $.each(spot.route_types, (other_id, number_of_ways) => {
         this.drawConnectionLine(ctx, spot.coordinator_x, spot.coordinator_y,
@@ -367,7 +377,7 @@ class Map {
 
     // draw spots
     $.each(mission.spot_ids, (index, spot_id) => {
-      var spot = spot_info[spot_id];
+      var spot = this.spot_info[spot_id];
       var spotImg = imgLoader.imgs[spot.imagename];
       var w = spotImg.naturalWidth;
       var h = spotImg.naturalHeight;
@@ -375,7 +385,7 @@ class Map {
 
       // draw buildings
       if (spot.building_id != 0) {
-        var building = building_info[spot.building_id];
+        var building = this.building_info[spot.building_id];
         this.drawBuilding(ctx, spot.coordinator_x, spot.coordinator_y, building);
       }
     });
@@ -512,7 +522,7 @@ class Map {
     if (!this.show)
       return;
 
-    var mission = mission_info[this.missionId];
+    var mission = this.mission_info[this.missionId];
     var scale = this.scale;
     var ctx = canvas.getContext('2d');
 
@@ -528,32 +538,32 @@ class Map {
 
     // draw spine first
     $.each(mission.spot_ids, (index, spot_id) => {
-      var spot = spot_info[spot_id];
+      var spot = this.spot_info[spot_id];
       var x0 = spot.coordinator_x;
       var y0 = spot.coordinator_y;
       var selected = $.inArray(spot_id, this.selectedSpots) !== -1;
       if (spot.building_id != 0) {
-        var shift = building_info[spot.building_id].shifting_team.split(",");
+        var shift = this.building_info[spot.building_id].shifting_team.split(",");
         x0 += parseInt(shift[0]);
         y0 += parseInt(shift[1]);
       }
       if (spot.hostage_info) {
         var s = spot.hostage_info.split(",");
-        var gun = gun_info[s[0]];
+        var gun = this.gun_info[s[0]];
         this.drawSpine(ctx, x0, y0, gun.imagename, __(gun.name), selected);
       } else if (spot.ally_team_id) {
-        var ally_team = ally_team_info[spot.ally_team_id];
+        var ally_team = this.ally_team_info[spot.ally_team_id];
         if (ally_team.initial_type == 1) {
-          var leader_info = gun_info[ally_team.leader_id];
+          var leader_info = this.gun_info[ally_team.leader_id];
           this.drawSpine(ctx, x0, y0, leader_info.imagename, __(leader_info.name), selected);
         } else {
-          var enemy_team = enemy_team_info[spot.enemy_team_id];
-          var leader_info = enemy_character_type_info[enemy_team.enemy_leader];
+          var enemy_team = this.enemy_team_info[spot.enemy_team_id];
+          var leader_info =this. enemy_character_type_info[enemy_team.enemy_leader];
           this.drawSpine(ctx, x0, y0, leader_info.imagename, __(leader_info.name), selected);
         }
       } else if (spot.enemy_team_id) {
-        var enemy_team = enemy_team_info[spot.enemy_team_id];
-        var leader_info = enemy_character_type_info[enemy_team.enemy_leader];
+        var enemy_team = this.enemy_team_info[spot.enemy_team_id];
+        var leader_info =this. enemy_character_type_info[enemy_team.enemy_leader];
         this.drawSpine(ctx, x0, y0, leader_info.imagename, __(leader_info.name), selected);
       }
     });
@@ -561,17 +571,17 @@ class Map {
     // then power (can overlay on spine)
     if (this.power_display) {
       $.each(mission.spot_ids, (index, spot_id) => {
-        var spot = spot_info[spot_id];
+        var spot = this.spot_info[spot_id];
         var x0 = spot.coordinator_x;
         var y0 = spot.coordinator_y;
         if (spot.hostage_info) {
           var s = spot.hostage_info.split(",");
-          var gun = gun_info[s[0]];
+          var gun = this.gun_info[s[0]];
           var hp = s[1];
           var power = Math.floor(0.15 * mission.difficulty * hp);
           this.drawFriendStats(ctx, x0, y0, __("game.30135"), "#FF4D00", __("game.30136"), "#DDDDDD", power, hp, "hostage", "#676767");
         } else if (spot.ally_team_id) {
-          var ally_team = ally_team_info[spot.ally_team_id];
+          var ally_team = this.ally_team_info[spot.ally_team_id];
           var allyColor = "white";
           var order = "  ";
           var power = "";
@@ -580,19 +590,19 @@ class Map {
             text = "";
           if (ally_team.initial_type == 0) {
             allyColor = "#FFC33E";
-            var enemy_team = enemy_team_info[spot.enemy_team_id];
+            var enemy_team = this.enemy_team_info[spot.enemy_team_id];
             power = Game.getEnemyTeamPowerDecoratedString(enemy_team, this.turnNo);
           } else if (ally_team.initial_type == 1) {
             allyColor = "#96C9F8";
             order = __("game.30132")
           } else if (ally_team.initial_type == 2) {
             allyColor = "#FF0000";
-            var enemy_team = enemy_team_info[spot.enemy_team_id];
+            var enemy_team = this.enemy_team_info[spot.enemy_team_id];
             power = Game.getEnemyTeamPowerDecoratedString(enemy_team, this.turnNo);
           }
           this.drawFriendStats(ctx, x0, y0, text, allyColor, order, allyColor, power, 1, "ally", allyColor);
         } else if (spot.enemy_team_id) {
-          var enemy_team = enemy_team_info[spot.enemy_team_id];
+          var enemy_team = this.enemy_team_info[spot.enemy_team_id];
           power = Game.getEnemyTeamPowerDecoratedString(enemy_team, this.turnNo);
           this.drawEnemyPower(ctx, x0, y0, power, mission.difficulty);
         }
@@ -818,9 +828,9 @@ class Map {
     var xMax = 0;
     var yMin = this.height;
     var yMax = 0;
-    var mission = mission_info[this.missionId];
+    var mission = this.mission_info[this.missionId];
     $.each(mission.spot_ids, (index, spot_id) => {
-      var spot = spot_info[spot_id];
+      var spot = this.spot_info[spot_id];
       xMin = Math.min(xMin, spot.coordinator_x);
       xMax = Math.max(xMax, spot.coordinator_x);
       yMin = Math.min(yMin, spot.coordinator_y);

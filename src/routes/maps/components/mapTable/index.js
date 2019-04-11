@@ -10,12 +10,9 @@ import les from './index.less'
 import Game from '@/services/game'
 
 // 渲染方法定义
-const mapTeamOpt = () => {
-  const {
-    enemy_team_info,
-  } = mDB
+const mapTeamOpt = (obj) => {
   const childrens = []
-  forEach(enemy_team_info, (val, key) => {
+  forEach(obj, (val, key) => {
     if (key && val.id) {
       childrens.push(
         <option
@@ -29,7 +26,6 @@ const mapTeamOpt = () => {
   })
   return childrens
 }
-const opts = mapTeamOpt()
 
 const TeamTable = ({
   dispatch,
@@ -41,6 +37,7 @@ const TeamTable = ({
     clientType,
     clientWidth,
     tableProps,
+    mDB,
   } = app
   const {
     missionSelected,
@@ -221,7 +218,7 @@ const TeamTable = ({
           onChange={selectOtherEnemyTeam}
         >
           {/* {mapTeamOpt(enemy_team_info)} */}
-          {opts}
+          {mapTeamOpt(enemy_team_info)}
         </select>
         <Input
           allowClear

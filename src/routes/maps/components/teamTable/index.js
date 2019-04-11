@@ -14,6 +14,7 @@ const TeamTable = ({
     clientType,
     clientWidth,
     tableProps,
+    mDB,
   } = app
   const {
     enemyTeamSelected,

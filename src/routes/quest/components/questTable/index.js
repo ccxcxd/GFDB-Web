@@ -3,6 +3,7 @@ import {
   Table,
   Icon,
   List,
+  Skeleton,
 } from 'antd'
 import { filter } from 'lodash'
 import les from './index.less'
@@ -23,6 +24,7 @@ const QuestTable = ({
     clientType,
     clientWidth,
     tableProps,
+    ifDBInit,
   } = app
   const {
     list,
@@ -211,7 +213,9 @@ const QuestTable = ({
 
   return (
     <div className={les.table}>
-      <Table {...propsOfTable} />
+      <Skeleton active loading={!ifDBInit}>
+        <Table {...propsOfTable} />
+      </Skeleton>
     </div>
   )
 }

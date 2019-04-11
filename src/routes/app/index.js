@@ -2,6 +2,7 @@ import React from 'react'
 import { connect } from 'dva'
 import { Helmet } from 'react-helmet'
 import { Page } from '../../components/layouts'
+import DownloadDB from './downloadDB'
 
 const Main = ({
   dispatch,
@@ -48,6 +49,7 @@ src: url('" + PUBLIC_PATH + "static/font/Microgme.ttf');\
         {mapMeta(metasAry)}
       </Helmet>
       {children}
+      <DownloadDB />
     </Page>
   )
 }

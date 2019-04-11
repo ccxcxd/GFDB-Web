@@ -1,14 +1,11 @@
 import moduleExtend from 'dva-model-extend'
 import pathToRegexp from 'path-to-regexp'
+import { message } from 'antd'
 import { checkLang } from '../locales'
 import { model } from '../utils/model'
-import mDB from '@/db/mainDB'
 import { getWebWidth } from '@/utils/js/func'
 import LG from '@/services/localStorage'
-
-const {
-  campaign_info,
-} = mDB
+import { getDB } from '@/services/db'
 
 export default (LANG) => {
   return moduleExtend(model, {
@@ -30,6 +27,9 @@ export default (LANG) => {
 
       versionVisible: false,  // 版本信息弹窗显示状态
       versionStoraged: null,  // 缓存的版本号
+
+      ifDBInit: false,  // 数据库是否就绪
+      mDB: {}, // 数据库对象
     },
 
     subscriptions: {
@@ -47,10 +47,10 @@ export default (LANG) => {
         })
         // 获取设备宽度
         dispatch({ type: 'initConfig' })
-        // 加载localStorage,初始化数据
-        dispatch({ type: 'initLG' })
         // 对比缓存版本号和最新版本号
         dispatch({ type: 'initVersion' })
+        // 初始化数据
+        dispatch({ type: 'initDB' })
       },
     },
 
@@ -74,7 +74,7 @@ export default (LANG) => {
           },
         })
       },
-      * initLG(inval, { put }) {
+      * initLG(inval, { put, select }) {
         console.log('init localStorage...')
         /** /maps路由相关 start */
         const team_select_id = LG.get('team_select_id', 'number')
@@ -95,7 +95,8 @@ export default (LANG) => {
         }
         let initCampaignId = LG.get('campaign_select_id', 'number')
         if (!initCampaignId) {
-          initCampaignId = Object.keys(campaign_info)[0]
+          const { mDB } = yield select(({ app }) => app)
+          initCampaignId = Object.keys(mDB.campaign_info)[0]
         }
         yield put.resolve({
           type: 'maps/selectCampaign',
@@ -151,7 +152,20 @@ export default (LANG) => {
         })
       },
       /* init db after dom load */
-      * initDB() {
+      * initDB({ payload }, { put }) {
+        const { success, data } = yield getDB()
+        console.log(success, data)
+        if (success) {
+          yield put({
+            type: 'updateState',
+            payload: { ifDBInit: true, mDB: data }
+          })
+          // 加载localStorage,初始化数据
+          yield put({ type: 'initLG' })
+          yield put({ type: 'quest/initState' })
+        } else {
+          message.error(data)
+        }
       },
     },
 

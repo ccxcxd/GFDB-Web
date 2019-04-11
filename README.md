@@ -28,6 +28,7 @@ json数据是由另一个工具处理的：https://github.com/ccxcxd/GFDB-Decode
 ## 目录说明
 
 - `bin` 存放打包前操作 nodejs 文件，作用是生成多语种入口
+- `build` 存放 webpack 配置文件的文件夹
 - `dist` 存放打包产物的文件夹
 - `src` 源码目录
   - `components` 公用视图模块
@@ -41,7 +42,6 @@ json数据是由另一个工具处理的：https://github.com/ccxcxd/GFDB-Decode
   - `utils` 存放一些公用源文件的目录
     - `less` 存放less 的公用文件
       - `variables` 存放 less 文件的公用资源（会被自动引入所有 less 文件的头部）
-- `webpack-config` 存放 webpack 配置文件的文件夹
 
 ---
 

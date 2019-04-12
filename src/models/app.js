@@ -6,6 +6,7 @@ import { model } from '../utils/model'
 import { getWebWidth } from '@/utils/js/func'
 import LG from '@/services/localStorage'
 import { getDB } from '@/services/db'
+import Game from '@/services/game'
 
 export default (LANG) => {
   return moduleExtend(model, {
@@ -29,7 +30,6 @@ export default (LANG) => {
       versionStoraged: null,  // 缓存的版本号
 
       ifDBInit: false,  // 数据库是否就绪
-      mDB: {}, // 数据库对象
     },
 
     subscriptions: {
@@ -74,7 +74,7 @@ export default (LANG) => {
           },
         })
       },
-      * initLG(inval, { put, select }) {
+      * initLG(inval, { put }) {
         console.log('init localStorage...')
         /** /maps路由相关 start */
         const team_select_id = LG.get('team_select_id', 'number')
@@ -95,8 +95,7 @@ export default (LANG) => {
         }
         let initCampaignId = LG.get('campaign_select_id', 'number')
         if (!initCampaignId) {
-          const { mDB } = yield select(({ app }) => app)
-          initCampaignId = Object.keys(mDB.campaign_info)[0]
+          initCampaignId = Object.keys(window.mDB.campaign_info)[0]
         }
         yield put.resolve({
           type: 'maps/selectCampaign',
@@ -154,11 +153,12 @@ export default (LANG) => {
       /* init db after dom load */
       * initDB({ payload }, { put }) {
         const { success, data } = yield getDB()
-        console.log(success, data)
         if (success) {
+          window.mDB = data
+          window.gameIns = new Game()
           yield put({
             type: 'updateState',
-            payload: { ifDBInit: true, mDB: data }
+            payload: { ifDBInit: true }
           })
           // 加载localStorage,初始化数据
           yield put({ type: 'initLG' })

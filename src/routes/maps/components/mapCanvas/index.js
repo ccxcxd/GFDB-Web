@@ -38,19 +38,15 @@ class MapCanvas extends React.Component {
   componentDidMount () {
     const {
       dispatch,
-      app,
       maps,
     } = this.props
-    const {
-      mDB,
-    } = app
     const {
       displayPower,
       autoGenerate,
     } = maps
     const map = new Map({
       displayPower,
-      mDB,
+      mDB: window.mDB,
       onSpotClick: (id) => {
         dispatch({
           type: 'maps/selectEnemyTeam',

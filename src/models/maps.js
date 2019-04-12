@@ -45,9 +45,8 @@ export default moduleExtend(model, {
       })
       LG.set('hide_power', display ? '0' : '1')
     },
-    * selectCampaign ({ payload, autoChild }, { select, put }) {
-      const { mDB } = yield select(({ app }) => app)
-      const campaign = mDB.campaign_info[payload]
+    * selectCampaign ({ payload, autoChild }, { put }) {
+      const campaign = window.mDB.campaign_info[payload]
       yield put.resolve({
         type: 'updateState',
         payload: { campaignSelected: campaign },
@@ -64,9 +63,8 @@ export default moduleExtend(model, {
         }
       }
     },
-    * selectMisson ({ payload, autoChild }, { select, put }) {
-      const { mDB } = yield select(({ app }) => app)
-      const mission = mDB.mission_info[payload]
+    * selectMisson ({ payload, autoChild }, { put }) {
+      const mission = window.mDB.mission_info[payload]
       yield put.resolve({
         type: 'updateState',
         payload: { missionSelected: mission },
@@ -83,9 +81,8 @@ export default moduleExtend(model, {
         }
       }
     },
-    * selectEnemyTeam ({ payload }, { select, put }) {
-      const { mDB } = yield select(({ app }) => app)
-      const enemyTeam = mDB.enemy_team_info[payload]
+    * selectEnemyTeam ({ payload }, { put }) {
+      const enemyTeam = window.mDB.enemy_team_info[payload]
       yield put.resolve({
         type: 'updateState',
         payload: { enemyTeamSelected: enemyTeam },

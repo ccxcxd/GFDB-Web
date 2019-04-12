@@ -1,6 +1,5 @@
 import React from 'react'
 import les from './index.less'
-import mDB from '@/db/mainDB'
 import { find } from 'lodash'
 import { ExtraItem } from '@/components/item'
 

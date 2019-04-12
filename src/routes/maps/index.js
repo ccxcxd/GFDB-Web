@@ -22,12 +22,10 @@ const Main = ({
   // 属性定义
   const propsOfMapSelect = {
     dispatch,
-    app,
     maps,
   }
   const propsOfMapCanvas = {
     dispatch,
-    app,
     maps,
   }
   const propsOfMapTable = {

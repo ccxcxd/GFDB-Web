@@ -3,7 +3,6 @@ import {
   Table,
 } from 'antd'
 import les from './index.less'
-import Game from '@/services/game'
 
 const TeamTable = ({
   app,
@@ -14,7 +13,6 @@ const TeamTable = ({
     clientType,
     clientWidth,
     tableProps,
-    mDB,
   } = app
   const {
     enemyTeamSelected,
@@ -22,14 +20,14 @@ const TeamTable = ({
   } = maps
   const {
     enemy_in_team_info,
-  } = mDB
+  } = window.mDB
   
   // 属性定义
   const ids = enemyTeamSelected.member_ids || []
   const data = ids.map(id => {
     var member = enemy_in_team_info[id]
-    var lvUp = Game.getEnemyTeamLvCorrection(enemyTeamSelected, currentTurn);
-    var enemy = Game.getEnemyCharAtLevel(member.enemy_character_type_id, member.level + lvUp, member.number);
+    var lvUp = window.gameIns.getEnemyTeamLvCorrection(enemyTeamSelected, currentTurn);
+    var enemy = window.gameIns.getEnemyCharAtLevel(member.enemy_character_type_id, member.level + lvUp, member.number);
     return {
       id: id,
       name: __(enemy.name),

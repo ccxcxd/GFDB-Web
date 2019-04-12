@@ -87,8 +87,7 @@ export default moduleExtend(model, {
 
   effects: {
     // 初始化state(在mdb数据下载回来之后)
-    * initState({ payload }, { select, put }) {
-      const { mDB } = yield select(({ app }) => app)
+    * initState({ payload }, { put }) {
       const operationList = Object.keys(mDB.operation_info).map(d => mDB.operation_info[d])
       const resourceList = [
         mDB.item_info['501'],

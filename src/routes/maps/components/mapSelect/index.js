@@ -9,13 +9,9 @@ const Option = Select.Option
 
 const MapSelect = ({
   dispatch,
-  app,
   maps,
 }) => {
   // 获取属性
-  const {
-    mDB,
-  } = app
   const {
     campaignSelected,
     missionSelected,
@@ -23,7 +19,7 @@ const MapSelect = ({
   const {
     campaign_info,
     mission_info,
-  } = mDB
+  } = window.mDB
 
   // 方法定义
   const campaignSelect = (id) => {

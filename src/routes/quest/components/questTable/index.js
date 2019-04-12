@@ -10,7 +10,6 @@ import les from './index.less'
 import {
   dealTime,
 } from '@/utils/js/func'
-import mDB from '@/db/mainDB'
 import { ExtraItem } from '@/components/item'
 
 const QuestTable = ({

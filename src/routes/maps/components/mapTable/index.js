@@ -7,7 +7,6 @@ import {
 } from 'antd'
 import { forEach } from 'lodash'
 import les from './index.less'
-import Game from '@/services/game'
 
 // 渲染方法定义
 const mapTeamOpt = (obj) => {
@@ -37,7 +36,6 @@ const TeamTable = ({
     clientType,
     clientWidth,
     tableProps,
-    mDB,
   } = app
   const {
     missionSelected,
@@ -48,7 +46,7 @@ const TeamTable = ({
     enemy_team_info,
     enemy_in_team_info,
     enemy_character_type_info,
-  } = mDB
+  } = window.mDB
 
   // 方法定义
   const selectEnemyTeam = (payload) => {
@@ -121,13 +119,13 @@ const TeamTable = ({
     let i = 0
     forEach(teamIds, (count, teamId) => {
       const enemyTeam = enemy_team_info[teamId]
-      const teamPower = Game.getEnemyTeamPower(enemyTeam, currentTurn);
+      const teamPower = window.gameIns.getEnemyTeamPower(enemyTeam, currentTurn);
 
       data[i] = {
         id: parseInt(teamId, 10),
         leader: __(enemy_character_type_info[enemyTeam.enemy_leader].name),
         power: teamPower,
-        power_display: Game.getEnemyTeamPowerDecoratedString(enemyTeam, currentTurn, teamPower),
+        power_display: window.gameIns.getEnemyTeamPowerDecoratedString(enemyTeam, currentTurn, teamPower),
         members: getMembers(enemyTeam),
         count: count,
         drop_limit: getLimitedDrop(enemyTeam),

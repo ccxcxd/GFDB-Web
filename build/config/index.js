@@ -51,12 +51,12 @@ module.exports = {
 
   dll: {
     entry: {
-      WEBPACK_DLL_DB: [
-        path.resolve(SRC, './db/mainDB.js'),
-        // 'regenerator-runtime',
-        // 'core-js',
-        // 'babel-polyfill',
-      ],
+      // WEBPACK_DLL_DB: [
+      //   path.resolve(SRC, './db/mainDB.js'),
+      //   // 'regenerator-runtime',
+      //   // 'core-js',
+      //   // 'babel-polyfill',
+      // ],
       WEBPACK_DLL_ENV: [
         'babel-polyfill',
         'url-polyfill',

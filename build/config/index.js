@@ -79,6 +79,7 @@ module.exports = {
   },
 
   prod: {
+    ifAnalyze: false,
     aliasExtra: {
       'babel-polyfill': 'babel-polyfill/dist/polyfill.min.js',
       'url-polyfill': 'url-polyfill/url-polyfill.min.js',

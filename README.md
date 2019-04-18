@@ -10,10 +10,18 @@ json数据是由另一个工具处理的：https://github.com/ccxcxd/GFDB-Decode
 
 ## 指令列表
 
-- `npm run dev`: 启动本地开发服务器
-- `npm run build`: 打包代码
-- `npm run local`: 启动本地静态服务器访问打包产物
 - `npm run dll`: 生成 dll 文件（dll文件是打包的前置文件，如打包提示缺少dll文件的话执行本命令重新生成即可）
+- `npm run db`: 更新并生成 db 文件（每当 db 数据变更时都要执行一次此命令生成新的静态 db 文件）
+- `npm start / npm run dev`: 启动本地开发服务器
+- `npm run build`: 打包代码
+- `npm run local`: 启动本地静态服务器访问上面指令产生的打包产物
+
+### 初次下载项目时需要按照以下顺序执行执行才能正确启动项目
+
+1. 安装启动项目所需的依赖包: `npm install`
+2. 生成 dll 文件: `npm run dll`
+3. 生成 db 文件: `npm run db`
+4. 以本地服务器启动项目: `npm run dev`
 
 ---
 
@@ -49,6 +57,7 @@ json数据是由另一个工具处理的：https://github.com/ccxcxd/GFDB-Decode
 
 - 打包框架 [Webpack](https://webpack.js.org/)
 - 前端框架 [React](https://reactjs.org/)
+- 前端UI组件框架 [Ant Design](https://ant.design/index-cn)
 - 数据框架 [Dva](https://dvajs.com/) ([Redux](https://redux.js.org/) 的实现)
 
 ![概念图](https://zos.alipayobjects.com/rmsportal/PPrerEAKbIoDZYr.png)

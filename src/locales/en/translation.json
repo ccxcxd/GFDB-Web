@@ -12,6 +12,13 @@
     "serif": "serif",
     "sans-serif": "sans-serif"
   },
+  "download_db": {
+    "in_progress": "Downloading Data...",
+    "success": "Download Success",
+    "close": "Close",
+    "fail": "Download Fail",
+    "retry": "Retry"
+  },
   "map_sel": {
     "label": "Select map: "
   },

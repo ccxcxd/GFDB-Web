@@ -12,6 +12,13 @@
     "serif": "GungsuhChe",
     "sans-serif": "Malgun Gothic"
   },
+  "download_db": {
+    "in_progress": "데이터 다운로드 중...",
+    "success": "다운로드 성공",
+    "close": "닫기",
+    "fail": "다운로드 실패",
+    "retry": "재시도"
+  },
   "map_sel": {
     "label": "지도 선택:"
   },

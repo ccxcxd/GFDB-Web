@@ -12,6 +12,13 @@
     "serif": "SimSun",
     "sans-serif": "SimHei"
   },
+  "download_db": {
+    "in_progress": "数据下载中...",
+    "success": "下载成功",
+    "close": "关闭",
+    "fail": "下载失败",
+    "retry": "重试"
+  },
   "map_sel": {
     "label": "选择地图："
   },

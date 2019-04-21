@@ -44,13 +44,13 @@ class DownloadDB extends React.Component {
         return (
           <div className={styles.successLab}>
             <Icon type="check-circle" />
-            <div className={styles.txt}>下载成功</div>
+            <div className={styles.txt}>{__('download_db.success')}</div>
             <Button
               type="dashed"
               size="small"
               className={styles.btn}
               onClick={() => this.handleCloseSuccess()}
-            >关闭</Button>
+            >{__('download_db.close')}</Button>
           </div>
         )
       }
@@ -59,13 +59,13 @@ class DownloadDB extends React.Component {
       return (
         <div className={styles.failLab}>
           <Icon type="exclamation-circle" />
-          <div className={styles.txt}>下载失败</div>
+          <div className={styles.txt}>{__('download_db.fail')}</div>
           <Button
             type="dashed"
             size="small"
             className={styles.btn}
             onClick={() => this.handleRetry()}
-          >重试</Button>
+          >{__('download_db.retry')}</Button>
         </div>
       )
     } else {
@@ -81,7 +81,7 @@ class DownloadDB extends React.Component {
                 className={styles.loading}
                 spin
               />
-              <div className={styles.txt}>数据下载中...</div>
+              <div className={styles.txt}>{__('download_db.in_progress')}</div>
             </div>
           )}
         />

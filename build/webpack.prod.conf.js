@@ -13,7 +13,7 @@ const {
   prod,
 } = config
 
-module.exports = merge(webpackBaseConf, () => {
+module.exports = merge(webpackBaseConf, (() => {
   const configObj = {
     mode: 'production',
     // mode: 'development',
@@ -36,7 +36,7 @@ module.exports = merge(webpackBaseConf, () => {
         cacheGroups: {
           commons: {
             name: 'commons',
-            filename: './static/[name].[hash].js',
+            filename: './static/commons/[name]_[hash].js',
             chunks: 'initial',
             minChunks: 2
           },
@@ -57,4 +57,4 @@ module.exports = merge(webpackBaseConf, () => {
   }
 
   return configObj
-})
+})())

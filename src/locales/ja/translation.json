@@ -12,6 +12,13 @@
     "serif": "MS Mincho",
     "sans-serif": "MS Gothic"
   },
+  "download_db": {
+    "in_progress": "データダウンロード中...",
+    "success": "ダウンロード成功",
+    "close": "閉じる",
+    "fail": "ダウンロード失敗",
+    "retry": "リトライ"
+  },
   "map_sel": {
     "label": "マップを選択ください："
   },

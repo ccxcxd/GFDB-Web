@@ -12,6 +12,13 @@
     "serif": "PMingLiU",
     "sans-serif": "SimHei"
   },
+  "download_db": {
+    "in_progress": "數據下載中...",
+    "success": "下載成功",
+    "close": "關閉",
+    "fail": "下載失敗",
+    "retry": "重試"
+  },
   "map_sel": {
     "label": "選擇地圖："
   },

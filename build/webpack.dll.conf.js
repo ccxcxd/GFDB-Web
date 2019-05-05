@@ -16,8 +16,8 @@ const {
 } = config
 
 module.exports = {
-  // mode: 'production',
-  mode: 'development',
+  mode: 'production',
+  // mode: 'development',
 
   entry: dll.entry,
 

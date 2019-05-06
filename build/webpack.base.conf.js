@@ -13,11 +13,9 @@ const {
   SRC,
   PUBLIC_PATH,
   STATIC_DIR,
-  DLL_DIR,
 
   aliasBase,
   db,
-  dll,
 } = config
 
 /** definition entry object */
@@ -54,48 +52,19 @@ module.exports = {
         ],
         loader: 'babel-loader',
       },
-      {
-        test: /\.(css)$/,
-        // include: SRC,
-        use: [
-          {
-            loader: 'style-loader',
-          },
-          {
-            loader: 'css-loader',
-            options: {},
-          },
-        ],
-      },
-      {
-        test: /\.(less)$/,
-        include: SRC,
-        use: [
-          {
-            loader: 'style-loader',
-          },
-          {
-            loader: 'css-loader',
-            options: {
-              modules: true,
-              sourceMap: true,
-              context: SRC,
-              localIdentName: '[local]___[hash:base64:6]',
-              camelCase: true,
-            },
-          },
-          {
-            loader: 'less-loader',
-          },
-          {
-            loader: 'style-resources-loader',
-            options: {
-              patterns: path.resolve(SRC, './utils/less/variables/*.less'),
-              injector: 'append'
-            },
-          },
-        ],
-      },
+      // {
+      //   test: /\.(css)$/,
+      //   // include: SRC,
+      //   use: [
+      //     {
+      //       loader: 'style-loader',
+      //     },
+      //     {
+      //       loader: 'css-loader',
+      //       options: {},
+      //     },
+      //   ],
+      // },
       {
         // 图片加载器，雷同file-loader，更适合图片，可以将较小的图片转成base64，减少http请求
         // 如下配置，将小于8192byte的图片转成base64码
@@ -132,14 +101,6 @@ module.exports = {
   plugins: [
     // 进度条插件
     new ProgressBarPlugin(),
-    // 配置 dll
-    ...Object.keys(dll.entry).map(dllItem => {
-      return new webpack.DllReferencePlugin({
-        context: STATIC_DIR,
-        manifest: path.resolve(DLL_DIR, `./${dllItem}-manifest.json`),
-        name: dllItem,
-      })
-    }),
     // 复制资源文件
     new CopyWebpackPlugin([
       {

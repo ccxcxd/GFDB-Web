@@ -3,6 +3,7 @@ const path = require('path')
 const webpack = require('webpack')
 const merge = require('webpack-merge')
 const FriendlyErrorsPlugin = require('friendly-errors-webpack-plugin')
+const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 
 const webpackBaseConf = require('./webpack.base.conf.js')
 const config = require('./config/index.js')
@@ -11,6 +12,7 @@ const {
   languages,
 
   ROOT,
+  SRC,
 
   dev,
 } = config
@@ -52,7 +54,66 @@ module.exports = merge(webpackBaseConf, {
     chunkFilename: 'chunks/[id]_[chunkhash:6].js',
   },
 
+  module: {
+    rules: [
+      {
+        test: /\.(le|c)ss$/,
+        include: path.resolve(ROOT, './node_modules'),
+        use: [
+          {
+            loader: MiniCssExtractPlugin.loader,
+            options: {
+              hmr: true,
+            },
+          },
+          'css-loader',
+          'less-loader',
+        ],
+      },
+      {
+        test: /\.(le|c)ss$/,
+        include: SRC,
+        use: [
+          // {
+          //   loader: 'style-loader',
+          // },
+          {
+            loader: MiniCssExtractPlugin.loader,
+            options: {
+              hmr: true,
+            },
+          },
+          {
+            loader: 'css-loader',
+            options: {
+              modules: true,
+              sourceMap: true,
+              context: SRC,
+              localIdentName: '[local]___[hash:base64:6]',
+              camelCase: true,
+            },
+          },
+          {
+            loader: 'less-loader',
+          },
+          {
+            loader: 'style-resources-loader',
+            options: {
+              patterns: path.resolve(SRC, './utils/less/variables/*.less'),
+              injector: 'append'
+            },
+          },
+        ],
+      },
+    ],
+  },
+
   plugins: [
+    // css extract
+    new MiniCssExtractPlugin({
+      filename: 'styles.css',
+      chunkFilename: '[id].css',
+    }),
     new webpack.HotModuleReplacementPlugin(),
     new webpack.NoEmitOnErrorsPlugin(),
     // 优化错误提示

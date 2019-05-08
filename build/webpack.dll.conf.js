@@ -1,5 +1,6 @@
 'use strict'
 const path = require('path')
+const rimraf = require('rimraf')
 const webpack = require('webpack')
 const ProgressBarPlugin = require('progress-bar-webpack-plugin')
 
@@ -16,6 +17,9 @@ const {
   dll,
   prod,
 } = config
+
+rimraf.sync(path.resolve(dll.dir, '**.js'))
+rimraf.sync(path.resolve(dll.dir, '**.json'))
 
 const entry = {}
 entry[dll.name] = dll.packages

@@ -1,5 +1,6 @@
 'use strict'
 const path = require('path')
+const rimraf = require('rimraf')
 const ProgressBarPlugin = require('progress-bar-webpack-plugin')
 const MergeJsonWebpackPlugin = require("merge-jsons-webpack-plugin")
 
@@ -12,6 +13,9 @@ const {
 
   db,
 } = config
+
+rimraf.sync(path.resolve(db.dir, 'db_output.js'))
+rimraf.sync(path.resolve(db.dir, '**.json'))
 
 const dbFileName = `${db.outputFileName}.${Date.parse(new Date)}`
 utils.updateFiles('db', dbFileName)

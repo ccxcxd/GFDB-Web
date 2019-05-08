@@ -60,6 +60,7 @@
     "optimize-css-assets-webpack-plugin": "^5.0.1",
     "prerender-spa-plugin": "^3.4.0",
     "progress-bar-webpack-plugin": "^1.12.1",
+    "rimraf": "^2.6.3",
     "style-resources-loader": "^1.2.1",
     "terser-webpack-plugin": "^1.2.3",
     "uglifyjs-webpack-plugin": "^2.1.2",

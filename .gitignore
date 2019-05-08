@@ -1,8 +1,9 @@
 dist
 node_modules
-src/entries
-webpack-config/base/languages.js
 build/config/languages.js
+build/config/files.json
+webpack-config/base/languages.js
+src/entries
 src/static/dll/**
 src/db/db_output.js
 src/static/MAIN_DB.json

@@ -1,7 +1,7 @@
 import $ from 'jquery'
 import ImgLoader from './imgLoader'
 
-const { saveAs } = require('file-saver/FileSaver.min.js')
+const { saveAs } = require('file-saver/dist/FileSaver.min.js')
 
 const CANVAS_FG_ID = 'map_canvas_fg'
 const CANVAS_BG_ID = 'map_canvas_bg'

@@ -111,7 +111,7 @@ module.exports = merge(webpackBaseConf, {
   plugins: [
     // css extract
     new MiniCssExtractPlugin({
-      filename: 'styles.css',
+      filename: '[name].css',
       chunkFilename: '[id].css',
     }),
     new webpack.HotModuleReplacementPlugin(),

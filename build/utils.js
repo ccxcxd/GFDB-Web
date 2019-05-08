@@ -10,6 +10,7 @@ exports.updateFiles = (key, value) => {
   fs.ensureFileSync(filePath)
 
   const configNow = JSON.parse(fs.readFileSync(filePath, 'utf-8'))
+  console.log('configNow: ', configNow)
   configNow[key] = value
   fs.writeFileSync(filePath, JSON.stringify(configNow), 'utf-8')
 }

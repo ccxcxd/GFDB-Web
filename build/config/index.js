@@ -2,6 +2,7 @@
 const path = require('path')
 
 const languages = require('./languages.js')
+const files = require('./files.json')
 
 const { publicPath } = process.env
 
@@ -11,12 +12,17 @@ const PORT = process.env.PORT && Number(process.env.PORT)
 const ROOT = path.resolve(__dirname, '../../')
 const SRC = path.resolve(ROOT, './src')
 const PUBLIC_PATH = publicPath || '/'
+const TEMP_PATH = path.resolve(ROOT, './temp_files')
+const FILES_CONFIG_PATH = path.resolve(__dirname, './files.json')
 
 module.exports = {
   languages,
+  files,
 
   ROOT, // 源码根目录
   SRC,
+  TEMP_PATH,
+  FILES_CONFIG_PATH,
   OUTPUT_DIR: path.resolve(ROOT, 'dist'), // 打包产物目录
   STATIC_DIR: path.resolve(SRC, 'static'), // 静态资源目录
   DLL_DIR: path.resolve(SRC, 'static/dll'), //dll文件目录
@@ -32,6 +38,7 @@ module.exports = {
 
   db: {
     outputFileName: 'MAIN_DB',
+    dir: path.resolve(TEMP_PATH, 'db'),
     jsons: [
       'game_config_info',
       'campaign_info',
@@ -50,23 +57,17 @@ module.exports = {
   },
 
   dll: {
-    entry: {
-      // WEBPACK_DLL_DB: [
-      //   path.resolve(SRC, './db/mainDB.js'),
-      //   // 'regenerator-runtime',
-      //   // 'core-js',
-      //   // 'babel-polyfill',
-      // ],
-      WEBPACK_DLL_ENV: [
-        'babel-polyfill',
-        'url-polyfill',
+    name: 'DLL_ENV',
+    dir: path.resolve(TEMP_PATH, 'dll'),
+    packages: [
+      'babel-polyfill',
+      'url-polyfill',
 
-        'react-dom',
-        '@ant-design/icons/lib/dist.js',
-        'jquery',
-        'moment',
-      ],
-    },
+      'react-dom',
+      '@ant-design/icons/lib/dist.js',
+      'jquery',
+      'moment',
+    ],
   },
 
   dev: {

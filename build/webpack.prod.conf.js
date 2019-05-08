@@ -120,13 +120,12 @@ module.exports = merge(webpackBaseConf, (() => {
         chunkFilename: '[id].[contenthash].css',
       }),
       // 配置 dll
-      ...Object.keys(dll.entry).map(dllItem => {
-        return new webpack.DllReferencePlugin({
-          context: STATIC_DIR,
-          manifest: path.resolve(DLL_DIR, `./${dllItem}-manifest.json`),
-          name: dllItem,
-        })
+      new webpack.DllReferencePlugin({
+        context: STATIC_DIR,
+        manifest: path.resolve(DLL_DIR, `./${dll.name}-manifest.json`),
+        name: dll.name,
       }),
+      // prerender setting
       ...languages.map((la) => {
         const laName = la.name
         return new PrerenderSPAPlugin({
@@ -143,20 +142,6 @@ module.exports = merge(webpackBaseConf, (() => {
           }),
         })
       }),
-      // prerender setting
-      // new PrerenderSPAPlugin({
-      //   staticDir: OUTPUT_DIR,
-      //   routes: [
-      //     '/zh/',
-      //     '/zh/maps',
-      //     '/zh/quest',
-      //   ],
-      //   indexPath: path.resolve(OUTPUT_DIR, './zh/index.html'),
-      //   renderer: new Renderer({
-      //     renderAfterDocumentEvent: 'dva-init',
-      //     headless: false,
-      //   })
-      // }),
     ],
   }
 

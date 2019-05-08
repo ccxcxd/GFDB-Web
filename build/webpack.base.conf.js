@@ -9,12 +9,14 @@ const config = require('./config/index.js')
 
 const {
   languages,
+  files,
 
   SRC,
   PUBLIC_PATH,
   STATIC_DIR,
 
   aliasBase,
+  dll,
   db,
 } = config
 
@@ -27,6 +29,7 @@ const baseHWPconfig = {
   template: path.resolve(SRC, './index.ejs'),
   xhtml: true,
   PUBLIC_PATH: PUBLIC_PATH,
+  DLL_FILENAME: files.dll,
 }
 languages.forEach((la) => {
   entryObj[la.name] = la.entry
@@ -109,6 +112,18 @@ module.exports = {
         context: STATIC_DIR,
         cache: true,
       },
+      {
+        from: path.resolve(dll.dir, './**'),
+        to: './static/',
+        context: dll.dir,
+        cache: true,
+      },
+      {
+        from: path.resolve(db.dir, './**'),
+        to: './static/',
+        context: db.dir,
+        cache: true,
+      },
     ]),
     // 各语种主页
     ...langHtmls,
@@ -127,7 +142,7 @@ module.exports = {
     // 变量替换
     new webpack.DefinePlugin({
       'PUBLIC_PATH': JSON.stringify(PUBLIC_PATH),
-      'DB_FILE_NAME': JSON.stringify(db.outputFileName),
+      'DB_FILE_NAME': JSON.stringify(files.db),
     }),
   ],
 }

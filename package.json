@@ -10,7 +10,7 @@
     "prebuild": "rimraf dist/** && node ./bin/init.js build",
     "build": "cross-env publicPath='/' webpack --config ./build/webpack.prod.conf.js",
     "local": "http-server ./dist",
-    "predll": "rimraf src/static/dll/** && node ./bin/init.js build",
+    "predll": "node ./bin/init.js build",
     "dll": "webpack --config ./build/webpack.dll.conf.js",
     "db": "webpack --config ./build/webpack.db.conf.js"
   },

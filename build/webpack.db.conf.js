@@ -4,27 +4,28 @@ const ProgressBarPlugin = require('progress-bar-webpack-plugin')
 const MergeJsonWebpackPlugin = require("merge-jsons-webpack-plugin")
 
 const config = require('./config/index.js')
+const utils = require('./utils.js')
 
 const {
   ROOT,
   SRC,
-  STATIC_DIR,
 
   db,
 } = config
 
-const outputPath = path.resolve(SRC, './db')
+const dbFileName = `${db.outputFileName}.${Date.parse(new Date)}`
+utils.updateFiles('db', dbFileName)
 
 module.exports = {
   mode: 'production',
 
   entry: {
-    db_output: path.resolve(SRC, './db/fakeDBEntry.js')
+    db_output: path.resolve(SRC, './db/fakeDBEntry.js'),
   },
 
   output: {
-    path: outputPath,
-    filename: '[name].js',
+    path: db.dir,
+    filename: `[name].js`,
   },
 
   plugins: [
@@ -36,8 +37,8 @@ module.exports = {
       files: db.jsons.map(d => `./src/db/json/${d}.json`),
       output: {
         fileName: path.relative(
-          outputPath,
-          path.resolve(STATIC_DIR, `./${db.outputFileName}.json`),
+          db.dir,
+          path.resolve(db.dir, `./${dbFileName}.json`),
         )
       },
     }),

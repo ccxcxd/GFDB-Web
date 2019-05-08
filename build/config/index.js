@@ -1,8 +1,8 @@
 'use strict'
 const path = require('path')
+const fs = require('fs-extra')
 
 const languages = require('./languages.js')
-const files = require('./files.json')
 
 const { publicPath } = process.env
 
@@ -14,11 +14,15 @@ const SRC = path.resolve(ROOT, './src')
 const PUBLIC_PATH = publicPath || '/'
 const TEMP_PATH = path.resolve(ROOT, './temp_files')
 const FILES_CONFIG_PATH = path.resolve(__dirname, './files.json')
-fs.ensureFileSync(FILES_CONFIG_PATH)
+
+if (!fs.pathExistsSync(FILES_CONFIG_PATH)) {
+  fs.ensureFileSync(FILES_CONFIG_PATH)
+  fs.writeFileSync(FILES_CONFIG_PATH, '{}', 'utf-8')
+}
 
 module.exports = {
   languages,
-  files,
+  files: require('./files.json'),
 
   ROOT, // 源码根目录
   SRC,

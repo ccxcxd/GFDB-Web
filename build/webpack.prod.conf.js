@@ -139,7 +139,7 @@ module.exports = merge(webpackBaseConf, (() => {
           indexPath: path.resolve(OUTPUT_DIR, `./${laName}/index.html`),
           renderer: new Renderer({
             renderAfterDocumentEvent: 'dva-init',
-            headless: false,
+            // headless: false,
           }),
         })
       }),

@@ -126,22 +126,22 @@ module.exports = merge(webpackBaseConf, (() => {
         name: dll.name,
       }),
       // prerender setting
-      ...languages.map((la) => {
-        const laName = la.name
-        return new PrerenderSPAPlugin({
-          staticDir: OUTPUT_DIR,
-          routes: [
-            `/${laName}/`,
-            `/${laName}/maps`,
-            `/${laName}/quest`,
-          ],
-          indexPath: path.resolve(OUTPUT_DIR, `./${laName}/index.html`),
-          renderer: new Renderer({
-            renderAfterDocumentEvent: 'dva-init',
-            // headless: false,
-          }),
-        })
-      }),
+      // ...languages.map((la) => {
+      //   const laName = la.name
+      //   return new PrerenderSPAPlugin({
+      //     staticDir: OUTPUT_DIR,
+      //     routes: [
+      //       `/${laName}/`,
+      //       `/${laName}/maps`,
+      //       `/${laName}/quest`,
+      //     ],
+      //     indexPath: path.resolve(OUTPUT_DIR, `./${laName}/index.html`),
+      //     renderer: new Renderer({
+      //       renderAfterDocumentEvent: 'dva-init',
+      //       // headless: false,
+      //     }),
+      //   })
+      // }),
     ],
   }
 

@@ -122,7 +122,7 @@ module.exports = merge(webpackBaseConf, (() => {
       // 配置 dll
       new webpack.DllReferencePlugin({
         context: STATIC_DIR,
-        manifest: path.resolve(DLL_DIR, `./${dll.name}-manifest.json`),
+        manifest: path.resolve(dll.dir, `./${dll.name}-manifest.json`),
         name: dll.name,
       }),
       // prerender setting

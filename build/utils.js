@@ -7,7 +7,6 @@ const config = require('./config')
 /** update filename record file */
 exports.updateFiles = (key, value) => {
   const filePath = config.FILES_CONFIG_PATH
-  fs.ensureFileSync(filePath)
 
   const configNow = JSON.parse(fs.readFileSync(filePath, 'utf-8'))
   console.log('configNow: ', configNow)

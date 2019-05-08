@@ -7,3 +7,4 @@ src/entries
 src/static/dll/**
 src/db/db_output.js
 src/static/MAIN_DB.json
+temp_files

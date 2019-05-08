@@ -14,6 +14,7 @@ const SRC = path.resolve(ROOT, './src')
 const PUBLIC_PATH = publicPath || '/'
 const TEMP_PATH = path.resolve(ROOT, './temp_files')
 const FILES_CONFIG_PATH = path.resolve(__dirname, './files.json')
+fs.ensureFileSync(FILES_CONFIG_PATH)
 
 module.exports = {
   languages,

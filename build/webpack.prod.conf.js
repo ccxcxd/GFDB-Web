@@ -7,6 +7,9 @@ const TerserJSPlugin = require('terser-webpack-plugin')
 const OptimizeCSSAsseetsPlugin = require('optimize-css-assets-webpack-plugin')
 const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin
 
+const PrerenderSPAPlugin = require('prerender-spa-plugin')
+const Renderer = PrerenderSPAPlugin.PuppeteerRenderer
+
 const webpackBaseConf = require('./webpack.base.conf.js')
 const config = require('./config/index.js')
 
@@ -21,6 +24,8 @@ const {
 
   prod,
   dll,
+
+  languages,
 } = config
 
 module.exports = merge(webpackBaseConf, (() => {
@@ -100,7 +105,7 @@ module.exports = merge(webpackBaseConf, (() => {
         cacheGroups: {
           commons: {
             name: 'commons',
-            filename: './static/commons/[name].[contenthash].js',
+            filename: 'static/commons/[name].[contenthash].js',
             chunks: 'initial',
             minChunks: 2,
           },
@@ -122,6 +127,36 @@ module.exports = merge(webpackBaseConf, (() => {
           name: dllItem,
         })
       }),
+      ...languages.map((la) => {
+        const laName = la.name
+        return new PrerenderSPAPlugin({
+          staticDir: OUTPUT_DIR,
+          routes: [
+            `/${laName}/`,
+            `/${laName}/maps`,
+            `/${laName}/quest`,
+          ],
+          indexPath: path.resolve(OUTPUT_DIR, `./${laName}/index.html`),
+          renderer: new Renderer({
+            renderAfterDocumentEvent: 'dva-init',
+            headless: false,
+          }),
+        })
+      }),
+      // prerender setting
+      // new PrerenderSPAPlugin({
+      //   staticDir: OUTPUT_DIR,
+      //   routes: [
+      //     '/zh/',
+      //     '/zh/maps',
+      //     '/zh/quest',
+      //   ],
+      //   indexPath: path.resolve(OUTPUT_DIR, './zh/index.html'),
+      //   renderer: new Renderer({
+      //     renderAfterDocumentEvent: 'dva-init',
+      //     headless: false,
+      //   })
+      // }),
     ],
   }
 

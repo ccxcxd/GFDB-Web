@@ -68,3 +68,13 @@ json数据是由另一个工具处理的：https://github.com/ccxcxd/GFDB-Decode
 - 根据入口文件的路由挂载对应路由的 model
 - 根据路由渲染视图组件（react-router）
 - 如触发某 model 的路由监听事件，执行之
+
+## 预渲染环境安装
+
+在 centos 环境下，除了 `npm i` 外，还需要手动安装一些运行库
+
+```bash
+yum install pango.x86_64 libXcomposite.x86_64 libXcursor.x86_64 libXdamage.x86_64 libXext.x86_64 libXi.x86_64 libXtst.x86_64 cups-libs.x86_64 libXScrnSaver.x86_64 libXrandr.x86_64 GConf2.x86_64 alsa-lib.x86_64 atk.x86_64 gtk3.x86_64 ipa-gothic-fonts xorg-x11-fonts-100dpi xorg-x11-fonts-75dpi xorg-x11-utils xorg-x11-fonts-cyrillic xorg-x11-fonts-Type1 xorg-x11-fonts-misc
+```
+
+> https://github.com/GoogleChrome/puppeteer/blob/master/docs/troubleshooting.md#chrome-headless-doesnt-launch-on-unix

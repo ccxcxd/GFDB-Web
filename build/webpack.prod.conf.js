@@ -98,7 +98,15 @@ module.exports = merge(webpackBaseConf, (() => {
   
     optimization: {
       minimizer: [
-        new TerserJSPlugin(),
+        new TerserJSPlugin({
+          cache: true,
+          parallel: true,
+          terserOptions: {
+            output: {
+              comments: false,
+            },
+          },
+        }),
         new OptimizeCSSAsseetsPlugin(),
       ],
       splitChunks: {

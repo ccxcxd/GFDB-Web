@@ -39,18 +39,20 @@ const Main = ({
   }
 
   return (
-    <Skeleton active loading={!ifDBInit}>
-      <div className={les.container}>
-        {/* 选择地图 */}
-        <MapSelect {...propsOfMapSelect} />
-        {/* 地图显示 */}
-        <MapCanvas {...propsOfMapCanvas} />
-        {/* 敌方队伍信息 */}
-        <MapTable {...propsOfMapTable} />
-        {/* 队伍详情信息 */}
-        <TeamTable {...propsOfTeamTable} />
-      </div>
-    </Skeleton>
+    <div className={les.container}>
+      <Skeleton active loading={!ifDBInit}>
+        <div>
+          {/* 选择地图 */}
+          <MapSelect {...propsOfMapSelect} />
+          {/* 地图显示 */}
+          <MapCanvas {...propsOfMapCanvas} />
+          {/* 敌方队伍信息 */}
+          <MapTable {...propsOfMapTable} />
+          {/* 队伍详情信息 */}
+          <TeamTable {...propsOfTeamTable} />
+        </div>
+      </Skeleton>
+    </div>
   )
 }
 

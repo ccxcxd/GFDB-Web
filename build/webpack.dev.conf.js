@@ -135,7 +135,7 @@ module.exports = merge(webpackBaseConf, {
   // 使用 source-map
   devtool: 'cheap-source-map',
   devServer: {
-    contentBase: './dist',
+    contentBase: './WDS_dist',
     publicPath: '/',
     // 设置localhost端口
     host: host,

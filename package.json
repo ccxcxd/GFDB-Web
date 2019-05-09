@@ -24,14 +24,15 @@
   "dependencies": {
     "antd": "3.17.0",
     "axios": "0.18.0",
-    "dva": "2.4.1",
+    "dva": "2.6.0-beta.3",
     "dva-loading": "3.0.2",
     "dva-model-extend": "0.1.2",
     "file-saver": "2.0.1",
     "jquery": "3.4.1",
-    "react": "16.8.6",
-    "react-dom": "16.8.6",
-    "react-helmet": "5.2.1"
+    "react": "16.8.4",
+    "react-dom": "16.8.4",
+    "react-helmet": "5.2.1",
+    "react-redux": "7.0.3"
   },
   "devDependencies": {
     "@babel/core": "7.4.4",

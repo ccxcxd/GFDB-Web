@@ -1,4 +1,4 @@
-#!/usr/bin/env node
+#!/usr/bin/env node --max-old-space-size=2048
 const path = require('path')
 const glob = require('glob')
 const yargs = require('yargs')

@@ -1,5 +1,6 @@
 'use strict'
 const path = require('path')
+const fs = require('fs-extra')
 const webpack = require('webpack')
 const merge = require('webpack-merge')
 const MiniCssExtractPlugin = require('mini-css-extract-plugin')
@@ -27,6 +28,8 @@ const {
 
   languages,
 } = config
+
+fs.ensureDirSync(OUTPUT_DIR)
 
 module.exports = merge(webpackBaseConf, (() => {
   const configObj = {

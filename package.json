@@ -8,7 +8,7 @@
     "fix-memory-limit": "cross-env LIMIT=2048 increase-memory-limit",
     "predev": "node ./bin/init.js dev",
     "dev": "webpack-dev-server --config ./build/webpack.dev.conf.js",
-    "prebuild": "npm run fix-memory-limit && rimraf dist/** && node ./bin/init.js build",
+    "prebuild": "rimraf dist/** && node ./bin/init.js build",
     "build": "cross-env publicPath='/' webpack --config ./build/webpack.prod.conf.js",
     "local": "http-server ./dist",
     "predll": "node ./bin/init.js build",

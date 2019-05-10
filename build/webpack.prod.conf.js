@@ -40,7 +40,7 @@ module.exports = merge(webpackBaseConf, (() => {
       path: OUTPUT_DIR,
       publicPath: PUBLIC_PATH,
       filename: '[name]/index.[contenthash].js',
-      chunkFilename: 'chunks/[id].[contenthash].js',
+      chunkFilename: 'chunks/[name].[contenthash].js',
     },
 
     module: {

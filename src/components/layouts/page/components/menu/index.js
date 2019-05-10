@@ -1,5 +1,5 @@
 import React from 'react'
-import { routerRedux } from 'dva/router'
+import { routerRedux } from 'dva'
 import {
   Icon,
   Dropdown,

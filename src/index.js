@@ -10,6 +10,7 @@ import { initI18n } from './utils/js/i18n'
 import moment from 'moment'
 /** IMPORT_LANG */
 /** IMPORT_LANG_MOMENT */
+import routerInit from './router'
 
 const __ = initI18n(LANG)
 moment.locale(LANG.moment)
@@ -31,12 +32,12 @@ const app = dva({
 app.use(createLoading())
 
 // 3. Register global model
-app.model(require('./models/app').default(LANG))
-app.model(require('./models/maps').default)
-app.model(require('./models/quest').default)
+// app.model(require('./models/app').default(LANG))
+// app.model(require('./models/maps').default)
+// app.model(require('./models/quest').default)
 
 // 4. Router
-app.router(require('./router').default(LANG))
+app.router(routerInit(LANG))
 
 // 5. Start
 app.start('#root')

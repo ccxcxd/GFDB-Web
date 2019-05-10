@@ -116,7 +116,7 @@ module.exports = merge(webpackBaseConf, (() => {
         cacheGroups: {
           commons: {
             name: 'commons',
-            filename: 'static/commons/[name].[contenthash].js',
+            filename: '[name].[contenthash].js',
             chunks: 'initial',
             minChunks: 2,
           },
@@ -127,8 +127,8 @@ module.exports = merge(webpackBaseConf, (() => {
     plugins: [
       // css extract
       new MiniCssExtractPlugin({
-        filename: 'styles.[contenthash].css',
-        chunkFilename: '[id].[contenthash].css',
+        filename: 'css/styles.[contenthash].css',
+        chunkFilename: 'css/[id].[contenthash].css',
       }),
       // 配置 dll
       new webpack.DllReferencePlugin({

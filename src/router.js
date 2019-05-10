@@ -46,8 +46,8 @@ export default (lang) => {
                 render={props => (
                   <DYNAMIC_C_APP {...props}>
                     <Route path="/" exact component={DYNAMIC_C_INDEX_PAGE} />
-                    <Route path="/maps" exact component={DYNAMIC_C_MAPS} />
-                    <Route path="/quest" exact component={DYNAMIC_C_QUEST} />
+                    <Route path="/maps/" exact component={DYNAMIC_C_MAPS} />
+                    <Route path="/quest/" exact component={DYNAMIC_C_QUEST} />
                   </DYNAMIC_C_APP>
                 )}
               />

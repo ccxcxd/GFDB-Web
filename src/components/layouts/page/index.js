@@ -55,7 +55,7 @@ const Page = ({
   // 方法定义
   const handleChange = (value) => {
     console.log(`selected ${value}`)
-    window.location.href = `${PUBLIC_PATH}${value}`
+    window.location.href = `${PUBLIC_PATH}${value}/`
   }
   const showAbout = (show) => {
     dispatch({ type: 'app/showAbout', show })

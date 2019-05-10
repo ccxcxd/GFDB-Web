@@ -10,7 +10,7 @@ module.exports = {
   'moment': 'en-ca',
   'menus': [
     { path: '/', icon: 'home' },
-    { path: '/maps', label: 'Maps & Enemy Stats' },
-    { path: '/quest', label: 'Logistic Supports' },
+    { path: '/maps/', label: 'Maps & Enemy Stats' },
+    { path: '/quest/', label: 'Logistic Supports' },
   ],
 }

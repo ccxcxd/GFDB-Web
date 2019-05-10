@@ -10,7 +10,7 @@ module.exports = {
   'moment': 'zh-hk',
   'menus': [
     { path: '/', icon: 'home' },
-    { path: '/maps', label: '敵方數據' },
-    { path: '/quest', label: '後勤列表' },
+    { path: '/maps/', label: '敵方數據' },
+    { path: '/quest/', label: '後勤列表' },
   ],
 }

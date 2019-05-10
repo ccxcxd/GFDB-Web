@@ -10,7 +10,7 @@ module.exports = {
   'moment': 'ko',
   'menus': [
     { path: '/', icon: 'home' },
-    { path: '/maps', label: '적 데이터' },
-    { path: '/quest', label: '군수지원 목록' },
+    { path: '/maps/', label: '적 데이터' },
+    { path: '/quest/', label: '군수지원 목록' },
   ],
 }

@@ -11,6 +11,7 @@ import moment from 'moment'
 /** IMPORT_LANG */
 /** IMPORT_LANG_MOMENT */
 import routerInit from './router'
+import 'antd/dist/antd.css'
 
 const __ = initI18n(LANG)
 moment.locale(LANG.moment)

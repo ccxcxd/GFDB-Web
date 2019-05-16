@@ -1,8 +1,8 @@
 import React from 'react'
 import {
-  Drawer,
-  Divider,
   Checkbox,
+  Divider,
+  Drawer,
 } from 'antd'
 import les from './index.less'
 

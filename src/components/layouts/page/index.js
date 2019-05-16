@@ -1,9 +1,9 @@
 import React from 'react'
 import {
+  Badge,
+  Button,
   Icon,
   Select,
-  Button,
-  Badge,
 } from "antd"
 import versionDB from '@/db/versionDB'
 import { langList } from '../../../locales'

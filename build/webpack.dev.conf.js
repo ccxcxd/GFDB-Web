@@ -1,5 +1,6 @@
 'use strict'
 const path = require('path')
+const ip = require('ip')
 const webpack = require('webpack')
 const merge = require('webpack-merge')
 const FriendlyErrorsPlugin = require('friendly-errors-webpack-plugin')
@@ -42,6 +43,28 @@ const createNotifierCallback = () => {
       // icon: path.join(__dirname, 'logo.png'),
     })
   }
+}
+
+
+/** 自定义的编译成功信息 */
+const createCompileNotifier = () => {
+  const myIp = ip.address()
+
+  const realHost = host === '0.0.0.0' ? 'localhost' : host
+
+  return new FriendlyErrorsPlugin({
+    compilationSuccessInfo: {
+      messages: [`
+Your application is running here:
+
+- Local: http://${realHost}:${port}
+- Network: http://${myIp}:${port}
+`],
+    },
+    onErrors: notifyOnErrors
+      ? createNotifierCallback()
+      : undefined,
+  })
 }
 
 module.exports = merge(webpackBaseConf, {
@@ -117,14 +140,7 @@ module.exports = merge(webpackBaseConf, {
     new webpack.HotModuleReplacementPlugin(),
     new webpack.NoEmitOnErrorsPlugin(),
     // 优化错误提示
-    new FriendlyErrorsPlugin({
-      compilationSuccessInfo: {
-        messages: [`Your application is running here http://${host === '0.0.0.0' ? 'localhost' : host}:${port}`],
-      },
-      onErrors: notifyOnErrors
-        ? createNotifierCallback()
-        : undefined,
-    }),
+    createCompileNotifier(),
     // // 注册react全局引用
     // new webpack.ProvidePlugin({
     //   'React': 'react',

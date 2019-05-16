@@ -27,13 +27,13 @@ export default (lang) => {
       component: () => import('./routes/app'),
     })
     const DYNAMIC_C_INDEX_PAGE = dynamic({
-      component: () => import('./routes/indexPage'),
+      component: () => import(/* webpackChunkName: "route_index" */ './routes/indexPage'),
     })
     const DYNAMIC_C_MAPS = dynamic({
-      component: () => import('./routes/maps'),
+      component: () => import(/* webpackChunkName: "route_map" */ './routes/maps'),
     })
     const DYNAMIC_C_QUEST = dynamic({
-      component: () => import('./routes/quest'),
+      component: () => import(/* webpackChunkName: "route_quest" */ './routes/quest'),
     })
 
     return (

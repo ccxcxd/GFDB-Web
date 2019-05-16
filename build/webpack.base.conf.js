@@ -145,4 +145,8 @@ module.exports = {
       'DB_FILE_NAME': JSON.stringify(files.db),
     }),
   ],
+
+  // stats: {
+  //   warningsFilter: /(mini-css-extract-plugin)?(\/antd\/lib\/)+/,
+  // },
 }

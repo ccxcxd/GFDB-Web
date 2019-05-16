@@ -51,9 +51,6 @@ module.exports = merge(webpackBaseConf, (() => {
           use: [
             {
               loader: MiniCssExtractPlugin.loader,
-              options: {
-                hmr: true,
-              },
             },
             'css-loader',
             'less-loader',
@@ -128,7 +125,7 @@ module.exports = merge(webpackBaseConf, (() => {
       // css extract
       new MiniCssExtractPlugin({
         filename: 'css/styles.[contenthash].css',
-        chunkFilename: 'css/[id].[contenthash].css',
+        chunkFilename: 'css/[name].[contenthash].css',
       }),
       // 配置 dll
       new webpack.DllReferencePlugin({

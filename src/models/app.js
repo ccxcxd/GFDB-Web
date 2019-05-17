@@ -30,6 +30,7 @@ export default (LANG) => {
       versionStoraged: null,  // 缓存的版本号
 
       ifDBInit: false,  // 数据库是否就绪
+      hideGlobalDBDownloadModal: false, // 隐藏下载db提示弹窗
     },
 
     subscriptions: {
@@ -163,9 +164,22 @@ export default (LANG) => {
           // 加载localStorage,初始化数据
           yield put({ type: 'initLG' })
           yield put({ type: 'quest/initState' })
+          yield put({ type: 'hideDBModal' })
         } else {
           message.error(data)
         }
+      },
+      * hideDBModal({ paylaod }, { put }) {
+        const func = () => new Promise((resolve) => {
+          setTimeout(() => {
+            resolve()
+          }, 3000)
+        })
+        yield func()
+        yield put({
+          type: 'updateState',
+          payload: { hideGlobalDBDownloadModal: true, }
+        })
       },
     },
 

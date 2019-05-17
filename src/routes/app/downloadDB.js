@@ -33,12 +33,13 @@ class DownloadDB extends React.Component {
     } = this.state
     const {
       ifDBInit,
+      hideGlobalDBDownloadModal,
     } = app
     const loadingGetDB = loading.effects['app/initDB']
 
     if (ifDBInit) {
       // download sucess
-      if (hideSuccess) {
+      if (hideSuccess || hideGlobalDBDownloadModal) {
         return ''
       } else {
         return (

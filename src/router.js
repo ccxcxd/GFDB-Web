@@ -35,6 +35,9 @@ export default (lang) => {
     const DYNAMIC_C_QUEST = dynamic({
       component: () => import(/* webpackChunkName: "route_quest" */ './routes/quest'),
     })
+    const DYNAMIC_C_TRANSFORM = dynamic({
+      component: () => import(/* webpackChunkName: "route_transform" */ './routes/transform')
+    })
 
     return (
       <ConnectedRouter history={history}>
@@ -48,6 +51,7 @@ export default (lang) => {
                     <Route path="/" exact component={DYNAMIC_C_INDEX_PAGE} />
                     <Route path="/maps/" exact component={DYNAMIC_C_MAPS} />
                     <Route path="/quest/" exact component={DYNAMIC_C_QUEST} />
+                    <Route path="/transform" exact component={DYNAMIC_C_TRANSFORM} />
                   </DYNAMIC_C_APP>
                 )}
               />

@@ -12,6 +12,6 @@ module.exports = {
     { path: '/', icon: 'home' },
     { path: '/maps/', label: '敌方数据' },
     { path: '/quest/', label: '后勤列表' },
-    { path: '/transform/', label: '数据转换' },
+    // { path: '/transform/', label: '数据转换' },
   ],
 }

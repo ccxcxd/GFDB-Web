@@ -137,7 +137,8 @@
     "singularity": "Singularity",
     "djmax": "Glory Day",
     "turbulence": "Continuum Turbulence",
-    "isomer": "Isomer"
+    "isomer": "Isomer",
+    "vahall": "VA-11 HALL-A"
   },
   "enemy_char_name": {
     "9999": "",
@@ -183,6 +184,8 @@
     "10041": "Doppelsoldner",
     "10042": "Uhlan",
     "10043": "Strelet",
+    "10044": "Dragoon EX",
+    "10045": "Doppelsoldner",
     "11001": "Prowler EX",
     "11002": "Scouts",
     "11003": "Dinergate",
@@ -379,6 +382,11 @@
     "900152": "Beak",
     "900153": "Judge",
     "900154": "Judge",
+    "900155": "Dana",
+    "900156": "Gold Nyto",
+    "900157": "Gold Nyto",
+    "900158": "Destroyer",
+    "900159": "Architect",
     "910101": "K2",
     "910102": "K2",
     "910103": "K2",

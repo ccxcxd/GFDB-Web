@@ -986,7 +986,7 @@
     "normal_attack": 900107,
     "passive_skill": "200303,403101",
     "effect_ratio": 0.25,
-    "unable_buff_type": "221,733",
+    "unable_buff_type": "221,733,1446",
     "voice": ""
   },
   "10034": {
@@ -1046,7 +1046,7 @@
     "normal_attack": 404002,
     "passive_skill": "200303,200304",
     "effect_ratio": 0.971,
-    "unable_buff_type": "221,733",
+    "unable_buff_type": "221,733,1446",
     "voice": ""
   },
   "10036": {
@@ -1076,7 +1076,7 @@
     "normal_attack": 404001,
     "passive_skill": "200303,404024,200304",
     "effect_ratio": 1.006,
-    "unable_buff_type": "221,733",
+    "unable_buff_type": "221,733,1446",
     "voice": ""
   },
   "10037": {
@@ -1166,7 +1166,7 @@
     "normal_attack": 404003,
     "passive_skill": "200303,404004,404007",
     "effect_ratio": 0.986,
-    "unable_buff_type": "221,733",
+    "unable_buff_type": "221,733,1446",
     "voice": ""
   },
   "10040": {
@@ -1196,7 +1196,7 @@
     "normal_attack": 404002,
     "passive_skill": "200303,200304",
     "effect_ratio": 0.97,
-    "unable_buff_type": "221,733",
+    "unable_buff_type": "221,733,1446",
     "voice": ""
   },
   "10041": {
@@ -1226,7 +1226,7 @@
     "normal_attack": 404001,
     "passive_skill": "200303,404024,200304",
     "effect_ratio": 0.792,
-    "unable_buff_type": "221,733",
+    "unable_buff_type": "221,733,1446",
     "voice": ""
   },
   "10042": {
@@ -1256,7 +1256,7 @@
     "normal_attack": 404003,
     "passive_skill": "200303,404004,404007",
     "effect_ratio": 0.792,
-    "unable_buff_type": "221,733",
+    "unable_buff_type": "221,733,1446",
     "voice": ""
   },
   "10043": {
@@ -1287,6 +1287,66 @@
     "passive_skill": "200304",
     "effect_ratio": 0.75,
     "unable_buff_type": "",
+    "voice": ""
+  },
+  "10044": {
+    "id": 10044,
+    "type": 3,
+    "name": "enemy_char_name.10044",
+    "code": "Dragoon_SWAP",
+    "maxlife": 1588,
+    "pow": 42,
+    "hit": 140,
+    "dodge": 15,
+    "range": 4,
+    "speed": 50,
+    "number": 1,
+    "angle": 180,
+    "armor_piercing": 0,
+    "armor": 0,
+    "shield": 0,
+    "rate": 40,
+    "boss_hp": 0,
+    "def": 0,
+    "def_break": 0,
+    "debuff_resistance": 0.0,
+    "level": 30100,
+    "character": "enemy_character_type-10010044",
+    "special_attack": 0,
+    "normal_attack": 711001,
+    "passive_skill": "711002,200304,711003,711004,711005,711006,711103",
+    "effect_ratio": 1.0,
+    "unable_buff_type": "",
+    "voice": ""
+  },
+  "10045": {
+    "id": 10045,
+    "type": 3,
+    "name": "enemy_char_name.10045",
+    "code": "Doppelsoldner",
+    "maxlife": 9800,
+    "pow": 12,
+    "hit": 36,
+    "dodge": 10,
+    "range": 6,
+    "speed": 20,
+    "number": 1,
+    "angle": 180,
+    "armor_piercing": 0,
+    "armor": 150,
+    "shield": 0,
+    "rate": 30,
+    "boss_hp": 0,
+    "def": 2250,
+    "def_break": 0,
+    "debuff_resistance": 0.0,
+    "level": 100,
+    "character": "enemy_character_type-10010045",
+    "special_attack": 0,
+    "normal_attack": 711101,
+    "passive_skill": "200303,711102,200304,711103,711003,711004,711005,711006,711002",
+    "effect_ratio": 0.792,
+    "unable_buff_type": "221,733,1446",
     "voice": ""
   },
   "11001": {
@@ -5276,7 +5336,7 @@
     "normal_attack": 300314,
     "passive_skill": "400401",
     "effect_ratio": 1.0,
-    "unable_buff_type": "221,733",
+    "unable_buff_type": "221,733,1446",
     "voice": "1,2"
   },
   "900092": {
@@ -5396,7 +5456,7 @@
     "normal_attack": 300303,
     "passive_skill": "400101,402922",
     "effect_ratio": 1.0,
-    "unable_buff_type": "221,733",
+    "unable_buff_type": "221,733,1446",
     "voice": "1,2"
   },
   "900096": {
@@ -5426,7 +5486,7 @@
     "normal_attack": 300301,
     "passive_skill": "400201,200303,402922",
     "effect_ratio": 1.0,
-    "unable_buff_type": "221,733",
+    "unable_buff_type": "221,733,1446",
     "voice": "1,2"
   },
   "900097": {
@@ -5456,7 +5516,7 @@
     "normal_attack": 300302,
     "passive_skill": "400301,402922",
     "effect_ratio": 1.0,
-    "unable_buff_type": "221,733",
+    "unable_buff_type": "221,733,1446",
     "voice": "1,2"
   },
   "900098": {
@@ -5636,7 +5696,7 @@
     "normal_attack": 403303,
     "passive_skill": "403301,403302,403304",
     "effect_ratio": 0.9,
-    "unable_buff_type": "221,733",
+    "unable_buff_type": "221,733,1446",
     "voice": "1,2,3"
   },
   "900104": {
@@ -5666,7 +5726,7 @@
     "normal_attack": 403303,
     "passive_skill": "403301,403302,403304",
     "effect_ratio": 0.4,
-    "unable_buff_type": "221,733",
+    "unable_buff_type": "221,733,1446",
     "voice": "1,2,3"
   },
   "900105": {
@@ -5996,7 +6056,7 @@
     "normal_attack": 404201,
     "passive_skill": "200303,404200,404203,404204,404205,404212,404213,404215,404217,404218,404228,404216,404227,404219,404220,404221,404222,404208,404224,404210,404211,404230",
     "effect_ratio": 0.6,
-    "unable_buff_type": "221,733",
+    "unable_buff_type": "221,733,1446",
     "voice": "1,2"
   },
   "900116": {
@@ -6026,7 +6086,7 @@
     "normal_attack": 404102,
     "passive_skill": "200303,404101,404103,404104,404111,404112,404113,404114,404115,404126,404116,404118,404119,404120,404121,404122,404123,404124,404125,404126",
     "effect_ratio": 0.6,
-    "unable_buff_type": "221,733",
+    "unable_buff_type": "221,733,1446",
     "voice": "1,2,3"
   },
   "900117": {
@@ -6056,7 +6116,7 @@
     "normal_attack": 404014,
     "passive_skill": "404008,404010,404011,404019,404012,404013,404015,404016,404017,404018,404022,404023,404020,404021",
     "effect_ratio": 1.0,
-    "unable_buff_type": "221,733",
+    "unable_buff_type": "221,733,1446",
     "voice": "1,2"
   },
   "900118": {
@@ -6146,7 +6206,7 @@
     "normal_attack": 404201,
     "passive_skill": "200303,404200,404203,404204,404205,404212,404213,404215,404217,404218,404228,404216,404227,404229,404220,404221,404222,404223,404224,404225,404226,404230",
     "effect_ratio": 0.5,
-    "unable_buff_type": "221,733",
+    "unable_buff_type": "221,733,1446",
     "voice": "1,2"
   },
   "900121": {
@@ -6176,7 +6236,7 @@
     "normal_attack": 404102,
     "passive_skill": "200303,404101,404103,404104,404111,404112,404113,404114,404115,404126,404116,404127,404119,404120,404121,404122,404123,404124,404125,404126",
     "effect_ratio": 0.5,
-    "unable_buff_type": "221,733",
+    "unable_buff_type": "221,733,1446",
     "voice": "1,2,3"
   },
   "900122": {
@@ -6206,7 +6266,7 @@
     "normal_attack": 404102,
     "passive_skill": "200303,404128,404119,404120,404121,404122,404123,404124,404125,404132",
     "effect_ratio": 0.8,
-    "unable_buff_type": "221,733",
+    "unable_buff_type": "221,733,1446",
     "voice": "1,2,3"
   },
   "900123": {
@@ -6266,7 +6326,7 @@
     "normal_attack": 404201,
     "passive_skill": "200303,404200,404203,404204,404205,404212,404213,404215,404217,404218,404228,404216,404227,404232,404220,404221,404222,404223,404224,404225,404226,404230",
     "effect_ratio": 0.5,
-    "unable_buff_type": "221,733",
+    "unable_buff_type": "221,733,1446",
     "voice": "1,2"
   },
   "900125": {
@@ -6296,7 +6356,7 @@
     "normal_attack": 404102,
     "passive_skill": "200303,404101,404103,404104,404111,404112,404113,404114,404115,404126,404116,404129,404119,404120,404121,404122,404123,404124,404125,404126",
     "effect_ratio": 0.5,
-    "unable_buff_type": "221,733",
+    "unable_buff_type": "221,733,1446",
     "voice": "1,2,3"
   },
   "900126": {
@@ -6776,7 +6836,7 @@
     "normal_attack": 406101,
     "passive_skill": "406103,406104,406106",
     "effect_ratio": 0.5,
-    "unable_buff_type": "221,733",
+    "unable_buff_type": "221,733,1446",
     "voice": "1,2"
   },
   "900142": {
@@ -6806,7 +6866,7 @@
     "normal_attack": 406001,
     "passive_skill": "406008,406002,406005,406006,406007",
     "effect_ratio": 0.5,
-    "unable_buff_type": "221,733",
+    "unable_buff_type": "221,733,1446",
     "voice": "1,2,3"
   },
   "900143": {
@@ -6866,7 +6926,7 @@
     "normal_attack": 406101,
     "passive_skill": "406103,406104,406113",
     "effect_ratio": 0.2,
-    "unable_buff_type": "221,733",
+    "unable_buff_type": "221,733,1446",
     "voice": "1,2"
   },
   "900145": {
@@ -6896,7 +6956,7 @@
     "normal_attack": 406001,
     "passive_skill": "406022,406002,406014,406015,406016,406020",
     "effect_ratio": 0.2,
-    "unable_buff_type": "221,733",
+    "unable_buff_type": "221,733,1446",
     "voice": "1,2,3"
   },
   "900146": {
@@ -6956,7 +7016,7 @@
     "normal_attack": 406101,
     "passive_skill": "406103,406104,406114",
     "effect_ratio": 0.5,
-    "unable_buff_type": "221,733",
+    "unable_buff_type": "221,733,1446",
     "voice": "1,2"
   },
   "900148": {
@@ -6986,7 +7046,7 @@
     "normal_attack": 406001,
     "passive_skill": "406023,406002,406017,406018,406019,406021",
     "effect_ratio": 0.5,
-    "unable_buff_type": "221,733",
+    "unable_buff_type": "221,733,1446",
     "voice": "1,2,3"
   },
   "900149": {
@@ -7166,6 +7226,156 @@
     "normal_attack": 300327,
     "passive_skill": "402301,402302,402303,200303",
     "effect_ratio": 0.9,
+    "unable_buff_type": "",
+    "voice": "1,2,3"
+  },
+  "900155": {
+    "id": 900155,
+    "type": 1,
+    "name": "enemy_char_name.900155",
+    "code": "Dana_BOSS",
+    "maxlife": 1000000,
+    "pow": 95,
+    "hit": 180,
+    "dodge": 26,
+    "range": 5,
+    "speed": 45,
+    "number": 1,
+    "angle": 180,
+    "armor_piercing": 20,
+    "armor": 30,
+    "shield": 0,
+    "rate": 70,
+    "boss_hp": 1000000,
+    "def": 0,
+    "def_break": 0,
+    "debuff_resistance": 0.0,
+    "level": 100,
+    "character": "enemy_character_type-10900155",
+    "special_attack": 0,
+    "normal_attack": 710704,
+    "passive_skill": "710701,710702,710703,710705,710706,710707,710730,710801",
+    "effect_ratio": 0.5,
+    "unable_buff_type": "",
+    "voice": "1,2,3"
+  },
+  "900156": {
+    "id": 900156,
+    "type": 1,
+    "name": "enemy_char_name.900156",
+    "code": "Nyto_Gold",
+    "maxlife": 42000,
+    "pow": 32,
+    "hit": 120,
+    "dodge": 15,
+    "range": 10,
+    "speed": 50,
+    "number": 1,
+    "angle": 180,
+    "armor_piercing": 20,
+    "armor": 25,
+    "shield": 0,
+    "rate": 50,
+    "boss_hp": 42000,
+    "def": 0,
+    "def_break": 0,
+    "debuff_resistance": 0.0,
+    "level": 100,
+    "character": "enemy_character_type-10900156",
+    "special_attack": 0,
+    "normal_attack": 406101,
+    "passive_skill": "406103,406104,406106,710730",
+    "effect_ratio": 0.75,
+    "unable_buff_type": "221,733,1446",
+    "voice": "1,2"
+  },
+  "900157": {
+    "id": 900157,
+    "type": 1,
+    "name": "enemy_char_name.900157",
+    "code": "Nyto_Gold",
+    "maxlife": 175000,
+    "pow": 65,
+    "hit": 250,
+    "dodge": 40,
+    "range": 10,
+    "speed": 50,
+    "number": 1,
+    "angle": 180,
+    "armor_piercing": 20,
+    "armor": 30,
+    "shield": 0,
+    "rate": 60,
+    "boss_hp": 175000,
+    "def": 7000,
+    "def_break": 0,
+    "debuff_resistance": 0.0,
+    "level": 100,
+    "character": "enemy_character_type-10900157",
+    "special_attack": 0,
+    "normal_attack": 406101,
+    "passive_skill": "406103,406104,406114,710730",
+    "effect_ratio": 0.16,
+    "unable_buff_type": "221,733,1446",
+    "voice": "1,2"
+  },
+  "900158": {
+    "id": 900158,
+    "type": 1,
+    "name": "enemy_char_name.900158",
+    "code": "Destroyer",
+    "maxlife": 115000,
+    "pow": 190,
+    "hit": 60,
+    "dodge": 15,
+    "range": 5,
+    "speed": 45,
+    "number": 1,
+    "angle": 180,
+    "armor_piercing": 0,
+    "armor": 0,
+    "shield": 0,
+    "rate": 60,
+    "boss_hp": 115000,
+    "def": 0,
+    "def_break": 0,
+    "debuff_resistance": 0.0,
+    "level": 100,
+    "character": "enemy_character_type-10900158",
+    "special_attack": 0,
+    "normal_attack": 300304,
+    "passive_skill": "710730",
+    "effect_ratio": 1.5,
+    "unable_buff_type": "",
+    "voice": "1,2"
+  },
+  "900159": {
+    "id": 900159,
+    "type": 1,
+    "name": "enemy_char_name.900159",
+    "code": "BossArchitect",
+    "maxlife": 95000,
+    "pow": 135,
+    "hit": 120,
+    "dodge": 25,
+    "range": 20,
+    "speed": 40,
+    "number": 1,
+    "angle": 180,
+    "armor_piercing": 0,
+    "armor": 35,
+    "shield": 0,
+    "rate": 50,
+    "boss_hp": 95000,
+    "def": 0,
+    "def_break": 0,
+    "debuff_resistance": 0.0,
+    "level": 100,
+    "character": "enemy_character_type-10900159",
+    "special_attack": 0,
+    "normal_attack": 300307,
+    "passive_skill": "400801,400901,400902,400903,200303",
+    "effect_ratio": 1.0,
     "unable_buff_type": "",
     "voice": "1,2,3"
   },
@@ -7646,7 +7856,7 @@
     "normal_attack": 403303,
     "passive_skill": "109408,109409",
     "effect_ratio": 9.0,
-    "unable_buff_type": "221,733",
+    "unable_buff_type": "221,733,1446",
     "voice": "1,2,3"
   },
   "910117": {

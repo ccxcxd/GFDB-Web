@@ -1735,11 +1735,81 @@
     "code": "Falcon",
     "rank": 3
   },
+  "257": {
+    "id": 257,
+    "name": "gun-10000257",
+    "en_name": "M200",
+    "code": "M200",
+    "rank": 5
+  },
   "258": {
     "id": 258,
     "name": "gun-10000258",
     "en_name": "Magal",
     "code": "Magal",
+    "rank": 3
+  },
+  "259": {
+    "id": 259,
+    "name": "gun-10000259",
+    "en_name": "PM-9",
+    "code": "PM9",
+    "rank": 5
+  },
+  "260": {
+    "id": 260,
+    "name": "gun-10000260",
+    "en_name": "PA-15",
+    "code": "PA15",
+    "rank": 5
+  },
+  "261": {
+    "id": 261,
+    "name": "gun-10000261",
+    "en_name": "QBU-88",
+    "code": "QBU88",
+    "rank": 5
+  },
+  "262": {
+    "id": 262,
+    "name": "gun-10000262",
+    "en_name": "EM-2",
+    "code": "EM2",
+    "rank": 4
+  },
+  "263": {
+    "id": 263,
+    "name": "gun-10000263",
+    "en_name": "MG36",
+    "code": "MG36",
+    "rank": 5
+  },
+  "264": {
+    "id": 264,
+    "name": "gun-10000264",
+    "en_name": "Chauchat",
+    "code": "ChauchatM1915",
+    "rank": 4
+  },
+  "265": {
+    "id": 265,
+    "name": "gun-10000265",
+    "en_name": "HK33",
+    "code": "HK33",
+    "rank": 3
+  },
+  "266": {
+    "id": 266,
+    "name": "gun-10000266",
+    "en_name": "R93",
+    "code": "R93",
+    "rank": 5
+  },
+  "267": {
+    "id": 267,
+    "name": "gun-10000267",
+    "en_name": "MP41",
+    "code": "MP41",
     "rank": 3
   },
   "1001": {
@@ -1810,6 +1880,48 @@
     "name": "gun-10001010",
     "en_name": "FAIL",
     "code": "FAIL",
+    "rank": 5
+  },
+  "1017": {
+    "id": 1017,
+    "name": "gun-10001017",
+    "en_name": "Jill Stingray",
+    "code": "Jill",
+    "rank": 5
+  },
+  "1018": {
+    "id": 1018,
+    "name": "gun-10001018",
+    "en_name": "Sei Asagiri",
+    "code": "SEI",
+    "rank": 5
+  },
+  "1019": {
+    "id": 1019,
+    "name": "gun-10001019",
+    "en_name": "Dorothy Haze",
+    "code": "Dorothy",
+    "rank": 5
+  },
+  "1020": {
+    "id": 1020,
+    "name": "gun-10001020",
+    "en_name": "Stella Hoshii",
+    "code": "Stella",
+    "rank": 5
+  },
+  "1021": {
+    "id": 1021,
+    "name": "gun-10001021",
+    "en_name": "Alma Armas",
+    "code": "Alma",
+    "rank": 5
+  },
+  "1022": {
+    "id": 1022,
+    "name": "gun-10001022",
+    "en_name": "Dana Zane",
+    "code": "Dana",
     "rank": 5
   },
   "9001": {
@@ -2141,6 +2253,13 @@
     "code": "StenMK2Mod",
     "rank": 4
   },
+  "20032": {
+    "id": 20032,
+    "name": "gun-10020032",
+    "en_name": "Micro Uzi",
+    "code": "MicroUZIMod",
+    "rank": 4
+  },
   "20037": {
     "id": 20037,
     "name": "gun-10020037",
@@ -2189,6 +2308,20 @@
     "en_name": "ST AR-15",
     "code": "AR15Mod",
     "rank": 5
+  },
+  "20060": {
+    "id": 20060,
+    "name": "gun-10020060",
+    "en_name": "AS Val",
+    "code": "ASVALMod",
+    "rank": 5
+  },
+  "20061": {
+    "id": 20061,
+    "name": "gun-10020061",
+    "en_name": "StG44",
+    "code": "STG44Mod",
+    "rank": 4
   },
   "20063": {
     "id": 20063,

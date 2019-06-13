@@ -44603,7 +44603,7 @@
       9120,
       9121
     ],
-    "spot_id": 0,
+    "spot_id": 4449,
     "drops_limit": [],
     "drops_reg_count": [
       0,
@@ -46993,7 +46993,7 @@
       10231,
       10232
     ],
-    "spot_id": 5506,
+    "spot_id": 12710,
     "drops_limit": [],
     "drops_reg_count": [
       0,
@@ -108943,6 +108943,3952 @@
       0,
       0,
       0,
+      0,
+      0
+    ],
+    "lv_up_array": [],
+    "no_map": false,
+    "is_night": false
+  },
+  "320101": {
+    "id": 320101,
+    "enemy_leader": 900038,
+    "correction_belong": "",
+    "correction_turn": "",
+    "limit_guns": "",
+    "limit_equips": "",
+    "ai": 0,
+    "ai_content": "",
+    "reward_gun_pool": "",
+    "equip_s_probability": "1,5,9,13,17,29,37,55,63,69,73,77,87,2,6,10,14,18,30,38,56,42,64,70,74,78,88",
+    "member_ids": [
+      32010001
+    ],
+    "spot_id": 12672,
+    "drops_limit": [],
+    "drops_reg_count": [
+      0,
+      13,
+      14,
+      0,
+      0
+    ],
+    "lv_up_array": [],
+    "no_map": false,
+    "is_night": false
+  },
+  "320102": {
+    "id": 320102,
+    "enemy_leader": 10006,
+    "correction_belong": "",
+    "correction_turn": "",
+    "limit_guns": "",
+    "limit_equips": "",
+    "ai": 0,
+    "ai_content": "",
+    "reward_gun_pool": "",
+    "equip_s_probability": "1,5,9,13,17,29,37,55,63,69,73,77,87,2,6,10,14,18,30,38,56,42,64,70,74,78,88,3,7,11,15,19,31,39,57,43,65,67,71,75,79,89",
+    "member_ids": [
+      32010002,
+      32010003,
+      32010004,
+      32010005,
+      32010006,
+      32010007
+    ],
+    "spot_id": 12674,
+    "drops_limit": [],
+    "drops_reg_count": [
+      0,
+      13,
+      14,
+      15,
+      0
+    ],
+    "lv_up_array": [],
+    "no_map": false,
+    "is_night": false
+  },
+  "320103": {
+    "id": 320103,
+    "enemy_leader": 10004,
+    "correction_belong": "",
+    "correction_turn": "",
+    "limit_guns": "",
+    "limit_equips": "",
+    "ai": 101,
+    "ai_content": "12670,12671,12669",
+    "reward_gun_pool": "",
+    "equip_s_probability": "1,5,9,13,17,29,37,55,63,69,73,77,87,2,6,10,14,18,30,38,56,42,64,70,74,78,88",
+    "member_ids": [
+      32010008,
+      32010009,
+      32010010,
+      32010011
+    ],
+    "spot_id": 0,
+    "drops_limit": [],
+    "drops_reg_count": [
+      0,
+      13,
+      14,
+      0,
+      0
+    ],
+    "lv_up_array": [],
+    "no_map": false,
+    "is_night": false
+  },
+  "320104": {
+    "id": 320104,
+    "enemy_leader": 10005,
+    "correction_belong": "",
+    "correction_turn": "",
+    "limit_guns": "",
+    "limit_equips": "",
+    "ai": 101,
+    "ai_content": "12667,12668",
+    "reward_gun_pool": "",
+    "equip_s_probability": "1,5,9,13,17,29,37,55,63,69,73,77,87,2,6,10,14,18,30,38,56,42,64,70,74,78,88",
+    "member_ids": [
+      32010012,
+      32010013,
+      32010014,
+      32010015
+    ],
+    "spot_id": 0,
+    "drops_limit": [],
+    "drops_reg_count": [
+      0,
+      13,
+      14,
+      0,
+      0
+    ],
+    "lv_up_array": [],
+    "no_map": false,
+    "is_night": false
+  },
+  "320105": {
+    "id": 320105,
+    "enemy_leader": 10003,
+    "correction_belong": "",
+    "correction_turn": "",
+    "limit_guns": "",
+    "limit_equips": "",
+    "ai": 101,
+    "ai_content": "12665,12666",
+    "reward_gun_pool": "",
+    "equip_s_probability": "1,5,9,13,17,29,37,55,63,69,73,77,87,2,6,10,14,18,30,38,56,42,64,70,74,78,88",
+    "member_ids": [
+      32010016,
+      32010017,
+      32010018,
+      32010019,
+      32010020,
+      32010021,
+      32010022
+    ],
+    "spot_id": 0,
+    "drops_limit": [],
+    "drops_reg_count": [
+      0,
+      13,
+      14,
+      0,
+      0
+    ],
+    "lv_up_array": [],
+    "no_map": false,
+    "is_night": false
+  },
+  "320106": {
+    "id": 320106,
+    "enemy_leader": 10007,
+    "correction_belong": "",
+    "correction_turn": "",
+    "limit_guns": "",
+    "limit_equips": "",
+    "ai": 0,
+    "ai_content": "",
+    "reward_gun_pool": "",
+    "equip_s_probability": "1,5,9,13,17,29,37,55,63,69,73,77,87,2,6,10,14,18,30,38,56,42,64,70,74,78,88,3,7,11,15,19,31,39,57,43,65,67,71,75,79,89",
+    "member_ids": [
+      32010023,
+      32010024,
+      32010025,
+      32010026,
+      32010027,
+      32010028
+    ],
+    "spot_id": 0,
+    "drops_limit": [],
+    "drops_reg_count": [
+      0,
+      13,
+      14,
+      15,
+      0
+    ],
+    "lv_up_array": [],
+    "no_map": false,
+    "is_night": false
+  },
+  "320201": {
+    "id": 320201,
+    "enemy_leader": 10007,
+    "correction_belong": "",
+    "correction_turn": "",
+    "limit_guns": "",
+    "limit_equips": "",
+    "ai": 102,
+    "ai_content": "2",
+    "reward_gun_pool": "",
+    "equip_s_probability": "1,5,9,13,17,29,37,55,63,69,73,77,87,2,6,10,14,18,30,38,56,42,64,70,74,78,88,3,7,11,15,19,31,39,57,43,65,67,71,75,79,89",
+    "member_ids": [
+      32010029,
+      32010030,
+      32010031,
+      32010032,
+      32010033
+    ],
+    "spot_id": 12692,
+    "drops_limit": [],
+    "drops_reg_count": [
+      0,
+      13,
+      14,
+      15,
+      0
+    ],
+    "lv_up_array": [],
+    "no_map": false,
+    "is_night": false
+  },
+  "320202": {
+    "id": 320202,
+    "enemy_leader": 900032,
+    "correction_belong": "",
+    "correction_turn": "",
+    "limit_guns": "",
+    "limit_equips": "",
+    "ai": 101,
+    "ai_content": "12691,12690,12689",
+    "reward_gun_pool": "",
+    "equip_s_probability": "1,5,9,13,17,29,37,55,63,69,73,77,87,2,6,10,14,18,30,38,56,42,64,70,74,78,88",
+    "member_ids": [
+      32010034,
+      32010035,
+      32010036
+    ],
+    "spot_id": 12690,
+    "drops_limit": [],
+    "drops_reg_count": [
+      0,
+      13,
+      14,
+      0,
+      0
+    ],
+    "lv_up_array": [],
+    "no_map": false,
+    "is_night": false
+  },
+  "320203": {
+    "id": 320203,
+    "enemy_leader": 10004,
+    "correction_belong": "",
+    "correction_turn": "",
+    "limit_guns": "",
+    "limit_equips": "",
+    "ai": 101,
+    "ai_content": "12685,12686,12684",
+    "reward_gun_pool": "",
+    "equip_s_probability": "1,5,9,13,17,29,37,55,63,69,73,77,87,2,6,10,14,18,30,38,56,42,64,70,74,78,88",
+    "member_ids": [
+      32010037,
+      32010038,
+      32010039,
+      32010040
+    ],
+    "spot_id": 12686,
+    "drops_limit": [],
+    "drops_reg_count": [
+      0,
+      13,
+      14,
+      0,
+      0
+    ],
+    "lv_up_array": [],
+    "no_map": false,
+    "is_night": false
+  },
+  "320204": {
+    "id": 320204,
+    "enemy_leader": 900032,
+    "correction_belong": "",
+    "correction_turn": "",
+    "limit_guns": "",
+    "limit_equips": "",
+    "ai": 101,
+    "ai_content": "12679,12678,12681,12680,12679",
+    "reward_gun_pool": "",
+    "equip_s_probability": "1,5,9,13,17,29,37,55,63,69,73,77,87,2,6,10,14,18,30,38,56,42,64,70,74,78,88",
+    "member_ids": [
+      32010041,
+      32010042
+    ],
+    "spot_id": 0,
+    "drops_limit": [],
+    "drops_reg_count": [
+      0,
+      13,
+      14,
+      0,
+      0
+    ],
+    "lv_up_array": [],
+    "no_map": false,
+    "is_night": false
+  },
+  "320205": {
+    "id": 320205,
+    "enemy_leader": 900032,
+    "correction_belong": "",
+    "correction_turn": "",
+    "limit_guns": "",
+    "limit_equips": "",
+    "ai": 101,
+    "ai_content": "12682,12676,12677,12683,12682",
+    "reward_gun_pool": "",
+    "equip_s_probability": "1,5,9,13,17,29,37,55,63,69,73,77,87,2,6,10,14,18,30,38,56,42,64,70,74,78,88",
+    "member_ids": [
+      32010043,
+      32010044
+    ],
+    "spot_id": 0,
+    "drops_limit": [],
+    "drops_reg_count": [
+      0,
+      13,
+      14,
+      0,
+      0
+    ],
+    "lv_up_array": [],
+    "no_map": false,
+    "is_night": false
+  },
+  "320206": {
+    "id": 320206,
+    "enemy_leader": 10006,
+    "correction_belong": "",
+    "correction_turn": "",
+    "limit_guns": "",
+    "limit_equips": "",
+    "ai": 101,
+    "ai_content": "12677,12683,12684,12681,12680",
+    "reward_gun_pool": "",
+    "equip_s_probability": "1,5,9,13,17,29,37,55,63,69,73,77,87,2,6,10,14,18,30,38,56,42,64,70,74,78,88",
+    "member_ids": [
+      32010045,
+      32010046,
+      32010047,
+      32010048,
+      32010049
+    ],
+    "spot_id": 0,
+    "drops_limit": [],
+    "drops_reg_count": [
+      0,
+      13,
+      14,
+      0,
+      0
+    ],
+    "lv_up_array": [],
+    "no_map": false,
+    "is_night": false
+  },
+  "320301": {
+    "id": 320301,
+    "enemy_leader": 10036,
+    "correction_belong": "",
+    "correction_turn": "",
+    "limit_guns": "202",
+    "limit_equips": "",
+    "ai": 0,
+    "ai_content": "",
+    "reward_gun_pool": "2,9,90,139,17,24,31,92,94,41,51,63,71,107,81,87,111,3,8,12,14,18,27,32,37,58,70,77,86,202,150,66",
+    "equip_s_probability": "",
+    "member_ids": [
+      32010059,
+      32010060,
+      32010061,
+      32010062
+    ],
+    "spot_id": 12703,
+    "drops_limit": [
+      "gun-10000202"
+    ],
+    "drops_reg_count": [
+      0,
+      17,
+      12,
+      3,
+      0
+    ],
+    "lv_up_array": [],
+    "no_map": false,
+    "is_night": false
+  },
+  "320302": {
+    "id": 320302,
+    "enemy_leader": 10035,
+    "correction_belong": "",
+    "correction_turn": "",
+    "limit_guns": "",
+    "limit_equips": "",
+    "ai": 0,
+    "ai_content": "",
+    "reward_gun_pool": "2,9,90,139,17,24,31,92,94,41,51,63,71,107,81,87,111,3,8,12,14,18,27,32,37,58,70,77,86,0",
+    "equip_s_probability": "",
+    "member_ids": [
+      32010063,
+      32010064,
+      32010065,
+      32010066
+    ],
+    "spot_id": 12709,
+    "drops_limit": [],
+    "drops_reg_count": [
+      0,
+      17,
+      12,
+      0,
+      0
+    ],
+    "lv_up_array": [],
+    "no_map": false,
+    "is_night": false
+  },
+  "320303": {
+    "id": 320303,
+    "enemy_leader": 10034,
+    "correction_belong": "",
+    "correction_turn": "",
+    "limit_guns": "",
+    "limit_equips": "",
+    "ai": 0,
+    "ai_content": "",
+    "reward_gun_pool": "2,9,90,139,17,24,31,92,94,41,51,63,71,107,81,87,111,0",
+    "equip_s_probability": "",
+    "member_ids": [
+      32010067,
+      32010068,
+      32010069,
+      32010070,
+      32010071
+    ],
+    "spot_id": 12705,
+    "drops_limit": [],
+    "drops_reg_count": [
+      0,
+      17,
+      0,
+      0,
+      0
+    ],
+    "lv_up_array": [],
+    "no_map": false,
+    "is_night": false
+  },
+  "320304": {
+    "id": 320304,
+    "enemy_leader": 10035,
+    "correction_belong": "",
+    "correction_turn": "",
+    "limit_guns": "202",
+    "limit_equips": "",
+    "ai": 0,
+    "ai_content": "",
+    "reward_gun_pool": "2,9,90,139,17,24,31,92,94,41,51,63,71,107,81,87,111,3,8,12,14,18,27,32,37,58,70,77,86,202,150,0",
+    "equip_s_probability": "",
+    "member_ids": [
+      32010072,
+      32010073,
+      32010074,
+      32010075
+    ],
+    "spot_id": 12708,
+    "drops_limit": [
+      "gun-10000202"
+    ],
+    "drops_reg_count": [
+      0,
+      17,
+      12,
+      2,
+      0
+    ],
+    "lv_up_array": [],
+    "no_map": false,
+    "is_night": false
+  },
+  "320307": {
+    "id": 320307,
+    "enemy_leader": 10034,
+    "correction_belong": "",
+    "correction_turn": "",
+    "limit_guns": "",
+    "limit_equips": "",
+    "ai": 0,
+    "ai_content": "",
+    "reward_gun_pool": "",
+    "equip_s_probability": "",
+    "member_ids": [
+      32010076,
+      32010077,
+      32010078
+    ],
+    "spot_id": 0,
+    "drops_limit": [],
+    "drops_reg_count": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "lv_up_array": [],
+    "no_map": false,
+    "is_night": false
+  },
+  "320308": {
+    "id": 320308,
+    "enemy_leader": 10045,
+    "correction_belong": "",
+    "correction_turn": "",
+    "limit_guns": "",
+    "limit_equips": "",
+    "ai": 0,
+    "ai_content": "",
+    "reward_gun_pool": "",
+    "equip_s_probability": "",
+    "member_ids": [
+      32010079,
+      32010080,
+      32010081
+    ],
+    "spot_id": 0,
+    "drops_limit": [],
+    "drops_reg_count": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "lv_up_array": [],
+    "no_map": false,
+    "is_night": false
+  },
+  "320401": {
+    "id": 320401,
+    "enemy_leader": 10036,
+    "correction_belong": "",
+    "correction_turn": "",
+    "limit_guns": "226",
+    "limit_equips": "",
+    "ai": 0,
+    "ai_content": "",
+    "reward_gun_pool": "5,10,91,141,21,25,33,93,94,40,47,52,68,74,133,82,110,6,11,13,3,22,29,34,44,61,105,80,89,100,39,226,75",
+    "equip_s_probability": "",
+    "member_ids": [
+      32010082,
+      32010083,
+      32010084,
+      32010085
+    ],
+    "spot_id": 12724,
+    "drops_limit": [
+      "gun-10000226"
+    ],
+    "drops_reg_count": [
+      0,
+      17,
+      12,
+      4,
+      0
+    ],
+    "lv_up_array": [],
+    "no_map": false,
+    "is_night": false
+  },
+  "320402": {
+    "id": 320402,
+    "enemy_leader": 10036,
+    "correction_belong": "",
+    "correction_turn": "",
+    "limit_guns": "",
+    "limit_equips": "",
+    "ai": 101,
+    "ai_content": "12722,12721,12723,12722",
+    "reward_gun_pool": "5,10,91,141,21,25,33,93,94,40,47,52,68,74,133,82,110,0",
+    "equip_s_probability": "",
+    "member_ids": [
+      32010086,
+      32010087,
+      32010088,
+      32010089,
+      32010090
+    ],
+    "spot_id": 0,
+    "drops_limit": [],
+    "drops_reg_count": [
+      0,
+      17,
+      0,
+      0,
+      0
+    ],
+    "lv_up_array": [],
+    "no_map": false,
+    "is_night": false
+  },
+  "320403": {
+    "id": 320403,
+    "enemy_leader": 10036,
+    "correction_belong": "",
+    "correction_turn": "",
+    "limit_guns": "226",
+    "limit_equips": "",
+    "ai": 101,
+    "ai_content": "12722,12721,12723,12722",
+    "reward_gun_pool": "5,10,91,141,21,25,33,93,94,40,47,52,68,74,133,82,110,6,11,13,3,22,29,34,44,61,105,80,89,100,226,0",
+    "equip_s_probability": "",
+    "member_ids": [
+      32010091,
+      32010092,
+      32010093,
+      32010094,
+      32010095
+    ],
+    "spot_id": 0,
+    "drops_limit": [
+      "gun-10000226"
+    ],
+    "drops_reg_count": [
+      0,
+      17,
+      12,
+      2,
+      0
+    ],
+    "lv_up_array": [],
+    "no_map": false,
+    "is_night": false
+  },
+  "320404": {
+    "id": 320404,
+    "enemy_leader": 10035,
+    "correction_belong": "",
+    "correction_turn": "",
+    "limit_guns": "",
+    "limit_equips": "",
+    "ai": 101,
+    "ai_content": "12729,12718,12727,12728,12729",
+    "reward_gun_pool": "5,10,91,141,21,25,33,93,94,40,47,52,68,74,133,82,110,6,11,13,3,22,29,34,44,61,105,80,89,0",
+    "equip_s_probability": "",
+    "member_ids": [
+      32010096,
+      32010097,
+      32010098,
+      32010099
+    ],
+    "spot_id": 12729,
+    "drops_limit": [],
+    "drops_reg_count": [
+      0,
+      17,
+      12,
+      0,
+      0
+    ],
+    "lv_up_array": [],
+    "no_map": false,
+    "is_night": false
+  },
+  "320405": {
+    "id": 320405,
+    "enemy_leader": 10034,
+    "correction_belong": "",
+    "correction_turn": "",
+    "limit_guns": "",
+    "limit_equips": "",
+    "ai": 0,
+    "ai_content": "",
+    "reward_gun_pool": "5,10,91,141,21,25,33,93,94,40,47,52,68,74,133,82,110,0",
+    "equip_s_probability": "",
+    "member_ids": [
+      32010100,
+      32010101,
+      32010102,
+      32010103
+    ],
+    "spot_id": 12719,
+    "drops_limit": [],
+    "drops_reg_count": [
+      0,
+      17,
+      0,
+      0,
+      0
+    ],
+    "lv_up_array": [],
+    "no_map": false,
+    "is_night": false
+  },
+  "320406": {
+    "id": 320406,
+    "enemy_leader": 10035,
+    "correction_belong": "",
+    "correction_turn": "",
+    "limit_guns": "226",
+    "limit_equips": "",
+    "ai": 102,
+    "ai_content": "2",
+    "reward_gun_pool": "5,10,91,141,21,25,33,93,94,40,47,52,68,74,133,82,110,6,11,13,3,22,29,34,44,61,105,80,89,100,226,0",
+    "equip_s_probability": "",
+    "member_ids": [
+      32010104,
+      32010105,
+      32010106
+    ],
+    "spot_id": 12714,
+    "drops_limit": [
+      "gun-10000226"
+    ],
+    "drops_reg_count": [
+      0,
+      17,
+      12,
+      2,
+      0
+    ],
+    "lv_up_array": [],
+    "no_map": false,
+    "is_night": false
+  },
+  "320501": {
+    "id": 320501,
+    "enemy_leader": 10022,
+    "correction_belong": "",
+    "correction_turn": "",
+    "limit_guns": "",
+    "limit_equips": "",
+    "ai": 102,
+    "ai_content": "3",
+    "reward_gun_pool": "2,9,90,139,17,24,31,92,94,41,51,63,71,107,81,87,111,0",
+    "equip_s_probability": "",
+    "member_ids": [
+      32010107,
+      32010108,
+      32010109,
+      32010110,
+      32010111,
+      32010112,
+      32010113,
+      32010114,
+      32010115
+    ],
+    "spot_id": 12750,
+    "drops_limit": [],
+    "drops_reg_count": [
+      0,
+      17,
+      0,
+      0,
+      0
+    ],
+    "lv_up_array": [],
+    "no_map": false,
+    "is_night": false
+  },
+  "320502": {
+    "id": 320502,
+    "enemy_leader": 10029,
+    "correction_belong": "",
+    "correction_turn": "",
+    "limit_guns": "",
+    "limit_equips": "",
+    "ai": 0,
+    "ai_content": "",
+    "reward_gun_pool": "2,9,90,139,17,24,31,92,94,41,51,63,71,107,81,87,111,3,8,12,14,18,27,32,37,58,70,77,86,0",
+    "equip_s_probability": "",
+    "member_ids": [
+      32010116,
+      32010117,
+      32010118,
+      32010119,
+      32010120,
+      32010121
+    ],
+    "spot_id": 12736,
+    "drops_limit": [],
+    "drops_reg_count": [
+      0,
+      17,
+      12,
+      0,
+      0
+    ],
+    "lv_up_array": [],
+    "no_map": false,
+    "is_night": false
+  },
+  "320503": {
+    "id": 320503,
+    "enemy_leader": 10023,
+    "correction_belong": "",
+    "correction_turn": "",
+    "limit_guns": "1018",
+    "limit_equips": "",
+    "ai": 0,
+    "ai_content": "",
+    "reward_gun_pool": "2,9,90,139,17,24,31,92,94,41,51,63,71,107,81,87,111,3,8,12,14,18,27,32,37,58,70,77,86,1018,103,0",
+    "equip_s_probability": "",
+    "member_ids": [
+      32010122
+    ],
+    "spot_id": 12748,
+    "drops_limit": [
+      "gun-10001018"
+    ],
+    "drops_reg_count": [
+      0,
+      17,
+      12,
+      1,
+      1
+    ],
+    "lv_up_array": [],
+    "no_map": false,
+    "is_night": false
+  },
+  "320504": {
+    "id": 320504,
+    "enemy_leader": 10029,
+    "correction_belong": "",
+    "correction_turn": "",
+    "limit_guns": "",
+    "limit_equips": "",
+    "ai": 0,
+    "ai_content": "",
+    "reward_gun_pool": "2,9,90,139,17,24,31,92,94,41,51,63,71,107,81,87,111,0",
+    "equip_s_probability": "",
+    "member_ids": [
+      32010123,
+      32010124,
+      32010125,
+      32010126,
+      32010127,
+      32010128
+    ],
+    "spot_id": 12744,
+    "drops_limit": [],
+    "drops_reg_count": [
+      0,
+      17,
+      0,
+      0,
+      0
+    ],
+    "lv_up_array": [],
+    "no_map": false,
+    "is_night": false
+  },
+  "320505": {
+    "id": 320505,
+    "enemy_leader": 10002,
+    "correction_belong": "",
+    "correction_turn": "",
+    "limit_guns": "1018",
+    "limit_equips": "",
+    "ai": 0,
+    "ai_content": "",
+    "reward_gun_pool": "2,9,90,139,17,24,31,92,94,41,51,63,71,107,81,87,111,3,8,12,14,18,27,32,37,58,70,77,86,85,103,60,1018",
+    "equip_s_probability": "",
+    "member_ids": [
+      32010129,
+      32010130,
+      32010131,
+      32010132,
+      32010133,
+      32010134
+    ],
+    "spot_id": 12738,
+    "drops_limit": [
+      "gun-10001018"
+    ],
+    "drops_reg_count": [
+      0,
+      17,
+      12,
+      3,
+      1
+    ],
+    "lv_up_array": [],
+    "no_map": false,
+    "is_night": false
+  },
+  "320506": {
+    "id": 320506,
+    "enemy_leader": 10003,
+    "correction_belong": "",
+    "correction_turn": "",
+    "limit_guns": "",
+    "limit_equips": "",
+    "ai": 0,
+    "ai_content": "",
+    "reward_gun_pool": "2,9,90,139,17,24,31,92,94,41,51,63,71,107,81,87,111,0",
+    "equip_s_probability": "",
+    "member_ids": [
+      32010135,
+      32010136,
+      32010137,
+      32010138,
+      32010139,
+      32010140
+    ],
+    "spot_id": 12732,
+    "drops_limit": [],
+    "drops_reg_count": [
+      0,
+      17,
+      0,
+      0,
+      0
+    ],
+    "lv_up_array": [],
+    "no_map": false,
+    "is_night": false
+  },
+  "320601": {
+    "id": 320601,
+    "enemy_leader": 10039,
+    "correction_belong": "",
+    "correction_turn": "",
+    "limit_guns": "253",
+    "limit_equips": "",
+    "ai": 0,
+    "ai_content": "",
+    "reward_gun_pool": "5,10,91,141,21,25,33,93,94,40,47,52,68,74,133,82,110,6,11,13,3,22,29,34,44,61,105,80,89,60,69,253,72",
+    "equip_s_probability": "",
+    "member_ids": [
+      32010141,
+      32010142,
+      32010143,
+      32010144
+    ],
+    "spot_id": 12773,
+    "drops_limit": [
+      "gun-10000253"
+    ],
+    "drops_reg_count": [
+      0,
+      17,
+      12,
+      3,
+      1
+    ],
+    "lv_up_array": [],
+    "no_map": false,
+    "is_night": false
+  },
+  "320602": {
+    "id": 320602,
+    "enemy_leader": 10034,
+    "correction_belong": "",
+    "correction_turn": "",
+    "limit_guns": "253",
+    "limit_equips": "",
+    "ai": 0,
+    "ai_content": "",
+    "reward_gun_pool": "5,10,91,141,21,25,33,93,94,40,47,52,68,74,133,82,110,6,11,13,3,22,29,34,44,61,105,80,89,60,253,0",
+    "equip_s_probability": "",
+    "member_ids": [
+      32010145,
+      32010146,
+      32010147,
+      32010148,
+      32010149,
+      32010150
+    ],
+    "spot_id": 12772,
+    "drops_limit": [
+      "gun-10000253"
+    ],
+    "drops_reg_count": [
+      0,
+      17,
+      12,
+      1,
+      1
+    ],
+    "lv_up_array": [],
+    "no_map": false,
+    "is_night": false
+  },
+  "320603": {
+    "id": 320603,
+    "enemy_leader": 10036,
+    "correction_belong": "",
+    "correction_turn": "",
+    "limit_guns": "253",
+    "limit_equips": "",
+    "ai": 102,
+    "ai_content": "3",
+    "reward_gun_pool": "5,10,91,141,21,25,33,93,94,40,47,52,68,74,133,82,110,6,11,13,3,22,29,34,44,61,105,80,89,60,253,0",
+    "equip_s_probability": "",
+    "member_ids": [
+      32010151,
+      32010152,
+      32010153,
+      32010154,
+      32010155,
+      32010156
+    ],
+    "spot_id": 12771,
+    "drops_limit": [
+      "gun-10000253"
+    ],
+    "drops_reg_count": [
+      0,
+      17,
+      12,
+      1,
+      1
+    ],
+    "lv_up_array": [],
+    "no_map": false,
+    "is_night": false
+  },
+  "320604": {
+    "id": 320604,
+    "enemy_leader": 10035,
+    "correction_belong": "",
+    "correction_turn": "",
+    "limit_guns": "",
+    "limit_equips": "",
+    "ai": 0,
+    "ai_content": "",
+    "reward_gun_pool": "5,10,91,141,21,25,33,93,94,40,47,52,68,74,133,82,110,6,11,13,3,22,29,34,44,61,105,80,89,0",
+    "equip_s_probability": "",
+    "member_ids": [
+      32010157,
+      32010158,
+      32010159,
+      32010160
+    ],
+    "spot_id": 12770,
+    "drops_limit": [],
+    "drops_reg_count": [
+      0,
+      17,
+      12,
+      0,
+      0
+    ],
+    "lv_up_array": [],
+    "no_map": false,
+    "is_night": false
+  },
+  "320605": {
+    "id": 320605,
+    "enemy_leader": 10039,
+    "correction_belong": "",
+    "correction_turn": "",
+    "limit_guns": "",
+    "limit_equips": "",
+    "ai": 0,
+    "ai_content": "",
+    "reward_gun_pool": "5,10,91,141,21,25,33,93,94,40,47,52,68,74,133,82,110,0",
+    "equip_s_probability": "",
+    "member_ids": [
+      32010161,
+      32010162,
+      32010163,
+      32010164,
+      32010165
+    ],
+    "spot_id": 12768,
+    "drops_limit": [],
+    "drops_reg_count": [
+      0,
+      17,
+      0,
+      0,
+      0
+    ],
+    "lv_up_array": [],
+    "no_map": false,
+    "is_night": false
+  },
+  "320606": {
+    "id": 320606,
+    "enemy_leader": 10036,
+    "correction_belong": "",
+    "correction_turn": "",
+    "limit_guns": "",
+    "limit_equips": "",
+    "ai": 101,
+    "ai_content": "12759,12762,12763,12758,12759",
+    "reward_gun_pool": "5,10,91,141,21,25,33,93,94,40,47,52,68,74,133,82,110,0",
+    "equip_s_probability": "",
+    "member_ids": [
+      32010166,
+      32010167,
+      32010168,
+      32010169,
+      32010170
+    ],
+    "spot_id": 12759,
+    "drops_limit": [],
+    "drops_reg_count": [
+      0,
+      17,
+      0,
+      0,
+      0
+    ],
+    "lv_up_array": [],
+    "no_map": false,
+    "is_night": false
+  },
+  "320607": {
+    "id": 320607,
+    "enemy_leader": 10034,
+    "correction_belong": "",
+    "correction_turn": "",
+    "limit_guns": "253",
+    "limit_equips": "",
+    "ai": 0,
+    "ai_content": "",
+    "reward_gun_pool": "5,10,91,141,21,25,33,93,94,40,47,52,68,74,133,82,110,6,11,13,3,22,29,34,44,61,105,80,89,60,253,0",
+    "equip_s_probability": "",
+    "member_ids": [
+      32010171,
+      32010172,
+      32010173,
+      32010174,
+      32010175
+    ],
+    "spot_id": 12764,
+    "drops_limit": [
+      "gun-10000253"
+    ],
+    "drops_reg_count": [
+      0,
+      17,
+      12,
+      1,
+      1
+    ],
+    "lv_up_array": [],
+    "no_map": false,
+    "is_night": false
+  },
+  "320608": {
+    "id": 320608,
+    "enemy_leader": 10045,
+    "correction_belong": "",
+    "correction_turn": "",
+    "limit_guns": "",
+    "limit_equips": "",
+    "ai": 0,
+    "ai_content": "",
+    "reward_gun_pool": "5,10,91,141,21,25,33,93,94,40,47,52,68,74,133,82,110,0",
+    "equip_s_probability": "",
+    "member_ids": [
+      32010176
+    ],
+    "spot_id": 0,
+    "drops_limit": [],
+    "drops_reg_count": [
+      0,
+      17,
+      0,
+      0,
+      0
+    ],
+    "lv_up_array": [],
+    "no_map": false,
+    "is_night": false
+  },
+  "320609": {
+    "id": 320609,
+    "enemy_leader": 10034,
+    "correction_belong": "",
+    "correction_turn": "",
+    "limit_guns": "",
+    "limit_equips": "",
+    "ai": 0,
+    "ai_content": "",
+    "reward_gun_pool": "5,10,91,141,21,25,33,93,94,40,47,52,68,74,133,82,110,0",
+    "equip_s_probability": "",
+    "member_ids": [
+      32010177,
+      32010178,
+      32010179,
+      32010180,
+      32010181
+    ],
+    "spot_id": 12776,
+    "drops_limit": [],
+    "drops_reg_count": [
+      0,
+      17,
+      0,
+      0,
+      0
+    ],
+    "lv_up_array": [],
+    "no_map": false,
+    "is_night": false
+  },
+  "320701": {
+    "id": 320701,
+    "enemy_leader": 900025,
+    "correction_belong": "",
+    "correction_turn": "",
+    "limit_guns": "4",
+    "limit_equips": "",
+    "ai": 0,
+    "ai_content": "",
+    "reward_gun_pool": "2,9,90,139,17,24,31,92,94,41,51,63,71,107,81,87,111,3,8,12,14,18,27,32,37,58,70,77,86,1,23,42,4",
+    "equip_s_probability": "",
+    "member_ids": [
+      32010182,
+      32010183,
+      32010184
+    ],
+    "spot_id": 12801,
+    "drops_limit": [
+      "gun-10000004"
+    ],
+    "drops_reg_count": [
+      0,
+      17,
+      12,
+      3,
+      1
+    ],
+    "lv_up_array": [],
+    "no_map": false,
+    "is_night": false
+  },
+  "320702": {
+    "id": 320702,
+    "enemy_leader": 900025,
+    "correction_belong": "",
+    "correction_turn": "",
+    "limit_guns": "4",
+    "limit_equips": "",
+    "ai": 0,
+    "ai_content": "",
+    "reward_gun_pool": "2,9,90,139,17,24,31,92,94,41,51,63,71,107,81,87,111,3,8,12,14,18,27,32,37,58,70,77,86,1,4,0",
+    "equip_s_probability": "",
+    "member_ids": [
+      32010185
+    ],
+    "spot_id": 12798,
+    "drops_limit": [
+      "gun-10000004"
+    ],
+    "drops_reg_count": [
+      0,
+      17,
+      12,
+      1,
+      1
+    ],
+    "lv_up_array": [],
+    "no_map": false,
+    "is_night": false
+  },
+  "320703": {
+    "id": 320703,
+    "enemy_leader": 900025,
+    "correction_belong": "",
+    "correction_turn": "",
+    "limit_guns": "",
+    "limit_equips": "",
+    "ai": 101,
+    "ai_content": "12794,12795,12796,12793,12794",
+    "reward_gun_pool": "2,9,90,139,17,24,31,92,94,41,51,63,71,107,81,87,111,3,8,12,14,18,27,32,37,58,70,77,86,0",
+    "equip_s_probability": "",
+    "member_ids": [
+      32010186
+    ],
+    "spot_id": 0,
+    "drops_limit": [],
+    "drops_reg_count": [
+      0,
+      17,
+      12,
+      0,
+      0
+    ],
+    "lv_up_array": [],
+    "no_map": false,
+    "is_night": false
+  },
+  "320704": {
+    "id": 320704,
+    "enemy_leader": 10005,
+    "correction_belong": "",
+    "correction_turn": "",
+    "limit_guns": "",
+    "limit_equips": "",
+    "ai": 101,
+    "ai_content": "12794,12795,12796,12793,12794",
+    "reward_gun_pool": "2,9,90,139,17,24,31,92,94,41,51,63,71,107,81,87,111,0",
+    "equip_s_probability": "",
+    "member_ids": [
+      32010187,
+      32010188,
+      32010189,
+      32010190,
+      32010191
+    ],
+    "spot_id": 0,
+    "drops_limit": [],
+    "drops_reg_count": [
+      0,
+      17,
+      0,
+      0,
+      0
+    ],
+    "lv_up_array": [],
+    "no_map": false,
+    "is_night": false
+  },
+  "320705": {
+    "id": 320705,
+    "enemy_leader": 10006,
+    "correction_belong": "",
+    "correction_turn": "",
+    "limit_guns": "",
+    "limit_equips": "",
+    "ai": 0,
+    "ai_content": "",
+    "reward_gun_pool": "2,9,90,139,17,24,31,92,94,41,51,63,71,107,81,87,111,0",
+    "equip_s_probability": "",
+    "member_ids": [
+      32010192,
+      32010193,
+      32010194,
+      32010195,
+      32010196
+    ],
+    "spot_id": 12799,
+    "drops_limit": [],
+    "drops_reg_count": [
+      0,
+      17,
+      0,
+      0,
+      0
+    ],
+    "lv_up_array": [],
+    "no_map": false,
+    "is_night": false
+  },
+  "320706": {
+    "id": 320706,
+    "enemy_leader": 10004,
+    "correction_belong": "",
+    "correction_turn": "",
+    "limit_guns": "4",
+    "limit_equips": "",
+    "ai": 0,
+    "ai_content": "",
+    "reward_gun_pool": "2,9,90,139,17,24,31,92,94,41,51,63,71,107,81,87,111,3,8,12,14,18,27,32,37,58,70,77,86,1,4,0",
+    "equip_s_probability": "",
+    "member_ids": [
+      32010197,
+      32010198,
+      32010199,
+      32010200,
+      32010201,
+      32010202
+    ],
+    "spot_id": 12789,
+    "drops_limit": [
+      "gun-10000004"
+    ],
+    "drops_reg_count": [
+      0,
+      17,
+      12,
+      1,
+      1
+    ],
+    "lv_up_array": [],
+    "no_map": false,
+    "is_night": false
+  },
+  "320707": {
+    "id": 320707,
+    "enemy_leader": 10002,
+    "correction_belong": "",
+    "correction_turn": "",
+    "limit_guns": "",
+    "limit_equips": "",
+    "ai": 0,
+    "ai_content": "",
+    "reward_gun_pool": "2,9,90,139,17,24,31,92,94,41,51,63,71,107,81,87,111,3,8,12,14,18,27,32,37,58,70,77,86,0",
+    "equip_s_probability": "",
+    "member_ids": [
+      32010203,
+      32010204,
+      32010205
+    ],
+    "spot_id": 12785,
+    "drops_limit": [],
+    "drops_reg_count": [
+      0,
+      17,
+      12,
+      0,
+      0
+    ],
+    "lv_up_array": [],
+    "no_map": false,
+    "is_night": false
+  },
+  "320708": {
+    "id": 320708,
+    "enemy_leader": 10003,
+    "correction_belong": "",
+    "correction_turn": "",
+    "limit_guns": "",
+    "limit_equips": "",
+    "ai": 0,
+    "ai_content": "",
+    "reward_gun_pool": "2,9,90,139,17,24,31,92,94,41,51,63,71,107,81,87,111,0",
+    "equip_s_probability": "",
+    "member_ids": [
+      32010206,
+      32010207,
+      32010208,
+      32010209,
+      32010210,
+      32010211,
+      32010212,
+      32010213
+    ],
+    "spot_id": 12778,
+    "drops_limit": [],
+    "drops_reg_count": [
+      0,
+      17,
+      0,
+      0,
+      0
+    ],
+    "lv_up_array": [],
+    "no_map": false,
+    "is_night": false
+  },
+  "320801": {
+    "id": 320801,
+    "enemy_leader": 900156,
+    "correction_belong": "",
+    "correction_turn": "",
+    "limit_guns": "1020",
+    "limit_equips": "",
+    "ai": 102,
+    "ai_content": "1",
+    "reward_gun_pool": "5,10,91,141,21,25,33,93,94,40,47,52,68,74,133,82,110,6,11,13,3,22,29,34,44,61,105,80,89,168,118,36,1020",
+    "equip_s_probability": "",
+    "member_ids": [
+      32010214
+    ],
+    "spot_id": 12821,
+    "drops_limit": [
+      "gun-10001020"
+    ],
+    "drops_reg_count": [
+      0,
+      17,
+      12,
+      3,
+      1
+    ],
+    "lv_up_array": [],
+    "no_map": false,
+    "is_night": false
+  },
+  "320802": {
+    "id": 320802,
+    "enemy_leader": 10036,
+    "correction_belong": "",
+    "correction_turn": "",
+    "limit_guns": "",
+    "limit_equips": "",
+    "ai": 102,
+    "ai_content": "3",
+    "reward_gun_pool": "5,10,91,141,21,25,33,93,94,40,47,52,68,74,133,82,110,0",
+    "equip_s_probability": "",
+    "member_ids": [
+      32010215,
+      32010216,
+      32010217,
+      32010218,
+      32010219
+    ],
+    "spot_id": 12813,
+    "drops_limit": [],
+    "drops_reg_count": [
+      0,
+      17,
+      0,
+      0,
+      0
+    ],
+    "lv_up_array": [],
+    "no_map": false,
+    "is_night": false
+  },
+  "320803": {
+    "id": 320803,
+    "enemy_leader": 10036,
+    "correction_belong": "",
+    "correction_turn": "",
+    "limit_guns": "1020",
+    "limit_equips": "",
+    "ai": 101,
+    "ai_content": "12828,12827,12830,12829,12828",
+    "reward_gun_pool": "5,10,91,141,21,25,33,93,94,40,47,52,68,74,133,82,110,6,11,13,3,22,29,34,44,61,105,80,89,168,1020,0",
+    "equip_s_probability": "",
+    "member_ids": [
+      32010220,
+      32010221,
+      32010222,
+      32010223,
+      32010224
+    ],
+    "spot_id": 0,
+    "drops_limit": [
+      "gun-10001020"
+    ],
+    "drops_reg_count": [
+      0,
+      17,
+      12,
+      1,
+      1
+    ],
+    "lv_up_array": [],
+    "no_map": false,
+    "is_night": false
+  },
+  "320804": {
+    "id": 320804,
+    "enemy_leader": 10035,
+    "correction_belong": "",
+    "correction_turn": "",
+    "limit_guns": "",
+    "limit_equips": "",
+    "ai": 101,
+    "ai_content": "12828,12827,12830,12829,12828",
+    "reward_gun_pool": "5,10,91,141,21,25,33,93,94,40,47,52,68,74,133,82,110,0",
+    "equip_s_probability": "",
+    "member_ids": [
+      32010225,
+      32010226,
+      32010227,
+      32010228,
+      32010229
+    ],
+    "spot_id": 12830,
+    "drops_limit": [],
+    "drops_reg_count": [
+      0,
+      17,
+      0,
+      0,
+      0
+    ],
+    "lv_up_array": [],
+    "no_map": false,
+    "is_night": false
+  },
+  "320805": {
+    "id": 320805,
+    "enemy_leader": 10045,
+    "correction_belong": "",
+    "correction_turn": "",
+    "limit_guns": "",
+    "limit_equips": "",
+    "ai": 0,
+    "ai_content": "",
+    "reward_gun_pool": "5,10,91,141,21,25,33,93,94,40,47,52,68,74,133,82,110,6,11,13,3,22,29,34,44,61,105,80,89,0",
+    "equip_s_probability": "",
+    "member_ids": [
+      32010230
+    ],
+    "spot_id": 12833,
+    "drops_limit": [],
+    "drops_reg_count": [
+      0,
+      17,
+      12,
+      0,
+      0
+    ],
+    "lv_up_array": [],
+    "no_map": false,
+    "is_night": false
+  },
+  "320806": {
+    "id": 320806,
+    "enemy_leader": 10034,
+    "correction_belong": "",
+    "correction_turn": "",
+    "limit_guns": "",
+    "limit_equips": "",
+    "ai": 0,
+    "ai_content": "",
+    "reward_gun_pool": "5,10,91,141,21,25,33,93,94,40,47,52,68,74,133,82,110,0",
+    "equip_s_probability": "",
+    "member_ids": [
+      32010231,
+      32010232,
+      32010233,
+      32010234,
+      32010235
+    ],
+    "spot_id": 12831,
+    "drops_limit": [],
+    "drops_reg_count": [
+      0,
+      17,
+      0,
+      0,
+      0
+    ],
+    "lv_up_array": [],
+    "no_map": false,
+    "is_night": false
+  },
+  "320807": {
+    "id": 320807,
+    "enemy_leader": 10035,
+    "correction_belong": "",
+    "correction_turn": "",
+    "limit_guns": "1020",
+    "limit_equips": "",
+    "ai": 0,
+    "ai_content": "",
+    "reward_gun_pool": "5,10,91,141,21,25,33,93,94,40,47,52,68,74,133,82,110,6,11,13,3,22,29,34,44,61,105,80,89,168,1020,0",
+    "equip_s_probability": "",
+    "member_ids": [
+      32010236,
+      32010237,
+      32010238,
+      32010239
+    ],
+    "spot_id": 12838,
+    "drops_limit": [
+      "gun-10001020"
+    ],
+    "drops_reg_count": [
+      0,
+      17,
+      12,
+      1,
+      1
+    ],
+    "lv_up_array": [],
+    "no_map": false,
+    "is_night": false
+  },
+  "320808": {
+    "id": 320808,
+    "enemy_leader": 10034,
+    "correction_belong": "",
+    "correction_turn": "",
+    "limit_guns": "",
+    "limit_equips": "",
+    "ai": 0,
+    "ai_content": "",
+    "reward_gun_pool": "",
+    "equip_s_probability": "",
+    "member_ids": [
+      32010240,
+      32010241,
+      32010242,
+      32010243
+    ],
+    "spot_id": 0,
+    "drops_limit": [],
+    "drops_reg_count": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "lv_up_array": [],
+    "no_map": false,
+    "is_night": false
+  },
+  "320901": {
+    "id": 320901,
+    "enemy_leader": 900159,
+    "correction_belong": "",
+    "correction_turn": "",
+    "limit_guns": "",
+    "limit_equips": "",
+    "ai": 102,
+    "ai_content": "1",
+    "reward_gun_pool": "",
+    "equip_s_probability": "1,5,9,13,17,29,37,55,63,69,73,77,87,2,6,10,14,18,30,38,56,42,64,70,74,78,88,3,7,11,15,19,31,39,57,43,65,67,71,75,79,89",
+    "member_ids": [
+      32010244,
+      32010245,
+      32010246,
+      32010247,
+      32010248,
+      32010249
+    ],
+    "spot_id": 12857,
+    "drops_limit": [],
+    "drops_reg_count": [
+      0,
+      13,
+      14,
+      15,
+      0
+    ],
+    "lv_up_array": [],
+    "no_map": false,
+    "is_night": false
+  },
+  "320902": {
+    "id": 320902,
+    "enemy_leader": 11008,
+    "correction_belong": "",
+    "correction_turn": "",
+    "limit_guns": "",
+    "limit_equips": "",
+    "ai": 0,
+    "ai_content": "",
+    "reward_gun_pool": "",
+    "equip_s_probability": "1,5,9,13,17,29,37,55,63,69,73,77,87,2,6,10,14,18,30,38,56,42,64,70,74,78,88",
+    "member_ids": [
+      32010250,
+      32010251,
+      32010252,
+      32010253,
+      32010254
+    ],
+    "spot_id": 12856,
+    "drops_limit": [],
+    "drops_reg_count": [
+      0,
+      13,
+      14,
+      0,
+      0
+    ],
+    "lv_up_array": [],
+    "no_map": false,
+    "is_night": false
+  },
+  "320903": {
+    "id": 320903,
+    "enemy_leader": 900032,
+    "correction_belong": "",
+    "correction_turn": "",
+    "limit_guns": "",
+    "limit_equips": "",
+    "ai": 102,
+    "ai_content": "2",
+    "reward_gun_pool": "",
+    "equip_s_probability": "1,5,9,13,17,29,37,55,63,69,73,77,87,2,6,10,14,18,30,38,56,42,64,70,74,78,88",
+    "member_ids": [
+      32010255,
+      32010256,
+      32010257,
+      32010258
+    ],
+    "spot_id": 12851,
+    "drops_limit": [],
+    "drops_reg_count": [
+      0,
+      13,
+      14,
+      0,
+      0
+    ],
+    "lv_up_array": [],
+    "no_map": false,
+    "is_night": false
+  },
+  "320904": {
+    "id": 320904,
+    "enemy_leader": 900032,
+    "correction_belong": "",
+    "correction_turn": "",
+    "limit_guns": "",
+    "limit_equips": "",
+    "ai": 101,
+    "ai_content": "12860,12861,12862,12860",
+    "reward_gun_pool": "",
+    "equip_s_probability": "1,5,9,13,17,29,37,55,63,69,73,77,87,2,6,10,14,18,30,38,56,42,64,70,74,78,88",
+    "member_ids": [
+      32010259,
+      32010260,
+      32010261,
+      32010262
+    ],
+    "spot_id": 0,
+    "drops_limit": [],
+    "drops_reg_count": [
+      0,
+      13,
+      14,
+      0,
+      0
+    ],
+    "lv_up_array": [],
+    "no_map": false,
+    "is_night": false
+  },
+  "320905": {
+    "id": 320905,
+    "enemy_leader": 11005,
+    "correction_belong": "",
+    "correction_turn": "",
+    "limit_guns": "",
+    "limit_equips": "",
+    "ai": 101,
+    "ai_content": "12860,12861,12862,12860",
+    "reward_gun_pool": "",
+    "equip_s_probability": "1,5,9,13,17,29,37,55,63,69,73,77,87,2,6,10,14,18,30,38,56,42,64,70,74,78,88",
+    "member_ids": [
+      32010263,
+      32010264,
+      32010265,
+      32010266,
+      32010267,
+      32010268
+    ],
+    "spot_id": 0,
+    "drops_limit": [],
+    "drops_reg_count": [
+      0,
+      13,
+      14,
+      0,
+      0
+    ],
+    "lv_up_array": [],
+    "no_map": false,
+    "is_night": false
+  },
+  "320906": {
+    "id": 320906,
+    "enemy_leader": 11003,
+    "correction_belong": "",
+    "correction_turn": "",
+    "limit_guns": "",
+    "limit_equips": "",
+    "ai": 0,
+    "ai_content": "",
+    "reward_gun_pool": "",
+    "equip_s_probability": "1,5,9,13,17,29,37,55,63,69,73,77,87,2,6,10,14,18,30,38,56,42,64,70,74,78,88",
+    "member_ids": [
+      32010269,
+      32010270,
+      32010271,
+      32010272,
+      32010273,
+      32010274,
+      32010275,
+      32010276,
+      32010277,
+      32010278,
+      32010279,
+      32010280,
+      32010281
+    ],
+    "spot_id": 12847,
+    "drops_limit": [],
+    "drops_reg_count": [
+      0,
+      13,
+      14,
+      0,
+      0
+    ],
+    "lv_up_array": [],
+    "no_map": false,
+    "is_night": false
+  },
+  "320907": {
+    "id": 320907,
+    "enemy_leader": 11007,
+    "correction_belong": "",
+    "correction_turn": "",
+    "limit_guns": "",
+    "limit_equips": "",
+    "ai": 0,
+    "ai_content": "",
+    "reward_gun_pool": "",
+    "equip_s_probability": "1,5,9,13,17,29,37,55,63,69,73,77,87,2,6,10,14,18,30,38,56,42,64,70,74,78,88",
+    "member_ids": [
+      32010282,
+      32010283,
+      32010284,
+      32010285,
+      32010286,
+      32010287
+    ],
+    "spot_id": 12858,
+    "drops_limit": [],
+    "drops_reg_count": [
+      0,
+      13,
+      14,
+      0,
+      0
+    ],
+    "lv_up_array": [],
+    "no_map": false,
+    "is_night": false
+  },
+  "320908": {
+    "id": 320908,
+    "enemy_leader": 11005,
+    "correction_belong": "",
+    "correction_turn": "",
+    "limit_guns": "",
+    "limit_equips": "",
+    "ai": 0,
+    "ai_content": "",
+    "reward_gun_pool": "",
+    "equip_s_probability": "1,5,9,13,17,29,37,55,63,69,73,77,87,2,6,10,14,18,30,38,56,42,64,70,74,78,88",
+    "member_ids": [
+      32010288,
+      32010289,
+      32010290,
+      32010291,
+      32010292,
+      32010293
+    ],
+    "spot_id": 12855,
+    "drops_limit": [],
+    "drops_reg_count": [
+      0,
+      13,
+      14,
+      0,
+      0
+    ],
+    "lv_up_array": [],
+    "no_map": false,
+    "is_night": false
+  },
+  "320909": {
+    "id": 320909,
+    "enemy_leader": 11005,
+    "correction_belong": "",
+    "correction_turn": "",
+    "limit_guns": "",
+    "limit_equips": "",
+    "ai": 0,
+    "ai_content": "",
+    "reward_gun_pool": "",
+    "equip_s_probability": "",
+    "member_ids": [
+      32010294,
+      32010295,
+      32010296,
+      32010297,
+      32010298,
+      32010299,
+      32010300
+    ],
+    "spot_id": 0,
+    "drops_limit": [],
+    "drops_reg_count": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "lv_up_array": [],
+    "no_map": false,
+    "is_night": false
+  },
+  "321001": {
+    "id": 321001,
+    "enemy_leader": 11012,
+    "correction_belong": "",
+    "correction_turn": "",
+    "limit_guns": "",
+    "limit_equips": "",
+    "ai": 0,
+    "ai_content": "",
+    "reward_gun_pool": "",
+    "equip_s_probability": "1,5,9,13,17,29,37,55,63,69,73,77,87,2,6,10,14,18,30,38,56,42,64,70,74,78,88,3,7,11,15,19,31,39,57,43,65,67,71,75,79,89",
+    "member_ids": [
+      32010301,
+      32010302,
+      32010303,
+      32010304,
+      32010305,
+      32010306,
+      32010307
+    ],
+    "spot_id": 12881,
+    "drops_limit": [],
+    "drops_reg_count": [
+      0,
+      13,
+      14,
+      15,
+      0
+    ],
+    "lv_up_array": [],
+    "no_map": false,
+    "is_night": false
+  },
+  "321002": {
+    "id": 321002,
+    "enemy_leader": 900032,
+    "correction_belong": "",
+    "correction_turn": "",
+    "limit_guns": "",
+    "limit_equips": "",
+    "ai": 0,
+    "ai_content": "",
+    "reward_gun_pool": "",
+    "equip_s_probability": "1,5,9,13,17,29,37,55,63,69,73,77,87,2,6,10,14,18,30,38,56,42,64,70,74,78,88",
+    "member_ids": [
+      32010308,
+      32010309,
+      32010310,
+      32010311
+    ],
+    "spot_id": 12880,
+    "drops_limit": [],
+    "drops_reg_count": [
+      0,
+      13,
+      14,
+      0,
+      0
+    ],
+    "lv_up_array": [],
+    "no_map": false,
+    "is_night": false
+  },
+  "321003": {
+    "id": 321003,
+    "enemy_leader": 11006,
+    "correction_belong": "",
+    "correction_turn": "",
+    "limit_guns": "",
+    "limit_equips": "",
+    "ai": 0,
+    "ai_content": "",
+    "reward_gun_pool": "",
+    "equip_s_probability": "1,5,9,13,17,29,37,55,63,69,73,77,87,2,6,10,14,18,30,38,56,42,64,70,74,78,88",
+    "member_ids": [
+      32010312,
+      32010313,
+      32010314,
+      32010315,
+      32010316,
+      32010317
+    ],
+    "spot_id": 12875,
+    "drops_limit": [],
+    "drops_reg_count": [
+      0,
+      13,
+      14,
+      0,
+      0
+    ],
+    "lv_up_array": [],
+    "no_map": false,
+    "is_night": false
+  },
+  "321004": {
+    "id": 321004,
+    "enemy_leader": 11008,
+    "correction_belong": "",
+    "correction_turn": "",
+    "limit_guns": "",
+    "limit_equips": "",
+    "ai": 101,
+    "ai_content": "12869,12870,12873,12872,12866",
+    "reward_gun_pool": "",
+    "equip_s_probability": "1,5,9,13,17,29,37,55,63,69,73,77,87,2,6,10,14,18,30,38,56,42,64,70,74,78,88",
+    "member_ids": [
+      32010318,
+      32010319,
+      32010320,
+      32010321,
+      32010322
+    ],
+    "spot_id": 0,
+    "drops_limit": [],
+    "drops_reg_count": [
+      0,
+      13,
+      14,
+      0,
+      0
+    ],
+    "lv_up_array": [],
+    "no_map": false,
+    "is_night": false
+  },
+  "321005": {
+    "id": 321005,
+    "enemy_leader": 900032,
+    "correction_belong": "",
+    "correction_turn": "",
+    "limit_guns": "",
+    "limit_equips": "",
+    "ai": 101,
+    "ai_content": "12871,12865,12866,12872,12871",
+    "reward_gun_pool": "",
+    "equip_s_probability": "1,5,9,13,17,29,37,55,63,69,73,77,87,2,6,10,14,18,30,38,56,42,64,70,74,78,88",
+    "member_ids": [
+      32010323,
+      32010324,
+      32010325,
+      32010326,
+      32010327,
+      32010328,
+      32010329
+    ],
+    "spot_id": 0,
+    "drops_limit": [],
+    "drops_reg_count": [
+      0,
+      13,
+      14,
+      0,
+      0
+    ],
+    "lv_up_array": [],
+    "no_map": false,
+    "is_night": false
+  },
+  "321006": {
+    "id": 321006,
+    "enemy_leader": 900032,
+    "correction_belong": "",
+    "correction_turn": "",
+    "limit_guns": "",
+    "limit_equips": "",
+    "ai": 101,
+    "ai_content": "12868,12867,12870,12869,12868",
+    "reward_gun_pool": "",
+    "equip_s_probability": "1,5,9,13,17,29,37,55,63,69,73,77,87,2,6,10,14,18,30,38,56,42,64,70,74,78,88",
+    "member_ids": [
+      32010330,
+      32010331,
+      32010332,
+      32010333,
+      32010334,
+      32010335,
+      32010336
+    ],
+    "spot_id": 0,
+    "drops_limit": [],
+    "drops_reg_count": [
+      0,
+      13,
+      14,
+      0,
+      0
+    ],
+    "lv_up_array": [],
+    "no_map": false,
+    "is_night": false
+  },
+  "321007": {
+    "id": 321007,
+    "enemy_leader": 11012,
+    "correction_belong": "",
+    "correction_turn": "",
+    "limit_guns": "",
+    "limit_equips": "",
+    "ai": 102,
+    "ai_content": "3",
+    "reward_gun_pool": "",
+    "equip_s_probability": "1,5,9,13,17,29,37,55,63,69,73,77,87,2,6,10,14,18,30,38,56,42,64,70,74,78,88,3,7,11,15,19,31,39,57,43,65,67,71,75,79,89",
+    "member_ids": [
+      32010337,
+      32010338,
+      32010339,
+      32010340,
+      32010341,
+      32010342,
+      32010343
+    ],
+    "spot_id": 0,
+    "drops_limit": [],
+    "drops_reg_count": [
+      0,
+      13,
+      14,
+      15,
+      0
+    ],
+    "lv_up_array": [],
+    "no_map": false,
+    "is_night": false
+  },
+  "321008": {
+    "id": 321008,
+    "enemy_leader": 11006,
+    "correction_belong": "",
+    "correction_turn": "",
+    "limit_guns": "",
+    "limit_equips": "",
+    "ai": 102,
+    "ai_content": "1",
+    "reward_gun_pool": "",
+    "equip_s_probability": "1,5,9,13,17,29,37,55,63,69,73,77,87,2,6,10,14,18,30,38,56,42,64,70,74,78,88",
+    "member_ids": [
+      32010344,
+      32010345,
+      32010346,
+      32010347,
+      32010348,
+      32010349
+    ],
+    "spot_id": 0,
+    "drops_limit": [],
+    "drops_reg_count": [
+      0,
+      13,
+      14,
+      0,
+      0
+    ],
+    "lv_up_array": [],
+    "no_map": false,
+    "is_night": false
+  },
+  "321101": {
+    "id": 321101,
+    "enemy_leader": 10041,
+    "correction_belong": "",
+    "correction_turn": "",
+    "limit_guns": "202",
+    "limit_equips": "",
+    "ai": 0,
+    "ai_content": "",
+    "reward_gun_pool": "2,9,90,139,17,24,31,92,94,41,51,63,71,107,81,87,111,3,8,12,14,18,27,32,37,58,70,77,86,202,150,66",
+    "equip_s_probability": "",
+    "member_ids": [
+      32010350,
+      32010351,
+      32010352,
+      32010353,
+      32010354,
+      32010355
+    ],
+    "spot_id": 12901,
+    "drops_limit": [
+      "gun-10000202"
+    ],
+    "drops_reg_count": [
+      0,
+      17,
+      12,
+      3,
+      0
+    ],
+    "lv_up_array": [],
+    "no_map": false,
+    "is_night": false
+  },
+  "321102": {
+    "id": 321102,
+    "enemy_leader": 10041,
+    "correction_belong": "",
+    "correction_turn": "",
+    "limit_guns": "",
+    "limit_equips": "",
+    "ai": 102,
+    "ai_content": "5",
+    "reward_gun_pool": "2,9,90,139,17,24,31,92,94,41,51,63,71,107,81,87,111,0",
+    "equip_s_probability": "",
+    "member_ids": [
+      32010356,
+      32010357,
+      32010358,
+      32010359,
+      32010360
+    ],
+    "spot_id": 12898,
+    "drops_limit": [],
+    "drops_reg_count": [
+      0,
+      17,
+      0,
+      0,
+      0
+    ],
+    "lv_up_array": [],
+    "no_map": false,
+    "is_night": false
+  },
+  "321103": {
+    "id": 321103,
+    "enemy_leader": 10040,
+    "correction_belong": "",
+    "correction_turn": "",
+    "limit_guns": "",
+    "limit_equips": "",
+    "ai": 0,
+    "ai_content": "",
+    "reward_gun_pool": "2,9,90,139,17,24,31,92,94,41,51,63,71,107,81,87,111,3,8,12,14,18,27,32,37,58,70,77,86,0",
+    "equip_s_probability": "",
+    "member_ids": [
+      32010361,
+      32010362,
+      32010363,
+      32010364,
+      32010365,
+      32010366
+    ],
+    "spot_id": 12904,
+    "drops_limit": [],
+    "drops_reg_count": [
+      0,
+      17,
+      12,
+      0,
+      0
+    ],
+    "lv_up_array": [],
+    "no_map": false,
+    "is_night": false
+  },
+  "321104": {
+    "id": 321104,
+    "enemy_leader": 10043,
+    "correction_belong": "",
+    "correction_turn": "",
+    "limit_guns": "202",
+    "limit_equips": "",
+    "ai": 103,
+    "ai_content": "",
+    "reward_gun_pool": "2,9,90,139,17,24,31,92,94,41,51,63,71,107,81,87,111,3,8,12,14,18,27,32,37,58,70,77,86,202,150,0",
+    "equip_s_probability": "",
+    "member_ids": [
+      32010367,
+      32010368,
+      32010369,
+      32010370,
+      32010371,
+      32010372,
+      32010373
+    ],
+    "spot_id": 12905,
+    "drops_limit": [
+      "gun-10000202"
+    ],
+    "drops_reg_count": [
+      0,
+      17,
+      12,
+      2,
+      0
+    ],
+    "lv_up_array": [],
+    "no_map": false,
+    "is_night": false
+  },
+  "321105": {
+    "id": 321105,
+    "enemy_leader": 10040,
+    "correction_belong": "",
+    "correction_turn": "",
+    "limit_guns": "",
+    "limit_equips": "",
+    "ai": 103,
+    "ai_content": "",
+    "reward_gun_pool": "2,9,90,139,17,24,31,92,94,41,51,63,71,107,81,87,111,0",
+    "equip_s_probability": "",
+    "member_ids": [
+      32010374,
+      32010375,
+      32010376,
+      32010377,
+      32010378
+    ],
+    "spot_id": 12889,
+    "drops_limit": [],
+    "drops_reg_count": [
+      0,
+      17,
+      0,
+      0,
+      0
+    ],
+    "lv_up_array": [],
+    "no_map": false,
+    "is_night": false
+  },
+  "321106": {
+    "id": 321106,
+    "enemy_leader": 10043,
+    "correction_belong": "",
+    "correction_turn": "",
+    "limit_guns": "",
+    "limit_equips": "",
+    "ai": 103,
+    "ai_content": "",
+    "reward_gun_pool": "2,9,90,139,17,24,31,92,94,41,51,63,71,107,81,87,111,0",
+    "equip_s_probability": "",
+    "member_ids": [
+      32010379,
+      32010380,
+      32010381,
+      32010382,
+      32010383,
+      32010384
+    ],
+    "spot_id": 12886,
+    "drops_limit": [],
+    "drops_reg_count": [
+      0,
+      17,
+      0,
+      0,
+      0
+    ],
+    "lv_up_array": [],
+    "no_map": false,
+    "is_night": false
+  },
+  "321107": {
+    "id": 321107,
+    "enemy_leader": 10040,
+    "correction_belong": "",
+    "correction_turn": "",
+    "limit_guns": "",
+    "limit_equips": "",
+    "ai": 103,
+    "ai_content": "",
+    "reward_gun_pool": "",
+    "equip_s_probability": "",
+    "member_ids": [
+      32010385,
+      32010386,
+      32010387,
+      32010388,
+      32010389,
+      32010390
+    ],
+    "spot_id": 0,
+    "drops_limit": [],
+    "drops_reg_count": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "lv_up_array": [],
+    "no_map": false,
+    "is_night": false
+  },
+  "321108": {
+    "id": 321108,
+    "enemy_leader": 10041,
+    "correction_belong": "",
+    "correction_turn": "",
+    "limit_guns": "",
+    "limit_equips": "",
+    "ai": 103,
+    "ai_content": "",
+    "reward_gun_pool": "",
+    "equip_s_probability": "",
+    "member_ids": [
+      32010391,
+      32010392,
+      32010393,
+      32010394
+    ],
+    "spot_id": 0,
+    "drops_limit": [],
+    "drops_reg_count": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "lv_up_array": [],
+    "no_map": false,
+    "is_night": false
+  },
+  "321201": {
+    "id": 321201,
+    "enemy_leader": 10043,
+    "correction_belong": "",
+    "correction_turn": "",
+    "limit_guns": "226",
+    "limit_equips": "",
+    "ai": 0,
+    "ai_content": "",
+    "reward_gun_pool": "5,10,91,141,21,25,33,93,94,40,47,52,68,74,133,82,110,6,11,13,3,22,29,34,44,61,105,80,89,100,39,226,75",
+    "equip_s_probability": "",
+    "member_ids": [
+      32010395,
+      32010396,
+      32010397,
+      32010398,
+      32010399,
+      32010400,
+      32010401
+    ],
+    "spot_id": 12939,
+    "drops_limit": [
+      "gun-10000226"
+    ],
+    "drops_reg_count": [
+      0,
+      17,
+      12,
+      4,
+      0
+    ],
+    "lv_up_array": [],
+    "no_map": false,
+    "is_night": false
+  },
+  "321202": {
+    "id": 321202,
+    "enemy_leader": 10043,
+    "correction_belong": "",
+    "correction_turn": "",
+    "limit_guns": "226",
+    "limit_equips": "",
+    "ai": 0,
+    "ai_content": "",
+    "reward_gun_pool": "5,10,91,141,21,25,33,93,94,40,47,52,68,74,133,82,110,6,11,13,3,22,29,34,44,61,105,80,89,100,226,0",
+    "equip_s_probability": "",
+    "member_ids": [
+      32010402,
+      32010403,
+      32010404,
+      32010405,
+      32010406,
+      32010407,
+      32010408,
+      32010409,
+      32010410
+    ],
+    "spot_id": 12916,
+    "drops_limit": [
+      "gun-10000226"
+    ],
+    "drops_reg_count": [
+      0,
+      17,
+      12,
+      2,
+      0
+    ],
+    "lv_up_array": [],
+    "no_map": false,
+    "is_night": false
+  },
+  "321203": {
+    "id": 321203,
+    "enemy_leader": 10040,
+    "correction_belong": "",
+    "correction_turn": "",
+    "limit_guns": "",
+    "limit_equips": "",
+    "ai": 0,
+    "ai_content": "",
+    "reward_gun_pool": "5,10,91,141,21,25,33,93,94,40,47,52,68,74,133,82,110,6,11,13,3,22,29,34,44,61,105,80,89,0",
+    "equip_s_probability": "",
+    "member_ids": [
+      32010411,
+      32010412,
+      32010413,
+      32010414,
+      32010415,
+      32010416,
+      32010417
+    ],
+    "spot_id": 12934,
+    "drops_limit": [],
+    "drops_reg_count": [
+      0,
+      17,
+      12,
+      0,
+      0
+    ],
+    "lv_up_array": [],
+    "no_map": false,
+    "is_night": false
+  },
+  "321204": {
+    "id": 321204,
+    "enemy_leader": 10041,
+    "correction_belong": "",
+    "correction_turn": "",
+    "limit_guns": "",
+    "limit_equips": "",
+    "ai": 0,
+    "ai_content": "",
+    "reward_gun_pool": "5,10,91,141,21,25,33,93,94,40,47,52,68,74,133,82,110,0",
+    "equip_s_probability": "",
+    "member_ids": [
+      32010418,
+      32010419,
+      32010420,
+      32010421
+    ],
+    "spot_id": 12925,
+    "drops_limit": [],
+    "drops_reg_count": [
+      0,
+      17,
+      0,
+      0,
+      0
+    ],
+    "lv_up_array": [],
+    "no_map": false,
+    "is_night": false
+  },
+  "321205": {
+    "id": 321205,
+    "enemy_leader": 10043,
+    "correction_belong": "",
+    "correction_turn": "",
+    "limit_guns": "",
+    "limit_equips": "",
+    "ai": 0,
+    "ai_content": "",
+    "reward_gun_pool": "5,10,91,141,21,25,33,93,94,40,47,52,68,74,133,82,110,0",
+    "equip_s_probability": "",
+    "member_ids": [
+      32010422,
+      32010423,
+      32010424,
+      32010425,
+      32010426,
+      32010427,
+      32010428,
+      32010429
+    ],
+    "spot_id": 12932,
+    "drops_limit": [],
+    "drops_reg_count": [
+      0,
+      17,
+      0,
+      0,
+      0
+    ],
+    "lv_up_array": [],
+    "no_map": false,
+    "is_night": false
+  },
+  "321301": {
+    "id": 321301,
+    "enemy_leader": 10022,
+    "correction_belong": "",
+    "correction_turn": "",
+    "limit_guns": "",
+    "limit_equips": "",
+    "ai": 101,
+    "ai_content": "12950,12955,12952,12951,12950",
+    "reward_gun_pool": "2,9,90,139,17,24,31,92,94,41,51,63,71,107,81,87,111,0",
+    "equip_s_probability": "",
+    "member_ids": [
+      32010430,
+      32010431,
+      32010432,
+      32010433,
+      32010434,
+      32010435,
+      32010436,
+      32010437,
+      32010438
+    ],
+    "spot_id": 12955,
+    "drops_limit": [],
+    "drops_reg_count": [
+      0,
+      17,
+      0,
+      0,
+      0
+    ],
+    "lv_up_array": [],
+    "no_map": false,
+    "is_night": false
+  },
+  "321302": {
+    "id": 321302,
+    "enemy_leader": 10022,
+    "correction_belong": "",
+    "correction_turn": "",
+    "limit_guns": "",
+    "limit_equips": "",
+    "ai": 101,
+    "ai_content": "12965,12968,12967,12966,12965",
+    "reward_gun_pool": "2,9,90,139,17,24,31,92,94,41,51,63,71,107,81,87,111,0",
+    "equip_s_probability": "",
+    "member_ids": [
+      32010439,
+      32010440,
+      32010441,
+      32010442,
+      32010443,
+      32010444,
+      32010445,
+      32010446,
+      32010447
+    ],
+    "spot_id": 12967,
+    "drops_limit": [],
+    "drops_reg_count": [
+      0,
+      17,
+      0,
+      0,
+      0
+    ],
+    "lv_up_array": [],
+    "no_map": false,
+    "is_night": false
+  },
+  "321303": {
+    "id": 321303,
+    "enemy_leader": 900032,
+    "correction_belong": "",
+    "correction_turn": "",
+    "limit_guns": "1018",
+    "limit_equips": "",
+    "ai": 101,
+    "ai_content": "12962,12960,12963,12964,12958,12959,12961,12962",
+    "reward_gun_pool": "2,9,90,139,17,24,31,92,94,41,51,63,71,107,81,87,111,3,8,12,14,18,27,32,37,58,70,77,86,85,103,60,1018",
+    "equip_s_probability": "",
+    "member_ids": [
+      32010448,
+      32010449,
+      32010450,
+      32010451,
+      32010452,
+      32010453,
+      32010454
+    ],
+    "spot_id": 12961,
+    "drops_limit": [
+      "gun-10001018"
+    ],
+    "drops_reg_count": [
+      0,
+      17,
+      12,
+      3,
+      1
+    ],
+    "lv_up_array": [],
+    "no_map": false,
+    "is_night": false
+  },
+  "321304": {
+    "id": 321304,
+    "enemy_leader": 11029,
+    "correction_belong": "",
+    "correction_turn": "",
+    "limit_guns": "1018",
+    "limit_equips": "",
+    "ai": 102,
+    "ai_content": "1",
+    "reward_gun_pool": "2,9,90,139,17,24,31,92,94,41,51,63,71,107,81,87,111,3,8,12,14,18,27,32,37,58,70,77,86,1018,103,0",
+    "equip_s_probability": "",
+    "member_ids": [
+      32010455,
+      32010456,
+      32010457,
+      32010458,
+      32010459,
+      32010460,
+      32010461,
+      32010462,
+      32010463,
+      32010464
+    ],
+    "spot_id": 12946,
+    "drops_limit": [
+      "gun-10001018"
+    ],
+    "drops_reg_count": [
+      0,
+      17,
+      12,
+      1,
+      1
+    ],
+    "lv_up_array": [],
+    "no_map": false,
+    "is_night": false
+  },
+  "321305": {
+    "id": 321305,
+    "enemy_leader": 11004,
+    "correction_belong": "",
+    "correction_turn": "",
+    "limit_guns": "",
+    "limit_equips": "",
+    "ai": 102,
+    "ai_content": "1",
+    "reward_gun_pool": "2,9,90,139,17,24,31,92,94,41,51,63,71,107,81,87,111,3,8,12,14,18,27,32,37,58,70,77,86,0",
+    "equip_s_probability": "",
+    "member_ids": [
+      32010465,
+      32010466,
+      32010467,
+      32010468,
+      32010469,
+      32010470,
+      32010471
+    ],
+    "spot_id": 12941,
+    "drops_limit": [],
+    "drops_reg_count": [
+      0,
+      17,
+      12,
+      0,
+      0
+    ],
+    "lv_up_array": [],
+    "no_map": false,
+    "is_night": false
+  },
+  "321306": {
+    "id": 321306,
+    "enemy_leader": 11008,
+    "correction_belong": "",
+    "correction_turn": "",
+    "limit_guns": "",
+    "limit_equips": "",
+    "ai": 102,
+    "ai_content": "1",
+    "reward_gun_pool": "2,9,90,139,17,24,31,92,94,41,51,63,71,107,81,87,111,0",
+    "equip_s_probability": "",
+    "member_ids": [
+      32010472,
+      32010473,
+      32010474,
+      32010475,
+      32010476,
+      32010477
+    ],
+    "spot_id": 12956,
+    "drops_limit": [],
+    "drops_reg_count": [
+      0,
+      17,
+      0,
+      0,
+      0
+    ],
+    "lv_up_array": [],
+    "no_map": false,
+    "is_night": false
+  },
+  "321307": {
+    "id": 321307,
+    "enemy_leader": 11006,
+    "correction_belong": "",
+    "correction_turn": "",
+    "limit_guns": "",
+    "limit_equips": "",
+    "ai": 102,
+    "ai_content": "1",
+    "reward_gun_pool": "2,9,90,139,17,24,31,92,94,41,51,63,71,107,81,87,111,0",
+    "equip_s_probability": "",
+    "member_ids": [
+      32010478,
+      32010479,
+      32010480,
+      32010481,
+      32010482,
+      32010483
+    ],
+    "spot_id": 12948,
+    "drops_limit": [],
+    "drops_reg_count": [
+      0,
+      17,
+      0,
+      0,
+      0
+    ],
+    "lv_up_array": [],
+    "no_map": false,
+    "is_night": false
+  },
+  "321401": {
+    "id": 321401,
+    "enemy_leader": 10041,
+    "correction_belong": "",
+    "correction_turn": "",
+    "limit_guns": "253",
+    "limit_equips": "",
+    "ai": 102,
+    "ai_content": "2",
+    "reward_gun_pool": "5,10,91,141,21,25,33,93,94,40,47,52,68,74,133,82,110,6,11,13,3,22,29,34,44,61,105,80,89,60,69,253,72",
+    "equip_s_probability": "",
+    "member_ids": [
+      32010484,
+      32010485,
+      32010486,
+      32010487,
+      32010488,
+      32010489,
+      32010490,
+      32010491
+    ],
+    "spot_id": 13003,
+    "drops_limit": [
+      "gun-10000253"
+    ],
+    "drops_reg_count": [
+      0,
+      17,
+      12,
+      3,
+      1
+    ],
+    "lv_up_array": [],
+    "no_map": false,
+    "is_night": false
+  },
+  "321402": {
+    "id": 321402,
+    "enemy_leader": 10041,
+    "correction_belong": "",
+    "correction_turn": "",
+    "limit_guns": "",
+    "limit_equips": "",
+    "ai": 102,
+    "ai_content": "2",
+    "reward_gun_pool": "5,10,91,141,21,25,33,93,94,40,47,52,68,74,133,82,110,0",
+    "equip_s_probability": "",
+    "member_ids": [
+      32010492,
+      32010493,
+      32010494,
+      32010495
+    ],
+    "spot_id": 13004,
+    "drops_limit": [],
+    "drops_reg_count": [
+      0,
+      17,
+      0,
+      0,
+      0
+    ],
+    "lv_up_array": [],
+    "no_map": false,
+    "is_night": false
+  },
+  "321403": {
+    "id": 321403,
+    "enemy_leader": 10041,
+    "correction_belong": "",
+    "correction_turn": "",
+    "limit_guns": "",
+    "limit_equips": "",
+    "ai": 101,
+    "ai_content": "12982,12995,12981,12979,12980,12984,12982",
+    "reward_gun_pool": "5,10,91,141,21,25,33,93,94,40,47,52,68,74,133,82,110,0",
+    "equip_s_probability": "",
+    "member_ids": [
+      32010496,
+      32010497,
+      32010498,
+      32010499
+    ],
+    "spot_id": 12982,
+    "drops_limit": [],
+    "drops_reg_count": [
+      0,
+      17,
+      0,
+      0,
+      0
+    ],
+    "lv_up_array": [],
+    "no_map": false,
+    "is_night": false
+  },
+  "321404": {
+    "id": 321404,
+    "enemy_leader": 10041,
+    "correction_belong": "",
+    "correction_turn": "",
+    "limit_guns": "",
+    "limit_equips": "",
+    "ai": 101,
+    "ai_content": "12989,12988,12987,12986,12992,12993,12991,12990,12989",
+    "reward_gun_pool": "5,10,91,141,21,25,33,93,94,40,47,52,68,74,133,82,110,0",
+    "equip_s_probability": "",
+    "member_ids": [
+      32010500,
+      32010501,
+      32010502,
+      32010503
+    ],
+    "spot_id": 12993,
+    "drops_limit": [],
+    "drops_reg_count": [
+      0,
+      17,
+      0,
+      0,
+      0
+    ],
+    "lv_up_array": [],
+    "no_map": false,
+    "is_night": false
+  },
+  "321405": {
+    "id": 321405,
+    "enemy_leader": 10040,
+    "correction_belong": "",
+    "correction_turn": "",
+    "limit_guns": "253",
+    "limit_equips": "",
+    "ai": 101,
+    "ai_content": "12972,12974,12975,12973,12972",
+    "reward_gun_pool": "5,10,91,141,21,25,33,93,94,40,47,52,68,74,133,82,110,6,11,13,3,22,29,34,44,61,105,80,89,60,253,0",
+    "equip_s_probability": "",
+    "member_ids": [
+      32010504,
+      32010505,
+      32010506,
+      32010507,
+      32010508,
+      32010509,
+      32010510
+    ],
+    "spot_id": 12972,
+    "drops_limit": [
+      "gun-10000253"
+    ],
+    "drops_reg_count": [
+      0,
+      17,
+      12,
+      1,
+      1
+    ],
+    "lv_up_array": [],
+    "no_map": false,
+    "is_night": false
+  },
+  "321406": {
+    "id": 321406,
+    "enemy_leader": 10043,
+    "correction_belong": "",
+    "correction_turn": "",
+    "limit_guns": "253",
+    "limit_equips": "",
+    "ai": 101,
+    "ai_content": "12972,12974,12975,12973,12972",
+    "reward_gun_pool": "5,10,91,141,21,25,33,93,94,40,47,52,68,74,133,82,110,6,11,13,3,22,29,34,44,61,105,80,89,60,253,0",
+    "equip_s_probability": "",
+    "member_ids": [
+      32010511,
+      32010512,
+      32010513,
+      32010514,
+      32010515,
+      32010516,
+      32010517,
+      32010518,
+      32010519
+    ],
+    "spot_id": 12975,
+    "drops_limit": [
+      "gun-10000253"
+    ],
+    "drops_reg_count": [
+      0,
+      17,
+      12,
+      1,
+      1
+    ],
+    "lv_up_array": [],
+    "no_map": false,
+    "is_night": false
+  },
+  "321407": {
+    "id": 321407,
+    "enemy_leader": 10040,
+    "correction_belong": "",
+    "correction_turn": "",
+    "limit_guns": "",
+    "limit_equips": "",
+    "ai": 0,
+    "ai_content": "",
+    "reward_gun_pool": "5,10,91,141,21,25,33,93,94,40,47,52,68,74,133,82,110,0",
+    "equip_s_probability": "",
+    "member_ids": [
+      32010520,
+      32010521,
+      32010522
+    ],
+    "spot_id": 12985,
+    "drops_limit": [],
+    "drops_reg_count": [
+      0,
+      17,
+      0,
+      0,
+      0
+    ],
+    "lv_up_array": [],
+    "no_map": false,
+    "is_night": false
+  },
+  "321408": {
+    "id": 321408,
+    "enemy_leader": 10041,
+    "correction_belong": "",
+    "correction_turn": "",
+    "limit_guns": "",
+    "limit_equips": "",
+    "ai": 0,
+    "ai_content": "",
+    "reward_gun_pool": "5,10,91,141,21,25,33,93,94,40,47,52,68,74,133,82,110,6,11,13,3,22,29,34,44,61,105,80,89,0",
+    "equip_s_probability": "",
+    "member_ids": [
+      32010523,
+      32010524,
+      32010525,
+      32010526
+    ],
+    "spot_id": 12996,
+    "drops_limit": [],
+    "drops_reg_count": [
+      0,
+      17,
+      12,
+      0,
+      0
+    ],
+    "lv_up_array": [],
+    "no_map": false,
+    "is_night": false
+  },
+  "321409": {
+    "id": 321409,
+    "enemy_leader": 10040,
+    "correction_belong": "",
+    "correction_turn": "",
+    "limit_guns": "",
+    "limit_equips": "",
+    "ai": 0,
+    "ai_content": "",
+    "reward_gun_pool": "5,10,91,141,21,25,33,93,94,40,47,52,68,74,133,82,110,6,11,13,3,22,29,34,44,61,105,80,89,0",
+    "equip_s_probability": "",
+    "member_ids": [
+      32010527,
+      32010528,
+      32010529,
+      32010530,
+      32010531,
+      32010532,
+      32010533
+    ],
+    "spot_id": 13002,
+    "drops_limit": [],
+    "drops_reg_count": [
+      0,
+      17,
+      12,
+      0,
+      0
+    ],
+    "lv_up_array": [],
+    "no_map": false,
+    "is_night": false
+  },
+  "321501": {
+    "id": 321501,
+    "enemy_leader": 10022,
+    "correction_belong": "",
+    "correction_turn": "",
+    "limit_guns": "",
+    "limit_equips": "",
+    "ai": 101,
+    "ai_content": "13010,13011,13012,13013,13014,13015,13016,13017,13010",
+    "reward_gun_pool": "2,9,90,139,17,24,31,92,94,41,51,63,71,107,81,87,111,0",
+    "equip_s_probability": "",
+    "member_ids": [
+      32010534,
+      32010535,
+      32010536,
+      32010537,
+      32010538
+    ],
+    "spot_id": 13017,
+    "drops_limit": [],
+    "drops_reg_count": [
+      0,
+      17,
+      0,
+      0,
+      0
+    ],
+    "lv_up_array": [],
+    "no_map": false,
+    "is_night": false
+  },
+  "321502": {
+    "id": 321502,
+    "enemy_leader": 11007,
+    "correction_belong": "",
+    "correction_turn": "",
+    "limit_guns": "4",
+    "limit_equips": "",
+    "ai": 102,
+    "ai_content": "1",
+    "reward_gun_pool": "2,9,90,139,17,24,31,92,94,41,51,63,71,107,81,87,111,3,8,12,14,18,27,32,37,58,70,77,86,1,4,0",
+    "equip_s_probability": "",
+    "member_ids": [
+      32010539,
+      32010540,
+      32010541,
+      32010542,
+      32010543,
+      32010544,
+      32010545,
+      32010546,
+      32010547,
+      32010548
+    ],
+    "spot_id": 13022,
+    "drops_limit": [
+      "gun-10000004"
+    ],
+    "drops_reg_count": [
+      0,
+      17,
+      12,
+      1,
+      1
+    ],
+    "lv_up_array": [],
+    "no_map": false,
+    "is_night": false
+  },
+  "321503": {
+    "id": 321503,
+    "enemy_leader": 11005,
+    "correction_belong": "",
+    "correction_turn": "",
+    "limit_guns": "",
+    "limit_equips": "",
+    "ai": 102,
+    "ai_content": "1",
+    "reward_gun_pool": "2,9,90,139,17,24,31,92,94,41,51,63,71,107,81,87,111,3,8,12,14,18,27,32,37,58,70,77,86,0",
+    "equip_s_probability": "",
+    "member_ids": [
+      32010549,
+      32010550,
+      32010551,
+      32010552,
+      32010553,
+      32010554,
+      32010555
+    ],
+    "spot_id": 13018,
+    "drops_limit": [],
+    "drops_reg_count": [
+      0,
+      17,
+      12,
+      0,
+      0
+    ],
+    "lv_up_array": [],
+    "no_map": false,
+    "is_night": false
+  },
+  "321504": {
+    "id": 321504,
+    "enemy_leader": 11003,
+    "correction_belong": "",
+    "correction_turn": "",
+    "limit_guns": "",
+    "limit_equips": "",
+    "ai": 102,
+    "ai_content": "1",
+    "reward_gun_pool": "2,9,90,139,17,24,31,92,94,41,51,63,71,107,81,87,111,0",
+    "equip_s_probability": "",
+    "member_ids": [
+      32010556,
+      32010557,
+      32010558,
+      32010559,
+      32010560,
+      32010561,
+      32010562,
+      32010563,
+      32010564,
+      32010565,
+      32010566,
+      32010567,
+      32010568,
+      32010569,
+      32010570,
+      32010571,
+      32010572,
+      32010573
+    ],
+    "spot_id": 13005,
+    "drops_limit": [],
+    "drops_reg_count": [
+      0,
+      17,
+      0,
+      0,
+      0
+    ],
+    "lv_up_array": [],
+    "no_map": false,
+    "is_night": false
+  },
+  "321505": {
+    "id": 321505,
+    "enemy_leader": 11007,
+    "correction_belong": "",
+    "correction_turn": "",
+    "limit_guns": "",
+    "limit_equips": "",
+    "ai": 102,
+    "ai_content": "1",
+    "reward_gun_pool": "2,9,90,139,17,24,31,92,94,41,51,63,71,107,81,87,111,0",
+    "equip_s_probability": "",
+    "member_ids": [
+      32010574,
+      32010575,
+      32010576,
+      32010577,
+      32010578,
+      32010579
+    ],
+    "spot_id": 13023,
+    "drops_limit": [],
+    "drops_reg_count": [
+      0,
+      17,
+      0,
+      0,
+      0
+    ],
+    "lv_up_array": [],
+    "no_map": false,
+    "is_night": false
+  },
+  "321506": {
+    "id": 321506,
+    "enemy_leader": 11008,
+    "correction_belong": "",
+    "correction_turn": "",
+    "limit_guns": "4",
+    "limit_equips": "",
+    "ai": 102,
+    "ai_content": "1",
+    "reward_gun_pool": "2,9,90,139,17,24,31,92,94,41,51,63,71,107,81,87,111,3,8,12,14,18,27,32,37,58,70,77,86,1,23,42,4",
+    "equip_s_probability": "",
+    "member_ids": [
+      32010580,
+      32010581,
+      32010582,
+      32010583,
+      32010584
+    ],
+    "spot_id": 13031,
+    "drops_limit": [
+      "gun-10000004"
+    ],
+    "drops_reg_count": [
+      0,
+      17,
+      12,
+      3,
+      1
+    ],
+    "lv_up_array": [],
+    "no_map": false,
+    "is_night": false
+  },
+  "321507": {
+    "id": 321507,
+    "enemy_leader": 11012,
+    "correction_belong": "",
+    "correction_turn": "",
+    "limit_guns": "",
+    "limit_equips": "",
+    "ai": 102,
+    "ai_content": "1",
+    "reward_gun_pool": "2,9,90,139,17,24,31,92,94,41,51,63,71,107,81,87,111,0",
+    "equip_s_probability": "",
+    "member_ids": [
+      32010585,
+      32010586,
+      32010587,
+      32010588,
+      32010589,
+      32010590
+    ],
+    "spot_id": 13030,
+    "drops_limit": [],
+    "drops_reg_count": [
+      0,
+      17,
+      0,
+      0,
+      0
+    ],
+    "lv_up_array": [],
+    "no_map": false,
+    "is_night": false
+  },
+  "321508": {
+    "id": 321508,
+    "enemy_leader": 10022,
+    "correction_belong": "",
+    "correction_turn": "",
+    "limit_guns": "",
+    "limit_equips": "",
+    "ai": 101,
+    "ai_content": "13010,13011,13012,13013,13014,13015,13016,13017,13010",
+    "reward_gun_pool": "5,10,91,141,21,25,33,93,94,40,47,52,68,74,133,82,110,0",
+    "equip_s_probability": "",
+    "member_ids": [
+      32010591,
+      32010592,
+      32010593,
+      32010594,
+      32010595
+    ],
+    "spot_id": 0,
+    "drops_limit": [],
+    "drops_reg_count": [
+      0,
+      17,
+      0,
+      0,
+      0
+    ],
+    "lv_up_array": [],
+    "no_map": false,
+    "is_night": false
+  },
+  "321601": {
+    "id": 321601,
+    "enemy_leader": 900157,
+    "correction_belong": "",
+    "correction_turn": "",
+    "limit_guns": "1020",
+    "limit_equips": "",
+    "ai": 102,
+    "ai_content": "6",
+    "reward_gun_pool": "5,10,91,141,21,25,33,93,94,40,47,52,68,74,133,82,110,6,11,13,3,22,29,34,44,61,105,80,89,168,118,36,1020",
+    "equip_s_probability": "",
+    "member_ids": [
+      32010596,
+      32010597,
+      32010598,
+      32010599,
+      32010600
+    ],
+    "spot_id": 13068,
+    "drops_limit": [
+      "gun-10001020"
+    ],
+    "drops_reg_count": [
+      0,
+      17,
+      12,
+      3,
+      1
+    ],
+    "lv_up_array": [],
+    "no_map": false,
+    "is_night": false
+  },
+  "321602": {
+    "id": 321602,
+    "enemy_leader": 10040,
+    "correction_belong": "",
+    "correction_turn": "",
+    "limit_guns": "",
+    "limit_equips": "",
+    "ai": 101,
+    "ai_content": "13048,13050,13051,13047,13048,13049,13045,13044,13048",
+    "reward_gun_pool": "5,10,91,141,21,25,33,93,94,40,47,52,68,74,133,82,110,0",
+    "equip_s_probability": "",
+    "member_ids": [
+      32010601,
+      32010602,
+      32010603,
+      32010604,
+      32010605,
+      32010606
+    ],
+    "spot_id": 13045,
+    "drops_limit": [],
+    "drops_reg_count": [
+      0,
+      17,
+      0,
+      0,
+      0
+    ],
+    "lv_up_array": [],
+    "no_map": false,
+    "is_night": false
+  },
+  "321603": {
+    "id": 321603,
+    "enemy_leader": 10040,
+    "correction_belong": "",
+    "correction_turn": "",
+    "limit_guns": "1020",
+    "limit_equips": "",
+    "ai": 102,
+    "ai_content": "2",
+    "reward_gun_pool": "5,10,91,141,21,25,33,93,94,40,47,52,68,74,133,82,110,6,11,13,3,22,29,34,44,61,105,80,89,168,1020,0",
+    "equip_s_probability": "",
+    "member_ids": [
+      32010607,
+      32010608,
+      32010609,
+      32010610,
+      32010611,
+      32010612
+    ],
+    "spot_id": 13059,
+    "drops_limit": [
+      "gun-10001020"
+    ],
+    "drops_reg_count": [
+      0,
+      17,
+      12,
+      1,
+      1
+    ],
+    "lv_up_array": [],
+    "no_map": false,
+    "is_night": false
+  },
+  "321604": {
+    "id": 321604,
+    "enemy_leader": 10043,
+    "correction_belong": "",
+    "correction_turn": "",
+    "limit_guns": "",
+    "limit_equips": "",
+    "ai": 102,
+    "ai_content": "2",
+    "reward_gun_pool": "5,10,91,141,21,25,33,93,94,40,47,52,68,74,133,82,110,0",
+    "equip_s_probability": "",
+    "member_ids": [
+      32010613,
+      32010614,
+      32010615,
+      32010616,
+      32010617,
+      32010618,
+      32010619,
+      32010620
+    ],
+    "spot_id": 13063,
+    "drops_limit": [],
+    "drops_reg_count": [
+      0,
+      17,
+      0,
+      0,
+      0
+    ],
+    "lv_up_array": [],
+    "no_map": false,
+    "is_night": false
+  },
+  "321605": {
+    "id": 321605,
+    "enemy_leader": 10040,
+    "correction_belong": "",
+    "correction_turn": "",
+    "limit_guns": "",
+    "limit_equips": "",
+    "ai": 102,
+    "ai_content": "2",
+    "reward_gun_pool": "5,10,91,141,21,25,33,93,94,40,47,52,68,74,133,82,110,6,11,13,3,22,29,34,44,61,105,80,89,0",
+    "equip_s_probability": "",
+    "member_ids": [
+      32010621,
+      32010622
+    ],
+    "spot_id": 13057,
+    "drops_limit": [],
+    "drops_reg_count": [
+      0,
+      17,
+      12,
+      0,
+      0
+    ],
+    "lv_up_array": [],
+    "no_map": false,
+    "is_night": false
+  },
+  "321606": {
+    "id": 321606,
+    "enemy_leader": 10042,
+    "correction_belong": "",
+    "correction_turn": "",
+    "limit_guns": "1020",
+    "limit_equips": "",
+    "ai": 101,
+    "ai_content": "13048,13050,13051,13047,13048,13049,13045,13044,13048",
+    "reward_gun_pool": "5,10,91,141,21,25,33,93,94,40,47,52,68,74,133,82,110,6,11,13,3,22,29,34,44,61,105,80,89,168,1020,0",
+    "equip_s_probability": "",
+    "member_ids": [
+      32010623,
+      32010624,
+      32010625,
+      32010626,
+      32010627,
+      32010628,
+      32010629,
+      32010630
+    ],
+    "spot_id": 13048,
+    "drops_limit": [
+      "gun-10001020"
+    ],
+    "drops_reg_count": [
+      0,
+      17,
+      12,
+      1,
+      1
+    ],
+    "lv_up_array": [],
+    "no_map": false,
+    "is_night": false
+  },
+  "321607": {
+    "id": 321607,
+    "enemy_leader": 10040,
+    "correction_belong": "",
+    "correction_turn": "",
+    "limit_guns": "",
+    "limit_equips": "",
+    "ai": 0,
+    "ai_content": "",
+    "reward_gun_pool": "5,10,91,141,21,25,33,93,94,40,47,52,68,74,133,82,110,0",
+    "equip_s_probability": "",
+    "member_ids": [
+      32010631,
+      32010632,
+      32010633,
+      32010634,
+      32010635,
+      32010636
+    ],
+    "spot_id": 13051,
+    "drops_limit": [],
+    "drops_reg_count": [
+      0,
+      17,
+      0,
+      0,
+      0
+    ],
+    "lv_up_array": [],
+    "no_map": false,
+    "is_night": false
+  },
+  "321608": {
+    "id": 321608,
+    "enemy_leader": 910107,
+    "correction_belong": "",
+    "correction_turn": "",
+    "limit_guns": "",
+    "limit_equips": "",
+    "ai": 0,
+    "ai_content": "",
+    "reward_gun_pool": "5,10,91,141,21,25,33,93,94,40,47,52,68,74,133,82,110,0",
+    "equip_s_probability": "",
+    "member_ids": [
+      32010637
+    ],
+    "spot_id": 13083,
+    "drops_limit": [],
+    "drops_reg_count": [
+      0,
+      17,
+      0,
+      0,
+      0
+    ],
+    "lv_up_array": [],
+    "no_map": false,
+    "is_night": false
+  },
+  "321701": {
+    "id": 321701,
+    "enemy_leader": 900155,
+    "correction_belong": "",
+    "correction_turn": "",
+    "limit_guns": "",
+    "limit_equips": "",
+    "ai": 0,
+    "ai_content": "",
+    "reward_gun_pool": "2,9,90,139,17,24,31,92,94,41,51,63,71,107,81,87,111,3,8,12,14,18,27,32,37,58,70,77,86,101,78,26",
+    "equip_s_probability": "",
+    "member_ids": [
+      32010638
+    ],
+    "spot_id": 13097,
+    "drops_limit": [],
+    "drops_reg_count": [
+      0,
+      17,
+      12,
+      3,
+      0
+    ],
+    "lv_up_array": [],
+    "no_map": false,
+    "is_night": false
+  },
+  "321702": {
+    "id": 321702,
+    "enemy_leader": 10035,
+    "correction_belong": "",
+    "correction_turn": "",
+    "limit_guns": "",
+    "limit_equips": "",
+    "ai": 0,
+    "ai_content": "",
+    "reward_gun_pool": "2,9,90,139,17,24,31,92,94,41,51,63,71,107,81,87,111,0",
+    "equip_s_probability": "",
+    "member_ids": [
+      32010639,
+      32010640,
+      32010641,
+      32010642
+    ],
+    "spot_id": 13089,
+    "drops_limit": [],
+    "drops_reg_count": [
+      0,
+      17,
+      0,
+      0,
+      0
+    ],
+    "lv_up_array": [],
+    "no_map": false,
+    "is_night": false
+  },
+  "321703": {
+    "id": 321703,
+    "enemy_leader": 10034,
+    "correction_belong": "",
+    "correction_turn": "",
+    "limit_guns": "",
+    "limit_equips": "",
+    "ai": 0,
+    "ai_content": "",
+    "reward_gun_pool": "2,9,90,139,17,24,31,92,94,41,51,63,71,107,81,87,111,0",
+    "equip_s_probability": "",
+    "member_ids": [
+      32010643,
+      32010644,
+      32010645,
+      32010646,
+      32010647
+    ],
+    "spot_id": 13100,
+    "drops_limit": [],
+    "drops_reg_count": [
+      0,
+      17,
+      0,
+      0,
+      0
+    ],
+    "lv_up_array": [],
+    "no_map": false,
+    "is_night": false
+  },
+  "321704": {
+    "id": 321704,
+    "enemy_leader": 10034,
+    "correction_belong": "",
+    "correction_turn": "",
+    "limit_guns": "",
+    "limit_equips": "",
+    "ai": 0,
+    "ai_content": "",
+    "reward_gun_pool": "2,9,90,139,17,24,31,92,94,41,51,63,71,107,81,87,111,3,8,12,14,18,27,32,37,58,70,77,86,0",
+    "equip_s_probability": "",
+    "member_ids": [
+      32010648,
+      32010649,
+      32010650,
+      32010651,
+      32010652
+    ],
+    "spot_id": 13091,
+    "drops_limit": [],
+    "drops_reg_count": [
+      0,
+      17,
+      12,
+      0,
+      0
+    ],
+    "lv_up_array": [],
+    "no_map": false,
+    "is_night": false
+  },
+  "321705": {
+    "id": 321705,
+    "enemy_leader": 10034,
+    "correction_belong": "",
+    "correction_turn": "",
+    "limit_guns": "",
+    "limit_equips": "",
+    "ai": 0,
+    "ai_content": "",
+    "reward_gun_pool": "2,9,90,139,17,24,31,92,94,41,51,63,71,107,81,87,111,3,8,12,14,18,27,32,37,58,70,77,86,0",
+    "equip_s_probability": "",
+    "member_ids": [
+      32010653,
+      32010654,
+      32010655,
+      32010656,
+      32010657,
+      32010658
+    ],
+    "spot_id": 13085,
+    "drops_limit": [],
+    "drops_reg_count": [
+      0,
+      17,
+      12,
+      0,
+      0
+    ],
+    "lv_up_array": [],
+    "no_map": false,
+    "is_night": false
+  },
+  "321706": {
+    "id": 321706,
+    "enemy_leader": 10034,
+    "correction_belong": "",
+    "correction_turn": "",
+    "limit_guns": "",
+    "limit_equips": "",
+    "ai": 0,
+    "ai_content": "",
+    "reward_gun_pool": "2,9,90,139,17,24,31,92,94,41,51,63,71,107,81,87,111,3,8,12,14,18,27,32,37,58,70,77,86,0",
+    "equip_s_probability": "",
+    "member_ids": [
+      32010659,
+      32010660,
+      32010661,
+      32010662,
+      32010663,
+      32010664
+    ],
+    "spot_id": 13095,
+    "drops_limit": [],
+    "drops_reg_count": [
+      0,
+      17,
+      12,
+      0,
+      0
+    ],
+    "lv_up_array": [],
+    "no_map": false,
+    "is_night": false
+  },
+  "321707": {
+    "id": 321707,
+    "enemy_leader": 10034,
+    "correction_belong": "",
+    "correction_turn": "",
+    "limit_guns": "",
+    "limit_equips": "",
+    "ai": 0,
+    "ai_content": "",
+    "reward_gun_pool": "2,9,90,139,17,24,31,92,94,41,51,63,71,107,81,87,111,3,8,12,14,18,27,32,37,58,70,77,86,0",
+    "equip_s_probability": "",
+    "member_ids": [
+      32010665,
+      32010666,
+      32010667,
+      32010668,
+      32010669
+    ],
+    "spot_id": 13094,
+    "drops_limit": [],
+    "drops_reg_count": [
+      0,
+      17,
+      12,
       0,
       0
     ],

@@ -138,7 +138,8 @@
     "djmax": "Glory Day",
     "turbulence": "Continuum Turbulence",
     "isomer": "Isomer",
-    "vahall": "Valhalla"
+    "vahall": "Valhalla",
+    "connexion": "Shattered Connexion"
   },
   "enemy_char_name": {
     "9999": "",
@@ -306,8 +307,8 @@
     "900076": "Elphelt",
     "900077": "Destroyer Plus",
     "900078": "Destroyer Plus",
-    "900079": "Armageddon",
-    "900080": "Armageddon",
+    "900079": "Cerberus",
+    "900080": "Cerberus",
     "900081": "Judge",
     "900082": "Judge",
     "900083": "Dark Seele",
@@ -363,7 +364,7 @@
     "900133": "Alchemist",
     "900134": "Dreamer",
     "900135": "Destroyer Plus",
-    "900136": "Armageddon",
+    "900136": "Cerberus",
     "900137": "Dive_Re_S",
     "900138": "Intruder",
     "900139": "Elphelt",

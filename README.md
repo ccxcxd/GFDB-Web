@@ -1,5 +1,9 @@
 # GFDB-Web
 
+> **本人已经AFK，有意向接坑的欢迎到Github上Fork，网站建好后可以开Issue联系我跳转。**
+>
+> **I'm now AFK. For anybody who wants to continue this project, please fork the repository on github and open an issue when new web is ready so I can plan a redirect.**
+
 Girls' Frontline Database Web Part
 
 json数据是由另一个工具处理的：https://github.com/ccxcxd/GFDB-Decoder

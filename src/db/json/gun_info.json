@@ -1455,6 +1455,13 @@
     "code": "CBJMS",
     "rank": 5
   },
+  "214": {
+    "id": 214,
+    "name": "gun-10000214",
+    "en_name": "ADS",
+    "code": "ADS",
+    "rank": 5
+  },
   "215": {
     "id": 215,
     "name": "gun-10000215",
@@ -1811,6 +1818,69 @@
     "en_name": "MP41",
     "code": "MP41",
     "rank": 3
+  },
+  "268": {
+    "id": 268,
+    "name": "gun-10000268",
+    "en_name": "T-CMS",
+    "code": "TCMS",
+    "rank": 3
+  },
+  "269": {
+    "id": 269,
+    "name": "gun-10000269",
+    "en_name": "P30",
+    "code": "P30",
+    "rank": 4
+  },
+  "270": {
+    "id": 270,
+    "name": "gun-10000270",
+    "en_name": "Type 4",
+    "code": "4type",
+    "rank": 4
+  },
+  "271": {
+    "id": 271,
+    "name": "gun-10000271",
+    "en_name": "K3",
+    "code": "K3",
+    "rank": 3
+  },
+  "272": {
+    "id": 272,
+    "name": "gun-10000272",
+    "en_name": "DesertEagle",
+    "code": "DesertEagle",
+    "rank": 5
+  },
+  "273": {
+    "id": 273,
+    "name": "gun-10000273",
+    "en_name": "SSG3000",
+    "code": "SSG3000",
+    "rank": 4
+  },
+  "274": {
+    "id": 274,
+    "name": "gun-10000274",
+    "en_name": "ACR",
+    "code": "ACR",
+    "rank": 5
+  },
+  "275": {
+    "id": 275,
+    "name": "gun-10000275",
+    "en_name": "M1895",
+    "code": "M1895MG",
+    "rank": 4
+  },
+  "276": {
+    "id": 276,
+    "name": "gun-10000276",
+    "en_name": "Kord",
+    "code": "Kord",
+    "rank": 5
   },
   "1001": {
     "id": 1001,
@@ -2246,6 +2316,13 @@
     "code": "M1895Mod",
     "rank": 4
   },
+  "20026": {
+    "id": 20026,
+    "name": "gun-10020026",
+    "en_name": "MP5",
+    "code": "MP5Mod",
+    "rank": 5
+  },
   "20029": {
     "id": 20029,
     "name": "gun-10020029",
@@ -2337,6 +2414,13 @@
     "code": "G36Mod",
     "rank": 5
   },
+  "20065": {
+    "id": 20065,
+    "name": "gun-10020065",
+    "en_name": "HK416",
+    "code": "HK416Mod",
+    "rank": 6
+  },
   "20075": {
     "id": 20075,
     "name": "gun-10020075",
@@ -2378,6 +2462,20 @@
     "en_name": "Type 64",
     "code": "64typeMod",
     "rank": 4
+  },
+  "20095": {
+    "id": 20095,
+    "name": "gun-10020095",
+    "en_name": "Type 88",
+    "code": "88typeMod",
+    "rank": 4
+  },
+  "20101": {
+    "id": 20101,
+    "name": "gun-10020101",
+    "en_name": "UMP9",
+    "code": "UMP9Mod",
+    "rank": 5
   },
   "20103": {
     "id": 20103,

@@ -215,6 +215,9 @@ class MapCanvas extends React.Component {
         <div className={les.warning}>
           <Alert message={__('map_tbl.warning')} type="error" />
         </div>
+        <div className={les.warning}>
+          <Alert message="本人已弃坑，更新会变慢并且不会添加新功能。欢迎接手。I'm AFK now. Update will be slow and no new features. Welcome to take over." type="error" />
+        </div>
         {/* canvas */}
         <div className={les.canvasArea}>
           <div className={les.canvasBtnLab}>

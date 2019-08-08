@@ -1208,7 +1208,7 @@
   "mission_event_opentime_white_list": {
     "parameter_name": "mission_event_opentime_white_list",
     "parameter_type": "string",
-    "parameter_value": "",
+    "parameter_value": "3031",
     "client_require": 1
   },
   "mission_group_reset_draw_max": {

@@ -1465,7 +1465,7 @@
     "defender_upper": 50,
     "belong": 1,
     "hold_belong": 1,
-    "mission_skill": "0;9335302,1000057;0;0",
+    "mission_skill": "0;9335302;0;0",
     "battle_skill": "0;0;0;0",
     "condition": "0:0,1:0;0:0,1:1",
     "is_destroy": "0",

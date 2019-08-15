@@ -2295,6 +2295,27 @@
     "code": "M16A1_NPC",
     "rank": 4
   },
+  "9045": {
+    "id": 9045,
+    "name": "gun-10009045",
+    "en_name": "Carina",
+    "code": "Tank_R_Ally",
+    "rank": 4
+  },
+  "9046": {
+    "id": 9046,
+    "name": "gun-10009046",
+    "en_name": "Vela ",
+    "code": "Tank_M_Ally",
+    "rank": 4
+  },
+  "9047": {
+    "id": 9047,
+    "name": "gun-10009047",
+    "en_name": "Puppis",
+    "code": "Tank_L_Ally",
+    "rank": 4
+  },
   "20001": {
     "id": 20001,
     "name": "gun-10020001",

@@ -1882,6 +1882,13 @@
     "code": "Kord",
     "rank": 5
   },
+  "277": {
+    "id": 277,
+    "name": "gun-10000277",
+    "en_name": "VP70",
+    "code": "VP70",
+    "rank": 3
+  },
   "1001": {
     "id": 1001,
     "name": "gun-10001001",
@@ -2315,6 +2322,13 @@
     "en_name": "Puppis",
     "code": "Tank_L_Ally",
     "rank": 4
+  },
+  "9048": {
+    "id": 9048,
+    "name": "gun-10009048",
+    "en_name": "M4A1",
+    "code": "M4A1Mod_Ogas",
+    "rank": 5
   },
   "20001": {
     "id": 20001,

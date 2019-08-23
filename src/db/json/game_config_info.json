@@ -20,7 +20,7 @@
   "activity_rank_end_showtime": {
     "parameter_name": "activity_rank_end_showtime",
     "parameter_type": "int",
-    "parameter_value": "1551924000",
+    "parameter_value": "1568858400",
     "client_require": 1
   },
   "activity_rank_id": {
@@ -32,7 +32,7 @@
   "activity_rank_mission_id": {
     "parameter_name": "activity_rank_mission_id",
     "parameter_type": "int",
-    "parameter_value": "10273",
+    "parameter_value": "10365",
     "client_require": 1
   },
   "additional_range": {

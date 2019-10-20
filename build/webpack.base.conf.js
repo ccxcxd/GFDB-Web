@@ -135,7 +135,7 @@ module.exports = {
     // 重定向首页
     new HtmlWebpackPlugin({
       filename: 'index.html',
-      template: path.resolve(SRC, './indexPage.ejs'),
+      template: path.resolve(SRC, './redirect.ejs'),
       xhtml: true,
       chunks: [],
     }),
